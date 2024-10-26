@@ -1,27 +1,26 @@
-# This workflow warns and then closes issues and PRs that have had no activity for a specified amount of time.
-#
-# You can adjust the behavior by modifying this file.
-# For more information, see:
-# https://github.com/actions/stale
 name: Mark stale issues and pull requests
+# https://github.com/actions/stale
 
 on:
+  push:
+    branches: [ "main" ]
   schedule:
   - cron: '20 10 * * *'
 
 jobs:
   stale:
 
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     permissions:
       issues: write
       pull-requests: write
+      contents: write
 
     steps:
-    - uses: actions/stale@v5
+    - uses: actions/stale@main
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
-        stale-issue-message: 'Stale issue message'
-        stale-pr-message: 'Stale pull request message'
-        stale-issue-label: 'no-issue-activity'
-        stale-pr-label: 'no-pr-activity'
+        stale-issue-message: 'Closing stale issue as irrelevant. If this issue is still relevant, please open a new issue instead.'
+        stale-pr-message: 'Stale pull request: Closing abandoned pull request as irrelevant. If this pull request is still relevant, please follow the [contributing guide](https://github.com/Gervi-Hera-Vitr/Gervi-Hera-Vitr/blob/main/CONTRIBUTING.md) to upgrade and reopen.'
+        stale-issue-label: 'issue-has-no-activity'
+        stale-pr-label: 'PR-has-no-activity'
