@@ -37,8 +37,8 @@ Resources:
 """
 
 # Write the context to a file
-file_path = '/mnt/data/anton_ml_curriculum_plan.txt'
+file_path = 'ml_curriculum_plan.txt'
 with open(file_path, 'w') as file:
     file.write(context)
 
-file_path
+print(f"Context written to {file_path}")
