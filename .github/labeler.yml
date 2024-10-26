@@ -1,0 +1,38 @@
+root:
+  - changed-files:
+      - any-glob-to-any-file: '*'
+
+actions:
+  - changed-files:
+      - any-glob-to-any-file: '.github/**'
+
+docs:
+  - changed-files:
+      - any-glob-to-any-file: 'docs/**'
+
+site:
+  - changed-files:
+      - any-glob-to-any-file: 'site/**'
+
+structural:
+  - changed-files:
+      - any-glob-to-any-file: ['about.text', 'about.txt']
+
+curriculum:
+  - changed-files:
+      - any-glob-to-any-file: ['**/curriculum/**']
+
+project:
+  - changed-files:
+      - any-glob-to-any-file: ['**/project/**']
+
+labs:
+  - changed-files:
+      - any-glob-to-any-file: '**/labs/**'
+
+google:
+  - changed-files:
+      - any-glob-to-any-file: '**/google/**'
+
+release:
+  - base-branch: 'main'
