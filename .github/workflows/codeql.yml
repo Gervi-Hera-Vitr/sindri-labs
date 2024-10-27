@@ -26,10 +26,7 @@ jobs:
         include:
           - language: java-kotlin
             build-mode: autobuild
-          - language: javascript-typescript
-            build-mode: autobuild
-          - language: python
-            build-mode: autobuild
+
           # https://docs.github.com/en/code-security/code-scanning/creating-an-advanced-setup-for-code-scanning/customizing-your-advanced-setup-for-code-scanning
           # https://docs.github.com/en/code-security/code-scanning/creating-an-advanced-setup-for-code-scanning/codeql-code-scanning-for-compiled-languages
 
@@ -56,5 +53,7 @@ jobs:
       uses: github/codeql-action/analyze@main
       with:
         category: "/language:${{matrix.language}}"
+
+
 
 # https://docs.github.com/en/code-security
