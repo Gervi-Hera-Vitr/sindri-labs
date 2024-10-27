@@ -1,3 +1,4 @@
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/de545692d2054bf7a4a6ccff66783bd1)](https://app.codacy.com/gh/Gervi-Hera-Vitr/google-ai-labs/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 # Welcome, Dear Friend
 
 This is a bare-bone starter for [AGAIN](https://github.com/Gotham-Village "AGAIN as Gotham Village") community [Munchkins](http://www.catb.org/esr/jargon/html/M/munchkin.html "Munchkins") (CatB HTTP) <br/>
