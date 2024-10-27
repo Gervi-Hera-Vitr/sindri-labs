@@ -1,4 +1,5 @@
 ### JetBrains template
+.name
 # User-specific stuff
 **/workspace.xml
 **/kotlinc.xml
