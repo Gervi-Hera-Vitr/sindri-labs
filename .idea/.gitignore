@@ -1,6 +1,9 @@
 ### JetBrains template
+.name
 # User-specific stuff
 **/workspace.xml
+**/kotlinc.xml
+**/jarRepositories.xml
 **/tasks.xml
 **/vcs.xml
 **/misc.xml
