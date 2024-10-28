@@ -48,5 +48,5 @@ jobs:
         run: ./.run/post_dependency_updates.sh
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          ISSUE_NUMBER: ${{ github.event.issue.number || github.event.pull_request.number }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
 
