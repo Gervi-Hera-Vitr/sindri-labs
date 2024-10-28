@@ -2,6 +2,9 @@
 
 set -euo pipefail
 
+SDKMAN_VERSIONS=$(sdk current)
+echo -e "sdkman_versions=\n\n${SDKMAN_VERSIONS}\n" >> "$GITHUB_ENV"
+
 # Check for Java 21.0
 JAVA_VERSION_INSTALLED=$(java -version 2>&1 | grep -o '21\.0')
 if [[ "$JAVA_VERSION_INSTALLED" == "21.0" ]]; then
