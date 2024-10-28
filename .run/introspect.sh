@@ -1,6 +1,6 @@
 #!/usr/bin/env zsh
 
-set -euo pipefail
+set -eo pipefail
 
 # GitHub private Runner Specific Configuration
 export LOCAL_BIN="$HOME/bin"
