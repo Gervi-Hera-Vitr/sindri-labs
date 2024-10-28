@@ -6,6 +6,14 @@ jobs:
   build:
     runs-on: self-hosted
 
+    permissions:
+      contents: read
+      discussions: write
+      issues: write
+      pull-requests: write
+      actions: read
+      statuses: read
+
     steps:
 
       - name: Checkout repository
