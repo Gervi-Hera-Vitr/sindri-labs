@@ -54,7 +54,7 @@ jobs:
       - name: Parse and Post Dependency Updates
         run: ./.run/post_dependency_updates.sh
         env:
-          GH_EVENT: ${{ github.event }}
+          GH_EVENT: ${{ github.event.name }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ISSUE_NUM: ${{ github.event.issue.number }}
           PR_NUM: ${{ github.event.pull_request.number }}
