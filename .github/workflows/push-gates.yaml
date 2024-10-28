@@ -12,7 +12,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Run Introspection Script
-        run: ./.run/introspect.sh
+        run: /usr/local/zsh ./.run/introspect.sh
 
       # Conditional Java setup
       - name: Setup Java if Needed
