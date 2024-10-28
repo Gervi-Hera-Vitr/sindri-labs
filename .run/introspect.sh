@@ -7,7 +7,7 @@ export SDKMAN_BIN="$SDKMAN_DIR/bin"
 if [[ -s "$SDKMAN_INIT" ]]; then
   echo -e "\n\nFound standard Gervi Héra Vitr GitHub Action Runner!\n"
   export PATH="$PATH:$SDKMAN_DIR:$SDKMAN_BIN"
-   sdkman-init.sh
+   source sdkman-init.sh
    SDKMAN_VERSIONS=$(sdk current)
    echo -e "sdkman_versions=\n\n${SDKMAN_VERSIONS}\n" >> "$GITHUB_ENV"
 else
