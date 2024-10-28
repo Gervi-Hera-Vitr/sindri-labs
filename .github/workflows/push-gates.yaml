@@ -1,33 +1,43 @@
 name: Build action checks on Push
 
-on: [ push ]
+on: [push]
 
 jobs:
   build:
     runs-on: self-hosted
 
     steps:
-      - name: Introspect runtime environment
-        run: |
-          uname -a
-          java -version
-          gradle -version
-          pwd
-          ls  
-          git --version
-          echo $0
-        
-      - name: Checkout repository
-        uses: actions/checkout@main
 
-      - uses: actions/setup-java@v4 # https://github.com/actions/setup-java
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Run Introspection Script
+        run: ./introspect.sh
+
+      # Conditional Java setup
+      - name: Setup Java if Needed
+        if: env.java_correct != 'true'
+        uses: actions/setup-java@v4
         with:
           distribution: 'temurin'
           java-version: '21'
           cache: 'gradle'
+          cache-dependency-path:
+            lab-ux-ktor/*.gradle*
 
-      - name: Setup Gradle
-        uses: gradle/actions/setup-gradle@main
+      # Conditional Gradle setup
+      - name: Setup Gradle if Needed
+        if: env.gradle_correct != 'true'
+        uses: gradle/actions/setup-gradle@v4
+
+      # Gradle dependency caching
+      - name: Cache Gradle dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.gradle/caches
+          key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties') }}
+          restore-keys: |
+            ${{ runner.os }}-gradle-
 
       - name: Inspect Dependency Versions with Gradle
         run: ./gradlew build dependencyUpdates
