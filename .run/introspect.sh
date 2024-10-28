@@ -1,4 +1,5 @@
 #!/usr/bin/env zsh
+setopt xtrace
 
 # GitHub private Runner Specific Configuration: SDKMAN
 SDKMAN_DIR="$HOME/.sdkman"
