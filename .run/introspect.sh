@@ -1,4 +1,5 @@
 #!/usr/bin/env zsh
+
 set -euo pipefail
 
 # Check for Java 21.0
