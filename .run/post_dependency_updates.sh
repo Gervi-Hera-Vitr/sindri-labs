@@ -20,3 +20,5 @@ else
 fi
 
 cat dependency-updates.text
+
+cat build/dependencyUpdates/report.json
