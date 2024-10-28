@@ -36,7 +36,34 @@ jobs:
           key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties') }}
           restore-keys: |
             ${{ runner.os }}-gradle-
-            
+
       - name: Inspect Dependency Versions with Gradle
         working-directory: lab-ux-ktor
         run: ./gradlew dependencyUpdates
+      
+      # Parse and post any dependency suggestions to the issue comment
+      - name: Parse Dependency Updates and Post to Issue
+        if: success()  # Only runs if dependencyUpdates was successful
+        run: |
+          # Read and parse the JSON report
+          if [[ -f build/dependencyUpdates/report.json ]]; then
+            latest_versions=$(jq -r '
+              [.current.dependencies[] | 
+              select(.available.release != null) | 
+              {name: .group + ":" + .name, current: .version, latest: .available.release}]' \
+              build/dependencyUpdates/report.json)
+          
+            # Format the updates as Markdown
+            echo "**Dependency Update Suggestions:**" > dependency-updates.md
+            echo "The following dependencies have newer versions available:" >> dependency-updates.md
+            echo -e "\n| Dependency | Current Version | Latest Version |\n|------------|-----------------|---------------|" >> dependency-updates.md
+          
+            echo "$latest_versions" | jq -r '.[] | "| \(.name) | \(.current) | \(.latest) |"' >> dependency-updates.md
+          else
+            echo "No dependency updates available." > dependency-updates.md
+          fi
+          
+          # Post the update suggestions as an issue comment
+          gh issue comment ${{ github.event.issue.number }} --body "$(cat dependency-updates.md)"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
