@@ -39,4 +39,4 @@ jobs:
 
       - name: Inspect Dependency Versions with Gradle
         working-directory: lab-ux-ktor
-        run: ./gradlew build dependencyUpdates
+        run: ./gradlew dependencyUpdates
