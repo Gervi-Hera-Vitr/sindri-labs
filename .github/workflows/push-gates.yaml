@@ -25,12 +25,9 @@ jobs:
           distribution: 'temurin'
           java-version: '21'
           cache: 'gradle'
-          cache-dependency-path: |
-            lab-ux-ktor/*.gradle*
-            lab-ux-ktor/**/gradle-wrapper.properties
 
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@main
 
-      - name: Build with Gradle
+      - name: Inspect Dependency Versions with Gradle
         run: ./gradlew build dependencyUpdates
