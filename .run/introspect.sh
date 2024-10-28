@@ -1,10 +1,24 @@
 #!/usr/bin/env zsh
 
-set -eo pipefail
+set -euo pipefail
 
-[[ -r "${HOME}/.zprofile" ]] && source "${HOME}/.zprofile" && echo -e "\t... loaded .zprofile"
-[[ -r "${HOME}/.zshenv" ]] && source "${HOME}/.zshenv" && echo -e "\t... loaded .zshenv"
-[[ -r "${HOME}/.zshrc" ]] && source "${HOME}/.zshrc" && echo -e "\t... loaded .zshrc"
+# GitHub private Runner Specific Configuration
+export LOCAL_BIN="$HOME/bin"
+export RUNNER_HOME="$HOME/.actions"
+export RUNNER_BIN="$RUNNER_HOME/bin"
+export RUNNER_VAR="$HOME/var/runner"
+# SDKMAN Configuration
+export SDKMAN_DIR="$HOME/.sdkman"
+export SDKMAN_BIN="$SDKMAN_DIR/bin"
+export SDKMAN_INIT="$SDKMAN_BIN/sdkman-init.sh"
+
+# shellcheck disable=SC2091
+# shellcheck disable=SC1090
+[[ -d "$RUNNER_BIN" ]] \
+&& [[ -d "$SDKMAN_BIN" ]] \
+&& [[ -s "$SDKMAN_INIT" ]]  \
+&& $(export PATH="$PATH:$RUNNER_HOME:$RUNNER_BIN") \
+&& $(source "$SDKMAN_INIT")
 
 SDKMAN_VERSIONS=$(sdk current)
 echo -e "sdkman_versions=\n\n${SDKMAN_VERSIONS}\n" >> "$GITHUB_ENV"
