@@ -1,7 +1,5 @@
 #!/usr/bin/env zsh
 
-set -eo pipefail
-
 # GitHub private Runner Specific Configuration: SDKMAN
 export SDKMAN_DIR="$HOME/.sdkman"
 export SDKMAN_BIN="$SDKMAN_DIR/bin"
