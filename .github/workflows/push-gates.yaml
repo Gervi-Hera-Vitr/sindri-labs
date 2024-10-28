@@ -49,13 +49,6 @@ jobs:
         working-directory: lab-ux-ktor
         run: ./gradlew dependencyUpdates
       
-      # Parse and post any dependency suggestions to the issue comment
-      # Workflow Step to run the external script
+      # Summarize the dependency updates
       - name: Parse and Post Dependency Updates
         run: ./.run/post_dependency_updates.sh
-        env:
-          GH_EVENT: ${{ github.event.name }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          ISSUE_NUM: ${{ github.event.issue.number }}
-          PR_NUM: ${{ github.event.pull_request.number }}
-
