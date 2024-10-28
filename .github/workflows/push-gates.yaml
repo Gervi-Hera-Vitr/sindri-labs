@@ -23,7 +23,9 @@ jobs:
           java-version: '21'
           cache: 'gradle'
           cache-dependency-path:
-            lab-ux-ktor/*.gradle*
+            lab-ux-ktor/*.gradle.kts
+            lab-ux-ktor/gradle/wrapper/gradle-wrapper.properties
+            lab-ux-ktor/gradle.properties
 
       # Conditional Gradle setup
       - name: Setup Gradle if Needed
