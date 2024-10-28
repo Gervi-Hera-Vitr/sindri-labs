@@ -2,6 +2,10 @@
 
 set -euo pipefail
 
+[[ -r "${HOME}/.zprofile" ]] && source "${HOME}/.zprofile" && echo -e "\t... loaded .zprofile"
+[[ -r "${HOME}/.zshenv" ]] && source "${HOME}/.zshenv" && echo -e "\t... loaded .zshenv"
+[[ -r "${HOME}/.zshrc" ]] && source "${HOME}/.zshrc" && echo -e "\t... loaded .zshrc"
+
 SDKMAN_VERSIONS=$(sdk current)
 echo -e "sdkman_versions=\n\n${SDKMAN_VERSIONS}\n" >> "$GITHUB_ENV"
 
