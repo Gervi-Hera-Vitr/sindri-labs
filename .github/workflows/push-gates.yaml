@@ -48,7 +48,3 @@ jobs:
       - name: Inspect Dependency Versions with Gradle
         working-directory: lab-ux-ktor
         run: ./gradlew dependencyUpdates
-      
-      # Summarize the dependency updates
-      - name: Parse and Post Dependency Updates
-        run: ./.run/post_dependency_updates.sh
