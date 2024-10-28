@@ -7,7 +7,7 @@ export SDKMAN_INIT="$SDKMAN_BIN/sdkman-init.sh"
 
 if [[ -s "$SDKMAN_INIT" ]]; then
   echo -e "\n\nFound standard Gervi Héra Vitr GitHub Action Runner!\n"
-  export PATH="$PATH:$RUNNER_HOME:$RUNNER_BIN"
+  export PATH="$PATH:$SDKMAN_DIR:$SDKMAN_BIN"
    # shellcheck disable=SC1090
    source "$SDKMAN_INIT"
    SDKMAN_VERSIONS=$(sdk current)
