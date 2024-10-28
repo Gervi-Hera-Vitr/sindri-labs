@@ -29,5 +29,10 @@ else
   echo "No dependency updates available." > dependency-updates.md
 fi
 
-# Post the update suggestions as an issue comment
-gh issue comment "$ISSUE_NUMBER" --body "$(cat dependency-updates.md)"
+if [ -z "${ISSUE_NUMBER}" ]; then
+    echo -e "\nPlease bind an issue to commit to receive version recommendations.\n\n"
+    cat dependency-updates.md
+else
+    echo -e "\nWorking on issue #${ISSUE_NUMBER}\n\n"
+    gh issue comment "$ISSUE_NUMBER" --body "$(cat dependency-updates.md)"
+fi
