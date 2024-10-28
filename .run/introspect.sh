@@ -1,9 +1,5 @@
 #!/usr/bin/env zsh
-setopt xtrace
-
-echo "$PATH"
-
-which sdk
+set -euo pipefail
 
 # Check for Java 21.0
 JAVA_VERSION_INSTALLED=$(java -version 2>&1 | grep -o '21\.0')
