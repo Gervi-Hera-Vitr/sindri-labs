@@ -2,26 +2,20 @@
 
 set -eo pipefail
 
-# GitHub private Runner Specific Configuration
-export LOCAL_BIN="$HOME/bin"
-export RUNNER_HOME="$HOME/.actions"
-export RUNNER_BIN="$RUNNER_HOME/bin"
-export RUNNER_VAR="$HOME/var/runner"
-# SDKMAN Configuration
+# GitHub private Runner Specific Configuration: SDKMAN
 export SDKMAN_DIR="$HOME/.sdkman"
 export SDKMAN_BIN="$SDKMAN_DIR/bin"
 export SDKMAN_INIT="$SDKMAN_BIN/sdkman-init.sh"
 
-standard_runner=$([[ -d "$RUNNER_BIN" ]] && [[ -d "$SDKMAN_BIN" ]] && [[ -s "$SDKMAN_INIT" ]])
-if [[ "$standard_runner" != "true" ]]; then
-  echo "This is not a standard Gervi Héra Vitr GitHub Action Runner"
-else
-  echo "Found standard Gervi Héra Vitr GitHub Action Runner"
+if [[ -s "$SDKMAN_INIT" ]]; then
+  echo -e "\n\nFound standard Gervi Héra Vitr GitHub Action Runner!\n"
   export PATH="$PATH:$RUNNER_HOME:$RUNNER_BIN"
-  # shellcheck disable=SC1090
-  source "$SDKMAN_INIT"
-  SDKMAN_VERSIONS=$(sdk current)
-  echo -e "sdkman_versions=\n\n${SDKMAN_VERSIONS}\n" >> "$GITHUB_ENV"
+   # shellcheck disable=SC1090
+   source "$SDKMAN_INIT"
+   SDKMAN_VERSIONS=$(sdk current)
+   echo -e "sdkman_versions=\n\n${SDKMAN_VERSIONS}\n" >> "$GITHUB_ENV"
+else
+  echo "This is not a standard Gervi Héra Vitr GitHub Action Runner"
 fi
 
 # Check for Java 21.0
