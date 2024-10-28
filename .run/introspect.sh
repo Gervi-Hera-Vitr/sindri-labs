@@ -12,16 +12,17 @@ export SDKMAN_DIR="$HOME/.sdkman"
 export SDKMAN_BIN="$SDKMAN_DIR/bin"
 export SDKMAN_INIT="$SDKMAN_BIN/sdkman-init.sh"
 
-# shellcheck disable=SC2091
-# shellcheck disable=SC1090
-[[ -d "$RUNNER_BIN" ]] \
-&& [[ -d "$SDKMAN_BIN" ]] \
-&& [[ -s "$SDKMAN_INIT" ]]  \
-&& $(export PATH="$PATH:$RUNNER_HOME:$RUNNER_BIN") \
-&& $(source "$SDKMAN_INIT")
-
-SDKMAN_VERSIONS=$(sdk current)
-echo -e "sdkman_versions=\n\n${SDKMAN_VERSIONS}\n" >> "$GITHUB_ENV"
+standard_runner=$([[ -d "$RUNNER_BIN" ]] && [[ -d "$SDKMAN_BIN" ]] && [[ -s "$SDKMAN_INIT" ]])
+if [[ "$standard_runner" != "true" ]]; then
+  echo "This is not a standard Gervi Héra Vitr GitHub Action Runner"
+else
+  echo "Found standard Gervi Héra Vitr GitHub Action Runner"
+  export PATH="$PATH:$RUNNER_HOME:$RUNNER_BIN"
+  # shellcheck disable=SC1090
+  source "$SDKMAN_INIT"
+  SDKMAN_VERSIONS=$(sdk current)
+  echo -e "sdkman_versions=\n\n${SDKMAN_VERSIONS}\n" >> "$GITHUB_ENV"
+fi
 
 # Check for Java 21.0
 JAVA_VERSION_INSTALLED=$(java -version 2>&1 | grep -o '21\.0')
