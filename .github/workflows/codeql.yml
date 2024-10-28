@@ -34,6 +34,17 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@main
 
+    - name: Setup private build Java
+      uses: actions/setup-java@v4 # https://github.com/actions/setup-java
+      with:
+        distribution: 'temurin'
+        java-version: '21'
+        cache: 'gradle'
+        cache-dependency-path: |
+          lab-ux-ktor/*.gradle*
+          lab-ux-ktor/**/gradle-wrapper.properties
+          
+
     - name: Initialize CodeQL
       uses: github/codeql-action/init@main
       with:

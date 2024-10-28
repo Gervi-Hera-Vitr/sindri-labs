@@ -1,8 +1,12 @@
+import com.github.benmanes.gradle.versions.updates.DependencyUpdatesTask
+
 val applicationMainClass: String by project
 
 val versionOfLogback: String by project
 
 plugins {
+    id("com.github.ben-manes.versions")
+
     kotlin("jvm")
     id("io.ktor.plugin")
     id("org.jetbrains.kotlin.plugin.serialization")
@@ -35,4 +39,11 @@ dependencies {
     implementation("ch.qos.logback:logback-classic:$versionOfLogback")
     testImplementation("io.ktor:ktor-server-test-host-jvm")
     testImplementation(kotlin("test-junit"))
+}
+
+tasks.named<DependencyUpdatesTask>("dependencyUpdates").configure {
+    checkForGradleUpdate = true
+    outputFormatter = "json"
+    outputDir = "build/dependencyUpdates"
+    reportfileName = "report"
 }

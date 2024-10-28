@@ -27,6 +27,15 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@main # https://github.com/actions/checkout
 
+      - uses: actions/setup-java@v4 # https://github.com/actions/setup-java
+        with:
+          distribution: 'temurin'
+          java-version: '21'
+          cache: 'gradle'
+          cache-dependency-path: |
+            lab-ux-ktor/*.gradle*
+            lab-ux-ktor/**/gradle-wrapper.properties
+
       - name: Run Codacy Analysis CLI
         uses: codacy/codacy-analysis-cli-action@master # https://github.com/codacy/codacy-analysis-cli-action
         with:

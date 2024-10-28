@@ -1,0 +1,36 @@
+name: Build action checks on Push
+
+on: [ push ]
+
+jobs:
+  build:
+    runs-on: self-hosted
+
+    steps:
+      - name: Introspect runtime environment
+        run: |
+          uname -a
+          java -version
+          gradle -version
+          pwd
+          ls  
+          git --version
+          echo $0
+        
+      - name: Checkout repository
+        uses: actions/checkout@main
+
+      - uses: actions/setup-java@v4 # https://github.com/actions/setup-java
+        with:
+          distribution: 'temurin'
+          java-version: '21'
+          cache: 'gradle'
+          cache-dependency-path: |
+            lab-ux-ktor/*.gradle*
+            lab-ux-ktor/**/gradle-wrapper.properties
+
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@main
+
+      - name: Build with Gradle
+        run: ./gradlew build dependencyUpdates

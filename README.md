@@ -18,7 +18,7 @@ _Come, have a drink from Yggdrasil with us._ 😀
 ## Contents
 
 - [docs](./docs) - Documentation, Tutorials, and Onboarding Gide; **ToDo**
-- [lab-us-ktor](./lab-us-ktor) - a reminder to Munchkins to expose their models; **ToDo**
+- [lab-us-ktor](./lab-ux-ktor/README.md) - a reminder to Munchkins to expose their models; **ToDo**
 - [labs](./labs) - hands-on labs Munchkins will complete; **ToDo**
 - [planning](./planning) - evolution of the learning trails; **ToDo**
 - [site](./site) - the website leading to this repository; **ToDo**
