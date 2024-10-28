@@ -28,6 +28,9 @@ jobs:
         if: env.gradle_correct != 'true'
         uses: gradle/actions/setup-gradle@v4
 
+      - name: Verify Gradle Cache Directory
+        run: ls -la ~/.gradle/caches || echo "Cache directory not found."
+
       # Gradle dependency caching
       - name: Cache Gradle dependencies
         uses: actions/cache@v4
@@ -36,6 +39,14 @@ jobs:
           key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties') }}
           restore-keys: |
             ${{ runner.os }}-gradle-
+            
+      - name: Save Gradle Cache
+        if: success() && always()
+        uses: actions/cache@v4
+        with:
+          path: ~/.gradle/caches
+          key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties') }}
+
 
       - name: Inspect Dependency Versions with Gradle
         working-directory: lab-ux-ktor
