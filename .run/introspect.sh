@@ -1,6 +1,6 @@
 #!/usr/bin/env zsh
 
-set -euo pipefail
+set -eo pipefail
 
 [[ -r "${HOME}/.zprofile" ]] && source "${HOME}/.zprofile" && echo -e "\t... loaded .zprofile"
 [[ -r "${HOME}/.zshenv" ]] && source "${HOME}/.zshenv" && echo -e "\t... loaded .zshenv"
