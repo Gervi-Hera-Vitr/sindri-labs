@@ -1,15 +1,16 @@
 #!/usr/bin/env zsh
 
 # GitHub private Runner Specific Configuration: SDKMAN
-export SDKMAN_DIR="$HOME/.sdkman"
-export SDKMAN_BIN="$SDKMAN_DIR/bin"
+SDKMAN_DIR="$HOME/.sdkman"
+SDKMAN_BIN="$SDKMAN_DIR/bin"
+SDKMAN_INIT="$SDKMAN_BIN/sdkman-init.sh"
+SDKMAN_JAVA=$(readlink "$SDKMAN_DIR.sdkman/candidates/java/current")
+
 
 if [[ -s "$SDKMAN_INIT" ]]; then
   echo -e "\n\nFound standard Gervi Héra Vitr GitHub Action Runner!\n"
-  export PATH="$PATH:$SDKMAN_DIR:$SDKMAN_BIN"
-   source sdkman-init.sh
-   SDKMAN_VERSIONS=$(sdk current)
-   echo -e "sdkman_versions=\n\n${SDKMAN_VERSIONS}\n" >> "$GITHUB_ENV"
+  export JDK_HOME=$SDKMAN_JAVA
+  export PATH="$PATH:$SDKMAN_DIR:$JDK_HOME/bin"
 else
   echo "This is not a standard Gervi Héra Vitr GitHub Action Runner"
 fi
