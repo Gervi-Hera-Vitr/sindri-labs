@@ -13,6 +13,7 @@ jobs:
 
       - name: Run Introspection Script
         run: /usr/bin/zsh ./.run/introspect.sh
+        shell: zsh  # Explicitly set shell to zsh for consistency
 
       # Conditional Java setup
       - name: Setup Java if Needed
@@ -28,8 +29,18 @@ jobs:
         if: env.gradle_correct != 'true'
         uses: gradle/actions/setup-gradle@v4
 
-      # Gradle dependency caching
+      # Gradle dependency caching with existence check
+      - name: Check if Gradle cache directory exists
+        id: check-cache
+        run: |
+          if [ -d "$HOME/.gradle/caches" ]; then
+            echo "cache_exists=true" >> "$GITHUB_ENV"
+          else
+            echo "cache_exists=false" >> "$GITHUB_ENV"
+          fi
+
       - name: Cache Gradle dependencies
+        if: env.cache_exists == 'true'
         uses: actions/cache@v4
         with:
           path: ~/.gradle/caches
@@ -37,6 +48,8 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-gradle-
 
+      # Gradle dependency version check with deprecation warnings
       - name: Inspect Dependency Versions with Gradle
         working-directory: lab-ux-ktor
-        run: ./gradlew dependencyUpdates
+        run: ./gradlew dependencyUpdates --warning-mode all
+        shell: zsh  # Ensure consistency if shell changes occur

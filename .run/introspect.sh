@@ -20,3 +20,10 @@ else
   echo "gradle_correct=false" >> "$GITHUB_ENV"
   echo "Gradle 8.10 is not installed"
 fi
+
+# Verify cache directory presence for Gradle
+if [ -d "$HOME/.gradle/caches" ]; then
+  echo "Cache directory exists at ~/.gradle/caches"
+else
+  echo "Cache directory does NOT exist at ~/.gradle/caches"
+fi
