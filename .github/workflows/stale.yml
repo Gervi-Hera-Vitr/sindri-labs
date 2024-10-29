@@ -46,7 +46,7 @@ jobs:
             for 5 days with no activity.
 
           days-before-pr-stale: 8
-          stale-pr-label: PR-has-no-activity
+          stale-pr-label: 'PR-has-no-activity'
           stale-pr-message: |
           Stale pull request: Closing abandoned pull request as irrelevant.
             If this pull request is still relevant, please follow the
