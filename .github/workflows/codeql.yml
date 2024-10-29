@@ -1,5 +1,5 @@
-name: "CodeQL Quality Scan"
-# https://github.com/github/codeql-action/
+name: "CodeQL Quality Scan" # https://github.com/github/codeql-action/
+run-name: "CodeQL Quality Scan on [${{ github.repository }}] @ ${{ github.ref }} by ${{ github.actor }} with ${{ github.event_name }}"
 
 on:
   push:
@@ -8,11 +8,13 @@ on:
     branches: [ "main" ]
   schedule:
     - cron: '32 2 * * 3'
+  workflow_dispatch:
 
 jobs:
-  analyze:
-    name: CodeQL Analyze (${{ matrix.language }})
-    runs-on: ${{ (matrix.language == 'swift' && 'macos-latest') || 'self-hosted' }}
+
+  code-security-scan-with-codeql:
+    runs-on: self-hosted
+    name: "CodeQL Quality Scan with Outcome Publishing"
 
     permissions:
       security-events: write
@@ -31,29 +33,45 @@ jobs:
           # https://docs.github.com/en/code-security/code-scanning/creating-an-advanced-setup-for-code-scanning/codeql-code-scanning-for-compiled-languages
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@main
+      - name: "Checkout repository source code"
+        uses: actions/checkout@v4
 
-    - name: Initialize CodeQL
-      uses: github/codeql-action/init@main
-      with:
-        languages: ${{ matrix.language }}
-        build-mode: ${{ matrix.build-mode }}
-        #  https://docs.github.com/en/code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/configuring-code-scanning#using-queries-in-ql-packs
+      - name: "Run the Agent Environment introspection script"
+        run: zsh ./.run/introspect.sh
+        
+      # Conditional Java setup
+      - name: "Setup transient JDK 21 if instructed by the Agent Environment Scanner"
+        if: env.java_correct != 'true'
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '21'
+          cache: 'gradle'
 
-    - if: matrix.build-mode == 'manual'
-      shell: bash
-      run: |
-        echo '"manual" build - define this!  \
-        echo '  this needs be building, Munchkins!'
-        exit 1
-      # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idstepsrun
-
-    - name: Perform CodeQL Analysis
-      uses: github/codeql-action/analyze@main
-      with:
-        category: "/language:${{matrix.language}}"
+      # Conditional Gradle setup
+      - name: "Setup transient Gradle 8.10 if instructed by the Agent Environment Scanner"
+        if: env.gradle_correct != 'true'
+        uses: gradle/actions/setup-gradle@v4
 
 
+      - name: "Initialize CodeQL Quality Analysis Action"
+        uses: github/codeql-action/init@v3
+        with:
+          languages: ${{ matrix.language }}
+          build-mode: ${{ matrix.build-mode }}
+          #  https://docs.github.com/en/code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/configuring-code-scanning#using-queries-in-ql-packs
+
+      - name: "Manual CodeQL Quality Analysis Action is not expected!"
+        if: matrix.build-mode == 'manual'
+        shell: bash
+        run: |
+          echo '"manual" build is not expected!'
+          exit 1
+        # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idstepsrun
+
+      - name: "Perform CodeQL Quality Analysis Action"
+        uses: github/codeql-action/analyze@v3
+        with:
+          category: "/language:${{matrix.language}}"
 
 # https://docs.github.com/en/code-security

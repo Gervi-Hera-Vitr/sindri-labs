@@ -1,4 +1,6 @@
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/de545692d2054bf7a4a6ccff66783bd1)](https://app.codacy.com/gh/Gervi-Hera-Vitr/google-ai-labs/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
+[![Build action checks on Push](https://github.com/Gervi-Hera-Vitr/google-ai-labs/actions/workflows/push-gates.yaml/badge.svg)](https://github.com/Gervi-Hera-Vitr/google-ai-labs/actions/workflows/push-gates.yaml)
+
 # Welcome, Dear Friend
 
 This is a bare-bone starter for [AGAIN](https://github.com/Gotham-Village "AGAIN as Gotham Village") community [Munchkins](http://www.catb.org/esr/jargon/html/M/munchkin.html "Munchkins") (CatB HTTP) <br/>
@@ -18,7 +20,7 @@ _Come, have a drink from Yggdrasil with us._ 😀
 ## Contents
 
 - [docs](./docs) - Documentation, Tutorials, and Onboarding Gide; **ToDo**
-- [lab-us-ktor](./lab-us-ktor) - a reminder to Munchkins to expose their models; **ToDo**
+- [lab-us-ktor](./lab-ux-ktor/README.md) - a reminder to Munchkins to expose their models; **ToDo**
 - [labs](./labs) - hands-on labs Munchkins will complete; **ToDo**
 - [planning](./planning) - evolution of the learning trails; **ToDo**
 - [site](./site) - the website leading to this repository; **ToDo**

@@ -1,26 +1,59 @@
-name: Mark stale issues and pull requests
+name: "Manage Stale Issues and Pull Requests"
+run-name: "Manage Stale Issues and Pull Requests on [${{ github.repository }}] @ ${{ github.ref }} by ${{ github.actor }} with ${{ github.event_name }}"
 # https://github.com/actions/stale
 
 on:
   push:
     branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
   schedule:
-  - cron: '20 10 * * *'
+    - cron: '20 10 * * *'
+  workflow_dispatch:
 
 jobs:
-  stale:
-
+  stale-issues-andpull-requests-check:
     runs-on: self-hosted
+    name: "Manage Stale Issues and Pull Requests IAW configured rules"
+    
     permissions:
       issues: write
       pull-requests: write
       contents: write
 
     steps:
-    - uses: actions/stale@main
-      with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
-        stale-issue-message: 'Closing stale issue as irrelevant. If this issue is still relevant, please open a new issue instead.'
-        stale-pr-message: 'Stale pull request: Closing abandoned pull request as irrelevant. If this pull request is still relevant, please follow the [contributing guide](https://github.com/Gervi-Hera-Vitr/Gervi-Hera-Vitr/blob/main/CONTRIBUTING.md) to upgrade and reopen.'
-        stale-issue-label: 'issue-has-no-activity'
-        stale-pr-label: 'PR-has-no-activity'
+      - name: "Run Stale Issues and Pull Requests checks in repository [${{ github.repository }}] by ${{ github.actor }}"
+        uses: actions/stale@v9
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          days-before-stale: 11
+          days-before-close: 3
+
+          days-before-issue-stale: 15
+          stale-issue-label: issue-has-no-activity
+          stale-issue-message: |
+            Closing `stale` issue as irrelevant: 
+            This issue is dormant for 15 days with no activity. 
+            If this issue is still relevant,
+            please follow the [contributing guide](https://github.com/Gervi-Hera-Vitr/Gervi-Hera-Vitr/blob/main/CONTRIBUTING.md) to:
+            - upgrade and reopen, or
+            - open a new issue instead.
+
+          days-before-issue-close: 6
+          close-issue-label: 'stale-issue-closed'
+          close-issue-message: |
+            This issue was closed because it has been _dormant_ 
+            for 5 days with no activity.
+
+          days-before-pr-stale: 8
+          stale-pr-label: 'PR-has-no-activity'
+          stale-pr-message: |
+          Stale pull request: Closing abandoned pull request as irrelevant.
+            If this pull request is still relevant, please follow the
+            [contributing guide](https://github.com/Gervi-Hera-Vitr/Gervi-Hera-Vitr/blob/main/CONTRIBUTING.md)
+            to upgrade and reopen.
+
+          days-before-pr-close: 6
+          close-pr-label: 'stale-pr-closed'
+          close-pr-message: |
+            This PR was closed because it has been stalled for 6 days with no activity.

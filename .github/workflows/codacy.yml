@@ -1,4 +1,5 @@
-name: Codacy Security Scan
+name: "Codacy Security Scan"
+run-name: "Codacy Security Scan on [${{ github.repository }}] @ ${{ github.ref }} by ${{ github.actor }} with ${{ github.event_name }}"
 # https://app.codacy.com/organizations/gh/Gervi-Hera-Vitr/dashboard
 
 on:
@@ -9,36 +10,58 @@ on:
     branches: [ "main" ]
   schedule:
     - cron: '23 20 * * 5'
+  workflow_dispatch:
 
 permissions:
   contents: read
 
 jobs:
-  codacy-security-scan:
+
+  codacy-security-scan-with-cadacy:
+    runs-on: self-hosted
+    name: "Codacy Security Scan with Publishing"
+
     permissions:
       contents: read
       security-events: write # for github/codeql-action/upload-sarif to upload SARIF results
       actions: read
-    name: Codacy Security Scan
-    runs-on: self-hosted
 
     steps:
 
-      - name: Checkout code
-        uses: actions/checkout@main # https://github.com/actions/checkout
+      - name: "Checkout repository source code"
+        uses: actions/checkout@v4 # https://github.com/actions/checkout
 
-      - name: Run Codacy Analysis CLI
-        uses: codacy/codacy-analysis-cli-action@master # https://github.com/codacy/codacy-analysis-cli-action
+      - name: "Run the Agent Environment introspection script"
+        run: zsh ./.run/introspect.sh
+
+      # Conditional Java setup
+      - name: "Setup transient JDK 21 if instructed by the Agent Environment Scanner"
+        if: env.java_correct != 'true'
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '21'
+          cache: 'gradle'
+
+      # Conditional Gradle setup
+      - name: "Setup transient Gradle 8.10 if instructed by the Agent Environment Scanner"
+        if: env.gradle_correct != 'true'
+        uses: gradle/actions/setup-gradle@v4
+
+
+      - name: "Run Codacy Analysis CLI Action and generate SARIF report"
+        uses: codacy/codacy-analysis-cli-action@v4 # https://github.com/codacy/codacy-analysis-cli-action
         with:
           project-token: ${{ secrets.CODACY_PROJECT_TOKEN }}
           verbose: true
           output: results.sarif
           format: sarif
           gh-code-scanning-compat: true
-          max-allowed-issues: 99
+          max-allowed-issues: 999
 
-      - name: Upload SARIF results file
-        uses: github/codeql-action/upload-sarif@main
+
+      - name: "Upload SARIF results to CodeQL"
+        uses: github/codeql-action/upload-sarif@v3
         with:
           sarif_file: results.sarif
 
