@@ -1,17 +1,22 @@
-name: Label Pull Request
+name: "Label Pull Request"
+run-name: "Label Pull Request with IAW Labeling Guidelines examining content by ${{ github.actor }} with ${{ github.event_name }}"
 # https://github.com/actions/labeler
 
-on: [pull_request_target]
+on:
+  pull_request_target:
+  workflow_dispatch:
 
 jobs:
-  label:
-
+  label-pull-request-iaw-labeling-guidelines:
     runs-on: self-hosted
+    name: "Label Pull Request with IAW Labeling Guidelines examining content"
+
     permissions:
       contents: read
       pull-requests: write
 
     steps:
-    - uses: actions/labeler@v5
-      with:
-        repo-token: "${{ secrets.GITHUB_TOKEN }}"
+      - name: "Label Pull Request pushing labels to GitHub Pull Request"
+        uses: actions/labeler@v5
+        with:
+          repo-token: "${{ secrets.GITHUB_TOKEN }}"

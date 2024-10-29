@@ -1,17 +1,24 @@
-name: Greetings and Welcome!
+name: "Greetings and Welcome!"
+run-name: "Gervi Herdem Vitr Greeting for ${{ github.actor }} with ${{ github.event_name }}"
 
-on: [pull_request_target, issues]
+on:
+  pull_request_target:
+  issues:
+  workflow_dispatch:
 
 jobs:
-  greeting:
+
+  first-time-user-greeting:
     runs-on: self-hosted
     permissions:
       issues: write
       pull-requests: write
 
     steps:
-    - uses: actions/first-interaction@main
-      with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
-        issue-message: "Dear Contributor, Welcome to Gervi Herdem Vitr! We're happy to have you here! Please let us know if you wish to pair on this issue. Thank you!"
-        pr-message: "Dear Contributor, Congratulations on your first Pull Request @ Gervi Herdem Vitr!"
+
+      - name: "Greet first time contributors!"
+        uses: actions/first-interaction@v1
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          issue-message: "Dear Contributor, Welcome to Gervi Herdem Vitr! We're happy to have you here! Please let us know if you wish to pair on this issue. Thank you!"
+          pr-message: "Dear Contributor, Congratulations on your first Pull Request @ Gervi Herdem Vitr!"

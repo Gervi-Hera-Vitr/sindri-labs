@@ -1,10 +1,14 @@
-name: Build action checks on Push
+name: "Build Host Environment Checks on Push"
+run-name: "Build Host Environment Checks and Introspection on each Push by ${{ github.actor }} with ${{ github.event_name }}"
 
-on: [ push ]
+on:
+  push:
+  workflow_dispatch:
 
 jobs:
-  build:
+  build-while-introspecting-host-runtime-environment:
     runs-on: self-hosted
+    name: "Build while Introspecting Host Runtime Environment on Self-Hosted Runners"
 
     permissions:
       contents: read
@@ -16,14 +20,14 @@ jobs:
 
     steps:
 
-      - name: Checkout repository
+      - name: "Checkout repository source code at root"
         uses: actions/checkout@v4
 
-      - name: Run Introspection Script
+      - name: "Run custom Introspection Script and Publish boolean values for `java_correct` and `gradle_correct` into GH Env"
         run: zsh ./.run/introspect.sh
 
       # Conditional Java setup
-      - name: Setup Java if Needed
+      - name: "Setup transient JDK 21 if instructed by the Agent Environment Scanner"
         if: env.java_correct != 'true'
         uses: actions/setup-java@v4
         with:
@@ -32,12 +36,12 @@ jobs:
           cache: 'gradle'
 
       # Conditional Gradle setup
-      - name: Setup Gradle if Needed
+      - name: "Setup transient Gradle 8.10 if instructed by the Agent Environment Scanner"
         if: env.gradle_correct != 'true'
         uses: gradle/actions/setup-gradle@v4
 
       # Gradle dependency caching
-      - name: Cache Gradle dependencies
+      - name: "Manage caching Gradle dependencies"
         uses: actions/cache@v4
         with:
           path: ~/.gradle/caches
@@ -45,6 +49,6 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-gradle-
 
-      - name: Inspect Dependency Versions with Gradle
+      - name: "Inspect Dependency Deprecations with Gradle using `dependencyUpdates` from Ben Manes Gradle Plugin"
         working-directory: lab-ux-ktor
         run: ./gradlew dependencyUpdates

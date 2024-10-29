@@ -1,14 +1,18 @@
-name: Prune Caches by Branch
+name: "Prune Caches by Branch"
 on:
   pull_request:
     types:
       - closed
+  workflow_dispatch:
 
 jobs:
-  cleanup:
+  cleanup-stale-caches:
+    
     runs-on: self-hosted
+    name: "Prune stale caches if used  over GH Services"
+
     steps:
-      - name: Cleanup
+      - name: "Cleanup stale caches"
         run: |
           gh extension install actions/gh-actions-cache
 

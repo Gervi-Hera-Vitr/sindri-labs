@@ -1,4 +1,5 @@
-name: Deploy Jekyll with GitHub Pages (dependencies preinstalled)
+name: "Build and Deploy Jekyll Site with GitHub Pages"
+run-name: "Jekyll Build and Deploy by ${{ github.actor }} with ${{ github.event_name }}"
 
 on:
   push:
@@ -16,35 +17,38 @@ concurrency:
 
 jobs:
 
-  build:
+  build-jekyll-site-from-site:
     runs-on: self-hosted
+    name: "Build Jekyll Site from root subproject `site`"
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@main
+      - name: "Checkout repository source code"
+        uses: actions/checkout@v4
 
-      - name: Setup Pages
-        uses: actions/configure-pages@main
+      - name: "Configure GitHub Pages environment Action"
+        uses: actions/configure-pages@v5
 
-      - name: Build with Jekyll
+      - name: "Build Project Site with Jekyll"
         uses: actions/jekyll-build-pages@main
         with:
           source: ./site
           destination: ./_site
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@main
+      - name: "Package and Upload Project Site built Artifact"
+        uses: actions/upload-pages-artifact@v3
 
   deploy:
+    runs-on: self-hosted
+    needs: build-jekyll-site-from-site
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: self-hosted
-    needs: build
+
     steps:
-      - name: Deploy to GitHub Pages
+
+      - name: "Deploy uploaded Artifact to GitHub Pages"
         id: deployment
-        uses: actions/deploy-pages@main
+        uses: actions/deploy-pages@v4
 
 # https://github.com/actions/jekyll-build-pages
 # https://github.com/actions/configure-pages
