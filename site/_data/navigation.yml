@@ -1,0 +1,81 @@
+# Menu links
+main:
+  - title: "About"
+    url: /about/
+  - title: "setup"
+    url: /SETUP/
+#  - title: "Actions"
+#    url: https://github.com/CaptainLugaru/the-echoes-of-wasteland/actions
+#  - title: "Maintainer"
+#    url: https://github.com/CaptainLugaru/
+#  - title: "Community"
+#    url: https://github.com/Gotham-Village/
+
+AI:
+  - title: "on ML"
+    url: /ai/
+
+labs:
+  - title: "Gervi Hî Vitr Labs"
+    url: /labs/
+
+#development:
+#  - title: Development Setup
+#    url: /development/
+#    children:
+#      - title: "Overview, (top)"
+#        url: /development/
+#      - title: "- `sdk`"
+#        description: "Kotlin, Java"
+#        url: /development/#sdk
+#      - title: "- `asdf`"
+#        description: "Ruby"
+#        url: /development/#asdf
+#      - title: "- `conda`"
+#        description: "Python"
+#        url: /development/#conda
+#      - title: "- `volta`"
+#        description: "Node.js, JS, TS"
+#        url: /development/#volta
+#      - title: "- `docker`"
+#        description: "desktop Docker"
+#        url: /development/#docker
+#      - title: "- `jupyter`"
+#        description: "Jupyter Labs Notebook"
+#        url: /development/#jupyter
+#      - title: "- IDEs"
+#        description: "IDEs used as primary development tools"
+#        url: /development/#ides
+#      - title: "- change log -"
+#        description: "This guide's change log"
+#        url: /development/#log
+
+
+support:
+  - title: Getting Started
+    children:
+      - title: "Local Mac OS X Setup"
+        url: /SETUP.adoc
+
+  - title: Pages Resources
+    children:
+      - title: "on Jekyll"
+        url: https://jekyllrb.com/docs/
+      - title: "Pages Dependencies"
+        url: https://pages.github.com/versions/
+      - title: "Jekyll Actions"
+        url: https://jekyllrb.com/docs/continuous-integration/github-actions
+
+  - title: Minimal Mistakes
+    children:
+      - title: "Quick Start Guide"
+        url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+      - title: "About"
+        url: https://mmistakes.github.io/minimal-mistakes/about/
+      - title: "Sample Posts"
+        url: /year-archive/
+      - title: "Sample Collections"
+        url: /collection-archive/
+      - title: "Sitemap"
+        url: /sitemap/
+

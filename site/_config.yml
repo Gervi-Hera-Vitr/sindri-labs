@@ -1,0 +1,60 @@
+title: "Gervi Héra Vitr Labs"
+email: 12781006+rdd13r@users.noreply.github.com
+description: "A dedicated space for learning, exploring, and building AI projects."
+
+baseurl: "/google-ai-labs"
+url: "https://gervi-hera-vitr.github.io"
+
+markdown: kramdown
+theme: "minimal-mistakes-jekyll"
+#minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "air"
+
+plugins:
+  - jekyll-paginate-v2
+  - jekyll-sitemap
+  - jekyll-data
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-algolia
+  - jekyll-archives
+#  - faraday-retry  # FixMe: BUGGED
+  - jemoji
+
+safe: false
+
+author:
+  name: "Gervi Héra Vitr Labs Team"
+  avatar: "/assets/images/avatar.png"
+  bio: "Exploring AI and building innovative solutions."
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "single"
+      author: "Gervi Héra Vitr Labs Team"
+      comments: true
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "single"
+
+# Navigation
+header_pages:
+  - about.md
+  - contact.md
+
+# SEO and sitemap
+seo:
+  title: "Gervi Héra Vitr Labs"
+  description: "Exploring AI and building innovative solutions."
+
+# Exclude unnecessary folders/files from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
