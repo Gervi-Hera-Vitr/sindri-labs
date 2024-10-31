@@ -1,0 +1,160 @@
+= Jekyll Site: Setup
+R!dd13r rdd13r <12781006+rdd13r@users.noreply.github.com>
+v1.0, Tuesday 29 October 2024
+:description: Mac OS X setup for Jekyll Site on GitHub Pages
+:sectnums:
+:sectanchors:
+:sectlinks:
+:icons: font
+:tip-caption: 💡️
+:note-caption: ℹ️
+:important-caption: ❗
+:caution-caption: 🔥
+:warning-caption: ⚠️
+:toc: preamble
+:toclevels: 2
+:toc-title: Jekyll GitHub Pages
+:keywords: Jekyll, GitHub Pages, Ruby, Mac OS X, Bundler
+:imagesdir: ./assets/img
+ifdef::env-name[:relfilesuffix: .adoc]
+
+Most relevant documentation links::
+
+- https://jekyllrb.com/docs/[Jekyll Quickstart]
+- https://pages.github.com/versions/[GitHub Pages dependencies]
+- https://jekyllrb.com/docs/continuous-integration/github-actions[GitHub Actions: Jekyll]
+
+Important tribal knowledge::
+
+Traditionally, *_"GitHub Pages"_* support is a strongly locked-down affair.
+This created many conflicts with Jekyll, various Gems, and GitHub Pages plugins.
+The GitHub Pages Actions workflow is meant to partially alleviate the issue.
+
+== Mac OS X Setup
+
+[source,shell]
+.Use `asdf` to install Ruby
+----
+#!/usr/bin/env zsh
+
+brew update && brew upgrade --greedy && brew install coreutils curl asdf
+
+----
+
+=== Install latest `ruby` using `asdf`
+
+[TIP]
+.The `asdf` delegates to resource managers called plugins.
+====
+`asdf` manage tool artifacts via dedicated plugins.
+Here is the https://asdf-vm.com/guide/getting-started.html['Getting Started' guide] for `asdf`;
+documentation on https://asdf-vm.com/manage/core.html[core] functionality;
+and, TL;DR on https://asdf-vm.com/manage/plugins.html[plugins] and https://asdf-vm.com/manage/versions.html[version] management.
+
+[source,shell]
+.to #list# all plugins, for example, use:
+----
+asdf plugin list all
+----
+
+and,
+
+[source,shell]
+.to #upgrade# all plugins, use:
+----
+asdf plugin update --all
+----
+
+====
+
+[source,shell]
+.Install `ruby` plugin (see https://github.com/asdf-vm/asdf-ruby[the `ruby` home repository] to get the sense of plugins):
+----
+
+# Formally: `asdf plugin add ruby https://github.com/asdf-vm/asdf-ruby.git`
+# the override reference to plugin repository is NOT necessary when using default plugins.
+asdf plugin add ruby
+
+----
+
+then, install the latest `ruby`:
+
+[source,shell]
+.Install the latest `ruby` by version symlink:
+----
+
+asdf install ruby latest
+
+----
+
+=== Verify: useful commands:
+
+[source,shell]
+.Checking versions:
+----
+
+# See all installed ruby versions:
+asdf list ruby
+
+# See currently active versions:
+asdf current
+
+# See ALL installable versions:
+# asdf list all ruby
+
+----
+
+== Install Jekyll and GitHub Pages dependencies
+
+#Navigate into your project docs directory before working on Jekyll site!#
+
+Follow the https://jekyllrb.com/docs/[Jekyll Quickstart] documentation.
+
+[source,shell]
+.Install `jekyll` +  `bundler`:
+----
+
+gem install jekyll bundler
+
+----
+
+[IMPORTANT]
+.If newer versions exist:
+====
+Should the global tool be installed before, one may get a message like this:
+
+ A new release of RubyGems is available: 3.5.16 → 3.5.22!
+ Run `gem update --system 3.5.22` to update your installation.
+
+Then run the suggested upgrade: `gem update --system 3.5.22`
+
+====
+
+From the root of our project run `jekyll new site` with the 'site' being the home folder of the site.
+Since we already have the folder, the following command was necessary instead:
+
+[source,shell]
+.Make site scaffolding:
+----
+
+jekyll new site --force
+
+----
+
+... and we have a blank site now.
+
+== Ponder on the site scaffold:
+
+__The scaffolding has an autoloader feature helping with the fast-paced fluent development style use.__
+
+[source,shell]
+.Check the site scaffold:
+----
+
+ bundle exec jekyll serve
+
+----
+
+== That's it!
+
+We have then modified our site to apply https://github.com/mmistakes/minimal-mistakes[Minimal Mistakes] Jekyll theme.

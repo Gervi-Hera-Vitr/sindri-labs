@@ -16,7 +16,6 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-
   build-jekyll-site-from-site:
     runs-on: self-hosted
     name: "Build Jekyll Site from root subproject `site`"
@@ -25,17 +24,26 @@ jobs:
       - name: "Checkout repository source code"
         uses: actions/checkout@v4
 
-      - name: "Configure GitHub Pages environment Action"
-        uses: actions/configure-pages@v5
-
-      - name: "Build Project Site with Jekyll"
-        uses: actions/jekyll-build-pages@main
+      - name: "Set up Ruby"
+        uses: ruby/setup-ruby@v1
         with:
-          source: ./site
-          destination: ./_site
+          ruby-version: 3.3.5
+          bundler-cache: true
+
+      - name: "Install dependencies"
+        run: |
+          cd site
+          bundle install
+
+      - name: "Build Jekyll site"
+        run: |
+          cd site
+          bundle exec jekyll build -d ../_site
 
       - name: "Package and Upload Project Site built Artifact"
         uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./_site
 
   deploy:
     runs-on: self-hosted
@@ -45,12 +53,6 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
-
       - name: "Deploy uploaded Artifact to GitHub Pages"
         id: deployment
         uses: actions/deploy-pages@v4
-
-# https://github.com/actions/jekyll-build-pages
-# https://github.com/actions/configure-pages
-# https://github.com/actions/upload-pages-artifact
-# https://github.com/actions/deploy-pages
