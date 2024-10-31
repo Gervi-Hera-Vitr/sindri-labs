@@ -21,7 +21,7 @@ jobs:
     steps:
 
       - name: "Checkout repository source code at root"
-        uses: actions/checkout@v4
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
 
       - name: "Run custom Introspection Script and Publish boolean values for `java_correct` and `gradle_correct` into GH Env"
         run: zsh ./.run/introspect.sh
@@ -29,7 +29,7 @@ jobs:
       # Conditional Java setup
       - name: "Setup transient JDK 21 if instructed by the Agent Environment Scanner"
         if: env.java_correct != 'true'
-        uses: actions/setup-java@v4
+        uses: actions/setup-java@8df1039502a15bceb9433410b1a100fbe190c53b
         with:
           distribution: 'temurin'
           java-version: '21'
@@ -38,11 +38,11 @@ jobs:
       # Conditional Gradle setup
       - name: "Setup transient Gradle 8.10 if instructed by the Agent Environment Scanner"
         if: env.gradle_correct != 'true'
-        uses: gradle/actions/setup-gradle@v4
+        uses: gradle/actions/setup-gradle@d156388eb19639ec20ade50009f3d199ce1e2808
 
       # Gradle dependency caching
       - name: "Manage caching Gradle dependencies"
-        uses: actions/cache@v4
+        uses: actions/cache@6849a6489940f00c2f30c0fb92c6274307ccb58a
         with:
           path: "${HOME}/.gradle/caches"
           key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties') }}
