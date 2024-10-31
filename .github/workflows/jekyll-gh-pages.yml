@@ -20,6 +20,9 @@ jobs:
     runs-on: self-hosted
     name: "Build Jekyll Site from root subproject `site`"
 
+    env:
+      BUNDLE_PATH: vendor/bundle
+
     steps:
       - name: "Checkout repository source code"
         uses: actions/checkout@v4
