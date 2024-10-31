@@ -11,6 +11,14 @@ import kotlin.test.assertEquals
 import kotlin.test.assertTrue
 
 class StaticTest {
+    /**
+     * Verify that a GET request to "/static/" will return a 200-status code
+     * and a response body that contains the expected HTML content.
+     *
+     * Asserts that the content at the static route "/static/" responds with a
+     * HTML document containing the title "Brick" and a single H1 header with
+     * the text "ML Rocks and Python Rolls!".
+     */
     @Test
     fun testStaticContentServing() = testApplication {
         application(Application::module)

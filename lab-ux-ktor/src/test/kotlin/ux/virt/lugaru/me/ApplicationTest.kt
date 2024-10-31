@@ -10,6 +10,11 @@ import kotlin.test.Test
 import kotlin.test.assertEquals
 
 class ApplicationTest {
+
+    /**
+     * Verify that a GET request to "/" will return a 200-status code
+     * and a response body of "Hello, World!"
+     */
     @Test
     fun testRoot() = testApplication {
         application(Application::configureRouting)

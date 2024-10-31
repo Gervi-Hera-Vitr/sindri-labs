@@ -7,6 +7,15 @@ import io.ktor.server.thymeleaf.Thymeleaf
 import io.ktor.server.thymeleaf.ThymeleafContent
 import org.thymeleaf.templateresolver.ClassLoaderTemplateResolver
 
+/**
+ * Configures the templating module.
+ *
+ * This function sets up the Thymeleaf template engine.
+ * It configures the template resolver to look for templates in the "templates/thymeleaf/" directory
+ * with a ".html" suffix.
+ * It installs the Thymeleaf plugin and sets up a route for "/html-thymeleaf" that renders the "index"
+ * template with a "user" variable set to a [ThymeleafUser] instance.
+ */
 fun Application.configureTemplating() {
     install(Thymeleaf) {
         setTemplateResolver(ClassLoaderTemplateResolver().apply {
