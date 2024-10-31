@@ -4,7 +4,7 @@ run-name: "Manage Stale Issues and Pull Requests on [${{ github.repository }}] @
 
 on:
   push:
-    branches: [ "main" "10-fix-code-scanning-alert---subprocess-call---check-for-execution-of-untrusted-input" ]
+    branches: [ "main", "10-fix-code-scanning-alert---subprocess-call---check-for-execution-of-untrusted-input" ]
   pull_request:
     branches: [ "main" ]
   schedule:
