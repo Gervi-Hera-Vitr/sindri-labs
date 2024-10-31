@@ -1,16 +1,19 @@
 title: "Gervi Héra Vitr Labs"
 email: 12781006+rdd13r@users.noreply.github.com
 description: "A dedicated space for learning, exploring, and building AI projects."
+github_username: Gervi-Hera-Vitr
+github: [metadata]
 
 baseurl: "/google-ai-labs"
 url: "https://gervi-hera-vitr.github.io"
 
 markdown: kramdown
-theme: "minimal-mistakes-jekyll"
+remote_theme: "mmistakes/minimal-mistakes"
 #minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 minimal_mistakes_skin: "air"
 
 plugins:
+  - jekyll-remote-theme
   - jekyll-paginate-v2
   - jekyll-sitemap
   - jekyll-data
@@ -19,7 +22,6 @@ plugins:
   - jekyll-include-cache
   - jekyll-algolia
   - jekyll-archives
-#  - faraday-retry  # FixMe: BUGGED
   - jemoji
 
 safe: false
