@@ -7,19 +7,18 @@ on:
       - closed
   workflow_dispatch:
 
-strategy:
-  fail-fast: true
-
 concurrency:
   group: "${{ github.workflow }}"
   cancel-in-progress: true
-
 
 jobs:
   cleanup-stale-caches:
     timeout-minutes: 1
     runs-on: self-hosted
     name: "Prune stale caches if used  over GH Services"
+
+    strategy:
+      fail-fast: true
 
     steps:
       - name: "Cleanup stale caches"

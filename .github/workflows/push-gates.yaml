@@ -13,9 +13,6 @@ permissions:
   actions: read
   statuses: read
 
-strategy:
-  fail-fast: false
-
 concurrency:
   group: "${{ github.workflow }}"
   cancel-in-progress: true
@@ -26,6 +23,9 @@ jobs:
     timeout-minutes: 5
     runs-on: self-hosted
     name: "Build while Introspecting Host Runtime Environment on Self-Hosted Runners"
+
+    strategy:
+      fail-fast: false
 
     steps:
 

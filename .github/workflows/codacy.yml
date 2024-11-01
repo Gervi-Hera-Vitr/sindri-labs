@@ -14,11 +14,7 @@ on:
 
 permissions:
   contents: read
-  security-events: write # for github/codeql-action/upload-sarif to upload SARIF results
   actions: read
-
-strategy:
-  fail-fast: false
 
 concurrency:
   group: "${{ github.workflow }}"
@@ -31,6 +27,9 @@ jobs:
     timeout-minutes: 17
     runs-on: self-hosted
     name: "Codacy Security Scan with Publishing"
+
+    strategy:
+      fail-fast: false
 
     steps:
 
@@ -73,6 +72,8 @@ jobs:
       - name: "Upload SARIF results to CodeQL"
         uses: github/codeql-action/upload-sarif@48c3e2675613624ea7978e5d132169f97bc3b578
         timeout-minutes: 3
+        permissions:
+          security-events: write
         with:
           sarif_file: results.sarif
 

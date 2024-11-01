@@ -16,13 +16,9 @@ permissions:
   actions: read
   contents: read
 
-strategy:
-  fail-fast: false
-
 concurrency:
   group: "${{ github.workflow }}"
   cancel-in-progress: true
-
 
 jobs:
 
@@ -32,6 +28,7 @@ jobs:
     name: "CodeQL Quality Scan with Outcome Publishing"
 
     strategy:
+      fail-fast: false
       matrix:
         include:
           - language: java-kotlin

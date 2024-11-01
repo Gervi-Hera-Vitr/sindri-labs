@@ -6,9 +6,6 @@ on:
   pull_request_target:
   workflow_dispatch:
 
-strategy:
-  fail-fast: true
-
 concurrency:
   group: "${{ github.workflow }}"
   cancel-in-progress: true
@@ -22,6 +19,9 @@ jobs:
     permissions:
       contents: read
       pull-requests: write
+
+    strategy:
+      fail-fast: true
 
     steps:
       - name: "Label Pull Request pushing labels to GitHub Pull Request"

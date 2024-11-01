@@ -6,8 +6,9 @@ on:
   issues:
   workflow_dispatch:
 
-strategy:
-  fail-fast: true
+permissions:
+  issues: write
+  pull-requests: write
 
 concurrency:
   group: "${{ github.workflow }}"
@@ -18,9 +19,8 @@ jobs:
   first-time-user-greeting:
     runs-on: self-hosted
     timeout-minutes: 1
-    permissions:
-      issues: write
-      pull-requests: write
+    strategy:
+      fail-fast: true
 
     steps:
 
