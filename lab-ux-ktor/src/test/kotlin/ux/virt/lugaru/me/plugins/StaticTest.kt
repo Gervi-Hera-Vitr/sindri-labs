@@ -17,7 +17,7 @@ class StaticTest {
      *
      * Asserts that the content at the static route "/static/" responds with a
      * HTML document containing the title "Brick" and a single H1 header with
-     * the text "ML Rocks and Python Rolls!".
+     * the text "ML Rocks and Python Rolls!"
      */
     @Test
     fun testStaticContentServing() = testApplication {

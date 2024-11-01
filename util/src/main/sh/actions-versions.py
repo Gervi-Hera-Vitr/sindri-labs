@@ -1,7 +1,5 @@
 #!/usr/bin/env python
 import subprocess
-# shellcheck disable=SC1083
-# shellcheck disable=SC2283
 
 actions = {
     "actions/checkout": {
@@ -68,6 +66,21 @@ actions = {
 
 # Function to get the commit hash for a specific tag
 def get_commit_hash(repo, tag):
+    """
+    Get the commit hash for a specific tag from a GitHub repository.
+
+    Parameters
+    ----------
+    repo : str
+        The name of the GitHub repository to query.
+    tag : str
+        The tag to query for the commit hash.
+
+    Returns
+    -------
+    str
+        The commit hash for the specified tag, or "N/A" if it's not found.
+    """
     try:
         result = subprocess.run(
             ["git", "ls-remote", f"https://github.com/{repo}.git", tag],
