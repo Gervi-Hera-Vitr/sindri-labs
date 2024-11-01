@@ -6,6 +6,15 @@ on:
   issues:
   workflow_dispatch:
 
+timeout-minutes: 2
+
+strategy:
+  fail-fast: true
+
+concurrency:
+  group: "${{ github.workflow }}"
+  cancel-in-progress: true
+
 jobs:
 
   first-time-user-greeting:

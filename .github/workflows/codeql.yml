@@ -10,6 +10,22 @@ on:
     - cron: '32 2 * * 3'
   workflow_dispatch:
 
+permissions:
+  security-events: write
+  packages: read
+  actions: read
+  contents: read
+
+timeout-minutes: 9
+
+strategy:
+  fail-fast: false
+
+concurrency:
+  group: "${{ github.workflow }}"
+  cancel-in-progress: true
+
+
 jobs:
 
   code-security-scan-with-codeql:
@@ -17,14 +33,7 @@ jobs:
     runs-on: self-hosted
     name: "CodeQL Quality Scan with Outcome Publishing"
 
-    permissions:
-      security-events: write
-      packages: read
-      actions: read
-      contents: read
-
     strategy:
-      fail-fast: false
       matrix:
         include:
           - language: java-kotlin

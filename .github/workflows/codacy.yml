@@ -12,8 +12,20 @@ on:
     - cron: '23 20 * * 5'
   workflow_dispatch:
 
+timeout-minutes: 19
+
 permissions:
   contents: read
+  security-events: write # for github/codeql-action/upload-sarif to upload SARIF results
+  actions: read
+
+strategy:
+  fail-fast: false
+
+concurrency:
+  group: "${{ github.workflow }}"
+  cancel-in-progress: true
+
 
 jobs:
 
@@ -21,11 +33,6 @@ jobs:
     timeout-minutes: 17
     runs-on: self-hosted
     name: "Codacy Security Scan with Publishing"
-
-    permissions:
-      contents: read
-      security-events: write # for github/codeql-action/upload-sarif to upload SARIF results
-      actions: read
 
     steps:
 

@@ -11,17 +11,23 @@ on:
     - cron: '20 10 * * *'
   workflow_dispatch:
 
+
+timeout-minutes: 3
+
+permissions:
+  issues: write
+  pull-requests: write
+  contents: write
+
+strategy:
+  fail-fast: true
+
 jobs:
   stale-issues-and-pull-requests-check:
     timeout-minutes: 2
     runs-on: self-hosted
     name: "Manage Stale Issues and Pull Requests IAW configured rules"
     
-    permissions:
-      issues: write
-      pull-requests: write
-      contents: write
-
     steps:
       - name: "Run Stale Issues and Pull Requests checks in repository [${{ github.repository }}] by ${{ github.actor }}"
         uses: actions/stale@f69122271d990fd11f5594ccff2296f00ff59b49

@@ -11,9 +11,14 @@ permissions:
   pages: write
   id-token: write
 
+timeout-minutes: 7
+
+strategy:
+  fail-fast: true
+
 concurrency:
-  group: "pages"
-  cancel-in-progress: false
+  group: "${{ github.workflow }}"
+  cancel-in-progress: true
 
 jobs:
   build-jekyll-site-from-site:

@@ -1,9 +1,21 @@
 name: "Prune Caches by Branch"
+run-name: "Prune Caches by Branch on [${{ github.repository }}] @ ${{ github.ref }} by ${{ github.actor }} with ${{ github.event_name }}"
+
 on:
   pull_request:
     types:
       - closed
   workflow_dispatch:
+
+strategy:
+  fail-fast: true
+
+timeout-minutes: 3
+
+concurrency:
+  group: "${{ github.workflow }}"
+  cancel-in-progress: true
+
 
 jobs:
   cleanup-stale-caches:
