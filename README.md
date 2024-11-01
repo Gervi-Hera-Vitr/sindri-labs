@@ -1,5 +1,12 @@
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/de545692d2054bf7a4a6ccff66783bd1)](https://app.codacy.com/gh/Gervi-Hera-Vitr/google-ai-labs/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
+[![CodeQL Quality Scan](https://github.com/Gervi-Hera-Vitr/google-ai-labs/actions/workflows/codeql.yml/badge.svg)](https://github.com/Gervi-Hera-Vitr/google-ai-labs/actions/workflows/codeql.yml)<br>
 [![Build action checks on Push](https://github.com/Gervi-Hera-Vitr/google-ai-labs/actions/workflows/push-gates.yaml/badge.svg)](https://github.com/Gervi-Hera-Vitr/google-ai-labs/actions/workflows/push-gates.yaml)
+[![Prune Caches by Branch](https://github.com/Gervi-Hera-Vitr/google-ai-labs/actions/workflows/cache-prune.yaml/badge.svg)](https://github.com/Gervi-Hera-Vitr/google-ai-labs/actions/workflows/cache-prune.yaml)<br>
+[![Manage Stale Issues and Pull Requests](https://github.com/Gervi-Hera-Vitr/google-ai-labs/actions/workflows/stale.yml/badge.svg)](https://github.com/Gervi-Hera-Vitr/google-ai-labs/actions/workflows/stale.yml)
+[![Label Pull Request](https://github.com/Gervi-Hera-Vitr/google-ai-labs/actions/workflows/label.yml/badge.svg)](https://github.com/Gervi-Hera-Vitr/google-ai-labs/actions/workflows/label.yml)
+[![Greetings and Welcome!](https://github.com/Gervi-Hera-Vitr/google-ai-labs/actions/workflows/greetings.yml/badge.svg)](https://github.com/Gervi-Hera-Vitr/google-ai-labs/actions/workflows/greetings.yml)<br>
+[![Build and Deploy Jekyll Site with GitHub Pages](https://github.com/Gervi-Hera-Vitr/google-ai-labs/actions/workflows/jekyll-gh-pages.yml/badge.svg)](https://github.com/Gervi-Hera-Vitr/google-ai-labs/actions/workflows/jekyll-gh-pages.yml)
+
 
 # Welcome, Dear Friend
 

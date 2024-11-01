@@ -10,6 +10,7 @@ jobs:
 
   first-time-user-greeting:
     runs-on: self-hosted
+    timeout-minutes: 1
     permissions:
       issues: write
       pull-requests: write

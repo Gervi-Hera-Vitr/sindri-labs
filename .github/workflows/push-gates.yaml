@@ -7,6 +7,7 @@ on:
 
 jobs:
   build-while-introspecting-host-runtime-environment:
+    timeout-minutes: 5
     runs-on: self-hosted
     name: "Build while Introspecting Host Runtime Environment on Self-Hosted Runners"
 
@@ -22,14 +23,17 @@ jobs:
 
       - name: "Checkout repository source code at root"
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        timeout-minutes: 1
 
       - name: "Run custom Introspection Script and Publish boolean values for `java_correct` and `gradle_correct` into GH Env"
         run: zsh ./.run/introspect.sh
+        timeout-minutes: 1
 
       # Conditional Java setup
       - name: "Setup transient JDK 21 if instructed by the Agent Environment Scanner"
         if: env.java_correct != 'true'
         uses: actions/setup-java@8df1039502a15bceb9433410b1a100fbe190c53b
+        timeout-minutes: 3
         with:
           distribution: 'temurin'
           java-version: '21'
@@ -39,10 +43,12 @@ jobs:
       - name: "Setup transient Gradle 8.10 if instructed by the Agent Environment Scanner"
         if: env.gradle_correct != 'true'
         uses: gradle/actions/setup-gradle@707359876a764dbcdb9da0b0ed08291818310c3d
+        timeout-minutes: 2
 
       # Gradle dependency caching
       - name: "Manage caching Gradle dependencies"
         uses: actions/cache@6849a6489940f00c2f30c0fb92c6274307ccb58a
+        timeout-minutes: 2
         with:
           path: "${HOME}/.gradle/caches"
           key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties') }}
@@ -51,4 +57,5 @@ jobs:
 
       - name: "Inspect Dependency Deprecations with Gradle using `dependencyUpdates` from Ben Manes Gradle Plugin"
         working-directory: lab-ux-ktor
+        timeout-minutes: 2
         run: ./gradlew dependencyUpdates

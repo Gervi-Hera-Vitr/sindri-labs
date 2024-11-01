@@ -7,7 +7,7 @@ on:
 
 jobs:
   cleanup-stale-caches:
-    
+    timeout-minutes: 1
     runs-on: self-hosted
     name: "Prune stale caches if used  over GH Services"
 
