@@ -11,8 +11,6 @@ permissions:
   pages: write
   id-token: write
 
-timeout-minutes: 7
-
 strategy:
   fail-fast: true
 

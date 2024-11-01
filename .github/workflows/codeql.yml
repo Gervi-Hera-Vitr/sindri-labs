@@ -16,8 +16,6 @@ permissions:
   actions: read
   contents: read
 
-timeout-minutes: 9
-
 strategy:
   fail-fast: false
 

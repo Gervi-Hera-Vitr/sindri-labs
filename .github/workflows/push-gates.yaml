@@ -5,8 +5,6 @@ on:
   push:
   workflow_dispatch:
 
-timeout-minutes: 7
-
 permissions:
   contents: read
   discussions: write

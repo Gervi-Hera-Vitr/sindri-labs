@@ -6,8 +6,6 @@ on:
   issues:
   workflow_dispatch:
 
-timeout-minutes: 2
-
 strategy:
   fail-fast: true
 

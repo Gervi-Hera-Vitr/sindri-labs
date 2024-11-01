@@ -11,9 +11,6 @@ on:
     - cron: '20 10 * * *'
   workflow_dispatch:
 
-
-timeout-minutes: 3
-
 permissions:
   issues: write
   pull-requests: write
