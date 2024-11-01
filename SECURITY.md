@@ -9,3 +9,4 @@ Resources:
 - [Codacy Organization Dashboard](https://app.codacy.com/organizations/gh/Gervi-Hera-Vitr/dashboard "Codacy Organization Dashboard")
   - [Codacy Labs repository Security Report](https://app.codacy.com/gh/Gervi-Hera-Vitr/google-ai-labs/dashboard "Codacy Security Report")
 - [Mend.io (Renovate) Organization Dashboard](https://developer.mend.io/github/Gervi-Hera-Vitr "Mend.io: Renovate Security Report")
+  - [Renovate Repository Dashboard](https://developer.mend.io/github/Gervi-Hera-Vitr/google-ai-labs "Google AI Labs Dashboard")
