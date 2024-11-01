@@ -17,7 +17,8 @@ permissions:
 
 jobs:
 
-  codacy-security-scan-with-cadacy:
+  codacy-security-scan-with-codacy:
+    timeout-minutes: 17
     runs-on: self-hosted
     name: "Codacy Security Scan with Publishing"
 
@@ -30,14 +31,17 @@ jobs:
 
       - name: "Checkout repository source code"
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        timeout-minutes: 1
 
       - name: "Run the Agent Environment introspection script"
         run: zsh ./.run/introspect.sh
+        timeout-minutes: 1
 
       # Conditional Java setup
       - name: "Setup transient JDK 21 if instructed by the Agent Environment Scanner"
         if: env.java_correct != 'true'
         uses: actions/setup-java@8df1039502a15bceb9433410b1a100fbe190c53b
+        timeout-minutes: 3
         with:
           distribution: 'temurin'
           java-version: '21'
@@ -47,10 +51,11 @@ jobs:
       - name: "Setup transient Gradle 8.10 if instructed by the Agent Environment Scanner"
         if: env.gradle_correct != 'true'
         uses: gradle/actions/setup-gradle@707359876a764dbcdb9da0b0ed08291818310c3d
-
+        timeout-minutes: 2
 
       - name: "Run Codacy Analysis CLI Action and generate SARIF report"
         uses: codacy/codacy-analysis-cli-action@09916000460adeeedc96b9704f86deba53e2ad5d
+        timeout-minutes: 13
         with:
           project-token: ${{ secrets.CODACY_PROJECT_TOKEN }}
           verbose: true
@@ -62,6 +67,7 @@ jobs:
 
       - name: "Upload SARIF results to CodeQL"
         uses: github/codeql-action/upload-sarif@48c3e2675613624ea7978e5d132169f97bc3b578
+        timeout-minutes: 3
         with:
           sarif_file: results.sarif
 

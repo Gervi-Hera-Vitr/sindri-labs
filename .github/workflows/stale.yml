@@ -12,7 +12,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  stale-issues-andpull-requests-check:
+  stale-issues-and-pull-requests-check:
+    timeout-minutes: 2
     runs-on: self-hosted
     name: "Manage Stale Issues and Pull Requests IAW configured rules"
     
