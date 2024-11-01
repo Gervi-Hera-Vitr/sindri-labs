@@ -58,7 +58,6 @@ jobs:
         uses: gradle/actions/setup-gradle@707359876a764dbcdb9da0b0ed08291818310c3d
         timout-minutes: 2
 
-
       - name: "Initialize CodeQL Quality Analysis Action"
         uses: github/codeql-action/init@48c3e2675613624ea7978e5d132169f97bc3b578
         timeout-minutes: 4
