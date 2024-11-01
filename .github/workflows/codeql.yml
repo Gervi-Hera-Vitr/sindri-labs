@@ -55,7 +55,7 @@ jobs:
 
 
       - name: "Initialize CodeQL Quality Analysis Action"
-        uses: github/codeql-action/init@662472033e021d55d94146f66f6058822b0b39fd
+        uses: github/codeql-action/init@48c3e2675613624ea7978e5d132169f97bc3b578
         with:
           languages: ${{ matrix.language }}
           build-mode: ${{ matrix.build-mode }}
@@ -70,7 +70,7 @@ jobs:
         # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idstepsrun
 
       - name: "Perform CodeQL Quality Analysis Action"
-        uses: github/codeql-action/analyze@662472033e021d55d94146f66f6058822b0b39fd
+        uses: github/codeql-action/analyze@48c3e2675613624ea7978e5d132169f97bc3b578
         with:
           category: "/language:${{matrix.language}}"
 
