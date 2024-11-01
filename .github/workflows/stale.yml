@@ -23,7 +23,7 @@ jobs:
 
     steps:
       - name: "Run Stale Issues and Pull Requests checks in repository [${{ github.repository }}] by ${{ github.actor }}"
-        uses: actions/stale@v9
+        uses: actions/stale@28ca1036281a5e5922ead5184a1bbf96e5fc984e
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           days-before-stale: 11
@@ -48,7 +48,7 @@ jobs:
           days-before-pr-stale: 8
           stale-pr-label: 'PR-has-no-activity'
           stale-pr-message: |
-          Stale pull request: Closing abandoned pull request as irrelevant.
+            Stale pull request: Closing abandoned pull request as irrelevant.
             If this pull request is still relevant, please follow the
             [contributing guide](https://github.com/Gervi-Hera-Vitr/Gervi-Hera-Vitr/blob/main/CONTRIBUTING.md)
             to upgrade and reopen.

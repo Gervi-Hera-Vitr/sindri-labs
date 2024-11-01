@@ -25,7 +25,7 @@ jobs:
 
     steps:
       - name: "Checkout repository source code"
-        uses: actions/checkout@v4
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
 
       - name: "Install dependencies"
         run: |
@@ -38,7 +38,7 @@ jobs:
           bundle exec jekyll build -d ../_site
 
       - name: "Package and Upload Project Site built Artifact"
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa
         with:
           path: ./_site
 
@@ -52,4 +52,4 @@ jobs:
     steps:
       - name: "Deploy uploaded Artifact to GitHub Pages"
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e

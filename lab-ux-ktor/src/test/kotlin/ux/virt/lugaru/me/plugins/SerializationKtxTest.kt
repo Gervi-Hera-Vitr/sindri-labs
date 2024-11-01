@@ -11,6 +11,12 @@ import kotlin.test.assertEquals
 
 class SerializationKtxTest {
 
+    /**
+     * Tests that the KotlinX-Serialization plugin properly serializes data classes into JSON.
+     *
+     * Asserts that the route "/json-ml" responds with a JSON object containing the key-value pair
+     * "hello" -> "json ML".
+     */
     @Test
     fun testGetJsonKotlinXSerialization() = testApplication {
         application(Application::module)
