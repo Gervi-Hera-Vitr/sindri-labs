@@ -7,6 +7,7 @@
 [![Greetings and Welcome!](https://github.com/Gervi-Hera-Vitr/google-ai-labs/actions/workflows/greetings.yml/badge.svg)](https://github.com/Gervi-Hera-Vitr/google-ai-labs/actions/workflows/greetings.yml)<br>
 [![Build and Deploy Jekyll Site with GitHub Pages](https://github.com/Gervi-Hera-Vitr/google-ai-labs/actions/workflows/jekyll-gh-pages.yml/badge.svg)](https://github.com/Gervi-Hera-Vitr/google-ai-labs/actions/workflows/jekyll-gh-pages.yml)
 
+> [Vitr`î Labs Site](https://gervi-hera-vitr.github.io/google-ai-labs/ "Gervi Hî Vitr Labs")
 
 # Welcome, Dear Friend
 
@@ -23,6 +24,8 @@ _Come, have a drink from Yggdrasil with us._ 😀
 
 -- Captain and R!dd13r<br/>
 2024-10-27
+
+See our security policy [here](https://github.com/Gervi-Hera-Vitr/google-ai-labs/security/policy "Security Policy").
 
 ## Contents
 
