@@ -67,7 +67,7 @@ typing_extensions==4.11.0
 tzdata==2023.3
 unicodedata2==15.1.0
 urllib3==2.2.3
-Werkzeug==3.0.3
+Werkzeug==3.1.1
 wheel==0.35.1
 wrapt==1.14.1
 yarl==1.11.0
