@@ -35,7 +35,7 @@ multidict==6.0.4
 numexpr==2.10.1
 numpy==1.23.5
 oauthlib==3.2.2
-opt-einsum==3.3.0
+opt-einsum==3.4.0
 packaging==24.1
 pandas==2.2.2
 pillow==10.4.0
