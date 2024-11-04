@@ -59,7 +59,7 @@ jobs:
         timeout-minutes: 2
 
       - name: "Initialize CodeQL Quality Analysis Action"
-        uses: github/codeql-action/init@48c3e2675613624ea7978e5d132169f97bc3b578
+        uses: github/codeql-action/init@cbe18979603527f12c7871a6eb04833ecf1548c7
         timeout-minutes: 4
         with:
           languages: ${{ matrix.language }}
@@ -75,7 +75,7 @@ jobs:
         # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idstepsrun
 
       - name: "Perform CodeQL Quality Analysis Action"
-        uses: github/codeql-action/analyze@48c3e2675613624ea7978e5d132169f97bc3b578
+        uses: github/codeql-action/analyze@cbe18979603527f12c7871a6eb04833ecf1548c7
         timeout-minutes: 5
         with:
           category: "/language:${{matrix.language}}"
