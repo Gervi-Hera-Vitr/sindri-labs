@@ -106,4 +106,4 @@ crashlytics-build.properties
 fabric.properties
 
 ### rdd13r excludes
-/util/src/main/sh/workflows.csv
+workflows.csv

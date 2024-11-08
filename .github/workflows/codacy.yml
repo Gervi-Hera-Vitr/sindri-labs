@@ -3,6 +3,7 @@ run-name: "Codacy Security Scan on [${{ github.repository }}] @ ${{ github.ref }
 # https://app.codacy.com/organizations/gh/Gervi-Hera-Vitr/dashboard
 
 on:
+  workflow_run: [ code-security-scan-with-codeql ]
   push:
     branches: [ "main" ]
   pull_request:
@@ -28,7 +29,6 @@ jobs:
     timeout-minutes: 17
     runs-on: self-hosted
     name: "Codacy Security Scan with Publishing"
-    depends_on: code-security-scan-with-codeql
 
     strategy:
       fail-fast: false
