@@ -12,8 +12,8 @@ permissions:
   id-token: write
 
 concurrency:
-  group: "pages"
-  cancel-in-progress: false
+  group: "${{ github.workflow }}"
+  cancel-in-progress: true
 
 jobs:
   build-jekyll-site-from-site:
@@ -23,6 +23,9 @@ jobs:
 
     env:
       BUNDLE_PATH: vendor/bundle
+
+    strategy:
+      fail-fast: true
 
     steps:
       - name: "Checkout repository source code"
@@ -54,6 +57,9 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+
+    strategy:
+      fail-fast: true
 
     steps:
       - name: "Deploy uploaded Artifact to GitHub Pages"

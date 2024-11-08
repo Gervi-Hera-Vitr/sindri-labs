@@ -6,14 +6,21 @@ on:
   issues:
   workflow_dispatch:
 
+permissions:
+  issues: write
+  pull-requests: write
+
+concurrency:
+  group: "${{ github.workflow }}"
+  cancel-in-progress: true
+
 jobs:
 
   first-time-user-greeting:
     runs-on: self-hosted
     timeout-minutes: 1
-    permissions:
-      issues: write
-      pull-requests: write
+    strategy:
+      fail-fast: true
 
     steps:
 

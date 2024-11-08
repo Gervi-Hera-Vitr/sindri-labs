@@ -5,19 +5,27 @@ on:
   push:
   workflow_dispatch:
 
+permissions:
+  contents: read
+  discussions: write
+  issues: write
+  pull-requests: write
+  actions: read
+  statuses: read
+
+concurrency:
+  group: "${{ github.workflow }}"
+  cancel-in-progress: true
+
+
 jobs:
   build-while-introspecting-host-runtime-environment:
     timeout-minutes: 5
     runs-on: self-hosted
     name: "Build while Introspecting Host Runtime Environment on Self-Hosted Runners"
 
-    permissions:
-      contents: read
-      discussions: write
-      issues: write
-      pull-requests: write
-      actions: read
-      statuses: read
+    strategy:
+      fail-fast: false
 
     steps:
 

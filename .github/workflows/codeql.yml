@@ -10,18 +10,22 @@ on:
     - cron: '32 2 * * 3'
   workflow_dispatch:
 
+permissions:
+  security-events: write
+  packages: read
+  actions: read
+  contents: read
+
+concurrency:
+  group: "${{ github.workflow }}"
+  cancel-in-progress: true
+
 jobs:
 
   code-security-scan-with-codeql:
     timeout-minutes: 7
     runs-on: self-hosted
     name: "CodeQL Quality Scan with Outcome Publishing"
-
-    permissions:
-      security-events: write
-      packages: read
-      actions: read
-      contents: read
 
     strategy:
       fail-fast: false
@@ -36,7 +40,7 @@ jobs:
     steps:
       - name: "Checkout repository source code"
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
-        timout-minutes: 1
+        timeout-minutes: 1
 
       - name: "Run the Agent Environment introspection script"
         run: zsh ./.run/introspect.sh

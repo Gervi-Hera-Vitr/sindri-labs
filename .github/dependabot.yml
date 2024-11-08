@@ -13,3 +13,13 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
+
+  - package-ecosystem: "gradle"
+    directory: "/lab-ux-ktor"
+    schedule:
+      interval: "daily"
+
+  - package-ecosystem: "bundler"
+    directory: "/site"
+    schedule:
+      interval: "daily"

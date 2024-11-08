@@ -1,15 +1,24 @@
 name: "Prune Caches by Branch"
+run-name: "Prune Caches by Branch on [${{ github.repository }}] @ ${{ github.ref }} by ${{ github.actor }} with ${{ github.event_name }}"
+
 on:
   pull_request:
     types:
       - closed
   workflow_dispatch:
 
+concurrency:
+  group: "${{ github.workflow }}"
+  cancel-in-progress: true
+
 jobs:
   cleanup-stale-caches:
     timeout-minutes: 1
     runs-on: self-hosted
     name: "Prune stale caches if used  over GH Services"
+
+    strategy:
+      fail-fast: true
 
     steps:
       - name: "Cleanup stale caches"

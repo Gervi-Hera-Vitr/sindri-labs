@@ -6,6 +6,10 @@ on:
   pull_request_target:
   workflow_dispatch:
 
+concurrency:
+  group: "${{ github.workflow }}"
+  cancel-in-progress: true
+
 jobs:
   label-pull-request-iaw-labeling-guidelines:
     timeout-minutes: 1
@@ -15,6 +19,9 @@ jobs:
     permissions:
       contents: read
       pull-requests: write
+
+    strategy:
+      fail-fast: true
 
     steps:
       - name: "Label Pull Request pushing labels to GitHub Pull Request"
