@@ -2,6 +2,7 @@ name: "Prune Caches by Branch"
 run-name: "Prune Caches by Branch on [${{ github.repository }}] @ ${{ github.ref }} by ${{ github.actor }} with ${{ github.event_name }}"
 
 on:
+  workflows: [ codacy-security-scan-with-codacy ]
   pull_request:
     types:
       - closed
@@ -17,7 +18,7 @@ jobs:
     runs-on: self-hosted
     name: "Prune stale caches if used  over GH Services"
 
-    depends_on: codacy-security-scan-with-codacy
+    needs:
     strategy:
       fail-fast: true
       matrix:
