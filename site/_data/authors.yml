@@ -1,0 +1,38 @@
+Ominous:
+  name: "Ominous Dude"
+  bio: "I am Anominous and I love gaming."
+  avatar: "/assets/images/AnominousDudeAvatar.png"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://github.com/OminousDude"
+    - label: "Discord"
+      icon: "fab fa-fw fa-discord"
+      url: "OminousDude#3593"
+
+Lugaru:
+  name: "Captain Lugaru"
+  bio: "I am a coding Viking Bunny. In 2021 I won internship at ASE Inc."
+  avatar: "/assets/images/72951616.png"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:72951616+CaptainLugaru@users.noreply.github.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://github.com/CaptainLugaru"
+
+R!dd13r:
+  name: "R!dd13r"
+  bio: 'Kotlin❤️Scala😜Python🤘Go🚀'
+  avatar: "/assets/images/12781006.jpeg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:12781006+rdd13r@users.noreply.github.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://rdd13r.github.io"

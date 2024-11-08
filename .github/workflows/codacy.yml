@@ -28,9 +28,13 @@ jobs:
     timeout-minutes: 17
     runs-on: self-hosted
     name: "Codacy Security Scan with Publishing"
+    depends_on: code-security-scan-with-codeql
 
     strategy:
       fail-fast: false
+      matrix:
+        include:
+          - restriction: "codacy"
 
     steps:
 

@@ -26,6 +26,9 @@ jobs:
 
     strategy:
       fail-fast: false
+      matrix:
+        include:
+          - restriction: "codacy"
 
     steps:
 

@@ -27,12 +27,15 @@ jobs:
     runs-on: self-hosted
     name: "CodeQL Quality Scan with Outcome Publishing"
 
+    depends_on: build-while-introspecting-host-runtime-environment
+
     strategy:
       fail-fast: false
       matrix:
         include:
           - language: java-kotlin
             build-mode: autobuild
+          - restriction: "codacy"
 
           # https://docs.github.com/en/code-security/code-scanning/creating-an-advanced-setup-for-code-scanning/customizing-your-advanced-setup-for-code-scanning
           # https://docs.github.com/en/code-security/code-scanning/creating-an-advanced-setup-for-code-scanning/codeql-code-scanning-for-compiled-languages
