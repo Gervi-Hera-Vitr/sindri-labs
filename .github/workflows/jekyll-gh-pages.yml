@@ -50,7 +50,7 @@ jobs:
         with:
           path: ./_site
 
-  deploy:
+  deploy-jekyll-site-to-github-pages:
     timeout-minutes: 3
     runs-on: self-hosted
     needs: build-jekyll-site-from-site

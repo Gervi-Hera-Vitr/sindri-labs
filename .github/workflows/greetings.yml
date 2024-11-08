@@ -17,10 +17,15 @@ concurrency:
 jobs:
 
   first-time-user-greeting:
+
+    name: "Welcoming new contributors!"
     runs-on: self-hosted
     timeout-minutes: 1
     strategy:
       fail-fast: true
+      matrix:
+        include:
+          - node: 22
 
     steps:
 

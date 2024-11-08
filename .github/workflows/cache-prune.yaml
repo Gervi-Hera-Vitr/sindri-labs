@@ -17,8 +17,15 @@ jobs:
     runs-on: self-hosted
     name: "Prune stale caches if used  over GH Services"
 
+    depends_on: codacy-security-scan-with-codacy
     strategy:
       fail-fast: true
+      matrix:
+        include:
+          - restriction: "codacy"
+          - REPO: "Gervi-Hera-Vitr/google-ai-labs"
+            BRANCH: "main"
+            CACHE: "tom"
 
     steps:
       - name: "Cleanup stale caches"
