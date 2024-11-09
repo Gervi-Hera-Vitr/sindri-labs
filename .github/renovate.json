@@ -3,11 +3,16 @@
     "config:recommended"
   ],
   "schedule": [
-    "after 10pm on Sunday"
+    "every weekday",
+    "every weekend"
   ],
   "automerge": false,
   "labels": [
-    "dependencies"
+    "dependencies",
+    "renovate"
+  ],
+  "assignees": [
+    "rdd13r"
   ],
   "branchPrefix": "renovate/",
   "packageRules": [
