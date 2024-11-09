@@ -1,0 +1,34 @@
+name: "Prune Actions by CLI"
+run-name: "Prune Old Action Runs on [${{ github.repository }}] @ ${{ github.ref }} by ${{ github.actor }} with ${{ github.event_name }}"
+
+on:
+  push:
+  workflow_dispatch:
+
+concurrency:
+  group: "${{ github.workflow }}"
+  cancel-in-progress: true
+
+jobs:
+  cleanup-old-action-runs-leaving-one:
+    timeout-minutes: 3
+    runs-on: self-hosted
+    name: "Prune old actions leaving one"
+
+    strategy:
+      fail-fast: true
+      matrix:
+        include:
+          - restriction: "prune"
+
+    steps:
+
+      - name: "Checkout repository source code"
+        uses: actions/checkout@3b9b8c884f6b4bb4d5be2779c26374abadae0871
+        timeout-minutes: 1
+
+      - name: "Cleanup old action runs leaving the last one for each workflow"
+        run: ./util/src/main/sh/clean-runs.sh
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
