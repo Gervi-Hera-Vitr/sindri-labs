@@ -57,7 +57,7 @@ jupyterlab_server==2.27.3
 keras==2.15.0
 kiwisolver==1.4.5
 MarkupSafe==2.1.5
-matplotlib==3.7.3
+matplotlib==3.9.2
 matplotlib-inline==0.1.7
 mistune==3.0.2
 munkres==1.1.4
