@@ -26,10 +26,6 @@ jobs:
     runs-on: self-hosted
     name: "CodeQL Quality Scan with Outcome Publishing"
 
-    defaults:
-      run:
-        working-directory: ./lab-ux-ktor
-
     strategy:
       fail-fast: false
       matrix:
@@ -69,6 +65,7 @@ jobs:
       - name: "Initialize CodeQL Quality Analysis Action"
         uses: github/codeql-action/init@acb9cb18eec7e3a113ef83cff0be91e75cfd9526
         timeout-minutes: 4
+        working-directory: ./lab-ux-ktor
         with:
           languages: ${{ matrix.language }}
           build-mode: ${{ matrix.build-mode }}
@@ -85,7 +82,9 @@ jobs:
       - name: "Perform CodeQL Quality Analysis Action"
         uses: github/codeql-action/analyze@acb9cb18eec7e3a113ef83cff0be91e75cfd9526
         timeout-minutes: 5
+        working-directory: ./lab-ux-ktor
         with:
           category: "/language:${{matrix.language}}"
+
 
 # https://docs.github.com/en/code-security
