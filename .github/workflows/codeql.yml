@@ -28,7 +28,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: /lab-ux-ktor
+        working-directory: ./lab-ux-ktor
 
     strategy:
       fail-fast: false
