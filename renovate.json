@@ -1,12 +1,21 @@
 {
-  "extends": ["config:base"],
-  "schedule": ["after 10pm on Sunday"],
+  "extends": [
+    "config:recommended"
+  ],
+  "schedule": [
+    "after 10pm on Sunday"
+  ],
   "automerge": false,
-  "labels": ["dependencies"],
+  "labels": [
+    "dependencies"
+  ],
   "branchPrefix": "renovate/",
   "packageRules": [
     {
-      "matchDepTypes": ["dependencies", "devDependencies"],
+      "matchDepTypes": [
+        "dependencies",
+        "devDependencies"
+      ],
       "groupName": "all dependencies",
       "automerge": false
     }
