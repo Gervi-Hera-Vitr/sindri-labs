@@ -25,7 +25,10 @@ jobs:
     timeout-minutes: 7
     runs-on: self-hosted
     name: "CodeQL Quality Scan with Outcome Publishing"
-    working-directory: /lab-ux-ktor
+
+    defaults:
+      run:
+        working-directory: /lab-ux-ktor
 
     strategy:
       fail-fast: false
