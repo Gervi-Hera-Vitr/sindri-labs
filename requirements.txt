@@ -70,7 +70,7 @@ notebook_shim==0.2.4
 numpy==1.26.4
 overrides==7.7.0
 packaging==24.2
-pandas==2.0.3
+pandas==2.2.3
 pandocfilters==1.5.1
 parso==0.8.4
 patsy==0.5.6
