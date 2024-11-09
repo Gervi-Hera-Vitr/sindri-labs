@@ -65,12 +65,10 @@ jobs:
       - name: "Initialize CodeQL Quality Analysis Action"
         uses: github/codeql-action/init@acb9cb18eec7e3a113ef83cff0be91e75cfd9526
         timeout-minutes: 4
-        defaults:
-          run:
-            working-directory: ./lab-ux-ktor
         with:
           languages: ${{ matrix.language }}
           build-mode: ${{ matrix.build-mode }}
+          source-root: ./lab-ux-ktor
           #  https://docs.github.com/en/code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/configuring-code-scanning#using-queries-in-ql-packs
 
       - name: "Manual CodeQL Quality Analysis Action is not expected!"
@@ -84,11 +82,7 @@ jobs:
       - name: "Perform CodeQL Quality Analysis Action"
         uses: github/codeql-action/analyze@acb9cb18eec7e3a113ef83cff0be91e75cfd9526
         timeout-minutes: 5
-        defaults:
-          run:
-            working-directory: ./lab-ux-ktor
         with:
           category: "/language:${{matrix.language}}"
-
 
 # https://docs.github.com/en/code-security
