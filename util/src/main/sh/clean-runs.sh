@@ -111,7 +111,7 @@ for workflow_row in "${workflows[@]}"; do
     for run_id in "${run_ids[@]}"; do
       if [[ -z "${run_id// }" ]]; then
         echo -e "\tAll good:\t Workflow $workflow_name has no runs to clean up!"
-      esle
+      else
         echo "Deleting run ID: $run_id for workflow: $workflow_name"
         gh run delete "$run_id"
       fi
