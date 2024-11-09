@@ -84,7 +84,7 @@ plotly==5.24.1
 pooch==1.8.2
 prometheus_client==0.21.0
 prompt_toolkit==3.0.48
-psutil==6.0.0
+psutil==6.1.0
 ptyprocess==0.7.0
 pure_eval==0.2.3
 pycparser==2.22
