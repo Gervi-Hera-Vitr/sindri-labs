@@ -75,8 +75,8 @@ EOF
 
 fi
 
-#workflows_text=$(gh workflow list --json id,name,path,state -q '.[] | [ .id, .name, .path, .state ] | @csv')
-workflows_text=$(gh workflow list --json id,name -q '.[] | select(.name != "Dependabot Updates") | [.id, .name] | @csv')
+workflows_text=$(gh workflow list --json id,name,path,state -q '.[] | [ .id, .name, .path, .state ] | @csv')
+#workflows_text=$(gh workflow list --json id,name -q '.[] | select(.name != "Dependabot Updates") | [.id, .name] | @csv')
 
 cat <<EOF
 =========================================
