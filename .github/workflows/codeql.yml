@@ -2,7 +2,6 @@ name: "CodeQL Quality Scan" # https://github.com/github/codeql-action/
 run-name: "CodeQL Quality Scan on [${{ github.repository }}] @ ${{ github.ref }} by ${{ github.actor }} with ${{ github.event_name }}"
 
 on:
-  workflow_run: [ build-while-introspecting-host-runtime-environment ]
   push:
     branches: [ "main" ]
   pull_request:
