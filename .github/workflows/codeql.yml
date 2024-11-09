@@ -3,7 +3,6 @@ run-name: "CodeQL Quality Scan on [${{ github.repository }}] @ ${{ github.ref }}
 
 on:
   push:
-    branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
   schedule:
