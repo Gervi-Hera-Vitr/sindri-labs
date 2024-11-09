@@ -68,7 +68,7 @@ jobs:
         with:
           languages: ${{ matrix.language }}
           build-mode: ${{ matrix.build-mode }}
-          source-root: ./lab-ux-ktor
+          source-root: lab-ux-ktor
           #  https://docs.github.com/en/code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/configuring-code-scanning#using-queries-in-ql-packs
 
       - name: "Manual CodeQL Quality Analysis Action is not expected!"
