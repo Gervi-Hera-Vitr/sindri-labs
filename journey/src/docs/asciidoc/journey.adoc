@@ -26,6 +26,29 @@ ifdef::env-name[:relfilesuffix: .adoc]
 :link-ml-foundations: https://youtube.com/playlist?list=PLOU2XLYxmsII9mzQ-Xxug4l2o04JBrkLV&si=UVMbbOIHr0OtWruB
 :link-ml-crash-course-home: https://developers.google.com/machine-learning/crash-course
 :link-ml-crash-course-linear-regression: {link-ml-crash-course-home}/linear-regression
+:link-google-ml-glossary: https://developers.google.com/machine-learning/glossary
+:link-reference-numpy: {link-google-ml-glossary}/#numpy
+:link-reference-pandas: {link-google-ml-glossary}/#pandas
+:link-reference-scipy: {link-google-ml-glossary}/#scipy
+:link-reference-sklearn: {link-google-ml-glossary}/#scikit-learn
+:link-reference-tensorflow: {link-google-ml-glossary}/#tensorflow
+:link-reference-pytorch: {link-google-ml-glossary}/#pytorch
+:link-reference-keras: {link-google-ml-glossary}/#keras
+:link-reference-matplotlib: {link-google-ml-glossary}/#matplotlib
+:link-reference-seaborn: {link-google-ml-glossary}/#seaborn
+:link-reference-plotly: {link-google-ml-glossary}/#plotly
+:link-reference-jupyter: {link-google-ml-glossary}/#jupyter
+:link-reference-ipywidgets: {link-google-ml-glossary}/#ipywidgets
+:link-reference-tensorboard: {link-google-ml-glossary}/#tensorboard
+:link-reference-mlflow: {link-google-ml-glossary}/#mlflow
+:link-reference-sagemaker: {link-google-ml-glossary}/#sagemaker
+:link-guide-pandas-starting: https://pandas.pydata.org/docs/getting_started/index.html
+:link-guide-pandas-10-minutes: https://pandas.pydata.org/docs/user_guide/10min.html
+:link-ref-pandas-home: https://pandas.pydata.org/docs/reference
+:link-ref-pandas-index: {link-ref-pandas-home}/index.html
+:link-ref-pandas-api": {link-ref-pandas-home}/api
+:link-ref-pandas-series: {link-ref-pandas-api}/pandas.Series.html#pandas.Series
+:link-ref-pandas-dataframe: {link-ref-pandas-api}/pandas.DataFrame.html#pandas.DataFrame
 
 The traditional scene approach to learning and teaching anything is one) aggressively hands-on,
 two) teachings and learning at the same time, and three) no grouping but pairing instead.
@@ -65,4 +88,22 @@ link:{model-linear-regression}[Linear Regression Local Notebooks] - use DataSpel
 === ML 101.2: Machine Learning Crash Course: Data Structures
 
 Now it's time to break down the concepts we'd just used in the Linear Regression sheet.
+Within the sheet, documentation exposes some crucially important links.
+Before we can begin to understand how the data is retained and presented to the model,
+we need to understand how data is structured.
+And for that we will take a lookat two paramount libraries that do so for us:
 
+- {link-reference-numpy}[Numpy]
+- {link-reference-pandas}[Pandas]
+
+==== Assignment: Pandas
+
+* {link-guide-pandas-starting}[Pandas: Getting Started] - a hands-on tour of Pandas data structures;
+* {link-guide-pandas-10-minutes}[Pandas: 10 Minutes to Pandas] - a 10 minutes tour of Pandas data structures.
+
+==== Testing
+
+- What is {link-ref-pandas-series}[Series]?
+- What is {link-ref-pandas-dataframe}[DataFrame]?
+
+See {link-ref-pandas-index}[Pandas Reference]
