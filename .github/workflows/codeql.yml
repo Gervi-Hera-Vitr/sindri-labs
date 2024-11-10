@@ -61,6 +61,7 @@ jobs:
         timeout-minutes: 2
 
       - name: "Initialize CodeQL Quality Analysis Action"
+        if: always()
         uses: github/codeql-action/init@acb9cb18eec7e3a113ef83cff0be91e75cfd9526
         timeout-minutes: 4
         with:
@@ -78,6 +79,7 @@ jobs:
         # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idstepsrun
 
       - name: "Perform CodeQL Quality Analysis Action"
+        if: always()
         uses: github/codeql-action/analyze@acb9cb18eec7e3a113ef83cff0be91e75cfd9526
         timeout-minutes: 5
         with:
