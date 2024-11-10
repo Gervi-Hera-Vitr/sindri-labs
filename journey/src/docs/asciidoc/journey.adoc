@@ -16,6 +16,53 @@ v1.0.0, Saturday 9th November 2024 07:47 AM EST
 :toc-title: Curriculum
 :keywords: AI ML Learning Journey
 :imagesdir: ../resources/images
+:project-home: ../../../..
+:model-linear-regression: {project-home}/labs/google/001-linear-regression-taxi/
 ifdef::env-name[:relfilesuffix: .adoc]
+:link-rdd13r-blog: https://medium.asei.systems/
+:link-rdd13r-blog-ai-2024: https://medium.asei.systems/ai-in-2024-the-future-is-f65a5401f8fc
+:link-ai-google-build: https://ai.google/build
+:link-ml-4-everyone: https://www.youtube.com/playlist?list=PLOU2XLYxmsIK6HyKuHTRDCMxkOPFB2vfp
+:link-ml-foundations: https://youtube.com/playlist?list=PLOU2XLYxmsII9mzQ-Xxug4l2o04JBrkLV&si=UVMbbOIHr0OtWruB
+:link-ml-crash-course-home: https://developers.google.com/machine-learning/crash-course
+:link-ml-crash-course-linear-regression: {link-ml-crash-course-home}/linear-regression
 
-A placeholder to a Curriculum in Artificial Intelligence.
+The traditional scene approach to learning and teaching anything is one) aggressively hands-on,
+two) teachings and learning at the same time, and three) no grouping but pairing instead.
+Point _two_ means that there are no teachers in the traditional sense,
+no lectures, no telling and showing while others observe.
+A mentor always joins one champion at a time to learn and discover together.
+Thus, Socratic mentorship mindset is instilled from the very beginning,
+every champion is a student and a teacher at the same time.
+But most importantly, the destination between the teacher and the student
+SHOULD NEVER BE MADE - it's a taboo.
+_On the Scene *everyone* is a peer to everyone else._
+We learn together!
+
+== ML 101: Machine Learning Basics
+
+Before we dive into the world of Machine Learning, we need to learn the fundamentals.
+
+=== ML 101.1: Machine Learning Crash Course: Linear Regression
+
+The idea is to wet the appetite for learning with a Linera Regression example.
+
+==== Assignment: Linear Regression
+
+* {link-ai-google-build}[Google Onboarding Community] "Google AI Build":
+** {link-ml-4-everyone}[AI for Everyone] - a perfect introductory video;
+** {link-ml-foundations}[*Machine Learning Foundations*] <-#first assignment video#;
+** https://developers.google.com/[*_Google Developers_*] <= *Important*; _join this community_!
+* We start here =>{link-ml-crash-course-home}[*Machine Learning Crash Course*] (home)
+** *ASSIGNMENT*: {link-ml-crash-course-linear-regression}[*Linear Regression*]
+
+Most of the information is taken from {link-rdd13r-blog}[_rdd13r's blog_] article {link-rdd13r-blog-ai-2024}[AI in 2024]
+
+==== Local Model
+
+link:{model-linear-regression}[Linear Regression Local Notebooks] - use DataSpell to run!
+
+=== ML 101.2: Machine Learning Crash Course: Data Structures
+
+Now it's time to break down the concepts we'd just used in the Linear Regression sheet.
+
