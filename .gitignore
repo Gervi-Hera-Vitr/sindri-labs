@@ -121,6 +121,7 @@ xcuserdata/
 
 ### JetBrains template
 .name
+.idea
 # User-specific stuff
 **/workspace.xml
 **/kotlinc.xml
