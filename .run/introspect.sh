@@ -1,5 +1,5 @@
-#!/usr/bin/env bash
-set -o pipefail
+#!/usr/bin/env zsh
+setopt RCS LOGIN
 
 _outside_actions=false
 
