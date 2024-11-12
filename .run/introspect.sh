@@ -59,8 +59,7 @@ else
   echo -e "| Gradle 8.10: \t\t\tFAILED"
 fi
 echo "| ------------------------------------------------------------|"
+echo "| File contents:                                              |"
 echo "| ${GITHUB_ENV}"
 echo "==============================================================="
-echo -e "File contents:\n"
-cat "$GITHUB_ENV"
 exit 0
