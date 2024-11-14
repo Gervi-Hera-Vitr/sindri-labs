@@ -39,6 +39,7 @@ JAVA_VERSION_INSTALLED=$(java -version 2>&1 | grep -o '21\.0' | head -1)
 echo -e "| Java version installed:   \t$JAVA_VERSION_INSTALLED"
 if [[ $JAVA_VERSION_INSTALLED =~ 21.0 ]]; then
   echo "java_correct=true" >> "$GITHUB_ENV"
+  echo "JAVA_HOME=$JAVA_HOME" >> "$GITHUB_ENV"
   echo -e "| Java 21: \t\t\tOK"
 else
   echo "java_correct=false" >> "$GITHUB_ENV"
@@ -51,6 +52,7 @@ GRADLE_VERSION_INSTALLED=$(gradle --version 2>&1 | grep -o '8\.10')
 echo -e "| Gradle version installed: \t$GRADLE_VERSION_INSTALLED"
 if [[ $GRADLE_VERSION_INSTALLED =~ 8.10 ]]; then
   echo "gradle_correct=true" >> "$GITHUB_ENV"
+  echo "GRADLE_HOME=$GRADLE_HOME" >> "$GITHUB_ENV"
   echo -e "| Gradle 8.10: \t\t\tOK"
 else
   echo "gradle_correct=false" >> "$GITHUB_ENV"
