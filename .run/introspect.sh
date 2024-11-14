@@ -6,8 +6,6 @@ source "$HOME/.zshenv"
  # shellcheck source=SDKMAN_INIT
 [[ -s "$SDKMAN_INIT" ]] && source "$SDKMAN_INIT"
 
-_outside_actions=false
-
 if [ -z "${GITHUB_ENV+xxx}" ]; then
   echo -e "WARNING: GITHUB_ENV !! file !! is NOT set!\n... exporting.";
   export GITHUB_ENV="";
