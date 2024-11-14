@@ -67,6 +67,5 @@ jobs:
             ${{ runner.os }}-gradle-
 
       - name: "Inspect Dependency Deprecations with Gradle using `dependencyUpdates` from Ben Manes Gradle Plugin"
-        working-directory: lab-ux-ktor
         timeout-minutes: 2
-        run: ./gradlew dependencyUpdates
+        run: gradle dependencyUpdates
