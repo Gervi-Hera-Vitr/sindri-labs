@@ -61,7 +61,7 @@ jobs:
       # Conditional Gradle setup
       - name: "Setup transient Gradle 8.10 if instructed by the Agent Environment Scanner"
         if: env.gradle_correct != 'true'
-        uses: gradle/actions/setup-gradle@707359876a764dbcdb9da0b0ed08291818310c3d
+        uses: gradle/actions/setup-gradle@1e2142185e4f34e92f6863dac9813f2f6072507a
         timeout-minutes: 2
 
       - name: "Initialize CodeQL Quality Analysis Action"
