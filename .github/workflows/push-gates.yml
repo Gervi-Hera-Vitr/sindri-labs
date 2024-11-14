@@ -68,4 +68,4 @@ jobs:
 
       - name: "Inspect Dependency Deprecations with Gradle using `dependencyUpdates` from Ben Manes Gradle Plugin"
         timeout-minutes: 2
-        run: gradle dependencyUpdates
+        run: zsh ./.run/dependencies.sh
