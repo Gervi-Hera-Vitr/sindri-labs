@@ -76,7 +76,7 @@ EOF
 fi
 
 #workflows_text=$(gh workflow list --json id,name,path,state -q '.[] | [ .id, .name, .path, .state ] | @csv')
-workflows_text=$(gh workflow list --json id,name -q '.[] | select(.name != "Dependabot Updates") | [.id, .name] | @csv')
+workflows_text=$(gh workflow list --json id,name -q '.[] | select(.name != "Local Build Only") | [.id, .name] | @csv')
 
 cat <<EOF
 =========================================
@@ -96,18 +96,26 @@ for workflow_row in "${workflows[@]}"; do
   workflow_id=${workflow[1]}
   workflow_name=${workflow[2]}
 
-  echo -e "\n\nProcessing workflow: $workflow_name (ID: $workflow_id)"
+  if [[ -z "${workflow_id// }" ]]; then
+    echo -e "\tAll good!"
+  else
+    echo -e "\n\nProcessing workflow: $workflow_name (ID: $workflow_id)"
 
-  # Get all runs for this workflow, sorted by created date descending, skipping the first run
-  # shellcheck disable=SC2034
-  run_ids_text=$(gh run list --workflow="$workflow_id" --json databaseId --limit 500 -q '.[1:] | .[].databaseId')
-  # shellcheck disable=SC2296
-  run_ids=("${(f)run_ids_text}")
+    # Get all runs for this workflow, sorted by created date descending, skipping the first run
+    # shellcheck disable=SC2034
+    run_ids_text=$(gh run list --workflow="$workflow_id" --json databaseId --limit 500 -q '.[1:] | .[].databaseId')
+    # shellcheck disable=SC2296
+    run_ids=("${(f)run_ids_text}")
 
-  # Delete all but the latest run
-  for run_id in "${run_ids[@]}"; do
-    echo "Deleting run ID: $run_id for workflow: $workflow_name"
-    gh run delete "$run_id"
-  done
+    # Delete all but the latest run
+    for run_id in "${run_ids[@]}"; do
+      if [[ -z "${run_id// }" ]]; then
+        echo -e "\tAll good:\t Workflow $workflow_name has no runs to clean up!"
+      else
+        echo "Deleting run ID: $run_id for workflow: $workflow_name"
+        gh run delete "$run_id"
+      fi
+    done
+  fi
 done
 

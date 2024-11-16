@@ -1,0 +1,23 @@
+= Learning Journey: Artificial Intelligence
+R!dd13r rdd13r <12781006+rdd13r@users.noreply.github.com>
+v1.0.0, Saturday 9th November 2024 07:47 AM EST
+:description: Munchkins learning journey in Ai as part of Mímir homeschooling.
+:sectnums:
+:sectanchors:
+:sectlinks:
+:icons: font
+:tip-caption: 💡️
+:note-caption: ℹ️
+:important-caption: ❗
+:caution-caption: 🔥
+:warning-caption: ⚠️
+:toc: preamble
+:toclevels: 2
+:toc-title: Learning Journey
+:keywords: AI ML Learning Journey
+:imagesdir: ./src/docs/resources/images
+ifdef::env-name[:relfilesuffix: .adoc]
+
+A placeholder to a learning journey in Artificial Intelligence.
+
+See curriculum and learning plan at link:./src/docs/asciidoc/journey.adoc[]

@@ -3,9 +3,7 @@ run-name: "Codacy Security Scan on [${{ github.repository }}] @ ${{ github.ref }
 # https://app.codacy.com/organizations/gh/Gervi-Hera-Vitr/dashboard
 
 on:
-  workflow_run: [ code-security-scan-with-codeql ]
   push:
-    branches: [ "main" ]
   pull_request:
     # The branches below must be a subset of the branches above
     branches: [ "main" ]

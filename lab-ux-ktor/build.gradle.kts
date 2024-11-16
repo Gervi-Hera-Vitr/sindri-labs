@@ -1,13 +1,14 @@
-import com.github.benmanes.gradle.versions.updates.DependencyUpdatesTask
+import org.slf4j.LoggerFactory
+
+private val log by lazy { LoggerFactory.getLogger("ai.gervi.hera.vitr.journey.build") }
+
+log.warn("AI/ML ktor UX build started.")
 
 val applicationMainClass: String by project
 
 val versionOfLogback: String by project
 
 plugins {
-    id("com.github.ben-manes.versions")
-
-    kotlin("jvm")
     id("io.ktor.plugin")
     id("org.jetbrains.kotlin.plugin.serialization")
 }
@@ -17,10 +18,6 @@ application {
 
     val isDevelopment: Boolean = project.ext.has("development")
     applicationDefaultJvmArgs = listOf("-Dio.ktor.development=$isDevelopment")
-}
-
-repositories {
-    mavenCentral()
 }
 
 dependencies {
@@ -39,11 +36,4 @@ dependencies {
     implementation("ch.qos.logback:logback-classic:$versionOfLogback")
     testImplementation("io.ktor:ktor-server-test-host-jvm")
     testImplementation(kotlin("test-junit"))
-}
-
-tasks.named<DependencyUpdatesTask>("dependencyUpdates").configure {
-    checkForGradleUpdate = true
-    outputFormatter = "json"
-    outputDir = "build/dependencyUpdates"
-    reportfileName = "report"
 }

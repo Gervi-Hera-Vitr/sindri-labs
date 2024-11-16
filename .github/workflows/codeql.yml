@@ -2,9 +2,7 @@ name: "CodeQL Quality Scan" # https://github.com/github/codeql-action/
 run-name: "CodeQL Quality Scan on [${{ github.repository }}] @ ${{ github.ref }} by ${{ github.actor }} with ${{ github.event_name }}"
 
 on:
-  workflow_run: [ build-while-introspecting-host-runtime-environment ]
   push:
-    branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
   schedule:
@@ -33,8 +31,7 @@ jobs:
       matrix:
         include:
           - language: java-kotlin
-            build-mode: autobuild
-          - restriction: "codacy"
+            build-mode: manual
 
           # https://docs.github.com/en/code-security/code-scanning/creating-an-advanced-setup-for-code-scanning/customizing-your-advanced-setup-for-code-scanning
           # https://docs.github.com/en/code-security/code-scanning/creating-an-advanced-setup-for-code-scanning/codeql-code-scanning-for-compiled-languages
@@ -75,9 +72,7 @@ jobs:
       - name: "Manual CodeQL Quality Analysis Action is not expected!"
         if: matrix.build-mode == 'manual'
         shell: bash
-        run: |
-          echo '"manual" build is not expected!'
-          exit 1
+        run: gradle clean build test --no-daemon --info --scan --console=plain
         # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idstepsrun
 
       - name: "Perform CodeQL Quality Analysis Action"

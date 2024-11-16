@@ -1,0 +1,109 @@
+= Curriculum: Artificial Intelligence
+R!dd13r rdd13r <12781006+rdd13r@users.noreply.github.com>
+v1.0.0, Saturday 9th November 2024 07:47 AM EST
+:description: Munchkins' AI Curriculum.
+:sectnums:
+:sectanchors:
+:sectlinks:
+:icons: font
+:tip-caption: 💡️
+:note-caption: ℹ️
+:important-caption: ❗
+:caution-caption: 🔥
+:warning-caption: ⚠️
+:toc: preamble
+:toclevels: 3
+:toc-title: Curriculum
+:keywords: AI ML Learning Journey
+:imagesdir: ../resources/images
+:project-home: ../../../..
+:model-linear-regression: {project-home}/labs/google/001-linear-regression-taxi/
+ifdef::env-name[:relfilesuffix: .adoc]
+:link-rdd13r-blog: https://medium.asei.systems/
+:link-rdd13r-blog-ai-2024: https://medium.asei.systems/ai-in-2024-the-future-is-f65a5401f8fc
+:link-ai-google-build: https://ai.google/build
+:link-ml-4-everyone: https://www.youtube.com/playlist?list=PLOU2XLYxmsIK6HyKuHTRDCMxkOPFB2vfp
+:link-ml-foundations: https://youtube.com/playlist?list=PLOU2XLYxmsII9mzQ-Xxug4l2o04JBrkLV&si=UVMbbOIHr0OtWruB
+:link-ml-crash-course-home: https://developers.google.com/machine-learning/crash-course
+:link-ml-crash-course-linear-regression: {link-ml-crash-course-home}/linear-regression
+:link-google-ml-glossary: https://developers.google.com/machine-learning/glossary
+:link-reference-numpy: {link-google-ml-glossary}/#numpy
+:link-reference-pandas: {link-google-ml-glossary}/#pandas
+:link-reference-scipy: {link-google-ml-glossary}/#scipy
+:link-reference-sklearn: {link-google-ml-glossary}/#scikit-learn
+:link-reference-tensorflow: {link-google-ml-glossary}/#tensorflow
+:link-reference-pytorch: {link-google-ml-glossary}/#pytorch
+:link-reference-keras: {link-google-ml-glossary}/#keras
+:link-reference-matplotlib: {link-google-ml-glossary}/#matplotlib
+:link-reference-seaborn: {link-google-ml-glossary}/#seaborn
+:link-reference-plotly: {link-google-ml-glossary}/#plotly
+:link-reference-jupyter: {link-google-ml-glossary}/#jupyter
+:link-reference-ipywidgets: {link-google-ml-glossary}/#ipywidgets
+:link-reference-tensorboard: {link-google-ml-glossary}/#tensorboard
+:link-reference-mlflow: {link-google-ml-glossary}/#mlflow
+:link-reference-sagemaker: {link-google-ml-glossary}/#sagemaker
+:link-guide-pandas-starting: https://pandas.pydata.org/docs/getting_started/index.html
+:link-guide-pandas-10-minutes: https://pandas.pydata.org/docs/user_guide/10min.html
+:link-ref-pandas-home: https://pandas.pydata.org/docs/reference
+:link-ref-pandas-index: {link-ref-pandas-home}/index.html
+:link-ref-pandas-api": {link-ref-pandas-home}/api
+:link-ref-pandas-series: {link-ref-pandas-api}/pandas.Series.html#pandas.Series
+:link-ref-pandas-dataframe: {link-ref-pandas-api}/pandas.DataFrame.html#pandas.DataFrame
+
+The traditional scene approach to learning and teaching anything is one) aggressively hands-on,
+two) teachings and learning at the same time, and three) no grouping but pairing instead.
+Point _two_ means that there are no teachers in the traditional sense,
+no lectures, no telling and showing while others observe.
+A mentor always joins one champion at a time to learn and discover together.
+Thus, Socratic mentorship mindset is instilled from the very beginning,
+every champion is a student and a teacher at the same time.
+But most importantly, the destination between the teacher and the student
+SHOULD NEVER BE MADE - it's a taboo.
+_On the Scene *everyone* is a peer to everyone else._
+We learn together!
+
+== ML 101: Machine Learning Basics
+
+Before we dive into the world of Machine Learning, we need to learn the fundamentals.
+
+=== ML 101.1: Machine Learning Crash Course: Linear Regression
+
+The idea is to wet the appetite for learning with a Linera Regression example.
+
+==== Assignment: Linear Regression
+
+* {link-ai-google-build}[Google Onboarding Community] "Google AI Build":
+** {link-ml-4-everyone}[AI for Everyone] - a perfect introductory video;
+** {link-ml-foundations}[*Machine Learning Foundations*] <-#first assignment video#;
+** https://developers.google.com/[*_Google Developers_*] <= *Important*; _join this community_!
+* We start here =>{link-ml-crash-course-home}[*Machine Learning Crash Course*] (home)
+** *ASSIGNMENT*: {link-ml-crash-course-linear-regression}[*Linear Regression*]
+
+Most of the information is taken from {link-rdd13r-blog}[_rdd13r's blog_] article {link-rdd13r-blog-ai-2024}[AI in 2024]
+
+==== Local Model
+
+link:{model-linear-regression}[Linear Regression Local Notebooks] - use DataSpell to run!
+
+=== ML 101.2: Machine Learning Crash Course: Data Structures
+
+Now it's time to break down the concepts we'd just used in the Linear Regression sheet.
+Within the sheet, documentation exposes some crucially important links.
+Before we can begin to understand how the data is retained and presented to the model,
+we need to understand how data is structured.
+And for that we will take a lookat two paramount libraries that do so for us:
+
+- {link-reference-numpy}[Numpy]
+- {link-reference-pandas}[Pandas]
+
+==== Assignment: Pandas
+
+* {link-guide-pandas-starting}[Pandas: Getting Started] - a hands-on tour of Pandas data structures;
+* {link-guide-pandas-10-minutes}[Pandas: 10 Minutes to Pandas] - a 10 minutes tour of Pandas data structures.
+
+==== Testing
+
+- What is {link-ref-pandas-series}[Series]?
+- What is {link-ref-pandas-dataframe}[DataFrame]?
+
+See {link-ref-pandas-index}[Pandas Reference]

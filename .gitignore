@@ -51,6 +51,34 @@ Temporary Items
 *.tmp
 
 
+### Kotlin template
+# Compiled class file
+*.class
+# Log file
+*.log
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+replay_pid*
+
+
+### Gradle template
+.gradle
+**/build/
+!src/**/build/
+# Avoid ignoring Gradle wrapper
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+!libs.versions.toml
+
+
 ### Vim template
 # Swap
 [._]*.s[a-v][a-z]
@@ -92,18 +120,52 @@ xcuserdata/
 
 
 ### JetBrains template
-# https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
-# See `.idea` ignore configuration as well
-# File-based project format
-# *.iml - for ease of use with IDEs when manifest is not required
+.name
+.idea
+# User-specific stuff
+**/workspace.xml
+**/kotlinc.xml
+**/jarRepositories.xml
+**/tasks.xml
+**/vcs.xml
+**/misc.xml
+**/encodings.xml
+**/usage.statistics.xml
+**/shelf
+# AWS User-specific
+**/aws.xml
+# Generated files
+**/contentModel.xml
+# Sensitive or high-churn files
+**/dataSources/
+**/dataSources.ids
+**/dataSources.local.xml
+**/sqlDataSources.xml
+**/dynamic.xml
+**/uiDesigner.xml
+**/dbnavigator.xml
+# Gradle
+**/gradle.xml
+**/libraries
+**/modules
+# Auto-import
+*.iml
+artifacts
+compiler.xml
+modules.xml
+# Core
 *.iws
-# IntelliJ
 out/
 # Crashlytics plugin (for Android Studio and IntelliJ)
 com_crashlytics_export_strings.xml
 crashlytics.properties
 crashlytics-build.properties
 fabric.properties
+# Editor-based Rest Client
+!httpRequests
+# Local project styles
+!codeStyles
+
 
 ### rdd13r excludes
 workflows.csv
