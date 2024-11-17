@@ -20,6 +20,10 @@ jobs:
       contents: read
       pull-requests: write
 
+    defaults:
+      run:
+        shell: zsh -l {0}
+
     strategy:
       fail-fast: true
       matrix:

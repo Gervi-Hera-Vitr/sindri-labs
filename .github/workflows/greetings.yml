@@ -20,6 +20,11 @@ jobs:
     name: "Welcoming new contributors!"
     runs-on: self-hosted
     timeout-minutes: 1
+
+    defaults:
+      run:
+        shell: zsh -l {0}
+
     strategy:
       fail-fast: true
       matrix:

@@ -21,6 +21,10 @@ jobs:
     timeout-minutes: 2
     runs-on: self-hosted
     name: "Manage Stale Issues and Pull Requests IAW configured rules"
+
+    defaults:
+      run:
+        shell: zsh -l {0}
     
     strategy:
       fail-fast: true

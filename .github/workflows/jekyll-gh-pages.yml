@@ -21,6 +21,10 @@ jobs:
     runs-on: self-hosted
     name: "Build Jekyll Site from root subproject `site`"
 
+    defaults:
+      run:
+        shell: zsh -l {0}
+
     env:
       BUNDLE_PATH: vendor/bundle
 
@@ -57,6 +61,11 @@ jobs:
     timeout-minutes: 3
     runs-on: self-hosted
     needs: build-jekyll-site-from-site
+
+    defaults:
+      run:
+        shell: zsh -l {0}
+
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

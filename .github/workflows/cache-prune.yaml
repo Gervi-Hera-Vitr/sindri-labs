@@ -17,6 +17,10 @@ jobs:
     runs-on: self-hosted
     name: "Prune stale caches if used  over GH Services"
 
+    defaults:
+      run:
+        shell: zsh -l {0}
+
     strategy:
       fail-fast: true
       matrix:
