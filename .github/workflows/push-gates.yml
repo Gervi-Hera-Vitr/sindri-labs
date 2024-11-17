@@ -41,7 +41,7 @@ jobs:
         timeout-minutes: 1
 
       - name: "Run custom Introspection Script and Publish boolean values for `java_correct` and `gradle_correct` into GH Env"
-        run: zsh ./.run/introspect.sh
+        run: .run/introspect.sh
         timeout-minutes: 1
 
       # Conditional Java setup
@@ -72,4 +72,4 @@ jobs:
 
       - name: "Inspect Dependency Deprecations with Gradle using `dependencyUpdates` from Ben Manes Gradle Plugin"
         timeout-minutes: 2
-        run: zsh ./.run/dependencies.sh
+        run: .run/dependencies.sh

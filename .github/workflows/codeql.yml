@@ -37,12 +37,19 @@ jobs:
           # https://docs.github.com/en/code-security/code-scanning/creating-an-advanced-setup-for-code-scanning/codeql-code-scanning-for-compiled-languages
 
     steps:
+      - name: "Bootstrap the Agent Environment Login Shell and local Tools"
+        run: |
+          source ~/.zprofile
+          source ~/.zshenv
+          source ~/.zshrc
+          echo "$(which gradle)"
+
       - name: "Checkout repository source code"
         uses: actions/checkout@cbb722410c2e876e24abbe8de2cc27693e501dcb
         timeout-minutes: 1
 
       - name: "Run the Agent Environment introspection script"
-        run: zsh ./.run/introspect.sh
+        run: .run/introspect.sh
         timeout-minutes: 1
         
       # Conditional Java setup
