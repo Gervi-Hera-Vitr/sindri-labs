@@ -32,6 +32,6 @@ pluginManagement {
     }
 }
 
-include("lab-ux-ktor", "journey", "docs", "labs", "planning")
+include("lab-ux-ktor", "journey")
 
 rootProject.name = "google-ai-labs"

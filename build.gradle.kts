@@ -57,6 +57,7 @@ dependencies {
     implementation("io.github.oshai:kotlin-logging:$versionOfKotlinLogging")
     implementation("ch.qos.logback:logback-classic:$versionOfLogback")
 
+    testImplementation(platform(kotlin("bom")))
     testImplementation(kotlin("test"))
 }
 

@@ -9,8 +9,28 @@ val applicationMainClass: String by project
 val versionOfLogback: String by project
 
 plugins {
+    kotlin("jvm")
     id("io.ktor.plugin")
     id("org.jetbrains.kotlin.plugin.serialization")
+}
+
+configurations {
+    all {
+        resolutionStrategy {
+            dependencySubstitution {
+                substitute(module("org.apache.httpcomponents:httpcore"))
+                    .using(module("org.apache.httpcomponents:httpcore:4.4.15"))
+                substitute(module("org.jetbrains.kotlin:kotlin-stdlib-common"))
+                    .using(module("org.jetbrains.kotlin:kotlin-stdlib:2.0.21"))
+                substitute(module("org.jetbrains:annotations"))
+                    .using(module("org.jetbrains:annotations:23.0.0"))
+                substitute(module("org.jetbrains.kotlinx:kotlinx-io-core"))
+                    .using(module("org.jetbrains.kotlinx:kotlinx-io-core:0.5.4"))
+                substitute(module("org.jetbrains.kotlinx:kotlinx-serialization-core"))
+                    .using(module("org.jetbrains.kotlinx:kotlinx-serialization-core:1.7.3"))
+            }
+        }
+    }
 }
 
 application {
@@ -21,6 +41,8 @@ application {
 }
 
 dependencies {
+    implementation(platform(kotlin("bom")))
+    implementation(platform("io.ktor:ktor-bom"))
 
     implementation("io.ktor:ktor-server-auto-head-response-jvm")
     implementation("io.ktor:ktor-server-core-jvm")
