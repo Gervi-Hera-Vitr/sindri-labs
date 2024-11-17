@@ -24,6 +24,10 @@ jobs:
     
     strategy:
       fail-fast: true
+      matrix:
+        include:
+          - REPO: "Gervi-Hera-Vitr/google-ai-labs"
+            BRANCH: "main"
 
     steps:
       - name: "Run Stale Issues and Pull Requests checks in repository [${{ github.repository }}] by ${{ github.actor }}"

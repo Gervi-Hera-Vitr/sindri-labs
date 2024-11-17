@@ -24,6 +24,10 @@ jobs:
     runs-on: self-hosted
     name: "Build while Introspecting Host Runtime Environment on Self-Hosted Runners"
 
+    defaults:
+      run:
+        shell: zsh {0}
+
     strategy:
       fail-fast: false
       matrix:

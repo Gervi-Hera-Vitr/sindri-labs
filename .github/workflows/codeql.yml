@@ -3,10 +3,6 @@ run-name: "CodeQL Quality Scan on [${{ github.repository }}] @ ${{ github.ref }}
 
 on:
   push:
-  pull_request:
-    branches: [ "main" ]
-  schedule:
-    - cron: '32 2 * * 3'
   workflow_dispatch:
 
 permissions:
@@ -25,6 +21,10 @@ jobs:
     timeout-minutes: 7
     runs-on: self-hosted
     name: "CodeQL Quality Scan with Outcome Publishing"
+
+    defaults:
+      run:
+        shell: zsh {0}
 
     strategy:
       fail-fast: false
@@ -71,7 +71,6 @@ jobs:
 
       - name: "Manual CodeQL Quality Analysis Action is not expected!"
         if: matrix.build-mode == 'manual'
-        shell: bash -ileo pipefail {0}
         run: gradle clean build test --no-daemon --info --scan --console=plain
         # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idstepsrun
 
