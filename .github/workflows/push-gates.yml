@@ -2,9 +2,13 @@ name: "Build Host Environment Checks on Push"
 run-name: "Build Host Environment Checks and Introspection on each Push by ${{ github.actor }} with ${{ github.event_name }}"
 
 on:
-  push:
   workflow_dispatch:
   workflow_call:
+    inputs:
+      restriction:
+        required: true
+        type: string
+
 
 permissions:
   contents: read
@@ -33,7 +37,7 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - restriction: "codacy"
+          - restriction: "${{ inputs.restriction }}"
 
     steps:
 

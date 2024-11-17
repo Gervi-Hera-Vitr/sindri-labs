@@ -4,7 +4,6 @@ run-name: "Gervi Herdem Vitr Greeting for ${{ github.actor }} with ${{ github.ev
 on:
   issues:
   workflow_dispatch:
-  workflow_call:
 
 permissions:
   issues: write
