@@ -71,7 +71,7 @@ jobs:
 
       - name: "Manual CodeQL Quality Analysis Action is not expected!"
         if: matrix.build-mode == 'manual'
-        shell: bash
+        shell: bash -ileo pipefail {0}
         run: gradle clean build test --no-daemon --info --scan --console=plain
         # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idstepsrun
 
