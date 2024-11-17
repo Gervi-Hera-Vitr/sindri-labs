@@ -1,9 +1,6 @@
 #!/usr/bin/env zsh
-setopt RCS LOGIN
 
-source "$HOME/.zprofile"
-source "$HOME/.zshenv"
- # shellcheck source=SDKMAN_INIT
+# shellcheck source=SDKMAN_INIT
 [[ -s "$SDKMAN_INIT" ]] && source "$SDKMAN_INIT"
 
 if [ -z "${GITHUB_ENV+xxx}" ]; then
