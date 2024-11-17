@@ -3,7 +3,7 @@ run-name: "Jekyll Build and Deploy by ${{ github.actor }} with ${{ github.event_
 
 on:
   push:
-    branches-ignore: ["main"]
+    branches: ["main"]
   workflow_dispatch:
 
 permissions:

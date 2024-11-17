@@ -5,6 +5,10 @@ run-name: "Codacy Security Scan on [${{ github.repository }}] @ ${{ github.ref }
 on:
   workflow_dispatch:
   workflow_call:
+    inputs:
+      restriction:
+        required: true
+        type: string
 
 permissions:
   contents: read
@@ -12,7 +16,7 @@ permissions:
   security-events: write
 
 concurrency:
-  group: "${{ github.workflow }}"
+  group: "Codacy Group"
   cancel-in-progress: true
 
 
@@ -26,12 +30,6 @@ jobs:
     defaults:
       run:
         shell: zsh -l {0}
-
-    strategy:
-      fail-fast: false
-      matrix:
-        include:
-          - restriction: "codacy"
 
     steps:
 

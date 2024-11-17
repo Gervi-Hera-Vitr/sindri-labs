@@ -3,8 +3,8 @@ run-name: "Push on [${{ github.repository }}] @ ${{ github.ref }} by ${{ github.
 
 on:
   push:
-#    branches-ignore:
-#      - main
+    branches-ignore:
+      - main
   workflow_dispatch:
 
 permissions:
@@ -37,3 +37,29 @@ jobs:
       restriction: "working-push"
     secrets: inherit
     needs: local-build-host-environment-checks
+
+  local-build-codacy-scan:
+    name: "Codacy Security Scan on Self-Hosted Runners"
+    uses: ./.github/workflows/codacy.yml
+    with:
+      restriction: "working-push"
+    secrets: inherit
+    needs:
+      - local-build-host-environment-checks
+      - local-build-codeql-scan
+
+  workflow-cache-prune:
+    name: "Prune Caches by Branch on Self-Hosted Runners"
+    uses: ./.github/workflows/cache-prune.yaml
+    secrets: inherit
+    needs: local-build-codacy-scan
+
+  workflow-runs-prune:
+    if: ${{ always() }}
+    name: "Prune Stale Workflow Runs"
+    uses: ./.github/workflows/actions-prune.yaml
+    secrets: inherit
+    needs:
+      - local-build-host-environment-checks
+      - local-build-codacy-scan
+      - workflow-cache-prune
