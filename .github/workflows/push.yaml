@@ -36,3 +36,4 @@ jobs:
     with:
       restriction: "working-push"
     secrets: inherit
+    needs: local-build-host-environment-checks
