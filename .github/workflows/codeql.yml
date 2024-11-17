@@ -2,7 +2,10 @@ name: "CodeQL Quality Scan" # https://github.com/github/codeql-action/
 run-name: "CodeQL Quality Scan on [${{ github.repository }}] @ ${{ github.ref }} by ${{ github.actor }} with ${{ github.event_name }}"
 
 on:
-  push:
+  workflow_run:
+    workflows: [Build Host Environment Checks on Push]
+    types:
+      - completed
   workflow_dispatch:
 
 permissions:
@@ -46,12 +49,12 @@ jobs:
           languages: ${{ matrix.language }}
           build-mode: ${{ matrix.build-mode }}
 
-      - name: "Manual CodeQL Quality Analysis Action is not expected!"
+      - name: "Manual Build and Test"
         run: |
           source ~/.zprofile
           source ~/.zshenv
           source ~/.zshrc
-          ./gradlew clean build test --no-daemon
+          ./gradlew build test --no-daemon
         # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idstepsrun
 
       - name: "Perform CodeQL Quality Analysis Action"

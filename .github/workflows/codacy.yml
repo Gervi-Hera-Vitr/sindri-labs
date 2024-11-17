@@ -3,7 +3,10 @@ run-name: "Codacy Security Scan on [${{ github.repository }}] @ ${{ github.ref }
 # https://app.codacy.com/organizations/gh/Gervi-Hera-Vitr/dashboard
 
 on:
-  push:
+  workflow_run:
+    workflows: [CodeQL Quality Scan]
+    types:
+      - completed
   workflow_dispatch:
 
 permissions:
