@@ -31,8 +31,17 @@ cat <<EOF
 | - JDK:    21 Temurin                                        |
 | - Gradle: 8.10                                              |
 | ------------------------------------------------------------|
-|
 EOF
+
+if [[ $$- == *l* ]]; then
+    echo -e "| login shell OK                                              |"
+    echo -e "| ------------------------------------------------------------|\n|"
+else
+    echo -e "| ERROR: NOT a login shell! Provision login shell environment |"
+    echo -e "| ------------------------------------------------------------|\n|"
+fi
+
+env
 
 # Check for Java 21.0
 JAVA_VERSION_INSTALLED=$(java -version 2>&1 | grep -o '21\.0' | head -1)
