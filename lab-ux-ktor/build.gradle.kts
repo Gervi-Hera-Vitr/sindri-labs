@@ -7,6 +7,12 @@ log.warn("AI/ML ktor UX build started.")
 val applicationMainClass: String by project
 
 val versionOfLogback: String by project
+val versionOfKotlin: String by project
+
+val versionOverrideHttpCore: String by project
+val versionOverrideJetbrainsAnnotations: String by project
+val versionOverrideKotlinxIoCore: String by project
+val versionOverrideKotlinxSerialization: String by project
 
 plugins {
     kotlin("jvm")
@@ -19,15 +25,15 @@ configurations {
         resolutionStrategy {
             dependencySubstitution {
                 substitute(module("org.apache.httpcomponents:httpcore"))
-                    .using(module("org.apache.httpcomponents:httpcore:4.4.15"))
+                    .using(module("org.apache.httpcomponents:httpcore:$versionOverrideHttpCore"))
                 substitute(module("org.jetbrains.kotlin:kotlin-stdlib-common"))
-                    .using(module("org.jetbrains.kotlin:kotlin-stdlib:2.0.21"))
+                    .using(module("org.jetbrains.kotlin:kotlin-stdlib:$versionOfKotlin"))
                 substitute(module("org.jetbrains:annotations"))
-                    .using(module("org.jetbrains:annotations:26.0.1"))
+                    .using(module("org.jetbrains:annotations:$versionOverrideJetbrainsAnnotations"))
                 substitute(module("org.jetbrains.kotlinx:kotlinx-io-core"))
-                    .using(module("org.jetbrains.kotlinx:kotlinx-io-core:0.5.4"))
+                    .using(module("org.jetbrains.kotlinx:kotlinx-io-core:$versionOverrideKotlinxIoCore"))
                 substitute(module("org.jetbrains.kotlinx:kotlinx-serialization-core"))
-                    .using(module("org.jetbrains.kotlinx:kotlinx-serialization-core:1.7.3"))
+                    .using(module("org.jetbrains.kotlinx:kotlinx-serialization-core:$versionOverrideKotlinxSerialization"))
             }
         }
     }

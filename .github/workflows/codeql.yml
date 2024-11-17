@@ -33,40 +33,11 @@ jobs:
           - language: java-kotlin
             build-mode: manual
 
-          # https://docs.github.com/en/code-security/code-scanning/creating-an-advanced-setup-for-code-scanning/customizing-your-advanced-setup-for-code-scanning
-          # https://docs.github.com/en/code-security/code-scanning/creating-an-advanced-setup-for-code-scanning/codeql-code-scanning-for-compiled-languages
-
     steps:
-      - name: "Bootstrap the Agent Environment Login Shell and local Tools"
-        run: |
-          source ~/.zprofile
-          source ~/.zshenv
-          source ~/.zshrc
-          echo "$(which gradle)"
 
       - name: "Checkout repository source code"
         uses: actions/checkout@cbb722410c2e876e24abbe8de2cc27693e501dcb
         timeout-minutes: 1
-
-      - name: "Run the Agent Environment introspection script"
-        run: .run/introspect.sh
-        timeout-minutes: 1
-        
-      # Conditional Java setup
-      - name: "Setup transient JDK 21 if instructed by the Agent Environment Scanner"
-        if: env.java_correct != 'true'
-        uses: actions/setup-java@8df1039502a15bceb9433410b1a100fbe190c53b
-        timeout-minutes: 3
-        with:
-          distribution: 'temurin'
-          java-version: '21'
-          cache: 'gradle'
-
-      # Conditional Gradle setup
-      - name: "Setup transient Gradle 8.10 if instructed by the Agent Environment Scanner"
-        if: env.gradle_correct != 'true'
-        uses: gradle/actions/setup-gradle@d85b0068a77bd66a73276925a6d78a7b8e57ea9e
-        timeout-minutes: 2
 
       - name: "Initialize CodeQL Quality Analysis Action"
         uses: github/codeql-action/init@a1695c562bbfa68dc5ab58c9b5e9f616b52bf5be
@@ -74,10 +45,8 @@ jobs:
         with:
           languages: ${{ matrix.language }}
           build-mode: ${{ matrix.build-mode }}
-          #  https://docs.github.com/en/code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/configuring-code-scanning#using-queries-in-ql-packs
 
       - name: "Manual CodeQL Quality Analysis Action is not expected!"
-        if: matrix.build-mode == 'manual'
         run: |
           source ~/.zprofile
           source ~/.zshenv
@@ -90,5 +59,3 @@ jobs:
         timeout-minutes: 5
         with:
           category: "/language:${{matrix.language}}"
-
-# https://docs.github.com/en/code-security
