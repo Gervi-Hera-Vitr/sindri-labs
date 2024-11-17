@@ -5,6 +5,7 @@ run-name: "Label Pull Request with IAW Labeling Guidelines examining content by 
 on:
   pull_request_target:
   workflow_dispatch:
+  workflow_call:
 
 concurrency:
   group: "${{ github.workflow }}"

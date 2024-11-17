@@ -4,6 +4,7 @@ run-name: "Build Host Environment Checks and Introspection on each Push by ${{ g
 on:
   push:
   workflow_dispatch:
+  workflow_call:
 
 permissions:
   contents: read

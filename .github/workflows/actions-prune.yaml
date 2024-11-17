@@ -2,8 +2,13 @@ name: "Prune Actions by CLI"
 run-name: "Prune Old Action Runs on [${{ github.repository }}] @ ${{ github.ref }} by ${{ github.actor }} with ${{ github.event_name }}"
 
 on:
-  pull_request:
+  workflow_run:
+    workflows: [Codacy Security Scan]
+    types:
+      - completed
   workflow_dispatch:
+  workflow_call:
+
 
 concurrency:
   group: "${{ github.workflow }}"
