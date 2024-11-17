@@ -19,7 +19,7 @@ permissions:
   statuses: read
 
 concurrency:
-  group: "${{ github.workflow }}"
+  group: "Gates Group"
   cancel-in-progress: true
 
 
@@ -32,12 +32,6 @@ jobs:
     defaults:
       run:
         shell: zsh -l {0}
-
-    strategy:
-      fail-fast: false
-      matrix:
-        include:
-          - restriction: "${{ inputs.restriction }}"
 
     steps:
 
