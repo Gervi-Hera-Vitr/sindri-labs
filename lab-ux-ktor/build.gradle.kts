@@ -23,7 +23,7 @@ configurations {
                 substitute(module("org.jetbrains.kotlin:kotlin-stdlib-common"))
                     .using(module("org.jetbrains.kotlin:kotlin-stdlib:2.0.21"))
                 substitute(module("org.jetbrains:annotations"))
-                    .using(module("org.jetbrains:annotations:23.0.0"))
+                    .using(module("org.jetbrains:annotations:26.0.1"))
                 substitute(module("org.jetbrains.kotlinx:kotlinx-io-core"))
                     .using(module("org.jetbrains.kotlinx:kotlinx-io-core:0.5.4"))
                 substitute(module("org.jetbrains.kotlinx:kotlinx-serialization-core"))
