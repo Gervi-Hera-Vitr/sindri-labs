@@ -24,7 +24,7 @@ jobs:
 
   local-build-host-environment-checks:
     name: "Sanity Checks build on Self-Hosted Runners"
-    uses: .github/workflows/push-gates.yml
+    uses: ./.github/workflows/push-gates.yml
     with:
       restriction: "working-push"
     secrets: inherit
