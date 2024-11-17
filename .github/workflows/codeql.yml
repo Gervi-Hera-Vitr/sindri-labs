@@ -24,7 +24,7 @@ jobs:
 
     defaults:
       run:
-        shell: zsh {0}
+        shell: zsh -i {0}
 
     strategy:
       fail-fast: false

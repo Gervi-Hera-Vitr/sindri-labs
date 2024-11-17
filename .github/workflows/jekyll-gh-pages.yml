@@ -26,6 +26,9 @@ jobs:
 
     strategy:
       fail-fast: true
+      matrix:
+        include:
+          - node: 22
 
     steps:
       - name: "Checkout repository source code"
@@ -60,6 +63,9 @@ jobs:
 
     strategy:
       fail-fast: true
+      matrix:
+        include:
+          - node: 22
 
     steps:
       - name: "Deploy uploaded Artifact to GitHub Pages"
