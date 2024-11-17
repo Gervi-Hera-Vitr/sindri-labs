@@ -48,7 +48,7 @@ jobs:
           source ~/.zprofile
           source ~/.zshenv
           source ~/.zshrc
-          ./gradlew build test --no-daemon
+          ./gradlew build test --no-daemon --no-parallel --no-build-cache
         # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idstepsrun
 
       - name: "Perform CodeQL Quality Analysis Action"
