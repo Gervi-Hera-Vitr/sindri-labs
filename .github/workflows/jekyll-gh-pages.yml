@@ -3,9 +3,8 @@ run-name: "Jekyll Build and Deploy by ${{ github.actor }} with ${{ github.event_
 
 on:
   push:
-    branches: ["main"]
+    branches-ignore: ["main"]
   workflow_dispatch:
-  workflow_call:
 
 permissions:
   contents: read
@@ -13,7 +12,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: "${{ github.workflow }}"
+  group: "Pages Group"
   cancel-in-progress: true
 
 jobs:
@@ -28,12 +27,6 @@ jobs:
 
     env:
       BUNDLE_PATH: vendor/bundle
-
-    strategy:
-      fail-fast: true
-      matrix:
-        include:
-          - node: 22
 
     steps:
       - name: "Checkout repository source code"
@@ -70,12 +63,6 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-
-    strategy:
-      fail-fast: true
-      matrix:
-        include:
-          - node: 22
 
     steps:
       - name: "Deploy uploaded Artifact to GitHub Pages"
