@@ -15,6 +15,7 @@ permissions:
   issues: write
   pull-requests: write
   statuses: read
+  packages: read
 
 concurrency:
   group: "Push Header Group"
@@ -28,7 +29,10 @@ jobs:
     with:
       restriction: "working-push"
     secrets: inherit
-    concurrency:
-      group: "${{ github.workflow }}-${{ github.ref }}"
-      cancel-in-progress: true
 
+  local-build-codeql-scan:
+    name: "CodeQL Quality Scan on Self-Hosted Runners"
+    uses: ./.github/workflows/codeql.yml
+    with:
+      restriction: "working-push"
+    secrets: inherit
