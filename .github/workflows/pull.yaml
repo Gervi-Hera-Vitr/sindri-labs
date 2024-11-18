@@ -49,6 +49,8 @@ jobs:
   pull-stale-issues-and-pull-requests-check:
     name: "Manage Stale Issues and Pull Requests IAW configured rules"
     uses: ./.github/workflows/stale.yml
+    permissions:
+      contents: write
     with:
       restriction: 'Stale Group'
     secrets: inherit
