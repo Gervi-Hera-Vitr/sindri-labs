@@ -20,7 +20,7 @@ concurrency:
 
 jobs:
   label-pull-request-iaw-labeling-guidelines:
-    timeout-minutes: 1
+    timeout-minutes: 3
     runs-on: self-hosted
     name: "Label Pull Request with IAW Labeling Guidelines examining content"
 

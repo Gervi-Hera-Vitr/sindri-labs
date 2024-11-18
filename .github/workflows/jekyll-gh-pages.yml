@@ -57,6 +57,7 @@ jobs:
           path: ./_site
 
   deploy-jekyll-site-to-github-pages:
+    if: ${{ github.ref == 'refs/heads/main' }}
     timeout-minutes: 3
     runs-on: self-hosted
     needs: build-jekyll-site-from-site
