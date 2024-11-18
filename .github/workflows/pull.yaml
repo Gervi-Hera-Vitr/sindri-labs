@@ -99,6 +99,9 @@ jobs:
     with:
       restriction: "Site Group"
     secrets: inherit
+    permissions:
+      pages: write
+      id-token: write
     needs:
       - pull-workflow-runs-prune
       - pull-cache-prune
