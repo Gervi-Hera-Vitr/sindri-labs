@@ -16,7 +16,7 @@ permissions:
 
 concurrency:
   group: "Labeling Group"
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   label-pull-request-iaw-labeling-guidelines:

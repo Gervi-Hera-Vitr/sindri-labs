@@ -17,7 +17,7 @@ permissions:
 
 concurrency:
   group: "CodeQL Group"
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
 
