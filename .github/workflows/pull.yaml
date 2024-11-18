@@ -50,6 +50,8 @@ jobs:
     name: "Manage Stale Issues and Pull Requests IAW configured rules"
     uses: ./.github/workflows/stale.yml
     permissions:
+      issues: write
+      pull-requests: write
       contents: write
     with:
       restriction: 'Stale Group'
