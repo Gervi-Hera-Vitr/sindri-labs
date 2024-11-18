@@ -18,8 +18,8 @@ permissions:
   packages: read
 
 concurrency:
-  group: "Pull Header Group"
-  cancel-in-progress: false
+  group: "Header Group"
+  cancel-in-progress: true
 
 jobs:
 
@@ -89,6 +89,9 @@ jobs:
     name: "Prune Stale Workflow Runs"
     uses: ./.github/workflows/actions-prune.yml
     secrets: inherit
+    permissions:
+      actions: write
+      contents: write
     needs:
       - pull-build-codacy-scan
       - pull-cache-prune
