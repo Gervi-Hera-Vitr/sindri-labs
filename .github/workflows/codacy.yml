@@ -35,17 +35,17 @@ jobs:
 
       - name: "Checkout repository source code"
         uses: actions/checkout@cbb722410c2e876e24abbe8de2cc27693e501dcb
-        timeout-minutes: 1
+        timeout-minutes: 3
 
       - name: "Run the Agent Environment introspection script"
         run: .run/introspect.sh
-        timeout-minutes: 1
+        timeout-minutes: 3
 
       # Conditional Java setup
       - name: "Setup transient JDK 21 if instructed by the Agent Environment Scanner"
         if: env.java_correct != 'true'
         uses: actions/setup-java@8df1039502a15bceb9433410b1a100fbe190c53b
-        timeout-minutes: 3
+        timeout-minutes: 5
         with:
           distribution: 'temurin'
           java-version: '21'
@@ -55,11 +55,11 @@ jobs:
       - name: "Setup transient Gradle 8.10 if instructed by the Agent Environment Scanner"
         if: env.gradle_correct != 'true'
         uses: gradle/actions/setup-gradle@e55599fc4d8b81ced2a6234b0b2525b1031e93fa
-        timeout-minutes: 2
+        timeout-minutes: 3
 
       - name: "Run Codacy Analysis CLI Action and generate SARIF report"
         uses: codacy/codacy-analysis-cli-action@09916000460adeeedc96b9704f86deba53e2ad5d
-        timeout-minutes: 13
+        timeout-minutes: 15
         with:
           project-token: ${{ secrets.CODACY_PROJECT_TOKEN }}
           verbose: true

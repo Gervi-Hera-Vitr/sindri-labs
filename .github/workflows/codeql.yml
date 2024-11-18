@@ -34,11 +34,11 @@ jobs:
 
       - name: "Checkout repository source code"
         uses: actions/checkout@cbb722410c2e876e24abbe8de2cc27693e501dcb
-        timeout-minutes: 1
+        timeout-minutes: 3
 
       - name: "Initialize CodeQL Quality Analysis Action"
         uses: github/codeql-action/init@a1695c562bbfa68dc5ab58c9b5e9f616b52bf5be
-        timeout-minutes: 4
+        timeout-minutes: 7
         with:
           languages: ${{ matrix.language }}
           build-mode: ${{ matrix.build-mode }}
@@ -53,7 +53,7 @@ jobs:
 
       - name: "Perform CodeQL Quality Analysis Action"
         uses: github/codeql-action/analyze@a1695c562bbfa68dc5ab58c9b5e9f616b52bf5be
-        timeout-minutes: 5
+        timeout-minutes: 11
         with:
           category: "/language:${{matrix.language}}"
         continue-on-error: true
@@ -63,7 +63,7 @@ jobs:
           echo -e "ToDo: CodeQL Analysis Check is one flaky process.\nInvestigate later and fix it."
 
   code-security-scan-without-codeql-postmortem:
-    timeout-minutes: 1
+    timeout-minutes: 3
     runs-on: self-hosted
     needs: code-security-scan-with-codeql
     name: "CodeQL Quality Scan Execution Validation and Recovery"

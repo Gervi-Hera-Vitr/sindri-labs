@@ -22,7 +22,7 @@ concurrency:
 
 jobs:
   build-jekyll-site-from-site:
-    timeout-minutes: 5
+    timeout-minutes: 7
     runs-on: self-hosted
     name: "Build Jekyll Site from root subproject `site`"
 
@@ -36,29 +36,29 @@ jobs:
     steps:
       - name: "Checkout repository source code"
         uses: actions/checkout@cbb722410c2e876e24abbe8de2cc27693e501dcb
-        timeout-minutes: 1
+        timeout-minutes: 3
 
       - name: "Install dependencies"
-        timeout-minutes: 3
+        timeout-minutes: 5
         run: |
           cd site
           bundle install
 
       - name: "Build Jekyll site"
-        timeout-minutes: 3
+        timeout-minutes: 5
         run: |
           cd site
           bundle exec jekyll build -d ../_site
 
       - name: "Package and Upload Project Site built Artifact"
         uses: actions/upload-pages-artifact@2d163be3ddce01512f3eea7ac5b7023b5d643ce1
-        timeout-minutes: 2
+        timeout-minutes: 3
         with:
           path: ./_site
 
   deploy-jekyll-site-to-github-pages:
     if: ${{ github.ref == 'refs/heads/main' }}
-    timeout-minutes: 3
+    timeout-minutes: 5
     runs-on: self-hosted
     needs: build-jekyll-site-from-site
 
