@@ -4,13 +4,19 @@ run-name: "Gervi Herdem Vitr Greeting for ${{ github.actor }} with ${{ github.ev
 on:
   issues:
   workflow_dispatch:
+  workflow_call:
+    inputs:
+      restriction:
+        required: true
+        type: string
+
 
 permissions:
   issues: write
   pull-requests: write
 
 concurrency:
-  group: "${{ github.workflow }}"
+  group: "Greeting Group"
   cancel-in-progress: true
 
 jobs:
@@ -24,12 +30,6 @@ jobs:
     defaults:
       run:
         shell: zsh -l {0}
-
-    strategy:
-      fail-fast: true
-      matrix:
-        include:
-          - node: 22
 
     steps:
 

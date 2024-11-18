@@ -50,14 +50,14 @@ jobs:
 
   workflow-cache-prune:
     name: "Prune Caches by Branch on Self-Hosted Runners"
-    uses: ./.github/workflows/cache-prune.yaml
+    uses: ./.github/workflows/cache-prune.yml
     secrets: inherit
     needs: local-build-codacy-scan
 
   workflow-runs-prune:
     if: ${{ always() }}
     name: "Prune Stale Workflow Runs"
-    uses: ./.github/workflows/actions-prune.yaml
+    uses: ./.github/workflows/actions-prune.yml
     secrets: inherit
     needs:
       - local-build-host-environment-checks

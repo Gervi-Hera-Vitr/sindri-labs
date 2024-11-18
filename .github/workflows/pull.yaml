@@ -1,0 +1,113 @@
+name: "Completing Pull"
+run-name: "Push on ${{ github.repository }}] @ ${{ github.ref }} by ${{ github.actor }} with ${{ github.event_name }}"
+
+on:
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: read
+  security-events: write
+  discussions: write
+  issues: write
+  pull-requests: write
+  statuses: read
+  packages: read
+
+concurrency:
+  group: "Pull Header Group"
+  cancel-in-progress: true
+
+jobs:
+
+  pull-build-host-environment-checks:
+    name: "Sanity Checks build on Pull Request"
+    uses: ./.github/workflows/push-gates.yml
+    with:
+      restriction: "merging-pull"
+    secrets: inherit
+
+  pull-label-pull-request-iaw-labeling-guidelines:
+    uses: ./.github/workflows/label.yml
+    name: "Label Pull Request with IAW Labeling Guidelines examining content"
+    with:
+      restriction: 'Labeling Group'
+    secrets: inherit
+    needs: pull-build-host-environment-checks
+
+  pull-greetings-and-welcome:
+    name: "Greetings and Welcome!"
+    uses: ./.github/workflows/greetings.yml
+    with:
+      restriction: 'Greeting Group'
+    secrets: inherit
+    needs: pull-build-host-environment-checks
+
+  pull-stale-issues-and-pull-requests-check:
+    name: "Manage Stale Issues and Pull Requests IAW configured rules"
+    uses: ./.github/workflows/stale.yml
+    with:
+      restriction: 'Stale Group'
+    secrets: inherit
+    needs: pull-build-host-environment-checks
+
+  pull-build-codeql-scan:
+    name: "CodeQL Quality Scan on Pull Request"
+    uses: ./.github/workflows/codeql.yml
+    with:
+      restriction: "CodeQL Group"
+    secrets: inherit
+    needs:
+      - pull-stale-issues-and-pull-requests-check
+      - pull-label-pull-request-iaw-labeling-guidelines
+      - pull-greetings-and-welcome
+
+  pull-build-codacy-scan:
+    name: "Codacy Security Scan on Pull Request"
+    uses: ./.github/workflows/codacy.yml
+    with:
+      restriction: "Codacy Group"
+    secrets: inherit
+    needs:
+      - pull-build-codeql-scan
+
+  pull-cache-prune:
+    name: "Prune Caches by Branch on Self-Hosted Runners"
+    uses: ./.github/workflows/cache-prune.yml
+    secrets: inherit
+    needs: pull-build-codacy-scan
+
+  pull-workflow-runs-prune:
+    if: ${{ always() }}
+    name: "Prune Stale Workflow Runs"
+    uses: ./.github/workflows/actions-prune.yml
+    secrets: inherit
+    needs:
+      - pull-build-codacy-scan
+      - pull-cache-prune
+
+  pull-request-site-publish:
+    name: "Publish Pull Request Site"
+    uses: ./.github/workflows/jekyll-gh-pages.yml
+    with:
+      restriction: "Site Group"
+    secrets: inherit
+    needs:
+      - pull-workflow-runs-prune
+      - pull-cache-prune
+
+  pull-build-host-environment-maintenance:
+    name: "PR Cleanup and Publish"
+    runs-on: self-hosted
+    timeout-minutes: 1
+    needs:
+      - pull-cache-prune
+      - pull-workflow-runs-prune
+      - pull-request-site-publish
+    steps:
+      - name: "Check Build Agent state and collect Artifacts"
+        run: |
+          echo -e "\n\nBuild Agent state placeholder.\n\n"
