@@ -36,7 +36,8 @@ jobs:
     with:
       restriction: 'Labeling Group'
     secrets: inherit
-    needs: pull-build-host-environment-checks
+    needs:
+      - pull-build-host-environment-checks
 
   pull-greetings-and-welcome:
     name: "Greetings and Welcome!"
@@ -44,7 +45,8 @@ jobs:
     with:
       restriction: 'Greeting Group'
     secrets: inherit
-    needs: pull-build-host-environment-checks
+    needs:
+      - pull-build-host-environment-checks
 
   pull-stale-issues-and-pull-requests-check:
     name: "Manage Stale Issues and Pull Requests IAW configured rules"
@@ -56,7 +58,8 @@ jobs:
     with:
       restriction: 'Stale Group'
     secrets: inherit
-    needs: pull-build-host-environment-checks
+    needs:
+      - pull-build-host-environment-checks
 
   pull-build-codeql-scan:
     name: "CodeQL Quality Scan on Pull Request"
@@ -76,13 +79,18 @@ jobs:
       restriction: "Codacy Group"
     secrets: inherit
     needs:
-      - pull-build-codeql-scan
+      - pull-stale-issues-and-pull-requests-check
+      - pull-label-pull-request-iaw-labeling-guidelines
+      - pull-greetings-and-welcome
+
 
   pull-cache-prune:
     name: "Prune Caches by Branch on Self-Hosted Runners"
     uses: ./.github/workflows/cache-prune.yml
     secrets: inherit
-    needs: pull-build-codacy-scan
+    needs:
+      - pull-build-codacy-scan
+      - pull-build-codeql-scan
 
   pull-workflow-runs-prune:
     if: ${{ always() }}
@@ -94,7 +102,7 @@ jobs:
       contents: write
     needs:
       - pull-build-codacy-scan
-      - pull-cache-prune
+      - pull-build-codeql-scan
 
   pull-request-site-publish:
     name: "Publish Pull Request Site"
@@ -107,8 +115,9 @@ jobs:
       id-token: write
       contents: read
     needs:
-      - pull-workflow-runs-prune
-      - pull-cache-prune
+      - pull-label-pull-request-iaw-labeling-guidelines
+      - pull-greetings-and-welcome
+      - pull-stale-issues-and-pull-requests-check
 
   pull-build-host-environment-maintenance:
     name: "PR Cleanup and Publish"
@@ -117,6 +126,7 @@ jobs:
     needs:
       - pull-cache-prune
       - pull-workflow-runs-prune
+      - pull-greetings-and-welcome
       - pull-request-site-publish
     steps:
       - name: "Check Build Agent state and collect Artifacts"

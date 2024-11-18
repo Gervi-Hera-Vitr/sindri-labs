@@ -46,13 +46,14 @@ jobs:
     secrets: inherit
     needs:
       - local-build-host-environment-checks
-      - local-build-codeql-scan
 
   workflow-cache-prune:
     name: "Prune Caches by Branch on Self-Hosted Runners"
     uses: ./.github/workflows/cache-prune.yml
     secrets: inherit
-    needs: local-build-codacy-scan
+    needs:
+      - local-build-codacy-scan
+      - local-build-codeql-scan
 
   workflow-runs-prune:
     if: ${{ always() }}
@@ -63,6 +64,5 @@ jobs:
       actions: write
       contents: write
     needs:
-      - local-build-host-environment-checks
       - local-build-codacy-scan
-      - workflow-cache-prune
+      - local-build-codeql-scan
