@@ -65,7 +65,7 @@ jobs:
     needs:
       - local-build-yield-to-pull-request
       - local-build-host-environment-checks
-    if: ${{ jobs.local-build-yield-to-pull-request.outputs.bypass == 'false' }}
+    if: ${{ needs.local-build-yield-to-pull-request.outputs.bypass == 'false' }}
     uses: ./.github/workflows/codeql.yml
     with:
       restriction: "working-push"
@@ -77,7 +77,7 @@ jobs:
     needs:
       - local-build-yield-to-pull-request
       - local-build-host-environment-checks
-    if: ${{ jobs.local-build-yield-to-pull-request.outputs.bypass == 'false' }}
+    if: ${{ needs.local-build-yield-to-pull-request.outputs.bypass == 'false' }}
     uses: ./.github/workflows/codacy.yml
     with:
       restriction: "working-push"
@@ -90,9 +90,10 @@ jobs:
       - local-build-yield-to-pull-request
       - local-build-codacy-scan
       - local-build-codeql-scan
-    if: ${{ jobs.local-build-yield-to-pull-request.outputs.bypass == 'false' }}
+    if: ${{ needs.local-build-yield-to-pull-request.outputs.bypass == 'false' }}
     uses: ./.github/workflows/cache-prune.yml
     secrets: inherit
+
 
   workflow-runs-prune:
     name: "Prune Stale Workflow Runs"
@@ -100,7 +101,7 @@ jobs:
       - local-build-yield-to-pull-request
       - local-build-codacy-scan
       - local-build-codeql-scan
-    if: ${{ jobs.local-build-yield-to-pull-request.outputs.bypass == 'false' }}
+    if: ${{ needs.local-build-yield-to-pull-request.outputs.bypass == 'false' }}
     uses: ./.github/workflows/actions-prune.yml
     secrets: inherit
     permissions:
