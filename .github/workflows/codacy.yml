@@ -54,7 +54,7 @@ jobs:
       # Conditional Gradle setup
       - name: "Setup transient Gradle 8.10 if instructed by the Agent Environment Scanner"
         if: env.gradle_correct != 'true'
-        uses: gradle/actions/setup-gradle@e55599fc4d8b81ced2a6234b0b2525b1031e93fa
+        uses: gradle/actions/setup-gradle@cc4fc85e6b35bafd578d5ffbc76a5518407e1af0
         timeout-minutes: 3
 
       - name: "Run Codacy Analysis CLI Action and generate SARIF report"
