@@ -9,6 +9,11 @@ on:
         required: true
         type: string
         default: "main"
+      target-branch:
+        description: "Target branch for pull requests"
+        required: false
+        type: string
+        default: "main"
     outputs:
       bypass:
         description: "Should the push be yielded to a Pull Request?"
@@ -40,11 +45,11 @@ jobs:
       - name: "Check if this branch has an open pull request"
         id: this-branch-pr-check
         run: |
-          echo "::warning file=push.yaml,line=46::Checking if this branch has a working pull request to yield to."
+          echo "::notice file=push.yaml,line=46::Checking if this branch has a working pull request to yield to."
           prs=$(gh pr list \
           --repo "$GITHUB_REPOSITORY" \
           --head "$(echo ${GITHUB_REF##*/})" \
-          --base "${{ inputs.default-branch }}" \
+          --base "${{ inputs.target-branch }}" \
           --json title \
           --jq 'length')
           if ((prs > 0)); then
