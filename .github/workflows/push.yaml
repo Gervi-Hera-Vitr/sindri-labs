@@ -28,6 +28,9 @@ jobs:
     timeout-minutes: 3
     runs-on: self-hosted
 
+    env:
+      GH_TOKEN: ${{ github.token }}
+
     outputs:
       bypass: ${{ steps.this-branch-pr-check.outputs.skip }}
 
@@ -52,7 +55,7 @@ jobs:
 
   local-build-host-environment-checks:
     name: "Sanity Checks build on Self-Hosted Runners"
-    needs: [local-build-yield-to-pull-request]
+    needs: [ local-build-yield-to-pull-request ]
     if: ${{ needs.local-build-yield-to-pull-request.outputs.bypass == 'false' }}
     uses: ./.github/workflows/push-gates.yml
     with:
