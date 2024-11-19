@@ -18,7 +18,7 @@ permissions:
   packages: read
 
 concurrency:
-  group: "${{ github.workflow }}-${{ github.ref }}"
+  group: "${{ github.workflow }}-${{ github.ref }}-push"
   cancel-in-progress: false
 
 
@@ -42,7 +42,7 @@ jobs:
     if: ${{ needs.local-build-yield-to-pull-request.outputs.bypass == 'false' }}
     uses: ./.github/workflows/push-gates.yml
     with:
-      restriction: "working-push"
+      restriction: "on-working-push"
     secrets: inherit
 
 

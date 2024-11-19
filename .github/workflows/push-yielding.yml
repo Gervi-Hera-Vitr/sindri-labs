@@ -15,7 +15,7 @@ permissions:
   actions: read
 
 concurrency:
-  group: "${{ github.workflow }}-${{ github.ref }}"
+  group: "${{ github.workflow }}-${{ github.ref }}-push-yielding-check"
   cancel-in-progress: true
 
 jobs:
@@ -44,7 +44,7 @@ jobs:
           --jq 'length')
           if ((prs > 0)); then
             echo "skip=true" >> "$GITHUB_OUTPUT"
-            echo "::error file=push.yaml,line=55::This branch has a working pull request to yield to => `push` run is TERMINATING!"
+            echo "::warning file=push.yaml,line=55::This branch has a working pull request to yield to => `push` run is TERMINATING!"
           else
             echo "skip=false" >> "$GITHUB_OUTPUT"
             echo "::warning file=push.yaml,line=58::This branch has no working pull request to yield to =>`push` workflow marked to execute!"
