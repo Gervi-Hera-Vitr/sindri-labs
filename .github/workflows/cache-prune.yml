@@ -6,8 +6,9 @@ on:
   workflow_call:
 
 concurrency:
-  group: "Prune Group"
-  cancel-in-progress: false
+  group: "${{ github.workflow }}-${{ github.ref }}-cache-prune"
+  cancel-in-progress: true
+
 
 jobs:
   cleanup-stale-caches:

@@ -9,7 +9,6 @@ else
 fi
 
 
-
 if [ -z "${GITHUB_ENV+xxx}" ]; then
   echo -e "WARNING: GITHUB_ENV !! file !! is NOT set!\n... exporting.";
   export GITHUB_ENV="";
@@ -29,6 +28,7 @@ if [ -z "$GITHUB_ENV" ] && [ "${GITHUB_ENV+xxx}" = "xxx" ]; then
   echo "::error file=introspect.sh,line=29::Agent host $(hostname) GitHub Environment is UNREACHABLE to Actions Runner and is simulated at $GITHUB_ENV!";
 fi
 
+
 cat <<EOF
 
 ======================== Introspection ========================
@@ -40,6 +40,7 @@ cat <<EOF
 | ------------------------------------------------------------|
 EOF
 
+
 if [[ $$- == *l* ]]; then
     echo -e "| login shell OK                                              |"
     echo -e "| ------------------------------------------------------------|\n|"
@@ -47,10 +48,9 @@ if [[ $$- == *l* ]]; then
 else
     echo -e "| ERROR: NOT a login shell! Provision login shell environment |"
     echo -e "| ------------------------------------------------------------|\n|"
-    echo "::error file=introspect.sh,line=50::Agent host $(hostname) DID NOT offer a login shell! => Please, refrain from using a login shell dependent magic.";
+    echo "::warning file=introspect.sh,line=50::Agent host $(hostname) DID NOT offer a login shell! => Please, refrain from using a login shell dependent magic.";
 fi
 
-env
 
 # Check for Java 21.0
 JAVA_VERSION_INSTALLED=$(java -version 2>&1 | grep -o '21\.0' | head -1)
@@ -66,6 +66,7 @@ else
   echo "::error file=introspect.sh,line=66::Agent host $(hostname): JDK 21 is NOT locally available.";
 fi
 echo "| ------------------------------------------------------------|"
+
 
 # Check for Gradle 8.10
 GRADLE_VERSION_INSTALLED=$(gradle --version 2>&1 | grep -o '8\.10')

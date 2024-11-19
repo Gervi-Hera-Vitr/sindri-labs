@@ -16,8 +16,8 @@ permissions:
   security-events: write
 
 concurrency:
-  group: "Codacy Group"
-  cancel-in-progress: false
+  group: "${{ github.workflow }}-${{ github.ref }}-codacy"
+  cancel-in-progress: true
 
 
 jobs:
