@@ -9,6 +9,12 @@ on:
         required: true
         type: string
         default: "main"
+    outputs:
+      bypass:
+        description: "Should the push be yielded to a Pull Request?"
+        value: ${{ jobs.should-push-yield-to-pull-request.outputs.terminate }}
+        readonly: true
+
 
 permissions:
   contents: read
@@ -29,7 +35,7 @@ jobs:
       GH_TOKEN: ${{ github.token }}
 
     outputs:
-      bypass: ${{ steps.this-branch-pr-check.outputs.skip }}
+      terminate: ${{ steps.this-branch-pr-check.outputs.skip }}
 
     steps:
       - name: "Check if this branch has an open pull request"
