@@ -47,7 +47,7 @@ if [[ $$- == *l* ]]; then
 else
     echo -e "| ERROR: NOT a login shell! Provision login shell environment |"
     echo -e "| ------------------------------------------------------------|\n|"
-    echo "::error file=introspect.sh,line=50::Agent host $(hostname) DID NOT offer a login shell!";
+    echo "::error file=introspect.sh,line=50::Agent host $(hostname) DID NOT offer a login shell! => Please, refrain from using a login shell dependent magic.";
 fi
 
 env

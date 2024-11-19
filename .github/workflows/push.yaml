@@ -21,42 +21,19 @@ concurrency:
   group: "${{ github.workflow }}-${{ github.ref }}"
   cancel-in-progress: false
 
+
+defaults:
+  run:
+    shell: zsh -l {0}
+
 jobs:
 
   local-build-yield-to-pull-request:
-    name: "Yield to Pull Request on Self-Hosted Runners"
-    timeout-minutes: 3
-    runs-on: self-hosted
-
-    defaults:
-      run:
-        shell: zsh -l {0}
-
-    env:
-      GH_TOKEN: ${{ github.token }}
-
-    outputs:
-      bypass: ${{ steps.this-branch-pr-check.outputs.skip }}
-
-    steps:
-
-      - name: "Check if this branch has an open pull request"
-        id: this-branch-pr-check
-        run: |
-          echo "::warning file=push.yaml,line=46::Checking if this branch has a working pull request to yield to. 1) `push` runs are optional; 2) `push` runs yield to `pull` runs; 3) `push` runs are terminated by `pull` runs."
-          prs=$(gh pr list \
-          --repo "$GITHUB_REPOSITORY" \
-          --head "$(echo ${GITHUB_REF##*/})" \
-          --base "main" \
-          --json title \
-          --jq 'length')
-          if ((prs > 0)); then
-            echo "skip=true" >> "$GITHUB_OUTPUT"
-            echo "::error file=push.yaml,line=55::This branch has a working pull request to yield to => `push` runs is TERMINATING!"
-          else
-            echo "skip=false" >> "$GITHUB_OUTPUT"
-            echo "::warning file=push.yaml,line=58::This branch has no working pull request to yield to =>`push` workflow marked to execute!"
-          fi
+    name: "Yield to Pull Request when PR exists"
+    uses: ./.github/workflows/push-yielding.yml
+    secrets: inherit
+    with:
+      default-branch: "main"
 
 
   local-build-host-environment-checks:
