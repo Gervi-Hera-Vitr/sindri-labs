@@ -18,7 +18,7 @@ permissions:
   packages: read
 
 concurrency:
-  group: "Header Group"
+  group: "${{ github.workflow }}-${{ github.ref }}"
   cancel-in-progress: false
 
 jobs:
@@ -49,51 +49,60 @@ jobs:
             echo "skip=false" >> "$GITHUB_OUTPUT"
           fi
 
+
   local-build-host-environment-checks:
     name: "Sanity Checks build on Self-Hosted Runners"
-    if: ${{ jobs.local-build-yield-to-pull-request.outputs.bypass == 'false' }}
+    needs: [local-build-yield-to-pull-request]
+    if: ${{ needs.local-build-yield-to-pull-request.outputs.bypass == 'false' }}
     uses: ./.github/workflows/push-gates.yml
     with:
       restriction: "working-push"
     secrets: inherit
-    needs: local-build-yield-to-pull-request
+
 
   local-build-codeql-scan:
     name: "CodeQL Quality Scan on Self-Hosted Runners"
+    needs:
+      - local-build-yield-to-pull-request
+      - local-build-host-environment-checks
     if: ${{ jobs.local-build-yield-to-pull-request.outputs.bypass == 'false' }}
     uses: ./.github/workflows/codeql.yml
     with:
       restriction: "working-push"
     secrets: inherit
-    needs: local-build-host-environment-checks
+
 
   local-build-codacy-scan:
     name: "Codacy Security Scan on Self-Hosted Runners"
+    needs:
+      - local-build-yield-to-pull-request
+      - local-build-host-environment-checks
     if: ${{ jobs.local-build-yield-to-pull-request.outputs.bypass == 'false' }}
     uses: ./.github/workflows/codacy.yml
     with:
       restriction: "working-push"
     secrets: inherit
-    needs:
-      - local-build-host-environment-checks
+
 
   workflow-cache-prune:
     name: "Prune Caches by Branch on Self-Hosted Runners"
+    needs:
+      - local-build-yield-to-pull-request
+      - local-build-codacy-scan
+      - local-build-codeql-scan
     if: ${{ jobs.local-build-yield-to-pull-request.outputs.bypass == 'false' }}
     uses: ./.github/workflows/cache-prune.yml
     secrets: inherit
-    needs:
-      - local-build-codacy-scan
-      - local-build-codeql-scan
 
   workflow-runs-prune:
-    if: ${{ jobs.local-build-yield-to-pull-request.outputs.bypass == 'false' }}
     name: "Prune Stale Workflow Runs"
+    needs:
+      - local-build-yield-to-pull-request
+      - local-build-codacy-scan
+      - local-build-codeql-scan
+    if: ${{ jobs.local-build-yield-to-pull-request.outputs.bypass == 'false' }}
     uses: ./.github/workflows/actions-prune.yml
     secrets: inherit
     permissions:
       actions: write
       contents: write
-    needs:
-      - local-build-codacy-scan
-      - local-build-codeql-scan
