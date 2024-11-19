@@ -54,7 +54,7 @@ jobs:
           --jq 'length')
           if ((prs > 0)); then
             echo "skip=true" >> "$GITHUB_OUTPUT"
-            echo "::warning file=push.yaml,line=55::This branch has a working pull request to yield to => `push` run is TERMINATING!"
+            echo "::warning file=push.yaml,line=55::This branch has a working pull request to yield to => `push` run is TERMINATING due to active pull request."
           else
             echo "skip=false" >> "$GITHUB_OUTPUT"
             echo "::notice file=push.yaml,line=58::This branch has no working pull request to yield to =>`push` workflow marked to execute!"
