@@ -43,7 +43,7 @@ jobs:
       - name: "Check if this branch has an open pull request"
         id: this-branch-pr-check
         run: |
-          echo -e "::warning file=push.yaml,line=46::Checking if this branch has a working pull request to yield to.\n\n- `push` runs are optional;\n- `push` runs yield to `pull` runs;\n- `push` runs are terminated by `pull` runs.\n"
+          echo "::warning file=push.yaml,line=46::Checking if this branch has a working pull request to yield to. 1) `push` runs are optional; 2) `push` runs yield to `pull` runs; 3) `push` runs are terminated by `pull` runs."
           prs=$(gh pr list \
           --repo "$GITHUB_REPOSITORY" \
           --head "$(echo ${GITHUB_REF##*/})" \
