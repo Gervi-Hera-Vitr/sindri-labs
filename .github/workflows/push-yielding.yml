@@ -13,7 +13,6 @@ on:
       bypass:
         description: "Should the push be yielded to a Pull Request?"
         value: ${{ jobs.should-push-yield-to-pull-request.outputs.terminate }}
-        readonly: true
 
 
 permissions:
