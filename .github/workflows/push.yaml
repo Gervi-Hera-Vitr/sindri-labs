@@ -43,7 +43,7 @@ jobs:
       - name: "Check if this branch has an open pull request"
         id: this-branch-pr-check
         run: |
-          echo "::warning file=push.yaml,line=46::Checking if this branch has a working pull request to yield to.\nPush runs are optional!"
+          echo -e "::warning file=push.yaml,line=46::Checking if this branch has a working pull request to yield to.\n\n- `push` runs are optional;\n- `push` runs yield to `pull` runs;\n- `push` runs are terminated by `pull` runs.\n"
           prs=$(gh pr list \
           --repo "$GITHUB_REPOSITORY" \
           --head "$(echo ${GITHUB_REF##*/})" \
@@ -52,10 +52,10 @@ jobs:
           --jq 'length')
           if ((prs > 0)); then
             echo "skip=true" >> "$GITHUB_OUTPUT"
-            echo "::error file=push.yaml,line=55::This branch has a working pull request to yield to.\nPush runs is TERMINATING!"
+            echo "::error file=push.yaml,line=55::This branch has a working pull request to yield to => `push` runs is TERMINATING!"
           else
             echo "skip=false" >> "$GITHUB_OUTPUT"
-            echo "::warning file=push.yaml,line=59::This branch has no working pull request to yield to.\nWorkflow marked to execute!"
+            echo "::warning file=push.yaml,line=58::This branch has no working pull request to yield to =>`push` workflow marked to execute!"
           fi
 
 
