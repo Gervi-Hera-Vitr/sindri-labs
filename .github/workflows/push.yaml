@@ -28,6 +28,10 @@ jobs:
     timeout-minutes: 3
     runs-on: self-hosted
 
+    defaults:
+      run:
+        shell: zsh -l {0}
+
     env:
       GH_TOKEN: ${{ github.token }}
 
@@ -39,7 +43,7 @@ jobs:
       - name: "Check if this branch has an open pull request"
         id: this-branch-pr-check
         run: |
-          echo "::info file=push.yaml,line=34::Checking if this branch has a working pull request to yield to."
+          echo "::warn file=push.yaml,line=34::Checking if this branch has a working pull request to yield to."
           prs=$(gh pr list \
           --repo "$GITHUB_REPOSITORY" \
           --head "$(echo ${GITHUB_REF##*/})" \
