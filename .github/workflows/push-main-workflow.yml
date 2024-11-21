@@ -7,6 +7,7 @@ on:
       - main
   workflow_dispatch:
 
+
 permissions:
   contents: read
   actions: read
@@ -18,9 +19,8 @@ permissions:
   packages: read
 
 concurrency:
-  group: "${{ github.workflow }}-${{ github.ref }}-push"
+  group: "${{ github.workflow }}-${{ github.ref }}-push-main"
   cancel-in-progress: false
-
 
 defaults:
   run:
@@ -30,7 +30,7 @@ jobs:
 
   local-build-yield-to-pull-request:
     name: "Yield to Pull Request when PR exists"
-    uses: ./.github/workflows/push-yielding.yml
+    uses: ./.github/workflows/check-push-yield.yml
     secrets: inherit
     with:
       default-branch: 'main'
@@ -41,11 +41,20 @@ jobs:
     name: "Sanity Checks build on Self-Hosted Runners"
     needs: [ local-build-yield-to-pull-request ]
     if: ${{ needs.local-build-yield-to-pull-request.outputs.bypass == 'false' }}
-    uses: ./.github/workflows/push-gates.yml
+    uses: ./.github/workflows/push-environment-checks.yml
     with:
       restriction: "on-working-push"
     secrets: inherit
 
+  local-build-project-dependency-hints:
+    name: "Impromptu Project Dependencies Checks for Contributors"
+    needs: [ local-build-yield-to-pull-request ]
+    if: ${{ needs.local-build-yield-to-pull-request.outputs.bypass == 'false' }}
+    uses: ./.github/workflows/push-dependency-checks.yml
+    with:
+      restriction: "on-working-push"
+      releases-only: false
+    secrets: inherit
 
   local-build-codeql-scan:
     name: "CodeQL Quality Scan on Self-Hosted Runners"

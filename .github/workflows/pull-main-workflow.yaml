@@ -25,7 +25,7 @@ jobs:
 
   pull-build-host-environment-checks:
     name: "Sanity Checks build on Pull Request"
-    uses: ./.github/workflows/push-gates.yml
+    uses: ./.github/workflows/push-environment-checks.yml
     with:
       restriction: "merging-pull"
     secrets: inherit

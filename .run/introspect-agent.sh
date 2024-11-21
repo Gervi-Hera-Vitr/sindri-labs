@@ -60,6 +60,10 @@ if [[ $JAVA_VERSION_INSTALLED =~ 21.0 ]]; then
   echo "JAVA_HOME=$JAVA_HOME" >> "$GITHUB_ENV"
   echo -e "| Java 21: \t\t\tOK"
   echo "::notice file=introspect.sh,line=62::Agent host $(hostname): JDK $JAVA_VERSION_INSTALLED is locally available.";
+
+  if ! grep -q 'java_correct=true' "$GITHUB_ENV"; then
+    echo "::error file=introspect.sh,line=65::Failed to persist java_correct=true to $GITHUB_ENV"
+  fi
 else
   echo "java_correct=false" >> "$GITHUB_ENV"
   echo -e "| Java 21: \t\t\tFAILED"
@@ -75,7 +79,11 @@ if [[ $GRADLE_VERSION_INSTALLED =~ 8.10 ]]; then
   echo "gradle_correct=true" >> "$GITHUB_ENV"
   echo "GRADLE_HOME=$GRADLE_HOME" >> "$GITHUB_ENV"
   echo -e "| Gradle 8.10: \t\t\tOK"
-  echo "::notice file=introspect.sh,line=77::Agent host $(hostname): Gradle $GRADLE_VERSION_INSTALLED is locally available.";
+  echo "::notice file=introspect.sh,line=82::Agent host $(hostname): Gradle $GRADLE_VERSION_INSTALLED is locally available.";
+
+  if ! grep -q 'gradle_correct=true' "$GITHUB_ENV"; then
+    echo "::error file=introspect.sh,line=85::Failed to persist gradle_correct=true to $GITHUB_ENV"
+  fi
 else
   echo "gradle_correct=false" >> "$GITHUB_ENV"
   echo -e "| Gradle 8.10: \t\t\tFAILED"
@@ -85,4 +93,3 @@ echo "| ------------------------------------------------------------|"
 echo "| File contents:                                              |"
 echo "| ${GITHUB_ENV}"
 echo "==============================================================="
-exit 0
