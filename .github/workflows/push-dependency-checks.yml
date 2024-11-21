@@ -34,6 +34,10 @@ jobs:
 
     steps:
 
+      - name: "Checkout repository source code at root"
+        uses: actions/checkout@cbb722410c2e876e24abbe8de2cc27693e501dcb
+        timeout-minutes: 1
+
       - name: "Inspect Dependency Deprecations with Gradle using `dependencyUpdates` from Ben Manes Gradle Plugin"
         timeout-minutes: 2
         env:
