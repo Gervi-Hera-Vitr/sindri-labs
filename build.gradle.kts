@@ -91,7 +91,22 @@ tasks.named<DependencyUpdatesTask>("dependencyUpdates").configure {
     outputDir = "build/dependencies"
     reportfileName = "report"
 
-    val releaseDependencyRequired: Boolean = project.findProperty("useReleaseDependenciesOnly")?.toString()?.toBoolean() ?: false
+    val releaseDependencyRequired: Boolean = fun(): Boolean {
+        val releaseDependencyRequiredProperty = project.findProperty("useReleaseDependenciesOnly")?.toString()?.toBoolean() ?: false
+        println("::notice file=build.gradle.kts::Release-Only dependency restriction in properties is $releaseDependencyRequiredProperty")
+        if (releaseDependencyRequiredProperty) {
+            println("::notice file=build.gradle.kts::Since Release-Only dependency restriction is set by property to true, skipping env check which has no effect; to control this behavior from env, mute the property 'useReleaseDependenciesOnly' or set it to 'false'.")
+            return true
+        }
+
+        val releaseDependencyRequiredOverride = System.getenv("RELEASES_ONLY")
+        if (releaseDependencyRequiredOverride != null && releaseDependencyRequiredOverride.toBoolean()) {
+            println("::notice file=build.gradle.kts::Release-Only dependency restriction is honored from env('RELEASES_ONLY') and is $releaseDependencyRequiredOverride")
+            return true
+        }
+        println("::notice file=build.gradle.kts::Release Only dependency restriction is set by property to 'false'.")
+        return false
+    }()
 
     rejectVersionIf {
         releaseDependencyRequired && isStableVersion(candidate.version).not()
@@ -137,11 +152,11 @@ tasks.register("processDependencyUpdates") {
 
                 println("- $group:$name [$currentVersion -> $available]")
 
-                // Add annotations for GitHub Actions
                 println("::warning file=build.gradle.kts::Dependency update available for $group:$name from $currentVersion to $available")
             }
         } else {
             println("All dependencies are up to date.")
+            println("::notice file=build.gradle.kts::Dependencies are up to date.")
         }
     }
 }

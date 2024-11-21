@@ -36,4 +36,6 @@ jobs:
 
       - name: "Inspect Dependency Deprecations with Gradle using `dependencyUpdates` from Ben Manes Gradle Plugin"
         timeout-minutes: 2
-        run: .run/hint-on-dependencies.sh ${{ inputs.releases-only }}
+        env:
+          RELEASES_ONLY: ${{ inputs.releases-only }}
+        run: .run/hint-on-dependencies.sh
