@@ -50,8 +50,10 @@ ERROR: Current directory is NOT in a git repository.
 - This script must be run from a GitHub git repository.
 =========================================
 EOF
+  echo "::error file=clean-runs.sh,line=53::Agent host $(hostname): Current directory is NOT in a git repository! Please investigate your workflow configuration.";
   exit 7
 fi
+echo "::notice file=clean-runs.sh,line=56::Agent host $(hostname): Current directory is a healthy git repository.";
 
 if ! has_github_workflow_folder; then
   cat <<EOF
@@ -61,8 +63,10 @@ ERROR: No GitHub Workflow directory found.
 - The .github/workflows directory must exist at its root.
 =========================================
 EOF
+  echo "::error file=clean-runs.sh,line=66::Agent host $(hostname): No GitHub Workflow directory found! Please investigate your workflow configuration.";
   exit 11
 fi
+echo "::notice file=clean-runs.sh,line=69::Agent host $(hostname): GitHub Workflow directory found.";
 
 if ! is_at_root_of_repo; then
   cat <<EOF
@@ -72,8 +76,9 @@ WARNING: Not at root of repository.
 Running 'gh' operations from subdirectories is not recommended.
 =========================================
 EOF
-
+  echo "::warning file=clean-runs.sh,line=79::Agent host $(hostname): Not at root of repository. Running 'gh' operations from subdirectories is not recommended.";
 fi
+echo "::notice file=clean-runs.sh,line=81::Agent host $(hostname): Running 'gh' operations from root of repository."
 
 #workflows_text=$(gh workflow list --json id,name,path,state -q '.[] | [ .id, .name, .path, .state ] | @csv')
 workflows_text=$(gh workflow list --json id,name -q '.[] | select(.name != "Local Build Only") | [.id, .name] | @csv')
@@ -98,6 +103,7 @@ for workflow_row in "${workflows[@]}"; do
 
   if [[ -z "${workflow_id// }" ]]; then
     echo -e "\tAll good!"
+    echo "::notice file=clean-runs.sh,line=106::Agent host $(hostname): Workflows have no runs to clean up.";
   else
     echo -e "\n\nProcessing workflow: $workflow_name (ID: $workflow_id)"
 
@@ -111,11 +117,12 @@ for workflow_row in "${workflows[@]}"; do
     for run_id in "${run_ids[@]}"; do
       if [[ -z "${run_id// }" ]]; then
         echo -e "\tAll good:\t Workflow $workflow_name has no runs to clean up!"
+        echo "::notice file=clean-runs.sh,line=120::Agent host $(hostname): Workflow $workflow_name has no runs to clean up.";
       else
         echo "Deleting run ID: $run_id for workflow: $workflow_name"
         gh run delete "$run_id"
+        echo "::notice file=clean-runs.sh,line=124::Agent host $(hostname): Deleted run ID: $run_id for workflow: $workflow_name"
       fi
     done
   fi
 done
-
