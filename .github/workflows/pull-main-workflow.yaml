@@ -63,7 +63,7 @@ jobs:
 
   pull-build-codeql-scan:
     name: "CodeQL Quality Scan on Pull Request"
-    uses: ./.github/workflows/codeql.yml
+    uses: ./.github/workflows/codeql-security-scan.yml
     with:
       restriction: "CodeQL Group"
     secrets: inherit
@@ -74,7 +74,7 @@ jobs:
 
   pull-build-codacy-scan:
     name: "Codacy Security Scan on Pull Request"
-    uses: ./.github/workflows/codacy.yml
+    uses: ./.github/workflows/codacy-security-scan.yml
     with:
       restriction: "Codacy Group"
     secrets: inherit

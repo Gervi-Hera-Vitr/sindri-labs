@@ -62,7 +62,7 @@ jobs:
       - local-build-yield-to-pull-request
       - local-build-host-environment-checks
     if: ${{ needs.local-build-yield-to-pull-request.outputs.bypass == 'false' }}
-    uses: ./.github/workflows/codeql.yml
+    uses: ./.github/workflows/codeql-security-scan.yml
     with:
       restriction: "working-push"
     secrets: inherit
@@ -74,7 +74,7 @@ jobs:
       - local-build-yield-to-pull-request
       - local-build-host-environment-checks
     if: ${{ needs.local-build-yield-to-pull-request.outputs.bypass == 'false' }}
-    uses: ./.github/workflows/codacy.yml
+    uses: ./.github/workflows/codacy-security-scan.yml
     with:
       restriction: "working-push"
     secrets: inherit
