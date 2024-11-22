@@ -3,12 +3,19 @@ run-name: "Build Host Environment Checks and Introspection on each Push by ${{ g
 
 on:
   workflow_dispatch:
-  workflow_call:
     inputs:
       restriction:
         required: true
         type: string
-
+        default: "no-restriction"
+        description: "Optional parameter on restrictions for parallelism and early cancellation of jobs; ToDo: placeholder not yet implemented and used."
+  workflow_call:
+    inputs:
+      restriction:
+        required: false
+        type: string
+        default: "no-restriction"
+        description: "Optional parameter on restrictions for parallelism and early cancellation of jobs; ToDo: placeholder not yet implemented and used."
 
 permissions:
   contents: read
@@ -19,19 +26,18 @@ permissions:
   statuses: read
 
 concurrency:
-  group: "Gates Group"
+  group: "${{ github.workflow }}-${{ github.ref }}-host-checks"
   cancel-in-progress: false
 
+defaults:
+  run:
+    shell: zsh -l {0}
 
 jobs:
   build-while-introspecting-host-runtime-environment:
     timeout-minutes: 5
     runs-on: self-hosted
     name: "Build while Introspecting Host Runtime Environment on Self-Hosted Runners"
-
-    defaults:
-      run:
-        shell: zsh -l {0}
 
     steps:
 
@@ -40,7 +46,7 @@ jobs:
         timeout-minutes: 1
 
       - name: "Run custom Introspection Script and Publish boolean values for `java_correct` and `gradle_correct` into GH Env"
-        run: .run/introspect.sh
+        run: .run/introspect-agent.sh
         timeout-minutes: 1
 
       # Conditional Java setup
@@ -68,7 +74,3 @@ jobs:
           key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties') }}
           restore-keys: |
             ${{ runner.os }}-gradle-
-
-      - name: "Inspect Dependency Deprecations with Gradle using `dependencyUpdates` from Ben Manes Gradle Plugin"
-        timeout-minutes: 2
-        run: .run/dependencies.sh

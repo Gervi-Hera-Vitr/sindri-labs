@@ -1,3 +1,5 @@
+@file:Suppress("UnstableApiUsage")
+
 import org.slf4j.LoggerFactory
 
 private val log by lazy { LoggerFactory.getLogger("ai.gervi.hera.vitr.journey.build") }
@@ -20,25 +22,6 @@ plugins {
     id("org.jetbrains.kotlin.plugin.serialization")
 }
 
-configurations {
-    all {
-        resolutionStrategy {
-            dependencySubstitution {
-                substitute(module("org.apache.httpcomponents:httpcore"))
-                    .using(module("org.apache.httpcomponents:httpcore:$versionOverrideHttpCore"))
-                substitute(module("org.jetbrains.kotlin:kotlin-stdlib-common"))
-                    .using(module("org.jetbrains.kotlin:kotlin-stdlib:$versionOfKotlin"))
-                substitute(module("org.jetbrains:annotations"))
-                    .using(module("org.jetbrains:annotations:$versionOverrideJetbrainsAnnotations"))
-                substitute(module("org.jetbrains.kotlinx:kotlinx-io-core"))
-                    .using(module("org.jetbrains.kotlinx:kotlinx-io-core:$versionOverrideKotlinxIoCore"))
-                substitute(module("org.jetbrains.kotlinx:kotlinx-serialization-core"))
-                    .using(module("org.jetbrains.kotlinx:kotlinx-serialization-core:$versionOverrideKotlinxSerialization"))
-            }
-        }
-    }
-}
-
 application {
     mainClass.set(applicationMainClass)
 
@@ -47,6 +30,15 @@ application {
 }
 
 dependencies {
+
+    constraints {
+        implementation("org.apache.httpcomponents:httpcore:$versionOverrideHttpCore")
+        implementation("org.jetbrains.kotlin:kotlin-stdlib:$versionOfKotlin")
+        implementation("org.jetbrains:annotations:$versionOverrideJetbrainsAnnotations")
+        implementation("org.jetbrains.kotlinx:kotlinx-io-core:$versionOverrideKotlinxIoCore")
+        implementation("org.jetbrains.kotlinx:kotlinx-serialization-core:$versionOverrideKotlinxSerialization")
+    }
+
     implementation(platform(kotlin("bom")))
     implementation(platform("io.ktor:ktor-bom"))
 
