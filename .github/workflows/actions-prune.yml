@@ -48,3 +48,5 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPO: ${{ github.repository }}
+          BRANCH: ${{ github.ref }}
+          RESTRICTION: ${{ inputs.restriction }}
