@@ -10,8 +10,9 @@ permissions:
   contents: write
 
 concurrency:
-  group: "Prune Group"
-  cancel-in-progress: false
+  group: "${{ github.workflow }}-${{ github.ref }}-actions-prune"
+  cancel-in-progress: true
+
 
 jobs:
   cleanup-old-action-runs-leaving-one:

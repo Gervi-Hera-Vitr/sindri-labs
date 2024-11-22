@@ -12,16 +12,16 @@
 
 # Welcome, Dear Friend
 
-This is a bare-bone starter for [AGAIN](https://github.com/Gotham-Village "AGAIN as Gotham Village") community [Munchkins](http://www.catb.org/esr/jargon/html/M/munchkin.html "Munchkins") (CatB HTTP) <br/>
-to learn and experiment with AI in their own [Gervi Héra Vitr](https://github.com/Gervi-Hera-Vitr "Gervi-Hera-Vitr") community, <br/>
+This is a hands-on learning trail by and for our [Munchkins](http://www.catb.org/esr/jargon/html/M/munchkin.html "Munchkins") (CatB HTTP). <br/>
+Munchkins experiment with AI in their own [Gervi Héra Vitr](https://github.com/Gervi-Hera-Vitr "Gervi-Hera-Vitr") community, <br/>
 tracked by [Gervi Héra Viskr Learning Trails](https://github.com/orgs/Gervi-Hera-Vitr/projects/1 "Héra gains Viskr") project, and supervised by <br/>
-adult hackers of AGAIN at [Mímis Gildi](https://github.com/Mimis-Gildi "Mimis-Gildi") tracked by [Mímis Publishing](https://github.com/orgs/Mimis-Gildi/projects/1 "Mimis-Publishing").
+adult hackers of [AGAIN](https://github.com/Gotham-Village "AGAIN as Gotham Village") at [Mímis Gildi](https://github.com/Mimis-Gildi "Mimis-Gildi") tracked by [Mímis Publishing](https://github.com/orgs/Mimis-Gildi/projects/1 "Mimis-Publishing").
 
 ## Everyone is Welcome!
 
-**Learning is the sacred core value of Mímir.**
+**Learning is the sacred core value of [Mímir](https://en.wikipedia.org/wiki/M%C3%ADmir "Mímir, the Norse god of knowledge").**
 
-_Come, have a drink from Yggdrasil with us._ 😀
+_Come, have a drink from [Yggdrasil](https://en.wikipedia.org/wiki/Yggdrasil "Yggdrasil, the well of life") with us._ 😀
 
 -- Captain and R!dd13r<br/>
 2024-10-27

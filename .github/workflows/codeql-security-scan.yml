@@ -16,8 +16,13 @@ permissions:
   contents: read
 
 concurrency:
-  group: "CodeQL Group"
+  group: "${{ github.workflow }}-${{ github.ref }}-codeql"
   cancel-in-progress: false
+
+defaults:
+  run:
+    shell: zsh -l {0}
+
 
 jobs:
 
@@ -25,10 +30,6 @@ jobs:
     timeout-minutes: 7
     runs-on: self-hosted
     name: "CodeQL Quality Scan with Outcome Publishing"
-
-    defaults:
-      run:
-        shell: zsh -l {0}
 
     steps:
 
@@ -49,7 +50,6 @@ jobs:
           source ~/.zshenv
           source ~/.zshrc
           ./gradlew build test --no-daemon --no-parallel --no-build-cache
-        # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idstepsrun
 
       - name: "Perform CodeQL Quality Analysis Action"
         uses: github/codeql-action/analyze@f8e782af5670be7b12c0acb5b25c1c5703b931b9
@@ -62,15 +62,12 @@ jobs:
         run: |
           echo -e "ToDo: CodeQL Analysis Check is one flaky process.\nInvestigate later and fix it."
 
-  code-security-scan-without-codeql-postmortem:
+
+  code-security-scan-codeql-postmortem:
     timeout-minutes: 3
     runs-on: self-hosted
     needs: code-security-scan-with-codeql
     name: "CodeQL Quality Scan Execution Validation and Recovery"
-
-    defaults:
-      run:
-        shell: zsh -l {0}
 
     steps:
 
