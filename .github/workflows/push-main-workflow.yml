@@ -5,6 +5,7 @@ on:
   push:
     branches-ignore:
       - main
+      - 125-synchronize-all-build-agents
   workflow_dispatch:
 
 
