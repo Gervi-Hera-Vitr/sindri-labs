@@ -3,11 +3,27 @@ run-name: "Prune Old Action Runs on [${{ github.repository }}] @ ${{ github.ref 
 
 on:
   workflow_dispatch:
+    inputs:
+      restriction:
+        required: true
+        type: string
+        default: "no-restriction"
+        description: "Optional parameter on restrictions for parallelism and early cancellation of jobs; ToDo: placeholder not yet implemented and used."
   workflow_call:
+    inputs:
+      restriction:
+        required: false
+        type: string
+        default: "no-restriction"
+        description: "Optional parameter on restrictions for parallelism and early cancellation of jobs; ToDo: placeholder not yet implemented and used."
 
 permissions:
   actions: write
   contents: write
+
+defaults:
+  run:
+    shell: zsh -l {0}
 
 concurrency:
   group: "${{ github.workflow }}-${{ github.ref }}-actions-prune"
@@ -15,14 +31,11 @@ concurrency:
 
 
 jobs:
+
   cleanup-old-action-runs-leaving-one:
     timeout-minutes: 3
     runs-on: self-hosted
     name: "Prune old actions leaving one"
-
-    defaults:
-      run:
-        shell: zsh -l {0}
 
     steps:
 
@@ -35,3 +48,5 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPO: ${{ github.repository }}
+          BRANCH: ${{ github.ref }}
+          RESTRICTION: ${{ inputs.restriction }}

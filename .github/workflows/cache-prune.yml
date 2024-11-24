@@ -3,39 +3,64 @@ run-name: "Prune Caches by Branch on [${{ github.repository }}] @ ${{ github.ref
 
 on:
   workflow_dispatch:
+    inputs:
+      restriction:
+        required: true
+        type: string
+        default: "no-restriction"
+        description: "Optional parameter on restrictions for parallelism and early cancellation of jobs; ToDo: placeholder not yet implemented and used."
   workflow_call:
+    inputs:
+      restriction:
+        required: false
+        type: string
+        default: "no-restriction"
+        description: "Optional parameter on restrictions for parallelism and early cancellation of jobs; ToDo: placeholder not yet implemented and used."
 
 concurrency:
   group: "${{ github.workflow }}-${{ github.ref }}-cache-prune"
   cancel-in-progress: true
 
+defaults:
+  run:
+    shell: zsh -l {0}
+
 
 jobs:
-  cleanup-stale-caches:
-    timeout-minutes: 1
+
+  cleanup-stale-action-caches:
+    timeout-minutes: 2
     runs-on: self-hosted
     name: "Prune stale caches if used  over GH Services"
 
-    defaults:
-      run:
-        shell: zsh -l {0}
-
     steps:
-      - name: "Cleanup stale caches"
+      - name: "Cleanup stale actions caches"
         run: |
           gh extension install actions/gh-actions-cache
 
-          echo "Fetching list of cache key"
-          cacheKeysForPR=$(gh actions-cache list -R $REPO -B $BRANCH -L 100 | cut -f 1 )
-
-          ## Setting this to not fail the workflow while deleting cache keys.
+          echo "::notice file=cache-prune.yml,line=41::Checking if any global actions caches are stale: $REPO - $BRANCH"
+          
+          declare -a cacheKeys
+          cacheKeys=$(gh actions-cache list --limit 100 | cut -f 1 )
+          echo "::notice file=cache-prune.yml,line=45::Processing ${#cacheKeys[@]} cache keys"
+          if [[ -z "${cacheKeys// }" ]]; then
+            echo "::notice file=cache-prune.yml,line=48::No stale caches found in $REPO - $BRANCH"
+            exit 0
+          fi
+          
           set +e
-          echo "Deleting caches..."
-          for cacheKey in $cacheKeysForPR
+          for cacheKey in $cacheKeys
           do
               gh actions-cache delete $cacheKey -R $REPO -B $BRANCH --confirm
+              if [ $? -eq 0 ]; then
+                echo "::notice file=cache-prune.yml,line=56::Successfully deleted cache key $cacheKey"
+              else
+                echo "::warning file=cache-prune.yml,line=58::Failed to delete cache key $cacheKey"
           done
-          echo "Done"
+          echo "::notice file=cache-prune.yml,line=60::All stale caches deleted in $REPO - $BRANCH"
+          
+          # Delete implicit cache keys
+          gh cache delete --all
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPO: ${{ github.repository }}
