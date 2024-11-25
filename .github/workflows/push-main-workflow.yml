@@ -81,12 +81,25 @@ jobs:
     secrets: inherit
 
 
+  local-build-qodana-scan:
+    name: "Qodana Security Scan on Self-Hosted Runners"
+    needs:
+      - local-build-yield-to-pull-request
+      - local-build-host-environment-checks
+    if: ${{ needs.local-build-yield-to-pull-request.outputs.bypass == 'false' }}
+    uses: ./.github/workflows/qodana-security-scan.yml
+    with:
+      restriction: "working-push"
+    secrets: inherit
+
+
   workflow-cache-prune:
     name: "Prune Caches by Branch on Self-Hosted Runners"
     needs:
       - local-build-yield-to-pull-request
       - local-build-codacy-scan
       - local-build-codeql-scan
+      - local-build-qodana-scan
     if: ${{ needs.local-build-yield-to-pull-request.outputs.bypass == 'false' }}
     uses: ./.github/workflows/cache-prune.yml
     secrets: inherit
@@ -98,6 +111,7 @@ jobs:
       - local-build-yield-to-pull-request
       - local-build-codacy-scan
       - local-build-codeql-scan
+      - local-build-qodana-scan
     if: ${{ needs.local-build-yield-to-pull-request.outputs.bypass == 'false' }}
     uses: ./.github/workflows/actions-prune.yml
     secrets: inherit

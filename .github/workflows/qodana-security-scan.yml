@@ -1,0 +1,52 @@
+name: "Qodana Security Scan"
+run-name: "Qodana Security Scan on [${{ github.repository }}] @ ${{ github.ref }} by ${{ github.actor }} with ${{ github.event_name }}"
+# https://app.codacy.com/organizations/gh/Gervi-Hera-Vitr/dashboard
+
+on:
+  workflow_dispatch:
+  workflow_call:
+    inputs:
+      restriction:
+        required: true
+        type: string
+
+permissions:
+  contents: write
+  pull-requests: write
+  checks: write
+
+concurrency:
+  group: "${{ github.workflow }}-${{ github.ref }}-qodana"
+  cancel-in-progress: false
+
+defaults:
+  run:
+    shell: zsh -l {0}
+
+
+jobs:
+
+  qodana-security-scan:
+    timeout-minutes: 13
+    runs-on: self-hosted
+    name: "Qodana Security Scan with Publishing"
+
+    steps:
+
+      - name: "Checkout repository source code"
+        uses: actions/checkout@cbb722410c2e876e24abbe8de2cc27693e501dcb
+        timeout-minutes: 3
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}  # to check out the actual pull request commit, not the merge commit
+          fetch-depth: 0  # a full history is required for pull request analysis
+
+      - name: "Run Qodana Analysis Action and Report Generation"
+        timeout-minutes: 11
+        uses: JetBrains/qodana-action@v2024.2
+        with:
+          pr-mode: false
+          push-fixes: pull-request
+        #          args: "--linter,jetbrains/qodana-jvm:2024.3-eap,--apply-fixes"
+        env:
+          QODANA_TOKEN: ${{ secrets.QODANA_TOKEN_503848163 }}
+          QODANA_ENDPOINT: 'https://qodana.cloud'

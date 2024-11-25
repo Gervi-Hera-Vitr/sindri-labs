@@ -58,11 +58,14 @@ jobs:
                 echo "::warning file=cache-prune.yml,line=58::Failed to delete cache key $cacheKey"
           done
           echo "::notice file=cache-prune.yml,line=60::All stale caches deleted in $REPO - $BRANCH"
-          
-          # Delete implicit cache keys
-          gh cache delete --all
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPO: ${{ github.repository }}
           BRANCH: refs/pull/${{ github.event.pull_request.number }}/merge
-          
+
+
+      - name: "Cleanup implicit actions caches"
+        run: gh cache delete --all
+
+      - name: "Cleanup agent-local Gradle caches"
+        run: ./util/src/main/sh/clean-gradle-caches.sh

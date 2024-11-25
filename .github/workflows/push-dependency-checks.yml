@@ -42,4 +42,4 @@ jobs:
         timeout-minutes: 2
         env:
           RELEASES_ONLY: ${{ inputs.releases-only }}
-        run: .run/hint-on-dependencies.sh
+        run: ./util/src/main/sh/hint-on-dependencies.sh
