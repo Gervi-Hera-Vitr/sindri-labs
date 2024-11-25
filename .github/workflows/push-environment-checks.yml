@@ -46,7 +46,7 @@ jobs:
         timeout-minutes: 1
 
       - name: "Run custom Introspection Script and Publish boolean values for `java_correct` and `gradle_correct` into GH Env"
-        run: .run/introspect-agent.sh
+        run: .util/src/main/sh/introspect-agent.sh
         timeout-minutes: 1
 
       # Conditional Java setup
