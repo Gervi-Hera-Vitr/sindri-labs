@@ -115,7 +115,7 @@ jobs:
       - local-build-codacy-scan
       - local-build-codeql-scan
       - local-build-qodana-scan
-    if: ${{ needs.local-build-yield-to-pull-request.outputs.bypass == 'false' }}
+    if: always()
     uses: ./.github/workflows/actions-prune.yml
     secrets: inherit
     permissions:
