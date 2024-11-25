@@ -106,6 +106,8 @@ jobs:
     if: ${{ needs.local-build-yield-to-pull-request.outputs.bypass == 'false' }}
     uses: ./.github/workflows/cache-prune.yml
     secrets: inherit
+    with:
+      restriction: 'purge-local-caches'
 
 
   workflow-runs-prune:

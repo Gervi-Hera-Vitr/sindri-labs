@@ -12,7 +12,7 @@ on:
   workflow_call:
     inputs:
       restriction:
-        required: false
+        required: true
         type: string
         default: "no-restriction"
         description: "Optional parameter on restrictions for parallelism and early cancellation of jobs; ToDo: placeholder not yet implemented and used."
@@ -64,13 +64,6 @@ jobs:
           REPO: ${{ github.repository }}
           BRANCH: refs/pull/${{ github.event.pull_request.number }}/merge
 
-      - name: "Cleanup implicit actions caches"
-        run: gh cache delete --all
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          REPO: ${{ github.repository }}
-          BRANCH: refs/pull/${{ github.event.pull_request.number }}/merge
-
-
       - name: "Cleanup agent-local Gradle caches"
+        if: ${{ inputs.restriction == 'purge-local-caches' }}
         run: ./util/src/main/sh/clean-gradle-caches.sh
