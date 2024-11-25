@@ -27,7 +27,7 @@ defaults:
 jobs:
 
   code-security-scan-with-codacy:
-    timeout-minutes: 17
+    timeout-minutes: 27
     runs-on: self-hosted
     name: "Codacy Security Scan with Publishing"
 
@@ -39,7 +39,7 @@ jobs:
 
       - name: "Run Codacy Analysis CLI Action and generate SARIF report"
         uses: codacy/codacy-analysis-cli-action@09916000460adeeedc96b9704f86deba53e2ad5d
-        timeout-minutes: 15
+        timeout-minutes: 23
         with:
           project-token: ${{ secrets.CODACY_PROJECT_TOKEN }}
           verbose: true
