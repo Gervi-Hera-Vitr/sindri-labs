@@ -27,7 +27,7 @@ defaults:
 jobs:
 
   code-security-scan-with-qodana:
-    timeout-minutes: 27
+    timeout-minutes: 37
     runs-on: self-hosted
     name: "Qodana Security Scan with Publishing"
 
@@ -41,7 +41,7 @@ jobs:
           fetch-depth: 0  # a full history is required for pull request analysis
 
       - name: "Run Qodana Analysis Action and Report Generation"
-        timeout-minutes: 23
+        timeout-minutes: 29
         uses: JetBrains/qodana-action@v2024.2
         with:
           pr-mode: false

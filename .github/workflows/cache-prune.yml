@@ -49,13 +49,14 @@ jobs:
           fi
           
           set +e
-          for cacheKey in $cacheKeys
-          do
-              gh actions-cache delete $cacheKey -R $REPO -B $BRANCH --confirm
+          for cacheKey in $cacheKeys; do
+              gh actions-cache delete $cacheKey --confirm
+          
               if [ $? -eq 0 ]; then
                 echo "::notice file=cache-prune.yml,line=56::Successfully deleted cache key $cacheKey"
               else
                 echo "::warning file=cache-prune.yml,line=58::Failed to delete cache key $cacheKey"
+              fi
           done
           echo "::notice file=cache-prune.yml,line=60::All stale caches deleted in $REPO - $BRANCH"
         env:
