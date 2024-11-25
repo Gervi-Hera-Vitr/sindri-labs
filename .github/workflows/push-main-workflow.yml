@@ -90,6 +90,7 @@ jobs:
     permissions:
       checks: write
       contents: write
+      pull-requests: write
     with:
       restriction: "working-push"
     secrets: inherit
