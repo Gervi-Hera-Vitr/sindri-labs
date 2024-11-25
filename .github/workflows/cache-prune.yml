@@ -64,9 +64,13 @@ jobs:
           REPO: ${{ github.repository }}
           BRANCH: refs/pull/${{ github.event.pull_request.number }}/merge
 
-
       - name: "Cleanup implicit actions caches"
         run: gh cache delete --all
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+          BRANCH: refs/pull/${{ github.event.pull_request.number }}/merge
+
 
       - name: "Cleanup agent-local Gradle caches"
         run: ./util/src/main/sh/clean-gradle-caches.sh
