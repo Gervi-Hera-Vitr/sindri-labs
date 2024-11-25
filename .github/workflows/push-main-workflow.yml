@@ -88,6 +88,9 @@ jobs:
       - local-build-host-environment-checks
     if: ${{ needs.local-build-yield-to-pull-request.outputs.bypass == 'false' }}
     uses: ./.github/workflows/qodana-security-scan.yml
+    permissions:
+      checks: write
+      contents: write
     with:
       restriction: "working-push"
     secrets: inherit
