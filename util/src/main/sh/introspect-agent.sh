@@ -102,10 +102,8 @@ df | tail -n +2 | while read -r line; do
   if [[ $usage -ge 50 && $usage -lt 73 ]]; then
     echo "::notice file=introspect.sh,line=103::Disk usage on $mount is at $usage% - consider investigating."
   elif [[ $usage -ge 73 && $usage -lt 85 ]]; then
-    echo "::warning file=introspect.sh,line=105::Disk usage on $mount is at $usage%."
+    echo "::warning file=introspect.sh,line=105::Disk usage on $mount is at $usage% - requires maintenance."
   elif [[ $usage -ge 85 ]]; then
     echo ":error file=introspect.sh, line=107:: Disk usage on $mount is critically low at $usage%."
-  else
-    echo "::notice file=introspect.sh,line=109::Disk usage on $mount is at $usage%."
   fi
 done
