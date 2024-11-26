@@ -73,12 +73,12 @@ echo "| ------------------------------------------------------------|"
 
 
 # Check for Gradle 8.10
-GRADLE_VERSION_INSTALLED=$(gradle --version 2>&1 | grep -o '8\.10')
+GRADLE_VERSION_INSTALLED=$(gradle --version 2>&1 | grep -o '8\.11')
 echo -e "| Gradle version installed: \t$GRADLE_VERSION_INSTALLED"
-if [[ $GRADLE_VERSION_INSTALLED =~ 8.10 ]]; then
+if [[ $GRADLE_VERSION_INSTALLED =~ 8.11 ]]; then
   echo "gradle_correct=true" >> "$GITHUB_ENV"
   echo "GRADLE_HOME=$GRADLE_HOME" >> "$GITHUB_ENV"
-  echo -e "| Gradle 8.10: \t\t\tOK"
+  echo -e "| Gradle 8.11: \t\t\tOK"
   echo "::notice file=introspect.sh,line=82::Agent host $(hostname): Gradle $GRADLE_VERSION_INSTALLED is locally available.";
 
   if ! grep -q 'gradle_correct=true' "$GITHUB_ENV"; then
@@ -86,10 +86,26 @@ if [[ $GRADLE_VERSION_INSTALLED =~ 8.10 ]]; then
   fi
 else
   echo "gradle_correct=false" >> "$GITHUB_ENV"
-  echo -e "| Gradle 8.10: \t\t\tFAILED"
-  echo "::warning file=introspect.sh,line=81::Agent host $(hostname): Gradle 8.10 is NOT locally available.";
+  echo -e "| Gradle 8.11: \t\t\tFAILED"
+  echo "::warning file=introspect.sh,line=81::Agent host $(hostname): Gradle 8.11 is NOT locally available.";
 fi
 echo "| ------------------------------------------------------------|"
 echo "| File contents:                                              |"
 echo "| ${GITHUB_ENV}"
 echo "==============================================================="
+
+
+# Disk usage check
+df | tail -n +2 | while read -r line; do
+  usage=$(echo "$line" | awk '{print $5}' | tr -d '%')
+  mount=$(echo "$line" | awk '{print $6}')
+  if [[ $usage -ge 50 && $usage -lt 73 ]]; then
+    echo "::notice file=introspect.sh,line=103::Disk usage on $mount is at $usage% - consider investigating."
+  elif [[ $usage -ge 73 && $usage -lt 85 ]]; then
+    echo "::warning file=introspect.sh,line=105::Disk usage on $mount is at $usage%."
+  elif [[ $usage -ge 85 ]]; then
+    echo ":error file=introspect.sh, line=107:: Disk usage on $mount is critically low at $usage%."
+  else
+    echo "::notice file=introspect.sh,line=109::Disk usage on $mount is at $usage%."
+  fi
+done
