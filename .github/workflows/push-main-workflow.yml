@@ -28,7 +28,7 @@ defaults:
     shell: zsh -l {0}
 
 env:
-  RUN_RESTRICTION: "on-working-push"
+  RESTRICTION: on-working-push
 
 
 jobs:
@@ -48,7 +48,7 @@ jobs:
     if: ${{ needs.local-build-yield-to-pull-request.outputs.bypass == 'false' }}
     uses: ./.github/workflows/push-environment-checks.yml
     with:
-      restriction: ${{ env.RUN_RESTRICTION }}
+      restriction: ${{ env.RESTRICTION }}
     secrets: inherit
 
   local-build-project-dependency-hints:
@@ -57,7 +57,7 @@ jobs:
     if: ${{ needs.local-build-yield-to-pull-request.outputs.bypass == 'false' }}
     uses: ./.github/workflows/push-dependency-checks.yml
     with:
-      restriction: ${{ env.RUN_RESTRICTION }}
+      restriction: ${{ env.RESTRICTION }}
       releases-only: false
     secrets: inherit
 
@@ -69,7 +69,7 @@ jobs:
     if: ${{ needs.local-build-yield-to-pull-request.outputs.bypass == 'false' }}
     uses: ./.github/workflows/codeql-security-scan.yml
     with:
-      restriction: ${{ env.RUN_RESTRICTION }}
+      restriction: ${{ env.RESTRICTION }}
     secrets: inherit
 
 
@@ -81,7 +81,7 @@ jobs:
     if: ${{ needs.local-build-yield-to-pull-request.outputs.bypass == 'false' }}
     uses: ./.github/workflows/codacy-security-scan.yml
     with:
-      restriction: ${{ env.RUN_RESTRICTION }}
+      restriction: ${{ env.RESTRICTION }}
     secrets: inherit
 
 
@@ -97,7 +97,7 @@ jobs:
       contents: write
       pull-requests: write
     with:
-      restriction: ${{ env.RUN_RESTRICTION }}
+      restriction: ${{ env.RESTRICTION }}
     secrets: inherit
 
 
@@ -137,5 +137,5 @@ jobs:
     if: always()
     uses: ./.github/workflows/push-summary-workflow.yml
     with:
-      restriction: ${{ env.RUN_RESTRICTION }}
+      restriction: ${{ env.RESTRICTION }}
       yielded: ${{ needs.local-build-yield-to-pull-request.outputs.bypass }}
