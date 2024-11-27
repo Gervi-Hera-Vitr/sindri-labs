@@ -30,7 +30,6 @@ defaults:
 env:
   RESTRICTION: on-working-push
 
-
 jobs:
 
   local-build-yield-to-pull-request:
