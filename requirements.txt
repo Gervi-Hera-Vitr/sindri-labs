@@ -29,7 +29,7 @@ defusedxml==0.7.1
 entrypoints==0.4
 exceptiongroup==1.2.2
 executing==2.1.0
-fastjsonschema==2.20.0
+fastjsonschema==2.21.0
 fonttools==4.55.0
 fqdn==1.5.1
 h11==0.14.0
