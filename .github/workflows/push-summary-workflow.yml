@@ -1,0 +1,47 @@
+name: "Summary: Working Push"
+run-name: "Summary of working push on [${{ github.repository }}] @ ${{ github.ref }} by ${{ github.actor }} with ${{ github.event_name }}"
+
+on:
+  workflow_call:
+    inputs:
+      restriction:
+        required: true
+        type: string
+        default: "no-restriction"
+        description: "Optional parameter on restrictions for parallelism and early cancellation of jobs; ToDo: placeholder not yet implemented and used."
+      yielded:
+        required: true
+        type: boolean
+        default: false
+        description: "Was the push workflow yielded to a Pull Request? (default: false)"
+
+
+concurrency:
+  group: "${{ github.workflow }}-${{ github.ref }}-push-summary"
+  cancel-in-progress: false
+
+defaults:
+  run:
+    shell: zsh -l {0}
+
+jobs:
+
+  push-workflow-commited-summary:
+    name: "Publish Summary of the Working Push"
+    timeout-minutes: 1
+    runs-on: self-hosted
+
+    steps:
+      - name: "Notify on the Working Push Execution"
+        id: push-summary-executed
+        if: ${{ !inputs.yielded  }}
+        run: |
+          echo "::notice file=push-summary-workflow.yml,line=39::Push workflow executed 👌"
+          cat docs/src/docs/markdown/template-push-commited.md | sed "s/-run-restriction-key-value-/${{ inputs.restriction }}/" >> $GITHUB_STEP_SUMMARY
+
+      - name: "Notify on the Working Push Cancellation"
+        id: push-summary-canceled
+        if: ${{ inputs.yielded  }}
+        run: |          
+          echo "::warning file=push-summary-workflow.yml,line=43::Push workflow CANCELED due to active pull request"
+          cat docs/src/docs/markdown/template-push-canceled.md | sed "s/-run-restriction-key-value-/${{ inputs.restriction }}/" >> $GITHUB_STEP_SUMMARY

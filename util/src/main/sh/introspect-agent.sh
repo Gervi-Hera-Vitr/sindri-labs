@@ -99,9 +99,9 @@ echo "==============================================================="
 df | tail -n +2 | while read -r line; do
   usage=$(echo "$line" | awk '{print $5}' | tr -d '%')
   mount=$(echo "$line" | awk '{print $6}')
-  if [[ $usage -ge 50 && $usage -lt 73 ]]; then
+  if [[ $usage -ge 50 && $usage -lt 75 ]]; then
     echo "::notice file=introspect.sh,line=103::Disk usage on $mount is at $usage% - consider investigating."
-  elif [[ $usage -ge 73 && $usage -lt 85 ]]; then
+  elif [[ $usage -ge 75 && $usage -lt 85 ]]; then
     echo "::warning file=introspect.sh,line=105::Disk usage on $mount is at $usage% - requires maintenance."
   elif [[ $usage -ge 85 ]]; then
     echo ":error file=introspect.sh, line=107:: Disk usage on $mount is critically low at $usage%."
