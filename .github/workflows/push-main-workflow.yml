@@ -57,7 +57,7 @@ jobs:
     if: ${{ needs.local-build-yield-to-pull-request.outputs.bypass == 'false' }}
     uses: ./.github/workflows/push-dependency-checks.yml
     with:
-      restriction: ${{ RUN_RESTRICTION }}
+      restriction: ${{ env.RUN_RESTRICTION }}
       releases-only: false
     secrets: inherit
 
@@ -69,7 +69,7 @@ jobs:
     if: ${{ needs.local-build-yield-to-pull-request.outputs.bypass == 'false' }}
     uses: ./.github/workflows/codeql-security-scan.yml
     with:
-      restriction: ${{ RUN_RESTRICTION }}
+      restriction: ${{ env.RUN_RESTRICTION }}
     secrets: inherit
 
 
@@ -81,7 +81,7 @@ jobs:
     if: ${{ needs.local-build-yield-to-pull-request.outputs.bypass == 'false' }}
     uses: ./.github/workflows/codacy-security-scan.yml
     with:
-      restriction: ${{ RUN_RESTRICTION }}
+      restriction: ${{ env.RUN_RESTRICTION }}
     secrets: inherit
 
 
@@ -97,7 +97,7 @@ jobs:
       contents: write
       pull-requests: write
     with:
-      restriction: ${{ RUN_RESTRICTION }}
+      restriction: ${{ env.RUN_RESTRICTION }}
     secrets: inherit
 
 
@@ -134,8 +134,8 @@ jobs:
     needs:
       - workflow-cache-prune
       - workflow-runs-prune
-    if: ${{ needs.local-build-yield-to-pull-request.outputs.bypass == 'false' }}
+    if: always()
     uses: ./.github/workflows/push-summary-workflow.yml
     with:
-      restriction: ${{ RUN_RESTRICTION }}
+      restriction: ${{ env.RUN_RESTRICTION }}
       yielded: ${{ needs.local-build-yield-to-pull-request.outputs.bypass }}
