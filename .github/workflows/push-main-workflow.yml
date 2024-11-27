@@ -48,7 +48,7 @@ jobs:
     if: ${{ needs.local-build-yield-to-pull-request.outputs.bypass == 'false' }}
     uses: ./.github/workflows/push-environment-checks.yml
     with:
-      restriction: ${{ env.RESTRICTION }}
+      restriction: $RESTRICTION
     secrets: inherit
 
   local-build-project-dependency-hints:
