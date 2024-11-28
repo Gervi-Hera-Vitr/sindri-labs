@@ -5,3 +5,7 @@
 
 # Best to just update the system
 softwareupdate -ia
+
+brew update
+
+brew upgrade --greedy

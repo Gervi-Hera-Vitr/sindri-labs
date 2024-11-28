@@ -44,18 +44,36 @@ jobs:
     steps:
       - name: "Check if this branch has an open pull request"
         id: this-branch-pr-check
-        run: |
-          echo "::notice file=push.yaml,line=46::Checking if this branch has a working pull request to yield to."
-          prs=$(gh pr list \
-          --repo "$GITHUB_REPOSITORY" \
-          --head "$(echo ${GITHUB_REF##*/})" \
-          --base "${{ inputs.target-branch }}" \
-          --json title \
-          --jq 'length')
-          if ((prs > 0)); then
-            echo "skip=true" >> "$GITHUB_OUTPUT"
-            echo "::warning file=push.yaml,line=55::This branch has a working pull request to yield to => `push` run is TERMINATING due to active pull request."
-          else
-            echo "skip=false" >> "$GITHUB_OUTPUT"
-            echo "::notice file=push.yaml,line=58::This branch has no working pull request to yield to =>`push` workflow marked to execute!"
-          fi
+        run: ./util/src/main/sh/push-action-check-to-yield.sh "$GITHUB_REPOSITORY" $(echo ${GITHUB_REF##*/}) "${{ inputs.default-branch }}" "${{ inputs.target-branch }}"
+#        >-
+#          echo "::notice file=push.yaml,line=46::Checking if this branch has a working pull request to yield to.";
+#
+#          prs=$( gh pr list
+#          --repo "$GITHUB_REPOSITORY"
+#          --head "$(echo ${GITHUB_REF##*/})"
+#          --base "${{ inputs.target-branch }}"
+#          --json title
+#          --jq 'length' );
+#
+#          if ((prs > 0)); then
+#
+#            echo "skip=true" >> "$GITHUB_OUTPUT";
+#            echo "::warning file=push.yaml,line=55::This branch has a working pull request to yield to => `push` run is TERMINATING due to active pull request.";
+#            cat docs/src/docs/markdown/template-check-yield.md |
+#              sed --quiet
+#              --expression="s/--disposition-title--/Yielding to PR/"
+#              --expression="s/--run-disposition-decision--/Pull Request detected thus push workflow will cancel!/"
+#              >> $GITHUB_STEP_SUMMARY;
+#
+#          else
+#
+#            echo "skip=false" >> "$GITHUB_OUTPUT";
+#            echo "::notice file=push.yaml,line=58::This branch has no working pull request to yield to =>`push` workflow marked to execute!";
+#
+#            cat docs/src/docs/markdown/template-check-yield.md |
+#              sed --quiet
+#              --expression="s/--disposition-title--/Building Push!/"
+#              --expression="s/--run-disposition-decision--/Running push workflow because a PR is not detected in this branch./"
+#              >> $GITHUB_STEP_SUMMARY;
+#
+#          fi;

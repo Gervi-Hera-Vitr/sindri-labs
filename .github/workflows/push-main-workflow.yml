@@ -18,6 +18,7 @@ permissions:
   statuses: read
   packages: read
 
+
 concurrency:
   group: "${{ github.workflow }}-${{ github.ref }}-push-main"
   cancel-in-progress: false
@@ -25,6 +26,9 @@ concurrency:
 defaults:
   run:
     shell: zsh -l {0}
+
+env:
+  RESTRICTION: on-working-push
 
 jobs:
 
@@ -43,7 +47,7 @@ jobs:
     if: ${{ needs.local-build-yield-to-pull-request.outputs.bypass == 'false' }}
     uses: ./.github/workflows/push-environment-checks.yml
     with:
-      restriction: "on-working-push"
+      restriction: $RESTRICTION
     secrets: inherit
 
   local-build-project-dependency-hints:
@@ -52,7 +56,7 @@ jobs:
     if: ${{ needs.local-build-yield-to-pull-request.outputs.bypass == 'false' }}
     uses: ./.github/workflows/push-dependency-checks.yml
     with:
-      restriction: "on-working-push"
+      restriction: $RESTRICTION
       releases-only: false
     secrets: inherit
 
@@ -64,7 +68,7 @@ jobs:
     if: ${{ needs.local-build-yield-to-pull-request.outputs.bypass == 'false' }}
     uses: ./.github/workflows/codeql-security-scan.yml
     with:
-      restriction: "working-push"
+      restriction: $RESTRICTION
     secrets: inherit
 
 
@@ -76,7 +80,7 @@ jobs:
     if: ${{ needs.local-build-yield-to-pull-request.outputs.bypass == 'false' }}
     uses: ./.github/workflows/codacy-security-scan.yml
     with:
-      restriction: "working-push"
+      restriction: $RESTRICTION
     secrets: inherit
 
 
@@ -92,7 +96,7 @@ jobs:
       contents: write
       pull-requests: write
     with:
-      restriction: "working-push"
+      restriction: $RESTRICTION
     secrets: inherit
 
 
@@ -106,6 +110,8 @@ jobs:
     if: ${{ needs.local-build-yield-to-pull-request.outputs.bypass == 'false' }}
     uses: ./.github/workflows/cache-prune.yml
     secrets: inherit
+    with:
+      restriction: 'purge-local-caches'
 
 
   workflow-runs-prune:
@@ -121,3 +127,14 @@ jobs:
     permissions:
       actions: write
       contents: write
+
+  push-main-workflow-summary:
+    name: "Publish Summary of the Working Push"
+    needs:
+      - workflow-cache-prune
+      - workflow-runs-prune
+    if: always()
+    uses: ./.github/workflows/push-summary-workflow.yml
+    with:
+      restriction: $env.RESTRICTION
+      yielded:  ${{ needs.local-build-yield-to-pull-request.outputs.bypass == 'true' }}
