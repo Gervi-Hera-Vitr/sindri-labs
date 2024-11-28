@@ -137,4 +137,4 @@ jobs:
     uses: ./.github/workflows/push-summary-workflow.yml
     with:
       restriction: $RESTRICTION
-      yielded: $needs.local-build-yield-to-pull-request.outputs.bypass
+      yielded:  ${{ needs.local-build-yield-to-pull-request.outputs.bypass == 'true' }}
