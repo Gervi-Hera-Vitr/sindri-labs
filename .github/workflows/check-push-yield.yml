@@ -60,8 +60,8 @@ jobs:
             echo "::warning file=push.yaml,line=55::This branch has a working pull request to yield to => `push` run is TERMINATING due to active pull request.";
             cat docs/src/docs/markdown/template-check-yield.md |
               sed --quiet
-              --expression "s/--disposition-title--/Yielding to PR/"
-              --expression "s/--run-disposition-decision--/Pull Request detected thus push workflow will cancel!/"
+              --expression="s/--disposition-title--/Yielding to PR/"
+              --expression="s/--run-disposition-decision--/Pull Request detected thus push workflow will cancel!/"
               >> $GITHUB_STEP_SUMMARY;
           
           else
@@ -71,8 +71,8 @@ jobs:
           
             cat docs/src/docs/markdown/template-check-yield.md |
               sed --quiet
-              --expression  "s/--disposition-title--/Building Push!/"
-              --expression  "s/--run-disposition-decision--/Running push workflow because a PR is not detected in this branch./"
+              --expression="s/--disposition-title--/Building Push!/"
+              --expression="s/--run-disposition-decision--/Running push workflow because a PR is not detected in this branch./"
               >> $GITHUB_STEP_SUMMARY;
           
           fi;
