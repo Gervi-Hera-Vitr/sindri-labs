@@ -1,11 +1,11 @@
-# Push vs. Pull Check
+# --disposition-title--
 
 **Rule: _Always yield to Pull Requests Workflow_**
 
 <details>
 
-<summary>Run disposition:</summary>
+<summary>More info:</summary>
 
-**_-run-disposition-decision-_**.
+- **_--run-disposition-decision--_**.
 
 </details>
