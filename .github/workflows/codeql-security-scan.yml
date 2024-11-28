@@ -27,7 +27,7 @@ defaults:
 jobs:
 
   code-security-scan-with-codeql:
-    timeout-minutes: 7
+    timeout-minutes: 23
     runs-on: self-hosted
     name: "CodeQL Quality Scan with Outcome Publishing"
 
@@ -39,7 +39,7 @@ jobs:
 
       - name: "Initialize CodeQL Quality Analysis Action"
         uses: github/codeql-action/init@3d3d628990a5f99229dd9fa1821cc5a4f31b613b
-        timeout-minutes: 7
+        timeout-minutes: 17
         with:
           languages: ${{ matrix.language }}
           build-mode: ${{ matrix.build-mode }}
@@ -53,7 +53,7 @@ jobs:
 
       - name: "Perform CodeQL Quality Analysis Action"
         uses: github/codeql-action/analyze@3d3d628990a5f99229dd9fa1821cc5a4f31b613b
-        timeout-minutes: 11
+        timeout-minutes: 17
         with:
           category: "/language:${{matrix.language}}"
         continue-on-error: true

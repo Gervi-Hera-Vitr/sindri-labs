@@ -26,8 +26,8 @@ defaults:
 
 jobs:
 
-  qodana-security-scan:
-    timeout-minutes: 13
+  code-security-scan-with-qodana:
+    timeout-minutes: 37
     runs-on: self-hosted
     name: "Qodana Security Scan with Publishing"
 
@@ -41,7 +41,7 @@ jobs:
           fetch-depth: 0  # a full history is required for pull request analysis
 
       - name: "Run Qodana Analysis Action and Report Generation"
-        timeout-minutes: 11
+        timeout-minutes: 29
         uses: JetBrains/qodana-action@v2024.2
         with:
           pr-mode: false
@@ -50,3 +50,15 @@ jobs:
         env:
           QODANA_TOKEN: ${{ secrets.QODANA_TOKEN_503848163 }}
           QODANA_ENDPOINT: 'https://qodana.cloud'
+
+  code-security-scan-codeql-postmortem:
+    timeout-minutes: 3
+    runs-on: self-hosted
+    needs: code-security-scan-with-qodana
+    name: "Qodana Quality Scan Execution Validation and Recovery"
+
+    steps:
+
+      - name: "ToDo: Qodana Analysis Postmortem"
+        run: |
+          echo -e "\n\nQodana Analysis Postmortem placeholder.\n\n"
