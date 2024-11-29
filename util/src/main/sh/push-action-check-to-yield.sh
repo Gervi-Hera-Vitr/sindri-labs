@@ -1,6 +1,5 @@
 #!/usr/bin/env zsh
 
-repo="${GITHUB_REPOSITORY}"
 ref="${GITHUB_REF##*/}"
 brd=$1
 brt=$2
@@ -12,10 +11,11 @@ INFO: Checking if this branch has
   a working pull request
   to yield to.
 =========================================
-Action Key Values:
+Action Control Values:
 Event:            $GITHUB_EVENT_NAME
 Output File:      $GITHUB_OUTPUT
 Summary File:     $GITHUB_STEP_SUMMARY
+Environment File: $GITHUB_ENV
 
 Environment Variables:
 GITHUB_REPOSITORY: $GITHUB_REPOSITORY
@@ -25,25 +25,19 @@ GITHUB_SHA:        $GITHUB_SHA
 GITHUB_EVENT_NAME: $GITHUB_EVENT_NAME
 GITHUB_ACTION:     $GITHUB_ACTION
 GITHUB_WORKFLOW:   $GITHUB_WORKFLOW
-GITHUB_ACTION_REPOSITORY: $GITHUB_ACTION_REPOSITORY
-GITHUB_ACTION_PATH: $GITHUB_ACTION_PATH
-GITHUB_ACTION_REF: $GITHUB_ACTION_REF
-GITHUB_ACTION_SHA: $GITHUB_ACTION_SHA
-GITHUB_ACTION_VERSION: $GITHUB_ACTION_VERSION
-GITHUB_ACTION_RETENTION_PERIOD: $GITHUB_ACTION_RETENTION_PERIOD
 
 =========================================
 
 Inferred Values:
-Repository:       $repo
 Reference:        $ref
 
 Passed Values:
-Default Branch:   $brd
-Target Branch:    $brt
+Target Branch:    $brt (default is $brd)
 =========================================
 
 EOF
+
+echo "::group::Yield Selector Annotations"
 
 # shellcheck source=SDKMAN_INIT
 [[ -s "$SDKMAN_INIT" ]] && source "$SDKMAN_INIT"
@@ -51,7 +45,7 @@ EOF
 echo "::notice file=push-action-check-to-yield.sh,line=6::Checking if this branch has a working pull request to yield to.";
 
 prs=$( gh pr list \
-  --repo "$repo" \
+  --repo "$GITHUB_REPOSITORY" \
   --head "$ref" \
   --base "$brt" \
   --json title \
@@ -84,3 +78,5 @@ else
   docs/src/docs/markdown/template-check-yield.md >> "$GITHUB_STEP_SUMMARY"
 
 fi
+
+echo "::endgroup::"
