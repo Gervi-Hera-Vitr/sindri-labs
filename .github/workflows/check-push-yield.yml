@@ -42,6 +42,12 @@ jobs:
       terminate: ${{ steps.this-branch-pr-check.outputs.skip }}
 
     steps:
+
+      - name: "Checkout repository source code"
+        uses: actions/checkout@cbb722410c2e876e24abbe8de2cc27693e501dcb
+        timeout-minutes: 3
+
       - name: "Check if this branch has an open pull request"
+        timeout-minutes: 3
         id: this-branch-pr-check
         run: util/src/main/sh/push-action-check-to-yield.sh "${{ inputs.default-branch }}" "${{ inputs.target-branch }}"
