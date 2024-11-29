@@ -43,6 +43,10 @@ jobs:
 
     steps:
 
+      - name: "Group Yield Selector Annotations"
+        id: yield-selector-annotations-group
+        run:  echo "::group::Yield Selector Annotations"
+
       - name: "Checkout repository source code"
         uses: actions/checkout@cbb722410c2e876e24abbe8de2cc27693e501dcb
         timeout-minutes: 3
@@ -51,3 +55,10 @@ jobs:
         timeout-minutes: 3
         id: this-branch-pr-check
         run: util/src/main/sh/push-action-check-to-yield.sh "${{ inputs.default-branch }}" "${{ inputs.target-branch }}"
+        env:
+          ISSUE: ${{ github.event.issue.html_url }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: "Un-Group Yield Selector Annotations"
+        id: yield-selector-annotations-ungroup
+        run:  echo "::endgroup::"
