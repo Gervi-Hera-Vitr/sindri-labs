@@ -44,4 +44,4 @@ jobs:
     steps:
       - name: "Check if this branch has an open pull request"
         id: this-branch-pr-check
-        run: util/src/main/sh/push-action-check-to-yield.sh "$GITHUB_REPOSITORY" $(echo ${GITHUB_REF##*/}) "${{ inputs.default-branch }}" "${{ inputs.target-branch }}"
+        run: util/src/main/sh/push-action-check-to-yield.sh "${{ inputs.default-branch }}" "${{ inputs.target-branch }}"

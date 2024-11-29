@@ -1,9 +1,9 @@
 #!/usr/bin/env zsh
 
-repo=$1
-ref=$2
-brd=$3
-brt=$4
+repo="${GITHUB_REPOSITORY}"
+ref="${GITHUB_REF##*/}"
+brd=$1
+brt=$2
 
 cat <<EOF
 
@@ -12,8 +12,33 @@ INFO: Checking if this branch has
   a working pull request
   to yield to.
 =========================================
+Action Key Values:
+Event:            $GITHUB_EVENT_NAME
+Output File:      $GITHUB_OUTPUT
+Summary File:     $GITHUB_STEP_SUMMARY
+
+Environment Variables:
+GITHUB_REPOSITORY: $GITHUB_REPOSITORY
+GITHUB_REF:        $GITHUB_REF
+GITHUB_REF_NAME:   $GITHUB_REF_NAME
+GITHUB_SHA:        $GITHUB_SHA
+GITHUB_EVENT_NAME: $GITHUB_EVENT_NAME
+GITHUB_ACTION:     $GITHUB_ACTION
+GITHUB_WORKFLOW:   $GITHUB_WORKFLOW
+GITHUB_ACTION_REPOSITORY: $GITHUB_ACTION_REPOSITORY
+GITHUB_ACTION_PATH: $GITHUB_ACTION_PATH
+GITHUB_ACTION_REF: $GITHUB_ACTION_REF
+GITHUB_ACTION_SHA: $GITHUB_ACTION_SHA
+GITHUB_ACTION_VERSION: $GITHUB_ACTION_VERSION
+GITHUB_ACTION_RETENTION_PERIOD: $GITHUB_ACTION_RETENTION_PERIOD
+
+=========================================
+
+Inferred Values:
 Repository:       $repo
 Reference:        $ref
+
+Passed Values:
 Default Branch:   $brd
 Target Branch:    $brt
 =========================================
