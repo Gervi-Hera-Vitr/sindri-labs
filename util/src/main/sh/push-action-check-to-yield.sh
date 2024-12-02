@@ -42,7 +42,7 @@ echo "::group::Yield Selector Annotations"
 # shellcheck source=SDKMAN_INIT
 [[ -s "$SDKMAN_INIT" ]] && source "$SDKMAN_INIT"
 
-echo "::notice file=push-action-check-to-yield.sh,line=6::Checking if this branch has a working pull request to yield to.";
+echo "::notice file=push-action-check-to-yield.sh,line=45::Checking if this branch has a working pull request to yield to.";
 
 prs=$( gh pr list \
   --repo "$GITHUB_REPOSITORY" \
@@ -62,7 +62,7 @@ EOF
 if ((prs > 0)); then
 
   echo "skip=true" >> "$GITHUB_OUTPUT"
-  echo "::warning file=push-action-check-to-yield.sh,line=46::This branch has a working pull request to yield to => This Push run is TERMINATING due to active pull request."
+  echo "::notice file=push-action-check-to-yield.sh,line=65::This branch has a working pull request to yield to => This Push run is TERMINATING due to active pull request."
 
   sed -e 's/--disposition-title--/Yielding to PR/' \
   -e 's/--run-disposition-decision--/Pull Request detected thus push workflow will cancel!/' \
@@ -71,7 +71,6 @@ if ((prs > 0)); then
 else
 
   echo "skip=false" >> "$GITHUB_OUTPUT"
-  echo "::notice file=push.yaml,line=58::This branch has no working pull request to yield to =>This Push workflow is marked to execute!"
 
   sed -e 's/--disposition-title--/Building Push!/' \
   -e 's/--run-disposition-decision--/Running push workflow because a PR is not detected in this branch./' \
