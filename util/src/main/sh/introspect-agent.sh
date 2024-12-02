@@ -10,6 +10,9 @@ version_of_jdk=${1:-'21.0.5'}
 gradle_version=${2:-'8.11.1'}
 agent_host=$(hostname)
 
+# File to store summary details
+github_summary="$GITHUB_STEP_SUMMARY"
+
 echo "::group::Introspection for $(hostname) - $(date +%H:%M:%S)"
 
 # shellcheck source=SDKMAN_INIT
@@ -31,30 +34,30 @@ if [ -z "$GITHUB_ENV" ] && [ "${GITHUB_ENV+xxx}" = "xxx" ]; then
   echo "::warning file=introspect.sh,line=26::Agent host $(hostname) GitHub Environment is UNREACHABLE to Actions Runner and is simulated at $GITHUB_ENV!";
 fi
 
-
+# Java check
 JAVA_VERSION_INSTALLED=$(java --version | head -1)
 echo "java_version=$JAVA_VERSION_INSTALLED" >> "$GITHUB_ENV"
 if [[ $JAVA_VERSION_INSTALLED =~ $version_of_jdk ]]; then
   echo "java_correct=true" >> "$GITHUB_ENV"
-  echo "Agent host $(hostname): JDK $version_of_jdk is locally available.";
+  echo "Agent host $(hostname): JDK $version_of_jdk is locally available."
 else
   echo "java_correct=false" >> "$GITHUB_ENV"
-  echo "::warning file=introspect.sh,line=35::Agent host $(hostname): JDK $version_of_jdk is NOT locally available.";
+  echo "::warning file=introspect.sh,line=35::Agent host $(hostname): JDK $version_of_jdk is NOT locally available."
 fi
 
+# Gradle check
 GRADLE_VERSION_INSTALLED=$(gradle -v | grep Gradle | cut -d ' ' -f 2)
 echo "gradle_version=$GRADLE_VERSION_INSTALLED" >> "$GITHUB_ENV"
 if [[ $GRADLE_VERSION_INSTALLED =~ $gradle_version ]]; then
   echo "gradle_correct=true" >> "$GITHUB_ENV"
-  echo "Agent host $(hostname): Gradle $GRADLE_VERSION_INSTALLED is locally available.";
+  echo "Agent host $(hostname): Gradle $GRADLE_VERSION_INSTALLED is locally available."
 else
   echo "gradle_correct=false" >> "$GITHUB_ENV"
-  echo "::warning file=introspect.sh,line=81::Agent host $(hostname): Gradle $gradle_version is NOT locally available.";
+  echo "::warning file=introspect.sh,line=50::Agent host $(hostname): Gradle $gradle_version is NOT locally available."
 fi
 
-declare -av disk_usage    # Array to store disk usage information in summary
-
 # Disk usage check
+disk_usage_information=""
 df -h | tail -n +2 | while read -r line; do
   for skipped_mount in "${skipped_mounts[@]}"; do
     if [[ "$line" == *"$skipped_mount"* ]]; then
@@ -73,57 +76,41 @@ df -h | tail -n +2 | while read -r line; do
   used=$(echo "$line" | awk '{print $3}')
   available=$(echo "$line" | awk '{print $4}')
 
-  echo -e "| -- > Disk usage on $slug is at $usage% (device: $device, size: $size, used: $used, available: $available)."
-
-
+  # Add to GitHub environment variables
   echo "${agent_host}_${slug}=${usage}%" >> "$GITHUB_ENV"
 
+  # Create disk usage summary
+  # shellcheck disable=SC2030
+  disk_usage_information+="- **$mount** (Device: $device, Size: $size, Used: $used, Available: $available, Usage: ${usage}%)\n"
+
+  # Log warnings or errors based on usage
   if [[ $usage -ge 50 && $usage -lt 75 ]]; then
     echo -e "| -- > Disk usage on $slug is at $usage% - consider investigating."
   elif [[ $usage -ge 75 && $usage -lt 85 ]]; then
-    echo "::warning file=introspect.sh,line=105::Disk usage on $mount is at $usage% - requires maintenance."
+    echo "::warning file=introspect.sh,line=81::Disk usage on $mount is at $usage% - requires maintenance."
   elif [[ $usage -ge 85 ]]; then
-    echo ":error file=introspect.sh, line=107:: Disk usage on $mount is critically low at $usage%."
+    echo "::error file=introspect.sh, line=83:: Disk usage on $mount is critically low at $usage%."
   fi
 done
 
-# ToDo: create
+# Write summary to GitHub summary file
+cat <<EOF >> "$github_summary"
+# Agent Host Checks on $agent_host
 
-# Disk usage check
-#Host: tom
-#Filesystem                         Size  Used Avail Use% Mounted on
-#udev                               3.9G     0  3.9G   0% /dev
-#tmpfs                              788M  1.2M  787M   1% /run
-#/dev/sda3                          6.9G  4.8G  1.7G  75% /
-#tmpfs                              3.9G     0  3.9G   0% /dev/shm
-#tmpfs                              5.0M  8.0K  5.0M   1% /run/lock
-#/dev/mapper/tom--vg-lv--tom--home   22G   13G  8.9G  59% /home
-#/dev/mapper/tom--vg-lv--tom--temp   11G  100K   11G   1% /tmp
-#/dev/mapper/tom--vg-lv--tom--var   553G   97G  429G  19% /var
-#/dev/sda2                          488M  149M  303M  34% /boot
-#tmpfs                              788M   44K  788M   1% /run/user/1000
-#
-#Host: toad
-#Filesystem                     Size  Used Avail Use% Mounted on
-#udev                           3.9G     0  3.9G   0% /dev
-#tmpfs                          791M  736K  790M   1% /run
-#/dev/mapper/vg--root-lv--root   22G  3.5G   17G  17% /
-#tmpfs                          3.9G     0  3.9G   0% /dev/shm
-#tmpfs                          5.0M     0  5.0M   0% /run/lock
-#/dev/mapper/vg--home-lv--home   77G  7.5G   69G  10% /home
-#/dev/sdb1                      275M  110M  153M  42% /boot
-#/dev/mapper/vg--srv-lv--srv    512G   19G  494G   4% /srv
-#tmpfs                          791M     0  791M   0% /run/user/1000
-#
-#Host: yoshi
-#Filesystem                  Size  Used Avail Use% Mounted on
-#udev                        3.9G     0  3.9G   0% /dev
-#tmpfs                       794M  8.7M  785M   2% /run
-#/dev/mapper/yoshi--vg-root  9.9G  2.9G  6.5G  31% /
-#tmpfs                       3.9G     0  3.9G   0% /dev/shm
-#tmpfs                       5.0M     0  5.0M   0% /run/lock
-#/dev/sda1                   455M  110M  321M  26% /boot
-#/dev/mapper/yoshi--vg-home   18G  3.1G   14G  18% /home
-#/dev/sdb1                   586G   21G  536G   4% /srv/prod
-#tmpfs                       794M     0  794M   0% /run/user/1000
-#
+<details>
+<summary>Resource Usage:</summary>
+
+- **Host Name:** $agent_host
+- **Java Version:** $JAVA_VERSION_INSTALLED
+- **Gradle Version:** $GRADLE_VERSION_INSTALLED
+- **Disk Usage:**
+  $disk_usage_information
+- **Gradle Correct:** $(grep 'gradle_correct' "$GITHUB_ENV" | cut -d '=' -f 2)
+- **Java Correct:** $(grep 'java_correct' "$GITHUB_ENV" | cut -d '=' -f 2)
+
+</details>
+
+_Please reach out to the [Gervi Hеrа Vitr](https://github.com/Gervi-Hera-Vitr) organization members for more information._
+EOF
+
+echo "::endgroup::"
