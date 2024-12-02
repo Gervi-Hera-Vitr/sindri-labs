@@ -3,18 +3,20 @@
 **Agent Host Checks on _--host-name--_.**
 
 <details>
+
 <summary>Resource Usage:</summary>
 
-- **Host Name:** _--host-name--_
-- **CPU Usage:** _--cpu-usage--_
-- **Memory Usage:** _--memory-usage--_
+- **Host Name:** _--host-name--_.
+- **CPU Usage:** _--cpu-usage--_.
+- **Memory Usage:** _--memory-usage--_.
 - **Disk Usage:**
-  - _--disk-usage-details--_
-- **Java Version:** _--java-version--_
-- **Gradle Version:** _--gradle-version--_
-- **Gradle Correct:** _--gradle-correct--_
-- **Java Correct:** _--java-correct--_
-- **Agent Version:** _--agent-version--_
+  - **/** _--disk-total--_.
+  - todo
+- **Java Version:** _--java-version--_.
+- **Gradle Version:** _--gradle-version--_.
+- **Gradle Correct:** _--gradle-correct--_.
+- **Java Correct:** _--java-correct--_.
+- **Agent Version:** _--agent-version--_.
 
 </details>
 

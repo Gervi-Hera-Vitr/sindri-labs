@@ -5,7 +5,7 @@
     <option name="SCRIPT_PATH" value="$PROJECT_DIR$/util/src/main/sh/clean-github-cache.sh" />
     <option name="SCRIPT_OPTIONS" value="" />
     <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
-    <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/util/src/main/sh" />
+    <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/" />
     <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
     <option name="INTERPRETER_PATH" value="/usr/bin/env" />
     <option name="INTERPRETER_OPTIONS" value="zsh" />
