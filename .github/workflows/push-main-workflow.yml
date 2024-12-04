@@ -95,6 +95,7 @@ jobs:
       checks: write
       contents: write
       pull-requests: write
+      statuses: write
     with:
       restriction: $RESTRICTION
     secrets: inherit
