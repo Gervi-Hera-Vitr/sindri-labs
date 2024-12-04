@@ -76,7 +76,6 @@ else
 fi
 
 
-
 # Disk usage check
 typeset -a  disk_usage_information
 
@@ -94,7 +93,8 @@ while read -r line; do
   else
     mount=$(echo "$line" | awk '{print $9}')
   fi
-  slug=${agent_host}:$(echo "${device//\/dev\///}" | tr '/' ' '):$(echo "$mount" | tr '/' ' ')
+  mapping=$(echo "${device//\/dev\///}" | tr '/' ' '):$(echo "$mount" | tr '/' ' ')
+  slug="$agent_host:${mapping// /_}"
 
   if [[ ! "$device" == *"/dev"* ]]; then
     echo -e "| -- > Skipping device $device."
@@ -120,7 +120,7 @@ while read -r line; do
   echo "${slug}=${usage}%" >> "$GITHUB_ENV"
 
   # Create disk usage summary
-  disk_usage_information+=("<fs-use>    - ${usage}% - $slug (Device: $device, Size: $size, Used: $used, Available: $available);")
+  disk_usage_information+=("**${usage}%** - $mount (Device: $device, Size: $size, Used: $used, Available: $available);")
   if [[ ! "$production_run" == "true" ]]; then
     echo -e "\n\nMount: $mount\nSize: $size\nUsed: $used\nAvailable: $available\nUsage: ${usage}%\n${line}\n\n"
   fi
@@ -140,12 +140,14 @@ done < <(df -h | tail -n +2)
 echo -e "# Agent Host Checks on $agent_host\n\n"
 echo "<details>"
 echo "<summary>Resource Usage:</summary>"
+echo
 echo "- **Host Name:** $agent_host"
 echo "- **Java Version:** $JAVA_VERSION_INSTALLED"
 echo "- **Gradle Version:** $GRADLE_VERSION_INSTALLED"
-echo "- **Disk Usage:**"
-echo "${disk_usage_information[@]//<fs-use>/\n}"
-echo
+echo "- **Disk Usage on _${agent_host}_:**"
+for line in "${disk_usage_information[@]}"; do
+  echo "  - $line"
+done
 echo "- **Gradle Correct:** $(grep 'gradle_correct' "$GITHUB_ENV" | cut -d '=' -f 2)"
 echo "- **Java Correct:** $(grep 'java_correct' "$GITHUB_ENV" | cut -d '=' -f 2)"
 echo "</details>"
@@ -156,11 +158,14 @@ echo
 
 if [[ "$production_run" != "true" ]]; then
   echo -e "==== Disk Usage ====\n"
-  echo "${disk_usage_information[@]//<fs-use>/\n}"
+  for usage_info in "${disk_usage_information[@]}"; do
+      echo -e "$usage_info"
+  done
   echo -e "==== Environment ====\n"
   cat "$GITHUB_ENV"
   echo -e "==== Summary ====\n"
   cat "$GITHUB_STEP_SUMMARY"
+  echo -e "file://$GITHUB_STEP_SUMMARY"
   echo -e "==== End ====\n"
 fi
 
