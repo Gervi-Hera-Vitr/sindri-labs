@@ -120,7 +120,7 @@ while read -r line; do
   echo "${slug}=${usage}%" >> "$GITHUB_ENV"
 
   # Create disk usage summary
-  disk_usage_information+=("<fs-use>** ${usage}% - $slug (Device: $device, Size: $size, Used: $used, Available: $available);")
+  disk_usage_information+=("<fs-use>    - ${usage}% - $slug (Device: $device, Size: $size, Used: $used, Available: $available);")
   if [[ ! "$production_run" == "true" ]]; then
     echo -e "\n\nMount: $mount\nSize: $size\nUsed: $used\nAvailable: $available\nUsage: ${usage}%\n${line}\n\n"
   fi
@@ -140,14 +140,14 @@ done < <(df -h | tail -n +2)
 echo -e "# Agent Host Checks on $agent_host\n\n"
 echo "<details>"
 echo "<summary>Resource Usage:</summary>"
-echo "* **Host Name:** $agent_host"
-echo "* **Java Version:** $JAVA_VERSION_INSTALLED"
-echo "* **Gradle Version:** $GRADLE_VERSION_INSTALLED"
-echo "* **Disk Usage:**"
+echo "- **Host Name:** $agent_host"
+echo "- **Java Version:** $JAVA_VERSION_INSTALLED"
+echo "- **Gradle Version:** $GRADLE_VERSION_INSTALLED"
+echo "- **Disk Usage:**"
 echo "${disk_usage_information[@]//<fs-use>/\n}"
 echo
-echo "* **Gradle Correct:** $(grep 'gradle_correct' "$GITHUB_ENV" | cut -d '=' -f 2)"
-echo "* **Java Correct:** $(grep 'java_correct' "$GITHUB_ENV" | cut -d '=' -f 2)"
+echo "- **Gradle Correct:** $(grep 'gradle_correct' "$GITHUB_ENV" | cut -d '=' -f 2)"
+echo "- **Java Correct:** $(grep 'java_correct' "$GITHUB_ENV" | cut -d '=' -f 2)"
 echo "</details>"
 echo
 echo "_Please reach out to the [Gervi Héra Vitr](https://github.com/Gervi-Hera-Vitr) organization members for more information._"
