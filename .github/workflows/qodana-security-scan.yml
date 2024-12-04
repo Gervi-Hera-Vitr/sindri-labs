@@ -14,6 +14,7 @@ permissions:
   contents: write
   pull-requests: write
   checks: write
+  statuses: write
 
 concurrency:
   group: "${{ github.workflow }}-${{ github.ref }}-qodana"
@@ -45,11 +46,19 @@ jobs:
         uses: JetBrains/qodana-action@v2024.2
         with:
           pr-mode: false
-          push-fixes: pull-request
+          push-fixes: branch
+          args: --apply-fixes
         #          args: "--linter,jetbrains/qodana-jvm:2024.3-eap,--apply-fixes"
         env:
           QODANA_TOKEN: ${{ secrets.QODANA_TOKEN_503848163 }}
           QODANA_ENDPOINT: 'https://qodana.cloud'
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: "Upload Qodana quality scan SARIF results to cache"
+        timeout-minutes: 3
+        uses: github/codeql-action/upload-sarif@3d3d628990a5f99229dd9fa1821cc5a4f31b613b
+        with:
+          sarif_file: ${{ runner.temp }}/qodana/results/qodana.sarif.json
 
   code-security-scan-codeql-postmortem:
     timeout-minutes: 3
