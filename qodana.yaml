@@ -4,4 +4,3 @@ profile:
 projectJDK: temurin-21
 linter: jetbrains/qodana-jvm-community:2024.2
 fixesStrategy: apply
-pushFixes: branch
