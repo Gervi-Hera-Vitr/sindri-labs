@@ -110,6 +110,9 @@ jobs:
       - local-build-qodana-scan
     if: ${{ needs.local-build-yield-to-pull-request.outputs.bypass == 'false' }}
     uses: ./.github/workflows/cache-prune.yml
+    permissions:
+      contents: write
+      actions: write
     secrets: inherit
     with:
       restriction: 'purge-local-caches'
