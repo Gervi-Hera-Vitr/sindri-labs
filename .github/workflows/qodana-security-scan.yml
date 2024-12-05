@@ -46,11 +46,8 @@ jobs:
         uses: JetBrains/qodana-action@v2024.2
         with:
           pr-mode: false
-          push-fixes: branch
-          args: --apply-fixes --linter,jetbrains/qodana-jvm-community:2024.2
         env:
           QODANA_TOKEN: ${{ secrets.QODANA_TOKEN_503848163 }}
-          QODANA_ENDPOINT: 'https://qodana.cloud'
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: "Upload Qodana quality scan SARIF results to cache"

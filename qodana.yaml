@@ -1,19 +1,15 @@
 version: "1.0"
-
 profile:
   name: qodana.recommended
-
 projectJDK: temurin-21
-
-#linter: jetbrains/qodana-jvm-community:2024.2
-
+linter: jetbrains/qodana-jvm-community:2024.2
 fixesStrategy: apply
+pushFixes: branch
 
 licenseRules:
   - keys:
       - "PROPRIETARY-LICENSE"
     allowed: ["CC0-1.0", "CPL-1.0", "CC-BY-4.0", "EPL-1.0", "CDDL-1.0", "LGPL-2.1-or-later", "LGPL-2.1-only"]
-
 
 #failureConditions:
 #  severityThresholds:
