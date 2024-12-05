@@ -47,8 +47,7 @@ jobs:
         with:
           pr-mode: false
           push-fixes: branch
-          args: --apply-fixes
-        #          args: "--linter,jetbrains/qodana-jvm:2024.3-eap,--apply-fixes"
+          args: --apply-fixes --linter,jetbrains/qodana-jvm-community:2024.2
         env:
           QODANA_TOKEN: ${{ secrets.QODANA_TOKEN_503848163 }}
           QODANA_ENDPOINT: 'https://qodana.cloud'

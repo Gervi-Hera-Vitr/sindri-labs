@@ -1,4 +1,28 @@
-name: "Mimis Gildi AI Labs - Qodana Security Scan"
 version: "1.0"
-linter: jetbrains/qodana-jvm-community:2024.2
-baseProfile: qodana.recommended
+
+profile:
+  name: qodana.recommended
+
+projectJDK: temurin-21
+
+#linter: jetbrains/qodana-jvm-community:2024.2
+
+fixesStrategy: apply
+
+licenseRules:
+  - keys:
+      - "PROPRIETARY-LICENSE"
+    allowed: ["CC0-1.0", "CPL-1.0", "CC-BY-4.0", "EPL-1.0", "CDDL-1.0", "LGPL-2.1-or-later", "LGPL-2.1-only"]
+
+
+#failureConditions:
+#  severityThresholds:
+#    any: 53
+#    critical: 13
+#    high: 37
+#    moderate: 41
+#    low: 47
+#    info: 47
+#  testCoverageThresholds:
+#    fresh: 50
+#    total: 70
