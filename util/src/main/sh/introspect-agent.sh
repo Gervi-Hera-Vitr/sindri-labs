@@ -101,17 +101,17 @@ while read -r line; do
     continue
   fi
 
-  if [[ "$mount" == *"\/dev"* ]]; then
+  if [[ "$mount" == *"/dev"* ]]; then
     echo -e "| -- > Skipping mount $mount."
     continue
   fi
 
-  if [[ "$mount" == *"\/run"* ]]; then
+  if [[ "$mount" == *"/run"* ]]; then
     echo -e "| -- > Skipping mount $mount."
     continue
   fi
 
-  if [[ "$mount" == *"\/boot"* ]]; then
+  if [[ "$mount" == *"/boot"* ]]; then
     echo -e "| -- > Skipping mount $mount."
     continue
   fi
