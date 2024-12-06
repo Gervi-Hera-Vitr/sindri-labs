@@ -38,48 +38,7 @@ jobs:
 
     steps:
       - name: "Cleanup stale actions caches"
-        run: |
-          gh extension install actions/gh-actions-cache
-
-          echo "::notice file=cache-prune.yml,line=41::Checking if any global actions caches are stale."
-          
-          declare -a cacheKeys
-          cacheKeys=$(gh actions-cache list --limit 100 | cut -f 1 )
-          echo "::notice file=cache-prune.yml,line=45::Processing ${#cacheKeys[@]} cache keys"
-          cacheKeysToPrune=$(gh actions-cache list --limit 100 | tail -n +3 | cut -f 1 )
-          echo "::notice file=cache-prune.yml,line=47::Will prune ${#cacheKeysToPrune[@]} cache keys"
-          if [[ -z "${cacheKeysToPrune// }" ]]; then
-            echo "::notice file=cache-prune.yml,line=49::No stale caches found"
-            exit 0
-          fi
-          
-          set +e
-          for cacheKey in $cacheKeysToPrune; do
-              gh actions-cache delete $cacheKey --confirm
-          
-              if [ $? -eq 0 ]; then
-                echo "::notice file=cache-prune.yml,line=57::Successfully deleted cache key $cacheKey"
-              else
-                echo "::warning file=cache-prune.yml,line=60::Failed to delete cache key $cacheKey"
-              fi
-          done
-          echo "::notice file=cache-prune.yml,line=63::All stale caches deleted."
-          
-          # Write summary to GitHub summary file
-          {
-          echo -e "# Cache Prune running on $(hostname)\n\n"
-          echo "<details>"
-          echo "<summary>Cache Keys Pruned ( ${#cacheKeysToPrune[@]} ):</summary>"
-          echo
-          for aKey in "${cacheKeysToPrune[@]}"; do
-            echo "  - $aKey"
-          done
-          echo "</details>"
-          echo
-          echo "_Please reach out to the [Gervi Héra Vitr](https://github.com/Gervi-Hera-Vitr) organization members for more information._"
-          echo
-          }  >> "$GITHUB_STEP_SUMMARY"
-
+        run: ./util/src/main/sh/clean-github-cache.sh
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPO: ${{ github.repository }}
