@@ -2,10 +2,10 @@
 
 gh extension install actions/gh-actions-cache
 
-echo "::notice file=clean-github-cache.sh,line=5::Checking if any global actions caches are stale."
+echo "::notice file=cache-prune.yml,line=5::Checking if any global actions caches are stale."
 
 production_run=${1:-true}
-[[ "Darwin" == "$(uname)" ]] && production_run=false && echo "::notice file=clean-github-cache.sh,line=8::Running in development mode. Skipping prune actions."
+[[ "Darwin" == "$(uname)" ]] && production_run=false && echo "::notice file=cache-prune.yml,line=7::Running in development mode. Skipping prune actions."
 echo -e "==> production_run=$production_run\n\n"
 
 typeset -a cacheKeys && { while IFS='' read -r key; do cacheKeys+=("$key"); done < <(gh actions-cache list --limit 30 | cut -f 1); }
@@ -14,7 +14,7 @@ typeset -a successfulPrunes && successfulPrunes=()
 typeset -a failedPrunes && failedPrunes=()
 typeset -a retainedCaches && retainedCaches=("${cacheKeys[@]:0:1}")
 typeset -a pruningLogs && pruningLogs=()
-echo "::notice file=clean-github-cache.sh,line=17::Processing ${#cacheKeysToPrune[@]} cache keys from ${#cacheKeys[@]} total on $(hostname)."
+echo "::notice file=clean-github-cache.sh,line=9::Processing ${#cacheKeysToPrune[@]} cache keys from ${#cacheKeys[@]} total on $(hostname)."
 
 if [[ "$production_run" != "true" ]]; then
   echo -e "==> Cache Keys Count: ${#cacheKeys[@]}"
@@ -28,7 +28,7 @@ fi
 
 
 if [[ ${#cacheKeysToPrune[@]} -eq 0 ]]; then
-  echo "::notice file=clean-github-cache.sh,line=31::No stale caches found"
+  echo "::notice file=clean-github-cache.sh,line=15::No stale caches found"
   {
     echo -e "# Cache Prune Skipped\n\n"
     echo
@@ -46,10 +46,10 @@ else
     if [[ "$production_run" != "true" ]]; then
       outcome="Would have asked to deleted cache key $cacheKey"
     elif outcome=$(gh actions-cache delete "$cacheKey" --confirm); then
-      echo "::notice file=clean-github-cache.sh,line=49::Successfully deleted cache key $cacheKey"
+      echo "::notice file=cache-prune.yml,line=36::Successfully deleted cache key $cacheKey"
       successfulPrunes+=("$cacheKey")
     else
-      echo "::warning file=clean-github-cache.sh,line=52::Failed to delete cache key $cacheKey"
+      echo "::warning file=cache-prune.yml,line=60::Failed to delete cache key $cacheKey"
       failedPrunes+=("$cacheKey")
       retainedCaches+=("$cacheKey")
     fi
@@ -60,7 +60,7 @@ else
   set -e
 
   if [[ ${#failedPrunes[@]} -gt 0 ]]; then
-    echo "::error file=clean-github-cache.sh,line=63::Failed to delete ${#failedPrunes[@]} stale caches"
+    echo "::error file=cache-prune.yml,line=36::Failed to delete ${#failedPrunes[@]} stale caches"
   fi
 
   {
@@ -100,7 +100,7 @@ else
   echo
   }  >> "$GITHUB_STEP_SUMMARY"
 
-  echo "::notice file=clean-github-cache.sh,line=103::Stale caches are processed."
+  echo "::notice file=cache-prune.yml,line=103::Stale caches are processed."
 fi
 
 if [[ "$production_run" != "true" ]]; then
@@ -125,3 +125,19 @@ if [[ "$production_run" != "true" ]]; then
   echo -e "==== Status ====\n"
   cat "$GITHUB_ENV"
 fi
+
+
+## Write summary to GitHub summary file
+#{
+#echo -e "# Cache Prune running on $(hostname)\n\n"
+#echo "<details>"
+#echo "<summary>Cache Keys Pruned ( ${#cacheKeysToPrune[@]} ):</summary>"
+#echo
+#for aKey in "${cacheKeysToPrune[@]}"; do
+#  echo "  - $aKey"
+#done
+#echo "</details>"
+#echo
+#echo "_Please reach out to the [Gervi Héra Vitr](https://github.com/Gervi-Hera-Vitr) organization members for more information._"
+#echo
+#}  >> "$GITHUB_STEP_SUMMARY"
