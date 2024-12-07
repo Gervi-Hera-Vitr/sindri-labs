@@ -9,10 +9,10 @@ production_run=${1:-true}
 echo -e "==> production_run=$production_run\n\n"
 
 typeset -a cacheKeys && { while IFS='' read -r key; do cacheKeys+=("$key"); done < <(gh actions-cache list --limit 30 | cut -f 1); }
-typeset -a cacheKeysToPrune && cacheKeysToPrune=("${cacheKeys[@]:1}")
+typeset -a cacheKeysToPrune && cacheKeysToPrune=("${cacheKeys[@]:3}")
 typeset -a successfulPrunes && successfulPrunes=()
 typeset -a failedPrunes && failedPrunes=()
-typeset -a retainedCaches && retainedCaches=("${cacheKeys[@]:0:1}")
+typeset -a retainedCaches && retainedCaches=("${cacheKeys[@]:0:3}")
 typeset -a pruningLogs && pruningLogs=()
 echo "::notice file=clean-github-cache.sh,line=9::Processing ${#cacheKeysToPrune[@]} cache keys from ${#cacheKeys[@]} total on $(hostname)."
 

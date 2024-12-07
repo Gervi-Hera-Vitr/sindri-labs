@@ -19,9 +19,9 @@ if [[ "$production_run" == "false" ]]; then
   echo -e "==> Running in development mode."
 fi
 
-echo -e "==> production_run =$production_run\n\n"
-echo -e "==> step_summary   =$step_summary_file\n\n"
-echo -e "==> default_envX   =$default_envX_file\n\n"
+echo "==> production_run=$production_run"
+echo "==> step_summary=$step_summary_file"
+echo "==> default_envX=$default_envX_file"
 
 # File paths
 gradle_log_file="$build_dependencies_working_directory/gradle_dependencies_$tick.log"
@@ -133,6 +133,8 @@ echo "::notice file=hint-on-dependencies.sh,line=126::Total count: $total_count;
     echo
     echo "<summary>Dependencies Summary:</summary>"
     echo
+    echo "**General Summary:**"
+    echo
     echo " - ${total_count} total dependencies."
     echo " - ${outdated_count} outdated dependencies."
     echo " - ${latest_count} latest dependencies."
@@ -153,13 +155,13 @@ echo "::notice file=hint-on-dependencies.sh,line=126::Total count: $total_count;
         echo "- no undeclared dependencies."
     else
         all_undeclared=$(jq -r '.undeclared.dependencies[] | "  - \(.group):\(.name)"' "$report_file")
-        echo -e "- **$undeclared_count undeclared dependencies:** \n $all_undeclared"
+        echo -e "- **$undeclared_count undeclared dependencies:**\n$all_undeclared"
     fi
     if [[ "$unresolved_count" -eq 0 ]]; then
         echo "- no unresolved dependencies."
     else
         all_unresolved=$(jq -r '.unresolved.dependencies[] | "  - \(.group):\(.name)"' "$report_file")
-        echo -e "- **$unresolved_count dependencies could not be resolved:** \n $all_unresolved"
+        echo -e "- **$unresolved_count dependencies could not be resolved:**\n$all_unresolved"
     fi
     echo
 } > "$summary_file_md"
