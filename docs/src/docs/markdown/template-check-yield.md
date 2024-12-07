@@ -1,10 +1,10 @@
 # --disposition-title--
 
-**Rule: _Always yield to Pull Requests Workflow_**
-
 <details>
 
-<summary>More info:</summary>
+<summary>Decision Explanation:</summary>
+
+**Rule: _Always yield to Pull Requests Workflow:_**
 
 - **_--run-disposition-decision--_**.
 

@@ -60,22 +60,18 @@ PRs: $prs
 EOF
 
 if ((prs > 0)); then
-
   echo "skip=true" >> "$GITHUB_OUTPUT"
   echo "::notice file=push-action-check-to-yield.sh,line=65::This branch has a working pull request to yield to => This Push run is TERMINATING due to active pull request."
 
   sed -e 's/--disposition-title--/Yielding to PR/' \
   -e 's/--run-disposition-decision--/Pull Request detected thus push workflow will cancel!/' \
   docs/src/docs/markdown/template-check-yield.md >> "$GITHUB_STEP_SUMMARY"
-
 else
-
   echo "skip=false" >> "$GITHUB_OUTPUT"
 
   sed -e 's/--disposition-title--/Building Push!/' \
   -e 's/--run-disposition-decision--/Running push workflow because a PR is not detected in this branch./' \
   docs/src/docs/markdown/template-check-yield.md >> "$GITHUB_STEP_SUMMARY"
-
 fi
 
 echo "::endgroup::"

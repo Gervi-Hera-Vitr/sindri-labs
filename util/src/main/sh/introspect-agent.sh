@@ -150,9 +150,10 @@ for line in "${disk_usage_information[@]}"; do
 done
 echo "- **Gradle Correct:** $(grep 'gradle_correct' "$GITHUB_ENV" | cut -d '=' -f 2)"
 echo "- **Java Correct:** $(grep 'java_correct' "$GITHUB_ENV" | cut -d '=' -f 2)"
-echo "</details>"
 echo
 echo "_Please reach out to the [Gervi Héra Vitr](https://github.com/Gervi-Hera-Vitr) organization members for more information._"
+echo
+echo "</details>"
 echo
 }  >> "$GITHUB_STEP_SUMMARY"
 
