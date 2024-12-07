@@ -11,12 +11,6 @@ on:
 permissions:
   contents: read
   actions: read
-  security-events: write
-  discussions: write
-  issues: write
-  pull-requests: write
-  statuses: read
-  packages: read
 
 
 concurrency:
@@ -28,48 +22,57 @@ defaults:
     shell: zsh -l {0}
 
 env:
-  RESTRICTION: on-working-push
+  RESTRICTION: "on working push"
+  PROGRESSION: 1
 
 jobs:
 
   local-build-yield-to-pull-request:
     name: "Yield to Pull Request when PR exists"
     uses: ./.github/workflows/check-push-yield.yml
-    secrets: inherit
     with:
       default-branch: 'main'
       target-branch: 'main'
+      restriction: $RESTRICTION
+    if: |
+      PROGRESSION > 1
 
 
   local-build-host-environment-checks:
     name: "Sanity Checks build on Self-Hosted Runners"
     needs: [ local-build-yield-to-pull-request ]
-    if: ${{ needs.local-build-yield-to-pull-request.outputs.bypass == 'false' }}
     uses: ./.github/workflows/push-environment-checks.yml
     with:
       restriction: $RESTRICTION
     secrets: inherit
+    if: |
+      PROGRESSION > 1 &&
+      needs.local-build-yield-to-pull-request.outputs.bypass == 'false'
 
   local-build-project-dependency-hints:
     name: "Impromptu Project Dependencies Checks for Contributors"
     needs: [ local-build-yield-to-pull-request ]
-    if: ${{ needs.local-build-yield-to-pull-request.outputs.bypass == 'false' }}
     uses: ./.github/workflows/push-dependency-checks.yml
     with:
       restriction: $RESTRICTION
       releases-only: false
     secrets: inherit
+    if: |
+      PROGRESSION > 2 &&
+      needs.local-build-yield-to-pull-request.outputs.bypass == 'false'
 
   local-build-codeql-scan:
     name: "CodeQL Quality Scan on Self-Hosted Runners"
     needs:
       - local-build-yield-to-pull-request
       - local-build-host-environment-checks
-    if: ${{ needs.local-build-yield-to-pull-request.outputs.bypass == 'false' }}
     uses: ./.github/workflows/codeql-security-scan.yml
     with:
       restriction: $RESTRICTION
     secrets: inherit
+    if: |
+      PROGRESSION > 5 &&
+      needs.local-build-yield-to-pull-request.outputs.bypass == 'false'
 
 
   local-build-codacy-scan:
@@ -77,11 +80,13 @@ jobs:
     needs:
       - local-build-yield-to-pull-request
       - local-build-host-environment-checks
-    if: ${{ needs.local-build-yield-to-pull-request.outputs.bypass == 'false' }}
     uses: ./.github/workflows/codacy-security-scan.yml
     with:
       restriction: $RESTRICTION
     secrets: inherit
+    if: |
+      PROGRESSION > 6 &&
+      needs.local-build-yield-to-pull-request.outputs.bypass == 'false'
 
 
   local-build-qodana-scan:
@@ -89,7 +94,6 @@ jobs:
     needs:
       - local-build-yield-to-pull-request
       - local-build-host-environment-checks
-    if: ${{ needs.local-build-yield-to-pull-request.outputs.bypass == 'false' }}
     uses: ./.github/workflows/qodana-security-scan.yml
     permissions:
       checks: write
@@ -99,6 +103,9 @@ jobs:
     with:
       restriction: $RESTRICTION
     secrets: inherit
+    if: |
+      PROGRESSION > 7 &&
+      needs.local-build-yield-to-pull-request.outputs.bypass == 'false'
 
 
   workflow-cache-prune:
@@ -108,7 +115,6 @@ jobs:
       - local-build-codacy-scan
       - local-build-codeql-scan
       - local-build-qodana-scan
-    if: ${{ needs.local-build-yield-to-pull-request.outputs.bypass == 'false' }}
     uses: ./.github/workflows/cache-prune.yml
     permissions:
       contents: write
@@ -116,6 +122,10 @@ jobs:
     secrets: inherit
     with:
       restriction: 'purge-local-caches'
+    if: |
+      PROGRESSION > 3 &&
+      needs.local-build-yield-to-pull-request.outputs.bypass == 'false'
+
 
 
   workflow-runs-prune:
@@ -125,12 +135,14 @@ jobs:
       - local-build-codacy-scan
       - local-build-codeql-scan
       - local-build-qodana-scan
-    if: always()
     uses: ./.github/workflows/actions-prune.yml
     secrets: inherit
     permissions:
       actions: write
       contents: write
+    if: |
+      PROGRESSION > 4 &&
+      needs.local-build-yield-to-pull-request.outputs.bypass == 'false'
 
   push-main-workflow-summary:
     name: "Publish Summary of the Working Push"
@@ -140,5 +152,5 @@ jobs:
     if: always()
     uses: ./.github/workflows/push-summary-workflow.yml
     with:
-      restriction: $env.RESTRICTION
+      restriction: $RESTRICTION
       yielded:  ${{ needs.local-build-yield-to-pull-request.outputs.bypass == 'true' }}

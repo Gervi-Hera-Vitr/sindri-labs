@@ -125,19 +125,3 @@ if [[ "$production_run" != "true" ]]; then
   echo -e "==== Status ====\n"
   cat "$GITHUB_ENV"
 fi
-
-
-## Write summary to GitHub summary file
-#{
-#echo -e "# Cache Prune running on $(hostname)\n\n"
-#echo "<details>"
-#echo "<summary>Cache Keys Pruned ( ${#cacheKeysToPrune[@]} ):</summary>"
-#echo
-#for aKey in "${cacheKeysToPrune[@]}"; do
-#  echo "  - $aKey"
-#done
-#echo "</details>"
-#echo
-#echo "_Please reach out to the [Gervi Héra Vitr](https://github.com/Gervi-Hera-Vitr) organization members for more information._"
-#echo
-#}  >> "$GITHUB_STEP_SUMMARY"

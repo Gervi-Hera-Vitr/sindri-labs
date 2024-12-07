@@ -6,7 +6,7 @@ on:
     inputs:
       default-branch:
         description: "Default branch of the repository"
-        required: true
+        required: false
         type: string
         default: "main"
       target-branch:
@@ -14,6 +14,11 @@ on:
         required: false
         type: string
         default: "main"
+      restriction:
+        description: "Optional parameter on restrictions for parallelism and early cancellation of jobs; This adds secondary measure of control."
+        required: false
+        type: string
+        default: "no restriction"
     outputs:
       bypass:
         description: "Should the push be yielded to a Pull Request?"
@@ -44,13 +49,14 @@ jobs:
     steps:
 
       - name: "Checkout repository source code"
+        id: checkout-for-branch-pr-check
         uses: actions/checkout@cbb722410c2e876e24abbe8de2cc27693e501dcb
         timeout-minutes: 3
 
       - name: "Check if this branch has an open pull request"
         timeout-minutes: 3
         id: this-branch-pr-check
-        run: util/src/main/sh/push-action-check-to-yield.sh "${{ inputs.default-branch }}" "${{ inputs.target-branch }}"
+        run: util/src/main/sh/push-action-check-to-yield.sh "${{ inputs.restriction }}" "${{ inputs.default-branch }}" "${{ inputs.target-branch }}"
         env:
           ISSUE: ${{ github.event.issue.html_url }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

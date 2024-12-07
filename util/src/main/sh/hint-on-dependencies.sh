@@ -129,6 +129,8 @@ echo "::notice file=hint-on-dependencies.sh,line=126::Total count: $total_count;
 {
     echo "# Impromptu Dependency Hints (upgradable ${outdated_count})"
     echo
+    echo "_These are running recommendations ahead of **Dependabot** and **Renovate**._"
+    echo
     echo "<details>"
     echo
     echo "<summary>Dependencies Summary:</summary>"
