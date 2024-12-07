@@ -141,7 +141,7 @@ jq '{
   undeclared: { count: .undeclared.count, dependencies: .undeclared.dependencies }
 }' "$report_file" > "$summary_file_json"
 
-echo "::notice file=hint-on-dependencies.sh,line=146::Dependency summary (JSON) generated at $summary_file_json."
+echo "::notice file=hint-on-dependencies.sh,line=144::Dependency summary (JSON) generated at $summary_file_json."
 
 cat "$summary_file_md" >> "$step_summary_file"
 echo "DEPENDENCY_HINTS_JSON_FILE=$summary_file_json" >> "$default_envX_file"
