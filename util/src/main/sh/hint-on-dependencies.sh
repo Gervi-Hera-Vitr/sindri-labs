@@ -143,6 +143,8 @@ jq '{
   unresolved: { count: .unresolved.count, dependencies: .unresolved.dependencies }
 }' "$report_file" > "$summary_file_json"
 
+echo "::notice file=hint-on-dependencies.sh,line=146::$(cat "$summary_file_json")"
+
 echo "Dependency summary (JSON) generated at $summary_file_json."
 
 if [[ ! "$production_run" == "true" ]]; then
