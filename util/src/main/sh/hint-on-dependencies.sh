@@ -1,6 +1,7 @@
 #!/usr/bin/env zsh
 
 step_summary_file="$GITHUB_STEP_SUMMARY"
+default_envX_file="$GITHUB_ENV"
 
 tick="$(date +%Y_%m_%d_%H_%M_%S)"
 build_dependencies_working_directory=$(git rev-parse --show-toplevel)/build/dependencies
@@ -12,12 +13,15 @@ production_run=${1:-true}
 
 if [[ "$production_run" == "false" ]]; then
   step_summary_file="$build_dependencies_working_directory/github_step_summary_local_$tick.md"
+  default_envX_file="$build_dependencies_working_directory/github_env_extended_local_$tick.env"
   touch "$step_summary_file"
+  touch "$default_envX_file"
   echo -e "==> Running in development mode."
 fi
 
 echo -e "==> production_run =$production_run\n\n"
 echo -e "==> step_summary   =$step_summary_file\n\n"
+echo -e "==> default_envX   =$default_envX_file\n\n"
 
 # File paths
 gradle_log_file="$build_dependencies_working_directory/gradle_dependencies_$tick.log"
@@ -107,35 +111,26 @@ echo "::notice file=hint-on-dependencies.sh,line=92::Total count: $total_count; 
     echo " - ${undeclared_count} undeclared dependencies."
     echo " - ${unresolved_count} unresolved dependencies."
     echo
-    echo "## Current Dependencies ($latest_count)"
-    if [[ "$latest_count" -eq 0 ]]; then
-        echo "- No dependencies are using the latest versions."
-    else
-        jq -r '.current.dependencies[] | "- \(.group):\(.name) [v\(.version)]"' "$report_file"
-    fi
-
-    echo
     echo "## Outdated Dependencies ($outdated_count)"
     if [[ "$outdated_count" -eq 0 ]]; then
-        echo "- All dependencies are up-to-date."
+        echo "- All dependencies are up-to-date!"
     else
         jq -r '.outdated.dependencies[] | "- \(.group):\(.name) [v\(.version) -> v\(.available.milestone // "unknown")]"' "$report_file"
     fi
-
     echo
-    echo "## Undeclared Dependencies ($undeclared_count)"
+    echo "## Notes:"
     if [[ "$undeclared_count" -eq 0 ]]; then
-        echo "- No undeclared dependencies."
+        echo "- no undeclared dependencies."
     else
-        jq -r '.undeclared.dependencies[] | "- \(.group):\(.name) [missing version]"' "$report_file"
+        all_undeclared=$(jq -r '.undeclared.dependencies[] | "\(.group):\(.name) "' "$report_file")
+        echo -e "- **$undeclared_count undeclared dependencies:** $all_undeclared"
     fi
-
     echo
-    echo "## Unresolved Dependencies ($unresolved_count)"
     if [[ "$unresolved_count" -eq 0 ]]; then
-        echo "- No unresolved dependencies."
+        echo "- no unresolved dependencies."
     else
-        echo "- $unresolved_count dependencies could not be resolved."
+        all_unresolved=$(jq -r '.unresolved.dependencies[] | "\(.group):\(.name) "' "$report_file")
+        echo -e "- **$unresolved_count dependencies could not be resolved:** \n$all_unresolved"
     fi
 } > "$summary_file_md"
 
@@ -148,12 +143,17 @@ jq '{
 
 echo "::notice file=hint-on-dependencies.sh,line=146::Dependency summary (JSON) generated at $summary_file_json."
 
+cat "$summary_file_md" >> "$step_summary_file"
+echo "DEPENDENCY_HINTS_JSON_FILE=$summary_file_json" >> "$default_envX_file"
+
 if [[ ! "$production_run" == "true" ]]; then
-  echo -e "\n=== Summary ==="
-  cat "$GITHUB_STEP_SUMMARY"
-  open "$GITHUB_STEP_SUMMARY"
+  echo -e "\n==== Environment ===="
+  cat "$default_envX_file"
+  echo -e "=== Summary ==="
+  cat "$step_summary_file"
+  open "$default_envX_file"
+  open "$step_summary_file"
   open "$report_file"
   open "$summary_file_json"
 fi
 
-cat "$summary_file_md" >> "$step_summary_file"
