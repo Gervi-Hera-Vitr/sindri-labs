@@ -27,7 +27,7 @@ echo -e "==> default_envX   =$default_envX_file\n\n"
 gradle_log_file="$build_dependencies_working_directory/gradle_dependencies_$tick.log"
 report_file="$build_dependencies_working_directory/report.json"
 summary_file_md="$build_dependencies_working_directory/dependency_updates_summary_$tick.md"
-summary_file_json="$build_dependencies_working_directory/dependency_updates_summary_$tick.json"
+summary_file_json="$build_dependencies_working_directory/google_ai_labs_dependency_updates_summary_$tick.json"
 
 touch "$gradle_log_file"
 
@@ -122,15 +122,15 @@ echo "::notice file=hint-on-dependencies.sh,line=92::Total count: $total_count; 
     if [[ "$undeclared_count" -eq 0 ]]; then
         echo "- no undeclared dependencies."
     else
-        all_undeclared=$(jq -r '.undeclared.dependencies[] | "\(.group):\(.name) "' "$report_file")
-        echo -e "- **$undeclared_count undeclared dependencies:** $all_undeclared"
+        all_undeclared=$(jq -r '.undeclared.dependencies[] | "  - \(.group):\(.name)"' "$report_file")
+        echo -e "- **$undeclared_count undeclared dependencies:** \n $all_undeclared"
     fi
     echo
     if [[ "$unresolved_count" -eq 0 ]]; then
         echo "- no unresolved dependencies."
     else
-        all_unresolved=$(jq -r '.unresolved.dependencies[] | "\(.group):\(.name) "' "$report_file")
-        echo -e "- **$unresolved_count dependencies could not be resolved:** \n$all_unresolved"
+        all_unresolved=$(jq -r '.unresolved.dependencies[] | "  - \(.group):\(.name)"' "$report_file")
+        echo -e "- **$unresolved_count dependencies could not be resolved:** \n $all_unresolved"
     fi
 } > "$summary_file_md"
 
@@ -156,4 +156,3 @@ if [[ ! "$production_run" == "true" ]]; then
   open "$report_file"
   open "$summary_file_json"
 fi
-
