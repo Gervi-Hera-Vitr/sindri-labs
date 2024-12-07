@@ -7,9 +7,9 @@ production_run=${1:-true}
 [[ "Darwin" == "$(uname)" ]] && production_run=false && echo "::notice file=hint-on-dependencies.sh,line=7::Running in development mode. Skipping prune actions."
 echo -e "==> production_run=$production_run\n\n"
 
-if [[ "$production_run" != "true" ]]; then
-  [ ! -d "$build_dependencies_working_directory" ] && mkdir -p "$build_dependencies_working_directory"
+[[ ! -d "$build_dependencies_working_directory" ]] && mkdir -p "$build_dependencies_working_directory"
 
+if [[ "$production_run" != "true" ]]; then
   GITHUB_STEP_SUMMARY="$build_dependencies_working_directory/github_step_summary_local_$tick.md"
   touch "$GITHUB_STEP_SUMMARY"
   echo -e "==> Running in development mode. \nReport file is written to file://$GITHUB_STEP_SUMMARY\n\n"
@@ -20,6 +20,8 @@ gradle_log_file="$build_dependencies_working_directory/gradle_dependencies_$tick
 report_file="$build_dependencies_working_directory/report.json"
 summary_file_md="$build_dependencies_working_directory/dependency_updates_summary_$tick.md"
 summary_file_json="$build_dependencies_working_directory/dependency_updates_summary_$tick.json"
+
+touch "$gradle_log_file"
 
 # shellcheck source=SDKMAN_INIT
 if [[ -s "$SDKMAN_INIT" ]]; then
@@ -129,17 +131,24 @@ echo "::notice file=hint-on-dependencies.sh,line=92::Total count: $total_count; 
     if [[ "$unresolved_count" -eq 0 ]]; then
         echo "- No unresolved dependencies."
     else
-        jq -r '.unresolved.dependencies[] | "- \(.group):\(.name) [v\(.version) - reason: \(.reason)]"' "$report_file"
+        jq -r '.unresolved.dependencies[] | "- \(.group):\(.name)"' "$report_file"
     fi
 } > "$summary_file_md"
 
+# Create JSON Summary File
+jq '{
+  current: { count: .current.count, dependencies: .current.dependencies },
+  outdated: { count: .outdated.count, dependencies: .outdated.dependencies },
+  undeclared: { count: .undeclared.count, dependencies: .undeclared.dependencies },
+  unresolved: { count: .unresolved.count, dependencies: .unresolved.dependencies }
+}' "$report_file" > "$summary_file_json"
 
+echo "Dependency summary (JSON) generated at $summary_file_json."
 
 if [[ ! "$production_run" == "true" ]]; then
-  echo "\n\n=== Environment ==="
-  cat "$GITHUB_ENV"
-  echo -e"\n=== Summary ==="
-  cat "${GITHUB_STEP_SUMMARY}"
+  echo -e "\n=== Summary ==="
+  cat "$GITHUB_STEP_SUMMARY"
   open "$GITHUB_STEP_SUMMARY"
   open "$report_file"
+  open "$summary_file_json"
 fi
