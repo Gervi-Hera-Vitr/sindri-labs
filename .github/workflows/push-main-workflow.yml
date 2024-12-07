@@ -35,7 +35,7 @@ jobs:
     with:
       default-branch: 'main'
       target-branch: 'main'
-      restriction: {{env.RESTRICTION}}
+      restriction: ${{ env.RESTRICTION }}
     if: |
       env.PROGRESSION > 1
 
@@ -45,7 +45,7 @@ jobs:
     needs: [ local-build-yield-to-pull-request ]
     uses: ./.github/workflows/push-environment-checks.yml
     with:
-      restriction: {{env.RESTRICTION}}
+      restriction: ${{ env.RESTRICTION }}
     secrets: inherit
     if: |
       env.PROGRESSION > 1 &&
@@ -70,7 +70,7 @@ jobs:
       - local-build-host-environment-checks
     uses: ./.github/workflows/codeql-security-scan.yml
     with:
-      restriction: {{env.RESTRICTION}}
+      restriction: ${{ env.RESTRICTION }}
     secrets: inherit
     if: |
       env.PROGRESSION > 5 &&
@@ -84,7 +84,7 @@ jobs:
       - local-build-host-environment-checks
     uses: ./.github/workflows/codacy-security-scan.yml
     with:
-      restriction: {{env.RESTRICTION}}
+      restriction: ${{ env.RESTRICTION }}
     secrets: inherit
     if: |
       PROGRESSION > 6 &&
@@ -103,7 +103,7 @@ jobs:
       pull-requests: write
       statuses: write
     with:
-      restriction: {{env.RESTRICTION}}
+      restriction: ${{ env.RESTRICTION }}
     secrets: inherit
     if: |
       env.PROGRESSION > 7 &&
@@ -156,5 +156,5 @@ jobs:
     if: always()
     uses: ./.github/workflows/push-summary-workflow.yml
     with:
-      restriction: {{env.RESTRICTION}}
+      restriction: ${{ env.RESTRICTION }}
       yielded: ${{ needs.local-build-yield-to-pull-request.outputs.bypass == 'true' }}
