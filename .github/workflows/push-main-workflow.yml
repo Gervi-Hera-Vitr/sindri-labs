@@ -21,9 +21,11 @@ defaults:
   run:
     shell: zsh -l {0}
 
+# Workflow global feature parameters
 env:
   RESTRICTION: "on working push"
   PROGRESSION: 1
+  pull_yield_status: "not started"
 
 jobs:
 
@@ -33,9 +35,9 @@ jobs:
     with:
       default-branch: 'main'
       target-branch: 'main'
-      restriction: $RESTRICTION
+      restriction: {{env.RESTRICTION}}
     if: |
-      PROGRESSION > 1
+      env.PROGRESSION > 1
 
 
   local-build-host-environment-checks:
@@ -43,10 +45,10 @@ jobs:
     needs: [ local-build-yield-to-pull-request ]
     uses: ./.github/workflows/push-environment-checks.yml
     with:
-      restriction: $RESTRICTION
+      restriction: {{env.RESTRICTION}}
     secrets: inherit
     if: |
-      PROGRESSION > 1 &&
+      env.PROGRESSION > 1 &&
       needs.local-build-yield-to-pull-request.outputs.bypass == 'false'
 
   local-build-project-dependency-hints:
@@ -54,11 +56,11 @@ jobs:
     needs: [ local-build-yield-to-pull-request ]
     uses: ./.github/workflows/push-dependency-checks.yml
     with:
-      restriction: $RESTRICTION
+      restriction: "$env.RESTRICTION"
       releases-only: false
     secrets: inherit
     if: |
-      PROGRESSION > 2 &&
+      env.PROGRESSION > 2 &&
       needs.local-build-yield-to-pull-request.outputs.bypass == 'false'
 
   local-build-codeql-scan:
@@ -68,10 +70,10 @@ jobs:
       - local-build-host-environment-checks
     uses: ./.github/workflows/codeql-security-scan.yml
     with:
-      restriction: $RESTRICTION
+      restriction: {{env.RESTRICTION}}
     secrets: inherit
     if: |
-      PROGRESSION > 5 &&
+      env.PROGRESSION > 5 &&
       needs.local-build-yield-to-pull-request.outputs.bypass == 'false'
 
 
@@ -82,7 +84,7 @@ jobs:
       - local-build-host-environment-checks
     uses: ./.github/workflows/codacy-security-scan.yml
     with:
-      restriction: $RESTRICTION
+      restriction: {{env.RESTRICTION}}
     secrets: inherit
     if: |
       PROGRESSION > 6 &&
@@ -101,10 +103,10 @@ jobs:
       pull-requests: write
       statuses: write
     with:
-      restriction: $RESTRICTION
+      restriction: {{env.RESTRICTION}}
     secrets: inherit
     if: |
-      PROGRESSION > 7 &&
+      env.PROGRESSION > 7 &&
       needs.local-build-yield-to-pull-request.outputs.bypass == 'false'
 
 
@@ -123,7 +125,7 @@ jobs:
     with:
       restriction: 'purge-local-caches'
     if: |
-      PROGRESSION > 3 &&
+      env.PROGRESSION > 3 &&
       needs.local-build-yield-to-pull-request.outputs.bypass == 'false'
 
 
@@ -140,8 +142,10 @@ jobs:
     permissions:
       actions: write
       contents: write
+    with:
+      restriction: 'no restriction'
     if: |
-      PROGRESSION > 4 &&
+      env.PROGRESSION > 4 &&
       needs.local-build-yield-to-pull-request.outputs.bypass == 'false'
 
   push-main-workflow-summary:
@@ -152,5 +156,5 @@ jobs:
     if: always()
     uses: ./.github/workflows/push-summary-workflow.yml
     with:
-      restriction: $RESTRICTION
-      yielded:  ${{ needs.local-build-yield-to-pull-request.outputs.bypass == 'true' }}
+      restriction: {{env.RESTRICTION}}
+      yielded: ${{ needs.local-build-yield-to-pull-request.outputs.bypass == 'true' }}
