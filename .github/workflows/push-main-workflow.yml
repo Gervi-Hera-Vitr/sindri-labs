@@ -31,7 +31,7 @@ jobs:
 
   local-build-yield-to-pull-request:
     if: |
-      progression > 1
+      ${{ env.progression == 1 }}
     name: "Yield to Pull Request when PR exists"
     uses: ./.github/workflows/check-push-yield.yml
     with:
