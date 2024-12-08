@@ -28,9 +28,12 @@ env:
 
 jobs:
 
+  # This step is first, and is needed because GH env is only usable in steps;
+  # See https://docs.github.com/en/actions/writing-workflows/choosing-what-your-workflow-does/accessing-contextual-information-about-workflow-runs#env-context
   shared-global-variables:
     name: "Shared Global Variables"
     runs-on: self-hosted
+    # Set Global Environment Variables directly from the workflow as run outputs.
     outputs:
       run_classification: ${{ env.classification }}
       run_progression: ${{ env.progression }}
@@ -38,24 +41,10 @@ jobs:
       - name: "Set Shared Global Variables"
         id: set-shared-global-variables-step
         timeout-minutes: 1
-        shell: zsh -l {0}
         env:
-          cls: ${{ env.classification }}
-          prg: ${{ env.progression }}
-        run: |
-          echo "step_classification=${{ env.classification }}" >> "$GITHUB_OUTPUT"
-          echo "step_progression=${{ env.progression }}" >> "$GITHUB_OUTPUT"
-          
-          echo "RESTRICTION=${{ env.classification }} >> "$GITHUB_ENV"
-          echo "PROGRESSION=${{ env.progression }}" >> "$GITHUB_ENV"
-          
-          echo -e "# Push Global Workflow Parameters\n" >> "$GITHUB_STEP_SUMMARY"
-          echo -e "<details>\n" >> "$GITHUB_STEP_SUMMARY" >> "$GITHUB_STEP_SUMMARY"
-          echo -e "<summary>Common Variables:</summary>\n" >> "$GITHUB_STEP_SUMMARY"
-          echo "- **RESTRICTION:** ${{ env.RESTRICTION }}" >> "$GITHUB_STEP_SUMMARY"
-          echo "- **PROGRESSION:** ${{ env.PROGRESSION }}" >> "$GITHUB_STEP_SUMMARY"
-          echo -e "\n</details>\n" >> "$GITHUB_STEP_SUMMARY"
-          echo -e "_Please reach out to the [Gervi Héra Vitr](https://github.com/Gervi-Hera-Vitr) organization members for more information._\n" >> "$GITHUB_STEP_SUMMARY"
+          transient_restriction: ${{ env.classification }}
+          transient_progression: ${{ env.progression }}
+        run: util/src/main/sh/push-environment.sh "${{ env.classification }}" "${{ env.progression }}"
 
   local-build-yield-to-pull-request:
     if: ${{ needs.shared-global-variables.outputs.run_progression >= 1 }}
