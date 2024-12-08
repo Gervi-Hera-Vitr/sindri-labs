@@ -22,7 +22,7 @@ defaults:
     shell: zsh -l {0}
 
 env:
-  classification: om working push
+  classification: on working push
   progression: 1
 
 
@@ -60,16 +60,17 @@ jobs:
       restriction: "${{ needs.shared-global-variables.outputs.run_classification }}"
 
 
-#  local-build-host-environment-checks:
-#    name: "Sanity Checks build on Self-Hosted Runners"
-#    needs: [ local-build-yield-to-pull-request ]
-#    uses: ./.github/workflows/push-environment-checks.yml
-#    with:
-#      restriction: "$RESTRICTION"
-#    secrets: inherit
-#    if: |
-#      progression > 1 &&
-#      needs.local-build-yield-to-pull-request.outputs.bypass == 'false'
+  local-build-host-environment-checks:
+    name: "Sanity Checks build on Self-Hosted Runners"
+    needs:
+      - shared-global-variables
+      - local-build-yield-to-pull-request
+    uses: ./.github/workflows/push-environment-checks.yml
+    with:
+      restriction: "${{ needs.shared-global-variables.outputs.run_classification }}"
+    if: |
+      needs.shared-global-variables.outputs.run_progression >= 1 &&
+      needs.local-build-yield-to-pull-request.outputs.bypass == 'false'
 #
 #  local-build-project-dependency-hints:
 #    name: "Impromptu Project Dependencies Checks for Contributors"

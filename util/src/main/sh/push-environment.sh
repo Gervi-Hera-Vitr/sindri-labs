@@ -26,7 +26,37 @@ if [[ "$parameter_progression" != 0 ]]; then
   progression=$parameter_progression
 fi
 
-[[ "Darwin" == "$(uname)" ]] && production_run=false && echo "::notice file=hint-on-dependencies.sh,line=10::Running in development mode. Skipping prune actions."
+[[ "Darwin" == "$(uname)" ]] && production_run=false && echo "::notice file=push-environment.sh,line=29::Running in development mode. Skipping prune actions."
+
+cat <<EOF
+=======================================================================
+Push Workflow Global Configuration
+=======================================================================
+Since GitHub hasn't implemented global shared environment variables,
+we must use GitHub Actions Steps to set them globally for all jobs.
+Also, shared workflows referenced with 'uses' do not have access to
+environment variables set in the current workflow.
+To work around this, we use a GitHub Action Step to set environment
+variables other workflows rely on as outputs in the current workflow.
+
+Example (yaml):
+-----------------------------------------------------------------------
+    outputs:
+      run_classification: something from the environment
+      run_progression: something from the environment
+-----------------------------------------------------------------------
+The following run step only exists in the current workflow to make it
+valid and uses the opportunity to examine the behavior of GitHub
+Actions in a runtime setting.
+
+This job with its outputs will usually be the first jub in the pipeline.
+The values can then be used in other workflows as
+needs.shared-global-variables.outputs.run_classification
+for example.
+
+=======================================================================
+EOF
+
 
 echo "==> production_run=$production_run at $tick"
 echo "==> summary_file=$summary_file"

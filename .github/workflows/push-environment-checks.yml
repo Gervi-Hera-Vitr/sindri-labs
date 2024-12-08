@@ -14,7 +14,7 @@ on:
       restriction:
         required: false
         type: string
-        default: "no-restriction"
+        default: "no restriction"
         description: "Optional parameter on restrictions for parallelism and early cancellation of jobs; ToDo: placeholder not yet implemented and used."
 
 permissions:

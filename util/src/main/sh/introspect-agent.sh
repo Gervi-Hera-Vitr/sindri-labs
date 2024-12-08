@@ -1,8 +1,12 @@
 #!/usr/bin/env zsh
 
-version_of_jdk=${1:-'21.0.5'}
-gradle_version=${2:-'8.11.1'}
-production_run=${3:-true}
+production_run=${1:-true}
+debug_info_run=${2:-false}
+version_of_jdk=${3:-'21.0.5'}
+gradle_version=${4:-'8.11.1'}
+kotlin_version=${5:-'2.1.0'}
+python_version=${6:-'3.12.7'}
+ruby_version=${7:-'3.3.5'}
 
 agent_host=$(hostname)
 
@@ -54,26 +58,62 @@ fi
 echo -e "\n\n==== SDKs ===="
 
 # Java check
-JAVA_VERSION_INSTALLED=$(java --version | head -1)
+JAVA_VERSION_STRING=$(java --version 2>&1)
+JAVA_VERSION_INSTALLED=$(head -1 <<< "$JAVA_VERSION_STRING")
 echo "java_version=$JAVA_VERSION_INSTALLED" >> "$GITHUB_ENV"
 if [[ $JAVA_VERSION_INSTALLED =~ $version_of_jdk ]]; then
   echo "java_correct=true" >> "$GITHUB_ENV"
-  echo "Agent host $(hostname): JDK $version_of_jdk is locally available."
 else
   echo "java_correct=false" >> "$GITHUB_ENV"
   echo "::warning file=introspect-agent.sh,line=62::Agent host $(hostname): JDK $version_of_jdk is NOT locally available."
 fi
+[[ "$debug_info_run" == "true" ]] && echo -e "\nDEBUG: Agent host $(hostname): JDK\n${JAVA_VERSION_STRING}\n is locally available and is $version_of_jdk is required.\n"
 
 # Gradle check
-GRADLE_VERSION_INSTALLED=$(gradle -v | grep Gradle | cut -d ' ' -f 2)
+GRADLE_VERSION_STRING=$(gradle -v 2>&1)
+GRADLE_VERSION_INSTALLED=$(grep Gradle | cut -d ' ' -f 2 ) <<< "$GRADLE_VERSION_STRING"
 echo "gradle_version=$GRADLE_VERSION_INSTALLED" >> "$GITHUB_ENV"
 if [[ $GRADLE_VERSION_INSTALLED =~ $gradle_version ]]; then
   echo "gradle_correct=true" >> "$GITHUB_ENV"
-  echo "Agent host $(hostname): Gradle $GRADLE_VERSION_INSTALLED is locally available."
 else
   echo "gradle_correct=false" >> "$GITHUB_ENV"
   echo "::warning file=introspect-agent.sh,line=73::Agent host $(hostname): Gradle $gradle_version is NOT locally available."
 fi
+[[ "$debug_info_run" == "true" ]] && echo -e "\nDEBUG: Agent host $(hostname): Gradle\n${GRADLE_VERSION_STRING}\nis locally available and is $gradle_version is required.\n"
+
+# Kotlin check
+KOTLIN_VERSION_STRING=$(kotlinc -version 2>&1)
+KOTLIN_VERSION_INSTALLED=$(cut -d ' ' -f 3) <<< "$KOTLIN_VERSION_STRING"
+echo "kotlin_version=$KOTLIN_VERSION_INSTALLED" >> "$GITHUB_ENV"
+if [[ $KOTLIN_VERSION_INSTALLED =~ $kotlin_version ]]; then
+  echo "kotlin_correct=true" >> "$GITHUB_ENV"
+else
+  echo "kotlin_correct=false" >> "$GITHUB_ENV"
+  echo "::warning file=introspect-agent.sh,line=84::Agent host $(hostname): Kotlin $kotlin_version is NOT locally available."
+fi
+[[ "$debug_info_run" == "true" ]] && echo -e "\nDEBUG: Agent host $(hostname): Kotlin\n${KOTLIN_VERSION_STRING}\nis locally available and is $kotlin_version is required.\n"
+
+PYTHON_VERSION_STRING=$(python3 --version 2>&1)
+PYTHON_VERSION_INSTALLED=$(cut -d ' ' -f 2 <<< "$PYTHON_VERSION_STRING")
+echo "python_version=$PYTHON_VERSION_INSTALLED" >> "$GITHUB_ENV"
+if [[ $PYTHON_VERSION_INSTALLED =~ $python_version ]]; then
+  echo "python_correct=true" >> "$GITHUB_ENV"
+else
+  echo "python_correct=false" >> "$GITHUB_ENV"
+  echo "::warning file=introspect-agent.sh,line=95::Agent host $(hostname): Python $python_version is NOT locally available."
+fi
+[[ "$debug_info_run" == "true" ]] && echo -e "DEBUG: Agent host $(hostname): Python\n${PYTHON_VERSION_STRING}\nis locally available and is $python_version is required.\n"
+
+RUBY_VERSION_STRING=$(ruby --version 2>&1)
+RUBY_VERSION_INSTALLED=$(cut -d ' ' -f 2 <<< "$RUBY_VERSION_STRING")
+echo "ruby_version=$RUBY_VERSION_INSTALLED" >> "$GITHUB_ENV"
+if [[ $RUBY_VERSION_INSTALLED =~ $ruby_version ]]; then
+  echo "ruby_correct=true" >> "$GITHUB_ENV"
+else
+  echo "ruby_correct=false" >> "$GITHUB_ENV"
+  echo "::warning file=introspect-agent.sh,line=106::Agent host $(hostname): Ruby $ruby_version is NOT locally available."
+fi
+[[ "$debug_info_run" == "true" ]] && echo -e "DEBUG: Agent host $(hostname): Ruby\n${RUBY_VERSION_STRING}\nis locally available and is $ruby_version is required.\n"
 
 
 # Disk usage check
@@ -137,27 +177,33 @@ done < <(df -h | tail -n +2)
 
 # Write summary to GitHub summary file
 {
-echo -e "# Agent Host Checks on $agent_host\n\n"
-echo "<details>"
-echo "<summary>Resource Usage:</summary>"
-echo
-echo "- **Host Name:** $agent_host"
-echo "- **Java Version:** $JAVA_VERSION_INSTALLED"
-echo "- **Gradle Version:** $GRADLE_VERSION_INSTALLED"
-echo "- **Disk Usage on _${agent_host}_:**"
-for line in "${disk_usage_information[@]}"; do
-  echo "  - $line"
-done
-echo "- **Gradle Correct:** $(grep 'gradle_correct' "$GITHUB_ENV" | cut -d '=' -f 2)"
-echo "- **Java Correct:** $(grep 'java_correct' "$GITHUB_ENV" | cut -d '=' -f 2)"
-echo
-echo "_Please reach out to the [Gervi Héra Vitr](https://github.com/Gervi-Hera-Vitr) organization members for more information._"
-echo
-echo "</details>"
-echo
+  echo -e "# Agent Host Checks on $agent_host\n\n"
+  echo "<details>"
+  echo "<summary>Resource Usage:</summary>"
+  echo
+  echo "- **Host Name:** $agent_host"
+  echo "- **Java Version:** $JAVA_VERSION_INSTALLED"
+  echo "- **Gradle Version:** $GRADLE_VERSION_INSTALLED"
+  echo "- **Kotlin Version:** $KOTLIN_VERSION_INSTALLED"
+  echo "- **Python Version:** $PYTHON_VERSION_INSTALLED"
+  echo "- **Ruby Version:** $RUBY_VERSION_INSTALLED"
+  echo "- **Disk Usage on _${agent_host}_:**"
+  for line in "${disk_usage_information[@]}"; do
+    echo "  - $line"
+  done
+  echo "- **Gradle Correct:** $(grep 'gradle_correct' "$GITHUB_ENV" | cut -d '=' -f 2)"
+  echo "- **Java Correct:** $(grep 'java_correct' "$GITHUB_ENV" | cut -d '=' -f 2)"
+  echo "- **Kotlin Correct:** $(grep 'kotlin_correct' "$GITHUB_ENV" | cut -d '=' -f 2)"
+  echo "- **Python Correct:** $(grep 'python_correct' "$GITHUB_ENV" | cut -d '=' -f 2)"
+  echo "- **Ruby Correct:** $(grep 'ruby_correct' "$GITHUB_ENV" | cut -d '=' -f 2)"
+  echo
+  echo "_Please reach out to the [Gervi Héra Vitr](https://github.com/Gervi-Hera-Vitr) organization members for more information._"
+  echo
+  echo "</details>"
+  echo
 }  >> "$GITHUB_STEP_SUMMARY"
 
-if [[ "$production_run" != "true" ]]; then
+if [[ "$production_run" != "true" || "$debug_info_run" == "true" ]]; then
   echo -e "==== Disk Usage ====\n"
   for usage_info in "${disk_usage_information[@]}"; do
       echo -e "$usage_info"
