@@ -66,6 +66,7 @@ else
   {
   echo -e "# Cache Prune on $(hostname)\n\n"
   echo "<details>"
+  echo
   echo "<summary>Result Summary:</summary>"
   echo
   echo "- **Total Caches:** ${#cacheKeys[@]}"
