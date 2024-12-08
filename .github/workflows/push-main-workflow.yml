@@ -37,7 +37,7 @@ jobs:
       target-branch: 'main'
       restriction: "$RESTRICTION"
     if: |
-      env.PROGRESSION > 1
+      PROGRESSION > 1
 
 
   local-build-host-environment-checks:
@@ -48,7 +48,7 @@ jobs:
       restriction: "$RESTRICTION"
     secrets: inherit
     if: |
-      env.PROGRESSION > 1 &&
+      PROGRESSION > 1 &&
       needs.local-build-yield-to-pull-request.outputs.bypass == 'false'
 
   local-build-project-dependency-hints:
@@ -60,7 +60,7 @@ jobs:
       releases-only: false
     secrets: inherit
     if: |
-      env.PROGRESSION > 2 &&
+      PROGRESSION > 2 &&
       needs.local-build-yield-to-pull-request.outputs.bypass == 'false'
 
   local-build-codeql-scan:
@@ -73,7 +73,7 @@ jobs:
       restriction: "$RESTRICTION"
     secrets: inherit
     if: |
-      env.PROGRESSION > 5 &&
+      PROGRESSION > 5 &&
       needs.local-build-yield-to-pull-request.outputs.bypass == 'false'
 
 
@@ -106,7 +106,7 @@ jobs:
       restriction: "$RESTRICTION"
     secrets: inherit
     if: |
-      env.PROGRESSION > 7 &&
+      PROGRESSION > 7 &&
       needs.local-build-yield-to-pull-request.outputs.bypass == 'false'
 
 
@@ -125,7 +125,7 @@ jobs:
     with:
       restriction: 'purge-local-caches'
     if: |
-      env.PROGRESSION > 3 &&
+      PROGRESSION > 3 &&
       needs.local-build-yield-to-pull-request.outputs.bypass == 'false'
 
 
@@ -145,7 +145,7 @@ jobs:
     with:
       restriction: 'no restriction'
     if: |
-      env.PROGRESSION > 4 &&
+      PROGRESSION > 4 &&
       needs.local-build-yield-to-pull-request.outputs.bypass == 'false'
 
   push-main-workflow-summary:
