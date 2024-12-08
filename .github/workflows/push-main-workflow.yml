@@ -38,7 +38,7 @@ jobs:
       - name: "Set Shared Global Variables"
         id: set-shared-global-variables-step
         timeout-minutes: 1
-        shell: zsh
+        shell: zsh -l {0}
         env:
           cls: ${{ env.classification }}
           prg: ${{ env.progression }}
