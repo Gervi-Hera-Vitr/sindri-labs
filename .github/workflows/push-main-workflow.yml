@@ -44,7 +44,7 @@ jobs:
         env:
           transient_restriction: ${{ env.classification }}
           transient_progression: ${{ env.progression }}
-        run: util/src/main/sh/push-environment.sh "${{ env.classification }}" "${{ env.progression }}"
+        run:  ./util/src/main/sh/push-environment.sh true "${{ env.classification }}" "${{ env.progression }}"
 
   local-build-yield-to-pull-request:
     if: ${{ needs.shared-global-variables.outputs.run_progression >= 1 }}
