@@ -43,11 +43,11 @@ jobs:
           cls: ${{ env.classification }}
           prg: ${{ env.progression }}
         run: |
-          echo "step_classification=${{ env.classification }}" | tee -a "$GITHUB_OUTPUT"
-          echo "step_progression=${{ env.progression }}" | tee -a "$GITHUB_OUTPUT"
+          echo "step_classification=${{ env.classification }}" >> "$GITHUB_OUTPUT"
+          echo "step_progression=${{ env.progression }}" >> "$GITHUB_OUTPUT"
           
-          echo "RESTRICTION=${{ env.run_classification }} | tee -a "$GITHUB_ENV"
-          echo "PROGRESSION=${{ env.run_progression }}" | tee -a "$GITHUB_ENV"
+          echo "RESTRICTION=${{ env.classification }} >> "$GITHUB_ENV"
+          echo "PROGRESSION=${{ env.progression }}" >> "$GITHUB_ENV"
           
           echo -e "# Push Global Workflow Parameters\n" >> "$GITHUB_STEP_SUMMARY"
           echo -e "<details>\n" >> "$GITHUB_STEP_SUMMARY" >> "$GITHUB_STEP_SUMMARY"
