@@ -19,11 +19,7 @@ on:
 
 permissions:
   contents: read
-  discussions: write
-  issues: write
-  pull-requests: write
   actions: read
-  statuses: read
 
 concurrency:
   group: "${{ github.workflow }}-${{ github.ref }}-host-checks"
