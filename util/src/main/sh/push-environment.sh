@@ -81,15 +81,14 @@ echo " - **Feature Data:**:"
 echo "   - classification=$classification"
 echo "   - transient_restriction=$transient_restriction"
 echo "   - transient_progression=$transient_progression"
-echo -e "=======================================\n\n"
-echo -e "=======================================\n\n"
+echo -e "=======================================\n"
 echo "======== GITHUB_ENV Variables =========="
 if [[ -f "$ghenvir_file" ]]; then
   cat "$ghenvir_file"
 else
   echo "GITHUB_ENV does not exist."
 fi
-echo -e "=======================================\n\n"
+echo -e "=======================================\n"
 
 if [[ "$production_run" == "true" && -f "$ghenvir_file" ]]; then
   {
