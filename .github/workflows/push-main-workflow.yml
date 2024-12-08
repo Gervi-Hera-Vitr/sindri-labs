@@ -38,34 +38,24 @@ jobs:
       - name: "Set Shared Global Variables"
         id: set-shared-global-variables-step
         timeout-minutes: 1
+        shell: zsh
         env:
           cls: ${{ env.classification }}
           prg: ${{ env.progression }}
         run: |
-          echo "::set-output name=step_classification::${{ env.classification }}"
-          echo "::set-output name=step_progression::${{ env.progression }}"
+          echo "step_classification=${{ env.classification }}" | tee -a "$GITHUB_OUTPUT"
+          echo "step_progression=${{ env.progression }}" | tee -a "$GITHUB_OUTPUT"
           
-          {
-            echo "RESTRICTION=${{ env.run_classification }}
-            echo "PROGRESSION=${{ env.run_progression }}"
-          } >> "$GITHUB_ENV"
+          echo "RESTRICTION=${{ env.run_classification }} | tee -a "$GITHUB_ENV"
+          echo "PROGRESSION=${{ env.run_progression }}" | tee -a "$GITHUB_ENV"
           
-          {
-            echo "# Push Global Workflow Parameters"
-            echo
-            echo "<details>"
-            echo
-            echo "<summary>Common Variables:</summary>"
-            echo 
-            echo "- **RESTRICTION:** ${{ env.RESTRICTION }}"
-            echo "- **PROGRESSION:** ${{ env.PROGRESSION }}"
-            echo
-            echo "</details>"
-            echo
-            echo "_Please reach out to the [Gervi Héra Vitr](https://github.com/Gervi-Hera-Vitr) organization members for more information._"
-            echo
-          }  >> "$GITHUB_STEP_SUMMARY"
-
+          echo -e "# Push Global Workflow Parameters\n" >> "$GITHUB_STEP_SUMMARY"
+          echo -e "<details>\n" >> "$GITHUB_STEP_SUMMARY" >> "$GITHUB_STEP_SUMMARY"
+          echo -e "<summary>Common Variables:</summary>\n" >> "$GITHUB_STEP_SUMMARY"
+          echo "- **RESTRICTION:** ${{ env.RESTRICTION }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "- **PROGRESSION:** ${{ env.PROGRESSION }}" >> "$GITHUB_STEP_SUMMARY"
+          echo -e "\n</details>\n" >> "$GITHUB_STEP_SUMMARY"
+          echo -e "_Please reach out to the [Gervi Héra Vitr](https://github.com/Gervi-Hera-Vitr) organization members for more information._\n" >> "$GITHUB_STEP_SUMMARY"
 
   local-build-yield-to-pull-request:
     if: ${{ needs.shared-global-variables.outputs.run_progression >= 1 }}
