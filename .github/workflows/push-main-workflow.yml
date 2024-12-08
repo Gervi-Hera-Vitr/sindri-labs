@@ -38,6 +38,9 @@ jobs:
       run_classification: ${{ env.classification }}
       run_progression: ${{ env.progression }}
     steps:
+      - name: "Checkout repository source code at root"
+        uses: actions/checkout@cbb722410c2e876e24abbe8de2cc27693e501dcb
+        timeout-minutes: 1
       - name: "Set Shared Global Variables"
         id: set-shared-global-variables-step
         timeout-minutes: 1
