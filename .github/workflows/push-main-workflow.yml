@@ -24,7 +24,7 @@ defaults:
 env:
 
   RESTRICTION: on working push
-  PROGRESSION: 1
+  progression: 1
   pull_yield_status: not started
 
 jobs:
@@ -36,7 +36,7 @@ jobs:
       default-branch: 'main'
       target-branch: 'main'
       restriction: "$RESTRICTION"
-    if: ${{ env.PROGRESSION > 1 }}
+    if: ${{ env.progression > 1 }}
 
 
   local-build-host-environment-checks:
@@ -47,7 +47,7 @@ jobs:
       restriction: "$RESTRICTION"
     secrets: inherit
     if: |
-      PROGRESSION > 1 &&
+      progression > 1 &&
       needs.local-build-yield-to-pull-request.outputs.bypass == 'false'
 
   local-build-project-dependency-hints:
@@ -59,7 +59,7 @@ jobs:
       releases-only: false
     secrets: inherit
     if: |
-      PROGRESSION > 2 &&
+      progression > 2 &&
       needs.local-build-yield-to-pull-request.outputs.bypass == 'false'
 
   local-build-codeql-scan:
@@ -72,7 +72,7 @@ jobs:
       restriction: "$RESTRICTION"
     secrets: inherit
     if: |
-      PROGRESSION > 5 &&
+      progression > 5 &&
       needs.local-build-yield-to-pull-request.outputs.bypass == 'false'
 
 
@@ -86,7 +86,7 @@ jobs:
       restriction: "$RESTRICTION"
     secrets: inherit
     if: |
-      PROGRESSION > 6 &&
+      progression > 6 &&
       needs.local-build-yield-to-pull-request.outputs.bypass == 'false'
 
 
@@ -105,7 +105,7 @@ jobs:
       restriction: "$RESTRICTION"
     secrets: inherit
     if: |
-      PROGRESSION > 7 &&
+      progression > 7 &&
       needs.local-build-yield-to-pull-request.outputs.bypass == 'false'
 
 
@@ -124,7 +124,7 @@ jobs:
     with:
       restriction: 'purge-local-caches'
     if: |
-      PROGRESSION > 3 &&
+      progression > 3 &&
       needs.local-build-yield-to-pull-request.outputs.bypass == 'false'
 
 
@@ -144,7 +144,7 @@ jobs:
     with:
       restriction: 'no restriction'
     if: |
-      PROGRESSION > 4 &&
+      progression > 4 &&
       needs.local-build-yield-to-pull-request.outputs.bypass == 'false'
 
   push-main-workflow-summary:
