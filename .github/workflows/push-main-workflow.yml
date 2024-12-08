@@ -21,11 +21,11 @@ defaults:
   run:
     shell: zsh -l {0}
 
-# Workflow global feature parameters
 env:
-  RESTRICTION: "on working push"
-  PROGRESSION: "1"
-  pull_yield_status: "not started"
+
+  RESTRICTION: on working push
+  PROGRESSION: 1
+  pull_yield_status: not started
 
 jobs:
 
