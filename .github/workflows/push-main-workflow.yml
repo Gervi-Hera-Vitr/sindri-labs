@@ -30,14 +30,14 @@ env:
 jobs:
 
   local-build-yield-to-pull-request:
+    if: |
+      progression > 1
     name: "Yield to Pull Request when PR exists"
     uses: ./.github/workflows/check-push-yield.yml
     with:
       default-branch: 'main'
       target-branch: 'main'
       restriction: "$RESTRICTION"
-    if: |
-      progression > 1
 
 
   local-build-host-environment-checks:
