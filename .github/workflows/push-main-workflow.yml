@@ -36,8 +36,7 @@ jobs:
       default-branch: 'main'
       target-branch: 'main'
       restriction: "$RESTRICTION"
-    if: |
-      ${{ env.PROGRESSION > 1 }}
+    if: ${{ env.PROGRESSION > 1 }}
 
 
   local-build-host-environment-checks:
