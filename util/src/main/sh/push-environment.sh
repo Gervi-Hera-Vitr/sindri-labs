@@ -76,5 +76,5 @@ if [[ "$production_run" == "true" && -f "$summary_file" ]]; then
     echo
   } >> "$summary_file"
 else
-  echo "::warning file=push-environment.sh,line=62::GitHub summary file $summary_file is inoperable."
+  echo "::error file=push-environment.sh,line=62::GitHub summary file $summary_file is inoperable."
 fi
