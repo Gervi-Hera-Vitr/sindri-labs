@@ -62,7 +62,7 @@ jobs:
       # Conditional Gradle setup
       - name: "Setup transient Gradle 8.10 if instructed by the Agent Environment Scanner"
         if: env.gradle_correct != 'true'
-        uses: gradle/actions/setup-gradle@4ba34e96c5f6493e99d0696180a9a8d431577ba9
+        uses: gradle/actions/setup-gradle@8be34543306b608cb8f0b322b3c7ce064e6ea7a9
         timeout-minutes: 2
 
       # Gradle dependency caching
