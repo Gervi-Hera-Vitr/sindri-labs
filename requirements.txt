@@ -62,7 +62,7 @@ jupyterlab_server==2.27.3
 keras==3.7.0
 kiwisolver==1.4.7
 matplotlib-inline==0.1.7
-matplotlib==3.9.2
+matplotlib==3.10.0
 mistune==3.0.2
 munkres==1.1.4
 nbclient==0.10.1
