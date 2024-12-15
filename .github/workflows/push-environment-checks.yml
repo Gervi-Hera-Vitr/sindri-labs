@@ -7,23 +7,19 @@ on:
       restriction:
         required: true
         type: string
-        default: "no-restriction"
+        default: "no restriction"
         description: "Optional parameter on restrictions for parallelism and early cancellation of jobs; ToDo: placeholder not yet implemented and used."
   workflow_call:
     inputs:
       restriction:
         required: false
         type: string
-        default: "no-restriction"
+        default: "no restriction"
         description: "Optional parameter on restrictions for parallelism and early cancellation of jobs; ToDo: placeholder not yet implemented and used."
 
 permissions:
   contents: read
-  discussions: write
-  issues: write
-  pull-requests: write
   actions: read
-  statuses: read
 
 concurrency:
   group: "${{ github.workflow }}-${{ github.ref }}-host-checks"
@@ -35,7 +31,7 @@ defaults:
 
 jobs:
   build-while-introspecting-host-runtime-environment:
-    timeout-minutes: 5
+    timeout-minutes: 3
     runs-on: self-hosted
     name: "Build while Introspecting Host Runtime Environment on Self-Hosted Runners"
 
@@ -46,31 +42,5 @@ jobs:
         timeout-minutes: 1
 
       - name: "Run custom Introspection Script and Publish boolean values for `java_correct` and `gradle_correct` into GH Env"
-        run: ./util/src/main/sh/introspect-agent.sh
+        run: ./util/src/main/sh/introspect-agent.sh true true 21.0.5 8.11.1 2.1.0 3.12.7 ml 3.3.5
         timeout-minutes: 1
-
-      # Conditional Java setup
-      - name: "Setup transient JDK 21 if instructed by the Agent Environment Scanner"
-        if: env.java_correct != 'true'
-        uses: actions/setup-java@8df1039502a15bceb9433410b1a100fbe190c53b
-        timeout-minutes: 3
-        with:
-          distribution: 'temurin'
-          java-version: '21'
-          cache: 'gradle'
-
-      # Conditional Gradle setup
-      - name: "Setup transient Gradle 8.10 if instructed by the Agent Environment Scanner"
-        if: env.gradle_correct != 'true'
-        uses: gradle/actions/setup-gradle@4ba34e96c5f6493e99d0696180a9a8d431577ba9
-        timeout-minutes: 2
-
-      # Gradle dependency caching
-      - name: "Manage caching Gradle dependencies"
-        uses: actions/cache@6849a6489940f00c2f30c0fb92c6274307ccb58a
-        timeout-minutes: 2
-        with:
-          path: "${HOME}/.gradle/caches"
-          key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties') }}
-          restore-keys: |
-            ${{ runner.os }}-gradle-

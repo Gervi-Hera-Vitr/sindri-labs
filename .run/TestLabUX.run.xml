@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="lab-ux-ktor-tests" type="GradleRunConfiguration" factoryName="Gradle">
+  <configuration default="false" name="TestLabUX" type="GradleRunConfiguration" factoryName="Gradle">
     <ExternalSystemSettings>
       <option name="executionName" />
       <option name="externalProjectPath" value="$PROJECT_DIR$/lab-ux-ktor" />

@@ -25,6 +25,9 @@ defaults:
   run:
     shell: zsh -l {0}
 
+permissions:
+  contents: write
+  actions: write
 
 jobs:
 
@@ -35,30 +38,7 @@ jobs:
 
     steps:
       - name: "Cleanup stale actions caches"
-        run: |
-          gh extension install actions/gh-actions-cache
-
-          echo "::notice file=cache-prune.yml,line=41::Checking if any global actions caches are stale: $REPO - $BRANCH"
-          
-          declare -a cacheKeys
-          cacheKeys=$(gh actions-cache list --limit 100 | cut -f 1 )
-          echo "::notice file=cache-prune.yml,line=45::Processing ${#cacheKeys[@]} cache keys"
-          if [[ -z "${cacheKeys// }" ]]; then
-            echo "::notice file=cache-prune.yml,line=48::No stale caches found in $REPO - $BRANCH"
-            exit 0
-          fi
-          
-          set +e
-          for cacheKey in $cacheKeys; do
-              gh actions-cache delete $cacheKey --confirm
-          
-              if [ $? -eq 0 ]; then
-                echo "::notice file=cache-prune.yml,line=56::Successfully deleted cache key $cacheKey"
-              else
-                echo "::warning file=cache-prune.yml,line=58::Failed to delete cache key $cacheKey"
-              fi
-          done
-          echo "::notice file=cache-prune.yml,line=60::All stale caches deleted in $REPO - $BRANCH"
+        run: ./util/src/main/sh/clean-github-cache.sh
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPO: ${{ github.repository }}

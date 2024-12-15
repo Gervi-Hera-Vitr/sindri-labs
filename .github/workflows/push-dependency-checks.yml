@@ -43,3 +43,15 @@ jobs:
         env:
           RELEASES_ONLY: ${{ inputs.releases-only }}
         run: ./util/src/main/sh/hint-on-dependencies.sh
+
+      - name: "Publish Dependency Deprecations Hints for review"
+        uses: actions/upload-artifact@v4
+        timeout-minutes: 1
+        with:
+          name: Impromptu Dependency Hints
+          path: '${{ env.DEPENDENCY_HINTS_JSON_FILE }}'
+          if-no-files-found: 'warn'
+          retention-days: 3
+          compression-level: '9'
+          overwrite: 'true'
+          include-hidden-files: 'false'

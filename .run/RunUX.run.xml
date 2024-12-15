@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="ai-ux" type="KtorApplicationConfigurationType" factoryName="Ktor">
+  <configuration default="false" name="RunUX" type="KtorApplicationConfigurationType" factoryName="Ktor">
     <option name="MAIN_CLASS_NAME" value="ux.virt.lugaru.me.ApplicationKt" />
     <module name="google-ai-labs.lab-ux-ktor.main" />
     <option name="alternativeJrePath" />

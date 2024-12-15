@@ -14,6 +14,7 @@ permissions:
   contents: write
   pull-requests: write
   checks: write
+  statuses: write
 
 concurrency:
   group: "${{ github.workflow }}-${{ github.ref }}-qodana"
@@ -45,11 +46,9 @@ jobs:
         uses: JetBrains/qodana-action@v2024.2
         with:
           pr-mode: false
-          push-fixes: pull-request
-        #          args: "--linter,jetbrains/qodana-jvm:2024.3-eap,--apply-fixes"
         env:
           QODANA_TOKEN: ${{ secrets.QODANA_TOKEN_503848163 }}
-          QODANA_ENDPOINT: 'https://qodana.cloud'
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   code-security-scan-codeql-postmortem:
     timeout-minutes: 3
