@@ -43,7 +43,7 @@ jobs:
 
       - name: "Run Qodana Analysis Action and Report Generation"
         timeout-minutes: 29
-        uses: JetBrains/qodana-action@v2024.2
+        uses: JetBrains/qodana-action@v2024.3
         with:
           pr-mode: false
         env:
