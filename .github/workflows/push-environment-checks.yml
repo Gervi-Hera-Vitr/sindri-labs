@@ -52,7 +52,7 @@ jobs:
       # Conditional Java setup
       - name: "Setup transient JDK 21 if instructed by the Agent Environment Scanner"
         if: env.java_correct != 'true'
-        uses: actions/setup-java@8df1039502a15bceb9433410b1a100fbe190c53b
+        uses: actions/setup-java@7a6d8a8234af8eb26422e24e3006232cccaa061b
         timeout-minutes: 3
         with:
           distribution: 'temurin'
