@@ -1,135 +1,87 @@
 #!/usr/bin/env zsh
+### Push Environment Variables to GitHub Actions as Outputs
+# GitHub workflows don't support global environment variables.
+# To work around this, we use a GitHub Action Step outputs.
+#
+# See https://docs.github.com/en/actions/learn-github-actions/contexts#environment-variables
+# See https://docs.github.com/en/actions/learn-github-actions/workflow-commands-for-github-actions#setting-an-output
+#
+# Exit 7: Sourcing the action library failed.
+#
 
-tick="$(date +%Y_%m_%d_%H_%M_%S)"
-summary_file="$GITHUB_STEP_SUMMARY"
-ghenvir_file="$GITHUB_ENV"
+setopt nounset
 
-production_run=${1:-true}
-restriction="UNSET"
-progression=-1
-parameter_restriction=${2:-'none'}
-parameter_progression=${3:-0}
-environment_restriction=${transient_restriction:-'none'}
-environment_progression=${transient_progression:-0}
+# ===================================== This Script Functions ==========================================================
 
-if [[ "$environment_restriction" != "none" ]]; then
-  restriction=$environment_restriction
-fi
-if [[ "$environment_progression" != -1 ]]; then
-  progression=$environment_progression
-fi
+### source_dependencies
+#
+# Sources the common and info/debug action libraries.
+#
+# Sourcing the action libraries is critical to the proper functioning of the script.
+# This function ensures that the action libraries are sourced and their variables are
+# available to the script.
+#
+# Exit 7: Sourcing the action library failed.
+function source_dependencies() {
+  local root,lib_common
+  echo "::group::Sourcing Dependencies: Agent host $(hostname) - $(date +%H:%M:%S)"
+  root=$(git rev-parse --show-toplevel)
+  if [[ ! -d "$root" ]]; then
+    echo "::error file=push-environment.sh,line=28::Agent host $(hostname): Cannot source clone of the repository! Please investigate your workflow configuration.";
+    echo "::endgroup::"
+    exit 7
+  fi
 
-if [[ "$parameter_restriction" != "none" ]]; then
-  restriction=$parameter_restriction
-fi
-if [[ "$parameter_progression" != 0 ]]; then
-  progression=$parameter_progression
-fi
+  lib_common="$root/util/src/main/sh/actions-library-common.sh"
+  lib_debugs="$root/util/src/main/sh/actions-library-info-debug.sh"
 
-[[ "Darwin" == "$(uname)" ]] && production_run=false && echo "::notice file=push-environment.sh,line=29::Running in development mode. Skipping prune actions."
+  [[ -f "$lib_common" ]] && source "$root/util/src/main/sh/actions-library-common.sh"
+  [[ -f "$lib_debugs" ]] && source "$root/util/src/main/sh/actions-library-info-debug.sh"
 
-cat <<EOF
-=======================================================================
-Push Workflow Global Configuration
-=======================================================================
-Since GitHub hasn't implemented global shared environment variables,
-we must use GitHub Actions Steps to set them globally for all jobs.
-Also, shared workflows referenced with 'uses' do not have access to
-environment variables set in the current workflow.
-To work around this, we use a GitHub Action Step to set environment
-variables other workflows rely on as outputs in the current workflow.
+  if [[ -v tick ]]; then
+    echo "::notice file=push-environment.sh,line=37::Agent host $(hostname): tick=$tick."
+  else
+    echo "::error file=push-environment.sh,line=39::Agent host $(hostname): tick is not defined. Please check your sourcing of the action library."
+    return 7
+  fi
+  if [[ -v ghenvir_file ]]; then
+    echo "::notice file=push-environment.sh,line=41::Agent host $(hostname): ghenvir_file=$ghenvir_file."
+  else
+    echo "::error file=push-environment.sh,line=14::Agent host $(hostname): ghenvir_file is not defined. Please check your sourcing of the action library."
+    return 7
+  fi
+  if [[ -v summary_file ]]; then
+    echo "::notice file=push-environment.sh,line=43::Agent host $(hostname): summary_file=$summary_file."
+  else
+    echo "::error file=push-environment.sh,line=15::Agent host $(hostname): summary_file is not defined. Please check your sourcing of the action library."
+    return 7
+  fi
 
-Example (yaml):
------------------------------------------------------------------------
-    outputs:
-      run_classification: something from the environment
-      run_progression: something from the environment
------------------------------------------------------------------------
-The following run step only exists in the current workflow to make it
-valid and uses the opportunity to examine the behavior of GitHub
-Actions in a runtime setting.
+  echo "::notice file=push-environment.sh,line=17::Agent host $(hostname): Dependencies loaded at $(date +%H:%M:%S) for $(hostname)."
+  echo "::endgroup::"
+  return 0
+}
 
-This job with its outputs will usually be the first jub in the pipeline.
-The values can then be used in other workflows as
-needs.shared-global-variables.outputs.run_classification
-for example.
-
-=======================================================================
-EOF
-
-
-echo "==> production_run=$production_run at $tick"
-echo "==> summary_file=$summary_file"
-echo "==> ghenvir_file=$ghenvir_file"
-echo "==> parameter_restriction=$parameter_restriction"
-echo "==> parameter_progression=$parameter_progression"
-echo "==> environment_restriction=$environment_restriction"
-echo "==> environment_progression=$environment_progression"
-echo "==> restriction=$restriction"
-echo "==> progression=$progression"
-echo -e "\n\n"
-echo "======== Rules of Cardinality ========"
-echo " - Environment trumps defaults."
-echo " - Parameter trumps environment."
-echo -e "=======================================\n\n"
-echo "======== Environment Variables ========"
-echo " - **GitHub Workflow**:"
-echo "   - GITHUB_JOB=$GITHUB_JOB"
-echo "   - GITHUB_EVENT_NAME=$GITHUB_EVENT_NAME"
-echo "   - GITHUB_EVENT_PATH=$GITHUB_EVENT_PATH"
-echo "   - GITHUB_WORKFLOW=$GITHUB_WORKFLOW"
-echo "   - GITHUB_RUN_ID=$GITHUB_RUN_ID"
-echo "   - GITHUB_RUN_NUMBER=$GITHUB_RUN_NUMBER"
-echo "   - GITHUB_RETENTION_DAYS=$GITHUB_RETENTION_DAYS"
-echo "   - GITHUB_RUN_ATTEMPT=$GITHUB_RUN_ATTEMPT"
-echo " - **GitHub Action**:"
-echo "   - INVOCATION_ID=$INVOCATION_ID"
-echo "   - GITHUB_ACTION=$GITHUB_ACTION"
-echo "   - GITHUB_ACTOR=$GITHUB_ACTOR"
-echo "   - GITHUB_ACTOR_ID=$GITHUB_ACTOR_ID"
-echo "   - GITHUB_TRIGGERING_ACTOR=$GITHUB_TRIGGERING_ACTOR"
-echo " - **Runner and Host**:"
-echo "   - USER=$USER"
-echo "   - RUNNER_TRACKING_ID=$RUNNER_TRACKING_ID"
-echo "   - SHELL=$SHELL"
-echo "   - SHLVL=$SHLVL"
-echo "   - LANG=$LANG"
-echo "   - RUNNER_OS=$RUNNER_OS"
-echo "   - RUNNER_ARCH=$RUNNER_ARCH"
-echo "   - RUNNER_NAME=$RUNNER_NAME"
-echo "   - RUNNER_ENVIRONMENT=$RUNNER_ENVIRONMENT"
-echo "   - RUNNER_TOOL_CACHE=$RUNNER_TOOL_CACHE"
-echo "   - RUNNER_TEMP=$RUNNER_TEMP"
-echo "   - RUNNER_WORKSPACE=$RUNNER_WORKSPACE"
-echo "   - OLDPWD=$OLDPWD"
-echo "   - ARCHFLAGS=$ARCHFLAGS"
-echo "   - RUNNER_HOME=$RUNNER_HOME"
-echo "   - RUNNER_BIN=$RUNNER_BIN"
-echo "   - RUNNER_VAR=$RUNNER_VAR"
-echo " - **Feature Data:**:"
-# shellcheck disable=SC2154
-echo "   - classification=$classification"
-echo "   - transient_restriction=$transient_restriction"
-echo "   - transient_progression=$transient_progression"
-echo -e "=======================================\n"
-echo "======== GITHUB_ENV Variables =========="
-if [[ -f "$ghenvir_file" ]]; then
-  cat "$ghenvir_file"
-else
-  echo "GITHUB_ENV does not exist."
-fi
-echo -e "=======================================\n"
-
-if [[ "$production_run" == "true" && -f "$ghenvir_file" ]]; then
+### publish_GH_env
+#
+# Publish the STEP environment data to the GitHub environment file.
+# shellcheck disable=SC1073
+# shellcheck disable=SC1058
+# shellcheck disable=SC1072
+# shellcheck disable=SC1009
+function publish_GH_env() {
   {
-    echo "step_restriction=$restriction"
-    echo "step_progression=$progression"
+    local -A kv=${1:-()}
+    for k v in "${(@kv)kv}"; do
+      echo "${k:-nil}=${v:-nil}"
+    done
   } >> "$ghenvir_file"
-else
-  echo "::warning file=push-environment.sh,line=62::GitHub environment file $ghenvir_file is inoperable."
-fi
+}
 
-if [[ "$production_run" == "true" && -f "$summary_file" ]]; then
+### publish_GH_summary
+#
+# Publish the STEP summary data to the GitHub summary file.
+function publish_GH_summary() {
   {
     echo -e "# Push Workflow Global Configuration\n"
     echo "<details>"
@@ -142,6 +94,66 @@ if [[ "$production_run" == "true" && -f "$summary_file" ]]; then
     echo "</details>"
     echo
   } >> "$summary_file"
+}
+
+#====================================== This Script Main Function ======================================================
+
+### main
+#
+# The main function of this script.
+function main() {
+
+  echo "In Main!"
+
+#  [[ "$debug_info_run" == "true" ]] && notice && print_debug_info
+#
+#  bootstrapSDK
+#
+#  if [[ -f "$ghenvir_file" ]]; then publish_GH_env
+#  else echo "::warning file=push-environment.sh,line=62::GitHub environment file $ghenvir_file is inoperable."; fi
+#
+#  if [[ -f "$summary_file" ]]; then publish_GH_summary
+#  else echo "::error file=push-environment.sh,line=62::GitHub summary file $summary_file is inoperable."; fi
+}
+
+#====================================== This Script Run ================================================================
+
+
+restriction="UNSET"                                                                                                     # Default to no restriction in case value is not set
+progression=-1                                                                                                          # Default to invalid value in case value is not set
+production_run=${1:-false}                                                                                              # Whether to run in production mode, passed parameter
+debug_info_run=${2:-true}                                                                                               # Whether to run in debug mode, passed parameter
+parameter_restriction=${3:-'none'}                                                                                      # Restriction extracted from the environment
+parameter_progression=${4:-0}                                                                                           # Progression extracted from the environment
+environment_restriction=${transient_restriction:-'none'}                                                                # Restriction passed as a parameter
+environment_progression=${transient_progression:-0}                                                                     # Progression passed as a parameter
+
+[[ "$environment_restriction" != "none" ]] && restriction=$environment_restriction                                      # If the environment restriction is set, use it
+[[ "$environment_progression" != -1 ]] && progression=$environment_progression                                          # If the environment progression is set, use it
+[[ "$parameter_restriction" != "none" ]] && restriction=$parameter_restriction                                          # If the parameter restriction is PASSES, overwrite all and use it
+[[ "$parameter_progression" != 0 ]] && progression=$parameter_progression                                               # If the parameter progression is valid, overwrite all and use it
+
+if source_dependencies; then
+
+  echo "::group::Environment Export: Bootstrap: Agent host $(hostname) - $(date +%H:%M:%S)"
+  # Production is ALWAYS on Linux and Development is ALWAYS on MacOS
+  [[ "Darwin" == "$(uname)" ]] && production_run=false && echo "::notice file=push-environment.sh,line=24::Running in development mode."
+  if production_run; then
+    echo "::notice file=push-environment.sh,line=26::Running in production mode."
+  fi
+
+  [[ "$debug_info_run" == "true" ]] && notice && print_debug_info
+
+
+
 else
-  echo "::error file=push-environment.sh,line=62::GitHub summary file $summary_file is inoperable."
+
+  echo "::error file=push-environment.sh,line=34::Sourcing the action library failed."
+  echo "::endgroup::"
+  exit 7
+
 fi
+
+echo "::group::Environment Export for $(hostname) - $(date +%H:%M:%S)"
+main
+echo "::endgroup::"

@@ -47,10 +47,10 @@ jobs:
         env:
           transient_restriction: ${{ env.classification }}
           transient_progression: ${{ env.progression }}
-        run:  ./util/src/main/sh/push-environment.sh true "${{ env.classification }}" "${{ env.progression }}"
+        run:  ./util/src/main/sh/push-environment.sh true true "${{ env.classification }}" "${{ env.progression }}"
 
   local-build-yield-to-pull-request:
-    if: ${{ needs.shared-global-variables.outputs.run_progression >= 1 }}
+    if: ${{ needs.shared-global-variables.outputs.run_progression > 1 }}
     name: "Yield to Pull Request when PR exists"
     uses: ./.github/workflows/check-push-yield.yml
     needs: [ shared-global-variables ]
@@ -69,8 +69,10 @@ jobs:
     with:
       restriction: "${{ needs.shared-global-variables.outputs.run_classification }}"
     if: |
-      needs.shared-global-variables.outputs.run_progression >= 1 &&
+      needs.shared-global-variables.outputs.run_progression > 2 &&
       needs.local-build-yield-to-pull-request.outputs.bypass == 'false'
+
+
 #
 #  local-build-project-dependency-hints:
 #    name: "Impromptu Project Dependencies Checks for Contributors"

@@ -1,34 +1,28 @@
 #!/usr/bin/env zsh
 
-production_run=${1:-true}
-debug_info_run=${2:-false}
-version_of_jdk=${3:-'21.0.5'}
-gradle_version=${4:-'8.11.1'}
-kotlin_version=${5:-'2.1.0'}
-python_version=${6:-'3.12.7'}
-ruby_version=${7:-'3.3.5'}
-
+# Global variables
+# shellcheck disable=SC2034
+SDKMAN_INIT_DEFAULT="$HOME/.sdkman/bin/sdkman-init.sh"                          # Default SDKMAN initialization script where it would be expected to be found on the Agent.
+production_run=${1:-true}                                                       # Whether to run in production mode.
+debug_info_run=${2:-false}                                                      # Whether to run in debug mode
+version_of_jdk=${3:-'21.0.5'}                                                   # Required version of JDK - passed as a parameter
+gradle_version=${4:-'8.11.1'}                                                   # Required version of Gradle - passed as a parameter
+kotlin_version=${5:-'2.1.0'}                                                    # Required version of Kotlin - passed as a parameter
+python_version=${6:-'3.12.7'}                                                   # Required version of Python - passed as a parameter
+conda_env_name=${7:-'ml'}                                                       # Required standardized Conda ML environment name - passed as a parameter
+conda_version=${8:-'24.11.0'}                                                   # Required version of Conda - passed as a parameter
+ruby_version=${9:-'3.3.5'}                                                      # Required version of Ruby - passed as a parameter
 agent_host=$(hostname)
-
-local_temp_folder="$HOME/tmp";
-mkdir -p "$local_temp_folder";
-
-# What OS are we running?
-if [[ $(uname) == "Darwin" ]]; then
-    production_run=false
-fi
+local_temp_folder="$HOME/tmp" && mkdir -p "$local_temp_folder";
 
 echo "::group::Introspection for $(hostname) - $(date +%H:%M:%S)"
+[[ $(uname) == "Darwin" ]] && production_run=false && echo "::notice file=introspect-agent.sh,line=18::Running in development mode."
 
-if [[ "$production_run" == "true" ]]; then
-  echo -e "\n\nProduction Run.\n\n"
-else
-  echo -e "\n\nDevelopment Run.\n\n"
-fi
 
 # shellcheck source=SDKMAN_INIT
 if [[ -s "$SDKMAN_INIT" ]]; then
   source "$SDKMAN_INIT"
+
 else
   echo "::error file=introspect-agent.sh,line=35::Agent host $(hostname) does not provide SDK bootstrapping and MUST use Actions to provide required SDKs!";
 fi
@@ -92,6 +86,15 @@ else
   echo "::warning file=introspect-agent.sh,line=84::Agent host $(hostname): Kotlin $kotlin_version is NOT locally available."
 fi
 [[ "$debug_info_run" == "true" ]] && echo -e "\nDEBUG: Agent host $(hostname): Kotlin\n${KOTLIN_VERSION_STRING}\nis locally available and is $kotlin_version is required.\n"
+
+CONDA_VERSION_INSTALLED=$(conda --version 2>&1 | cut -d ' ' -f 2)
+echo "conda_version=$CONDA_VERSION_INSTALLED" >> "$GITHUB_ENV"
+if [[ $CONDA_VERSION_INSTALLED =~ $conda_version ]]; then
+  echo "conda_correct=true" >> "$GITHUB_ENV"
+else
+  echo "conda_correct=false" >> "$GITHUB_ENV"
+  echo "::warning file=introspect-agent.sh,line=95::Agent host $(hostname): Conda $conda_version is NOT locally available."
+fi
 
 PYTHON_VERSION_STRING=$(python3 --version 2>&1)
 PYTHON_VERSION_INSTALLED=$(cut -d ' ' -f 2 <<< "$PYTHON_VERSION_STRING")
