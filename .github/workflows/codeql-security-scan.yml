@@ -38,7 +38,7 @@ jobs:
         timeout-minutes: 3
 
       - name: "Initialize CodeQL Quality Analysis Action"
-        uses: github/codeql-action/init@dd7559424621a6dd0b32ababe9e4b271a87f78d2
+        uses: github/codeql-action/init@562042d742d834fa44c4fd29c197a62d76568c60
         timeout-minutes: 17
         with:
           languages: ${{ matrix.language }}
@@ -52,7 +52,7 @@ jobs:
           ./gradlew build test --no-daemon --no-parallel --no-build-cache
 
       - name: "Perform CodeQL Quality Analysis Action"
-        uses: github/codeql-action/analyze@dd7559424621a6dd0b32ababe9e4b271a87f78d2
+        uses: github/codeql-action/analyze@562042d742d834fa44c4fd29c197a62d76568c60
         timeout-minutes: 17
         with:
           category: "/language:${{matrix.language}}"
