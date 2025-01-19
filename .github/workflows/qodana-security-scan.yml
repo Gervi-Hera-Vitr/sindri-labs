@@ -35,7 +35,7 @@ jobs:
     steps:
 
       - name: "Checkout repository source code"
-        uses: actions/checkout@cbb722410c2e876e24abbe8de2cc27693e501dcb
+        uses: actions/checkout@85e6279cec87321a52edac9c87bce653a07cf6c2
         timeout-minutes: 3
         with:
           ref: ${{ github.event.pull_request.head.sha }}  # to check out the actual pull request commit, not the merge commit
