@@ -28,6 +28,8 @@ _Come, have a drink from [Yggdrasil](https://en.wikipedia.org/wiki/Yggdrasil "Yg
 
 See our security policy [here](https://github.com/Gervi-Hera-Vitr/google-ai-labs/security/policy "Security Policy").
 
+ToDo: rdd13r -> upgrade for Q1 2025. Happy New Year!
+
 ### Contents
 
 - [docs](./docs) - Documentation, Tutorials, and Onboarding Gide; **ToDo**
