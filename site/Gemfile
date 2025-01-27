@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 4.3.4"
+gem "jekyll", "~> 4.4.0"
 
 gem "rake"
 gem "tzinfo-data", "~> 1.2024", ">= 1.2024.2"
