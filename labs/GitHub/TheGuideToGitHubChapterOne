@@ -1,0 +1,136 @@
+This is a comprehensive guide to git and github by Anton Kuhay.
+
+Chapter 1: what is git and github?
+1.1
+Git is a distributed version control system designed to track changes in files, usually code.
+It allows multiple people to collaborate on a project while maintaining a detailed history of all changes.
+Key features of git:
+
+>Version Control:
+Tracks every change in a project, allowing you to revert to earlier versions.
+>Branching and Merging:
+Create separate branches for different tasks (e.g., new features, bug fixes) and merge them back into the main branch.
+>Distributed System:
+Every developer has a complete copy of the project, including the history.
+>Efficiency:
+Git handles large projects efficiently and is widely used in software development.
+
+Why Use Git?
+It:
+>Prevents code conflicts by allowing developers to work on separate branches.
+>Enables collaboration across teams, even remotely.
+>Keeps a history of all changes, making it easier to debug or audit the code.
+
+Common Use Cases:
+>Software development.
+>Writing technical documentation.
+>Managing infrastructure as code.
+
+1.2
+Now, What is GitHub?
+GitHub is a platform built on top of Git that provides hosting for repositories,
+collaboration tools, and additional features to manage software development projects.
+
+Key Features of GitHub
+>Repository Hosting:
+Store and manage Git repositories in the cloud.
+>Collaboration:
+Tools for code reviews, discussions, and managing issues.
+>Community:
+A hub for open-source projects and developer networking.
+>Automation:
+Automate tasks with GitHub Actions (e.g., testing, deployment).
+>Documentation:
+Built-in support for wikis and README files.
+
+Why use github?
+>Portfolio:
+Showcase your work and contributions.
+>Collaboration:
+Work with other developers remotely.
+>Learning:
+Contribute to open-source projects and learn from others’ code.
+Benefits for Teams:
+>Centralized codebase for all team members.
+>Tools for tracking tasks, issues, and progress.
+>Automated workflows to streamline testing and deployment.
+
+1.3
+Git vs GitHub:
+Git is a version control system that runs locally on your computer.
+It requires a manual setup for collaboration and is an open source software.
+
+GitHub is a hosting platform built ontop of Git.
+It is accessible through the internet and provides collaboration tools.
+It is a proprietary platform with free and paid tiers.
+
+
+1.4
+Key Terminology:
+Repository (Repo): A folder that stores your project’s files and history.
+Commit: A snapshot of changes made to files in the repository.
+Branch: A separate version of the repository for independent work.
+Merge: Integrating changes from one branch into another.
+Pull Request (PR): A request to merge changes from one branch to another, often used for code reviews.
+Fork: A personal copy of another person’s repository.
+Clone: A local copy of a repository.
+Issue: A way to track bugs, feature requests, or tasks.
+Remote: The cloud-based version of your repository (hosted on GitHub).
+HEAD: The pointer to the current commit in your working directory.
+
+1.5
+Setting up Tit and GitHub
+Install git: Download Git for your operating system from Git-SCM.
+Install Git following the setup instructions for your OS.
+
+Configure git:
+git config --global user.name "Your Name"
+git config --global user.email "your_email@example.com"
+
+Verify Confinement:
+git config --list
+
+Create a GitHub Account
+Sign up at GitHub.
+Verify your email address to complete registration.
+
+1.6
+Step 1:
+Setting up your first Repository
+Log in to your GitHub account.
+Click Repositories > New.
+Fill in the repository name and description.
+Choose Public or Private visibility.
+Initialize with a README (optional).
+
+Step 2:
+Clone the repository to your local machine:
+git clone https://github.com/your-username/your-repo-name.git
+Add and commit change:
+cd your-repo-name
+Create or Modify Files
+Stage changes:
+git add .
+commit the changes:
+git commit -m "Initial commit"
+push changes to GitHub:
+git push
+
+1.7
+The GitHub Interface
+Overview of GitHub Dashboard:
+Repositories: View and manage all your repositories.
+Pull Requests: Monitor and manage PRs for collaboration.
+Issues: Track and manage bugs or feature requests.
+Explore: Discover trending projects or topics.
+Settings: Configure profile, repositories, and account settings.
+Understanding the Repository Page
+Code: View and manage files in the repository.
+Issues: Log and manage issues for the project.
+Pull Requests: Collaborate on changes.
+Actions: Set up and view automated workflows.
+Insights: Analyze repository activity and contributions.
+
+
+End of chapter 1
+
