@@ -30,6 +30,6 @@ jobs:
 
     steps:
       - name: "Label Pull Request pushing labels to GitHub Pull Request"
-        uses: actions/labeler@3629d5568b59204f18786372f6d740d649719488
+        uses: actions/labeler@c209686724ee12fcc5e6294d1d569b91f86fa691
         with:
           repo-token: "${{ secrets.GITHUB_TOKEN }}"
