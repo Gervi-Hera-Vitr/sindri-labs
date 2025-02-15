@@ -12,7 +12,7 @@
 
 ## Welcome, Dear Friend
 
-This [Sindri](https://en.wikipedia.org/wiki/Sindri_(mythology)) Workshop is also our place of posterity.
+This [Sindri](https://en.wikipedia.org/wiki/Sindri_(mythology)) Workshop is also our place of posterity. <br/>
 This is a hands-on learning trail by and for our [Munchkins](http://www.catb.org/esr/jargon/html/M/munchkin.html "Munchkins") (CatB HTTP). <br/>
 Munchkins experiment with AI in their own [Gervi Héra Vitr](https://github.com/Gervi-Hera-Vitr "Gervi-Hera-Vitr") community, <br/>
 tracked by [Gervi Héra Viskr Learning Trails](https://github.com/orgs/Gervi-Hera-Vitr/projects/1 "Héra gains Viskr") project, and supervised by <br/>
