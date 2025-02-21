@@ -1,0 +1,62 @@
+All of grade 9 math:
+
+Chapter 1: Exponents
+
+Product Rule
+Formula: X^a * X^b = X^a+b
+Explanation:
+If you have two numbers with the same base, multiplying them is the same as keeping the base and adding the exponents.
+Example: 5^3 * 5^4 = 5^7
+
+Quotient Rule
+X^a/X^b = X^a-b, as long as x does not equal 0d
+Explanation:
+If you divide two numbers with the same base, you keep the base and subtract the exponents.
+Example: 7^5 / 7^2 = 7^3
+
+Power of a Power Rule
+Formula: (X^a)^b = X^a*b
+Explanation:
+If you raise a power to another exponent, multiply the exponents.
+example: (3^2)^4 = 3^2*4 = 3^8
+
+Power of a product Rule
+Formula: (a * b)^x = a^x * b^x
+Explanation: If a product (multiplication) inside parentheses is raised to a power, apply the exponent to each factor separately.
+example: (2 * 5)^3 = 2^3 * 5^3 = 8 * 125 = 1000
+
+Power of a Quotient Rule
+Formula:(a/b)^x = a^x/b^x, as long as b does not equal 0
+Explanation:
+If a fraction inside parentheses is raised to a power, apply the exponent to both the numerator and denominator.
+example: (4/3)^2 = 4^2/3^2 = 16/9
+
+Zero Exponent Rule
+Formula:
+X^0 = 1 as long as x does not equal 0
+Explanation:
+Any nonzero number raised to the power of zero is always 1.
+example: 10000^0 = 1
+
+Negative Exponent Rule
+Formula: X^-a = 1/x^a, as long as x does not equal 0
+Explanation:
+A negative exponent means to flip the base to its reciprocal and make the exponent positive.
+example: 5^-3 = 1/5^3 = 1/125
+1/2^-4 = 2^4 = 16
+
+Exponential growth and decay(real world applications)
+
+formula for exponential growth:
+A = P(1 + r)^t
+
+formula for exponential decay:
+A = p(1 - r)^t
+Example: If a population grows at 5% per year, and starts at 1000, in 3 years:
+𝐴 = 1000(1.05)^3 = 1157.63
+
+Scientific Notation:
+Used for very large or small numbers.
+Example:
+3,200,000 = 3.2 × 10^6
+0.00042 = 4.2 × 10^-4
