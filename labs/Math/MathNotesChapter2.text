@@ -1,0 +1,41 @@
+All of grade 9 math:
+
+Chapter 2: Polynomials
+
+Types of Polynomials
+Monomial: 1 term (e.g., 2x)
+Binomial: 2 terms (e.g.,3𝑥+5
+
+Trinomial: 3 terms (e.g.,4𝑥^2 −3𝑥 + 2)
+ −3x+2)
+Polynomial: More than 3 terms (e.g.,𝑥^4 + 3𝑥^3 −2𝑥^2 +5𝑥−1)
+Degree of a Polynomial: The highest exponent on a variable
+Example: 4𝑥^3 + 2𝑥^2 −𝑥
+ −x has a degree of 3.
+
+ Operations with Polynomials
+ 1. Collecting Like Terms
+ Like terms have the same variable and exponent.
+ Example: 3x^2 + 5x^2 = 8x^2
+ But: 3x^2 + 5x does not equal 8x^2
+
+ 2. Distributive Property (Expanding Brackets)
+ Formula: a(b+c)=ab+ac
+ Example: 3(x+4)=3x+12
+
+
+ 3. Multiplying Polynomials
+ Binomial × Binomial (FOIL Method)
+ (a+b)(c+d) = ac+ad+bc+bd
+ Example: (x+3)(x+5)=x^2+5x+3x+15=x^2+8x+15
+
+Binomial × Trinomial
+(x+2)(x 2+3x+4) = x^3 + 3x^2  +4x + 2x^2 + 6x +8 = x^3 + 5x^2 + 10x + 8
+
+ 4. Factoring Polynomials
+ Common Factor: Factor out the greatest common factor (GCF).
+ Example:6x^2 +9x =3x (2x+3)
+ Factoring Trinomials: Find two numbers that multiply to the last term and add to the middle coefficient.
+ Example:x^2 +7x +12 =(x+3)(x+4)
+
+
