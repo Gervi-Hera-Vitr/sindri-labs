@@ -4,13 +4,13 @@ v3.0, July 29, 2022
 :doctype: article
 :toc: left
 :icons: font
-:imagesdir: images
+// :imagesdir: images
 
 == Introduction of calamity
 The year 1816 is often remembered as The Year Without a Summer, a time of *extreme* weather anomalies that led to global crop failures, food shortages, and social unrest. The root cause? +
 The massive eruption of *Mount Tambora footnote:Mount[Mount Tambora is a stratovolcano located on Sumbawa Island, Indonesia. Before the 1815 eruption, it stood about 4,300 meters (14,100 feet) high, but the eruption reduced its height to about 2,850 meters (9,350 feet).]* in April 1815, one of the most powerful volcanic eruptions in recorded history. This catastrophic event sent enormous amounts of volcanic ash and sulfur dioxide into the atmosphere, dramatically altering the Earth’s climate for over a year.
 
-image::image-2025-02-27-09-01-54-233.jpg[Mount Tambora Eruption, width=600, align=center]
+image::image-2025-02-27-09-01-54-233.jpg[Mount Tambora Eruption,width=600,align=center]
 
 == The Eruption of Mount Tambora (April 1815)
 
