@@ -1,0 +1,48 @@
+
+
+
+
+Chapter 4: Advanced Formatting
+------------------------------
+4.1 Block Quotes
+Syntax:
+[quote, Author Name, Book Title]
+____
+This is a block quote.
+____
+
+4.2 Sidebars and Admonitions
+Sidebars:
+[sidebar]
+****
+This is a sidebar.
+****
+
+Admonitions:
+NOTE: This is an important note.
+TIP: This is a useful tip.
+WARNING: Be careful with this!
+
+4.3 Source Code Blocks
+Example:
+[source,python]
+----
+def hello():
+    print("Hello, AsciiDoc!")
+----
+
+4.4 Tables
+Basic Table:
+|===
+| Column 1 | Column 2 | Column 3
+| Row 1A   | Row 1B   | Row 1C
+| Row 2A   | Row 2B   | Row 2C
+|===
+
+CSV-Style Table:
+[format="csv"]
+|===
+Column 1,Column 2,Column 3
+Row 1A,Row 1B,Row 1C
+Row 2A,Row 2B,Row 2C
+|===
