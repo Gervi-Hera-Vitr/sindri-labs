@@ -1,0 +1,24 @@
+= Marketing: Prospecting B2B
+CaptainLugaru rdd13r <72951616+CaptainLugaru@users.noreply.github.com>
+v0.1.0, Monday 3rd March 2025 04:21 PM EST
+:description: Business Internship in Marketing for Business to Business Prospecting.
+:sectnums:
+:sectanchors:
+:sectlinks:
+:icons: font
+:tip-caption: 💡️
+:note-caption: ℹ️
+:important-caption: ❗
+:caution-caption: 🔥
+:warning-caption: ⚠️
+:toc: preamble
+:toclevels: 3
+:toc-title: Prospecting
+:keywords: B2B Marketing Prospecting
+:imagesdir: ../resources/images
+:project-home: ../../../../..
+ifdef::env-name[:relfilesuffix: .adoc]
+:link-rdd13r-blog: https://medium.asei.systems/
+
+_This is a production task of ASE (Advanced Software Enterprises, Inc.) Marketing in Prospecting._
+
