@@ -34,7 +34,7 @@ jobs:
     steps:
 
       - name: "Greet first time contributors!"
-        uses: actions/first-interaction@41ddf9c83167223a120a277ed96cc1ad9f56dc0b
+        uses: actions/first-interaction@d94ed8e502bc16de558688b9dd9a26261ae78a66
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           issue-message: "Dear Contributor, Welcome to Gervi Herdem Vitr! We're happy to have you here! Please let us know if you wish to pair on this issue. Thank you!"
