@@ -29,7 +29,7 @@ function source_dependencies() {
   if [[ ! -d "$root" ]]; then
     echo "::error file=push-environment.sh,line=28::Agent host $(hostname): Cannot source clone of the repository! Please investigate your workflow configuration.";
     echo "::endgroup::"
-    exit 7
+    return 7
   fi
 
   lib_common="$root/util/src/main/sh/actions-library-common.sh"
