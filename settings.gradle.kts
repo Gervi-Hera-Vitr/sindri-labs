@@ -34,4 +34,4 @@ pluginManagement {
 
 include("lab-ux-ktor", "journey")
 
-rootProject.name = "google-ai-labs"
+rootProject.name = "sindri-labs"
