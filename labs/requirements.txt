@@ -1,0 +1,15 @@
+kagglehub~=0.2.7
+pandas~=2.2.3
+numpy~=1.26.4
+catboost~=1.2.3
+xgboost~=2.1.1
+lightgbm~=4.5.0
+scikit-learn~=1.6.1
+imblearn~=0.0
+imbalanced-learn~=0.13.0
+keras~=3.7.0
+tensorflow~=2.17.0
+torchvision~=0.19.1
+plotly~=5.24.1
+seaborn~=0.13.2
+matplotlib~=3.9.2
