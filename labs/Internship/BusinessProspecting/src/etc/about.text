@@ -1,0 +1,2 @@
+This can hold hooks that pull sensitive stuff like secrets from user home configuration folder,
+like ${HOME}/.config/goo-app
