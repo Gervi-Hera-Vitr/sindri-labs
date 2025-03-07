@@ -1,4 +1,4 @@
-kagglehub~=0.2.7
+kagglehub~=0.3.10
 pandas~=2.2.3
 numpy~=1.26.4
 catboost~=1.2.3
