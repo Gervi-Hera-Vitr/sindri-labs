@@ -1,0 +1,23 @@
+Chapter 3: Structuring a Document
+---------------------------------
+3.1 Document Title and Metadata
+Example:
+= Document Title
+Author Name
+2025-02-21
+:doctype: article
+:toc: left
+
+3.2 Sections and Subsections
+Example:
+== Introduction
+=== Subsection 1
+==== Sub-subsection
+
+3.3 Including External Files
+Syntax:
+include::file.adoc[]
+
+3.4 Comments in AsciiDoc
+Syntax:
+// This is a comment

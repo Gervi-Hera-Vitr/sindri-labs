@@ -1,0 +1,270 @@
+= Ninth grade cheat sheet
+This doc contains all of my knowledge on 9th grade math so far: +
+:doctype: book
+
+== Chapter 1: Exponents
+
+===  Product Rule +
+ Formula: X^a * X^b = X^a+b +
+ Explanation:
+ If you have two numbers with the same base, multiplying them is the same as keeping the base and adding the exponents. +
+ Example: 5^3 * 5^4 = 5^7 +
+
+===  Quotient Rule +
+ X^a/X^b = X^a-b, as long as x does not equal 0 +
+ Explanation:
+ If you divide two numbers with the same base, you keep the base and subtract the exponents. +
+ Example: 7^5 / 7^2 = 7^3
+
+===  Power of a Power Rule +
+ Formula: (X^a)^b = X^a*b +
+ Explanation:
+ If you raise a power to an other exponent, multiply the exponents. +
+ Example: (3^2)^4 = 3^2*4 = 3^8 +
+
+===  Power of a product Rule +
+ Formula: (a * b)^x = a^x * b^x +
+ Explanation: If a product (multiplication) inside parentheses is raised to a power, apply the exponent to each factor separately. +
+ Example: (2 * 5)^3 = 2^3 * 5^3 = 8 * 125 = 1000 +
+
+===  Power of a Quotient Rule +
+ Formula:(a/b)^x = a^x/b^x, as long as b does not equal 0 +
+ Explanation:
+ If a fraction inside parentheses is raised to a power, apply the exponent to both the numerator and denominator. +
+ Example: (4/3)^2 = 4^2/3^2 = 16/9 +
+
+===  Zero Exponent Rule +
+ Formula: +
+ X^0 = 1 as long as x does not equal 0
+ Explanation: +
+ Any nonzero number raised to the power of zero is always 1.
+ Example: 10000^0 = 1 +
+
+===  Negative Exponent Rule +
+ Formula: X^-a = 1/x^a, as long as x does not equal 0 +
+ Explanation:
+ A negative exponent means to flip the base to its reciprocal and make the exponent positive. +
+ Example: 5^-3 = 1/5^3 = 1/125 +
+ 1/2^-4 = 2^4 = 16
+
+===  Exponential growth and decay(real world applications)
+
+ formula for exponential growth: +
+ A = P(1 + r)^t +
+
+ formula for exponential decay: +
+ A = p(1 - r)^t +
+ Example: If a population grows at 5% per year, and starts at 1000, in 3 years: +
+ 𝐴 = 1000(1.05)^3 = 1157.63 +
+
+===  Scientific Notation: +
+ Used for huge or small numbers. +
+ Example:
+ 3,200,000 = 3.2 × 10^6
+ 0.00042 = 4.2 × 10^-4
+
+
+== Chapter 2: Polynomials
+
+===  Types of Polynomials
+
+ Monomial: 1 term (e.g., 2x)
+ Binomial: 2 terms (e.g.,3𝑥+5
+ Trinomial: 3 terms (e.g.,4𝑥^2 −3𝑥 + 2) −3x+2) +
+ Polynomial: More than 3 terms (e.g.,𝑥^4 + 3𝑥^3 −2𝑥^2 +5𝑥−1) +
+ Degree of a Polynomial: The highest exponent on a variable +
+ Example: 4𝑥^3 + 2𝑥^2 −𝑥 has a degree of 3.
+
+=== Operations with Polynomials
+
+ Collecting Like Terms
+ Like terms have the same variable and exponent.
+ Example: 3x^2 + 5x^2 = 8x^2
+ But: 3x^2 + 5x does not equal 8x^2
+
+ Distributive Property (Expanding Brackets)
+ Formula: a(b+c)=ab+ac
+ Example: 3(x+4)=3x+12
+
+
+===  Multiplying Polynomials
+
+ Binomial × Binomial (FOIL Method)
+(a+b)(c+d) = ac+ad+bc+bd
+ Example: (x+3)(x+5)=x^2+5x+3x+15=x^2+8x+15
+
+ Binomial × Trinomial
+ (x+2)(x 2+3x+4) = x^3 + 3x^2  +4x + 2x^2 + 6x +8 = x^3 + 5x^2 + 10x + 8
+
+===  Factoring Polynomials
+
+ Common Factor: Factor out the greatest common factor (GCF).
+ Example:6x^2 +9x =3x (2x+3)
+ Factoring Trinomials: Find two numbers that multiply to the last term and add to the middle coefficient.
+ Example:x^2 +7x +12 =(x+3)(x+4)
+
+== chapter  3. Solving Equations
+
+===  Basic Equations
+ Isolate the variable using inverse operations.
+ Example:
+ 𝑥+4 = 7
+ x = 7 - 4
+ x=3
+
+=== Two-Step Equations
+ Example: 3x - 5 = 10
+ Add 5 to both sides: 3x = 15
+ divide by 3: x = 5
+
+===  Equations with Fractions
+ Multiply both sides by the denominator to eliminate fractions.
+ Example:
+ x/3 = 5
+ Multiply by 3:
+ x=5×3=15
+
+=== Distributive Property in Equations
+ Example:
+ 2(x−3)=10
+ Expand:
+ 2x−6=10
+ Solve:
+ 2x=16⇒x=8
+
+=== Cross-Multiplication (Proportions)
+
+ If a/b = c/d
+ then a * d = b * c
+ x/5 = 3/10
+ x * 10 = 10x
+ 5 * 3 = 15
+ 10x = 15
+ x = 1.5
+
+=== Solving Equations with Variables on Both Sides
+
+ Example:
+ 5x+3=2x+9
+ Subtract 2x from both sides:
+ 3x+3=9
+ Subtract 3 from both sides:
+ 3x=6
+ Divide by 3:
+ x=2
+
+== Chapter 4: Linear Relationships
+
+=== Scatter Plots and Correlation
+
+ Scatter Plots: Graphs showing relationships between two variables.
+ Independent Variable: Plotted on the x-axis.
+ Dependent Variable: Plotted on the y-axis.
+ Types of Correlation:
+ Positive: As x increases, y increases.
+ Negative: As x increases, y decreases.
+ None: No clear trend.
+ Line of Best Fit: Drawn to represent data trends.
+ Interpolation: Estimating within data range.
+ Extrapolation: Predicting beyond given data range.
+
+
+=== Distance-Time Graphs
+
+ Slope Represents Speed:
+ Steeper slope = faster speed.
+ Horizontal line = no movement.
+ Downward slope = returning to starting position.
+ Curved Graphs:
+ Increasing slope = acceleration.
+ Decreasing slope = deceleration.
+
+=== Slope and Equation of a Line
+
+ Slope Formula: m = y2-y1/x2-x1
+ Equation Forms:
+ Slope-Intercept Form: y = mx + b
+ Point-Slope Form: y = y1 = m(x - x1)
+ Standard Form: Ax + By + C = 0
+ Direct vs. Partial Variation:
+ Direct:y = mx(passes through origin,B = 0).
+ Partial:y = mx+b(does not pass through origin).
+
+=== Graphing and Converting Between Representations
+
+=== From Table to Equation:
+
+ Find slope: m = y2-y1/x2-x1
+ Identify y-intercept from table.
+ Write equation: y = mx + b
+
+=== From Graph to Equation:
+
+ Identify y-intercept and slope from graph.
+ Use y = mx + b
+
+=== From Equation to Graph:
+
+ Plot y-intercept.
+ Use slope to find more points.
+ Draw straight line through points.
+
+=== Parallel and Perpendicular Lines
+
+ Parallel Lines: Same slope.
+ Perpendicular Lines: Negative reciprocal slopes.
+ Equation of a Line from a Point and Slope:
+ Use y - y1 = m(x - x1), solve for y.
+
+ Horizontal and Vertical Lines
+ Horizontal Line: y = c , slope = 0.
+ Vertical Line: x = c , slope undefined.
+
+== Chapter 5 Geometry
+
+=== Angles and Triangles
+ Types of Angles:
+ Complementary: Sum to 90 degrees
+ Supplementary: Sum to 180 degrees
+ Corresponding, Alternate Interior, Alternate Exterior Angles (Parallel Lines)
+
+=== Triangle Properties:
+ Sum of Interior Angles: 180 degrees
+ Exterior Angle Theorem: Exterior angle = sum of two opposite interior angles.
+ Isosceles Triangle Theorem: Two equal sides → Two equal angles.
+
+=== Right Triangle Properties
+ Pythagorean Theorem: a^2 + b^2 = c^2
+ Trigonometry:
+ SOH CAH TOA
+ Angle of Elevation/Depression
+
+=== Perimeter, Area, and Volume
+ Shape and Formulas:
+ Rectangle: P = 2l  + 2wA = lw
+ Triangle: A = 1/2bh
+ Circle: C = 2πrA = πr^2
+ Sphere: V = 4/3πr^3
+ Cylinder: V = πr^2h
+
+=== Transformations
+ Translation: Sliding a shape.
+ Reflection: Flipping a shape.
+ Rotation: Turning a shape.
+ Dilation: Resizing a shape.
+
+== Chapter 6 Probability and Statistics
+
+=== Basic Probability
+ Probability Formula:
+ Independent Events: Events that do not affect each other.
+ Dependent Events: The outcome of one event affects the other.
+
+=== Descriptive Statistics
+ Mean: Average
+ Median: Middle value in ordered data.
+ Mode: Most frequently occurring value.
+ Range: Difference between the highest and lowest values.
+
+=== Data Representation
+ Bar Graphs, Histograms, Pie Charts, and Box Plots
