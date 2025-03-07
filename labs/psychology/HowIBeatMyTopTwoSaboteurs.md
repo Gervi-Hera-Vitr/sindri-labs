@@ -1,8 +1,7 @@
 # Captain's Saboteurs
 
-## 1. Restlessness
 
-## 2. Avoider
+## 1. Avoider And Restlessness combo
 These two saboteurs are the bane of my existence.
 They are a deadly combo as they work very closely together to make my life much harder. The way they work together is that my Restlessness makes it so that I can't wait for anything. If I have a job, I will most likely decide to do something else or be bored out of my mind if I don't do something. The Avoider, though, helps by making it so that I don't want to do hard jobs or boring jobs, but rather redirect my restlessness into less productive tasks, like playing video games. Even when I'm doing assignments or important things, my Avoider can kick in and tell me to do things like watch YouTube.
 
