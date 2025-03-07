@@ -50,11 +50,37 @@ Status: (New Lead, Contacted, Pending Follow-up, Interview Scheduled)
 
 Open Google Sheets and create a new document.
 
+Useful stuff for GueGoa:
+
+- https://docs.asciidoctor.org/asciidoc/latest/tables/build-a-basic-table/[Build a Basic Table] and down from there -- title on the left;
+- https://asciidoctor.org/docs/asciidoc-writers-guide/[Asciidoctor Writer's Guide] -- the whole shebang on use.
+
+// And you can also comment out like this...  Ctlr + /
+
 Set up the following column headers:
 
 [cols="^,^,^,^,^,^,^,^,^", options="header"]
 |===
-| Contact Name | Company | Industry | Email | Phone | Job Title | Service Type | Priority (High, Medium, Low) | Status |
+| Contact Name
+| Company
+| Industry
+| Email
+| Phone
+| Job Title
+| Service Type
+| Priority (High, Medium, Low)
+| Status
+
+| a
+| b
+| c
+| d
+| e
+| f
+| g
+| h
+| i
+
 |===
 
 Use drop-down lists in the "Service Type," "Priority," and "Status" columns for easy data entry (Data Validation in Google Sheets).
