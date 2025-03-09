@@ -22,18 +22,38 @@ ifdef::env-name[:relfilesuffix: .adoc]
 :link-rdd13r-blog: https://medium.asei.systems/
 
 _This is a production task of ASE (Advanced Software Enterprises, Inc.) Marketing in Prospecting._ +
+#*Product Plan.*#
 
-== Collecting Business Contacts
-We will have to check:
-Emails, LinkedIn, Old Resumes, Phone contacts, Other contacts, Colleges, Recruiters and ect.
+== Consolidate Business Contacts
 
-Ensure Each Contact Has the Following Details:
+Automatically Collect Contact Information from ALL colleagues using the service:
 
-Name +
-Company Name +
-Industry +
-Email Address +
-Phone Number (if available) +
+- Google Contacts, via export;
+- Google Business Contacts, via export;
+- LinkedIn Contacts; via Export;
+- HubSpot Contacts; via Export;
+- Eventually, Stretch Goal, farm contacts.
+
+Additional potential sources of contacts::
+- Emails;
+- Old Resumes;
+- Phone contacts;
+- Colleges;
+- Recruiters;
+- Past coworkers and acquaintances;
+- Neighbors;
+- Clique members.
+
+Initial data before analysis and enrichment::
+- Name;
+- Company name;
+- All old companies name;
+- Industry;
+- All old industries;
+- Personal email address;
+- Work email address;
+- All previous email addresses;
+- Personal phone number
 Job Title +
 Service Type (Recruiter, Hiring Manager, Freelance, Networking, etc.) +
 Last Contacted Date +
