@@ -35,3 +35,11 @@ Community +
 Ecosystem +
 Biosphere +
 
+== Types of Biology studies +
+Zoology: Study of animals +
+Botany: Study of plants +
+Ecology: Study of ecosystems +
+Microbiology: Study of microscopic organisms +
+Genetics: Study of genes and heredity +
+Anatomy: Study of body structure +
+Physiology: Study of body function +
