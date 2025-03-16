@@ -1,0 +1,1651 @@
+= Git and GitHub
+== Chapter 1: Introduction to Git and GitHub (Fully In-Depth)
+
+This chapter explains what Git and GitHub are, why they're important, and how they work together. We’ll cover the theory and the practical knowledge you need before diving into hands-on work.
+
+== 1.1 What Is Git?
+
+=== ➤ Definition
+Git is a *Distributed Version Control System (DVCS)* that tracks changes to files and coordinates work on those files among multiple people.
+
+Originally developed by *Linus Torvalds* (creator of Linux) in 2005 to manage the development of the Linux kernel.
+
+=== ➤ Why Use Git?
+* Tracks the entire history of your code.
+* Supports multiple people working on a project simultaneously.
+* Enables you to undo mistakes, experiment safely, and collaborate without overwriting each other’s work.
+
+== 1.2 How Does Git Work?
+
+=== ➤ Git Snapshots, Not Diffs
+* Traditional version control systems (like SVN) store differences (diffs) between file versions.
+* Git stores *snapshots* of the entire file system every time you commit. If a file hasn’t changed, Git links to the previous file already stored.
+
+=== ➤ The Three Git Areas
+* *Working Directory*: Where you modify files on your computer.
+* *Staging Area (Index)*: Where you prepare snapshots before committing.
+* *Repository (Local)*: Where Git stores committed snapshots permanently.
+
+=== ➤ The Distributed Aspect
+Every Git clone is a full-fledged repository with complete history and full version-tracking capabilities, not just a working copy.
+
+== 1.3 Core Concepts of Git
+
+[cols="1,2", options="header"]
+|===
+| Concept | Description
+| Repository (Repo) | A project folder tracked by Git. Local or remote.
+| Commit | A saved snapshot of staged files with a message describing changes.
+| Branch | A parallel version of the repository, isolated for work like new features.
+| Merge | Combining different branches back into one.
+| Clone | Downloading a Git repository from another server (e.g., GitHub).
+| Push | Sending your commits to a remote repository.
+| Pull | Fetching and integrating changes from a remote repository.
+| Fetch | Downloading commits from a remote repo but not integrating them.
+| HEAD | Pointer to your current branch reference, typically the latest commit.
+|===
+
+== 1.4 What Is GitHub?
+
+=== ➤ Definition
+GitHub is a *web-based platform* built on Git. It provides remote hosting for Git repositories and collaboration tools that make teamwork easier.
+
+=== ➤ What GitHub Provides
+* Cloud Hosting for Git repositories (public & private)
+* Collaborative Tools: Pull Requests, Code Review, Issues, Wiki, and more
+* Project Management: Milestones, Kanban boards (Projects)
+* CI/CD Pipelines with GitHub Actions
+* Community & Open Source: Massive open-source community and projects
+
+== 1.5 The Difference Between Git and GitHub
+
+[cols="1,1", options="header"]
+|===
+| Git | GitHub
+| Version control tool installed locally | Cloud platform hosting Git repositories
+| Command-line tool (CLI) | Web interface + API + CLI tools
+| Runs locally on your machine | Requires Internet to interact with remote repos
+| No built-in collaboration | Collaboration tools: PRs, Issues, Reviews
+| Distributed version control | Centralized cloud hosting for distributed Git repos
+|===
+
+== 1.6 Why Use Git and GitHub?
+
+=== ➤ For Developers
+* Track changes and manage code history
+* Experiment without fear (branching and merging)
+* Collaborate easily with Pull Requests and code reviews
+* Automate testing and deployment with CI/CD
+
+=== ➤ For Teams
+* Collaboration: Teams can work on different features simultaneously
+* Central Repository: All team members push to and pull from the same remote repo
+* Code Reviews: Review code before merging
+* Security & Permissions: Control who can access and modify what
+
+=== ➤ For Open Source Contributors
+* Fork, clone, contribute via Pull Requests
+* Get noticed by participating in popular open-source projects
+
+=== ➤ For Learning and Career
+* Public GitHub profiles showcase your skills to employers
+* Host your portfolio, projects, and personal websites via GitHub Pages
+
+== 1.7 The GitHub Workflow (How GitHub Works with Git)
+
+=== ➤ Typical Workflow
+1. Clone a repository from GitHub to your local machine
+2. Create a branch to make changes without disrupting the main branch
+3. Make changes and commit them locally
+4. Push your branch back to GitHub
+5. Open a Pull Request (PR) for your branch
+6. Review, discuss, and merge the PR into the main branch
+7. Everyone on the team pulls the updated branch to stay in sync
+
+== 1.8 Key Terminology (Must Know Terms)
+
+[cols="1,2", options="header"]
+|===
+| Term | Description
+| Repository | A folder that contains your project, including all of its history and metadata.
+| Branch | A separate line of development in a repo.
+| Commit | A snapshot of your staged changes with a message explaining what changed.
+| Clone | Making a local copy of a remote GitHub repository.
+| Fork | A personal copy of someone else’s repo that you can modify without affecting the original.
+| Pull Request | A request to merge your changes from a branch/fork into another branch/repo.
+| Merge Conflict | Happens when Git can't automatically merge changes. Requires manual resolution.
+| Remote | A version of your project that is hosted on the internet or another network (GitHub).
+| Origin | The default name Git gives to the remote repository you clone from.
+| HEAD | Points to the current branch you're working on.
+|===
+
+== 1.9 Setting Up Git (Step by Step)
+
+=== ➤ Step 1: Install Git
+Download from https://git-scm.com/downloads
+
+Verify the installation:
+[source,bash]
+----
+git --version
+----
+
+=== ➤ Step 2: Configure Git Globally
+Set your Git user identity (required for commits):
+[source,bash]
+----
+git config --global user.name "Your Name"
+git config --global user.email "your_email@example.com"
+----
+
+=== ➤ Optional Git Configurations
+Check config:
+[source,bash]
+----
+git config --list
+----
+
+Set the default editor:
+[source,bash]
+----
+git config --global core.editor "vim"
+----
+
+== 1.10 Setting Up GitHub
+
+=== ➤ Step 1: Create a GitHub Account
+* Go to https://github.com/
+* Create an account (username, email, password)
+
+=== ➤ Step 2: Personalize Your Profile
+* Add a profile picture, bio, and links
+* Create a profile README:
++
+--
+1. Create a repo with the same name as your GitHub username
+2. Add a README.md file with a brief description of yourself, projects, etc.
+--
+
+=== ➤ Step 3: Connect GitHub and Git
+
+==== ➤ Option A: HTTPS (simplest for beginners)
+* No setup, but you'll need to enter your username/password or use a personal access token
+
+==== ➤ Option B: SSH (preferred for regular use)
+Generate an SSH key:
+[source,bash]
+----
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+----
+
+Add your SSH key to GitHub (Account Settings > SSH and GPG keys)
+
+Test SSH connection:
+[source,bash]
+----
+ssh -T git@github.com
+----
+
+== 1.11 GitHub Desktop, CLI, and API (Optional Tools)
+
+=== ➤ GitHub Desktop
+* A Graphical User Interface (GUI) for Git/GitHub
+* Available at https://desktop.github.com/
+
+=== ➤ GitHub CLI
+* A command-line interface to interact with GitHub (repos, issues, PRs)
+* Install: https://cli.github.com/
+* Authenticate:
+[source,bash]
+----
+gh auth login
+----
+
+=== ➤ GitHub REST API / GraphQL API
+* For advanced users and integrations
+
+== 1.12 Example: Git + GitHub First Project Workflow
+
+=== ➤ Step 1: Create a GitHub Repo
+* New Repository > Enter name & description > Initialize with README
+
+=== ➤ Step 2: Clone It Locally
+[source,bash]
+----
+git clone https://github.com/your-username/repo-name.git
+----
+
+=== ➤ Step 3: Make Changes
+[source,bash]
+----
+cd repo-name
+echo "Hello GitHub" > hello.txt
+----
+
+=== ➤ Step 4: Add, Commit, and Push
+[source,bash]
+----
+git add hello.txt
+git commit -m "Added hello.txt"
+git push origin main
+----
+
+== ✅ Summary of Chapter 1
+
+[cols="1,2", options="header"]
+|===
+| Topic | You Learned
+| Git | A powerful distributed version control system
+| GitHub | A cloud platform for Git repositories
+| Version Control | Tracks changes, manages branches, and saves history
+| Core Workflow | Clone > Branch > Commit > Push > PR > Merge
+| Setup Git & GitHub | Install Git, create GitHub account, configure SSH
+| Key Concepts | Repos, Commits, Branches, PRs, Forks, Cloning
+|===
+
+== Chapter 2: Setting Up and Navigating GitHub (Fully In-Depth)
+
+== 2.1 Setting Up Git Locally
+
+=== ➤ Installing Git
+* Download Git: https://git-scm.com/downloads
+
+Installation includes:
+* Git Bash (Terminal)
+* Git GUI (Optional)
+
+Verify installation:
+[source,bash]
+----
+git --version
+----
+Expected output:
+[source,bash]
+----
+git version 2.x.x
+----
+
+=== ➤ Configuring Git (Global Settings)
+Tell Git who you are (used for commits):
+[source,bash]
+----
+git config --global user.name "Your Name"
+git config --global user.email "your_email@example.com"
+----
+
+View your settings:
+[source,bash]
+----
+git config --list
+----
+
+Optional configurations:
+* Set your default text editor:
+[source,bash]
+----
+git config --global core.editor "vim"  # or "nano", "code", etc.
+----
+* Use colored terminal output:
+[source,bash]
+----
+git config --global color.ui auto
+----
+
+== 2.2 Creating Your GitHub Account
+
+=== ➤ Step 1: Sign Up for GitHub
+* Go to https://github.com
+* Click *Sign up*
+** Username (unique)
+** Email address
+** Password (secure)
+
+=== ➤ Step 2: Verify Your Email
+GitHub sends an email verification link.
+
+=== ➤ Step 3: Personalize Your Account
+* Choose free or paid plan
+* Pick your areas of interest (optional)
+
+== 2.3 GitHub Profile Personalization
+
+=== ➤ Update Your Profile
+Go to *Settings > Public Profile*.
+Add:
+* Profile picture
+* Bio
+* Location
+* Website links
+* Social profiles
+
+=== ➤ Create a Profile README (Special Repo)
+1. Create a new repository with the same name as your GitHub username.
+Example: If your username is `john-dev`, name the repo `john-dev`.
+2. Add a `README.md` file.
+GitHub will automatically display this README on your profile page.
+
+Example README content (Markdown):
+[source,markdown]
+----
+# Hello, I'm John! 👋
+- 🔭 I’m currently working on AI projects
+- 🌱 I’m learning advanced Python and Rust
+- 💬 Ask me about machine learning
+----
+
+== 2.4 SSH Keys vs HTTPS Authentication
+
+=== ➤ HTTPS (Simple but Repetitive)
+* Each push/pull asks for credentials unless you set up Git Credential Manager or Personal Access Token (PAT).
+
+[#_ssh_recommended]
+=== ➤ SSH (Recommended)
+Generate SSH key:
+[source,bash]
+----
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+----
+
+Add the SSH key to GitHub:
+1. Copy public key:
+[source,bash]
+----
+cat ~/.ssh/id_rsa.pub
+----
+2. Go to *GitHub → Settings > SSH and GPG Keys*
+3. Click *New SSH Key* and paste your key.
+
+Test SSH connection:
+[source,bash]
+----
+ssh -T git@github.com
+----
+
+Expected output:
+[source]
+----
+Hi your_username! You've successfully authenticated!
+----
+
+== 2.5 Navigating GitHub Interface (Web UI)
+
+=== ➤ GitHub Home (Dashboard)
+Accessible from clicking your avatar → *Your Profile*.
+
+==== Tabs on Profile Page:
+* Overview: Highlights pinned repositories.
+* Repositories: Lists all your repositories (Public & Private).
+* Projects: Kanban boards for project management.
+* Packages: Any GitHub Packages you've published.
+* Stars: Repos you've starred.
+* Followers / Following: Social interaction on GitHub.
+
+== 2.6 The Repository Interface
+
+=== ➤ Tabs on a Repo Page
+* Code: The source code files and directory structure.
+* Issues: Bug reports, feature requests, or questions.
+* Pull Requests: Track and review requests to merge code.
+* Actions: GitHub Actions workflows (CI/CD automation).
+* Projects: Kanban boards tied to the repository.
+* Wiki: Documentation space for your repo.
+* Security: Vulnerability alerts and Dependabot updates.
+* Insights: Analytics—contributions, traffic, pull request activity.
+* Settings: Repo-wide settings (visibility, collaborators, etc.)
+
+== 2.7 GitHub Notifications and Watching
+
+=== ➤ Notification Settings
+* Click the *bell icon*.
+* View all notifications (repo updates, PRs, issues, etc.).
+
+=== ➤ Watching Repos
+* Click *Watch* on a repo to be notified about activity.
+** Not Watching: Notifications only when participating or @mentioned.
+** Watching: Notifications for all conversations.
+** Ignore: No notifications ever.
+
+== 2.8 GitHub Desktop (Optional but Useful GUI Tool)
+
+=== ➤ Installing GitHub Desktop
+* Download: https://desktop.github.com
+
+=== ➤ Basic Workflow
+* Clone or create repositories via the interface.
+* Add, commit, and push changes with GUI buttons.
+* Merge branches and resolve conflicts visually.
+* View history and diffs graphically.
+
+== 2.9 GitHub CLI (`gh`) - Optional for Advanced Users
+
+=== ➤ Install GitHub CLI
+* Windows: `winget install GitHub.cli`
+* macOS: `brew install gh`
+* Linux: Use package managers, e.g., `apt install gh`
+
+=== ➤ Authenticate
+[source,bash]
+----
+gh auth login
+----
+
+=== ➤ Example CLI Commands
+Clone a repository:
+[source,bash]
+----
+gh repo clone owner/repo-name
+----
+
+Create a Pull Request:
+[source,bash]
+----
+gh pr create --base main --head feature-branch --title "Add new feature"
+----
+
+== 2.10 GitHub Settings Menu (In-Depth Overview)
+
+=== ➤ Profile Settings
+* Personal Info (Name, Email)
+* Username (careful with changes!)
+* Social Accounts
+* Profile README setup
+
+=== ➤ Repositories Settings
+* Create / Delete / Rename repos
+* Collaborators and Teams
+* Manage webhooks and integrations
+* Deploy keys and Secrets
+
+=== ➤ Account Settings
+* Password & Authentication
+* Two-factor authentication (2FA)
+* Emails (private/public settings)
+
+=== ➤ SSH & GPG Keys
+* SSH keys for repo access
+* GPG keys to sign commits
+
+=== ➤ Billing & Plans
+* Personal plans: Free, Pro
+* Organizations/Teams: Enterprise
+
+=== ➤ Security Settings
+* Security log (sign-in attempts, key changes)
+* Linked devices
+* Personal access tokens (for HTTPS auth)
+
+== 2.11 Notifications and Email Alerts
+
+=== ➤ Notification Delivery
+* Web (GitHub UI)
+* Email (immediate, daily digest, etc.)
+* Mobile (GitHub mobile app)
+
+=== ➤ Customize Notifications
+Go to *Settings → Notifications → Custom Routing* by repository or organization.
+
+== 2.12 GitHub Organizations (Team Repos)
+
+Organizations are shared accounts where groups of people collaborate.
+
+=== ➤ Features:
+* Repositories owned by the organization (not individuals)
+* Teams and Role Management (Admins, Members, Outside Collaborators)
+* Billing for Pro or Enterprise
+* Better collaboration for companies, non-profits, open-source groups
+
+== ✅ Summary of Chapter 2
+
+[cols="1,2", options="header"]
+|===
+| Section | Key Takeaways
+| Install Git | Required for local development
+| Create GitHub Account | Free account, optional Pro plans
+| Profile Setup | Customize profile, add a Profile README
+| Authentication | HTTPS (simple), SSH (preferred for regular use)
+| GitHub Dashboard Navigation | Overview, Repositories, Projects, Packages, Stars, Followers
+| Repository Interface | Code, Issues, Pull Requests, Projects, Wiki, Insights, Actions, Settings
+| GitHub Desktop | Optional GUI tool for GitHub
+| GitHub CLI | Command-line GitHub interaction for power users
+| Settings | Profile info, SSH/GPG keys, 2FA, notifications, and repository management
+| Organizations | Manage groups, teams, permissions for shared repositories
+|===
+== Chapter 3: Repositories on GitHub (Fully In-Depth)
+
+A repository (repo) is the core building block of GitHub. It's where your project files live, including your code, documentation, assets, and version history.
+
+== 3.1 What is a GitHub Repository?
+
+=== ➤ Definition
+A repository is a project folder that contains your code and Git version history.
+It can also include:
+* Issues
+* Pull requests (PRs)
+* Actions (automation)
+* Wikis (documentation)
+* Project boards
+
+Repositories can be:
+* *Public*: Visible to everyone.
+* *Private*: Visible only to you and your collaborators.
+
+== 3.2 Creating a Repository on GitHub
+
+=== ➤ Step-by-Step (Using GitHub Web)
+1. Go to your GitHub Dashboard.
+2. Click the *New* button in the Repositories section.
+3. Fill out the form:
+* Repository name (must be unique within your account/org)
+* Description (optional but recommended)
+* Visibility (Public or Private)
+4. Initialize repo options (optional):
+* Add `README.md` (explains the project)
+* Add `.gitignore` (specifies untracked files to ignore)
+* Add License (choose MIT, GPL, Apache, etc. if open-source)
+5. Click *Create Repository*.
+
+=== ➤ Step-by-Step (Using GitHub CLI)
+[source,bash]
+----
+gh repo create my-repo --public --clone
+----
+Options:
+* `--private`: For a private repository
+* `--source=.`: Create from a local folder
+
+== 3.3 Understanding Repo Files & Structure
+Common files and folders inside a repo:
+* `README.md`: Project overview and instructions.
+* `LICENSE`: Open-source license.
+* `.gitignore`: Specifies files and folders Git should ignore.
+* `SRC/` or `CODE/`: Your source code.
+* `DOCS/`: Documentation files.
+
+== 3.4 Cloning a Repository (Making a Local Copy)
+
+=== ➤ What Is Cloning?
+Cloning downloads the entire repo (files + history) from GitHub to your computer.
+
+=== ➤ How to Clone (GitHub Web)
+1. Go to the repository page.
+2. Click the green *Code* button.
+3. Choose:
+* HTTPS (simpler)
+* SSH (recommended for authenticated users)
+
+=== ➤ Clone via Terminal
+[source,bash]
+----
+git clone https://github.com/username/repo.git
+# OR via SSH
+git clone git@github.com:username/repo.git
+----
+
+=== ➤ After Cloning
+Change into the repo directory:
+[source,bash]
+----
+cd repo
+----
+
+== 3.5 Adding and Managing Files Locally
+
+=== ➤ Create or Edit Files Locally
+[source,bash]
+----
+echo "Hello, GitHub!" > hello.txt
+----
+
+=== ➤ Add Files to the Staging Area
+[source,bash]
+----
+git add hello.txt
+----
+
+=== ➤ Commit the Files
+[source,bash]
+----
+git commit -m "Added hello.txt"
+----
+
+=== ➤ Push the Commit to GitHub
+[source,bash]
+----
+git push origin main
+----
+
+== 3.6 Branches in Repositories
+
+=== ➤ What Are Branches?
+Branches allow you to work on different versions of your code without affecting the `main` branch.
+
+[cols="1,2", options="header"]
+|===
+| Branch Name | Purpose
+| main | Production-ready code
+| dev | Development branch
+| feature-xyz | A new feature or experimental changes
+|===
+
+=== ➤ Create and Switch Branches
+[source,bash]
+----
+git checkout -b feature-branch
+----
+
+=== ➤ Push the New Branch to GitHub
+[source,bash]
+----
+git push -u origin feature-branch
+----
+
+=== ➤ Merge Branches (Locally or via Pull Request)
+[source,bash]
+----
+git checkout main
+git merge feature-branch
+git push origin main
+----
+
+== 3.7 Forking Repositories
+
+=== ➤ What Is Forking?
+* Forking is copying someone else's repository into your own GitHub account.
+* Used to contribute to open-source projects.
+* Forks let you experiment without affecting the original project.
+
+=== ➤ How to Fork
+1. Go to the repo you want to fork.
+2. Click the *Fork* button (top-right).
+3. GitHub creates a copy under your account.
+
+=== ➤ After Forking
+Clone the fork to your computer:
+[source,bash]
+----
+git clone https://github.com/your-username/forked-repo.git
+----
+
+Add the upstream repository:
+[source,bash]
+----
+git remote add upstream https://github.com/original-author/repo.git
+----
+
+Keep your fork up to date:
+[source,bash]
+----
+git fetch upstream
+git merge upstream/main
+----
+
+== 3.8 Pull Requests (After Forking or Branching)
+
+=== ➤ Creating a Pull Request
+1. Push changes to your fork or branch.
+2. On GitHub, click *New Pull Request*.
+3. Compare your branch/fork with the main repo.
+4. Add:
+* Title
+* Description (link issues, explain changes)
+5. Request reviewers.
+6. Submit and wait for review/merge.
+
+== 3.9 `.gitignore` Files
+
+=== ➤ What Is `.gitignore`?
+Specifies files/folders Git should ignore.
+Useful for:
+* OS files (`.DS_Store`)
+* IDE files (`.vscode/`)
+* Dependencies (`node_modules/`)
+* Secrets (`.env`)
+
+=== ➤ Example `.gitignore` for Node.js
+[source]
+----
+node_modules/
+.env
+dist/
+----
+
+GitHub offers `.gitignore` templates when creating a repo.
+
+== 3.10 LICENSE Files
+
+=== ➤ Why Use a License?
+* Protects your code from misuse.
+* Specifies how others can use your project.
+
+=== ➤ Common Licenses
+[cols="1,2", options="header"]
+|===
+| License | Permissions
+| MIT | Free to use, modify, and share
+| GPL | Must share under same license
+| Apache | Allows patent use, permissive
+|===
+
+GitHub provides a license picker when creating a new repo.
+
+== 3.11 Collaborators and Permissions
+
+=== ➤ Invite Collaborators
+1. Go to *Settings > Collaborators*.
+2. Add collaborators by GitHub username.
+
+=== ➤ Access Levels
+[cols="1,2", options="header"]
+|===
+| Role | Permissions
+| Read | View and clone the repo
+| Triage | Manage issues and pull requests
+| Write | Push code, create branches
+| Maintain | Manage repo settings, teams, and branches
+| Admin | Full access, including deletion and transfer
+|===
+
+== 3.12 Repository Settings (Deep Dive)
+
+=== ➤ General Settings
+* Rename repo.
+* Set description and topics.
+* Change repo visibility (Public/Private).
+
+=== ➤ Branches
+* Set default branch.
+* Configure branch protection rules (require reviews, prevent force pushes).
+
+=== ➤ Webhooks
+* Trigger automated services (like Jenkins, Discord notifications).
+
+=== ➤ Danger Zone
+* Transfer ownership.
+* Archive the repo (read-only).
+* Delete the repo (permanently remove).
+
+== 3.13 Archiving and Deleting Repositories
+
+=== ➤ Archive a Repo
+* Makes it read-only but still available for viewing and cloning.
+
+=== ➤ Delete a Repo (Be Careful!)
+1. Go to *Settings > Danger Zone*.
+2. Confirm deletion by typing the repo name.
+Note: This action is *irreversible*.
+
+== 3.14 Working with GitHub Desktop (Optional GUI Tool)
+
+=== ➤ Steps
+* Clone repositories through GUI.
+* Stage changes by dragging files.
+* Commit with messages.
+* Push to GitHub with one click.
+* Sync branches and resolve merge conflicts visually.
+
+== 3.15 Working with GitHub CLI (Optional Command-Line Tool)
+
+=== ➤ Clone a Repo
+[source,bash]
+----
+gh repo clone owner/repo
+----
+
+=== ➤ Create New Repo
+[source,bash]
+----
+gh repo create my-repo --public
+----
+
+=== ➤ View Issues and PRs
+[source,bash]
+----
+gh issue list
+gh pr list
+----
+
+== ✅ Chapter 3: Recap & Summary
+
+[cols="1,2", options="header"]
+|===
+| Topic | Key Points
+| Repositories | Core containers for your project and its Git history.
+| Create Repo | On GitHub or via CLI; initialize with README, `.gitignore`, etc.
+| Clone | Create a local copy on your machine with `git clone`.
+| Branches | Isolated versions for working on different features.
+| Fork | Copy another user’s repo to your account for experimentation.
+| `.gitignore` | Specifies files Git should ignore.
+| LICENSE | Dictates how your code can be used legally.
+| Collaborators | Invite teammates with different permissions.
+| Repo Settings | Configure visibility, security, rules, and integrations.
+|===
+== Chapter 4: Git Basics (Fully In-Depth)
+
+This chapter teaches you how Git works under the hood, the commands you need to know, and how to apply them in your daily workflow.
+
+== 4.0 Terminology: Git Concepts & Definitions
+
+[cols="1,2", options="header"]
+|===
+| Term | Definition
+| Repository (Repo) | A directory where Git stores your project and version history.
+| Commit | A snapshot of changes in your repo. Each commit has a message, author, and timestamp.
+| Branch | A parallel line of development that allows you to work on changes independently from main.
+| Merge | Combining changes from one branch into another.
+| Staging Area (Index) | A place where changes are gathered before committing them.
+| Working Directory | The folder where you make changes to your files.
+| HEAD | A pointer that represents your current branch reference (i.e., what you’re working on).
+| Remote Repository | A Git repo that is hosted somewhere else, like GitHub.
+| Local Repository | Your Git repo stored on your own machine.
+| Clone | A full copy of a repository, including the entire history.
+| Push | Upload local commits to a remote repository.
+| Pull | Download and integrate changes from a remote repo into your local repo.
+| Fetch | Download changes from a remote repo but doesn’t integrate them automatically.
+| Rebase | Move or combine a sequence of commits to a new base commit.
+| Stash | Temporarily save uncommitted changes to work on something else.
+| Diff | Shows the differences between changes in your working directory and staging area or between commits.
+| Tag | A marker pointing to a specific commit, often used for releases.
+| Conflict | Happens when Git can’t merge changes automatically and needs manual intervention.
+|===
+
+== 4.1 Understanding Git’s Workflow
+
+Git works in three areas:
+* *Working Directory* – Where you edit files.
+* *Staging Area (Index)* – Where you list what will be committed.
+* *Local Repository* – Where your commits are permanently recorded.
+
+You interact with the *Remote Repository* (e.g., GitHub) when you push and pull.
+
+== 4.2 Git Workflow Diagram
+
+----
+Edit files ➡️ git add ➡️ git commit ➡️ git push
+⬆️                    ⬇️
+git pull             Remote Repo (GitHub)
+⬇️
+Working Directory
+----
+
+== 4.3 Core Git Commands & Usage
+
+=== ➤ 4.3.1 git init
+Initializes a new Git repository in the current directory.
+
+[source,bash]
+----
+git init
+----
+* Creates a `.git/` folder to track changes.
+* Turns your folder into a Git repository.
+
+=== ➤ 4.3.2 git clone
+Makes a local copy of an existing remote repository.
+
+[source,bash]
+----
+git clone https://github.com/username/repo.git
+----
+
+* Clones code, branches, and history.
+
+=== ➤ 4.3.3 git status
+Shows the status of your working directory.
+
+[source,bash]
+----
+git status
+----
+
+=== ➤ 4.3.4 git add
+Moves changes from the working directory to the staging area.
+
+[source,bash]
+----
+git add file.txt        # Stage one file
+git add .               # Stage all changed files
+----
+
+=== ➤ 4.3.5 git commit
+Takes everything from the staging area and saves it in your local repository with a message.
+
+[source,bash]
+----
+git commit -m "Your descriptive message here"
+----
+
+=== ➤ 4.3.6 git push
+Sends your committed changes to the remote repo.
+
+[source,bash]
+----
+git push origin main
+----
+
+=== ➤ 4.3.7 git pull
+Pulls (downloads) changes from the remote repo and merges them into your local branch.
+
+[source,bash]
+----
+git pull origin main
+----
+
+=== ➤ 4.3.8 git fetch
+Downloads changes from a remote repo but doesn’t merge them.
+
+[source,bash]
+----
+git fetch origin
+git merge origin/main
+----
+
+=== ➤ 4.3.9 git log
+Displays the commit history.
+
+[source,bash]
+----
+git log                # Full history
+git log --oneline      # Short version
+----
+
+=== ➤ 4.3.10 git diff
+Shows differences between your files and staging area or between commits.
+
+[source,bash]
+----
+git diff                  # Working directory vs staging area
+git diff --staged         # Staging area vs latest commit
+----
+
+== 4.4 Git Branching & Merging
+
+=== ➤ 4.4.1 git branch
+List, create, or delete branches.
+
+[source,bash]
+----
+git branch                  # Lists all branches
+git branch new-feature      # Creates a new branch
+----
+
+=== ➤ 4.4.2 git checkout
+Switch to another branch.
+
+[source,bash]
+----
+git checkout main
+----
+
+Create and switch in one step:
+[source,bash]
+----
+git checkout -b new-feature
+----
+
+=== ➤ 4.4.3 git merge
+Merge changes from another branch into your current one.
+
+[source,bash]
+----
+git merge new-feature
+----
+
+=== ➤ 4.4.4 Merge Conflicts
+Conflicts happen if:
+* Two branches changed the same line.
+* Files were modified and deleted differently.
+
+Git shows:
+----
+<<<<<<< HEAD
+Your code
+=======
+Incoming code
+>>>>>>> new-feature
+----
+
+Resolve manually, then:
+[source,bash]
+----
+git add file.txt
+git commit -m "Resolved merge conflict"
+----
+
+== 4.5 Undoing Changes in Git
+
+=== ➤ 4.5.1 Unstage a File
+[source,bash]
+----
+git reset HEAD file.txt
+----
+
+=== ➤ 4.5.2 Discard Local Changes (Unstaged)
+[source,bash]
+----
+git checkout -- file.txt
+----
+
+=== ➤ 4.5.3 Undo Last Commit (Soft Reset)
+Keeps your changes in the working directory.
+
+[source,bash]
+----
+git reset --soft HEAD~1
+----
+
+=== ➤ 4.5.4 Hard Reset (Danger!)
+Deletes the last commit and discards changes.
+
+[source,bash]
+----
+git reset --hard HEAD~1
+----
+
+== 4.6 Git Stash (Temporary Work Storage)
+
+=== ➤ What is Git Stash?
+Temporarily saves your changes when you need to:
+* Switch branches
+* Pull updates
+* Work on something else
+
+=== ➤ Save Changes
+[source,bash]
+----
+git stash
+----
+
+=== ➤ View Stashes
+[source,bash]
+----
+git stash list
+----
+
+=== ➤ Apply the Last Stash
+[source,bash]
+----
+git stash pop
+----
+
+== 4.7 Git Tags (Marking Important Commits)
+
+Tags are commonly used for releases.
+
+[source,bash]
+----
+git tag v1.0
+git push origin v1.0
+----
+
+== 4.8 Rebasing (Optional Advanced Tool)
+
+=== ➤ What Is Rebase?
+Reapply commits from your branch onto a new base branch.
+
+=== ➤ Rebase Example
+[source,bash]
+----
+git checkout feature
+git rebase main
+----
+
+Force push after rebasing:
+[source,bash]
+----
+git push --force
+----
+
+== 4.9 Git Configuration Tips
+
+=== ➤ Global Git Ignore File
+Avoid repeating `.gitignore` for all projects:
+[source,bash]
+----
+git config --global core.excludesfile ~/.gitignore_global
+----
+
+=== ➤ Sign Commits with GPG (Optional)
+For verifying commit authenticity:
+[source,bash]
+----
+git config --global commit.gpgsign true
+----
+
+== 4.10 Example Workflow (Real Life)
+
+=== ➤ Step 1: Clone a Repo
+[source,bash]
+----
+git clone https://github.com/user/repo.git
+cd repo
+----
+
+=== ➤ Step 2: Create a Feature Branch
+[source,bash]
+----
+git checkout -b feature-branch
+----
+
+=== ➤ Step 3: Make Changes & Stage Them
+[source,bash]
+----
+git add file.txt
+----
+
+=== ➤ Step 4: Commit Changes
+[source,bash]
+----
+git commit -m "Added new feature"
+----
+
+=== ➤ Step 5: Push Changes
+[source,bash]
+----
+git push origin feature-branch
+----
+
+=== ➤ Step 6: Open a Pull Request on GitHub
+1. Go to GitHub.
+2. Compare your branch with `main`.
+3. Open Pull Request.
+4. Review and Merge.
+
+== ✅ Chapter 4 Recap
+
+[cols="1,2", options="header"]
+|===
+| Concept | Action
+| Repo Setup | `git init` / `git clone`
+| Track Changes | `git add` / `git commit`
+| Send Changes | `git push`
+| Get Updates | `git pull` / `git fetch`
+| Branching | `git branch` / `git checkout -b`
+| Merging | `git merge`
+| Undo Changes | `git reset` / `git checkout`
+| Temporary Work | `git stash`
+| Tagging Releases | `git tag`
+| Rebase | `git rebase`
+|===
+== Chapter 5: Collaboration on GitHub (Fully In-Depth)
+
+Collaboration is one of GitHub's strongest features. GitHub makes it possible for individuals, teams, and the open-source community to work together on the same project.
+
+== 5.0 Terminology: Key Collaboration Terms
+
+[cols="1,2", options="header"]
+|===
+| Term | Definition
+| Collaborator | Someone invited to work directly on a repository.
+| Pull Request (PR) | A proposal to merge code from one branch into another, often reviewed before being merged.
+| Code Review | The process of examining another developer’s code, typically part of a PR review process.
+| Issue | A way to track tasks, bugs, or feature requests.
+| Fork | A personal copy of someone else’s repository that lives under your GitHub account.
+| Upstream Repo | The original repository from which you forked.
+| Branch Protection | GitHub rules to prevent unauthorized changes to specific branches.
+| Reviewer | A person assigned to give feedback or approval on a Pull Request.
+|===
+
+== 5.1 Collaboration Approaches on GitHub
+
+=== ➤ Method 1: Collaborators
+* Direct contributors added to a private or public repo.
+* Can push directly (or via Pull Request).
+
+=== ➤ Method 2: Forks and Pull Requests (Open Source Standard)
+* You fork the repo → make changes → open a Pull Request.
+* Maintainers review and merge PRs from forks.
+
+== 5.2 Issues: The Collaboration Starting Point
+
+=== ➤ What Are Issues?
+* Track bugs, feature requests, tasks, discussions.
+
+=== ➤ Creating an Issue
+1. Go to the *Issues* tab.
+2. Click *New Issue*.
+3. Fill in:
+* Title
+* Description (Markdown supported)
+4. Add:
+* Assignees
+* Labels
+* Milestones
+
+=== ➤ Linking Issues to Commits
+Automatically close issues when merging Pull Requests or making commits:
+[source,markdown]
+----
+Fixes #42
+Closes #42
+Resolves #42
+----
+
+== 5.3 Branching for Collaboration
+
+=== ➤ Why Branch?
+* Keeps features separate from the main (production) branch.
+* Multiple people can work on different features simultaneously.
+
+=== ➤ Branch Naming Conventions
+[cols="1,1", options="header"]
+|===
+| Type | Example
+| Feature | feature/login-form
+| Bugfix | bugfix/missing-btn
+| Hotfix | hotfix/crash-on-start
+|===
+
+== 5.4 Pull Requests (PRs): The Core of Collaboration
+
+=== ➤ What Is a Pull Request?
+A Pull Request (PR) is a proposal to merge one branch into another.
+
+PRs allow you to:
+* Get feedback
+* Perform code reviews
+* Run automated tests (CI/CD)
+* Collaborate on changes before merging
+
+=== ➤ Creating a Pull Request (Step-by-Step)
+1. Push your branch to GitHub.
+[source,bash]
+----
+git push origin feature/login-form
+----
+2. On GitHub:
+* Go to the repo → *Pull Requests* → *New Pull Request*.
+* Choose the base branch (typically `main`) and compare it with your feature branch.
+* Add:
+** Title
+** Description (what you did, why, screenshots, link to issues)
+* Request Reviewers.
+* Submit the PR.
+
+=== ➤ Pull Request Anatomy
+[cols="1,2", options="header"]
+|===
+| Section | Description
+| Title | Short description of the change.
+| Description | Detailed explanation. Link issues if needed.
+| Files Changed | List of changed files + code diffs.
+| Reviewers | People asked to review the PR.
+| Assignees | Developers responsible for PR.
+| Labels | Context labels like bug, enhancement, WIP.
+| Milestones | Group PR into a milestone for a release goal.
+|===
+
+== 5.5 Code Review Process (Best Practices)
+
+=== ➤ Reviewers Can:
+* Comment on lines of code.
+* Request Changes (blocks merging until addressed).
+* Approve the PR (merging allowed if branch protection permits).
+
+=== ➤ Best Practices for Code Reviews
+* Keep Pull Requests small and focused.
+* Write clear commit messages and PR descriptions.
+* Use checklists (e.g., code follows standards, tests written).
+* Respond to feedback promptly.
+* Be respectful and constructive in feedback.
+
+== 5.6 Merging a Pull Request
+
+=== ➤ Merge Options (On GitHub)
+[cols="1,2", options="header"]
+|===
+| Option | What It Does
+| Create Merge Commit | Keeps the entire branch history; adds a merge commit.
+| Squash and Merge | Combines all commits into one; simplifies history.
+| Rebase and Merge | Rewrites commits onto the base branch for a linear history.
+|===
+
+=== ➤ Merge a PR (Manually from CLI)
+[source,bash]
+----
+git checkout main
+git pull origin main
+git merge feature-branch
+git push origin main
+----
+
+== 5.7 Resolving Merge Conflicts in Pull Requests
+
+=== ➤ When Do Conflicts Happen?
+* Two branches modified the same file/line.
+* One branch deletes a file the other modifies.
+
+=== ➤ How to Resolve Conflicts
+1. GitHub alerts you that the branch has conflicts.
+2. Locally:
+[source,bash]
+----
+git fetch origin
+git checkout feature-branch
+git merge main
+----
+3. Resolve conflicts in the files:
+[source]
+----
+<<<<<<< HEAD
+This is code from main.
+=======
+This is code from feature-branch.
+>>>>>>> feature-branch
+----
+4. Stage the changes:
+[source,bash]
+----
+git add conflicted-file.txt
+git commit -m "Resolved merge conflict"
+----
+5. Push:
+[source,bash]
+----
+git push origin feature-branch
+----
+
+== 5.8 Forking a Repository and Contributing
+
+=== ➤ What Is Forking?
+* Forking creates a copy of another repository under your GitHub account.
+
+=== ➤ Why Fork?
+* Contribute to open-source projects.
+* You don’t need permission to fork.
+* Safe place to experiment.
+
+=== ➤ Forking Workflow
+1. Click *Fork* on the project’s GitHub page.
+2. Clone your fork locally:
+[source,bash]
+----
+git clone https://github.com/your-username/project.git
+----
+3. Add the original repo as an upstream remote:
+[source,bash]
+----
+git remote add upstream https://github.com/original-owner/project.git
+----
+4. Sync with upstream changes:
+[source,bash]
+----
+git fetch upstream
+git merge upstream/main
+----
+
+== 5.9 GitHub Issues for Project Management
+
+=== ➤ Common Issue Labels
+[cols="1,1", options="header"]
+|===
+| Label | Meaning
+| bug | Something broken.
+| enhancement | New feature or improvement.
+| help wanted | Needs community contributions.
+| good first issue | Simple tasks ideal for beginners.
+| wontfix | Issue closed without fix (expected behavior).
+|===
+
+=== ➤ Assigning and Milestones
+* Assignees: Person responsible for solving.
+* Milestones: Group issues/PRs for version releases (e.g., v1.0).
+
+== 5.10 Branch Protection Rules (Optional, but Recommended)
+
+=== ➤ Protecting the Main Branch
+In *Repo Settings > Branches*:
+* Require Pull Requests before merging.
+* Require status checks (tests passing).
+* Require code reviews.
+* Prevent force pushes.
+
+== ✅ Chapter 5 Recap
+
+[cols="1,2", options="header"]
+|===
+| Feature | What You Should Know
+| Issues | Track bugs, features, and tasks.
+| Branches | Separate work by features or fixes.
+| Pull Requests | Propose, review, and merge changes.
+| Code Reviews | Ensure quality and collaboration before merging.
+| Forks | Safely contribute to external projects.
+| Merge Conflicts | Resolve when simultaneous changes overlap.
+| Branch Protection | Enforce workflow discipline and prevent accidents.
+|===
+== Chapter 6: Managing Projects on GitHub (Fully In-Depth)
+
+GitHub isn’t just for code—it’s also a powerful project management tool. Whether you're a solo dev or part of a big team, GitHub’s Projects, Issues, Milestones, and Labels help you stay organized, track progress, and collaborate effectively.
+
+== 6.0 Terminology: Key Project Management Terms
+
+[cols="1,2", options="header"]
+|===
+| Term | Definition
+| Project Board | A Kanban-style board that organizes issues and pull requests in columns (To do, In progress, Done).
+| Issue | A task, bug report, or feature request used to track work in a repository.
+| Milestone | A grouping of issues and pull requests to track progress toward a larger goal or release.
+| Labels | Tags added to issues or pull requests to categorize, prioritize, or describe them.
+| Assignee | The person responsible for resolving an issue or completing a task.
+| Kanban | A project management method that visualizes tasks in stages (usually as boards with columns).
+|===
+
+== 6.1 Issues as the Foundation of Project Management
+
+=== ➤ What Are GitHub Issues?
+Issues are the building blocks for:
+* Bug tracking
+* Feature requests
+* Task management
+* Documentation improvements
+
+=== ➤ Creating Issues
+1. Go to the *Issues* tab in your repository.
+2. Click *New Issue*.
+3. Fill out:
+* Title (short summary)
+* Body (Markdown supported)
+* Screenshots/links (optional)
+
+=== ➤ Assignments
+* Labels
+* Assignees
+* Milestones
+* Projects (Project Boards)
+
+=== ➤ Why Use Issues?
+* Centralizes communication and feedback.
+* Tracks bugs and tasks publicly (or privately in private repos).
+
+=== ➤ Referencing Issues in Pull Requests and Commits
+Automatically close or reference issues by using keywords:
+[source,markdown]
+----
+Fixes #123
+Closes #45
+----
+
+== 6.2 Labels: Categorizing Issues and Pull Requests
+
+=== ➤ What Are Labels?
+Labels help you categorize, prioritize, and track issues and PRs.
+
+=== ➤ Common Label Categories
+[cols="1,1", options="header"]
+|===
+| Category | Examples
+| Type | bug, enhancement, question, documentation
+| Priority | high priority, critical, low priority
+| Difficulty | good first issue, help wanted
+|===
+
+=== ➤ Creating and Managing Labels
+1. Go to *Issues > Labels*.
+2. Click *New Label*:
+* Name (e.g., bug)
+* Description (e.g., "Something isn't working")
+* Color (hex codes or palette)
+
+=== ➤ Apply Labels On
+* Issues
+* Pull Requests
+
+== 6.3 Milestones: Grouping Issues and Pull Requests
+
+=== ➤ What Are Milestones?
+Milestones track progress toward larger goals like:
+* Releases (v1.0, v2.0)
+* Phases of a project
+* Sprints (for Agile teams)
+
+=== ➤ How to Use Milestones
+1. Go to *Issues > Milestones*.
+2. Click *New Milestone*:
+* Name (e.g., Version 1.0 Release)
+* Description
+* Due Date (optional)
+
+Assign issues or PRs to the milestone.
+
+=== ➤ GitHub Provides
+* Progress bar (% of issues closed)
+* Group PRs/issues in the milestone
+
+=== ➤ Milestone Example
+You’re building an app. You create Milestones:
+* MVP Launch
+* Version 1.0
+* Version 2.0
+
+Issues under milestones:
+* "Fix login bug" (bug)
+* "Add user profile page" (enhancement)
+* "Write documentation" (documentation)
+
+== 6.4 Project Boards: Kanban-Style Management
+
+=== ➤ What Are GitHub Projects?
+A Project Board visualizes work on cards organized into columns.
+Use them for:
+* Agile development (Sprints, Backlogs)
+* Kanban workflows (To Do, In Progress, Done)
+* Roadmaps
+
+=== ➤ Types of Project Boards
+* Classic Projects (older Kanban boards): repo-level or org-level
+* New Projects (Beta): spreadsheet-style, custom fields, filters, automation
+
+=== ➤ Creating a Project Board (Classic Example)
+1. Go to the repo → *Projects* → *New Project*
+2. Name your board (e.g., Sprint 1 Board)
+3. Choose:
+* Template (Kanban or Automated Kanban)
+* Blank project
+
+=== ➤ Add Columns
+* Backlog (Optional)
+* To Do
+* In Progress
+* Done
+
+=== ➤ Add Cards
+* Issues
+* Pull Requests
+* Notes
+
+=== ➤ Managing Cards
+* Drag cards between columns
+* Add notes for brainstorming ideas
+* Track status visually
+
+== 6.5 Automation on Project Boards (Classic Projects)
+
+=== ➤ Automated Kanban Workflow
+Move issues automatically:
+* New issues → "To do"
+* PR opened → "In progress"
+* Issue closed/PR merged → "Done"
+
+Enable Automation:
+1. Go to *Project Board*
+2. Click *Automation* (top-right)
+3. Assign actions per column (Issue/PR status triggers)
+
+=== ➤ Using GitHub Actions for Automation
+Trigger workflows like:
+* Move issues to “Done” when a PR closes
+* Send notifications to Slack/Discord
+
+Example GitHub Actions Workflow:
+[source,yaml]
+----
+name: Move issue to Done
+on:
+  issues:
+    types: [closed]
+
+jobs:
+  move-issue:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v5
+        with:
+          script: |
+            // Move the issue card in your project board to Done
+----
+
+== 6.6 Linking Issues, Pull Requests, Projects, and Milestones
+
+=== ➤ Link an Issue to a Project
+* Open the Issue → Right-hand sidebar → *Projects*
+
+=== ➤ Link an Issue/PR to a Milestone
+* Open Issue/PR → Right-hand sidebar → *Milestone*
+
+=== ➤ Reference Issues and PRs in Commit Messages
+[source,bash]
+----
+git commit -m "Fix login bug. Fixes #42"
+----
+
+== 6.7 Example Workflow for Project Management on GitHub
+
+1. Create Issues for each task
+2. Label them (type, priority, difficulty)
+3. Group them under a Milestone (Sprint 1)
+4. Add them to a Project Board (Sprint 1 Board)
+5. Developers pick up tasks (assign themselves)
+6. Move cards across columns as tasks progress
+7. Close Issues as Pull Requests are merged
+8. Milestone shows % progress toward Sprint completion
+
+== 6.8 GitHub Projects (Beta) - New Advanced Project Management
+
+=== ➤ Features
+* Spreadsheet-like views with filters and custom fields
+* Automation for issue tracking and progress updates
+* Better team visibility and status reporting
+
+=== ➤ How to Try It
+1. Go to *Projects* (under your profile or organization)
+2. Create a new project
+3. Add fields, views, and automations
+
+== ✅ Chapter 6 Recap
+
+[cols="1,2", options="header"]
+|===
+| Feature | What You Should Know
+| Issues | Track bugs, features, and tasks
+| Labels | Categorize and prioritize issues and PRs
+| Milestones | Group issues/PRs for releases or larger goals
+| Projects | Kanban boards to visualize progress (To Do, In Progress, Done)
+| Automation | Move tasks and issues automatically with triggers and Actions
+| Classic vs New Projects | Classic (simple Kanban); New Projects (spreadsheet with more customization)
+|===
+
+🎯 By Now, You Can:
+* ✅ Create and manage Issues effectively
+* ✅ Use Labels and Milestones for prioritization and tracking
+* ✅ Build Kanban-style Project Boards to visualize tasks
+* ✅ Automate issue/PR workflows
+* ✅ Plan and track the progress of releases with Milestones and Projects
