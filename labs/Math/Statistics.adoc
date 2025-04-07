@@ -1,0 +1,17 @@
+= Introduction to Statistics
+
+This is managed in a discussion here: https://github.com/Gervi-Hera-Vitr/sindri-labs/discussions/279[Week #14: Statistics for ML #279].
+This discussion has all the planned activities.
+Completed work is here.
+
+== Primary subject: Statistics
+Path of learning: YouTube: Statistics for Data Science & Machine Learning ->YouTube: Probability for Data Science & Machine Learning
+-> Brilliant Statistics and ML -> Machine learning crash course on data science -> Machine learning crash course on data science -> Check on udemy and YouTube for all leftover topics
+
+== Secondary subject: Stock Market Analysis
+Dad is going to help open a custodial account for me.
+
+path of learning:
+YouTube: Stock Market For Beginners 2025 | Step-by-Step Guide -> YouTube: Mark tilbury | Stock Market Analysis 101 -> investopedia stock simulator  -> Check on udemy and YouTube for all leftover topics.
+
+https://www.investopedia.com/terms/s/stock-analysis.asp[Stock Analysis].
