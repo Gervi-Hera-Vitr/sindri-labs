@@ -17,12 +17,27 @@ v1.0.0, Monday the 5th of May 2025 13:18 EST
 :keywords: Homeschool Learning Journey
 :imagesdir: ./resources/images
 ifdef::env-name[:relfilesuffix: .adoc]
-:git-docs: https://git-scm.com/doc
-:github-docs: https://docs.github.com/en
-:github-actions-docs: https://docs.github.com/en/actions
-:github-wikis: https://docs.github.com/en/communities/documenting-your-project-with-wikis/about-wikis
-:github-pages: https://docs.github.com/en/pages
-:github-readmes: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes
-:kai-root-files: https://github.com/kmindi/special-files-in-repository-root/blob/master/README.md
-:kai-author: https://github.com/kmindi[Kai Mindermann, M.Sc.]
+
+I am writing this essay to show the board of education of north carolina what I learned this semester. +
+ I first achieved learning about decision trees and what they do.
+I made a masterclass on them here: https://github.com/Gervi-Hera-Vitr/sindri-labs/tree/main/labs/Google/Decision-Trees-Full-Course[Decision Trees] +
+Next I went on too learn about statistics and probability for machine learning.
+Some learning courses for these included: https://brilliant.org/?utm_source=search&utm_medium=cpc[Brilliant.org], https://www.khanacademy.org[Khan Academy], 2 courses from Derek Banas: https://www.youtube.com/watch?v=k_FISWJKoFQ[Probability], and
+https://www.youtube.com/watch?v=tcusIOfI_GM&t=1ss[Statistics]. +
+Last but not least I learned about the Stock market and how to make money from it. Such Ways on learning this are: https://www.youtube.com/@TheSwedishInvestor[The Swedish Investor], https://www.youtube.com/@marktilbury[Mark Tilbury], https://www.youtube.com/@clearvaluetax9382[Clear Value Tax] Along with
+https://auth.investopedia.com/realms/investopedia/protocol/openid-connect/auth?client_id=finance-simulator&redirect_uri=https%3A%2F%2Fwww.investopedia.com%2Fsimulator%2Fportfolio&state=04f87af4-dd16-4c64-ab0a-2ab55ae305a3&response_mode=fragment&response_type=code&scope=openid&nonce=59285f60-87cb-4aaa-b7b6-985116a666eb[Investopedia].
+
+Some Classes I missed though this semester are: history, Science And english but these can be made up in the future.
+
+
+As for next semester, I plan on Learning: +
+1. Business and Economics +
+2. Expanding Python +
+3. Science and History of computers +
+4. Mathematics of Algebra +
+5. Models of machine learning and Neural Networks +
+
+
+
+
 
