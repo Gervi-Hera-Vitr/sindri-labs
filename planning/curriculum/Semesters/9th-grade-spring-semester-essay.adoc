@@ -1,0 +1,28 @@
+= Semester Essay: 9th Grade Spring Semester
+CaptainLugaru <72951616+CaptainLugaru@users.noreply.github.com>
+v1.0.0, Monday the 5th of May 2025 13:18 EST
+:description: Semester accomplishments, learning goals, and learning objectives
+:sectnums:
+:sectanchors:
+:sectlinks:
+:icons: font
+:tip-caption: 💡️
+:note-caption: ℹ️
+:important-caption: ❗
+:caution-caption: 🔥
+:warning-caption: ⚠️
+:toc: preamble
+:toclevels: 3
+:toc-title: GitHub Learning Trail
+:keywords: Homeschool Learning Journey
+:imagesdir: ./resources/images
+ifdef::env-name[:relfilesuffix: .adoc]
+:git-docs: https://git-scm.com/doc
+:github-docs: https://docs.github.com/en
+:github-actions-docs: https://docs.github.com/en/actions
+:github-wikis: https://docs.github.com/en/communities/documenting-your-project-with-wikis/about-wikis
+:github-pages: https://docs.github.com/en/pages
+:github-readmes: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes
+:kai-root-files: https://github.com/kmindi/special-files-in-repository-root/blob/master/README.md
+:kai-author: https://github.com/kmindi[Kai Mindermann, M.Sc.]
+
