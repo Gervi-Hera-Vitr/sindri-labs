@@ -20,14 +20,16 @@ ifdef::env-name[:relfilesuffix: .adoc]
 
 I am writing this essay to show what I learned this semester. +
 
-(@rdd13r - point taken for skimping on the essay description.)
+ (@rdd13r - point taken for skimping on the essay description.)
 
 == ML: Decision Trees
 
 I learned about decision trees and what they do.
 And I made a masterclass to reflect on this.
 
-. link:../../../labs/Google/Decision-Trees-Full-Course/Decision-Trees.ipynb[Decision Trees Notebook] - understanding Decisions Trees: grade A (@rdd13r).
+. link:../../../labs/Google/Decision-Trees-Full-Course/Decision-Trees.ipynb[Decision Trees Notebook] - understanding Decisions Trees: grade A+ (@rdd13r).
+. link:../../../labs/Google/Decision-Trees-Full-Course/Decision-Trees-Two.ipynb[Decision Trees Notebook Experimentation] - classifiers and Decisions Trees: grade A (@rdd13r).
+
 
 
 Next I went on too learn about statistics and probability for machine learning.
