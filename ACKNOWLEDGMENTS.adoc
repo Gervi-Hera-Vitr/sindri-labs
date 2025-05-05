@@ -1,0 +1,49 @@
+= Acknowledgements
+
+NOTE: This is the general references for ALL learning resources of this curriculum plan not explicitly called out.
+
+
+== For the Impatient Experts
+
+* https://kotlinlang.org/docs/koans.html[Kotlin Koans] 👍🏻
+* https://plugins.jetbrains.com/education?search=kotlin[Launch in IDE] (https://plugins.jetbrains.com/plugin/10081-jetbrains-academy[JetBrains Academy Plugin]) 👍🏻🥳
+* https://kotlinlang.org/docs/getting-started.html[Get started with Kotlin]
+* https://www.jetbrains.com/pages/academy/kotlin/[JetBrains Academy] (https://hyperskill.org/[Hyperskill]) 📚🙇🏼‍♀️
+* https://youtube.com/@Kotlin[YouTube: Kotlin by JetBrains]
+
+== Language References
+
+* https://kotlinlang.org/spec/introduction.html[The Kotlin language specification]
+** https://kotlinlang.org/docs/home.html[*_Kotlin docs_*]
+** https://kotlinlang.org/[_Kotlin_] (home)
+** https://kotlinlang.org/docs/kotlin-reference.pdf[Kotlin Language Documentation (pdf)]
+* https://docs.asciidoctor.org/asciidoc/latest/[AsciiDoc Language Documentation]
+** https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/[_AsciiDoc Syntax Quick Reference_]
+** https://asciidoctor.org/docs/asciidoc-writers-guide/[*_AsciiDoc Writer’s Guide_*]
+
+
+== Ops References
+
+* https://kubernetes.io/docs/home/[*k8s: _Getting Started_*] - managing all of our containers;
+** https://kubernetes.io/docs/tasks/tools/[Getting Started with k8s Tools] - tl;dr;
+** https://krew.sigs.k8s.io/[*Krew*] - favorite plugin manager;
+** https://krew.sigs.k8s.io/plugins/[Available Krew Plugins] - tl;dr;
+** https://github.com/kubernetes-sigs/kind[*Kind*] - our research deployments;
+** https://kind.sigs.k8s.io/docs/user/quick-start[Kind QuickStart] - tl;dr;
+** https://github.com/ahmetb/kubectx[Kubectx] - default context manager;
+** https://github.com/danielfoehrKn/kubeswitch[Kubeswitch] - fat switcher - all;
+** https://github.com/sbstp/kubie#installation[Kubie] - alternative switcher;
+** https://home.robusta.dev/blog/switching-kubernets-context[on Contexts] - tl;dr;
+** https://knative.dev/docs/[*_KNative_*] - a-must for function;
+** https://knative.dev/docs/getting-started/[KNative QuickStart] - tl;dr;
+** https://dashaun.com/posts/knative-docker-desktop/[KNative on Docker Desktop] - alt way;
+** https://github.com/GoogleContainerTools/distroless[Google distroless] - prod packaging;
+** https://helm.sh/[*Helm*] - our package manager;
+** https://helm.sh/docs/intro/quickstart/[Helm QuickStart] - tl;dr;
+
+* https://github.com/features/actions[GitHub Actions]
+** https://github.com/CodeQL/CodeQL-action[CodeQl Action]
+** https://github.com/JetBrains/qodana-action[Qodana Scan]
+** https://github.com/peaceiris/actions-gh-pages[GitHub Pages Action]
+** https://github.com/marketplace/actions/gradle-build-action[Gradle Build Action]
+
