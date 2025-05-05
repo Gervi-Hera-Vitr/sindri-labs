@@ -1,0 +1,65 @@
+= Attributions
+
+NOTE: _Copyright holders_ listed are hereby acknowledged on the content referenced or otherwise imparted on this work.
+
+- rdd13r - https://github.com/rdd13r/
+- CaptainLugaru - https://github.com/CaptainLugaru/
+- GregorySDTaylor - https://github.com/GregorySDTaylor/
+
+== Learning Resource Attributions
+
+IMPORTANT: This is a list of institutions Gervi Héra Vitr uses to provide learning materials and works.
+
+ToDo: Add links to these institutions
+
+* *LIBRARY:*
+** https://www.wake.gov/departments-government/libraries/[Wake County Public Library]
+* *Institutions:*
+** https://www.khanacademy.org/[*_Khan Academy_*] - free, fundamental;
+** https://brilliant.org/home/[*_Brilliant_*] - subscribed; https://brilliant.org/courses/[_courses_];
+** https://www.jetbrains.com/academy/[JetBrains Academy] (https://hyperskill.org/[Hyperskill]) - subscribed;
+** https://leetcode.com/[LeetCode] - subscribed;
+** https://huggingface.co/[*_Hugging Face_*] - subscribed;
+** https://www.kaggle.com/[*_Kaggle_*] - free;
+** https://developers.google.com/[*_Google for Developers_*];
+* *Publications:*
+** https://mml-book.github.io/[Mathematics for Machine Learning Book] - a must!;
+** https://github.com/EbookFoundation/free-programming-books[List of Free Learning Resources (Books, etal.)]:
+*** https://ebookfoundation.github.io/free-programming-books-search/?&sect=books&file=free-programming-books-subjects.md[English by Subject];
+*** https://ebookfoundation.github.io/free-programming-books-search/?&sect=books&file=free-programming-books-langs.md[English by Programming Language];
+* *Munchkin BUSINESS!:*
+** https://www.startupschool.org/[*_Y Combinator Startup School_*], https://www.startupschool.org/curriculum[Curriculum]; and https://www.ycombinator.com/blog/startup-school[blog];
+** https://microconf.com/[*MicroConf*] and https://readmake.com/[*INDIE MAKERS*]
+** https://www.entrepreneur.com/leadership/you-need-a-mentor-heres-where-to-find-one-for-free/318024[Where is my FREE mentor?]; and https://micromentor.org/[MicroMentor]
+** Community: https://www.discourse.org/pricing[Discourse]; paid 🫤;
+** Conversions: https://kit.com/pricing[Convert Kit]; paid 🫤;
+** Run Business: https://zapier.com/pricing[Convert Zapier]; paid 🫤;
+** Cash Flow: https://stripe.com/resources/more/business[Stripe! 💰💰💰];
+** Business https://www.entrepreneur.com/businessideas[Ideas (Community)];
+** Business https://www.trendwatching.com/[Trend Watching];
+** Marketing Videos https://motionarray.com/pricing/[Motion Array] pricing;
+** Methods: https://youtu.be/iw1x0zos8Jo[HOOKED] Model and https://youtu.be/6Kz8NfntC6A[principles];
+* Coder mechanics:
+** https://www.fullstack.cafe/[Fullstack Cafe] (see rdd13r's subscription);
+
+
+
+== Code of Conduct
+
+- https://www.rust-lang.org/policies/code-of-conduct[*Rust Community Code of Conduct*]
+- https://github.com/stumpsyn/policies/blob/master/citizen_code_of_conduct.md[*Citizen Code of Conduct*]
+
+== Licensing Attributions
+
+- https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository[Licensing a repository]
+- https://choosealicense.com/[Choose an open-source license]
+- https://choosealicense.com/appendix/[choosealicense.com: Appendix]
+
+'''
+
+IMPORTANT: In addition to the explicitly chosen license, public repositories on GitHub are governed by the next two legal constructs:
+
+'''
+
+- https://docs.github.com/en/site-policy/github-terms/github-terms-of-service[GitHub Terms of Service]
+- https://en.wikipedia.org/wiki/Limitations_and_exceptions_to_copyright[Limitations and exceptions to copyright]
