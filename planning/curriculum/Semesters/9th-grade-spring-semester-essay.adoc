@@ -28,11 +28,13 @@ I learned about decision trees and what they do.
 And I made a masterclass to reflect on this.
 
 . link:../../../labs/Google/Decision-Trees-Full-Course/Decision-Trees.ipynb[Decision Trees Notebook] - understanding Decisions Trees: grade A+ (@rdd13r).
-. link:../../../labs/Google/Decision-Trees-Full-Course/Decision-Trees-Two.ipynb[Decision Trees Notebook Experimentation] - classifiers and Decisions Trees: grade A (@rdd13r).
+. link:../../../labs/Google/Decision-Trees-Full-Course/Decision-Trees-Two.ipynb[Decision Trees Notebook (Experimentation)] - experimenting classifiers and Decisions Trees: grade A (@rdd13r).
+. link:../../../labs/Google/Decision-Trees-Full-Course/Decision-Trees-Three.ipynb[Decision Trees Notebook (Bonus Work)] - completely bonus work grade A+ (@rdd13r).
 
+ (@rdd13r - 1 bonus point given on experimentation (part two) and and 2 points on presentation (part three))
 
+Next, I learned about *_Statistics and Probability_* for *Machine Learning*.
 
-Next I went on too learn about statistics and probability for machine learning.
 Some learning courses for these included: https://brilliant.org/?utm_source=search&utm_medium=cpc[Brilliant.org], https://www.khanacademy.org[Khan Academy], 2 courses from Derek Banas: https://www.youtube.com/watch?v=k_FISWJKoFQ[Probability], and
 https://www.youtube.com/watch?v=tcusIOfI_GM&t=1ss[Statistics]. +
 Last but not least I learned about the Stock market and how to make money from it. Such Ways on learning this are: https://www.youtube.com/@TheSwedishInvestor[The Swedish Investor], https://www.youtube.com/@marktilbury[Mark Tilbury], https://www.youtube.com/@clearvaluetax9382[Clear Value Tax] Along with
