@@ -52,3 +52,6 @@ ToDo: rdd13r -> upgrade for Q1 2025. Happy New Year!
 - [Productivity Game](https://www.youtube.com/@ProductivityGame "Productivity Game")
 - [LITTLE BIT BETTER](https://www.youtube.com/@littlebitbetter7 "LITTLE BIT BETTER")
 
+## Carry-Ons
+
+- ToDo: Find missing library resources. (student)
