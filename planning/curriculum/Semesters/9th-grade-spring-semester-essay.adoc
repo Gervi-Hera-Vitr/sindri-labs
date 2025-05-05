@@ -18,9 +18,18 @@ v1.0.0, Monday the 5th of May 2025 13:18 EST
 :imagesdir: ./resources/images
 ifdef::env-name[:relfilesuffix: .adoc]
 
-I am writing this essay to show the board of education of north carolina what I learned this semester. +
- I first achieved learning about decision trees and what they do.
-I made a masterclass on them here: https://github.com/Gervi-Hera-Vitr/sindri-labs/tree/main/labs/Google/Decision-Trees-Full-Course[Decision Trees] +
+I am writing this essay to show what I learned this semester. +
+
+(@rdd13r - point taken for skimping on the essay description.)
+
+== ML: Decision Trees
+
+I learned about decision trees and what they do.
+And I made a masterclass to reflect on this.
+
+. link:../../../labs/Google/Decision-Trees-Full-Course/Decision-Trees.ipynb[Decision Trees Notebook] - understanding Decisions Trees: grade A (@rdd13r).
+
+
 Next I went on too learn about statistics and probability for machine learning.
 Some learning courses for these included: https://brilliant.org/?utm_source=search&utm_medium=cpc[Brilliant.org], https://www.khanacademy.org[Khan Academy], 2 courses from Derek Banas: https://www.youtube.com/watch?v=k_FISWJKoFQ[Probability], and
 https://www.youtube.com/watch?v=tcusIOfI_GM&t=1ss[Statistics]. +
