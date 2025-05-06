@@ -1,0 +1,42 @@
+= Mímir Academy: Weekly Class Schedule
+R!dd13r rdd13r <12781006+rdd13r@users.noreply.github.com>
+v1.0, Tuesday May 6th 2025
+:description: DNPE Requirements for Mímir Academy homeschooling program.
+:sectnums:
+:sectanchors:
+:sectlinks:
+:icons: font
+:tip-caption: 💡️
+:note-caption: ℹ️
+:important-caption: ❗
+:caution-caption: 🔥
+:warning-caption: ⚠️
+:toc: preamble
+:toclevels: 2
+:toc-title: Mímir Academy
+:keywords: Mímir Academy
+:imagesdir: ./assets/img
+ifdef::env-name[:relfilesuffix: .adoc]
+
+Mímir Academy operates on a one-week unit of instruction.
+Each week follows a specified and standardized format.
+There are three different day categories.
+Each category is paired in two days.
+Each day consists of 2 (two) class pairs each 90 minutes long.
+Class pairs have a primary 90-minute session which covers theory.
+And a supporting 90-minute session that applies theory *_hands-on_*.
+It is the hands-on section graded on each block of instruction.
+
+Learning categories are as follows:
+
+. Hard Skills - math, reading, language arts, science;
+. Soft Skills - social, physical, and personal development;
+. Connecting skills - physical asset building with active learning.
+
+== Weekly Class Schedule
+
+. Fluffy Days - soft skills: Monday and Friday (Humanities)
+-- Primary subject: Selected Weekly in blocks of disciplines;
+. Smart Days - hard skills: Tuesday and Thursday (Sciences)
+--  Primary subject: Static rotating list of subjects;
+. Connecting Days - make skills: Wednesday and Saturday (Shop and business).

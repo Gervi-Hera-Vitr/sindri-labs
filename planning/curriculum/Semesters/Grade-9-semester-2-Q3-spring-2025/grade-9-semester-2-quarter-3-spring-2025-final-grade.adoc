@@ -1,0 +1,30 @@
+= Academic Year: Grade 9; Quarter 3 - Final Grade
+R!dd13r rdd13r <12781006+rdd13r@users.noreply.github.com>
+v1.0, Tuesday May 6th 2025
+:description: First Quarter of Mímir Academy homeschooling.
+:sectnums:
+:sectanchors:
+:sectlinks:
+:icons: font
+:tip-caption: 💡️
+:note-caption: ℹ️
+:important-caption: ❗
+:caution-caption: 🔥
+:warning-caption: ⚠️
+:toc: preamble
+:toclevels: 2
+:toc-title: Mímir Academy
+:keywords: Mímir Academy 2025 Q3
+:imagesdir: ./assets/img
+ifdef::env-name[:relfilesuffix: .adoc]
+
+* Humanities
+** Psychology: A+;
+** History: A+.
+* Tuesday and Thursday: Sciences
+** Machine Learning: A+
+** Mathematics: A-.
+* Wednesday and Saturday: Shop
+** General Repairs: A+;
+** Home Improvement: A+.
+
