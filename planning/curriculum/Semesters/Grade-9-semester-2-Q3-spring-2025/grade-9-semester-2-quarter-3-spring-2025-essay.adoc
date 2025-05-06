@@ -16,6 +16,7 @@ v1.0.0, Monday the 5th of May 2025 13:18 EST
 :toc-title: GitHub Learning Trail
 :keywords: Homeschool Learning Journey
 :imagesdir: ./resources/images
+:labsdir: ../../../../labs
 ifdef::env-name[:relfilesuffix: .adoc]
 
 I am writing this essay to show what I learned this semester. +
@@ -27,9 +28,11 @@ I am writing this essay to show what I learned this semester. +
 I learned about decision trees and what they do.
 And I made a masterclass to reflect on this.
 
-. link:../../../labs/Google/Decision-Trees-Full-Course/Decision-Trees.ipynb[Decision Trees Notebook] - understanding Decisions Trees: grade A+ (@rdd13r).
-. link:../../../labs/Google/Decision-Trees-Full-Course/Decision-Trees-Two.ipynb[Decision Trees Notebook (Experimentation)] - experimenting classifiers and Decisions Trees: grade A (@rdd13r).
-. link:../../../labs/Google/Decision-Trees-Full-Course/Decision-Trees-Three.ipynb[Decision Trees Notebook (Bonus Work)] - completely bonus work grade A+ (@rdd13r).
+. link:{labsdir}/Google/Decision-Trees-Full-Course/Decision-Trees.ipynb[Decision Trees Notebook] - understanding Decisions Trees: grade A+ (@rdd13r).
+
+. link:{labsdir}/Google/Decision-Trees-Full-Course/Decision-Trees-Two.ipynb[Decision Trees Notebook (Bonus Work)] - completely bonus work grade A+ (@rdd13r).
+
+. link:{labsdir}/Google/Decision-Trees-Full-Course/Decision-Trees-Three.ipynb[Decision Trees Notebook (Bonus Work)] - completely bonus work grade A+ (@rdd13r).
 
 I used the https://archive.ics.uci.edu/[UCI Machine Learning Repository] for this project.
 
@@ -51,6 +54,54 @@ Key concepts that I discovered and learned are:
 * https://www.youtube.com/@marktilbury[Mark Tilbury],
 * https://www.youtube.com/@clearvaluetax9382[Clear Value Tax], along with
 * https://auth.investopedia.com/realms/investopedia/protocol/openid-connect/auth?client_id=finance-simulator&redirect_uri=https%3A%2F%2Fwww.investopedia.com%2Fsimulator%2Fportfolio&state=04f87af4-dd16-4c64-ab0a-2ab55ae305a3&response_mode=fragment&response_type=code&scope=openid&nonce=59285f60-87cb-4aaa-b7b6-985116a666eb[Investopedia] - customized ChatGPT lesson from ASE organization (teacher-provided).
+
+== First Semester's Accomplishments
+
+. link:{labsdir}/Entrepreneurship-and-Business/CoreLessonsOfRichDadPoorDad.adoc[Core Lessons of Rich Dad Poor Dad]
+. link:{labsdir}/Entrepreneurship-and-Business/Review-of-little-red-book-of-selling/ReviewOfIntroduction.text[Review of Little Red Book of Selling]
+. link:{labsdir}/GitHub/MunchkinsGuideToGitHub.adoc[Munchkins Guide to GitHub]
+. link:{labsdir}/GitHub/ReviewOfGitHubQuestions.adoc[Review of GitHub Questions]
+. link:{labsdir}/GitHub/TheGuideToGithub.adoc[The Guide to GitHub]
+. link:{labsdir}/GitHub/TheGuideToGitHubChapterTwo[The Guide to GitHub - Chapter Two]
+. link:{labsdir}/GitHub/TheGuideToGitHubChapterThree[The Guide to GitHub - Chapter Three]
+. link:{labsdir}/History/EssayOfUkraineHistory.text[Essay of Ukraine History]
+. link:{labsdir}/History/EssayOfUkrainesHistoryRoughDraft.text[Essay of Ukraines History - Rough Draft]
+. link:{labsdir}/History/EssayOnModernRus(Ukraine).text[Essay on Modern Rus(Ukraine)]
+. link:{labsdir}/History/RagnarsConnectionToRus.text[Ragnar's Connection to Rus]
+. link:{labsdir}/History/HistoryOfHumanEvolution.adoc[History of Human Evolution]
+. link:{labsdir}/History/TheAgriculturalEvolution.adoc[The Agricultural Evolution]
+. link:{labsdir}/Science/Biology/BiologyChapter1.adoc[Biology Chapter 1]
+. link:{labsdir}/Science/Physics/Chapter1Physics.adoc[Physics Chapter 1]
+. link:{labsdir}/Psychology/HowIBeatMyTopTwoSaboteurs.md[How I Beat My Top Two Saboteurs]
+. link:{labsdir}/Psychology/HowToBeatYourSabotuers.text[How To Beat Your Sabotuers]
+. link:{labsdir}/Psychology/HowToBeatYourSabotuers.text[How To Beat Your Sabotuers]
+. link:{labsdir}/Psychology/Sabotuers-Assignment.text[Sabotuers Assignment]
+. link:{labsdir}/Presentation/AsciiDocChapter1.text[AsciiDoc Chapter 1]
+. link:{labsdir}/Presentation/AsciiDocChapter2.text[AsciiDoc Chapter 2]
+. link:{labsdir}/Presentation/AsciiDocChapter3.text[AsciiDoc Chapter 3]
+. link:{labsdir}/Presentation/AsciiDocChapter4.text[AsciiDoc Chapter 4]
+. link:{labsdir}/Presentation/AsciiDocChapter5.text[AsciiDoc Chapter 5]
+. link:{labsdir}/Math/MathNotesChapter1.text[Math Notes Chapter 1]
+. link:{labsdir}/Math/MathNotesChapter2.text[Math Notes Chapter 2]
+. link:{labsdir}/Math/MathNotesChapter3.text[Math Notes Chapter 3]
+. link:{labsdir}/Math/9thGradeCheatSheet.adoc[9th Grade Cheat Sheet]
+. link:{labsdir}/Math/10thGradeCheatSheet.adoc[10th Grade Cheat Sheet]
+. link:{labsdir}/Math/Statistics.adoc[Statistics]
+. link:{labsdir}/Google/102-ml-foundations/MyFundamentalsMiroBoard.ipynb[My Fundamentals Miro Board]
+. link:{labsdir}/Google/104-core-libraries/01-Numpy.ipynb[My Numpy Notebook]
+. link:{labsdir}/Google/104-core-libraries/02-Pandas.ipynb[My Pandas Notebook]
+. link:{labsdir}/Google/104-core-libraries/03-VisualLibraries.ipynb[My Visual Libraries Notebook]
+. link:{labsdir}/Google/104-core-libraries/04-TensorFlow.ipynb[My Tensor Flow Notebook]
+. link:{labsdir}/Google/104-core-libraries/05-SkLearn.ipynb[My SkLearn Notebook]
+. link:{labsdir}/Google/104-core-libraries/06-Pytorch.ipynb[My Pytorch Notebook]
+. link:{labsdir}/Google/105-Models-Basics-ML/KNN-Model.ipynb[My KNN Model Notebook]
+. link:{labsdir}/Google/105-Models-Basics-ML/LinearRegression.ipynb[My Linear Regression Notebook]
+. link:{labsdir}/Google/105-Models-Basics-ML/LogisticRegression.ipynb[My Logistic Regression Notebook]
+
+
+
+
+
 
 == Classes Missed or not Attempted
 
