@@ -1,0 +1,52 @@
+= Homeschooling Requirements
+R!dd13r rdd13r <12781006+rdd13r@users.noreply.github.com>
+v1.0, Tuesday May 6th 2025
+:description: DNPE Requirements for Mímir Academy homeschooling program.
+:sectnums:
+:sectanchors:
+:sectlinks:
+:icons: font
+:tip-caption: 💡️
+:note-caption: ℹ️
+:important-caption: ❗
+:caution-caption: 🔥
+:warning-caption: ⚠️
+:toc: preamble
+:toclevels: 2
+:toc-title: Mímir Academy
+:keywords: Mímir Academy DNPE Homeschooling Requirements
+:imagesdir: ./assets/img
+ifdef::env-name[:relfilesuffix: .adoc]
+:nc-education-law: https://hslda.org/legal/north-carolina
+:ndpe: https://ncadmin.nc.gov/citizens/home-school-information
+:ndpe-name: North Carolina Division of Non-Public Education (DNPE)
+
+Mímir Academy is located in North Carolina and is governed by {nc-education-law}[*_the state of North Carolina education law_*].
+Gracefully, NC provides a regulatory body to make this journey a more sustainable one: +
+{ndpe}[{ndpe-name}].
+
+
+== DNPE Requirements
+
+* *Duration*: _Operate on a **regular schedule**_ for at least _**nine (9)** calendar months_ each academic year.
+* Annual Testing *Subjects*:
+** English Grammar,
+** English Spelling and Vocabulary,
+** Reading Comprehension,
+** Mathematics.
+* Annual *Testing*:
+** *_Requirement_*:
+*** Administer a Nationally Standardized Achievement Test annually to each student;
+*** School selects, purchases, and administers the test.
+** *_Testing Options_*:
+*** 9-6
+
+
+== Mímir Academy Requirements: Gervi Héra Viskr Learning Trails
+
+Academy Regular Academic Year Schedule:: 40 weeks of instruction (over 9 months) in weekly sessions.
+
+Academy Attendance Requirements:: Unlike a regular school, Mimir Academy is a WHOLE Year Homeschooling Program.
+
+The link:./Academic-Year-School-Schedule.adoc[Mímir Academic Year Schedule] <-is published here.
+
