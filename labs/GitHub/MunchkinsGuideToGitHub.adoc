@@ -1,7 +1,7 @@
 = Munchkin's Guide: To GitHub
-CaptainLugaru rdd13r <72951616+CaptainLugaru@users.noreply.github.com>
+Cpt. Lugaru (CaptainLugaru) <72951616+CaptainLugaru@users.noreply.github.com>
 v1.0.0, Monday the 10th of February 2027 09:47 AM EST
-:description: Munchkins learning journey in GitHub, VCS, and all things Ops as part of Mímir homeschooling.
+:description: Munchkins' learning journey in GitHub, VCS, and all-things Ops as part of Mímir homeschooling.
 :sectnums:
 :sectanchors:
 :sectlinks:

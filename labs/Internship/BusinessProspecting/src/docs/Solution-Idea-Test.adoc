@@ -1,5 +1,5 @@
 = Step-by-Step Guide to Collecting and Organizing Contacts in Google Workspace
-CaptainLugaru rdd13r 72951616+CaptainLugaru@users.noreply.github.com
+Cpt. Lugaru (CaptainLugaru) 72951616+CaptainLugaru@users.noreply.github.com
 v1.0.0, Monday 3rd March 2025 04:21 PM EST
 :description: Optimized guide for business contact collection and management using Google Workspace.
 :sectnums:

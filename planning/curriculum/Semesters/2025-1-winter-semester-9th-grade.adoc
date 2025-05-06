@@ -1,0 +1,19 @@
+= 9th Grade
+
+== Monday and Friday: Humanities
+
+. Psychology: primary;
+. History: supporting;
+. Gymnasium.
+
+== Tuesday and Thursday: Sciences
+
+. Machine Learning: primary;
+. Mathematics: supporting;
+. Gymnasium.
+
+== Wednesday and Saturday: Shop
+
+. General Repairs: primary;
+. Home Improvement: secondary;
+. Weightlifting.
