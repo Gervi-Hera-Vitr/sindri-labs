@@ -1,0 +1,80 @@
+= Academic Year: Grade 9; Quarter 4
+R!dd13r rdd13r <12781006+rdd13r@users.noreply.github.com>
+v1.0, Tuesday May 6th 2025
+:description: Summer Quarter of Mímir Academy homeschooling 2025.
+:sectnums:
+:sectanchors:
+:sectlinks:
+:icons: font
+:tip-caption: 💡️
+:note-caption: ℹ️
+:important-caption: ❗
+:caution-caption: 🔥
+:warning-caption: ⚠️
+:toc: preamble
+:toclevels: 3
+:toc-title: Mímir Academy
+:keywords: Mímir Academy 2025 Q3
+:imagesdir: ./assets/img
+ifdef::env-name[:relfilesuffix: .adoc]
+
+This is the schedule containing all rotating subjects of the semester.
+
+
+== Weekly Class Schedule
+
+>> Take notes Here <<
+
+
+<<<
+
+Notes on Exposition:
+
+<<<
+
+=== Fluffy Days: Monday and Friday (Humanities)
+
+. Primary:
+* English Literature:
+.. Harper Lee -- To Kill a Mockingbird;
+.. Harper Lee -- Go Set a Watchman.
+. Secondary:
+* Essay and Writing:
+.. "Tales of Wasteland, NC": A fallout book;
+.. Watch the first Season of the Fallout Show together.
+
+== Smart Days: Tuesday and Thursday (Sciences)
+
+. Primary:
+* Physics:
+.. Newton's Laws;
+* Mathematics:
+.. Trigonometry;
+.. Geometry;
+.. Calculus;
+.. Algebra;
+.. Statistics.
+* Chemistry:
+.. Periodic Table;
+.. Elements;
+.. Chemical Reactions;
+.. Chemical Equations;
+.. Chemical Properties.
+. Secondary:
+.. *_ML Applications to Models of Life Simulation_* - weekly projects.
+
+== Connecting Days: Wednesday and Saturday (Shop and business)
+
+. Primary:
+* Business: Media Startup;
+* Entrepreneurship:
+. Secondary:
+* Advertisement and Marketing;
+* Manufacturing;
+* Product Design and Fitting.
+. Tertiary:
+* Weightlifting;
+* Home Improvement;
+* Fabrication.
+
+>> Exposition Summary Goes Here <<
