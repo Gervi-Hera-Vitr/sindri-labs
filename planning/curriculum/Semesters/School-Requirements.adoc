@@ -1,6 +1,6 @@
 = Homeschooling Requirements
 R!dd13r rdd13r <12781006+rdd13r@users.noreply.github.com>
-v1.0, Tuesday May 6th 2025
+v2.0, Tuesday May 6th 2025
 :description: DNPE Requirements for Mímir Academy homeschooling program.
 :sectnums:
 :sectanchors:
@@ -28,25 +28,80 @@ Gracefully, NC provides a regulatory body to make this journey a more sustainabl
 
 == DNPE Requirements
 
-* *Duration*: _Operate on a **regular schedule**_ for at least _**nine (9)** calendar months_ each academic year.
-* Annual Testing *Subjects*:
+. *Duration*: _Operate on a **regular schedule**_ for at least _**nine (9)** calendar months_ each academic year.
+* Mímir Academy is a WHOLE Year Homeschooling Program: 40 + 12 weeks.
+* The link:./Academic-Year-School-Schedule.adoc[Mímir Academic Year Schedule] <-is published here.
+. Annual Testing:
+* *Subjects*:
 ** English Grammar,
 ** English Spelling and Vocabulary,
 ** Reading Comprehension,
 ** Mathematics.
-* Annual *Testing*:
+* *Testing*:
 ** *_Requirement_*:
 *** Administer a Nationally Standardized Achievement Test annually to each student;
 *** School selects, purchases, and administers the test.
-** *_Testing Options_*:
-*** 9-6
+** *_Testing Options_*: Any nationally accredited scholastic achievement test.
 
 
-== Mímir Academy Requirements: Gervi Héra Viskr Learning Trails
+== Gervi Héra Viskr Testing
 
-Academy Regular Academic Year Schedule:: 40 weeks of instruction (over 9 months) in weekly sessions.
+_Testing is conducted only ONCE annually._
+Running school activities and grading are performed by hands-on real-world projects ONLY.
 
-Academy Attendance Requirements:: Unlike a regular school, Mimir Academy is a WHOLE Year Homeschooling Program.
+[cols="2,4,3,1", options="header,footer,autowidth"]
+|===
+| Test Name
+| Provider
+| Description
+| Cost
 
-The link:./Academic-Year-School-Schedule.adoc[Mímir Academic Year Schedule] <-is published here.
+h| MAP Growth
+| https://homeschoolboss.com/pricing/[Homeschool Boss]
+a|
+Adaptive *online test* covering +
+_math_, _reading_, _language_, +
+and _science_. +
+*_Has growth reports._*
+a|
+* $60 - Math + Reading
+* $10 - Language;
+* $20 - Science
 
+
+h| Woodcock-Johnson +
+IV
+| https://www.growingscholars.com/prices[Growing Scholars]
+a| Comprehensive assessment with +
+*_nine batteries_*, including +
+math fluency and +
+quantitative reasoning.
+a|
+* $95 per student
+
+h| ACT +
+(No Essay)
+| https://www.act.org/[ACT.org]
+| College admissions test with +
+strong math and science sections. +
+Optional writing section.
+a|
+* https://www.act.org/content/act/en/products-and-services/the-act/registration/fees.html[$65 (Base)];
+* $25 (Writing);
+* $4 (Science)
+
+
+h| Iowa Test +
+of Basic Skills +
+(ITBS)
+| https://www.triangleeducationassessments.com/iowa-tests/[Triangle Education Assessments]
+a| Standardized test measuring +
+skills in math, reading, +
+and language arts. +
+Administered at home.
+a|
+* $42 - $85
+
+4+a| _Mímir Academy standards are translated to elements of all implemented tests above._
+
+|===
