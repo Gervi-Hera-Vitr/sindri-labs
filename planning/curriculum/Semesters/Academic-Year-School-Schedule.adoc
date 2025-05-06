@@ -1,0 +1,100 @@
+= Mímis Academic Year Schedule: Gervi Héra Viskr
+R!dd13r rdd13r <12781006+rdd13r@users.noreply.github.com>
+v2.0, Tuesday May 6th 2025
+:description: Academy instruction and curriculum schedule by week number.
+:sectnums:
+:sectanchors:
+:sectlinks:
+:icons: font
+:tip-caption: 💡️
+:note-caption: ℹ️
+:important-caption: ❗
+:caution-caption: 🔥
+:warning-caption: ⚠️
+:toc: preamble
+:toclevels: 2
+:toc-title: Mímir Academy
+:keywords: Mímir Academy
+:imagesdir: ./assets/img
+ifdef::env-name[:relfilesuffix: .adoc]
+
+Mímis academic year is *_planned by week numbers_* -- not calendar months.
+_This *Ancient Norse School* follows a seasonal theme similar to year-around schools._
+
+. Academy Instruction Year is 40 (forty) weeks long.
+. Academy Instruction Break is 12 (twelve) weeks long.
+. All Federal Holidays are observed at the expense of the School Academic Year.
+. Each Quarter of the academic year is 10 (ten) weeks long.
+. Each Quarter Break of the academic year is 3 (three) weeks long.
+. Each Semester is thus 23 (twenty-three) weeks long.
+. Each Semester Break is a Quarter Break and is 3 (three) weeks long.
+
+<<<
+
+== Academic Year Notes: Gervi Héra Viskr
+
+. The Academy Instruction Year is planned and scheduled one week at a time, by week number.
+. Use this place for your note.
+
+<<<
+
+== Semester 1 Quarter 1
+
+. Starts on #Week #28# of the calendar year;
+.. this is mid-July.
+. Ends on #Week #37# of the calendar year;
+.. this is early September.
+
+== Semester 1 Break 1: Fall Nature Scouting.
+
+. Starts on #Week #38# of the calendar year;
+.. this is mid-September.
+. Ends on #Week #40# of the calendar year;
+.. this is early October.
+
+== Semester 1 Quarter 2
+
+. Starts on #Week #41# of the calendar year;
+.. this is early-October.
+. Ends on #Week #50# of the calendar year;
+.. this is mid-December.
+
+== Semester 1 Break 2: Winter Break.
+
+. Starts on #Week #51# of the calendar year;
+.. this is mid-December.
+. Traverses Week #52 of the calendar year;
+.. And ends on #Week #1# of the *_next_* calendar year;
+
+<<<
+
+== Semester 2 Quarter 3: Spring.
+
+. Starts on #Week #2# of the calendar year;
+.. this is early January;
+.. no exceptions, no short week one --
+.. instead, a week adjustment is made.
+. The last week of Quarter 3 is #Week #11# of the calendar year;
+.. this is mid-March;
+.. the final academic hours count is published.
+
+== Semester 2 Break 3: Spring Nature Scouting.
+
+. Starts on ##Week #12 ##of the calendar year;
+.. this is late-March.
+. Ends on #Week #14# of the calendar year;
+.. this is early-April.
+
+== Semester 2 Quarter 4: Summer.
+
+. Starts on #Week #15# of the calendar year;
+. this is early-April;
+. Ends on #Week #24# of the calendar year;
+.. this is mid-June.
+
+== _Summer Break_.
+
+. Starts on #Week #25# of the calendar year;
+.. this is late-June.
+. Ends on #Week #27# of the calendar year;
+.. this is early-July.
