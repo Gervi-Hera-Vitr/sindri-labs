@@ -22,6 +22,7 @@ ToDo: Add links to these institutions
 ** https://huggingface.co/[*_Hugging Face_*] - subscribed;
 ** https://www.kaggle.com/[*_Kaggle_*] - free;
 ** https://developers.google.com/[*_Google for Developers_*];
+** https://archive.ics.uci.edu/[UC Irvine Machine Learning Repository];
 * *Publications:*
 ** https://mml-book.github.io/[Mathematics for Machine Learning Book] - a must!;
 ** https://github.com/EbookFoundation/free-programming-books[List of Free Learning Resources (Books, etal.)]:

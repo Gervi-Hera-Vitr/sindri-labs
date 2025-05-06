@@ -1,0 +1,87 @@
+= Semester Essay: 9th Grade Spring Semester
+CaptainLugaru <72951616+CaptainLugaru@users.noreply.github.com>
+v1.0.0, Monday the 5th of May 2025 13:18 EST
+:description: Semester accomplishments, learning goals, and learning objectives
+:sectnums:
+:sectanchors:
+:sectlinks:
+:icons: font
+:tip-caption: 💡️
+:note-caption: ℹ️
+:important-caption: ❗
+:caution-caption: 🔥
+:warning-caption: ⚠️
+:toc: preamble
+:toclevels: 3
+:toc-title: GitHub Learning Trail
+:keywords: Homeschool Learning Journey
+:imagesdir: ./resources/images
+ifdef::env-name[:relfilesuffix: .adoc]
+
+I am writing this essay to show what I learned this semester. +
+
+ (@rdd13r - point taken for skimping on the essay description.)
+
+== ML: Decision Trees
+
+I learned about decision trees and what they do.
+And I made a masterclass to reflect on this.
+
+. link:../../../labs/Google/Decision-Trees-Full-Course/Decision-Trees.ipynb[Decision Trees Notebook] - understanding Decisions Trees: grade A+ (@rdd13r).
+. link:../../../labs/Google/Decision-Trees-Full-Course/Decision-Trees-Two.ipynb[Decision Trees Notebook (Experimentation)] - experimenting classifiers and Decisions Trees: grade A (@rdd13r).
+. link:../../../labs/Google/Decision-Trees-Full-Course/Decision-Trees-Three.ipynb[Decision Trees Notebook (Bonus Work)] - completely bonus work grade A+ (@rdd13r).
+
+I used the https://archive.ics.uci.edu/[UCI Machine Learning Repository] for this project.
+
+ (@rdd13r - 1 bonus point given on experimentation (part two) and and 2 points on presentation (part three))
+
+Next, I learned about *_Statistics and Probability_* for *Machine Learning*.
+I used the following courses for these:
+
+* https://brilliant.org/?utm_source=search&utm_medium=cpc[Brilliant.org], see curriculum for topics (teacher-provided);
+* https://www.khanacademy.org[Khan Academy], see curriculum for topics (teacher-provided);
+* Two (2) courses from Derek Banas:
+** https://www.youtube.com/watch?v=k_FISWJKoFQ[Probability], and
+** https://www.youtube.com/watch?v=tcusIOfI_GM&t=1ss[Statistics].
+
+Last but not least, I learned about the Stock market and how to make money from it.
+Key concepts that I discovered and learned are:
+
+* https://www.youtube.com/@TheSwedishInvestor[The Swedish Investor],
+* https://www.youtube.com/@marktilbury[Mark Tilbury],
+* https://www.youtube.com/@clearvaluetax9382[Clear Value Tax], along with
+* https://auth.investopedia.com/realms/investopedia/protocol/openid-connect/auth?client_id=finance-simulator&redirect_uri=https%3A%2F%2Fwww.investopedia.com%2Fsimulator%2Fportfolio&state=04f87af4-dd16-4c64-ab0a-2ab55ae305a3&response_mode=fragment&response_type=code&scope=openid&nonce=59285f60-87cb-4aaa-b7b6-985116a666eb[Investopedia] - customized ChatGPT lesson from ASE organization (teacher-provided).
+
+== Classes Missed or not Attempted
+
+Some Classes I missed though this semester are:
+
+. History, although I really wanted to continue my learning trails in Europe;
+. Science, especially the Introduction to Physics that was moved down;
+. And American Literature, because we're waiting on the right textbooks.
+
+These can be made up in the future.
+
+
+== My Wishlist for the Next Semester
+
+As for next semester, I plan on Learning:
+
+. Business and Economics;
+. Expanding Python;
+. Science and History of computers;
+. Mathematics of Algebra;
+. Continuation of ML.
+
+== Final Grade
+
+* (3) three points taken for the sloppy summary;
+* (4) four points granted for independent research and depth.
+
+#A+ grade.#
+
+
+
+
+
+
