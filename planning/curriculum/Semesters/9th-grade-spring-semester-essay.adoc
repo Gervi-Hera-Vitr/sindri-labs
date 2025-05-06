@@ -1,5 +1,5 @@
 = Semester Essay: 9th Grade Spring Semester
-CaptainLugaru <72951616+CaptainLugaru@users.noreply.github.com>
+Cpt. Lugaru (CaptainLugaru) <72951616+CaptainLugaru@users.noreply.github.com>
 v1.0.0, Monday the 5th of May 2025 13:18 EST
 :description: Semester accomplishments, learning goals, and learning objectives
 :sectnums:
@@ -78,7 +78,7 @@ As for next semester, I plan on Learning:
 * (3) three points taken for the sloppy summary;
 * (4) four points granted for independent research and depth.
 
-#A+ grade.#
+#A+ final grade.#
 
 
 
