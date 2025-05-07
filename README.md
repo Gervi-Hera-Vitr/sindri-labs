@@ -32,8 +32,6 @@ _Come, have a drink from [Yggdrasil](https://en.wikipedia.org/wiki/Yggdrasil "Yg
 
 See our security policy [here](https://github.com/Gervi-Hera-Vitr/sindri-labs/security/policy "Security Policy").
 
-ToDo: rdd13r -> upgrade for Q1 2025. Happy New Year!
-
 ### Contents
 
 **The curriculum and the learning trail are structured hierarchically as follows:**
@@ -45,9 +43,9 @@ ToDo: rdd13r -> upgrade for Q1 2025. Happy New Year!
 - [**curriculum**](./curriculum) - _**Planned Learning Materials**_: exact content of the **hands-on** learning;
    - **Core Philosophy** - student must master the skills of discovering facts, building arguments, and drawing conclusions;
    - **Granularity** - learning materials covered here must be exact;
-   - <span style="color: green">**Format**</span> - <span style="color: yellow">_ there should never be top-down teaching of any kind_</span> - <span style="color: lightgreen">_** all learning is ALWAYS collaborative**_</span>!
+   - <span style="color: green">**Format**</span> - <span style="color: yellow"> _there should never be top-down teaching of any kind_</span> - <span style="color: lightgreen">_** all learning is ALWAYS collaborative**_</span>!
 - [**journey**](./journey) - _**Philosophical Foundation**_: high-level governance of the **hands-on** learning **journey**;
-  - <span style="color: orange">**ToDo**</span>: _not fully commited to the learning trail yet - too few iterations_;
+  - <span style="color: orange">**ToDo**</span>: _not fully committed to the learning trail yet - too few iterations_;
   - **For teachers**: a book or a guide encapsulating the educational program;
   - **For students**: a structure of reference on trails within the journey;
   - **Artifact**: a publication built and deployed with Gradle and AsciiDoc.
@@ -59,7 +57,7 @@ ToDo: rdd13r -> upgrade for Q1 2025. Happy New Year!
 
 - [**docs**](./docs) - Documentation, Tutorials, and Onboarding Guide for teachers and students;
   - <span style="color: orange">ToDo</span>: placeholder waiting for consumers, contributors, and maintainers;
-  - **For teachers**: instructions on how to `fork` and setup own school program;
+  - **For teachers**: instructions on how to `fork` and set up own school program;
   - **For students**: mechanical and technical instructions such as IDE setup, etc.;
   - **Artifact**: inline project-bound documentation.
 - [.run](./.run) - Shared project run configurations: useful stuff.
@@ -74,7 +72,7 @@ ToDo: rdd13r -> upgrade for Q1 2025. Happy New Year!
 **Transient folders that should not be committed:** _git-excluded and removed on cleanup_.
 
 - [.gradle](./.gradle) - software project definition tool working folder.
-- [build](./build) - software project build folder - _**always**_ delete on cleanup.
+- [build](./build) - software project build folder - _**always**_ delete it on cleanup.
 
 **ASDF**
 
