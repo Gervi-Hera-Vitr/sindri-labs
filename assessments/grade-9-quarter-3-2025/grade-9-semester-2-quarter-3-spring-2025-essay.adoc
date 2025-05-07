@@ -21,10 +21,12 @@ v1.0.0, Monday the 5th of May 2025 13:18 EST
 :labsdir: {sindridir}/labs
 ifdef::env-name[:relfilesuffix: .adoc]
 :biology-how-whales-evolved: link:{curriculumdir}/Biology/onWhales/HowWhalesEvolved.adoc
-:engineering-how-i-will-study-ml: link:{curriculumdir}/Engineering/onLearningML/HowIWillStudyML.adoc
-:engineering-guide-to-github: link:{curriculumdir}/Engineering/onDevOps/MunchkinsGuideToGitHub.adoc
 :business-on-rich-dad-poor-dad: link:{curriculumdir}/Business/onKeyBooks/RobertKiyosaki-CoreLessonsOfRichDadPoorDad.adoc
 :business-on-the-little-red-book-of-selling: link:{curriculumdir}/Business/onKeyBooks/JeffreyGitomer-IntroductoryReviewOf-TheLittleRedBookOfSelling-12,5-PrinciplesOfSalesGreatness.adoc
+:engineering-how-i-will-study-ml: link:{curriculumdir}/Engineering/onLearningML/HowIWillStudyML.adoc
+:engineering-guide-to-github: link:{curriculumdir}/Engineering/onDevOps/MunchkinsGuideToGitHub.adoc
+:history-ragnar-and-rus: link:{curriculumdir}/History/onEasternEurope/EssayOnRagnarLodbrokConnectionToRus.adoc
+
 
 I am writing this essay to show what I learned this semester. +
 
@@ -76,7 +78,7 @@ Engineering::
 . 2025-03-07: {engineering-guide-to-github}[Munchkins' Guide to GitHub] -A+; additional bonus work - A+
 
 History::
-. 2025-03-17: {labsdir}/History/RagnarsConnectionToRus.text[Ragnar's Connection to Rus] - A+
+. 2025-01-24: {history-ragnar-and-rus}[Ragnar's Connection to Rus] - A+
 . 2025-03-17: {labsdir}/History/HistoryOfHumanEvolution.adoc[History of Human Evolution] - A+
 . 2025-03-17: {labsdir}/History/TheAgriculturalEvolution.adoc[The Agricultural Evolution] - A+
 
