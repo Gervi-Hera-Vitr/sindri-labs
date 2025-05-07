@@ -22,6 +22,7 @@ v1.0.0, Monday the 5th of May 2025 13:18 EST
 ifdef::env-name[:relfilesuffix: .adoc]
 :biology-how-whales-evolved: link:{curriculumdir}/Biology/onWhales/HowWhalesEvolved.adoc
 :engineering-how-i-will-study-ml: link:{curriculumdir}/Engineering/onLearningML/HowIWillStudyML.adoc
+:engineering-guide-to-github: link:{curriculumdir}/Engineering/onDevOps/MunchkinsGuideToGitHub.adoc
 :business-on-rich-dad-poor-dad: link:{curriculumdir}/Business/onKeyBooks/RobertKiyosaki-CoreLessonsOfRichDadPoorDad.adoc
 :business-on-the-little-red-book-of-selling: link:{curriculumdir}/Business/onKeyBooks/JeffreyGitomer-IntroductoryReviewOf-TheLittleRedBookOfSelling-12,5-PrinciplesOfSalesGreatness.adoc
 
@@ -73,14 +74,10 @@ Business::
 
 Engineering::
 . 2024-10-26: {engineering-how-i-will-study-ml}[How I will study ML] - A+
+. 2025-03-07: {engineering-guide-to-github}[Munchkins' Guide to GitHub] -A+; additional bonus work - A+
 
 == Raw Links
 
-. link:{labsdir}/GitHub/MunchkinsGuideToGitHub.adoc[Munchkins Guide to GitHub]
-. link:{labsdir}/GitHub/ReviewOfGitHubQuestions.adoc[Review of GitHub Questions]
-. link:{labsdir}/GitHub/TheGuideToGithub.adoc[The Guide to GitHub]
-. link:{labsdir}/GitHub/TheGuideToGitHubChapterTwo[The Guide to GitHub - Chapter Two]
-. link:{labsdir}/GitHub/TheGuideToGitHubChapterThree[The Guide to GitHub - Chapter Three]
 . link:{labsdir}/History/EssayOfUkraineHistory.text[Essay of Ukraine History]
 . link:{labsdir}/History/EssayOfUkrainesHistoryRoughDraft.text[Essay of Ukraines History - Rough Draft]
 . link:{labsdir}/History/EssayOnModernRus(Ukraine).text[Essay on Modern Rus(Ukraine)]
