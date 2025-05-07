@@ -71,10 +71,14 @@ Business::
 . 2025-03-07: {business-on-the-little-red-book-of-selling}[The Little Red Book of Selling] - not graded
 . 2025-03-17: {business-on-rich-dad-poor-dad}[Core Lessons of Rich Dad Poor Dad] - A+
 
-
 Engineering::
 . 2024-10-26: {engineering-how-i-will-study-ml}[How I will study ML] - A+
 . 2025-03-07: {engineering-guide-to-github}[Munchkins' Guide to GitHub] -A+; additional bonus work - A+
+
+History::
+. 2025-03-17: {labsdir}/History/RagnarsConnectionToRus.text[Ragnar's Connection to Rus] - A+
+. 2025-03-17: {labsdir}/History/HistoryOfHumanEvolution.adoc[History of Human Evolution] - A+
+. 2025-03-17: {labsdir}/History/TheAgriculturalEvolution.adoc[The Agricultural Evolution] - A+
 
 == Raw Links
 
