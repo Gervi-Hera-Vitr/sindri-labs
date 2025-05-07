@@ -26,6 +26,7 @@ ifdef::env-name[:relfilesuffix: .adoc]
 :engineering-how-i-will-study-ml: link:{curriculumdir}/Engineering/onLearningML/HowIWillStudyML.adoc
 :engineering-guide-to-github: link:{curriculumdir}/Engineering/onDevOps/MunchkinsGuideToGitHub.adoc
 :history-ragnar-and-rus: link:{curriculumdir}/History/onEasternEurope/EssayOnRagnarLodbrokConnectionToRus.adoc
+:history-brief-ukraine: link:{curriculumdir}/History/onEasternEurope/EssayOfUkraineHistory.adoc
 
 
 I am writing this essay to show what I learned this semester. +
@@ -79,8 +80,7 @@ Engineering::
 
 History::
 . 2025-01-24: {history-ragnar-and-rus}[Ragnar's Connection to Rus] - A+
-. 2025-03-17: {labsdir}/History/HistoryOfHumanEvolution.adoc[History of Human Evolution] - A+
-. 2025-03-17: {labsdir}/History/TheAgriculturalEvolution.adoc[The Agricultural Evolution] - A+
+. 2025-03-07: {history-brief-ukraine}[The Brief History of Ukraine] - A+
 
 == Raw Links
 
