@@ -25,6 +25,7 @@ ifdef::env-name[:relfilesuffix: .adoc]
 :business-on-the-little-red-book-of-selling: link:{curriculumdir}/Business/onKeyBooks/JeffreyGitomer-IntroductoryReviewOf-TheLittleRedBookOfSelling-12,5-PrinciplesOfSalesGreatness.adoc
 :engineering-how-i-will-study-ml: link:{curriculumdir}/Engineering/onLearningML/HowIWillStudyML.adoc
 :engineering-guide-to-github: link:{curriculumdir}/Engineering/onDevOps/MunchkinsGuideToGitHub.adoc
+:history-of-modern-rus: link:{curriculumdir}/History/onEasternEurope/EssayOnModernRus(Ukraine).adoc
 :history-ragnar-and-rus: link:{curriculumdir}/History/onEasternEurope/EssayOnRagnarLodbrokConnectionToRus.adoc
 :history-brief-ukraine: link:{curriculumdir}/History/onEasternEurope/EssayOfUkraineHistory.adoc
 
@@ -79,6 +80,7 @@ Engineering::
 . 2025-03-07: {engineering-guide-to-github}[Munchkins' Guide to GitHub] -A+; additional bonus work - A+
 
 History::
+. 2025-01-19: {history-of-modern-rus}[The Brief History of Modern Rus] - A+
 . 2025-01-24: {history-ragnar-and-rus}[Ragnar's Connection to Rus] - A+
 . 2025-03-07: {history-brief-ukraine}[The Brief History of Ukraine] - A+
 
