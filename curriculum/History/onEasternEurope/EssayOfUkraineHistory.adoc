@@ -18,13 +18,23 @@ v1.0, Friday, March 7, 2025
 :imagesdir: ./images
 :labsdir: ./labs
 ifdef::env-name[:relfilesuffix: .adoc]
-
-
+:balkans: https://en.wikipedia.org/wiki/Balkans
+:blacksea: https://en.wikipedia.org/wiki/Black_Sea
+:cucunteni-Trypilla: https://en.wikipedia.org/wiki/Cucuteni%E2%80%93Trypillia_culture
+:scytheins: https://en.wikipedia.org/wiki/Scytheins
+:sarmatians: https://en.wikipedia.org/wiki/Sarmatians
+:Slavs: https://en.wikipedia.org/wiki/Slavic_people
+:Varangians: https://en.wikipedia.org/wiki/Varangians
+:VladimirtheGreat: https://en.wikipedia.org/wiki/Vladimir_the_Great
+:YaroslavtheWise: https://en.wikipedia.org/wiki/Yaroslav_the_Wise
+:Indo-Europeans: https://en.wikipedia.org/wiki/Indo-European_people
+:kyiv: https://en.wikipedia.org/wiki/Kyiv
+:cossacks: https://en.wikipedia.org/wiki/Cossacks
 
 == Early Human Presence in Ukraine
 The history of Ukraine dates back millions of years to the early presence of hominids in Europe.
 The first humanoid creatures appeared in East Africa around 2.5 million years ago,
-and by 1.2 million years ago, early humans had migrated to Europe, including present-day Ukraine, via the Balkans.
+and by 1.2 million years ago, early humans had migrated to Europe, including present-day Ukraine, via the {balkans}[Balkans] .
 Ukraine has some of the oldest discovered settlements of hominids in Central and Eastern Europe, such as the sites at Coro and Medzh.
 Modern humans (Homo sapiens sapiens) emerged in East Africa around 200 thousand years ago and reached Europe approximately 40,000 years ago,
 gradually replacing Neanderthals.
@@ -48,72 +58,72 @@ The invention of pottery improved food storage.
 Permanent settlements and villages began to form, allowing population growth.
 
 == The Black Sea Flooded 5,600 BC
-A significant event in early Ukrainian history was the transformation of the Black Sea.
+A significant event in early Ukrainian history was the transformation of the {blacksea}[Black Sea] .
 Around 5,600 BC, the Mediterranean Sea spilled into what was then a freshwater lake, turning it into a salty sea.
 This flooding forced human migration and reshaped the surrounding environment.
 By the end of the Stone Age (5th–3rd millennium BC), metal tools, (copper and bronze) were introduced,
 marking the beginning of more complex social structures.
 
 == The Trypillian Culture (6th–3rd Millennium BC)
-One of Ukraine’s most significant prehistoric civilizations was the Trypillian culture:
+One of Ukraine’s most significant prehistoric civilizations was the {cucunteni-Trypilla}[Trypillan] culture:
 Settlements: Unfortified villages were built on fertile plains, some reaching populations of 20,000—larger than many medieval towns.
 Architecture: Houses were often two stories tall, showcasing advanced construction techniques.
 Agriculture: Prosperity was largely due to Ukraine’s fertile lands.
-The Indo-Europeans and the Domestication of the Horse
-Ukraine played a foundational role in the early history of the Indo-European people.
-Between the fourth and second millennia BC, Indo-European tribes migrated from Ukraine across Europe, Asia, and even into India.
+The {indo-europeans}[Indo-Europeans] and the Domestication of the Horse
+Ukraine played a foundational role in the early history of the {indo-europeans}[Indo-European] people.
+Between the fourth and second millennia BC, {indo-europeans}[Indo-European] tribes migrated from Ukraine across Europe, Asia, and even into India.
 A key development was the domestication of the horse in Ukraine around the fourth millennium BC.
-Horses revolutionized transportation and warfare, giving Indo-Europeans a military and economic advantage.
+Horses revolutionized transportation and warfare, giving {indo-europeans}[Indo-Europeans] a military and economic advantage.
 Ukrainian horses were highly valued, and their influence reached civilizations as far as Egypt.
 
 == The Scythians: Warriors of the Steppe (eighth Century BC – fourth Century AD)
-The Scythians, an Indo-Iranian nomadic tribe, returned to Ukraine in the eighth century BC after traveling through Asia.
+The {scytheins}[Scytheins], an Indo-Iranian nomadic tribe, returned to Ukraine in the eighth century BC after traveling through Asia.
 They established one of Europe’s earliest organized states with a government, taxation system, and a permanent army.
 
 === Scythian Achievements and Influence
-Cultural Legacy: The Scythians worshiped the sun and fire, buried their dead with red ocher and weapons, and were known for their rich gold artifacts.
+Cultural Legacy: The {scytheins}[Scytheins] worshiped the sun and fire, buried their dead with red ocher and weapons, and were known for their rich gold artifacts.
 Military Prowess: Their cavalry and mobile fortifications were among the strongest in the ancient world. Even Persian King Darius I failed to conquer them in 513 BC.
-Trade and Economy: They controlled vital trade routes and influenced cultures from the Balkans to the Middle East.
-The Scythians left a lasting impact on Ukrainian culture, including traditional clothing, phonetic traits in the Ukrainian language, and the famous trident symbol, later adopted by Kyivan Rus.
+Trade and Economy: They controlled vital trade routes and influenced cultures from the {balkans}[Balkans] to the Middle East.
+The {scytheins}[Scytheins] left a lasting impact on Ukrainian culture, including traditional clothing, phonetic traits in the Ukrainian language, and the famous trident symbol, later adopted by {kyiv}[Kyivan-Rus].
 
 == The Sarmatians: Successors to the Scythians (fourth Century BC – fourth Century AD)
-Following the decline of the Scythians, the Sarmatians, another Indo-Iranian tribe, took control of the region. Known for their powerful cavalry, they developed cataphracts, heavily armored horsemen, which influenced medieval knights.
+Following the decline of the Scythians, the {sarmatians}[Sarmatians], another Indo-Iranian tribe, took control of the region. Known for their powerful cavalry, they developed cataphracts, heavily armored horsemen, which influenced medieval knights.
 Their warrior culture, including female warriors known as "Amazons,"
-left a deep mark on Ukrainian traditions, particularly among the later Cossacks.
+left a deep mark on Ukrainian traditions, particularly among the later {cossacks}[cossacks].
 
 == The Slavs and the Rise of Kyivan Rus’
 By the first century AD, Slavic tribes were emerging in Ukraine.
 Early Greek sources referred to them as the Veneti,
 describing them as fierce warriors who practiced guerrilla warfare.
-The Slavs eventually divided into groups, including the Antes, who formed a powerful tribal union in Right-Bank Ukraine,
-and the Sclaveni who migrated to the Balkans.
+The {slavs}[Slavs] eventually divided into groups, including the Antes, who formed a powerful tribal union in Right-Bank Ukraine,
+and the Sclaveni who migrated to the {balkans}[Balkans].
 
 == The Founding of Kyiv (5th–6th Century AD)
-According to legend, Kyiv was founded by three brothers, Kyi, Shchek, and Khoryv,
+According to legend, {kyiv}[Kyiv] was founded by three brothers, Kyi, Shchek, and Khoryv,
 along with their sister Lybid.By the ninth century, it became a powerful center of trade and governance.
 
 == The Viking Influence (9th–10th Century AD)
-During the ninth century, Varangians (Vikings) arrived in Eastern Europe.
-They played a role in unifying Slavic tribes and establishing the foundations of Kyivan Rus,’
+During the ninth century, {varangians}[Varangians] (Vikings) arrived in Eastern Europe.
+They played a role in unifying Slavic tribes and establishing the foundations of {kyiv}[Kyivan-Rus],’
 a powerful state that dominated Eastern Europe.
 
-Kyivan Rus’ saw significant expansion under Prince Sviatoslav the Brave (964–972 AD),
-who crushed the Khazar Khaganate and extended Rus' influence deep into the Balkans.
+{kyiv}[Kyivan-Rus]’ saw significant expansion under Prince Sviatoslav the Brave (964–972 AD),
+who crushed the Khazar Khaganate and extended Rus' influence deep into the {balkans}[Balkans].
 
 == The Golden Age of Ukraine: Kyivan Rus’ (10th–11th Century AD)
 Volodymyr the Great (980–1015 AD)
-Christianization of Ukraine (988 AD): Volodymyr adopted Christianity, strengthening cultural ties with Byzantium.
+Christianization of Ukraine (988 AD): {vladimirthegreat}[Volodymyr] adopted Christianity, strengthening cultural ties with Byzantium.
 Military &amp; Governance: He expanded the state, implemented legal reforms, and fortified borders.
 
 Yaroslav the Wise (1018–1054 AD)
-Cultural &amp; Religious Growth: Yaroslav built St. Sophia’s Cathedral, developed Kyiv into a major European city, and promoted education.
+Cultural &amp; Religious Growth: {yaroslavthewise}[yaroslav] built St. Sophia’s Cathedral, developed {kyiv}[Kyiv] into a major European city, and promoted education.
 Legal Reforms: He introduced written laws and established trade and diplomatic alliances with European monarchs.
-By the 11th century, Kyiv was the second-largest city in Europe after Constantinople, with a population of around 150,000.
+By the 11th century, {kyiv}[Kyiv] was the second-largest city in Europe after Constantinople, with a population of around 150,000.
 
 == Conclusion: Ukraine’s Lasting Legacy
-From prehistoric settlers to the rise of Kyivan Rus,’
+From prehistoric settlers to the rise of {kyiv}[Kyivan-Rus],’
 Ukraine has been a cradle of civilization.
-It played a crucial role in Indo-European migrations,
+It played a crucial role in {indo-europeans}[Indo-European] migrations,
 horse domestication, and the development of one of Europe’s most influential medieval states.
 
 Even as history brought waves of invaders and changing rulers,
