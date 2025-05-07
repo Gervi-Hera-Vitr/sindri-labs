@@ -18,7 +18,7 @@ v2.0, Tuesday May 6th 2025
 :imagesdir: ./assets/img
 ifdef::env-name[:relfilesuffix: .adoc]
 
-this is the first quarter of the 9th grade, Mímir Academy homeschooling.
+This is the first quarter of the ninth (9th) grade, Mímir Academy homeschooling.
 
 == Weekly Class Schedule
 
@@ -38,4 +38,4 @@ this is the first quarter of the 9th grade, Mímir Academy homeschooling.
 
 == Final Grade
 
-9th grade quarter 3 final grade is A+.
+9th grade quarter 3 final grade is #A+#.

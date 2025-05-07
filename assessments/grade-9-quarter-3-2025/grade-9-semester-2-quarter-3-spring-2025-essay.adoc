@@ -15,9 +15,15 @@ v1.0.0, Monday the 5th of May 2025 13:18 EST
 :toclevels: 3
 :toc-title: GitHub Learning Trail
 :keywords: Homeschool Learning Journey
-:imagesdir: ./resources/images
-:labsdir: ../../../../labs
+:sindridir: ../..
+:imagesdir: ./images
+:curriculumdir: {sindridir}/curriculum
+:labsdir: {sindridir}/labs
 ifdef::env-name[:relfilesuffix: .adoc]
+:biology-how-whales-evolved: link:{curriculumdir}/Biology/onWhales/HowWhalesEvolved.adoc
+:engineering-how-i-will-study-ml: link:{curriculumdir}/Engineering/onLearningML/HowIWillStudyML.adoc
+:business-on-rich-dad-poor-dad: link:{curriculumdir}/Business/onKeyBooks/RobertKiyosaki-CoreLessonsOfRichDadPoorDad.adoc
+:business-on-the-little-red-book-of-selling: link:{curriculumdir}/Business/onKeyBooks/JeffreyGitomer-IntroductoryReviewOf-TheLittleRedBookOfSelling-12,5-PrinciplesOfSalesGreatness.adoc
 
 I am writing this essay to show what I learned this semester. +
 
@@ -57,8 +63,19 @@ Key concepts that I discovered and learned are:
 
 == First Semester's Accomplishments
 
-. link:{labsdir}/Entrepreneurship-and-Business/CoreLessonsOfRichDadPoorDad.adoc[Core Lessons of Rich Dad Poor Dad]
-. link:{labsdir}/Entrepreneurship-and-Business/Review-of-little-red-book-of-selling/ReviewOfIntroduction.text[Review of Little Red Book of Selling]
+Biology::
+. 2024-12-12: {biology-how-whales-evolved}[How Whales Evolved] - A+
+
+Business::
+. 2025-03-07: {business-on-the-little-red-book-of-selling}[The Little Red Book of Selling] - not graded
+. 2025-03-17: {business-on-rich-dad-poor-dad}[Core Lessons of Rich Dad Poor Dad] - A+
+
+
+Engineering::
+. 2024-10-26: {engineering-how-i-will-study-ml}[How I will study ML] - A+
+
+== Raw Links
+
 . link:{labsdir}/GitHub/MunchkinsGuideToGitHub.adoc[Munchkins Guide to GitHub]
 . link:{labsdir}/GitHub/ReviewOfGitHubQuestions.adoc[Review of GitHub Questions]
 . link:{labsdir}/GitHub/TheGuideToGithub.adoc[The Guide to GitHub]

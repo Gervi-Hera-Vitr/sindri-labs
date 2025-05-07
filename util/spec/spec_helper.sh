@@ -1,11 +1,11 @@
 # shellcheck shell=sh
 
-# Defining variables and functions here will affect all specfiles.
+# Defining variables and functions here will affect all spec files.
 # Change shell options inside a function may cause different behavior,
 # so it is better to set them here.
 # set -eu
 
-# This callback function will be invoked only once before loading specfiles.
+# This callback function will be invoked only once before loading spec files.
 spec_helper_precheck() {
   # Available functions: info, warn, error, abort, setenv, unsetenv
   # Available variables: VERSION, SHELL_TYPE, SHELL_VERSION

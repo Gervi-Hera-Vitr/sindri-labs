@@ -13,7 +13,8 @@ val asciidoctorJDiagramVersion: String by project
 private val log by lazy { LoggerFactory.getLogger("ai.gervi.hera.vitr.build") }
 
 plugins {
-    `kotlin-dsl` apply false
+    id("org.gradle.kotlin.kotlin-dsl") apply false  // `kotlin-dsl` forced version upgrade
+//    `kotlin-dsl` apply false  // `kotlin-dsl` maintainer's recommendation
     id("com.github.ben-manes.versions")
 
     kotlin("jvm")

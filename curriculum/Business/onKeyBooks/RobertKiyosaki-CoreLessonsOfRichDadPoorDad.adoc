@@ -1,0 +1,211 @@
+= Business: Core Lessons from *Rich Dad Poor Dad*
+Cpt. Lugaru (CaptainLugaru) <72951616+CaptainLugaru@users.noreply.github.com>
+v1.0, Monday, March 17, 2024
+:description: Business lessons from Rich Dad Poor Dad
+:sectnums:
+:sectanchors:
+:sectlinks:
+:icons: font
+:tip-caption: 💡️
+:note-caption: ℹ️
+:important-caption: ❗
+:caution-caption: 🔥
+:warning-caption: ⚠️
+:toc: preamble
+:toclevels: 1
+:toc-title: Rich Dad Poor Dad Business Lessons
+:keywords: Homeschool Learning Journey
+:imagesdir: ./images
+:labsdir: ./labs
+ifdef::env-name[:relfilesuffix: .adoc]
+
+This is a book by Robert Kiyosaki that I wanted to study for some time now.
+
+== Seven (7) Key Lessons in the Book:
+
+The entire book is structured around seven key lessons boys learn about money and life.
+
+=== The Rich Don’t Work for Money
+
+Meaning::
+Instead of working for money (trading time for a paycheck), the rich build or acquire assets that generate passive income.
+
+What Happens in the Book::
+Robert and Mike work for Rich Dad for free.
+They learn that working hard on a job doesn’t make you wealthy;
+*_it keeps you dependent_*.
+
+Real-Life Applications::
+* Create passive income streams through rental properties, dividends, or royalties.
+* Invest in businesses or assets that continue earning money without your daily involvement.
+
+Example::
+Buying vending machines, placing them in high-traffic areas, and collecting profits.
+
+=== Financial Literacy is Key
+
+Meaning::
+You must understand how money works—know the difference between assets and liabilities.
+
+What Happens in the Book::
+Rich Dad teaches Robert and Mike that #assets# *_put money in_* your pocket,
+while #liabilities# *_take money out_*.
+Many people confuse the two.
+
+Real-Life Applications::
+* *Buy income-generating assets*: stocks, bonds, rental properties.
+* Track your income, expenses, assets, and liabilities _using a simple balance sheet_.
+
+Example::
+Purchasing dividend-paying stocks that send you regular income,
+instead of buying a brand-new car
+-- a car is always a liability.
+
+=== Mind Your Own Business
+
+Meaning::
+Focus on building your own assets, even if you have a job.
+
+What Happens in the Book::
+Robert keeps his day job but builds his asset column on the side.
+Ray Kroc (McDonald’s) wasn’t in the burger business: he was in the real estate business.
+
+Real-Life Applications::
+* Start a side business or build a portfolio of investments.
+* Build intellectual property, i.e., write a book, create digital products.
+
+Example::
+Creating an online course on a skill you know and selling it on platforms like uDemy.
+
+=== The Power of Corporations & Tax Laws
+
+Meaning::
+The rich use corporations to _protect and grow their wealth_, gaining tax advantages.
+
+What Happens in the Book::
+Rich Dad teaches how corporations pay expenses before taxes,
+while employees pay taxes before expenses.
+
+Real-Life Applications::
+* Start an LLC or corporation to legally deduct business expenses, i.e., home office, car, travel.
+* Understand how to use tax laws to your advantage.
+
+Example::
+Running an online business through an LLC and deducting expenses like internet, phone, and education.
+
+=== The Rich Invent Money
+
+Meaning::
+With financial intelligence, you can create opportunities to build wealth that others can’t see.
+
+What Happens in the Book::
+Robert and Mike open a comic book library and earn money without working there.
+
+Real-Life Applications::
+* Spot undervalued assets such as real estate, stocks -- buy low, sell high.
+* Create products or services based on market demand.
+
+Example::
+Flipping furniture by buying inexpensive pieces, restoring them, and selling at a profit.
+
+=== Work to Learn, Not to Earn
+
+Meaning::
+Focus on acquiring skills that will help you build wealth rather than just working for a paycheck.
+
+What Happens in the Book::
+Robert works different jobs to learn sales, marketing, and management.
+
+Real-Life Applications::
+* Take jobs that build sales, marketing, or leadership skills.
+* Learn about investing, accounting, and business management.
+
+Example::
+Working part-time on a sales job to get comfortable closing deals,
+then using those skills to sell your own product.
+
+=== Overcoming Obstacles -- Important!
+
+Meaning::
+*_Fear, laziness, bad habits, cynicism, and arrogance prevent most people from achieving financial freedom._*
+
+What Happens in the Book::
+Rich Dad explains how fear keeps people stuck in the rat race, and how greed, bad habits, and cynicism trap them.
+
+Real-Life Applications::
+* Build the habit of investing a percentage of income monthly.
+* Face the fear of investing by starting small and learning as you go.
+
+Example::
+Automating $50 a month into an index fund, even when it feels scary or unfamiliar.
+
+== Key Events in the Book
+
+Robert and Mike Work for Free::
+They dust shelves for 10 cents an hour and later for free, learning that traditional work won’t make them rich.
+
+First Business (Comic Book Library)::
+They create a system that generates passive income.
+
+Rich Dad’s Lessons on Assets vs. Liabilities::
+Teaching them to differentiate what makes money and what drains money.
+
+The Tax and Corporation Lesson::
+Explaining why corporations are taxed differently from individuals.
+
+Real-Life Investing Examples::
+Robert’s story of flipping real estate by buying undervalued property and selling for profit.
+
+== How to Make Money Work for You (Specific Examples)
+
+Buy Assets That Generate Passive Income::
+- Rental Properties
+- Dividend Stocks
+- Peer-to-peer lending
+- Royalties from books/music
+
+Create Scalable Businesses::
+- E-commerce stores
+- Digital products, (ebooks, online courses)
+- Licensing deals
+
+Leverage Tax Laws::
+- Start an LLC for your side hustle
+- Deduct business expenses legally
+- Invest in tax-advantaged accounts, (IRAs, 401ks)
+
+Invest in Financial Education::
+- Take courses on investing, real estate, and business
+- Read books and learn from mentors
+
+Build Multiple Streams of Income::
+- Income from a job + side hustle + investments
+- Diversify so you’re not dependent on one source
+
+== Conclusion
+
+The book "Rich Dad Poor Dad" isn’t just about making money;
+it’s about changing your mindset, becoming financially educated,
+and making strategic moves to build lasting wealth.
+
+Making *_money work for you_* means:
+
+. Owning and controlling assets;
+. Understanding systems (like taxes and corporations);
+. Continuously learning and growing your financial IQ.
+
+== Final Grade
+
+#A+#
+
+== Bonus Reading and Assignment
+
+. ToDo: How do Robert Kiyosaki's lessons compare to those of Warren Buffett?
+. ToDo: How Robert Kiyosaki made his money and how much?
+. ToDo: How does Robert Kiyosaki disagree with Warren Buffett?
+
+== References
+
+These are additional materials teachers may find useful to share with students.
+
+* By https://www.youtube.com/@littlebitbetter7[LITTLE BIT BETTER], YouTube Channel: video episode https://youtu.be/jFNdARDCrKA[rich Dad Poor Dad - Robert Kiyosaki FULL. SUMMARY]

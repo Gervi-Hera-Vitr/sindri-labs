@@ -4,6 +4,7 @@ pluginManagement {
 
     val versionOfToolchainsFoojayResolver: String by extra
 
+    val versionOfKotlinDsl: String by extra
     val versionOfKotlin: String by extra
     val versionOfKtor: String by extra
 
@@ -16,6 +17,7 @@ pluginManagement {
 
         kotlin("jvm") version versionOfKotlin
         id("org.jetbrains.dokka") version versionOfDokka
+        id("org.gradle.kotlin.kotlin-dsl") version versionOfKotlinDsl        // `kotlin-dsl` forced version upgrade, otherwise remove mention: FYI, matilda does not work with 5.x anymore
 
         jacoco
 

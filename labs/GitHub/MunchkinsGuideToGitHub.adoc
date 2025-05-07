@@ -1,7 +1,7 @@
-= Munchkin's Guide: To GitHub
+= Engineering: Munchkin's Guide to GitHub
 Cpt. Lugaru (CaptainLugaru) <72951616+CaptainLugaru@users.noreply.github.com>
-v1.0.0, Monday the 10th of February 2027 09:47 AM EST
-:description: Munchkins' learning journey in GitHub, VCS, and all-things Ops as part of Mímir homeschooling.
+v1.0, Friday March 7, 2025
+:description: Munchkins' long learning trail in GitHub, VCS, and all-things Ops as part of Mímir homeschooling.
 :sectnums:
 :sectanchors:
 :sectlinks:
@@ -17,6 +17,7 @@ v1.0.0, Monday the 10th of February 2027 09:47 AM EST
 :keywords: AI ML Ops Learning Journey
 :imagesdir: ./resources/images
 ifdef::env-name[:relfilesuffix: .adoc]
+
 :git-docs: https://git-scm.com/doc
 :github-docs: https://docs.github.com/en
 :github-actions-docs: https://docs.github.com/en/actions

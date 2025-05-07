@@ -21,6 +21,10 @@ NOTE: This is the general references for ALL learning resources of this curricul
 ** https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/[_AsciiDoc Syntax Quick Reference_]
 ** https://asciidoctor.org/docs/asciidoc-writers-guide/[*_AsciiDoc Writer’s Guide_*]
 
+== Topic References
+
+* https://course.fast.ai/[Practical Deep Learning for Coders]
+* https://aima.cs.berkeley.edu/[Artificial Intelligence: A Modern Approach, 4th US ed.]
 
 == Ops References
 

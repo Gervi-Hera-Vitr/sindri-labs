@@ -1,0 +1,83 @@
+= Business: Introductory Review of The Little Red Book of Selling
+Cpt. Lugaru (CaptainLugaru) <72951616+CaptainLugaru@users.noreply.github.com>
+v1.0, Monday, March 7, 2025
+:description: Business lessons from the Little Red Book of Selling
+:sectnums:
+:sectanchors:
+:sectlinks:
+:icons: font
+:tip-caption: 💡️
+:note-caption: ℹ️
+:important-caption: ❗
+:caution-caption: 🔥
+:warning-caption: ⚠️
+:toc: preamble
+:toclevels: 1
+:toc-title: The Little Red Book of Selling
+:keywords: Homeschool Learning Journey
+:imagesdir: ./images
+:labsdir: ./labs
+ifdef::env-name[:relfilesuffix: .adoc]
+
+This is my minimalistic review of the introduction to the little red book of selling.
+
+== Lessons
+
+Be Liked::
+The very first lesson we learn is that if *_a customer likes you_*,
+they believe in you, trust you, +
+and *then* +
+they *_MIGHT_* buy from you.
+
+More importantly, people DON'T like to be sold to, *_but they love to buy_*!
+
+Why do people buy?::
+Between learning _"how to sell,"_ and,
+*_why do people buy_*: +
+*_Learning why people buy is 10000x more important!_*
+
+Many think they know why customers buy, but in reality they don't.
+This is proven when the seller observes:
+
+. Receiving price objections;
+. Have to send bids or proposals;
+. A customer claims to be "satisfied with the present supplier";
+. No one is returning their calls;
+. Customers complain the economy is slow.
+
+== Here is the truth:
+
+Trust::
+People buy because they LIKE their sales rep.
+They like them and from that they have TRUST.
+
+. They understand *_WHAT_* they are buying.
+. They see (operating on) the *_difference_* between the *person* and the _company_ there buying from.
+. They know the *_value_* of the product there purchasing.
+. They have *_faith in_* (the expectation of) their sales representative.
+. They have confidence in their sales representative.
+. They have comfort with their sales representative.
+. They *_feel_* their needs are satisfied by the product or service.
+. The price *_seems_* fair (will not verify, needs to feel instead).
+. The product or service will increase their productivity - perceived cost reduction.
+. The product or service will increase their profit - perceived revenue increase or cost reduction.
+. IMPORTANT: They feel that -- the salesperson is trying to help them build their business to earn the sale. Such a salesperson feels valuable to them.
+
+== Understand your customer:
+
+The best way to understand your customers::
+. Call the best of them;
+. Invite them to a seminar on how to build THEIR business;
+. Offer great luxury and food;
+. Tell them there will also be 15–20 minutes worth of questions on how to improve.
+
+* Strengthen their relationship;
+* Craft some questions about how you meet their needs;
+* Ask them for what they are looking for in a vendor/partner;
+
+*_Record the session to study over and over._*
+
+== Final Grade
+
+This assignment is NOT graded -- the book is over the kid's head.
+We will revisit next year.

@@ -231,7 +231,7 @@ if bootstrapped '' false; then
 else
   echo "$fg_bold[green]|V| Catalog pass$reset_color - (bootstrapped): false ==> specifying file://$_actions_commons_debug_last_directory in location $(pwd)"
 fi
-if bootstrapped google-ai-labs true; then
+if bootstrapped sindri-labs true; then
   echo "$fg_bold[green]|V| Catalog pass$reset_color - (bootstrapped): true ==> specifying file://$_actions_commons_debug_last_directory in location $(pwd)"
 else
   echo "$fg_bold[red]|X| Catalog FAIL$reset_color - (bootstrapped): false ==> specifying file://$_actions_commons_debug_last_directory in location $(pwd)"
