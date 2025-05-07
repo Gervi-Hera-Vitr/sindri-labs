@@ -18,12 +18,24 @@ v1.0, Sunday, January 19, 2025
 :imagesdir: ./images
 :labsdir: ./labs
 ifdef::env-name[:relfilesuffix: .adoc]
+:sigurd-norsk-name: Sigurðr Hringr,
+:sigurd: https://en.wikipedia.org/wiki/Sigurd_Ring
+:real-ragnar: https://www.historic-uk.com/HistoryUK/HistoryofEngland/Ragnar-Lothbrok/
+:gandalf: https://en.wikipedia.org/wiki/Gandalf_Alfgeirsson
+:alfheim: https://en.wikipedia.org/wiki/%C3%81lfheimr_(region)
 
 
-Ragnar Lothbrok, A legendary figure who's story has been told for 1000 years has been surrounded in myth and legend.
-In this essay we will Separate Legend from fact.
-It starts with Sigurdr hringr, king of the swedes Who had a bunch of Mistresses and A wife, Queen of the Swedes.
-She gave birth to prince Ragnar, unfortunately for ragnar his mother died when he was 15, and his father married a woman who was about his age of ragnar.
+_{real-ragnar}[Ragnar Lodbrok], a legendary figure whose story has been told for 1000 years, has been surrounded by myth and legend.
+In this essay, we will Separate Legend from fact._
+
+It starts with {sigurd}[{sigurd-norsk-name}] (Sigurd Ring), the king of the Swedes.
+Sigurd had a bunch of Mistresses and A wife, Alfhild, the Queen of the Swedes.
+Alfhild was a daughter of king Gandalf Alfgeirsson, the king of the {alfheim}[Álfheimr].
+She gave birth to prince Ragnar.
+Unfortunately for Ragnar, his mother died when he was 15.
+And his father, Sigurd, married a woman about Ragnar's age.
+This is a story of its own.
+
 He wanted to marry the daughter of the king of Vendel, but there family refused.
 So the king of sweden went to war the king of Vendel and won, so to protect there daughter the king ordered his sons to poison her.
 When the king who by the way is 60 years old, found the body, he was super pissed. So he burned her body on a boat which is a tradition usually only saved for queens.
