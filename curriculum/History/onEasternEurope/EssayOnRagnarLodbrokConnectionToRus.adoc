@@ -18,19 +18,48 @@ v1.0, Friday, January 24, 2025
 :imagesdir: ./images
 :labsdir: ./labs
 ifdef::env-name[:relfilesuffix: .adoc]
+:ragnar: https://en.wikipedia.org/wiki/Ragnar_Lodbrok
+:ragnar-tale: https://en.wikipedia.org/wiki/Tale_of_Ragnar_Lodbrok
+:rus: https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CK%5CY%5CKyivanRushDA.htm
+:varangians: https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CV%5CA%5CVarangians.htm
+:dnipro: https://en.wikipedia.org/wiki/Dnipro
+:kyiv: https://en.wikipedia.org/wiki/Kyiv
+:bjorn: https://en.wikipedia.org/wiki/Bj%C3%B6rn_Ironside
+:ivar: https://en.wikipedia.org/wiki/Ivar_the_Boneless
+:rurik: https://en.wikipedia.org/wiki/Rurik
 
 
-Ragnar Lothbrok was a legendary Norse figure who has many sagas.
- While Ragnar and Ukraine are not directly tied to one another there are indirect links between the norse vikings and modern day ukraine.
-This is through varangian and kievan Rus. here are all of the possible connections.
-1. Varangians and the Kievan Rus'
-During the viking age(8th - 11th century) Norse traders, warriors, settlers, known as Varangians, ventured eastward to eastern Europe.
-They established trade routes and settlements along rivers like Dnieper and volga.
-These varangians were instrumental in the founding of kievan Rus', a federation of Slavic and Norse tribes centered in kyiv.
-Ragnars sons like Bjorn Ironside and Ivar the boneless are often tide to stories of viking expansion in those regions.
-2. Rurik and the Rurikid Dynasty
-A significant connection to kukraine lies in the norse prince Rurik, who is credited with founding the Rurikid Dynasty around 862.
-There dynasty ruled the kievan rus for centuries and established Kyyib as a powerful political and cultural center.
+{ragnar}[Ragnar Lodbrok] was a legendary Norse figure who {ragnar-tale}[_has many sagas_].
+While Ragnar and Ukraine are not directly tied to one another,
+there are indirect links between the Norse vikings and modern-day Ukraine.
+
+This is through {varangians}[*_Varangian_*] and {rus}[*_Kyivan Rus'_*].
+And here are all the possible connections:
+
+Varangians and the Kyivan Rus'::
+During the viking age (8th–11th century) Norse traders, warriors, settlers, known as Varangians,
+ventured eastward to Eastern Europe.
+They established *_trade routes_* and _settlements_ along rivers like {dnipro}[Dnipro] and Volga.
+These varangians were instrumental in the founding of the Kyivan Rus'
+-- a *federation* of *_Slavic and Norse Tribes_* centered in {kyiv}[Kyiv].
+
+Ragnar's sons like {bjorn}[Björn Ironside] and {ivar}[Ivar the Boneless] are often tide to stories of viking expansion in those regions.
+
+Rurik and the Rurikid Dynasty::
+A significant connection of Vikings to Ukraine lies in {rurik}[_the Norse prince Rurik_],
+who is credited with founding the Rurikid Dynasty around 862.
+The Rurikid Dynasty was a powerful entity that ruled the Kyivan Rus' for centuries and established Kyiv as a powerful political and cultural center.
+
 Rurik was a Varangian.
-Ultimately there are lots of myths and legends of other connections but those seem to be less historical then these answers.
-In the end Ragnar had a certain amount of indirect influence to ukraine but they were impacted never the less.
+Ultimately, there are lots of myths and legends of other connections between Vikings and Ukraine.
+Some of these are more historical, but most seem less supported as they are more speculative.
+
+In the end, Ragnar had a certain amount of indirect influence on Ukraine.
+This influence stemmed more from the Varangian cultural helping shape the multinational and proto-democratic Rus' peoples
+rather than from Ragnar as a person who was influential.
+
+== Final Grade: A+
+
+#A+#
+
+_This summary is short and effective._
