@@ -1,10 +1,32 @@
+= History: The Brief History of Modern Rus
+Cpt. Lugaru (CaptainLugaru) <72951616+CaptainLugaru@users.noreply.github.com>
+v1.0, Sunday, January 19, 2025
+:description: Exploratory research into the history of modern Rus
+:sectnums:
+:sectanchors:
+:sectlinks:
+:icons: font
+:tip-caption: 💡️
+:note-caption: ℹ️
+:important-caption: ❗
+:caution-caption: 🔥
+:warning-caption: ⚠️
+:toc: preamble
+:toclevels: 1
+:toc-title: History of Ukraine as Rus
+:keywords: Homeschool Learning Journey
+:imagesdir: ./images
+:labsdir: ./labs
+ifdef::env-name[:relfilesuffix: .adoc]
+
+
 Ragnar Lothbrok, A legendary figure who's story has been told for 1000 years has been surrounded in myth and legend.
 In this essay we will Separate Legend from fact.
 It starts with Sigurdr hringr, king of the swedes Who had a bunch of Mistresses and A wife, Queen of the Swedes.
 She gave birth to prince Ragnar, unfortunately for ragnar his mother died when he was 15, and his father married a woman who was about his age of ragnar.
 He wanted to marry the daughter of the king of Vendel, but there family refused.
 So the king of sweden went to war the king of Vendel and won, so to protect there daughter the king ordered his sons to poison her.
-When the king who by the way is 60 years old, found the body, he was super pissed.  So he burned her body on a boat which is a tradition usually only saved for queens.
+When the king who by the way is 60 years old, found the body, he was super pissed. So he burned her body on a boat which is a tradition usually only saved for queens.
 But he felt that he lost to much so he got on a ship with the burning girls corpse so he could die with his teenage crush.
 Thanks though to ancient runes recently discovered, his last words were to his son, which he pointed too as he was burning on the boat was:
 "Follow the path I laid out for you and reach the goal I never could, become the ultimate king son, For it is in your blood."
@@ -50,7 +72,5 @@ He forced them to pay him 7000 pounds of gold. And then he raided every costal v
 They had 4 legendary sons. Ragnar got old and lazy and faded into legends. but he was still alive and wanted to add to his story before he passed and his sons surpassed him.
 Ragnar decided to end his days attacking northumbria. where his first raids started. Ragnar and his men raided deep into ireland. But the leader of Northumbria was pretending to lose.
 They trapped and surrounded him in ireland and won in a 1 sided battle. They captured him and threw him into a pit of snakes.
-This is what he wanted though, so he had his famous death speech as they were preparing to throw him in:"It gladdens me to know that balder's Father makes ready the benches for banquet, soon we shall be drinking ale from the curved horn's, the champion that comes into Odin's dwelling does not lament his death I shall not enter his hall with words of fear upon my lips, the Aesir welcomes me, death comes without lamenting eager am I to depart this Disir Summon me home those who Odin sends for me the valkries from the halls of the lord of the host. gladly I shall drink ale in the high seat  with the aesir, the days of my life are ended, and I laugh while I die." His last words were, "if the porkers knew the punishment of the boar pig, Surly they would break into the sty and hasten to loose him from his affliction"
+This is what he wanted though, so he had his famous death speech as they were preparing to throw him in:"It gladdens me to know that balder's Father makes ready the benches for banquet, soon we shall be drinking ale from the curved horn's, the champion that comes into Odin's dwelling does not lament his death I shall not enter his hall with words of fear upon my lips, the Aesir welcomes me, death comes without lamenting eager am I to depart this Disir Summon me home those who Odin sends for me the valkries from the halls of the lord of the host. gladly I shall drink ale in the high seat with the aesir, the days of my life are ended, and I laugh while I die." His last words were, "if the porkers knew the punishment of the boar pig, Surly they would break into the sty and hasten to loose him from his affliction"
 Once they heard the legend, there father, Has died, his sons gathered the largest viking army in history, the great heathen army which would invade England in 865 and they raided. they unleashed absolute violence for the next 14 years. all to avenge ragnar.
-
-

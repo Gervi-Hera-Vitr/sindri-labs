@@ -1,3 +1,25 @@
+= History: Researching connection between Ragnar Lodbrok and Rus
+Cpt. Lugaru (CaptainLugaru) <72951616+CaptainLugaru@users.noreply.github.com>
+v1.0, Friday, January 24, 2025
+:description: Exploratory research into the history of Vikings in Ukraine—Ragnar Lodbrok
+:sectnums:
+:sectanchors:
+:sectlinks:
+:icons: font
+:tip-caption: 💡️
+:note-caption: ℹ️
+:important-caption: ❗
+:caution-caption: 🔥
+:warning-caption: ⚠️
+:toc: preamble
+:toclevels: 1
+:toc-title: History of Ragnar Lodbrok and Rus
+:keywords: Homeschool Learning Journey
+:imagesdir: ./images
+:labsdir: ./labs
+ifdef::env-name[:relfilesuffix: .adoc]
+
+
 Ragnar Lothbrok was a legendary Norse figure who has many sagas.
  While Ragnar and Ukraine are not directly tied to one another there are indirect links between the norse vikings and modern day ukraine.
 This is through varangian and kievan Rus. here are all of the possible connections.
@@ -12,4 +34,3 @@ There dynasty ruled the kievan rus for centuries and established Kyyib as a powe
 Rurik was a Varangian.
 Ultimately there are lots of myths and legends of other connections but those seem to be less historical then these answers.
 In the end Ragnar had a certain amount of indirect influence to ukraine but they were impacted never the less.
-
