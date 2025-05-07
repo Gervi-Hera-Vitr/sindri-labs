@@ -1,4 +1,25 @@
-The Full History of Ukraine
+= History: The Brief History of Ukraine
+Cpt. Lugaru (CaptainLugaru) <72951616+CaptainLugaru@users.noreply.github.com>
+v1.0, Friday, March 7, 2025
+:description: Exploratory research into the history of Ukraine
+:sectnums:
+:sectanchors:
+:sectlinks:
+:icons: font
+:tip-caption: 💡️
+:note-caption: ℹ️
+:important-caption: ❗
+:caution-caption: 🔥
+:warning-caption: ⚠️
+:toc: preamble
+:toclevels: 1
+:toc-title: History of Ukraine
+:keywords: Homeschool Learning Journey
+:imagesdir: ./images
+:labsdir: ./labs
+ifdef::env-name[:relfilesuffix: .adoc]
+
+
 
 Early Human Presence in Ukraine
 The history of Ukraine dates back millions of years to the early presence of hominids in Europe.
@@ -10,7 +31,7 @@ gradually replacing Neanderthals.
 
 Prehistoric Developments in Ukraine
 As early humans settled in Ukraine, they developed tools, art, and social structures:
-Early Art & Tools: Ornaments, figurines, and tools made from mammoth ivory have been discovered, along with advanced tools like needles and musical instruments.
+Early Art &amp; Tools: Ornaments, figurines, and tools made from mammoth ivory have been discovered, along with advanced tools like needles and musical instruments.
 Religious Beliefs: Burial practices indicate the emergence of spiritual traditions.
 Architecture: The construction of mammoth-bone dwellings shows early architectural advancements.
 
@@ -82,10 +103,10 @@ who crushed the Khazar Khaganate and extended Rus' influence deep into the Balka
 The Golden Age of Ukraine: Kyivan Rus’ (10th–11th Century AD)
 Volodymyr the Great (980–1015 AD)
 Christianization of Ukraine (988 AD): Volodymyr adopted Christianity, strengthening cultural ties with Byzantium.
-Military & Governance: He expanded the state, implemented legal reforms, and fortified borders.
+Military &amp; Governance: He expanded the state, implemented legal reforms, and fortified borders.
 
 Yaroslav the Wise (1018–1054 AD)
-Cultural & Religious Growth: Yaroslav built St. Sophia’s Cathedral, developed Kyiv into a major European city, and promoted education.
+Cultural &amp; Religious Growth: Yaroslav built St. Sophia’s Cathedral, developed Kyiv into a major European city, and promoted education.
 Legal Reforms: He introduced written laws and established trade and diplomatic alliances with European monarchs.
 By the 11th century, Kyiv was the second-largest city in Europe after Constantinople, with a population of around 150,000.
 
@@ -98,5 +119,3 @@ horse domestication, and the development of one of Europe’s most influential m
 Even as history brought waves of invaders and changing rulers,
 Ukraine remained a land of rich culture, fierce warriors, and deep historical significance.
 Today, its past continues to shape its national identity and place in the world.
-
-
