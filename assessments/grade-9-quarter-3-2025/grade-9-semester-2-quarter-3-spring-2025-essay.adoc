@@ -31,6 +31,7 @@ ifdef::env-name[:relfilesuffix: .adoc]
 :history-brief-ukraine: link:{curriculumdir}/History/onEasternEurope/EssayOfUkraineHistory.adoc
 :history-agriculture-evolution: link:{curriculumdir}/History/onHumanEvolution/TheAgriculturalEvolution.adoc
 :history-of-human-evolution: link:{curriculumdir}/History/onHumanEvolution/HistoryOfHumanEvolution.adoc
+:physics-what-is-physics: link:{curriculumdir}/Physics/WhatIsPhysics.adoc
 
 
 I am writing this essay to show what I learned this semester. +
@@ -100,10 +101,12 @@ History::
 .. A continuation work stemming from the History of Ukraine essay;
 .. This work captures important trends and patterns in human evolution.
 
+Physics::
+. 2025-03-13: {physics-what-is-physics}[What is Physics] - A+
+
 
 == Raw Links
 
-. link:{labsdir}/Science/Physics/Chapter1Physics.adoc[Physics Chapter 1]
 . link:{labsdir}/Psychology/HowIBeatMyTopTwoSaboteurs.md[How I Beat My Top Two Saboteurs]
 . link:{labsdir}/Psychology/HowToBeatYourSabotuers.text[How To Beat Your Sabotuers]
 . link:{labsdir}/Psychology/HowToBeatYourSabotuers.text[How To Beat Your Sabotuers]
