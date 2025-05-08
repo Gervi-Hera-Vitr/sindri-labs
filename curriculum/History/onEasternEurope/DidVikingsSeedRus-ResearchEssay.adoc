@@ -1,4 +1,4 @@
-= History: The Brief History of Modern Rus
+= History: Did Vikings Seed Rus?
 Cpt. Lugaru (CaptainLugaru) <72951616+CaptainLugaru@users.noreply.github.com>
 v1.0, Sunday, January 19, 2025
 :description: Exploratory research into the history of modern Rus
@@ -194,3 +194,10 @@ Ragnar's Legacy::
 Once they heard the legend that their father Had died, his sons gathered the largest viking army in history, the great heathen army which would invade England in 865, and they raided.
 They unleashed absolute violence for the next 14 years.
 All to avenge ragnar.
+
+== NO Expected Connection to Rus'
+
+This exploration did not lead to Vikings-Rus' connection discovery.
+ToDo: what did it lead to?
+
+==
