@@ -1,5 +1,6 @@
 = Saboteurs Essay
-
+Cpt. Lugaru (CaptainLugaru) <72951616+CaptainLugaru@users.noreply.github.com>
+v1.1, Thursday, May 8th, 2025
 :description: A breakdown of saboteurs, what they are, and how they affect you.
 :sectnums:
 :sectanchors:
@@ -19,6 +20,7 @@
 ifdef::env-name[:relfilesuffix: .adoc]
 
 == What are Saboteurs?
+
 Saboteurs are the voices in your head that generate negative emotions as you handle life’s everyday challenges.
 They represent the automatic patterns in your mind for how to think, feel, and respond.
 Your Saboteurs cause all of your stress, anxiety, self-doubt, frustration, restlessness, and unhappiness.
@@ -37,6 +39,7 @@ gets you fixated on what is wrong with others or your life,
 etc.
 
 The Judges Special Effect::
+
 The Judge activates your other Saboteurs,
 causes much of your stress and unhappiness,
 reduces your effectiveness, and harms your relationships.
