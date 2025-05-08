@@ -23,22 +23,45 @@ v1.0, Friday, March 7, 2025
 ifdef::env-name[:relfilesuffix: .adoc]
 
 
+= Chapter 5
 
-Chapter 5:
-5.1 Adding Images
+== Adding Images
+
 Syntax:
-image::image.jpg[Alt Text, width=500]
 
-5.2 Internal and External Links
-External Link:
+[source,asciidoc]
+----
+// image::image.jpg[Alt Text, width=500]
+----
+
+== Internal and External Links
+
+=== External Link
+
+[source,asciidoc]
+----
 https://www.example.com[Visit Example]
+----
 
-Internal Link to Another Section:
-<<introduction, Go to Introduction>>
+=== Internal Link to Another Section
 
-5.3 Cross-References in a Document
-Creating a Reference Target:
+[source,asciidoc]
+----
+// <<introduction, Go to Introduction>> this is commented out to not cause any issues
+----
+
+== Cross-References in a Document
+
+=== Creating a Reference Target
+
+[source,asciidoc]
+----
 [[section-id]]== My Section Title
+----
 
-Linking to the Section:
-<<section-id, Read more here>>
+=== Linking to the Section
+
+[source,asciidoc]
+----
+// <<section-id, Read more here>> this is commented out to not cause any issues
+----

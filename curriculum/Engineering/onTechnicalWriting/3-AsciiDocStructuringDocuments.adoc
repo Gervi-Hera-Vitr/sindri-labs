@@ -23,26 +23,46 @@ v1.0, Friday, March 7, 2025
 ifdef::env-name[:relfilesuffix: .adoc]
 
 
-Chapter 3:
----------------------------------
-3.1 Document Title and Metadata
+
+== Document Title and Metadata
+
 Example:
+
+[source,asciidoc]
+----
 = Document Title
 Author Name
 2025-02-21
-:doctype: article
-:toc: left
+:doctype: article (could be used for books and other things)
+:toc: preamble (table of contents)
+----
 
-3.2 Sections and Subsections
+== Sections and Subsections
+
 Example:
+
+[source,asciidoc]
+----
 == Introduction
 === Subsection 1
 ==== Sub-subsection
+----
 
-3.3 Including External Files
-Syntax:
-include::file.adoc[]
+== Including External Files
 
-3.4 Comments in AsciiDoc
 Syntax:
+
+[source,asciidoc]
+----
+// include::file.adoc[]
+// This is commented so that the file doesnt create issues
+----
+
+== Comments in AsciiDoc
+
+Syntax:
+
+[source,asciidoc]
+----
 // This is a comment
+----

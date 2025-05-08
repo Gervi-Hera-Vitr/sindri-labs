@@ -23,47 +23,72 @@ v1.0, Friday, March 7, 2025
 ifdef::env-name[:relfilesuffix: .adoc]
 
 
-Chapter 4:
-------------------------------
-4.1 Block Quotes
+
+== Block Quotes
+
 Syntax:
+
+[source,asciidoc]
+----
 [quote, Author Name, Book Title]
 ____
 This is a block quote.
 ____
+----
 
-4.2 Sidebars and Admonitions
-Sidebars:
+== Sidebars and Admonitions
+
+=== Sidebars
+
+[source,asciidoc]
+----
 [sidebar]
 ****
 This is a sidebar.
 ****
+----
 
-Admonitions:
+=== Admonitions
+
+[source,asciidoc]
+----
 NOTE: This is an important note.
 TIP: This is a useful tip.
 WARNING: Be careful with this!
-
-4.3 Source Code Blocks
-Example:
-[source,python]
 ----
+
+== Source Code Blocks
+
+Example:
+
+[source,python]
+//----
 def hello():
     print("Hello, AsciiDoc!")
-----
+// this is commented out to not break anything
+ ----
 
-4.4 Tables
-Basic Table:
+== Tables
+
+=== Basic Table
+
+[source,asciidoc]
+----
 |===
 | Column 1 | Column 2 | Column 3
 | Row 1A   | Row 1B   | Row 1C
 | Row 2A   | Row 2B   | Row 2C
 |===
+----
 
-CSV-Style Table:
+=== CSV-Style Table
+
+[source,asciidoc]
+----
 [format="csv"]
 |===
 Column 1,Column 2,Column 3
 Row 1A,Row 1B,Row 1C
 Row 2A,Row 2B,Row 2C
 |===
+----

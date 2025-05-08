@@ -22,41 +22,57 @@ v1.0, Friday, March 7, 2025
 :labsdir: {sindridir}/labs
 ifdef::env-name[:relfilesuffix: .adoc]
 
+== Paragraphs and Line Breaks
 
-2.1 Paragraphs and Line Breaks
-- To create a new paragraph, simply start typing on a new line.
-- To force a line break within a paragraph, use a `+` at the end of the line:
-  Example:
-  This is a line with a forced break. +
-  This text appears on a new line.
+* To create a new paragraph, simply start typing on a new line.
+* To force a line break within a paragraph, use a `+` at the end of the line.
 
-2.2 Headings
-- Use `=` for the document title, `==` for sections, and more `=` for subsections.
-  Example:
-  = Main Title
-  == Section 1
-  === Subsection 1.1
+Example:
 
-2.3 Bold, Italic, and Underline
-- **Bold**: `*bold*` → **bold**
-- *Italic*: `_italic_` → *italic*
-- Underline: `[underline]#underlined#`
+----
+This is a line with a forced break. +
+This text appears on a new line.
+----
 
-2.4 Monospace and Inline Code
-- Use backticks for inline code: `Inline code example`
-- Use `+` to mark text as monospace: `+monospace text+`
+== Headings
 
-2.5 Lists
-Unordered List:
+* Use `=` for the document title, `==` for sections, and more `===` for subsections.
+
+Example:
+
+[source,asciidoc]
+----
+= Main Title
+== Section 1
+=== Subsection 1.1
+----
+
+== Bold, Italic, and Underline
+
+* **Bold**: `*bold*` → *bold*
+* *Italic*: `_italic_` → _italic_
+* Underline: `[underline]#underlined#` → [underline]#underlined#
+
+== Monospace and Inline Code
+
+* Use backticks for inline code: `` `Inline code example` ``
+* Use `+` to mark text as monospace: `+monospace text+`
+
+== Lists
+
+=== Unordered List
+
 * First item
 * Second item
 ** Sub-item
 
-Ordered List:
+=== Ordered List
+
 . First item
 . Second item
 .. Sub-item
 
-Description List:
+=== Description List
+
 AsciiDoc:: A markup language.
 Markdown:: A simpler markup language.
