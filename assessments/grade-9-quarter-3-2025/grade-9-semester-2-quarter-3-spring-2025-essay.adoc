@@ -28,6 +28,8 @@ ifdef::env-name[:relfilesuffix: .adoc]
 :history-of-modern-rus: link:{curriculumdir}/History/onEasternEurope/EssayOnModernRus(Ukraine).adoc
 :history-ragnar-and-rus: link:{curriculumdir}/History/onEasternEurope/EssayOnRagnarLodbrokConnectionToRus.adoc
 :history-brief-ukraine: link:{curriculumdir}/History/onEasternEurope/EssayOfUkraineHistory.adoc
+:history-agriculture-evolution: link:{curriculumdir}/History/onHumanEvolution/TheAgriculturalEvolution.adoc
+:history-of-human-evolution: link:{curriculumdir}/History/onHumanEvolution/HistoryOfHumanEvolution.adoc
 
 
 I am writing this essay to show what I learned this semester. +
@@ -81,8 +83,21 @@ Engineering::
 
 History::
 . 2025-01-19: {history-of-modern-rus}[The Brief History of Modern Rus] - A+
+.. This is the initial research work for the History of Europe essay;
+.. The assumption was that Vikings controlled the history of Rus';
+.. The assumption turned out to be just Russian propaganda;
+.. The real history of the Northern Europe is captured in the data collection.
 . 2025-01-24: {history-ragnar-and-rus}[Ragnar's Connection to Rus] - A+
-. 2025-03-07: {history-brief-ukraine}[The Brief History of Ukraine] - #A+# -- exemplary semester work.
+.. This is an excerpt of important information extracted from Vikings research.
+. 2025-03-07: {history-brief-ukraine}[The Brief History of Ukraine] - #A+# -- exemplary semester work
+.. This is the final work capturing the real history of Ukraine and Europe.
+. 2025-03-14: {history-agriculture-evolution}[The Agricultural Evolution]
+.. A continuation work stemming from the History of Ukraine essay;
+.. This work captures the importance of agriculture in the history of Europe.
+. 2025-03-19: {history-of-human-evolution}[History of Human Evolution]
+.. A continuation work stemming from the History of Ukraine essay;
+.. This work captures important trends and patterns in human evolution.
+
 
 == Raw Links
 
