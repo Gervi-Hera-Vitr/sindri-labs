@@ -38,11 +38,11 @@ ifdef::env-name[:relfilesuffix: .adoc]
 :purgeatorius: https://en.wikipedia.org/wiki/Purgatorius
 :sahelanthropus: https://en.wikipedia.org/wiki/Sahelanthropus
 
-
-
-__Around 66 million years ago, shortly after the extinction of the dinosaurs, the first primates emerged, And these primates After 10s of Millions of years would later evolve into humans: The Dominate Species of earth. This is their journey.
 __
-
+Around 66 million years ago, shortly after the extinction of the dinosaurs, the first primates emerged.
+And these primates, 10s of Millions of years later, would evolve into humans: The Dominate Species of earth.
+This is their journey.
+__
 
 == The First Primates
 
@@ -52,7 +52,9 @@ These early ancestors are known as {proto-primates}[Proto-Primates]. They were s
 
 The Connection::
 
-Proto-primates were considered a midway point between modern primates and rodents. They had long bodies with tails, claws instead of nails, and their eyes were positioned on the sides of their heads, giving them limited depth perception. They were nocturnal, relying more on their sense of smell than sight, and had small brains compared to later primates.
+Proto-primates were considered a midway point between modern primates and rodents.
+They had long bodies with tails, claws instead of nails, and their eyes were positioned on the sides of their heads, giving them limited depth perception.
+They were nocturnal, relying more on their sense of smell than sight, and had small brains compared to later primates.
 
 
 === {purgeatorius}[Purgatorius]
@@ -73,17 +75,18 @@ Proto-primates were considered a midway point between modern primates and rodent
 
 == The Emergence of True Primates: {euprimates}[Euprimates]
 
-Around 55 million years ago, during the {eocene-epoch}[Eocene Epoch], the first true primates, known as _Euprimates_, evolved. These early primates represented a significant advancement over their proto-primate ancestors.
+Around 55 million years ago, during the {eocene-epoch}[Eocene Epoch], the first true primates, known as _Euprimates_, evolved.
+These early primates represented a significant advancement over their proto-primate ancestors.
 
-Key features of Euprimates included: +
-— Grasping hands and feet with opposable thumbs and big toes, allowing them to easily climb and maneuver through trees. +
-—Flattened nails instead of claws, improving their sense of touch and grip. +
-— Forward-facing eyes, providing binocular vision and excellent depth perception. +
-— Larger and more complex brains supporting better coordination and problem-solving abilities.
+Key features of Euprimates included::
+- Grasping hands and feet with opposable thumbs and big toes, allowing them to easily climb and maneuver through trees. +
+- Flattened nails instead of claws, improving their sense of touch and grip. +
+- Forward-facing eyes, providing binocular vision and excellent depth perception. +
+- Larger and more complex brains support better coordination and problem-solving abilities.
 
 === Major Groups of Primates
 
-==== {adapiforms}[Adapiforms]
+{adapiforms}[Adapiforms]::
 
 - Similar in appearance and behavior to modern lemurs and lorises.
 - Typically diurnal (active during the day).
@@ -91,7 +94,7 @@ Key features of Euprimates included: +
 - Primarily ate fruits and leaves.
 - It Gave rise to the _Strepsirrhines_ (lemurs and lorises).
 
-==== {omomyiforms}[Omomyiforms]
+{omomyiforms}[Omomyiforms]::
 
 - Smaller, more agile, resembling modern tarsiers.
 - Many were nocturnal, with large eyes adapted for low-light vision.
@@ -100,27 +103,31 @@ Key features of Euprimates included: +
 
 == The Rise of Anthropoids: Higher Primates
 
-Around 40 million years ago, during the Oligocene Epoch, Euprimates gave rise to a more advanced group known as {anthropoids}[Anthropoids] (higher primates). These primates were the ancestors of all modern monkeys, apes, and humans.
+Around 40 million years ago, during the Oligocene Epoch, Euprimates gave rise to a more advanced group known as {anthropoids}[Anthropoids] (higher primates).
+These primates were the ancestors of all modern monkeys, apes, and humans.
 
-Key developments in Anthropoids: +
-— Larger and more complex brains leading to improved intelligence, problem-solving abilities, and sophisticated social behaviors. +
-— Enhanced binocular vision with forward-facing eyes and fully enclosed eye sockets (postorbital closure). +
-—Larger bodies with reduced snouts and an increasing reliance on vision over smell. +
-— Development of complex social groups, communication skills, and social hierarchies. +
+Key developments in Anthropoids::
+- Larger and more complex brains leading to improved intelligence, problem-solving abilities, and sophisticated social behaviors. +
+- Enhanced binocular vision with forward-facing eyes and fully enclosed eye sockets (postorbital closure). +
+- Larger bodies with reduced snouts and an increasing reliance on vision over smell. +
+- Development of complex social groups, communication skills, and social hierarchies. +
 
 === Evolutionary Branches of Anthropoids
 
-- One group migrated to South America, evolving into the _New World Monkeys_ {platyrrhines}[Platyrrhines] such as capuchins, howler monkeys, and spider monkeys. Many of these species have prehensile tails.
-- The other group remained in Africa and Asia, giving rise to the _Old World Monkeys_ (_Cercopithecoids_) such as baboons, macaques, and colobus monkeys. These monkeys typically lack prehensile tails and include both tree-dwellers and ground-dwellers.
+- One group migrated to South America, evolving into the _New World Monkeys_ {platyrrhines}[Platyrrhines] such as capuchins, howler monkeys, and spider monkeys.
+Many of these species have prehensile tails.
+- The other group remained in Africa and Asia, giving rise to the _Old World Monkeys_ (_Cercopithecoids_) such as baboons, macaques, and colobus monkeys.
+These monkeys typically lack prehensile tails and include both tree-dwellers and ground-dwellers.
 
-== The Emergence of {homonoids}[Homonoids]: The First Apes
+== The Emergence of {hominoids}[Hominoids]: The First Apes
 
-Around 25 million years ago, during the Miocene Epoch, a group of Old World Monkeys in Africa evolved into the first apes, known as _Hominoids_. This marked a major evolutionary shift in primate history.
+Around 25 million years ago, during the Miocene Epoch, a group of Old World Monkeys in Africa evolved into the first apes, known as _Hominoids_.
+This marked a major evolutionary shift in primate history.
 
-Distinct traits of Hominoids: +
-— Lack of tails, allowing for greater mobility in the hips and pelvis. +
- — Larger, more complex brains supporting increased intelligence and social interaction. +
-— Highly flexible shoulders, wrists, and arms, enabling brachiation and more efficient climbing. +
+Distinct traits of Hominoids::
+- Lack of tails, allowing for greater mobility in the hips and pelvis.
+- Larger, more complex brains supporting increased intelligence and social interaction.
+- Highly flexible shoulders, wrists, and arms, enabling brachiation and more efficient climbing.
 
 === {proconsul}[Proconsul]
 
@@ -133,14 +140,15 @@ Distinct traits of Hominoids: +
 
 == The Rise of the Great Apes: {hominids}[Hominids]
 
-Between 15 and 10 million years ago, during the late Miocene Epoch, the _Great Apes_ (Hominids) emerged. This group includes modern orangutans, gorillas, chimpanzees, and humans, along with their extinct ancestors.
+Between 15 and 10 million years ago, during the late Miocene Epoch, the _Great Apes_ (Hominids) emerged.
+This group includes modern orangutans, gorillas, chimpanzees, and humans, along with their extinct ancestors.
 
-Characteristics of Great Apes: +
-— Larger and more complex brains. +
-—Longer lifespans and sophisticated social structures. +
-—Larger bodies with no tails. +
-—Highly adaptable shoulder joints for powerful climbing and hanging. +
-— Varied diets and complex behaviors such as tool use and social learning. +
+Characteristics of Great Apes::
+- Larger and more complex brains.
+- Longer lifespans and sophisticated social structures.
+- Larger bodies with no tails.
+- Highly adaptable shoulder joints for powerful climbing and hanging.
+- Varied diets and complex behaviors such as tool use and social learning.
 
 === Evolutionary Splits Within Hominids
 
@@ -152,7 +160,7 @@ Characteristics of Great Apes: +
 
 After the split from chimpanzees, the human lineage began to evolve toward full bipedalism.
 
-=== {sahelanthropus}[Sahelanthropus]
+{sahelanthropus}[Sahelanthropus]::
 
 - Lived about 7 million years ago in Chad, Central Africa.
 - One of the oldest known species on the human family tree.
@@ -162,15 +170,15 @@ After the split from chimpanzees, the human lineage began to evolve toward full 
 - Likely lived in a mixed environment of forests and grasslands.
 - Represents a key early step toward human evolution.
 
-=== {orrorin}[Orrorin]
+{orrorin}[Orrorin]::
 
 - Lived about 6 million years ago in Kenya, East Africa.
-- Evidence of bipedalism based on the structure of its thigh bones.
+- Evidence of bipedalism based on the structure of its thighbones.
 - Long arms and curved fingers suggest it also climbed trees.
 - Teeth with thick enamel hint at a diet of hard foods like nuts and seeds.
 - Provides important clues about early hominin adaptations to both arboreal and terrestrial life.
 
-=== {ardipithecus}[Ardipithecus]
+{ardipithecus}[Ardipithecus]::
 
 - Lived about 4.4 million years ago in Ethiopia.
 - Walked upright on two legs but had a grasping big toe for climbing trees.
@@ -179,7 +187,7 @@ After the split from chimpanzees, the human lineage began to evolve toward full 
 - Lived in wooded environments, eating fruits, nuts, and leaves.
 - It Represents a transitional phase between tree-dwelling ancestors and more ground-based hominins.
 
-=== {afarensis}[Afarensis]
+{afarensis}[Afarensis]::
 
 - Lived between 3.9 and 2.9 million years ago in East Africa.
 - Famous specimen "Lucy" discovered in Ethiopia in 1974.
@@ -188,7 +196,7 @@ After the split from chimpanzees, the human lineage began to evolve toward full 
 - Lived in open woodlands and grasslands, feeding on fruits, seeds, and possibly small animals.
 - A crucial step in human evolution: fully bipedal but retained primitive traits.
 
-=== {africanus}[Africanus]
+{africanus}[Africanus]::
 
 - Lived between 3 and 2 million years ago in South Africa.
 - Similar to *A. afarensis*, but with a slightly larger brain (about 450 cubic centimeters).
@@ -199,16 +207,16 @@ After the split from chimpanzees, the human lineage began to evolve toward full 
 
 == The Homo Genus: Early Human Ancestors
 
-===  {habilis}[Habilis]
+{habilis}[Habilis]::
 
 - Lived between 2.4 and 1.5 million years ago in East and South Africa.
-- Known as the "handy man" for its use of stone tools.
+- Known as the "handyman" for its use of stone tools.
 - Brain size ranged from 510 to 600 cubic centimeters.
 - More human-like face with smaller teeth and a less protruding jaw.
 - Used tools for butchering meat, cracking nuts, and digging for plants.
 - Marks the beginning of the *Homo* genus and a leap in cognitive development.
 
-=== {erectus}[Erectus]
+{erectus}[Erectus]::
 - Lived from about 1.9 million to 110 thousand years ago.
 - Originated in Africa; first hominin to leave Africa, spreading to Asia and Europe.
 - Brain size between 600 and 1,100 cubic centimeters.
@@ -217,7 +225,7 @@ After the split from chimpanzees, the human lineage began to evolve toward full 
 - Hunted large animals and likely cared for group members.
 - It Represents major advances in adaptability and survival.
 
-=== {heidelbergensis}[Heidelbergensis]
+{heidelbergensis}[Heidelbergensis]::
 
 - Lived between 700,000 and 300,000 years ago in Africa, Europe, and Western Asia.
 - Large brain averaging about 1,200 cubic centimeters.
@@ -226,7 +234,7 @@ After the split from chimpanzees, the human lineage began to evolve toward full 
 - Built shelters and may have used symbolic communication.
 - Considered a direct ancestor of Neanderthals in Europe and *Homo sapiens* in Africa.
 
-=== {neanderthalensis}[Neanderthalensis] (Neanderthals)
+{neanderthalensis}[Neanderthalensis] (Neanderthals)::
 
 - Lived between 400,000 and 40,000 years ago in Europe and parts of Asia.
 - Large brains, often larger than modern humans (1,300 to 1,600 cubic centimeters).
@@ -235,7 +243,7 @@ After the split from chimpanzees, the human lineage began to evolve toward full 
 - They Buried their dead and created symbolic objects like jewelry and cave art.
 - Interbred with early *Homo sapiens*, contributing to modern non-African human genetics.
 
-=== Homo sapiens
+Homo sapiens::
 
 - It First appeared about 300 thousand years ago in Africa.
 - Large brains averaging 1,300 to 1,400 cubic centimeters.
@@ -244,3 +252,7 @@ After the split from chimpanzees, the human lineage began to evolve toward full 
 - Migrated out of Africa around 70,000 years ago, spreading across the world.
 - Created civilizations, practiced agriculture, and invented technology.
 - Became the dominant species on Earth.
+
+== Final Grade: A+
+
+#A+#

@@ -115,10 +115,10 @@ History::
 .. This is an excerpt of important information extracted from Vikings research.
 . 2025-03-07: {history-brief-ukraine}[The Brief History of Ukraine] - #A+# -- exemplary semester work
 .. This is the final work capturing the real history of Ukraine and Europe.
-. 2025-03-14: {history-agriculture-evolution}[The Agricultural Evolution]
+. 2025-03-14: {history-agriculture-evolution}[The Agricultural Evolution] - A+
 .. A continuation work stemming from the History of Ukraine essay;
 .. This work captures the importance of agriculture in the history of Europe.
-. 2025-03-19: {history-of-human-evolution}[History of Human Evolution]
+. 2025-03-19: {history-of-human-evolution}[History of Human Evolution] - A+
 .. A continuation work stemming from the History of Ukraine essay;
 .. This work captures important trends and patterns in human evolution.
 
@@ -132,11 +132,6 @@ Psychology::
 
 == Raw Links
 
-. link:{labsdir}/Presentation/AsciiDocChapter1.text[AsciiDoc Chapter 1]
-. link:{labsdir}/Presentation/AsciiDocChapter2.text[AsciiDoc Chapter 2]
-. link:{labsdir}/Presentation/AsciiDocChapter3.text[AsciiDoc Chapter 3]
-. link:{labsdir}/Presentation/AsciiDocChapter4.text[AsciiDoc Chapter 4]
-. link:{labsdir}/Presentation/AsciiDocChapter5.text[AsciiDoc Chapter 5]
 . link:{labsdir}/Math/MathNotesChapter1.text[Math Notes Chapter 1]
 . link:{labsdir}/Math/MathNotesChapter2.text[Math Notes Chapter 2]
 . link:{labsdir}/Math/MathNotesChapter3.text[Math Notes Chapter 3]
