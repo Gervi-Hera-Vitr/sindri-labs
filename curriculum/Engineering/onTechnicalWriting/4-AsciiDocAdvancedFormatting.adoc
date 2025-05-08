@@ -1,0 +1,69 @@
+= Technical Writing: Book 4: AsciiDoc - Advanced Formatting
+Cpt. Lugaru (CaptainLugaru) <72951616+CaptainLugaru@users.noreply.github.com>
+v1.0, Friday, March 7, 2025
+:doctype: book
+:description: Modern technical writing uses AsciiDoc for structured documents instead of Markdown or LaTeX.
+:sectnums:
+:sectanchors:
+:sectlinks:
+:icons: font
+:tip-caption: 💡️
+:note-caption: ℹ️
+:important-caption: ❗
+:caution-caption: 🔥
+:warning-caption: ⚠️
+:toc: preamble
+:toclevels: 2
+:toc-title: Technical Writing Learning Trail
+:keywords: Homeschool Learning Journey
+:sindridir: ../..
+:imagesdir: ./images
+:curriculumdir: {sindridir}/curriculum
+:labsdir: {sindridir}/labs
+ifdef::env-name[:relfilesuffix: .adoc]
+
+
+Chapter 4:
+------------------------------
+4.1 Block Quotes
+Syntax:
+[quote, Author Name, Book Title]
+____
+This is a block quote.
+____
+
+4.2 Sidebars and Admonitions
+Sidebars:
+[sidebar]
+****
+This is a sidebar.
+****
+
+Admonitions:
+NOTE: This is an important note.
+TIP: This is a useful tip.
+WARNING: Be careful with this!
+
+4.3 Source Code Blocks
+Example:
+[source,python]
+----
+def hello():
+    print("Hello, AsciiDoc!")
+----
+
+4.4 Tables
+Basic Table:
+|===
+| Column 1 | Column 2 | Column 3
+| Row 1A   | Row 1B   | Row 1C
+| Row 2A   | Row 2B   | Row 2C
+|===
+
+CSV-Style Table:
+[format="csv"]
+|===
+Column 1,Column 2,Column 3
+Row 1A,Row 1B,Row 1C
+Row 2A,Row 2B,Row 2C
+|===

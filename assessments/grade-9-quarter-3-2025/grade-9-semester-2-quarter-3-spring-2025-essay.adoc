@@ -20,18 +20,31 @@ v1.0.0, Monday the 5th of May 2025 13:18 EST
 :curriculumdir: {sindridir}/curriculum
 :labsdir: {sindridir}/labs
 ifdef::env-name[:relfilesuffix: .adoc]
+
 :biology-how-whales-evolved: link:{curriculumdir}/Biology/onWhales/HowWhalesEvolved.adoc
 :biology-what-is-biology: link:{curriculumdir}/Biology/onTheScience/WhatIsBiology.adoc
+
 :business-on-rich-dad-poor-dad: link:{curriculumdir}/Business/onKeyBooks/RobertKiyosaki-CoreLessonsOfRichDadPoorDad.adoc
 :business-on-the-little-red-book-of-selling: link:{curriculumdir}/Business/onKeyBooks/JeffreyGitomer-IntroductoryReviewOf-TheLittleRedBookOfSelling-12,5-PrinciplesOfSalesGreatness.adoc
+
 :engineering-how-i-will-study-ml: link:{curriculumdir}/Engineering/onLearningML/HowIWillStudyML.adoc
 :engineering-guide-to-github: link:{curriculumdir}/Engineering/onDevOps/MunchkinsGuideToGitHub.adoc
+
+:engineering-technical-writing-introduction: link:{curriculumdir}/Engineering/onTechnicalWriting/1-IntroductionToAsciiDoc.adoc
+:engineering-technical-writing-formatting: link:{curriculumdir}/Engineering/onTechnicalWriting/2-AsciiDocFormatting.adoc
+:engineering-technical-writing-structuring-documents: link:{curriculumdir}/Engineering/onTechnicalWriting/3-AsciiDocStructuringDocuments.adoc
+:engineering-technical-writing-advanced-formatting: link:{curriculumdir}/Engineering/onTechnicalWriting/4-AsciiDocAdvancedFormatting.adoc
+:engineering-technical-writing-images-links-references: link:{curriculumdir}/Engineering/onTechnicalWriting/5-AsciiDocImagesLinksReferences.adoc
+:engineering-technical-writing-demonstrations: link:{curriculumdir}/Engineering/onTechnicalWriting/6-AsciiDoc-DemoDocument.adoc
+
 :history-vikings-rus: link:{curriculumdir}/History/onEasternEurope/DidVikingsSeedRus-ResearchEssay.adoc
 :history-ragnar-and-rus: link:{curriculumdir}/History/onEasternEurope/EssayOnRagnarLodbrokConnectionToRus.adoc
 :history-brief-ukraine: link:{curriculumdir}/History/onEasternEurope/EssayOfUkraineHistory.adoc
 :history-agriculture-evolution: link:{curriculumdir}/History/onHumanEvolution/TheAgriculturalEvolution.adoc
 :history-of-human-evolution: link:{curriculumdir}/History/onHumanEvolution/HistoryOfHumanEvolution.adoc
+
 :physics-what-is-physics: link:{curriculumdir}/Physics/WhatIsPhysics.adoc
+
 :psychology-saboteurs-assignment: link:{curriculumdir}/Psychology/onSelfAwareness/1-TheSaboteursAssignment.adoc
 :psychology-how-to-beat-your-saboteurs: link:{curriculumdir}/Psychology/onSelfAwareness/2-HowToBeatYourSaboteurs.adoc
 :psychology-how-i-beat-my-top-two-saboteurs: link:{curriculumdir}/Psychology/onSelfAwareness/3-HowIBeatMyTopTwoSaboteurs.adoc
@@ -85,6 +98,12 @@ Business::
 Engineering::
 . 2024-10-26: {engineering-how-i-will-study-ml}[How I will study ML] - A+
 . 2025-03-07: {engineering-guide-to-github}[Munchkins' Guide to GitHub] -A+; additional bonus work - A+
+. 2025-03-07: {engineering-technical-writing-introduction}[Technical Writing: Book 1: Introduction to AsciiDoc]
+. 2025-03-07: {engineering-technical-writing-formatting}[Technical Writing: Book 2: AsciiDoc - Basic Formatting]
+. 2025-03-07: {engineering-technical-writing-structuring-documents}[Technical Writing: Book 3: AsciiDoc - Structuring a Document]
+. 2025-03-07: {engineering-technical-writing-advanced-formatting}[Technical Writing: Book 4: AsciiDoc - Advanced Formatting]
+. 2025-03-07: {engineering-technical-writing-images-links-references}[Technical Writing: Book 5: AsciiDoc - Images, Links, and References]
+. 2025-03-07: {engineering-technical-writing-demonstrations}[Technical Writing: Book 6: AsciiDoc - Demonstration]
 
 History::
 . 2025-01-19: {history-vikings-rus}[Did Vikings Seed Rus] - A+
@@ -113,10 +132,6 @@ Psychology::
 
 == Raw Links
 
-. link:{labsdir}/Psychology/HowIBeatMyTopTwoSaboteurs.md[How I Beat My Top Two Saboteurs]
-. link:{labsdir}/Psychology/HowToBeatYourSabotuers.text[How To Beat Your Sabotuers]
-. link:{labsdir}/Psychology/HowToBeatYourSabotuers.text[How To Beat Your Sabotuers]
-. link:{labsdir}/Psychology/Sabotuers-Assignment.text[Sabotuers Assignment]
 . link:{labsdir}/Presentation/AsciiDocChapter1.text[AsciiDoc Chapter 1]
 . link:{labsdir}/Presentation/AsciiDocChapter2.text[AsciiDoc Chapter 2]
 . link:{labsdir}/Presentation/AsciiDocChapter3.text[AsciiDoc Chapter 3]

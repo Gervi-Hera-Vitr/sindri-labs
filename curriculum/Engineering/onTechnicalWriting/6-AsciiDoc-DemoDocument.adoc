@@ -1,10 +1,10 @@
 = How a Volcano Once Blocked Out the Sun (1816: The Year Without a Summer)
-Anton Kuhay <mamin.snook@gmail.com>
-v3.0, July 29, 2022
+Cpt. Lugaru (CaptainLugaru) <72951616+CaptainLugaru@users.noreply.github.com>
+v1.0, Friday, March 7, 2025
 :doctype: article
 :toc: left
 :icons: font
-// :imagesdir: images
+:imagesdir: images
 
 == Introduction of calamity
 The year 1816 is often remembered as The Year Without a Summer, a time of *extreme* weather anomalies that led to global crop failures, food shortages, and social unrest. The root cause? +

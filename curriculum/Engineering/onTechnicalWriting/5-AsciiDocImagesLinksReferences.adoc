@@ -1,0 +1,44 @@
+= Technical Writing: Book 5: AsciiDoc - Images, Links, and References
+Cpt. Lugaru (CaptainLugaru) <72951616+CaptainLugaru@users.noreply.github.com>
+v1.0, Friday, March 7, 2025
+:doctype: book
+:description: Modern technical writing uses AsciiDoc for structured documents instead of Markdown or LaTeX.
+:sectnums:
+:sectanchors:
+:sectlinks:
+:icons: font
+:tip-caption: 💡️
+:note-caption: ℹ️
+:important-caption: ❗
+:caution-caption: 🔥
+:warning-caption: ⚠️
+:toc: preamble
+:toclevels: 2
+:toc-title: Technical Writing Learning Trail
+:keywords: Homeschool Learning Journey
+:sindridir: ../..
+:imagesdir: ./images
+:curriculumdir: {sindridir}/curriculum
+:labsdir: {sindridir}/labs
+ifdef::env-name[:relfilesuffix: .adoc]
+
+
+
+Chapter 5:
+5.1 Adding Images
+Syntax:
+image::image.jpg[Alt Text, width=500]
+
+5.2 Internal and External Links
+External Link:
+https://www.example.com[Visit Example]
+
+Internal Link to Another Section:
+<<introduction, Go to Introduction>>
+
+5.3 Cross-References in a Document
+Creating a Reference Target:
+[[section-id]]== My Section Title
+
+Linking to the Section:
+<<section-id, Read more here>>
