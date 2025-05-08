@@ -32,7 +32,9 @@ ifdef::env-name[:relfilesuffix: .adoc]
 :history-agriculture-evolution: link:{curriculumdir}/History/onHumanEvolution/TheAgriculturalEvolution.adoc
 :history-of-human-evolution: link:{curriculumdir}/History/onHumanEvolution/HistoryOfHumanEvolution.adoc
 :physics-what-is-physics: link:{curriculumdir}/Physics/WhatIsPhysics.adoc
-
+:psychology-saboteurs-assignment: link:{curriculumdir}/Psychology/onSelfAwareness/1-TheSaboteursAssignment.adoc
+:psychology-how-to-beat-your-saboteurs: link:{curriculumdir}/Psychology/onSelfAwareness/2-HowToBeatYourSaboteurs.adoc
+:psychology-how-i-beat-my-top-two-saboteurs: link:{curriculumdir}/Psychology/onSelfAwareness/3-HowIBeatMyTopTwoSaboteurs.adoc
 
 I am writing this essay to show what I learned this semester. +
 
@@ -104,6 +106,10 @@ History::
 Physics::
 . 2025-03-13: {physics-what-is-physics}[What is Physics] - A+
 
+Psychology::
+. 2025-01-19: {psychology-saboteurs-assignment}[The Saboteurs Assignment]
+. 2025-01-24: {psychology-how-to-beat-your-saboteurs}[How to Beat Your Saboteurs]
+. 2025-03-07: {psychology-how-i-beat-my-top-two-saboteurs}[How I Beat My Top Two Saboteurs]
 
 == Raw Links
 
