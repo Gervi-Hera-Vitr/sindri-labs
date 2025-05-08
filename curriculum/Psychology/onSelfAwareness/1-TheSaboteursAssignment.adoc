@@ -1,6 +1,6 @@
 = Saboteurs Essay
 Cpt. Lugaru (CaptainLugaru) <72951616+CaptainLugaru@users.noreply.github.com>
-v1.1, Thursday, May 8th, 2025
+v1.1, Sunday, January 19th, 2025; Updated: Thursday, May 8th, 2025
 :description: A breakdown of saboteurs, what they are, and how they affect you.
 :sectnums:
 :sectanchors:
@@ -13,11 +13,12 @@ v1.1, Thursday, May 8th, 2025
 :warning-caption: ⚠️
 :toc: preamble
 :toclevels: 1
-:toc-title: Saboteur Essay and examination
+:toc-title: Saboteur Essay and Examination
 :keywords: Homeschool Learning Journey
 :imagesdir: ./images
 :labsdir: ./labs
 ifdef::env-name[:relfilesuffix: .adoc]
+:saboteur-test: https://www.positiveintelligence.com/saboteurs/
 
 == What are Saboteurs?
 
@@ -32,10 +33,10 @@ The Judge::
 
 Now lets meet the Judge, He is your master Saboteur.
 The Judge is the universal Saboteur that afflicts everyone.
-It is the one that beats you up repeatedly over mistakes or shortcomings,
-warn's you obsessively about future risks,
-wakes you up in the middle of the night worrying,
-gets you fixated on what is wrong with others or your life,
+It is the one that beats you up repeatedly over mistakes or shortcomings.
+It warns you obsessively about future risks.
+Wakes you up in the middle of the night worrying.
+Gets you fixated on what is wrong with others or your life.
 etc.
 
 The Judges Special Effect::
@@ -82,33 +83,36 @@ rarely finding peace or contentment in the present.
 
 The Stickler::
 
-It Exhibits perfectionism and a need for order and organization taken to extremes,
+It exhibits perfectionism and a need for order and organization taken to extremes,
 causing anxiety over making things perfect.
 
 The Victim::
 
-Displays emotional and temperamental behavior to gain attention and affection, with an extreme focus on internal, particularly painful, feelings, often exhibiting a martyr complex.
+Displays emotional and temperamental behavior to gain attention and affection,
+with an extreme focus on internal, particularly painful, feelings, often exhibiting a martyr complex.
 
 
 == The Origin of saboteurs:
 
-Saboteurs start off as our guardians to help us survive the real
+Saboteurs start off as our guardians to help us navigate the real
 and imagined threats to our physical and emotional survival as children.
 By the time we are adults,
 we no longer need them,
 but they have become invisible inhabitants of our mind.
 
-== how Saboteurs Hijack you
+== How Saboteurs Hijack You
+
 Our Saboteurs’ patterns of thinking,
 feeling, and reacting become soft-coded in our brain through neural pathways.
 When these neural pathways are triggered,
-we are “hijacked” by our Saboteurs and instantly feel,
+we are "hijacked" by our Saboteurs and instantly feel,
 think, and act using their patterns.
 
-You May think your Saboteurs are good for you,
+You May think your Saboteurs are good for you.
 Your Saboteurs claim they are good for you.
-For example, your Judge tells you that constantly badgering you over your mistakes
- and shortcomings causes you to improve and achieve.
+For example,
+your Judge tells you that constantly badgering you over your mistakes
+and shortcomings causes you to improve and achieve.
 
 And pain can be good for you.
 If you put your hand on a hot stove,
@@ -121,13 +125,18 @@ you will be tunnel-visioned and not capable of finding the best solution to prob
 which your positive brain can do.
 
 So if you’re in negative emotion for more than one second,
-your Saboteurs are holding your hand on the hot stove and complaining that life is hard.
-
-
+your Saboteurs are holding your hand on the hot stove
+and complaining that life is hard.
 
 == How to Beat these Saboteurs:
 
-. Identify Your Saboteurs
+[WARNING]
+.Know thyself!
+====
+One MUST understand a problem before one can solve it!
+====
+
+{saboteur-test}[Identify Your Saboteurs]::
 Self-Awareness: Take the Saboteur Assessment to identify your primary Saboteurs.
 Track Their Patterns: Recognize when and how each Saboteur shows up in your thoughts, feelings, and behaviors.
 
@@ -158,3 +167,10 @@ Overcoming Saboteurs is a process, not an instant fix. Progress happens as you:
 Practice daily mental fitness.
 Continuously redirect your thoughts from Saboteurs to your Sage.
 Celebrate small wins along the way.
+
+== Examples
+
+== Final Grade: TBD
+
+#?#
+

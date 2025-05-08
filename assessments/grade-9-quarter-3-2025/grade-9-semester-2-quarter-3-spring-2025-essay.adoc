@@ -132,12 +132,12 @@ Psychology::
 
 == Raw Links
 
-. link:{labsdir}/Math/MathNotesChapter1.text[Math Notes Chapter 1]
-. link:{labsdir}/Math/MathNotesChapter2.text[Math Notes Chapter 2]
-. link:{labsdir}/Math/MathNotesChapter3.text[Math Notes Chapter 3]
-. link:{labsdir}/Math/9thGradeCheatSheet.adoc[9th Grade Cheat Sheet]
-. link:{labsdir}/Math/10thGradeCheatSheet.adoc[10th Grade Cheat Sheet]
-. link:{labsdir}/Math/Statistics.adoc[Statistics]
+. link:{labsdir}/Mathematics/MathNotesChapter1.text[Math Notes Chapter 1]
+. link:{labsdir}/Mathematics/MathNotesChapter2.text[Math Notes Chapter 2]
+. link:{labsdir}/Mathematics/MathNotesChapter3.text[Math Notes Chapter 3]
+. link:{labsdir}/Mathematics/9thGradeCheatSheet.adoc[9th Grade Cheat Sheet]
+. link:{labsdir}/Mathematics/10thGradeCheatSheet.adoc[10th Grade Cheat Sheet]
+. link:{labsdir}/Mathematics/myPlanToLearningStatistics.adoc[Statistics]
 . link:{labsdir}/Google/102-ml-foundations/MyFundamentalsMiroBoard.ipynb[My Fundamentals Miro Board]
 . link:{labsdir}/Google/104-core-libraries/01-Numpy.ipynb[My Numpy Notebook]
 . link:{labsdir}/Google/104-core-libraries/02-Pandas.ipynb[My Pandas Notebook]

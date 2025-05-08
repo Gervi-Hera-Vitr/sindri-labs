@@ -1,0 +1,21 @@
+= Saboteurs Assessment: Captain Lugaru
+Cpt. Lugaru (CaptainLugaru) <72951616+CaptainLugaru@users.noreply.github.com>
+v1.1, Thursday, May 8th, 2025
+:description: Captain's actual saboteurs as of January 19th, 2025
+:sectnums:
+:sectanchors:
+:sectlinks:
+:icons: font
+:tip-caption: 💡️
+:note-caption: ℹ️
+:important-caption: ❗
+:caution-caption: 🔥
+:warning-caption: ⚠️
+:toc: preamble
+:toclevels: 1
+:toc-title: Saboteur Assesment Example
+:keywords: Homeschool Learning Journey
+:imagesdir: ../images
+:labsdir: ../labs
+ifdef::env-name[:relfilesuffix: .adoc]
+
