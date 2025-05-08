@@ -1,0 +1,21 @@
+= Saboteurs Assessment: The R!dd13r
+R!dd13r rdd13r <12781006+rdd13r@users.noreply.github.com>
+v1.0, Thursday, May 8th, 2025
+:description: R!dd13r's actual saboteurs as of May 8th, 2025
+:sectnums:
+:sectanchors:
+:sectlinks:
+:icons: font
+:tip-caption: 💡️
+:note-caption: ℹ️
+:important-caption: ❗
+:caution-caption: 🔥
+:warning-caption: ⚠️
+:toc: preamble
+:toclevels: 1
+:toc-title: Saboteur Assesment Example
+:keywords: Homeschool Learning Journey
+:imagesdir: ../images
+:labsdir: ../labs
+ifdef::env-name[:relfilesuffix: .adoc]
+
