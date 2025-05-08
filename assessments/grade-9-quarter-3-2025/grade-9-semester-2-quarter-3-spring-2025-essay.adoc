@@ -82,7 +82,7 @@ Engineering::
 History::
 . 2025-01-19: {history-of-modern-rus}[The Brief History of Modern Rus] - A+
 . 2025-01-24: {history-ragnar-and-rus}[Ragnar's Connection to Rus] - A+
-. 2025-03-07: {history-brief-ukraine}[The Brief History of Ukraine] - A+
+. 2025-03-07: {history-brief-ukraine}[The Brief History of Ukraine] - #A+# -- exemplary semester work.
 
 == Raw Links
 

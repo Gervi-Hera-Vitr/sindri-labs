@@ -19,9 +19,11 @@ v1.0, Friday, March 7, 2025
 :labsdir: ./labs
 ifdef::env-name[:relfilesuffix: .adoc]
 :balkans: https://en.wikipedia.org/wiki/Balkans
+:korolevo: https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CK%5CO%5CKorolevoarcheologicalsite.htm
+:medzhybizh: https://en.wikipedia.org/wiki/Medzhybizh
 :blacksea: https://en.wikipedia.org/wiki/Black_Sea
 :cucunteni-Trypilla: https://en.wikipedia.org/wiki/Cucuteni%E2%80%93Trypillia_culture
-:scytheins: https://en.wikipedia.org/wiki/Scytheins
+:Scythians: https://en.wikipedia.org/wiki/Scythians
 :sarmatians: https://en.wikipedia.org/wiki/Sarmatians
 :Slavs: https://en.wikipedia.org/wiki/Slavic_people
 :Varangians: https://en.wikipedia.org/wiki/Varangians
@@ -30,102 +32,296 @@ ifdef::env-name[:relfilesuffix: .adoc]
 :Indo-Europeans: https://en.wikipedia.org/wiki/Indo-European_people
 :kyiv: https://en.wikipedia.org/wiki/Kyiv
 :cossacks: https://en.wikipedia.org/wiki/Cossacks
+:oldest-tool-in-europe: https://www.smithsonianmag.com/smart-news/stone-tools-found-in-ukraine-may-be-the-oldest-evidence-of-early-humans-in-europe-180983915
+:nature-article: https://www.nature.com/articles/s41586-024-07151-3
+:homo: https://en.wikipedia.org/wiki/Human
+:lavra: https://en.wikipedia.org/wiki/Kyiv_Pechersk_Lavra
+
+As I attended a public school last year I had my history teacher present a version of proto-european demographic that didn't seem right.
+I asked my father about it and he said:
+
+ Her statemens are definitely off.
+ Western, Central and Eastern Europeans are closely related and well mixed.
+ Only Asia, i.e., modern day "white Russian demographic" are distinctly separate Finno-Ugric people.
+ Yet Fins and Estonians, i.e., Baltic Finno-Ugric people,
+ are also mixed up in the cauldron of the Kyivan Rus' and the Grand Dutchy of Lithuania.
+ Along with the Vikings sprinkled along all the waterways.
+ These are demgraphic tribes of the ancient Rus' -- free and democratic.
+ Why don't you look into it yourself, son?!
+
+With adults giving me such a broad and different view of history,
+I decided to conduct my own research, especially now that I'm homeschooled.
+And my hunch turned out to be right.
+Europeans are much older and closer knit together than she has presented to my class.
+In particular, one nation she's marginalized, Ukraine, goes way back to the beginning of Europe itself.
+Something that my father downplayed a good bit.
+Also neither adult mentioned a constant influx of the new people from the South and North.
+So, I am delighted to present my findings in this essay.
+Lets learn a little bit about that old Scythian nation of Ukraine and its descendents.
+
 
 == Early Human Presence in Ukraine
+
 The history of Ukraine dates back millions of years to the early presence of hominids in Europe.
 The first humanoid creatures appeared in East Africa around 2.5 million years ago,
-and by 1.2 million years ago, early humans had migrated to Europe, including present-day Ukraine, via the {balkans}[Balkans] .
-Ukraine has some of the oldest discovered settlements of hominids in Central and Eastern Europe, such as the sites at Coro and Medzh.
-Modern humans (Homo sapiens sapiens) emerged in East Africa around 200 thousand years ago and reached Europe approximately 40,000 years ago,
+and by 1.2 million years ago, early humans had migrated to Europe, including present-day Ukraine, via the {balkans}[Balkans].
+Ukraine has some of the oldest discovered settlements of hominids in Central and Eastern Europe, such as the sites at {korolevo}[Korolevo] and {medzhybizh}[Medzhybizh].
+{homo}[_Modern humans (Homo sapiens)_] emerged in East Africa around 200 thousand years ago and reached Europe approximately 40,000 years ago,
 gradually replacing Neanderthals.
 
+[TIP]
+.Smithsonian Magazine; March 7, 2024.
+====
+Did you know that
+{oldest-tool-in-europe}[_"Stone Tools Found in Ukraine May Be the Oldest Evidence of Early Humans in Europe._]
+
+_Stone tools dug up in western Ukraine date to about *1.4 million years ago*,
+making them the earliest evidence of human presence in Europe, researchers report Wednesday in the journal {nature-article}[Nature]._
+====
+
 == Prehistoric Developments in Ukraine
+
 As early humans settled in Ukraine, they developed tools, art, and social structures:
-Early Art &amp; Tools: Ornaments, figurines, and tools made from mammoth ivory have been discovered, along with advanced tools like needles and musical instruments.
+Early Art and Tools: Ornaments, figurines, and tools made from mammoth ivory have been discovered,
+along with advanced tools like needles and musical instruments.
 Religious Beliefs: Burial practices indicate the emergence of spiritual traditions.
 Architecture: The construction of mammoth-bone dwellings shows early architectural advancements.
 
+_It's important to mention here that Mitochondrial Eve is only 200,000 years old._
+Which gives us a healthy perspective and scope for the timelines.
+
 === The Ice Age and Its Impact
-During the Ice Age (about 1 million years ago), massive glaciers shaped Europe's geography.
+
+During the Ice Age (about 1 million years ago), massive glaciers *_shaped Europe's geography_*.
+Europe became the Europe we know today relatively recently in our history.
 Winds from these glaciers helped form Ukraine’s fertile soil, which later became crucial for agriculture.
 As the climate changed, mammoths and woolly rhinoceroses became extinct,
 while reindeer, buffalo, and horses thrived, providing food and resources for early humans.
 
 == The Neolithic Revolution: From Hunting to Farming
+
 Between the seventh and fourth millennia BC, Ukrainian societies transitioned from hunter-gathering to agriculture:
 Flint-bladed sickles and slash-and-burn farming methods were introduced.
 The invention of pottery improved food storage.
 Permanent settlements and villages began to form, allowing population growth.
 
+_For perspective, proto-russians attained slash-and-burn agriculture only 700 years ago._
+While northern Finno-Ugric tribes moved in lock-step with proto-europeans.
+The reason for this is the fertile soil of Ukraine and surrounding lands.
+
 == The Black Sea Flooded 5,600 BC
+
 A significant event in early Ukrainian history was the transformation of the {blacksea}[Black Sea].
 Around 5,600 BC, the Mediterranean Sea spilled into what was then a freshwater lake, turning it into a salty sea.
 This flooding forced human migration and reshaped the surrounding environment.
 By the end of the Stone Age (5th–3rd millennium BC), metal tools, (copper and bronze) were introduced,
 marking the beginning of more complex social structures.
 
+Western and norther Finno-Ugric tribes followed shortly after.
+While Eastern Finno-Ugric such as Veps and Mordvinic Moksha (proto-russians) purchased metal tools until 470 years ago.
+
 == The Trypillian Culture (6th–3rd Millennium BC)
+
 One of Ukraine’s most significant prehistoric civilizations was the {cucunteni-Trypilla}[Trypillan] culture:
-Settlements: Unfortified villages were built on fertile plains, some reaching populations of 20,000—larger than many medieval towns.
-Architecture: Houses were often two stories tall, showcasing advanced construction techniques.
-Agriculture: Prosperity was largely due to Ukraine’s fertile lands.
-The {indo-europeans}[Indo-Europeans] and the Domestication of the Horse
-Ukraine played a foundational role in the early history of the {indo-europeans}[Indo-European] people.
-Between the fourth and second millennia BC, {indo-europeans}[Indo-European] tribes migrated from Ukraine across Europe, Asia, and even into India.
+
+- *Settlements*: Unfortified villages were built on fertile plains, some reaching populations of 20,000 -- 50,000 people, larger than even medieval towns.
+- *Architecture*: Houses were often two stories tall, showcasing advanced construction techniques.
+- *Agriculture*: Prosperity was largely due to Ukraine’s fertile lands.
+
+The {indo-europeans}[Indo-Europeans] and the Domestication of the Horse::
+Ukraine played a foundational role in the early history of the Indo-European people.
+Between the fourth and second millennia BC, Indo-European tribes migrated from Ukraine across Europe, Asia, and even into India.
 A key development was the domestication of the horse in Ukraine around the fourth millennium BC.
-Horses revolutionized transportation and warfare, giving {indo-europeans}[Indo-Europeans] a military and economic advantage.
+Horses revolutionized transportation and warfare, giving Indo-Europeans a military and economic advantage.
 Ukrainian horses were highly valued, and their influence reached civilizations as far as Egypt.
 
+Ukrainian settlements then spanned more that 3,000 structures, as compared to Moscow when elevated by Mongols recently with only 30 structures.
+The reason for this is the ability to clear and terraform land using horse power and advanced tools.
+
 == The Scythians: Warriors of the Steppe (eighth Century BC – fourth Century AD)
-The {scytheins}[Scytheins], an Indo-Iranian nomadic tribe, returned to Ukraine in the eighth century BC after traveling through Asia.
-They established one of Europe’s earliest organized states with a government, taxation system, and a permanent army.
+
+The {Scythians}[Scythians], an Indo-Iranian nomadic tribe, returned to Ukraine in the eighth century BC after traveling through Asia.
+I was unable to find why did they travel South for a thousand years.
+But when back in Ukraine, they established one of Europe’s earliest organized states with a government, taxation system, and a permanent army.
 
 === Scythian Achievements and Influence
-Cultural Legacy: The {scytheins}[Scytheins] worshiped the sun and fire, buried their dead with red ocher and weapons, and were known for their rich gold artifacts.
-Military Prowess: Their cavalry and mobile fortifications were among the strongest in the ancient world. Even Persian King Darius I failed to conquer them in 513 BC.
-Trade and Economy: They controlled vital trade routes and influenced cultures from the {balkans}[Balkans] to the Middle East.
-The {scytheins}[Scytheins] left a lasting impact on Ukrainian culture, including traditional clothing, phonetic traits in the Ukrainian language, and the famous trident symbol, later adopted by {kyiv}[Kyivan-Rus].
+
+Having returned back to their fertile lands the proto-ukrainians brought with them the ways of many other cultures.
+
+Cultural Legacy:: The Scythians worshiped the sun and fire, buried their dead with red ocher and weapons, and were known for their rich gold artifacts.
+
+Military Prowess:: Their cavalry and mobile fortifications were among the strongest in the ancient world.
+Even Persian King Darius I failed to conquer them in 513 BC.
+
+Trade and Economy:: They controlled vital trade routes and influenced cultures from the Balkans to the Middle East.
+And guess who they worked with on trade routes?
+
+The Scythians left a lasting impact on Ukrainian culture even *_until this day_*,
+including traditional clothing, phonetic traits in the Ukrainian language,
+and the famous trident symbol, later adopted by {kyiv}[Kyivan-Rus].
+
+The Trident symbol means VOLIA, still in Ukrainian language today, which is 3 meanings in one word::
+* FREEDOM
+* WILL
+* CHOICE
+
+*_The three meanings are inseparable in this word._*
+
+[WARNING]
+.But information is FREE!
+====
+When I studied this section, going through tons of materials about Scythian ways of life,
+I could not help but wonder about my public school MAGA supporting, Putin reciting history teacher. +
+*_Doesn't she have a free access to facts and information like the rest of us do?_*
+====
 
 == The Sarmatians: Successors to the Scythians (fourth Century BC – fourth Century AD)
-Following the decline of the Scythians, the {sarmatians}[Sarmatians], another Indo-Iranian tribe, took control of the region. Known for their powerful cavalry, they developed cataphracts, heavily armored horsemen, which influenced medieval knights.
+
+image::Ukraine-Mother.jpg[Mother Statue of Kyiv,width=400,align=right,float=right]
+
+Following the decline of the Scythians, the {sarmatians}[Sarmatians],
+another Indo-Iranian tribe, took control of the region.
+But that takeover is best described as continuation and enhancement.
+Known for their powerful cavalry, they developed cataphracts,
+heavily armored horsemen, which influenced medieval knights.
 Their warrior culture, including female warriors known as "Amazons,"
 left a deep mark on Ukrainian traditions, particularly among the later {cossacks}[cossacks].
 
+In particular, a lot of material went through my desk documenting how women actually had a dominant role in Ukrainian society.
+Form such concepts as "the mother of the tribe" and "the wife of the king is the mind of the king",
+and down to Olga of Kyiv punishing neighboring tribes for killing her disobedient husband,
+and to the Mother statue crowning Kyiv today.
+
+I've come across manuscript describing this same mindset of mother-dominance adopted by Viking tribes a thousand years later,
+such as modern day Sweden. I remembered stories about my great grandmother from Ukraine,
+whom I never met, how she was a woman of steel, mental fortitude, and authority.
+And I am thinking about my own family how my father never overrules my mother.
+He tries to explain and build a supported argument.
+But my mother sometimes overrules him.
+And all he ever says "are you absolutely certain?"
+Even though I think that he should insist.
+I find it fascinating how these concepts survive millennia without any explicit teaching.
+
 == The Slavs and the Rise of Kyivan Rus’
+
 By the first century AD, Slavic tribes were emerging in Ukraine.
 Early Greek sources referred to them as the Veneti,
 describing them as fierce warriors who practiced guerrilla warfare.
-The {slavs}[Slavs] eventually divided into groups, including the Antes, who formed a powerful tribal union in Right-Bank Ukraine,
+The {slavs}[Slavs] eventually divided into groups, including the Antes,
+who formed a powerful tribal union in Right-Bank Ukraine,
 and the Sclaveni who migrated to the {balkans}[Balkans].
+The former are my ancestors too as both of my parents are from the
+Carpathian mountains: father Hutzul and mother Bukovinka.
 
 == The Founding of Kyiv (5th–6th Century AD)
+
 According to legend, {kyiv}[Kyiv] was founded by three brothers, Kyi, Shchek, and Khoryv,
-along with their sister Lybid.By the ninth century, it became a powerful center of trade and governance.
+along with their sister Lybid.
+By the ninth century, it became a powerful center of trade and governance.
+Although an educated, strong, and democratic state, few detailed records exist of that time.
+Mostly because on the numerous Muscovy clergy raids to burn down Ukrainian books in sacred libraries
+such as {lavra}[Pechersk Lavra in Kyiv].
 
 == The Viking Influence (9th–10th Century AD)
-During the ninth century, {varangians}[Varangians] (Vikings) arrived in Eastern Europe.
-They played a role in unifying Slavic tribes and establishing the foundations of {kyiv}[Kyivan-Rus],’
-a powerful state that dominated Eastern Europe.
 
-{kyiv}[Kyivan-Rus]’ saw significant expansion under Prince Sviatoslav the Brave (964–972 AD),
+During the ninth century, {varangians}[Varangians] (Vikings) arrived in Eastern Europe in force.
+
+*_They played a role in unifying Slavic tribes and establishing the foundations of {kyiv}[Kyivan-Rus],’
+a powerful state that dominated Eastern Europe._*
+
+Kyivan Rus’ saw significant expansion under Prince Sviatoslav the Brave (964–972 AD),
 who crushed the Khazar Khaganate and extended Rus' influence deep into the {balkans}[Balkans].
+By this time Rus' was already multinational and free.
+Crushing the Khazar Khaganate annexed Crimea to Ukraine adding few more tribes to the mix,
+all of which are an inseparable part of Ukrainian history, culture and identity today.
+
+*Unifying legacy of Vikings absorbing peoples of Crimea:*
+
+The Khazars::
+* Turkic ethnic mix: Crimean Tatars today;
+* Iranian and Finno-Ugric tribes; absorbed;
+* Semetic tribes: like President Zelenskyy today.
+
+Crimean Goths::
+* East Germanic tribes who settled in Crimea after Rome, +
+and influenced Crimean dialect of Ukrainian language.
+* Mangup fortress still survives today.
+
+Alans (Iranian-speaking Sarmatian descendants)::
+* Northern Caucasus, Azov steppes;
+* Founders of the legendary Azov Battalion.
+
+Onogurs, Bulgars, and Pechenegs::
+* Southern Turkic tribes;
+* Directly related to Turkey today.
+
+Taurians and Scytho-Sarmatian tribes::
+* Highly assimilated but culturally distinct in the south;
+* Source of much of the Ukrainian mythology today;
+* Related to Greek tribes present day.
+
+[NOTE]
+.Vikings meant movement of people
+====
+_Here it's important to understand that Vikings took to trade routes
+along Ukrainian rivers like fish to water,
+also becoming a conduit for movement of people._
+====
+
+[NOTE]
+.Fun fact: how assimilation works
+====
+Genomically, our family is Viking pointing straight at Stockholm.
+Yet, my parents being Ukrainian by lineage -- how did that actually happen?!
+====
 
 == The Golden Age of Ukraine: Kyivan Rus’ (10th–11th Century AD)
-Volodymyr the Great (980–1015 AD)
-Christianization of Ukraine (988 AD): {vladimirthegreat}[Volodymyr] adopted Christianity, strengthening cultural ties with Byzantium.
-Military &amp; Governance: He expanded the state, implemented legal reforms, and fortified borders.
 
-Yaroslav the Wise (1018–1054 AD)
-Cultural &amp; Religious Growth: {yaroslavthewise}[yaroslav] built St. Sophia’s Cathedral, developed {kyiv}[Kyiv] into a major European city, and promoted education.
-Legal Reforms: He introduced written laws and established trade and diplomatic alliances with European monarchs.
-By the 11th century, {kyiv}[Kyiv] was the second-largest city in Europe after Constantinople, with a population of around 150,000.
+Volodymyr the Great (980–1015 AD)::
+*Christianization of Ukraine* (988 AD): {vladimirthegreat}[Volodymyr] adopted Christianity, strengthening cultural ties with Byzantium. +
+*Military & Governance*: He expanded the state, implemented legal reforms, and fortified borders.
+
+[WARNING]
+.The name is Volodymyr NOT Vladimir
+====
+All of the Rus' rulers spoke Ukrainian.
+In ALL manuscripts the spelling is Ukrainian: Volodymyr, not Vladimir.
+Name bastardization is an effort of Russian cohort at erasure of Ukrainian identity
+in order to steal Ukrainian history for Russia.
+====
+
+Yaroslav the Wise (1018–1054 AD)::
+*Cultural & Religious Growth*: {yaroslavthewise}[Yaroslav] built St. Sophia’s Cathedral,
+developed {kyiv}[Kyiv] into a major European city, and promoted education. +
+*Legal Reforms*: He introduced written laws and established trade and diplomatic alliances with European monarchs.
+By the 11th century, Kyiv was the second-largest city in Europe after Constantinople, with a population of around 150,000.
 
 == Conclusion: Ukraine’s Lasting Legacy
+
 From prehistoric settlers to the rise of {kyiv}[Kyivan-Rus],’
 Ukraine has been a cradle of civilization.
 It played a crucial role in {indo-europeans}[Indo-European] migrations,
 horse domestication, and the development of one of Europe’s most influential medieval states.
+I was stunned to learn that the Western Europe today began in the steppes of Ukraine.
 
 Even as history brought waves of invaders and changing rulers,
 Ukraine remained a land of rich culture, fierce warriors, and deep historical significance.
-Today its past continues to shape its national identity and place in the world.
+Today its past continues to shape its national identity and place in the world
+-- holding the fort of civilization against the barbaric horde just like it always has.
+
+During this research I was impressed and even overwhelmed by *_the humble nature_* of
+the Ukrainian people carrying such a long and powerful history, tradition and culture.
+And at the same time disappointed by the barbaric neighbors unable to conjure even
+half of millennia of some statehood, drowning in deception, corruption,
+moral and cultural bankruptcy.
+
+== Final Grade
+
+- ✅ Graded assignment https://github.com/rdd13r[by `rdd13r`] on March 7th 2025. #A+#
+- ✅ Revisited for the quarter final grade May 7th 2025: #A+#
+- ✅ Final grade is 100%. (A+) at Mimir Academy.
+
+Took notes of the::
+- writing style changes;
+- pair and group research;
+- collective material development.
