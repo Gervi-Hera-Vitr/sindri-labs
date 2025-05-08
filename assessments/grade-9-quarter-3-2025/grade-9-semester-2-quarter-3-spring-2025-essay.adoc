@@ -101,12 +101,6 @@ History::
 
 == Raw Links
 
-. link:{labsdir}/History/EssayOfUkraineHistory.text[Essay of Ukraine History]
-. link:{labsdir}/History/EssayOfUkrainesHistoryRoughDraft.text[Essay of Ukraines History - Rough Draft]
-. link:{labsdir}/History/EssayOnModernRus(Ukraine).text[Essay on Modern Rus(Ukraine)]
-. link:{labsdir}/History/RagnarsConnectionToRus.text[Ragnar's Connection to Rus]
-. link:{labsdir}/History/HistoryOfHumanEvolution.adoc[History of Human Evolution]
-. link:{labsdir}/History/TheAgriculturalEvolution.adoc[The Agricultural Evolution]
 . link:{labsdir}/Science/Biology/BiologyChapter1.adoc[Biology Chapter 1]
 . link:{labsdir}/Science/Physics/Chapter1Physics.adoc[Physics Chapter 1]
 . link:{labsdir}/Psychology/HowIBeatMyTopTwoSaboteurs.md[How I Beat My Top Two Saboteurs]
