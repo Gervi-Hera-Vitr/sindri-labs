@@ -21,6 +21,7 @@ v1.0.0, Monday the 5th of May 2025 13:18 EST
 :labsdir: {sindridir}/labs
 ifdef::env-name[:relfilesuffix: .adoc]
 :biology-how-whales-evolved: link:{curriculumdir}/Biology/onWhales/HowWhalesEvolved.adoc
+:biology-what-is-biology: link:{curriculumdir}/Biology/onTheScience/WhatIsBiology.adoc
 :business-on-rich-dad-poor-dad: link:{curriculumdir}/Business/onKeyBooks/RobertKiyosaki-CoreLessonsOfRichDadPoorDad.adoc
 :business-on-the-little-red-book-of-selling: link:{curriculumdir}/Business/onKeyBooks/JeffreyGitomer-IntroductoryReviewOf-TheLittleRedBookOfSelling-12,5-PrinciplesOfSalesGreatness.adoc
 :engineering-how-i-will-study-ml: link:{curriculumdir}/Engineering/onLearningML/HowIWillStudyML.adoc
@@ -72,6 +73,7 @@ Key concepts that I discovered and learned are:
 
 Biology::
 . 2024-12-12: {biology-how-whales-evolved}[How Whales Evolved] - A+
+. 2025-03-10: {biology-what-is-biology}[What is Biology] - A+
 
 Business::
 . 2025-03-07: {business-on-the-little-red-book-of-selling}[The Little Red Book of Selling] - not graded
@@ -101,7 +103,6 @@ History::
 
 == Raw Links
 
-. link:{labsdir}/Science/Biology/BiologyChapter1.adoc[Biology Chapter 1]
 . link:{labsdir}/Science/Physics/Chapter1Physics.adoc[Physics Chapter 1]
 . link:{labsdir}/Psychology/HowIBeatMyTopTwoSaboteurs.md[How I Beat My Top Two Saboteurs]
 . link:{labsdir}/Psychology/HowToBeatYourSabotuers.text[How To Beat Your Sabotuers]
