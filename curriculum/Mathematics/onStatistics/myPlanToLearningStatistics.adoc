@@ -1,4 +1,28 @@
+
 = Introduction to Statistics
+Cpt. Lugaru (CaptainLugaru) <72951616+CaptainLugaru@users.noreply.github.com>
+v1.0, Thursday, March 13, 2025
+:doctype: book
+:description: Modern technical writing uses AsciiDoc for structured documents instead of Markdown or LaTeX.
+:sectnums:
+:sectanchors:
+:sectlinks:
+:icons: font
+:tip-caption: 💡️
+:note-caption: ℹ️
+:important-caption: ❗
+:caution-caption: 🔥
+:warning-caption: ⚠️
+:toc: preamble
+:toclevels: 2
+:toc-title: Technical Writing Learning Trail
+:keywords: Homeschool Learning Journey
+:sindridir: ../..
+:imagesdir: ./images
+:curriculumdir: {sindridir}/curriculum
+:labsdir: {sindridir}/labs
+ifdef::env-name[:relfilesuffix: .adoc]
+
 
 This is managed in a discussion here: https://github.com/Gervi-Hera-Vitr/sindri-labs/discussions/279[Week #14: Statistics for ML #279].
 This discussion has all the planned activities.

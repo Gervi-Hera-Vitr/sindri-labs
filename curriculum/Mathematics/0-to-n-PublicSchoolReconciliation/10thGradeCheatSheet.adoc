@@ -1,5 +1,26 @@
 = Grade 10 Math Cheatsheet
-= Ultimate Grade 10 Math Cheat Sheet
+Cpt. Lugaru (CaptainLugaru) <72951616+CaptainLugaru@users.noreply.github.com>
+v1.0, Thursday, March 13, 2025
+:doctype: book
+:description: Modern technical writing uses AsciiDoc for structured documents instead of Markdown or LaTeX.
+:sectnums:
+:sectanchors:
+:sectlinks:
+:icons: font
+:tip-caption: 💡️
+:note-caption: ℹ️
+:important-caption: ❗
+:caution-caption: 🔥
+:warning-caption: ⚠️
+:toc: preamble
+:toclevels: 2
+:toc-title: Technical Writing Learning Trail
+:keywords: Homeschool Learning Journey
+:sindridir: ../..
+:imagesdir: ./images
+:curriculumdir: {sindridir}/curriculum
+:labsdir: {sindridir}/labs
+ifdef::env-name[:relfilesuffix: .adoc]
 
 == 1. Solving a Linear System (Graphing / Substitution / Elimination)
 
@@ -20,14 +41,14 @@ x - y = 5
 ----
 
 ==== Graphing Method:
-1. Convert both equations to slope-intercept form:
+ Convert both equations to slope-intercept form:
 [source,txt]
 ----
 x - y = 5  ➜  y = x - 5
 3x + y = 3  ➜  y = -3x + 3
 ----
-2. Plot both lines on the graph.
-3. They intersect at the point `(2, -3)`.
+ Plot both lines on the graph.
+ They intersect at the point `(2, -3)`.
 
 ==== Substitution Method:
 1. From the first equation:
@@ -36,7 +57,7 @@ x - y = 5  ➜  y = x - 5
 ----
 y = x - 5
 ----
-2. Substitute into the second equation:
+. Substitute into the second equation:
 [source,txt]
 ----
 3x + (x - 5) = 3
@@ -44,7 +65,7 @@ y = x - 5
 4x = 8
 x = 2
 ----
-3. Substitute `x = 2` into `y = x - 5`:
+. Substitute `x = 2` into `y = x - 5`:
 [source,txt]
 ----
 y = 2 - 5 = -3
@@ -57,14 +78,14 @@ y = 2 - 5 = -3
 x - y = 5
 3x + y = 3
 ----
-2. Add the equations to eliminate `y`:
+ Add the equations to eliminate `y`:
 [source,txt]
 ----
 (x - y) + (3x + y) = 5 + 3
 4x = 8
 x = 2
 ----
-3. Substitute `x = 2` into the first equation:
+ Substitute `x = 2` into the first equation:
 [source,txt]
 ----
 2 - y = 5
@@ -101,7 +122,7 @@ Solve the system:
 5(4x + 3y) = 50x + 15y = 50
 4(5x - 4y) = 20x - 16y = -8
 ----
-2. Subtract the second equation from the first:
+ Subtract the second equation from the first:
 [source,txt]
 ----
 (50x + 15y) - (20x - 16y) = 50 - (-8)
@@ -111,13 +132,13 @@ Solve the system:
 (This example has an inconsistency—corrected approach below)
 
 ==== Correct Steps:
-1. Multiply first equation by 5 and second equation by 4:
+1. Multiply the first equation by five and second equations by 4:
 [source,txt]
 ----
 4x + 3y = 10 ➜ 5(4x + 3y) = 20x + 15y = 50
 5x - 4y = -2 ➜ 4(5x - 4y) = 20x - 16y = -8
 ----
-2. Subtract:
+ Subtract:
 [source,txt]
 ----
 (20x + 15y) - (20x - 16y) = 50 - (-8)
@@ -126,7 +147,7 @@ Solve the system:
 y = 58 / 31
 y = 2
 ----
-3. Substitute `y = 2` into the first equation:
+ Substitute `y = 2` into the first equation:
 [source,txt]
 ----
 4x + 3(2) = 10
@@ -151,7 +172,7 @@ Solve the system:
 Translate real-life situations into linear equations and solve using substitution or elimination. Define variables clearly based on the problem.
 
 === ➤ Example
-*A sports shop sells Adidas shoes for $82 and Air Jensen shoes for $95. They sold 75 pairs total and made $6241. How many of each did they sell?*
+*A sports shop sells Adidas shoes for $82 and Air Jensen shoes for $95. They sold 75 pairs in total and made $6241. How many of each did they sell?*
 
 === ➤ Steps:
 1. Define variables:
@@ -165,14 +186,14 @@ x + y = 75
 82x + 95y = 6241
 ----
 
-3. Multiply the first equation by 82:
+ Multiply the first equation by 82:
 [source,txt]
 ----
 82(x + y) = 82(75)
 82x + 82y = 6150
 ----
 
-4. Subtract the two equations:
+ Subtract the two equations:
 [source,txt]
 ----
 (82x + 95y) - (82x + 82y) = 6241 - 6150
@@ -181,7 +202,7 @@ x + y = 75
 y = 7
 ----
 
-5. Substitute `y = 7` into `x + y = 75`:
+ Substitute `y = 7` into `x + y = 75`:
 [source,txt]
 ----
 x = 75 - 7
@@ -255,19 +276,19 @@ Triangle with vertices `A(1, 2)`, `B(5, 6)`, `C(7, 2)`.
 ----
 Midpoint of BC = ( (5 + 7)/2 , (6 + 2)/2 ) = (6, 4)
 ----
-2. Median from `A(1, 2)` to midpoint `(6, 4)`.
+ Median from `A(1, 2)` to midpoint `(6, 4)`.
 
-3. Find the slope from `A` to midpoint:
+ Find the slope from `A` to midpoint:
 [source,txt]
 ----
 Slope = (4 - 2) / (6 - 1) = 2 / 5
 ----
-4. Equation of the line in point-slope form:
+ Equation of the line in point-slope form:
 [source,txt]
 ----
 y - 2 = (2/5)(x - 1)
 ----
-5. Simplify:
+ Simplify:
 [source,txt]
 ----
 y = (2/5)x + 8/5
@@ -291,22 +312,22 @@ Points `A(2, 3)` and `B(6, 7)`.
 ----
 ( (2 + 6)/2 , (3 + 7)/2 ) = (4, 5)
 ----
-2. Slope of `AB`:
+ Slope of `AB`:
 [source,txt]
 ----
 (7 - 3) / (6 - 2) = 4 / 4 = 1
 ----
-3. Perpendicular slope = negative reciprocal:
+ Perpendicular slope = negative reciprocal:
 [source,txt]
 ----
 -1
 ----
-4. Equation through midpoint `(4, 5)` with slope `-1`:
+ Equation through midpoint `(4, 5)` with slope `-1`:
 [source,txt]
 ----
 y - 5 = -1(x - 4)
 ----
-5. Simplify:
+ Simplify:
 [source,txt]
 ----
 y = -x + 9
@@ -336,10 +357,10 @@ BC = √[(7 - 4)² + (1 - 5)²] = √[9 + 16] = √25 = 5
 CA = √[(7 - 1)² + (1 - 1)²] = √[36 + 0] = 6
 ----
 
-2. Classification:
+ Classification:
 * Two sides equal ➜ *Isosceles*
 
-3. Check for right angle using Pythagorean theorem:
+ Check for right angle using Pythagorean theorem:
 [source,txt]
 ----
 5² + 5² = 50
@@ -355,7 +376,7 @@ Classify the triangle with points `P(0, 0)`, `Q(4, 0)`, and `R(4, 3)`.
 == 8. Equation of a Circle / Points on, Inside, Outside the Circle
 
 === ➤ Concept
-* Standard equation of a circle centered at the origin:
+* Standard equation of a circle centered on the origin:
 [source,txt]
 ----
 x² + y² = r²
@@ -369,7 +390,7 @@ x² + y² = r²
 == 9. Equation of a Circle and Point Location (Inside, Outside, On)
 
 === ➤ Concept
-The equation of a circle centered at the origin is:
+The equation of a circle centered on the origin is:
 [source,txt]
 ----
 x² + y² = r²
@@ -389,12 +410,12 @@ Circle centered at `(0, 0)` through point `(6, 0)`.
 ----
 r² = 6² = 36
 ----
-2. Equation of the circle:
+ Equation of the circle:
 [source,txt]
 ----
 x² + y² = 36
 ----
-3. Check if point `(4, 5)` lies on, inside, or outside:
+ Check if point `(4, 5)` lies on, inside, or outside:
 [source,txt]
 ----
 4² + 5² = 16 + 25 = 41
@@ -428,7 +449,7 @@ Point `P(4, 5)`, line `y = 2x - 3`.
 y - 5 = -1/2(x - 4)
 y = -1/2x + 7
 ----
-4. Solve the system:
+ Solve the system:
 [source,txt]
 ----
 2x - 3 = -1/2x + 7
@@ -442,7 +463,7 @@ Substitute `x = 4`:
 ----
 y = 2(4) - 3 = 5
 ----
-5. Intersection point is `(4, 5)`.
+ Intersection point is `(4, 5)`.
 Distance from `P(4, 5)` to itself is `0`.
 
 ✅ *Shortest distance*: `0`
@@ -499,14 +520,14 @@ Vertex `(2, 1)` and point `(4, 9)`.
 ----
 y = a(x - 2)² + 1
 ----
-2. Substitute `(4, 9)` into the equation:
+ Substitute `(4, 9)` into the equation:
 [source,txt]
 ----
 9 = a(4 - 2)² + 1
 9 = a(4) + 1
 a = 2
 ----
-3. Equation:
+ Equation:
 [source,txt]
 ----
 y = 2(x - 2)² + 1
@@ -568,7 +589,7 @@ y = (x - 2)(x - 6)
 ----
 x = (2 + 6)/2 = 4
 ----
-3. Vertex: plug `x = 4` into the equation:
+ Vertex: plug `x = 4` into the equation:
 [source,txt]
 ----
 y = (4 - 2)(4 - 6) = (2)(-2) = -4
@@ -598,7 +619,7 @@ Intercepts at `x = -1` and `x = 4`. Passes through point `(2, -12)`.
 ----
 y = a(x + 1)(x - 4)
 ----
-2. Substitute `(2, -12)` into the equation:
+ Substitute `(2, -12)` into the equation:
 [source,txt]
 ----
 -12 = a(2 + 1)(2 - 4)
@@ -606,7 +627,7 @@ y = a(x + 1)(x - 4)
 -12 = -6a
 a = 2
 ----
-3. Final equation:
+ Final equation:
 [source,txt]
 ----
 y = 2(x + 1)(x - 4)
@@ -758,13 +779,13 @@ y = 3x² + 8x - 5
 ----
 y = 3(x² + (8/3)x) - 5
 ----
-2. Half of `8/3` is `4/3`; square it: `16/9`
+ Half of `8/3` is `4/3`; square it: `16/9`
 [source,txt]
 ----
 y = 3(x + 4/3)² - 5 - 3(16/9)
 y = 3(x + 4/3)² - 5 - 16/3
 ----
-3. Combine constants:
+ Combine constants:
 [source,txt]
 ----
 y = 3(x + 4/3)² - 31/3
@@ -824,7 +845,7 @@ x = [4 ± √(16 + 48)] / 4
 x = [4 ± √64] / 4
 x = [4 ± 8] / 4
 ----
-3. Solutions:
+ Solutions:
 [source,txt]
 ----
 x = (4 + 8)/4 = 12/4 = 3
@@ -891,7 +912,7 @@ Identify the vertex, axis of symmetry, intercepts, and direction of opening.
 === ➤ Concept
 Quadratic equations model real-life situations like projectile motion or area problems. Analyze the scenario, write the quadratic equation, and solve for:
 * X-intercepts ➜ When height/area = 0 (e.g., when an object hits the ground)
-* Vertex ➜ Maximum or minimum value (e.g., highest point or smallest cost)
+* Vertex ➜ Maximum or minimum value (e.g., the highest point or the smallest cost)
 
 === ➤ Example
 An object is launched upward at 64 ft/s from a platform 80 ft high. Its height `h(t)` after `t` seconds is:
@@ -953,7 +974,7 @@ Find:
 * Its maximum height
 * When it's 70 m high
 
-== 22. Trigonometry (SOHCAHTOA, Sine Law, Cosine Law)
+== 22. Trigonometry (SOHCAHTOA, Sine's Law, Cosine Law)
 
 === ➤ Concept
 
@@ -974,7 +995,7 @@ sin(30°) = x / 30
 x = 15
 ----
 
-==== ➤ Sine Law (Non-Right Triangles)
+==== ➤ Sine's Law (Non-Right Triangles)
 [source,txt]
 ----
 a / sin(A) = b / sin(B) = c / sin(C)
