@@ -24,11 +24,12 @@ ifdef::env-name[:relfilesuffix: .adoc]
 
 Description::
 
-The Master saboteur that criticizes yourself, others, and situations. It’s a common source of stress and negativity.
+The Master saboteur that criticizes yourself, others, and situations.
+It’s a common source of stress and negativity.
 
 How to Beat::
 
-Practice self-compassion and shift from judgment to curiosity.
+Practice self-compassion and shift from *_judgment_* to *_curiosity_*.
 Build awareness of the Judge's voice and actively replace it with positive reinforcement.
 Focus on gratitude to counteract negativity.
 
@@ -141,3 +142,7 @@ How to Beat::
 Practice empathy and active listening in conversations.
 Recognize the value of emotions alongside logic.
 Prioritize relationships and emotional connections.
+
+== Final Grade: 10/10
+
+#A+#

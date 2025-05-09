@@ -172,15 +172,9 @@ Progress happens as you:
 
 == Examples
 
-All of this is just some theoretical ramblings, smoke and mirrors, pretty talking
--- *_UNLESS_ it is put into practice*!
-Here are our personal examples:
+All of this is just some theoretical ramblings, smoke and mirrors, pretty talking—*_UNLESS_ it is put into practice*!
 
-- link:./examples/rdd13r-saboteurs.adoc[`rdd13r`'s battle on his saboteurs].
-- link:./examples/captain-saboteurs.adoc[`lugaru`s battle on his saboteurs].
-
-
-== Final Grade: TBD
+== Final Grade: 10/10
 
 #A+#
 

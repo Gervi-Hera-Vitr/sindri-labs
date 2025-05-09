@@ -126,9 +126,9 @@ Physics::
 . 2025-03-13: {physics-what-is-physics}[What is Physics] - A+
 
 Psychology::
-. 2025-01-19: {psychology-saboteurs-assignment}[The Saboteurs Assignment]
-. 2025-01-24: {psychology-how-to-beat-your-saboteurs}[How to Beat Your Saboteurs]
-. 2025-03-07: {psychology-how-i-beat-my-top-two-saboteurs}[How I Beat My Top Two Saboteurs]
+. 2025-01-19: {psychology-saboteurs-assignment}[The Saboteurs Assignment] - A+
+. 2025-01-24: {psychology-how-to-beat-your-saboteurs}[How to Beat Your Saboteurs] - #A+#
+. 2025-03-07: {psychology-how-i-beat-my-top-two-saboteurs}[How I Beat My Top Two Saboteurs] - #A+# - This earned additional credit.
 
 == Raw Links
 
