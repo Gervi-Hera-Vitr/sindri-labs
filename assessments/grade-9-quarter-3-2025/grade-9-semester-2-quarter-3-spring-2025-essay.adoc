@@ -132,6 +132,8 @@ Psychology::
 
 == College Level Machine Learning
 
+This work precedes the aformentioned study of *_Decision Trees_*.
+
 . link:{labsdir}/Google/102-ml-foundations/MyFundamentalsMiroBoard.ipynb[My Fundamentals Miro Board]
 . link:{labsdir}/Google/104-core-libraries/01-Numpy.ipynb[My Numpy Notebook]
 . link:{labsdir}/Google/104-core-libraries/02-Pandas.ipynb[My Pandas Notebook]
@@ -142,10 +144,6 @@ Psychology::
 . link:{labsdir}/Google/105-Models-Basics-ML/KNN-Model.ipynb[My KNN Model Notebook]
 . link:{labsdir}/Google/105-Models-Basics-ML/LinearRegression.ipynb[My Linear Regression Notebook]
 . link:{labsdir}/Google/105-Models-Basics-ML/LogisticRegression.ipynb[My Logistic Regression Notebook]
-
-
-
-
 
 
 == Classes Missed or not Attempted
@@ -177,9 +175,3 @@ As for next semester, I plan on Learning:
 * (14) additional points granted for the maturity of product written code and notebooks.
 
 #A+ final grade.#
-
-
-
-
-
-
