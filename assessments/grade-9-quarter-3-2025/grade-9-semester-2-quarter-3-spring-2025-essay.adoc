@@ -130,7 +130,7 @@ Psychology::
 . 2025-01-24: {psychology-how-to-beat-your-saboteurs}[How to Beat Your Saboteurs] - #A+#
 . 2025-03-07: {psychology-how-i-beat-my-top-two-saboteurs}[How I Beat My Top Two Saboteurs] - #A+# - This earned additional credit.
 
-== Raw Links
+== College Level Machine Learning
 
 . link:{labsdir}/Google/102-ml-foundations/MyFundamentalsMiroBoard.ipynb[My Fundamentals Miro Board]
 . link:{labsdir}/Google/104-core-libraries/01-Numpy.ipynb[My Numpy Notebook]
@@ -173,6 +173,8 @@ As for next semester, I plan on Learning:
 
 * (3) three points taken for the sloppy summary;
 * (4) four points granted for independent research and depth.
+* (11) additional points granted for the depth of the essays and the quality of the writing;
+* (14) additional points granted for the maturity of product written code and notebooks.
 
 #A+ final grade.#
 
