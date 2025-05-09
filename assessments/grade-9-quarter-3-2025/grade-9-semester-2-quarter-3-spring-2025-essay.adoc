@@ -55,14 +55,15 @@ I am writing this essay to show what I learned this semester. +
 
 == ML: Decision Trees
 
+[#decision-trees,title="Decision Trees"]
 I learned about decision trees and what they do.
 And I made a masterclass to reflect on this.
 
-. link:{labsdir}/Google/Decision-Trees-Full-Course/Decision-Trees.ipynb[Decision Trees Notebook] - understanding Decisions Trees: grade A+ (@rdd13r).
+. link:{labsdir}/107-decision-trees/Decision-Trees.ipynb[Decision Trees Notebook] - understanding Decisions Trees: grade A+ (@rdd13r).
 
-. link:{labsdir}/Google/Decision-Trees-Full-Course/Decision-Trees-Two.ipynb[Decision Trees Notebook (Bonus Work)] - completely bonus work grade A+ (@rdd13r).
+. link:{labsdir}/107-decision-trees/Decision-Trees-Two.ipynb[Decision Trees Notebook (Bonus Work)] - completely bonus work grade A+ (@rdd13r).
 
-. link:{labsdir}/Google/Decision-Trees-Full-Course/Decision-Trees-Three.ipynb[Decision Trees Notebook (Bonus Work)] - completely bonus work grade A+ (@rdd13r).
+. link:{labsdir}/107-decision-trees/Decision-Trees-Three.ipynb[Decision Trees Notebook (Bonus Work)] - completely bonus work grade A+ (@rdd13r).
 
 I used the https://archive.ics.uci.edu/[UCI Machine Learning Repository] for this project.
 
@@ -132,18 +133,34 @@ Psychology::
 
 == College Level Machine Learning
 
-This work precedes the aformentioned study of *_Decision Trees_*.
+This work precedes the aforementioned study of <<decision-trees>>.
 
-. link:{labsdir}/Google/102-ml-foundations/MyFundamentalsMiroBoard.ipynb[My Fundamentals Miro Board]
-. link:{labsdir}/Google/104-core-libraries/01-Numpy.ipynb[My Numpy Notebook]
-. link:{labsdir}/Google/104-core-libraries/02-Pandas.ipynb[My Pandas Notebook]
-. link:{labsdir}/Google/104-core-libraries/03-VisualLibraries.ipynb[My Visual Libraries Notebook]
-. link:{labsdir}/Google/104-core-libraries/04-TensorFlow.ipynb[My Tensor Flow Notebook]
-. link:{labsdir}/Google/104-core-libraries/05-SkLearn.ipynb[My SkLearn Notebook]
-. link:{labsdir}/Google/104-core-libraries/06-Pytorch.ipynb[My Pytorch Notebook]
-. link:{labsdir}/Google/105-Models-Basics-ML/KNN-Model.ipynb[My KNN Model Notebook]
-. link:{labsdir}/Google/105-Models-Basics-ML/LinearRegression.ipynb[My Linear Regression Notebook]
-. link:{labsdir}/Google/105-Models-Basics-ML/LogisticRegression.ipynb[My Logistic Regression Notebook]
+. *Linear Regression:* #A+#
+.. link:{labsdir}/100-linear-regression/LinearRegressionTaxi.ipynb[Linear Regression Taxi Notebook]
+.. link:{labsdir}/100-linear-regression/MyLinearReggression.ipynb[My Linear Regression Notebook]
+. ML Study Map: TBD - *_task for the teacher_*
+.. link:{labsdir}/101-ml-study-map/index.text[ML Study Map]
+. *ML Foundations:* #A+# - _3 points of additional credit_
+.. link:{labsdir}/102-ml-foundations/MyFundamentalsMiroBoard.ipynb[My Fundamentals Miro Board]
+.. link:{labsdir}/102-ml-foundations/MyMiroBoardLesson.ipynb[My Miro Board Lesson]
+.. link:{labsdir}/102-ml-foundations/AppleSiliconPluggableDevices.ipynb[Apple Silicon Pluggable Devices] - notes from the teacher
+. ML Resource Management: TBD - *_task for the teacher_*
+.. link:{labsdir}/103-ml-resources/ResearchingMlResources.ipynb[Researching ML Resources]
+. *ML Core Libraries:* #A+# - _7 points of additional credit_
+.. link:{labsdir}/104-core-libraries/01-Numpy.ipynb[My Numpy Notebook]
+.. link:{labsdir}/104-core-libraries/02-Pandas.ipynb[My Pandas Notebook]
+.. link:{labsdir}/104-core-libraries/03-VisualLibraries.ipynb[My Visual Libraries Notebook]
+.. link:{labsdir}/104-core-libraries/04-TensorFlow.ipynb[My TensorFlow Notebook]
+.. link:{labsdir}/104-core-libraries/05-SkLearn.ipynb[My SkLearn Notebook]
+.. link:{labsdir}/104-core-libraries/06-Pytorch.ipynb[My Pytorch Notebook]
+. *ML Models Basics:* #A+# - _2 points of additional credit_
+.. link:{labsdir}/105-Models-Basics-ML/KNN-Model.ipynb[My KNN Model Notebook]
+.. link:{labsdir}/105-Models-Basics-ML/LinearRegression.ipynb[My Linear Regression Notebook]
+.. link:{labsdir}/105-Models-Basics-ML/LogisticRegression.ipynb[My Logistic Regression Notebook]
+. Solving Datasets: TBD - *_task for the teacher_*
+.. link:{labsdir}/106-solving-datasets/catboost_info/learn/index.text[CatBoost Info]
+. **ML Decision Trees:** #A+# - _2 points of additional credit_
+.. See <<decision-trees>> above for closing descriptions.
 
 
 == Classes Missed or not Attempted
