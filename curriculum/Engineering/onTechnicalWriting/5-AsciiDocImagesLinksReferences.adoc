@@ -65,3 +65,7 @@ https://www.example.com[Visit Example]
 ----
 // <<section-id, Read more here>> this is commented out to not cause any issues
 ----
+
+== Final Grade: 10/10
+
+#A+#

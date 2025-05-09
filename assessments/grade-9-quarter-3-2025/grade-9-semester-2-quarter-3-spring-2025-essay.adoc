@@ -98,12 +98,12 @@ Business::
 Engineering::
 . 2024-10-26: {engineering-how-i-will-study-ml}[How I will study ML] - A+
 . 2025-03-07: {engineering-guide-to-github}[Munchkins' Guide to GitHub] -A+; additional bonus work - A+
-. 2025-03-07: {engineering-technical-writing-introduction}[Technical Writing: Book 1: Introduction to AsciiDoc]
-. 2025-03-07: {engineering-technical-writing-formatting}[Technical Writing: Book 2: AsciiDoc - Basic Formatting]
-. 2025-03-07: {engineering-technical-writing-structuring-documents}[Technical Writing: Book 3: AsciiDoc - Structuring a Document]
-. 2025-03-07: {engineering-technical-writing-advanced-formatting}[Technical Writing: Book 4: AsciiDoc - Advanced Formatting]
-. 2025-03-07: {engineering-technical-writing-images-links-references}[Technical Writing: Book 5: AsciiDoc - Images, Links, and References]
-. 2025-03-07: {engineering-technical-writing-demonstrations}[Technical Writing: Book 6: AsciiDoc - Demonstration]
+. 2025-03-07: {engineering-technical-writing-introduction}[Technical Writing: Book 1: Introduction to AsciiDoc] - A+
+. 2025-03-07: {engineering-technical-writing-formatting}[Technical Writing: Book 2: AsciiDoc - Basic Formatting] - A+
+. 2025-03-07: {engineering-technical-writing-structuring-documents}[Technical Writing: Book 3: AsciiDoc - Structuring a Document] - A+
+. 2025-03-07: {engineering-technical-writing-advanced-formatting}[Technical Writing: Book 4: AsciiDoc - Advanced Formatting] - A+
+. 2025-03-07: {engineering-technical-writing-images-links-references}[Technical Writing: Book 5: AsciiDoc - Images, Links, and References] - A+
+. 2025-03-07: {engineering-technical-writing-demonstrations}[Technical Writing: Book 6: AsciiDoc - Demonstration] - A+
 
 History::
 . 2025-01-19: {history-vikings-rus}[Did Vikings Seed Rus] - A+
