@@ -1,6 +1,6 @@
 catboost~=1.2.3
 imbalanced-learn~=0.13.0
-keras~=2.13.1
+keras~=3.9.2
 lightgbm~=4.6.0
 matplotlib~=3.9.2
 numpy~=1.24.3
