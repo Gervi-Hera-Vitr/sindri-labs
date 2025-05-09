@@ -1,0 +1,126 @@
+= Technical Writing: Book 1: Introduction to AsciiDoc
+Cpt. Lugaru (CaptainLugaru) <72951616+CaptainLugaru@users.noreply.github.com>
+v1.0, Friday, March 7, 2025
+:doctype: book
+:description: Modern technical writing uses AsciiDoc for structured documents instead of Markdown or LaTeX.
+:sectnums:
+:sectanchors:
+:sectlinks:
+:icons: font
+:tip-caption: 💡️
+:note-caption: ℹ️
+:important-caption: ❗
+:caution-caption: 🔥
+:warning-caption: ⚠️
+:toc: preamble
+:toclevels: 2
+:toc-title: Technical Writing Learning Trail
+:keywords: Homeschool Learning Journey
+:sindridir: ../..
+:imagesdir: ./images
+:curriculumdir: {sindridir}/curriculum
+:labsdir: {sindridir}/labs
+ifdef::env-name[:relfilesuffix: .adoc]
+
+
+AsciiDoc is a lightweight markup language used for writing structured documents.
+It is often used for technical documentation, books, articles, and presentations.
+Unlike Markdown, AsciiDoc has more advanced formatting options,
+making it a powerful choice for documentation.
+For many years, the default standard for formal scientific documentation was LaTeX.
+Which is complex, requires many tools, and is riddled with rendering issues.
+Asciidoctor is a tool for converting AsciiDoc to HTML, PDF, and other formats.
+And together, the language and the simple tool helped AsciiDoc become the new standard.
+
+== Why Use AsciiDoc?
+
+* *Readable and simple*: Use plain text with intuitive syntax.
+* *Highly structured*: Supports complex documents, (books, manuals, reports).
+* *Flexible output formats* Can be converted to HTML, PDF, DocBook, and more.
+* *Powerful features Include* tables, code blocks, images, cross-references, and variables.
+* *Used in professional documentation*: Companies like Red Hat and GitHub use it for documentation.
+
+== Differences Between AsciiDoc, Markdown, and LaTeX
+
+[cols="1,1,1,1", options="header"]
+|===
+| Feature | AsciiDoc | Markdown | LaTeX
+
+| Syntax Simplicity        | Easy       | Very Easy   | Complex
+| Output Formats           | HTML, PDF, DocBook | HTML, PDF | PDF, PostScript
+| Tables Support           | Yes        | Limited     | Yes
+| Variables & Attributes   | Yes        | No          | Yes
+| Ideal for                | Technical Docs, Books | Blog Posts, Notes | Academic Papers
+|===
+
+AsciiDoc is more powerful than Markdown for documentation but simpler than LaTeX.
+It supports tables, variables, and multiple output formats, making it a great choice
+for structured documents.
+
+== Installing AsciiDoc Tools
+
+Before writing AsciiDoc documents, you need tools to preview and convert them.
+Choose one of the following:
+
+=== Install Asciidoctor (Recommended)
+
+Open a terminal or command prompt.
+Run:
+
+[source,console]
+----
+gem install asciidoctor
+----
+
+Verify installation:
+
+[source,console]
+----
+asciidoctor --version
+----
+
+=== Use an Online AsciiDoc Editor
+
+Websites like https://asciidoclive.com/ allow you to write and preview AsciiDoc without installing anything.
+
+=== AsciiDoc Plugins for Editors
+
+* *VS Code*: Install the AsciiDoc extension.
+* *Atom*: Use the asciidoc-preview package.
+
+== Writing Your First AsciiDoc File
+
+Create a new file named `example.adoc`.
+Add the following content:
+
+[source,asciidoc]
+----
+= My First AsciiDoc Document
+:author: Your Name
+:revdate: 2025-02-21
+
+This is my first AsciiDoc document.
+
+== Introduction
+
+AsciiDoc allows you to write structured documents easily.
+
+== Features
+
+- Simple markup
+- Converts to multiple formats
+- Supports advanced formatting
+----
+
+Save the file and convert it to HTML using:
+
+[source,console]
+----
+asciidoctor example.adoc
+----
+
+Open `example.html` in a web browser to see the formatted document.
+
+== Final Grade: 10/10
+
+#A+#

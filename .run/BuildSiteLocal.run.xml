@@ -13,7 +13,7 @@
     <option name="EXECUTE_SCRIPT_FILE" value="true" />
     <envs />
     <method v="2">
-      <option name="LaunchBrowser.Before.Run" url="http://127.0.0.1:4000/google-ai-labs/" />
+      <option name="LaunchBrowser.Before.Run" url="http://127.0.0.1:4000/sindri-labs/" />
     </method>
   </configuration>
 </component>

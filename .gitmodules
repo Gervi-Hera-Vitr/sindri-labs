@@ -1,0 +1,12 @@
+[submodule "administration/didactic"]
+	path = administration/didactic
+	url = git@github.com:Gervi-Hera-Vitr/curriculum.git
+[submodule "production/prospector"]
+	path = production/prospector
+	url = git@github.com:Gervi-Hera-Vitr/sindri-prospector.git
+[submodule "production/echoes"]
+	path = production/echoes
+	url = git@github.com:Gervi-Hera-Vitr/the-echoes-of-wasteland.git
+[submodule "local"]
+	path = local
+	url = git@github.com:Gervi-Hera-Vitr/fluent-local.git

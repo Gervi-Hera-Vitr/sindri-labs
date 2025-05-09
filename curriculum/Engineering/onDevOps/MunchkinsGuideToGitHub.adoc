@@ -1,0 +1,759 @@
+= Engineering: Munchkin's Guide to GitHub
+Cpt. Lugaru (CaptainLugaru) <72951616+CaptainLugaru@users.noreply.github.com>
+v1.0, Friday March 7, 2025
+:description: Munchkins' long learning trail in GitHub, VCS, and all-things Ops as part of Mímir homeschooling.
+:sectnums:
+:sectanchors:
+:sectlinks:
+:icons: font
+:tip-caption: 💡️
+:note-caption: ℹ️
+:important-caption: ❗
+:caution-caption: 🔥
+:warning-caption: ⚠️
+:toc: preamble
+:toclevels: 3
+:toc-title: GitHub Learning Trail
+:keywords: AI ML Ops Learning Journey
+:imagesdir: ./resources/images
+ifdef::env-name[:relfilesuffix: .adoc]
+
+:git-docs: https://git-scm.com/doc
+:github-docs: https://docs.github.com/en
+:github-actions-docs: https://docs.github.com/en/actions
+:github-wikis: https://docs.github.com/en/communities/documenting-your-project-with-wikis/about-wikis
+:github-pages: https://docs.github.com/en/pages
+:github-readmes: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes
+:kai-root-files: https://github.com/kmindi/special-files-in-repository-root/blob/master/README.md
+:kai-author: https://github.com/kmindi[Kai Mindermann, M.Sc.]
+
+*_This is a comprehensive yet TL;DR guide to {git-docs}[Git] and {github-docs}[GitHub] by Captain Lugaru._*
+
+== What are `git` and GitHub?
+
+=== What is Git?
+
+Git is a _**distributed** version (*revision*) control **system** (VCS)_ designed to track changes in files, usually code.
+It allows multiple people to collaborate on a project while maintaining a detailed history of all changes.
+Key features of git:
+
+- *Version Control*: Tracks every change in a project, allowing you to revert to earlier versions.
+- *Branching* and *Merging*: Create separate branches for different tasks, (e.g., new features, bug fixes,) and merge them back into the main branch.
+- *_Distributed System_*: _Every developer has a *complete copy* of the project, including the history._
+- *Efficiency*: Git handles large projects efficiently and is widely used in software development.
+
+==== Why Use Git?
+
+It:
+
+. Prevents code conflicts by allowing developers to work on separate branches.
+. Enables collaboration across teams, even remotely.
+. Keeps a history of all changes, making it easier to debug or audit the code.
+. Provides a simple way to revert to previous versions of code; cherrypick, stash, squash, rebase, etc.
+. ... is so cool!
+
+==== Common Use Cases:
+
+- Software development.
+- Writing technical documentation.
+- Managing infrastructure as code.
+
+
+=== Now, What is GitHub?
+
+GitHub is a _platform_ built on top of Git that provides _hosting_ for repositories,
+collaboration tools, and additional features to manage software development projects.
+
+==== Key Features of GitHub:
+
+- *Repository Hosting*: Store and manage Git repositories in the cloud; to have a shared central copy as a system of record (SoR).
+- *Collaboration*: Tools for _code reviews_, _discussions_, wikis, blogs, and managing _issues_.
+- *Community*: A hub for open-source, shared-source, and private group projects; and networking with contributors of all types.
+- *Automation*: Automate tasks with {github-actions-docs}[GitHub Actions] (e.g., testing, deployment).
+- *Documentation*: Built-in support for {github-wikis}[wikis] and scene-civilized repository {kai-root-files}[root layout files] (example by {kai-author}),
+such as the {github-readmes}[active README] files; and even automatic blogging with {github-pages}[GitHub Pages].
+
+==== Why use GitHub?
+
+- *Portfolio*: Showcase your work and contributions.
+- *Collaboration*: Work with other developers remotely.
+- *Learning*: Contribute to open-source projects and learn from others’ code.
+
+
+==== Key Benefits for Teams:
+
+- Centralized codebase for all team members.
+- Tools for tracking tasks, issues, and progress.
+- Automated workflows to streamline testing and deployment.
+
+=== Git vs GitHub:
+
+Git is a revision control system that runs locally on your computer;
+or remotely on a server; or as a backing service -- present in every Git repository.
+It requires a manual setup for collaboration.
+Git is open source software freely available to use and modify, but not as a service.
+
+GitHub is a hosting platform built on top of Git.
+It uses Git as a backing service for version control.
+It is accessible through the internet and provides collaboration tools.
+It is a proprietary platform with free and paid tiers.
+
+
+== Key Terminology:
+
+- *Repository (Repo)*: A folder that stores your project’s files and history; physically a `.git/` folder.
+- *Working Copy*: A reduced projection of all commits on all files in the repository; usually a sibling to the hidden `.git/` folder.
+- *Commit*: A snapshot of changes made to files in the repository.
+- *Branch*: A separate version of the repository for independent work.
+- *Merge*: Integrating changes from one branch into another.
+- *Pull Request (PR)*: A request to merge changes from one branch to another, often used for code reviews.
+- *Fork*: A personal copy of another person’s repository.
+- *Clone*: A local copy of a repository.
+- *Issue*: A way to track bugs, feature requests, or tasks.
+- *Remote*: The cloud-based version of your repository (hosted on GitHub); or another teammate repository in their `.git` folder.
+- *HEAD*: The pointer to the current commit in your working directory.
+
+
+== Setting up Git and GitHub:
+
+=== Local Git instance:
+
+In the simplest way::
+- Download Git for your operating system from Git-SCM.
+- Install Git following the setup instructions for your OS.
+
+More common way::
+- Install git using a package manager, such as Homebrew or Apt.
+- Configure a local user Git instance for one or more SoRs.
+
+Next, Configure git::
+[source,shell]
+----
+git config --global user.name "Your Name"
+git config --global user.email "your_email@example.com"
+----
+
+Verify Configuration::
+[source,shell]
+----
+git config --list
+----
+
+Optional Git Configurations::
+
+Set the default editor:
+[source,shell]
+----
+git config --global core.editor "vim"
+----
+
+
+=== Create a GitHub Account:
+
+Sign up at GitHub by going to https://github.com.
+Verify your email address to complete registration.
+
+
+==== Step 1: Setting up your first Repository.
+
+- Log in to your GitHub account.
+- Click Repositories > New.
+- Fill in the repository name and description.
+- Choose Public or Private visibility.
+- Initialize with a README (optional).
+
+==== Step 2: Clone the repository to your `local` machine and `push` a change:
+
+`git clone https://github.com/your-username/your-repo-name.git`
+
+Add and commit a change::
+- `cd your-repo-name`
+- Create or Modify Files
+- Stage changes: `git add .`
+- commit the changes: `git commit -m "Initial commit"`
+- push changes to GitHub: `git push`
+
+Observe your change on the GitHub repository welcome page.
+I recommend changing the contents of the README or README.md file.
+Also, my preferred markup is AsciiDoc, i.e., README.adoc; now fully supported.
+
+==== Step 3: Connect GitHub and Git
+
+Option A: HTTPS (simplest for beginners)::
+* No setup, but you'll need to enter your username/password or use a personal access token
+
+Option B: SSH (preferred for regular use)::
+
+Generate an SSH key:
+
+[source,shell]
+----
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+----
+
+Add your SSH key to GitHub (Account Settings > SSH and GPG keys)
+
+Test SSH connection:
+[source,shell]
+----
+ssh -T git@github.com
+----
+
+GitHub Desktop, CLI, and API (Optional Tools)::
+
+. GitHub Desktop
+* A Graphical User Interface (GUI) for Git/GitHub
+* Available at https://desktop.github.com/
+
+. GitHub CLI
+* A command-line interface to interact with GitHub (repos, issues, PRs)
+* Install: https://cli.github.com/
+* Authenticate: `gh auth login`
+
+. GitHub REST API / GraphQL API
+* For advanced users and integrations
+
+
+=== The GitHub Interface
+
+Overview of GitHub Dashboard::
+- *Repositories*: View and manage all your repositories.
+- *Pull Requests*: Monitor and manage PRs for collaboration.
+- *Issues*: Track and manage bugs or feature requests.
+- *Explore*: Discover trending projects or topics.
+- *Settings*: Configure profile, repositories, and account settings.
+
+Understanding the Repository Page::
+- *Code*: View and manage files in the repository.
+- *Issues*: Log and manage issues for the project.
+- *Pull Requests*: Collaborate on changes.
+- *Actions*: Set up and view automated workflows.
+- *Insights*: Analyze repository activity and contributions.
+
+_I recommend finding all of these elements by yourself -- it is fun._
+
+=== GitHub CLI (`gh`) -- _A preferred Way!_
+
+Install GitHub CLI::
+* macOS: `brew install gh`
+* Linux: Use package managers, e.g., `apt install gh`
+
+NOTE: See `fluent local setup` for a complete guide.
+
+.Authenticate
+[source,shell]
+----
+gh auth login
+----
+
+.Clone a repository:
+[source,shell]
+----
+gh repo clone owner/repo-name
+----
+
+.Create a Repository:
+[source,shell]
+----
+gh repo create my-repo --public --clone
+----
+
+Options:
+
+* `--private`: For a private repository
+* `--source=.`: Create from a local folder
+.Create a Pull Request:
+[source,shell]
+----
+gh pr create --base main --head feature-branch --title "Add new feature"
+----
+
+
+== Core Git Commands & Usage
+
+`git init` -- Initializes a new Git repository in the current directory:
+
+* Creates a `.git/` folder to track changes.
+* Turns your folder into a Git repository.
+
+.Clone a Repository
+[source,shell]
+----
+git clone https://github.com/username/repo.git
+----
+
+.Show status
+[source,shell]
+----
+git status
+----
+
+.Stage changes
+[source,shell]
+----
+git add file.txt        # Stage one file
+git add .               # Stage all changed files
+----
+
+.Commit changes
+[source,shell]
+----
+git commit -m "Your descriptive message here"
+----
+
+.Push changes
+[source,shell]
+----
+git push origin main
+----
+
+.Pull changes
+[source,shell]
+----
+git pull origin main
+----
+
+.Fetch changes
+[source,shell]
+----
+git fetch origin
+git merge origin/main
+----
+
+.Displays the commit history.
+[source,shell]
+----
+git log                # Full history
+git log --oneline      # Short version
+----
+
+.Show differences
+[source,shell]
+----
+git diff                  # Working directory vs staging area
+git diff --staged         # Staging area vs latest commit
+----
+
+.List, create, or delete branches.
+[source,shell]
+----
+git branch                  # Lists all branches
+git branch new-feature      # Creates a new branch
+git branch -d new-feature   # Deletes a branch
+----
+
+.Switch to another branch.
+[source,shell]
+----
+git checkout main
+----
+
+.Create and switch in one step:
+[source,shell]
+----
+git checkout -b new-feature
+----
+
+.Merge changes from another branch into your current one.
+[source,shell]
+----
+git merge new-feature
+----
+
+Resolving Merge Conflicts::
+Conflicts happen if:
+* Two branches changed the same line.
+* Files were modified and deleted differently.
+
+Git shows:
+----
+<<<<<<< HEAD
+Your code
+=======
+Incoming code
+>>>>>>> new-feature
+----
+
+.Resolve manually, then:
+[source,shell]
+----
+git add file.txt
+git commit -m "Resolved merge conflict"
+----
+
+Undoing Changes in Git::
+A ubiquitous occurrence!
+
+.Unstage a File
+[source,shell]
+----
+git reset HEAD file.txt
+----
+
+.Discard Local Changes (Unstaged)
+[source,shell]
+----
+git checkout -- file.txt
+----
+
+.Undo Last Commit (Soft Reset)
+[source,shell]
+----
+git reset --soft HEAD~1
+----
+That keeps your changes in the working directory.
+
+.Hard Reset (Danger!)
+[source,shell]
+----
+git reset --hard HEAD~1
+----
+Deletes the last commit and discards changes.
+
+Git Stashing -- Temporary Work Storage::
+This is a crucial and frequently used capability.
+
+What is Git Stash?::
+Temporarily saves your changes when you need to:
+* Switch branches
+* Pull updates
+* Work on something else
+
+.Save Changes Away
+[source,shell]
+----
+git stash
+----
+
+.View Stashes
+[source,shell]
+----
+git stash list
+----
+
+.Apply the Last Stash
+[source,shell]
+----
+git stash pop
+----
+
+Git Tags (Marking Important Commits)::
+Tags are commonly used for releases.
+Most importantly, tags are a local and pairing organization tool.
+
+.Tagging
+[source,shell]
+----
+git tag v1.0
+git push origin v1.0
+----
+
+=== Rebasing
+
+*_This practice is so important that it gets its own section!_*
+
+What Is Rebase?::
+Reapply commits from your branch onto a new base branch.
+
+Why Rebase?::
+* Simplifies history
+* Keeps the entire branch history
+* Rewrites commits onto the base branch for a linear history
+
+This allows stitching a project together like Lego pieces from finished changes.
+When mastered, it is a game-changer.
+
+.Rebase Example
+[source,shell]
+----
+git checkout feature
+git rebase main
+----
+
+[CAUTION]
+.Never push rebase!
+====
+
+Although useful in some edge cases, you should never `git push --force`.
+Rebasing works best when rebasing to protected branches upstream.
+Pushing a protected branch rebased to something else should never happen.
+
+[source,shell]
+----
+git push --force
+----
+
+====
+
+=== Git Configuration Tips
+
+Having `git` configured properly is an absolute necessity to effective work environment.
+
+Global Git Ignore File::
+Avoid repeating `.gitignore` for all projects:
+[source,shell]
+----
+git config --global core.excludesfile ~/.gitignore_global
+----
+
+NOTE: The `.gitignore` is location sensitive and stacks on top of the global one and parent folder
+-- we can use this to our advantage.
+
+Sign Commits with GPG (NECESSARY)::
+Verifying commit authenticity, required on all community shared projects:
+
+.User global enabled gpg
+[source,shell]
+----
+git config --global commit.gpgsign true
+----
+
+== GitHub Example Workflow (in Real Life)
+
+.Clone a Repo
+[source,shell]
+----
+git clone https://github.com/user/repo.git
+cd repo
+----
+
+.Create a Feature Branch
+[source,shell]
+----
+git checkout -b feature-branch
+----
+
+.Make Changes & Stage Them
+[source,shell]
+----
+git add file.txt
+----
+
+.Commit Changes
+[source,shell]
+----
+git commit -m "Added new feature"
+----
+
+.Push Changes
+[source,shell]
+----
+git push origin feature-branch
+----
+
+
+== Core Mindset Concepts (VCS)
+
+*_This can also serve as a cheat sheet for Branching Strategies and Development Workflows._*
+
+Separate Classes to Stories/Issues::
+* A *Story* (or *Issue*) describes a user need, feature, or bug.
+* A *Class* in code is a unit of implementation (object-oriented design).
+
+=== The Basic Idea -- Separate Concerns!
+
+_At the core of the philosophy is *the complete separation of concerns*._
+
+==== How to Break Classes into Issues
+
+. **Start with the User Story / Requirement**
+.. *Example*: `"As a user, I want to register an account."`
+. **Break It Down Into Technical Tasks**
+.. Backend: Implement `User` class.
+.. API: Create `RegisterUserController`.
+.. Frontend: Build the registration form.
+. **Create Issues per Responsibility**
+
+.Class Mapping
+====
+[cols="2,2", options="header"]
+|===
+| Issue | Code Artifact
+| Create a User model and validation | `User` class (Model)
+| Implement registration business logic | `UserService` class
+| Expose registration endpoint | `UserController` class
+|===
+====
+
+Then done! -- Map Class Responsibilities to Issues::
+* Each Issue tackles one behavior/responsibility, not necessarily just a single class.
+* Focus on outcomes, not objects. Think *features*, not files.
+
+==== How to Map Issues to Branches
+
+Workflow::
+* Each Issue typically corresponds to one branch (sometimes more for big tasks).
+
+Naming Convention Example::
+[cols="2,2", options="header"]
+|===
+| Item | Example
+| Issue | #42 Add Login Form
+| Branch Name | feature/login-form-42
+|===
+
+Steps::
+. Create an Issue: "Add Login Form (#42)"
+. Create a Branch for the Issue: +
+`git checkout -b feature/login-form-42`
+. *_Work_*, *_Commit_*, and *_Reference_* the Issue in your commit messages: +
+`git commit -m "Add login controller (#42)"`
+. *_Push_* the evolved *_Branch_* for all to see: +
+`git push origin feature/login-form-42`
+
+=== What is Trunk-Based Development (TBD)?
+
+IMPORTANT: This is probably the most important topic to understand.
+
+Definition -- TBD is a branching model where developers::
+* Work in short-lived branches NOT directly on the mainline, i.e., `main` or `trunk`.
+* Merge back to the mainline frequently -- i.e., multiple times per day.
+* The business current state, i.e., `production` IS the mainline!
+
+Examples of massive companies that use TBD:::
+* Google
+* Facebook
+* LinkedIn
+
+Key Practices::
+* Small, incremental changes ->
+* Continuous integration ->
+* Feature flags (for incomplete or long features) ->
+* Fewer branches, *_no "long-lived branches antipattern"_* ->
+* *Lean Enterprise!*
+
+Why Use TBD?::
+* ✅ Faster delivery;
+* ✅ No "merge hell";
+* ✅ Forces test-first mindset;
+* ✅ Forces continuous integration;
+* ✅ Simplified, faster releases;
+* ✅ Works well with CI/CD pipelines.
+
+Why Feature Branches Are Short-Lived:::
+🧐 A *_Feature Branch_* is a branch used to develop a *_tiny and specific feature or fix_*.
+
+Why Keep Them Short-Lived?:::
+* **Removed Merge Conflicts** eliminate delivery creep and cascade blocking ->
+** _Long-lived branches drift from `main`, making merges painful._
+* **Continuous Integration** minimizes delivery time and cost ->
+** Short branches integrate changes early and often, avoiding complexity blockers.
+* **Increased Code Review Speed** eliminates natural scheduling barriers ->
+** Smaller pull requests are easier to review needing no timeblock shuffles.
+* **Fast Feedback** eliminates tribal knowledge blockage ->
+** Smaller changes are easier to socialize, understand, and validate.
+
+Ideal Lifetime:::
+- ✅ Hours to a couple of days -> NO OVERHEAD!
+- ❌ Few days, weeks, or months -> MERGE HELL!
+
+=== What is a Pull Request (PR)?
+
+*Definition -- _A Pull Request (PR) is a formal request to merge code from one branch into another branch._*
+
+Importantly!::
+- PR has *_one and only one_* OWNER (accountable person);
+- OWNER asks for HELP from REVIEWERS (responsible people);
+- *_reviewers_* WORK FOR *the owner* by offering HELP -- _not the other way around_;
+- the owner benefits from the reviewers and should pay it forward.
+
+What Happens in a PR?::
+. Push a branch to GitHub.
+. Create a Pull Request:
+* Describe what was done.
+* Link ALL related Issues.
+. Reviewers check:
+* Code quality;
+* Test coverage;
+* Functionality;
+. Merge when approved.
+
+WARNING:: Approval is for the work iem, i.e., CODE, not the person, i.e., the OWNER.
+
+PR Workflow Example:::
+. Create branch: `git checkout -b feature/signup-page`
+. Push and open PR:
+* From `feature/signup-page` ➡️ to `main`
+* PR triggers:
+** Code review,
+** CI tests,
+. Merge when approved.
+. Merge to `trunk` triggers BUSINESS UPGRADES.
+
+=== What is a `Forever Branch`?
+
+Definition -- A *Forever Branch* is::
+* A long-lived branch that persists indefinitely.
+** Examples: `main`, `develop`.
+* Is the company current state, i.e., `production`.
+* It is continuously deployed (and asynchronously).
+
+Forever Branch vs Feature Branch::
+[cols="3,3,3", options="header"]
+|===
+| Branch Type | Lifetime | Usage
+| Forever | Permanent | `main`, `trunk`
+| Feature | Short-lived | `feature/login-page`, `bugfix/api-crash`
+|===
+
+== Why Do All This? (Branching Strategies, Short-Lived Feature Branches, PRs, etc.)
+
+Why Branch? -- COST and TIME Savings::
+* Isolation: Work on features without breaking others.
+* Parallel development.
+* Safer experimentation.
+
+Why Short-Lived Feature Branches? -- COST and COMPLEXITY Savings::
+* Reduces merge conflicts.
+* Enables faster feedback.
+* Encourages Continuous Integration (CI).
+* Easier reviews and smaller pull requests.
+
+Why Pull Requests? -- FUNCTIONALITY and QUALITY Savings::
+* Code quality: Peer review.
+* Catch bugs earlier.
+* Improve collaboration.
+* Enforce CI pipelines before merge.
+
+Why Trunk-Based Development or Forever Branches? -- ALL of the above::
+* Simplifies release management.
+* Always have stable, deployable code on `main`.
+* Keeps teams in sync with a shared history.
+
+== ✅ Quick Practice Summary
+
+[cols="2,4", options="header"]
+|===
+| Question | Quick Answer
+| Separate classes to issues | Map user stories ➡️ tasks ➡️ classes/components per issue.
+| Map issues to branches | Create a branch per issue; use naming conventions like `feature/login-42`.
+| Trunk-Based Development | Commit small, fast, frequent changes to `main`, no long-lived feature branches.
+| Why feature branches are short-lived | Reduce merge conflicts, speed up reviews, support CI/CD, improve delivery speed.
+| What is a Pull Request? | A proposal to merge code; includes review, testing, and approval.
+| What is a Forever Branch? | Permanent branches (`main`, `trunk`) that always exist and are stable.
+| Why do this? | Improve quality, reduce risk, speed up releases, and maintain stable codebases.
+|===
+
+== Final Grade
+
+- ✅ Graded assignment https://github.com/rdd13r[by `rdd13r`] on March 7th 2025.
+- ✅ Final grade is 100%. (A+) at Mimir Academy.
+
+== References
+
+- {git-docs}[Git]
+- {github-docs}[GitHub]
+- {github-actions-docs}[GitHub Actions]
+- {github-wikis}[GitHub Wikis]
+- {github-pages}[GitHub Pages]
+- https://docs.github.com/en/discussions[GitHub Discussions]
+- https://docs.github.com/en/codespaces[GitHub Codespaces]
+- {github-readmes}[GitHub Readmes]
+- https://docs.github.com/en/actions[GitHub Actions]
+- https://docs.github.com/en/packages[GitHub Packages]
+- https://docs.github.com/en/issues/planning-and-tracking-with-projects[GitHub Projects]
+- https://docs.github.com/en/organizations[GitHub Organizations]
+- https://docs.github.com/en/github-models[GitHub Models]
+- {kai-root-files}[Special Files in Repository Root]
+- {kai-author}
+- Also, this repository has a more complete root files layout.

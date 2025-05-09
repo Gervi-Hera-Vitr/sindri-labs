@@ -1,0 +1,72 @@
+= Technical Writing: Book 3: AsciiDoc - Structuring a Document
+Cpt. Lugaru (CaptainLugaru) <72951616+CaptainLugaru@users.noreply.github.com>
+v1.0, Friday, March 7, 2025
+:doctype: book
+:description: Modern technical writing uses AsciiDoc for structured documents instead of Markdown or LaTeX.
+:sectnums:
+:sectanchors:
+:sectlinks:
+:icons: font
+:tip-caption: 💡️
+:note-caption: ℹ️
+:important-caption: ❗
+:caution-caption: 🔥
+:warning-caption: ⚠️
+:toc: preamble
+:toclevels: 2
+:toc-title: Technical Writing Learning Trail
+:keywords: Homeschool Learning Journey
+:sindridir: ../..
+:imagesdir: ./images
+:curriculumdir: {sindridir}/curriculum
+:labsdir: {sindridir}/labs
+ifdef::env-name[:relfilesuffix: .adoc]
+
+
+
+== Document Title and Metadata
+
+Example:
+
+[source,asciidoc]
+----
+= Document Title
+Author Name
+2025-02-21
+:doctype: article (could be used for books and other things)
+:toc: preamble (table of contents)
+----
+
+== Sections and Subsections
+
+Example:
+
+[source,asciidoc]
+----
+== Introduction
+=== Subsection 1
+==== Sub-subsection
+----
+
+== Including External Files
+
+Syntax:
+
+[source,asciidoc]
+----
+// include::file.adoc[]
+// This is commented so that the file doesnt create issues
+----
+
+== Comments in AsciiDoc
+
+Syntax:
+
+[source,asciidoc]
+----
+// This is a comment
+----
+
+== Final Grade: 10/10
+
+#A+#

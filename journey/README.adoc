@@ -18,28 +18,6 @@ v1.0.0, Saturday 9th November 2024 07:47 AM EST
 :imagesdir: ./src/docs/resources/images
 ifdef::env-name[:relfilesuffix: .adoc]
 
-A placeholder to a learning journey in Artificial Intelligence.
+*_A placeholder to a learning journey fully applied using Artificial Intelligence._*
 
-See curriculum and learning plan at link:./src/docs/asciidoc/journey.adoc[]
-
-== Baseline Examples
-
-.Initial `pip install -r requirements.txt`
-[source,text]
-----
-jupyter==x.x.x
-matplotlib==x.x.x
-numexpr==x.x.x
-numpy==x.x.x
-pandas==x.x.x
-Pillow==x.x.x
-protobuf==x.x.x
-psutil==x.x.x
-scikit-learn==x.x.x
-scipy==x.x.x
-sympy==x.x
-tensorflow>=x.x.x
-opencv-python==x.x.x.x # updated
-----
-
-ToDo: add actual baseline examples, the one above is from an old `rdd13r's` article.
+See curriculum and learning plan at link:./src/docs/asciidoc/journey.adoc[Learning Journey Placeholder]

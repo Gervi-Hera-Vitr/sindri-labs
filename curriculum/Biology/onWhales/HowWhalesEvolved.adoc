@@ -1,0 +1,92 @@
+= Biology: Exploratory Research on Whales
+Cpt. Lugaru (CaptainLugaru) <72951616+CaptainLugaru@users.noreply.github.com>
+v1.0, Thursday, December 12, 2024
+:description: Biology Exploratory Research on Whales
+:sectnums:
+:sectanchors:
+:sectlinks:
+:icons: font
+:tip-caption: 💡️
+:note-caption: ℹ️
+:important-caption: ❗
+:caution-caption: 🔥
+:warning-caption: ⚠️
+:toc: preamble
+:toclevels: 1
+:toc-title: How Whales Evolved
+:keywords: Homeschool Learning Journey
+:imagesdir: ./images
+:labsdir: ./labs
+ifdef::env-name[:relfilesuffix: .adoc]
+:pakicetus: https://en.wikipedia.org/wiki/Pakicetus
+:ambulocetus: https://en.wikipedia.org/wiki/Ambulocetus
+:rodhocetus: https://en.wikipedia.org/wiki/Rodhocetus
+:dorudon: https://en.wikipedia.org/wiki/Dorudon
+:basilosaurus: https://en.wikipedia.org/wiki/Basilosaurus
+:odontoceti: https://en.wikipedia.org/wiki/Toothed_whale
+:mysticeti: https://en.wikipedia.org/wiki/Baleen_whale
+:artiodactyl: https://en.wikipedia.org/wiki/Artiodactyl
+:how-did-whales-evolve: https://us.whales.org/whales-dolphins/how-did-whales-evolve/#:~:text=WDC%20experts%20explain.,%2C%20deer%2C%20pig%20and%20cow
+:the-evolution-of-whales: https://evolution.berkeley.edu/what-are-evograms/the-evolution-of-whales
+:hippo-and-whale: https://phys.org/news/2005-01-scientists-link-whale-closest-relative.html
+
+Whales who are mammals evolved from another mammal called {pakicetus}[Pakicetus]:
+
+image:img_1.png[Pakicetus]
+
+around 50 million years ago.
+
+Pakicetus's were like wolves and were around the same size,
+besides the fact that it had bone-like structures specifically in the ears that allowed it to hear underwater,
+but it mostly hunted on land near the water.
+
+But after a few million years, ~ 49–47 million years ago they evolved into {ambulocetus}[Ambulocetus] and {rodhocetus}[Rodhocetus]:
+
+image:img_2.png[img_2.png]
+image:img_3.png[img_3.png]
+
+who were land/water mammals around the size of a large otter to a crocodile.
+
+They had strong limbs and powerful tails for better water propulsion and probably lived in rivers and costal areas, hunting in water.
+Around 40–45 million years ago they made the transition into a fully aquatic animal called the {dorudon}[Dorudon] and the {basilosaurus}[Basilosaurus]:
+
+image:img_4.png[img_4.png]
+
+who had long snake like bodies, being 18–60 feet long with flippers instead of limbs and were most likely ancestors to modern whales.
+
+Thirty-four (34) million years ago we got our very first glimpse of a modern whales as 2 major groups emerged:
+Toothed whales {odontoceti}[(Odontoceti)] which includes dolphins,
+orcas and sperm whales that all hunted for fish and squid evolving echolocation.
+
+Then we had the Baleen Whales {mysticeti}[(Mysticeti)] which included blue whales,
+_humpback_ whales and _right_ whales who hunted krill and small marines organisms.
+
+Currently today, closest relatives to whales are a group of hoofed mammals called {artiodactyl}[Artiodactyls] that includes deer, pigs, and hippos.
+The closest living relatives of whales are hippos.
+
+_Genetic evidence supports that whales and hippos share a common ancestor that lived around 55 million years ago._
+
+Sources::
+- {how-did-whales-evolve}[us.whales.org -- How did whales evolve?]
+- {the-evolution-of-whales}[evolution.berkeley.edu -- The evolution of whales]
+- {hippo-and-whale}[Scientists find a missing link between the whale and its closest relative, the hippo]
+
+== Grading and Expectations
+
+* Learn how to find a relevant topic to study;
+* Learn how to discover factual information;
+* Learn how to analyze information;
+* Learn how to interpret the results of the analysis;
+* Learn how to communicate findings to others;
+* Transient: Learn how to present findings to others in a clear and concise manner.
+* Transient: Learn how to write a short summary of findings in markup.
+
+== Grading Teacher Suggestions:
+
+* Learn to reference in-place vs. formal references and footnotes.
+
+== Final Grade: 10/10
+
+#A+#
+
+NOTE: Ecstatic about this first fully autonomous execution!

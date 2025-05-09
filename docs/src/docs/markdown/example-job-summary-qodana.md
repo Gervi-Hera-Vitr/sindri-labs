@@ -1,4 +1,4 @@
-# [Qodana](https://qodana.cloud/projects/zq7nX/reports/XmbLK) Community for JVM
+# [Qodana](https://qodana.cloud/organizations/AY0jm) Community for JVM
 
 **It seems all right 👌**
 

@@ -1,0 +1,41 @@
+= Academic Year: Grade 9; Quarter 3
+R!dd13r rdd13r <12781006+rdd13r@users.noreply.github.com>
+v2.0, Tuesday May 6th 2025
+:description: First Quarter of Mímir Academy homeschooling.
+:sectnums:
+:sectanchors:
+:sectlinks:
+:icons: font
+:tip-caption: 💡️
+:note-caption: ℹ️
+:important-caption: ❗
+:caution-caption: 🔥
+:warning-caption: ⚠️
+:toc: preamble
+:toclevels: 2
+:toc-title: Mímir Academy
+:keywords: Mímir Academy 2025 Q3
+:imagesdir: ./assets/img
+ifdef::env-name[:relfilesuffix: .adoc]
+
+This is the first quarter of the ninth (9th) grade, Mímir Academy homeschooling.
+
+== Weekly Class Schedule
+
+* Monday and Friday: Humanities
+** Psychology: primary;
+** History: supporting;
+** Gymnasium.
+** FixMe: Attach work links.
+* Tuesday and Thursday: Sciences
+** Machine Learning: primary;
+** Mathematics: supporting;
+** Gymnasium.
+* Wednesday and Saturday: Shop
+** General Repairs: primary;
+** Home Improvement: secondary;
+** Weightlifting.
+
+== Final Grade
+
+9th grade quarter 3 final grade is #A+#.

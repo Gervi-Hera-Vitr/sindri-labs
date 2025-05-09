@@ -26,4 +26,4 @@ Feel free to explore the labs and resources, share ideas, and build something me
 ---
 
 You can find the source code for this project on GitHub:
-[github.com/Gervi-Hera-Vitr/google-ai-labs](https://github.com/Gervi-Hera-Vitr/google-ai-labs)
+[github.com/Gervi-Hera-Vitr/sindri-labs](https://github.com/Gervi-Hera-Vitr/sindri-labs)

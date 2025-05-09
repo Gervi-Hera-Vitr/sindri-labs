@@ -1,0 +1,180 @@
+= Saboteurs Essay
+Cpt. Lugaru (CaptainLugaru) <72951616+CaptainLugaru@users.noreply.github.com>
+v1.1, Sunday, January 19th, 2025; Updated: Thursday, May 8th, 2025
+:description: A breakdown of saboteurs, what they are, and how they affect you.
+:sectnums:
+:sectanchors:
+:sectlinks:
+:icons: font
+:tip-caption: 💡️
+:note-caption: ℹ️
+:important-caption: ❗
+:caution-caption: 🔥
+:warning-caption: ⚠️
+:toc: preamble
+:toclevels: 1
+:toc-title: Saboteur Essay and Examination
+:keywords: Homeschool Learning Journey
+:imagesdir: ./images
+:labsdir: ./labs
+ifdef::env-name[:relfilesuffix: .adoc]
+:saboteur-test: https://www.positiveintelligence.com/saboteurs/
+
+== What are Saboteurs?
+
+Saboteurs are the voices in your head that generate negative emotions as you handle life's everyday challenges.
+They represent the automatic patterns in your mind for how to think, feel, and respond.
+Your Saboteurs cause all of your stress, anxiety, self-doubt, frustration, restlessness, and unhappiness.
+They sabotage your performance, well-being, and relationships.
+
+== All the types of Saboteurs
+
+The Judge::
+
+Now lets meet the Judge, He is your master Saboteur.
+The Judge is the universal Saboteur that afflicts everyone.
+It is the one that beats you up repeatedly over mistakes or shortcomings.
+It warns you obsessively about future risks.
+Wakes you up in the middle of the night worrying.
+Gets you fixated on what is wrong with others or your life.
+etc.
+
+The Judges Special Effect::
+
+The Judge activates your other Saboteurs,
+causes much of your stress and unhappiness,
+reduces your effectiveness, and harms your relationships.
+The Judge works with one or more Accomplice Saboteurs to hijack your mind and cause most of your setbacks.
+
+The Avoider::
+
+Focuses excessively on the positive and pleasant aspects,
+avoiding challenging tasks and conflicts.
+
+The Controller::
+
+Has an anxiety-driven need to take charge and control situations and people's actions,
+leading to high stress when control isn't possible.
+
+The Hyper-Achiever::
+
+Depends on constant performance and achievement for self-respect and validation,
+quickly discounting past successes and seeking the next accomplishment.
+
+The Hyper-Rational::
+
+Places intense focus on rational processing, including in relationships,
+which can come across as uncaring or intellectually arrogant.
+
+The Hyper-Vigilant::
+
+Experiences continuous anxiety about potential dangers and what could go wrong,
+resulting in perpetual vigilance.
+
+The Pleaser::
+
+Seeks acceptance and affection by helping or flattering others,
+often neglecting personal needs and becoming resentful.
+
+The Restless::
+
+Constantly searches for excitement in the next activity or maintains constant busyness,
+rarely finding peace or contentment in the present.
+
+The Stickler::
+
+It exhibits perfectionism and a need for order and organization taken to extremes,
+causing anxiety over making things perfect.
+
+The Victim::
+
+Displays emotional and temperamental behavior to gain attention and affection,
+with an extreme focus on internal, particularly painful, feelings, often exhibiting a martyr complex.
+
+
+== The Origin of saboteurs:
+
+Saboteurs start off as our guardians to help us navigate the real
+and imagined threats to our physical and emotional survival as children.
+By the time we are adults,
+we no longer need them,
+but they have become invisible inhabitants of our mind.
+
+== How Saboteurs Hijack You
+
+Our Saboteurs' patterns of thinking,
+feeling, and reacting become soft-coded in our brain through neural pathways.
+When these neural pathways are triggered,
+we are "hijacked" by our Saboteurs and instantly feel,
+think, and act using their patterns.
+
+You May think your Saboteurs are good for you.
+Your Saboteurs claim they are good for you.
+For example,
+your Judge tells you that constantly badgering you over your mistakes
+and shortcomings causes you to improve and achieve.
+
+And pain can be good for you.
+If you put your hand on a hot stove,
+it is good to feel pain so you take corrective action.
+
+But negative emotions, like pain,
+are only helpful for a quick second to alert you.
+If you stay stressed, frustrated, or unhappy,
+you will be tunnel-visioned and not capable of finding the best solution to problems,
+which your positive brain can do.
+
+So if you're in negative emotion for more than one second,
+your Saboteurs are holding your hand on the hot stove
+and complaining that life is hard.
+
+== How to Beat these Saboteurs:
+
+[WARNING]
+.Know thyself!
+====
+One MUST understand a problem before one can solve it!
+====
+
+{saboteur-test}[Identify Your Saboteurs]::
+. *Self-Awareness:* Take the Saboteur Assessment to identify your primary Saboteurs.
+. *Track Their Patterns:* Recognize when and how each Saboteur shows up in your thoughts, feelings, and behaviors.
+
+Strengthen Your Sage Mindset::
+*_The Sage_* represents the positive, empathetic, and rational part of your mind. 
+Strengthening this mindset helps counteract Saboteurs.
+- *Practice Empathy:* Be kind and compassionate toward yourself and others.
+- *Focus on Purpose:* Align your actions with long-term values and goals rather than short-term emotional reactions.
+- *Explore Solutions:* Use creativity and curiosity to find opportunities in challenges.
+
+Practice, practice, practice::
+Mental fitness exercises strengthen the neural pathways of your Sage brain and weaken those of your Saboteurs. +
+*PQ Reps (Positive Intelligence Repetitions)*:
+- Focus on sensory awareness for a few moments, (e.g., rub your fingers together and focus on the sensation).
+- Practice mindfulness techniques like breathing exercises or grounding techniques to bring yourself to the present moment.
+- Daily Meditation or Reflection: Take 5–10 minutes daily to quiet your mind and redirect your focus to the present.
+
+Challenge Your Saboteurs!::
+- *Name and Shame:* When you notice a Saboteur's voice, label it (e.g., "That's my Avoider speaking.")
+- *Question Its Logic:* Ask, "Is this thought helpful? Is it true?" Expose the irrationality or negativity of the Saboteur's voice.
+
+Build Habits of Resilience::
+- *Gratitude Practice:* Shift focus from problems to what you appreciate.
+- *Set Small, Attainable Goals:* Build confidence by achieving incremental successes.
+- *Cultivate Supportive Relationships:* Surround yourself with people who encourage and support your Sage mindset.
+
+Being Patient and Persistent::
+_Overcoming Saboteurs *is a process*, not an instant fix._ +
+Progress happens as you:
+- _**Practice** daily mental fitness_.
+- _Continuously *redirect* your thoughts from Saboteurs to your Sage_.
+- _**Celebrate small** wins along the way_.
+
+== Examples
+
+All of this is just some theoretical ramblings, smoke and mirrors, pretty talking—*_UNLESS_ it is put into practice*!
+
+== Final Grade: 10/10
+
+#A+#
+

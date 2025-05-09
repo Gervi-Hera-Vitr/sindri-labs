@@ -1,0 +1,194 @@
+= Semester Essay: 9th Grade Spring Semester
+Cpt. Lugaru (CaptainLugaru) <72951616+CaptainLugaru@users.noreply.github.com>
+v1.0.0, Monday the 5th of May 2025 13:18 EST
+:description: Semester accomplishments, learning goals, and learning objectives
+:sectnums:
+:sectanchors:
+:sectlinks:
+:icons: font
+:tip-caption: 💡️
+:note-caption: ℹ️
+:important-caption: ❗
+:caution-caption: 🔥
+:warning-caption: ⚠️
+:toc: preamble
+:toclevels: 3
+:toc-title: GitHub Learning Trail
+:keywords: Homeschool Learning Journey
+:sindridir: ../..
+:imagesdir: ./images
+:curriculumdir: {sindridir}/curriculum
+:labsdir: {sindridir}/labs
+ifdef::env-name[:relfilesuffix: .adoc]
+
+:biology-how-whales-evolved: link:{curriculumdir}/Biology/onWhales/HowWhalesEvolved.adoc
+:biology-what-is-biology: link:{curriculumdir}/Biology/onTheScience/WhatIsBiology.adoc
+
+:business-on-rich-dad-poor-dad: link:{curriculumdir}/Business/onKeyBooks/RobertKiyosaki-CoreLessonsOfRichDadPoorDad.adoc
+:business-on-the-little-red-book-of-selling: link:{curriculumdir}/Business/onKeyBooks/JeffreyGitomer-IntroductoryReviewOf-TheLittleRedBookOfSelling-12,5-PrinciplesOfSalesGreatness.adoc
+
+:engineering-how-i-will-study-ml: link:{curriculumdir}/Engineering/onLearningML/HowIWillStudyML.adoc
+:engineering-guide-to-github: link:{curriculumdir}/Engineering/onDevOps/MunchkinsGuideToGitHub.adoc
+
+:engineering-technical-writing-introduction: link:{curriculumdir}/Engineering/onTechnicalWriting/1-IntroductionToAsciiDoc.adoc
+:engineering-technical-writing-formatting: link:{curriculumdir}/Engineering/onTechnicalWriting/2-AsciiDocFormatting.adoc
+:engineering-technical-writing-structuring-documents: link:{curriculumdir}/Engineering/onTechnicalWriting/3-AsciiDocStructuringDocuments.adoc
+:engineering-technical-writing-advanced-formatting: link:{curriculumdir}/Engineering/onTechnicalWriting/4-AsciiDocAdvancedFormatting.adoc
+:engineering-technical-writing-images-links-references: link:{curriculumdir}/Engineering/onTechnicalWriting/5-AsciiDocImagesLinksReferences.adoc
+:engineering-technical-writing-demonstrations: link:{curriculumdir}/Engineering/onTechnicalWriting/6-AsciiDoc-DemoDocument.adoc
+
+:history-vikings-rus: link:{curriculumdir}/History/onEasternEurope/DidVikingsSeedRus-ResearchEssay.adoc
+:history-ragnar-and-rus: link:{curriculumdir}/History/onEasternEurope/EssayOnRagnarLodbrokConnectionToRus.adoc
+:history-brief-ukraine: link:{curriculumdir}/History/onEasternEurope/EssayOfUkraineHistory.adoc
+:history-agriculture-evolution: link:{curriculumdir}/History/onHumanEvolution/TheAgriculturalEvolution.adoc
+:history-of-human-evolution: link:{curriculumdir}/History/onHumanEvolution/HistoryOfHumanEvolution.adoc
+
+:physics-what-is-physics: link:{curriculumdir}/Physics/WhatIsPhysics.adoc
+
+:psychology-saboteurs-assignment: link:{curriculumdir}/Psychology/onSelfAwareness/1-TheSaboteursAssignment.adoc
+:psychology-how-to-beat-your-saboteurs: link:{curriculumdir}/Psychology/onSelfAwareness/2-HowToBeatYourSaboteurs.adoc
+:psychology-how-i-beat-my-top-two-saboteurs: link:{curriculumdir}/Psychology/onSelfAwareness/3-HowIBeatMyTopTwoSaboteurs.adoc
+
+I am writing this essay to show what I learned this semester. +
+
+ (@rdd13r - point taken for skimping on the essay description.)
+
+== ML: Decision Trees
+
+[#decision-trees,title="Decision Trees"]
+I learned about decision trees and what they do.
+And I made a masterclass to reflect on this.
+
+. link:{labsdir}/107-decision-trees/Decision-Trees.ipynb[Decision Trees Notebook] - understanding Decisions Trees: grade A+ (@rdd13r).
+
+. link:{labsdir}/107-decision-trees/Decision-Trees-Two.ipynb[Decision Trees Notebook (Bonus Work)] - completely bonus work grade A+ (@rdd13r).
+
+. link:{labsdir}/107-decision-trees/Decision-Trees-Three.ipynb[Decision Trees Notebook (Bonus Work)] - completely bonus work grade A+ (@rdd13r).
+
+I used the https://archive.ics.uci.edu/[UCI Machine Learning Repository] for this project.
+
+ (@rdd13r - 1 bonus point given on experimentation (part two) and and 2 points on presentation (part three))
+
+Next, I learned about *_Statistics and Probability_* for *Machine Learning*.
+I used the following courses for these:
+
+* https://brilliant.org/?utm_source=search&utm_medium=cpc[Brilliant.org], see curriculum for topics (teacher-provided);
+* https://www.khanacademy.org[Khan Academy], see curriculum for topics (teacher-provided);
+* Two (2) courses from Derek Banas:
+** https://www.youtube.com/watch?v=k_FISWJKoFQ[Probability], and
+** https://www.youtube.com/watch?v=tcusIOfI_GM&t=1ss[Statistics].
+
+Last but not least, I learned about the Stock market and how to make money from it.
+Key concepts that I discovered and learned are:
+
+* https://www.youtube.com/@TheSwedishInvestor[The Swedish Investor],
+* https://www.youtube.com/@marktilbury[Mark Tilbury],
+* https://www.youtube.com/@clearvaluetax9382[Clear Value Tax], along with
+* https://auth.investopedia.com/realms/investopedia/protocol/openid-connect/auth?client_id=finance-simulator&redirect_uri=https%3A%2F%2Fwww.investopedia.com%2Fsimulator%2Fportfolio&state=04f87af4-dd16-4c64-ab0a-2ab55ae305a3&response_mode=fragment&response_type=code&scope=openid&nonce=59285f60-87cb-4aaa-b7b6-985116a666eb[Investopedia] - customized ChatGPT lesson from ASE organization (teacher-provided).
+
+== First Semester's Accomplishments
+
+Biology::
+. 2024-12-12: {biology-how-whales-evolved}[How Whales Evolved] - A+
+. 2025-03-10: {biology-what-is-biology}[What is Biology] - A+
+
+Business::
+. 2025-03-07: {business-on-the-little-red-book-of-selling}[The Little Red Book of Selling] - not graded
+. 2025-03-17: {business-on-rich-dad-poor-dad}[Core Lessons of Rich Dad Poor Dad] - A+
+
+Engineering::
+. 2024-10-26: {engineering-how-i-will-study-ml}[How I will study ML] - A+
+. 2025-03-07: {engineering-guide-to-github}[Munchkins' Guide to GitHub] -A+; additional bonus work - A+
+. 2025-03-07: {engineering-technical-writing-introduction}[Technical Writing: Book 1: Introduction to AsciiDoc] - A+
+. 2025-03-07: {engineering-technical-writing-formatting}[Technical Writing: Book 2: AsciiDoc - Basic Formatting] - A+
+. 2025-03-07: {engineering-technical-writing-structuring-documents}[Technical Writing: Book 3: AsciiDoc - Structuring a Document] - A+
+. 2025-03-07: {engineering-technical-writing-advanced-formatting}[Technical Writing: Book 4: AsciiDoc - Advanced Formatting] - A+
+. 2025-03-07: {engineering-technical-writing-images-links-references}[Technical Writing: Book 5: AsciiDoc - Images, Links, and References] - A+
+. 2025-03-07: {engineering-technical-writing-demonstrations}[Technical Writing: Book 6: AsciiDoc - Demonstration] - A+
+
+History::
+. 2025-01-19: {history-vikings-rus}[Did Vikings Seed Rus] - A+
+.. This is the initial research work for the History of Europe essay;
+.. The assumption was that Vikings controlled the history of Rus';
+.. The assumption turned out to be just Russian propaganda;
+.. The real history of Northern Europe is captured in the data collection.
+. 2025-01-24: {history-ragnar-and-rus}[Ragnar's Connection to Rus] - A+
+.. This is an excerpt of important information extracted from Vikings research.
+. 2025-03-07: {history-brief-ukraine}[The Brief History of Ukraine] - #A+# -- exemplary semester work
+.. This is the final work capturing the real history of Ukraine and Europe.
+. 2025-03-14: {history-agriculture-evolution}[The Agricultural Evolution] - A+
+.. A continuation work stemming from the History of Ukraine essay;
+.. This work captures the importance of agriculture in the history of Europe.
+. 2025-03-19: {history-of-human-evolution}[History of Human Evolution] - A+
+.. A continuation work stemming from the History of Ukraine essay;
+.. This work captures important trends and patterns in human evolution.
+
+Physics::
+. 2025-03-13: {physics-what-is-physics}[What is Physics] - A+
+
+Psychology::
+. 2025-01-19: {psychology-saboteurs-assignment}[The Saboteurs Assignment] - A+
+. 2025-01-24: {psychology-how-to-beat-your-saboteurs}[How to Beat Your Saboteurs] - #A+#
+. 2025-03-07: {psychology-how-i-beat-my-top-two-saboteurs}[How I Beat My Top Two Saboteurs] - #A+# - This earned additional credit.
+
+== College Level Machine Learning
+
+This work precedes the aforementioned study of <<decision-trees>>.
+
+. *Linear Regression:* #A+#
+.. link:{labsdir}/100-linear-regression/LinearRegressionTaxi.ipynb[Linear Regression Taxi Notebook]
+.. link:{labsdir}/100-linear-regression/MyLinearReggression.ipynb[My Linear Regression Notebook]
+. ML Study Map: TBD - *_task for the teacher_*
+.. link:{labsdir}/101-ml-study-map/index.text[ML Study Map]
+. *ML Foundations:* #A+# - _3 points of additional credit_
+.. link:{labsdir}/102-ml-foundations/MyFundamentalsMiroBoard.ipynb[My Fundamentals Miro Board]
+.. link:{labsdir}/102-ml-foundations/MyMiroBoardLesson.ipynb[My Miro Board Lesson]
+.. link:{labsdir}/102-ml-foundations/AppleSiliconPluggableDevices.ipynb[Apple Silicon Pluggable Devices] - notes from the teacher
+. ML Resource Management: TBD - *_task for the teacher_*
+.. link:{labsdir}/103-ml-resources/ResearchingMlResources.ipynb[Researching ML Resources]
+. *ML Core Libraries:* #A+# - _7 points of additional credit_
+.. link:{labsdir}/104-core-libraries/01-Numpy.ipynb[My Numpy Notebook]
+.. link:{labsdir}/104-core-libraries/02-Pandas.ipynb[My Pandas Notebook]
+.. link:{labsdir}/104-core-libraries/03-VisualLibraries.ipynb[My Visual Libraries Notebook]
+.. link:{labsdir}/104-core-libraries/04-TensorFlow.ipynb[My TensorFlow Notebook]
+.. link:{labsdir}/104-core-libraries/05-SkLearn.ipynb[My SkLearn Notebook]
+.. link:{labsdir}/104-core-libraries/06-Pytorch.ipynb[My Pytorch Notebook]
+. *ML Models Basics:* #A+# - _2 points of additional credit_
+.. link:{labsdir}/105-Models-Basics-ML/KNN-Model.ipynb[My KNN Model Notebook]
+.. link:{labsdir}/105-Models-Basics-ML/LinearRegression.ipynb[My Linear Regression Notebook]
+.. link:{labsdir}/105-Models-Basics-ML/LogisticRegression.ipynb[My Logistic Regression Notebook]
+. Solving Datasets: TBD - *_task for the teacher_*
+.. link:{labsdir}/106-solving-datasets/catboost_info/learn/index.text[CatBoost Info]
+. **ML Decision Trees:** #A+# - _2 points of additional credit_
+.. See <<decision-trees>> above for closing descriptions.
+
+
+== Classes Missed or not Attempted
+
+Some Classes I missed though this semester are:
+
+. History, although I really wanted to continue my learning trails in Europe;
+. Science, especially the Introduction to Physics that was moved down;
+. And American Literature, because we're waiting on the right textbooks.
+
+These can be made up in the future.
+
+
+== My Wishlist for the Next Semester
+
+As for next semester, I plan on Learning:
+
+. Business and Economics;
+. Expanding Python;
+. Science and History of computers;
+. Mathematics of Algebra;
+. Continuation of ML.
+
+== Final Grade
+
+* (3) three points taken for the sloppy summary;
+* (4) four points granted for independent research and depth.
+* (11) additional points granted for the depth of the essays and the quality of the writing;
+* (14) additional points granted for the maturity of product written code and notebooks.
+
+#A+ final grade.#

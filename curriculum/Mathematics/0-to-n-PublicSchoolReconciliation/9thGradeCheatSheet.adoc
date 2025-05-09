@@ -1,0 +1,228 @@
+= Ninth Grade Cheat Sheet
+Cpt. Lugaru (CaptainLugaru) <72951616+CaptainLugaru@users.noreply.github.com>
+v1.0, Thursday, March 13, 2025
+:doctype: book
+:description: Modern technical writing uses AsciiDoc for structured documents instead of Markdown or LaTeX.
+:sectnums:
+:sectanchors:
+:sectlinks:
+:icons: font
+:tip-caption: 💡️
+:note-caption: ℹ️
+:important-caption: ❗
+:caution-caption: 🔥
+:warning-caption: ⚠️
+:toc: preamble
+:toclevels: 2
+:toc-title: Technical Writing Learning Trail
+:keywords: Homeschool Learning Journey
+:sindridir: ../..
+:imagesdir: ./images
+:curriculumdir: {sindridir}/curriculum
+:labsdir: {sindridir}/labs
+ifdef::env-name[:relfilesuffix: .adoc]
+== Chapter 1: Exponents
+
+=== Product Rule
+Formula: X^a * X^b = X^(a+b) +
+Explanation: If you have two numbers with the same base, multiplying them means keeping the base and adding the exponents. +
+Example: 5^3 * 5^4 = 5^7
+
+=== Quotient Rule
+Formula: X^a / X^b = X^(a-b), as long as x ≠ 0 +
+Explanation: Divide with same base → subtract exponents. +
+Example: 7^5 / 7^2 = 7^3
+
+=== Power of a Power Rule
+Formula: (X^a)^b = X^(a*b) +
+Explanation: Raise a power to another → multiply exponents. +
+Example: (3^2)^4 = 3^8
+
+=== Power of a Product Rule
+Formula: (a * b)^x = a^x * b^x +
+Explanation: Distribute the exponent to each factor. +
+Example: (2 * 5)^3 = 2^3 * 5^3 = 1000
+
+=== Power of a Quotient Rule
+Formula: (a/b)^x = a^x / b^x, b ≠ 0 +
+Explanation: Apply exponent to both numerator and denominator. +
+Example: (4/3)^2 = 16/9
+
+=== Zero Exponent Rule
+Formula: X^0 = 1, x ≠ 0 +
+Explanation: Any nonzero base raised to 0 = 1. +
+Example: 10000^0 = 1
+
+=== Negative Exponent Rule
+Formula: X^-a = 1 / X^a, x ≠ 0 +
+Explanation: Flip base and make exponent positive. +
+Example: 5^-3 = 1/125; 1/2^-4 = 2^4 = 16
+
+=== Exponential Growth and Decay
+
+*Growth:* A = P(1 + r)^t +
+*Decay:* A = P(1 - r)^t +
+Example: A = 1000(1.05)^3 = 1157.63
+
+=== Scientific Notation
+
+Used for very large or very small numbers. +
+Examples: +
+3,200,000 = 3.2 × 10^6 +
+0.00042 = 4.2 × 10^-4
+
+== Chapter 2: Polynomials
+
+=== Types of Polynomials
+
+* Monomial: 1 term (e.g., 2x)
+* Binomial: 2 terms (e.g., 3x + 5)
+* Trinomial: 3 terms (e.g., 4x^2 − 3x + 2)
+* Polynomial: >3 terms (e.g., x^4 + 3x^3 − 2x^2 + 5x − 1)
+* Degree: Highest exponent in the polynomial +
+Example: 4x^3 + 2x^2 − x has degree 3
+
+=== Operations with Polynomials
+
+*Collecting Like Terms:* Same variables and exponents +
+Example: 3x^2 + 5x^2 = 8x^2
+
+*Distributive Property:* a(b + c) = ab + ac +
+Example: 3(x + 4) = 3x + 12
+
+=== Multiplying Polynomials
+
+*Binomial × Binomial:* (a + b)(c + d) = ac + ad + bc + bd +
+Example: (x + 3)(x + 5) = x^2 + 8x + 15
+
+*Binomial × Trinomial:* +
+(x + 2)(x^2 + 3x + 4) = x^3 + 5x^2 + 10x + 8
+
+=== Factoring Polynomials
+
+*Common Factor:* +
+6x^2 + 9x = 3x(2x + 3)
+
+*Trinomial Factoring:* +
+x^2 + 7x + 12 = (x + 3)(x + 4)
+
+== Chapter 3: Solving Equations
+
+=== Basic Equations
+Example: x + 4 = 7 → x = 3
+
+=== Two-Step Equations
+Example: 3x - 5 = 10 → x = 5
+
+=== Equations with Fractions
+x / 3 = 5 → Multiply both sides by 3 → x = 15
+
+=== Distributive Property in Equations
+2(x − 3) = 10 → 2x − 6 = 10 → x = 8
+
+=== Cross-Multiplication (Proportions)
+
+If a/b = c/d, then ad = bc +
+Example: x/5 = 3/10 → x = 1.5
+
+=== Variables on Both Sides
+
+Example: 5x + 3 = 2x + 9 → x = 2
+
+== Chapter 4: Linear Relationships
+
+=== Scatter Plots and Correlation
+
+* Independent Variable → x-axis
+* Dependent Variable → y-axis
+* Correlation Types: Positive, Negative, None
+* Line of Best Fit: Represents data trend
+* Interpolation vs. Extrapolation
+
+=== Distance-Time Graphs
+
+* Slope = speed
+* Flat line = no movement
+* Steep = faster
+* Downward = return
+* Curved = acceleration or deceleration
+
+=== Slope and Equation of a Line
+
+* Slope: m = (y2 - y1) / (x2 - x1)
+* Forms:
+- Slope-Intercept: y = mx + b
+- Point-Slope: y - y1 = m(x - x1)
+- Standard: Ax + By + C = 0
+* Direct: y = mx (through origin)
+* Partial: y = mx + b
+
+=== Converting Representations
+
+*Table → Equation:* Find slope, y-intercept → y = mx + b
+*Graph → Equation:* Use slope and y-intercept → y = mx + b
+*Equation → Graph:* Plot y-intercept, use slope for points
+
+=== Parallel and Perpendicular Lines
+
+* Parallel: Same slope
+* Perpendicular: Negative reciprocals
+* Horizontal: y = c (slope = 0)
+* Vertical: x = c (slope undefined)
+
+== Chapter 5: Geometry
+
+=== Angles and Triangles
+
+* Complementary: 90°
+* Supplementary: 180°
+* Parallel Line Pairs: Corresponding, Alternate Interior, Alternate Exterior
+
+=== Triangle Properties
+
+* Interior Angles Sum: 180°
+* Exterior Angle = sum of opposite interior angles
+* Isosceles Theorem: Equal sides → equal angles
+
+=== Right Triangle Properties
+
+*Pythagorean Theorem:* a^2 + b^2 = c^2
+*Trigonometry:* SOH CAH TOA
+*Angles of Elevation/Depression*
+
+=== Perimeter, Area, and Volume
+
+* Rectangle: P = 2l + 2w, A = lw
+* Triangle: A = 1/2bh
+* Circle: C = 2πr, A = πr^2
+* Sphere: V = 4/3πr^3
+* Cylinder: V = πr^2h
+
+=== Transformations
+
+* Translation: Slide
+* Reflection: Flip
+* Rotation: Turn
+* Dilation: Resize
+
+== Chapter 6: Probability and Statistics
+
+=== Basic Probability
+
+* Formula: P = favorable / total
+* Independent: One doesn't affect the other
+* Dependent: One affects the other
+
+=== Descriptive Statistics
+
+* Mean = average
+* Median = middle value
+* Mode = most frequent
+* Range = highest − lowest
+
+=== Data Representation
+
+* Bar Graphs
+* Histograms
+* Pie Charts
+* Box Plots

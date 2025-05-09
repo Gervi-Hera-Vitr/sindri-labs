@@ -4,7 +4,7 @@ description: "A dedicated space for learning, exploring, and building AI project
 github_username: Gervi-Hera-Vitr
 github: [metadata]
 
-baseurl: "/google-ai-labs"
+baseurl: "/sindri-labs"
 url: "https://gervi-hera-vitr.github.io"
 
 markdown: kramdown

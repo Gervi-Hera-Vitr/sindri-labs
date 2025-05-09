@@ -1,0 +1,73 @@
+= Biology: What is Biology
+Cpt. Lugaru (CaptainLugaru) <72951616+CaptainLugaru@users.noreply.github.com>
+v1.0, Monday, March 10, 2025
+:description: Biology Exploration into what the science of biology is
+:sectnums:
+:sectanchors:
+:sectlinks:
+:icons: font
+:tip-caption: 💡️
+:note-caption: ℹ️
+:important-caption: ❗
+:caution-caption: 🔥
+:warning-caption: ⚠️
+:toc: preamble
+:toclevels: 1
+:toc-title: The Biology Trail
+:keywords: Homeschool Learning Journey
+:imagesdir: ./images
+:labsdir: ./labs
+ifdef::env-name[:relfilesuffix: .adoc]
+
+*_Biology is the study of life and living organisms._*
+
+It examines how organisms interact with each other and their environment.::
+- Bio = life
+- logy = study of
+
+So, biology literally means _"the study of life."_
+
+== The characteristics of life
+
+All living things share eight (8) characteristics::
+
+. Made of cells (unicellular or multicellular);
+. Reproduce (asexual or sexual);
+. Based on a universal genetic code (DNA);
+. Grow and develop;
+. Obtain and use energy (metabolism);
+. Respond to stimuli (environmental response);
+. Maintain a stable internal environment (homeostasis);
+. Evolve as a group over time (evolution).
+
+== The levels of life
+
+From smallest to largest::
+- Atom
+- Molecule
+- Organelle
+- Cell
+- Tissue
+- Organ
+- Organ system
+- Organism
+- Population
+- Community
+- Ecosystem
+- Biosphere
+- Universe
+
+== Types of Biology studies
+
+- *Zoology:* Study of animals.
+- *Botany:* Study of plants.
+- *Ecology:* Study of ecosystems.
+- *Microbiology:* Study of microscopic organisms.
+- *Genetics:* Study of *_genes_* and heredity.
+- *Anatomy:* Study of body structure.
+- *Physiology:* Study of body function.
+
+== Final Grade: 10/10
+
+#A+#
+

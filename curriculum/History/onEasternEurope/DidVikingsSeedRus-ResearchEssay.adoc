@@ -1,0 +1,216 @@
+= History: Did Vikings Seed Rus?
+Cpt. Lugaru (CaptainLugaru) <72951616+CaptainLugaru@users.noreply.github.com>
+v1.0, Sunday, January 19, 2025
+:description: Exploratory research into the history of modern Rus
+:sectnums:
+:sectanchors:
+:sectlinks:
+:icons: font
+:tip-caption: 💡️
+:note-caption: ℹ️
+:important-caption: ❗
+:caution-caption: 🔥
+:warning-caption: ⚠️
+:toc: preamble
+:toclevels: 1
+:toc-title: History of Ukraine as Rus
+:keywords: Homeschool Learning Journey
+:imagesdir: ./images
+:labsdir: ./labs
+ifdef::env-name[:relfilesuffix: .adoc]
+:sigurd-norsk-name: Sigurðr Hringr,
+:sigurd: https://en.wikipedia.org/wiki/Sigurd_Ring
+:real-ragnar: https://www.historic-uk.com/HistoryUK/HistoryofEngland/Ragnar-Lothbrok/
+:gandalf: https://en.wikipedia.org/wiki/Gandalf_Alfgeirsson
+:alfheim: https://en.wikipedia.org/wiki/%C3%81lfheimr_(region)
+
+[NOTE]
+.Exploratory research to produce a Brief History of Ukraine.
+====
+This essay is a collection of exploratory research materials in preparation for semester thesis work in history.
+====
+
+_{real-ragnar}[Ragnar Lodbrok], a legendary figure whose story has been told for 1000 years, has been surrounded by myth and legend.
+In this essay, we will Separate Legend from fact._
+
+It starts with {sigurd}[{sigurd-norsk-name}] (Sigurd Ring), the king of the Swedes.
+Sigurd had a bunch of Mistresses and A wife, Alfhild, the Queen of the Swedes.
+Alfhild was a daughter of king Gandalf Alfgeirsson, the king of the {alfheim}[Álfheimr].
+She gave birth to prince Ragnar.
+Unfortunately for Ragnar, his mother died when he was 15.
+And his father, Sigurd, married a woman about Ragnar's age.
+That is a story of its own for another time.
+
+Sigurd wanted to marry the daughter of the king of Vendel, but their family refused.
+So the king of Sweden went to war with the king of Vendel and won.
+To protect their daughter, Vendel ordered his sons to poison their sister.
+When 60-year-old Sigurd found the body, he was *_super pissed_*.
+He then burned her body on a boat which is traditionally only usually for queens.
+
+Sigurd felt that he lost too much so he got on a ship with the burning girls corpse, so he could die with his teenage crush.
+Thanks to recently discovered ancient runes, king's last words were to his son, which he pointed to as he was burning on the boat:
+
+_"Follow the path I laid out for you and reach the goal I never could, become the ultimate king son, For it is in your blood."_
+
+== Early Ragnar
+
+One Ragnar Lodbrok::
+
+Now this sets the scene for ragnar, 15 years old and the king of Sweden.
+He led one successful raid after another, gaining the trust of his men.
+To the point that his men believed when young Ragnar claimed that he has Odin's blood in him.
+
+Ragnar has a lot of historic and mythic tales about himself.
+Yet, according to the historical facts, he most probably was only a Jarl,
+an owner of lands.
+He was not a king and probably was under King Horik himself.
+
+Ragnar was still a gifted and talented raider otherwise.
+He was a sea king who was a menace to Europe, and he started raiding Northumbria.
+Ragnar even killed a king and ransomed the country, telling them to pay him tribute to *_not_* kill the *_new_* king.
+So, a reputable troublemaker in his own right.
+
+
+Ragnar flosses Frankia::
+
+Vikings were raiding the South in full force, and after French king Charlamanges' death in 814,
+the kingdom of Frankia was *split*, and the king's son did not wield the same authority.
+The empire was filled with infighting and a lack of stability.
+Everyone laid claim to be king and nobility claimed parts of the empire.
+When Ragnar, the sea king, and the raiding king, heard about this, he headed South.
+Ragnar made West Frankia, situated near the water and enjoyed bullying his victim.
+The Vikings attacked Frankia with bigger and bigger fleets every year for 20 years as retribution for past attacks by Frankia.
+They raided and looted and pushed deeper and deeper inland.
+The main Viking warlord terrorizing them was Ragnar.
+In these 20 years, Ragnar was documented by his men, the vikings, as more of a legend than a man.
+The Viking stories are far less down to earth than the Franks story (single).
+
+Ragnar goes to Norway::
+
+Later, when Ragnar was made the king of Sweden, he marched on Norway.
+There king Fro killed his uncle, and Ragnar saw this as an opportunity to prove himself to his people.
+After many battles by Ragnar to reach the king of Norway, the Vikings got a little reprieve.
+Ragnar and his men were resting upon some hill.
+
+Ragnar looked down to see that the king's army was fighting another force.
+When he looked down, he saw that the force was mainly woman and that leading them was some sort of "Warrior Goddess."
+Ragnar and his men went down to help the woman win the battle, and after the battle they introduced themselves.
+
+== Ragnar King and Lagertha Queen
+
+The woman's name was Lagertha.
+And her women were prostitutes who used the chaos of Ragnar's attacks to free themselves and started to fight Fro's men.
+In fact, before Fro Stole these lands, Lagertha was the ruler of these lands, and she just so happened to take Ragnar's heart.
+After their combined forces dispatched Fro, Ragnar proposed to Lagertha and she accepted.
+
+Ragnar and Lagertha::
+
+Under the conditions of their union, both ruled their land as equals.
+For 3 years they lived a good life, they had three kids and had a happy family.
+But then the news arrived that Ragnar's own lands were under attack.
+
+Ragnar and His Decision::
+
+Ragnar begged Lagertha to join him and help take back his lands, but she refused to leave.
+According to their original agreement, Lagertha stayed with her people.
+Ragnar went alone.
+
+== Ragnar And The Jarl's Daughter
+
+Ragnar and the dragon myth::
+
+After he successfully got his lands back, he heard the story of YotaLands King.
+He would Auction off his daughter to any man who solved his problem.
+Long ago he gifted his daughter a baby snake, but it turned out to be a *dragon*.
+
+The dragon grew to a massive size, and it wrapped itself around her house,
+trapping her making sure no one could get to her.
+Ragnar knew that he had to slay the dragon once he heard the Jarl's Daughter was HOT and young.
+So knowing what he had to face, he made shorts out of wolf's hair and covered it in tar and let it froze.
+So equipped with his hairy shorts, a spear, and a shield, he went off to slay the dragon.
+
+After a long fight, Ragnar dodged the Dragon's attack, but he was a little too late and the dragon bit down on his leg.
+But as all seemed lost for Ragnar, his furry shorts made it so that the Dragon's teeth could not penetrate Ragnar's skin,
+and the tar made the Dragon's mouth stick shut.
+With the opportunity, ragnar took his spear and he killed the dragon.
+As a reward the Jarl gave his daughter to Ragnar and gave him the name, *Ragnar Lothbrok.*
+Meaning Ragnar, FurryPants.
+
+Ragnar and the Facts::
+
+We don't know exactly what happened historically on how ragnar married the daughter,
+but it was not so uncommon for Jarl's to marry off their daughter to others as a reward for doing a Task.
+They had two sons, but just like their father, the two sons lost their mother when they were teenagers.
+
+== Ragnar And Conquest
+
+Ragnar and the old Folks Daughter::
+
+Ragnar heartbroken could not bear to stay in these lands, and he left.
+To handle his grief, Ragnar Killed, raided and destroyed villages.
+One day in norway raiding, Ragnar and his men decided to make some bread to eat.
+So his men he sent broke into a nearby farmhouse, and they Told the old couple that lived there to start baking them bread, but they were not scared.
+They told the vikings that they were already at death's doors and that they would not bake them bread.
+
+But this was all a facade as at that moment their daughter, the most beautiful woman in the lands, arrived.
+The couple was scared of what the vikings would do to her.
+The vikings could do nothing but stare at her.
+They could do nothing but stare, and they burnt their bread, After that they went to ragnar and told him what they found.
+But she could only go to see ragnar if she could solve this riddle: To come to him neither clothed or unclothed,
+to come to him neither full nor hungry, to come to him without no one coming with her but not alone.
+She came to him eating an onion, wearing a fish net, and with a dog.
+He proposed to her, but she refused, knowing a womanizer when she sees one she says that after 10 months of raids,
+if he came back and still loved her, then she would marry him.
+
+Ragnar And The Raid of Old Paris::
+
+He went and raided old paris in 845. He arrived in old paris, with 5000 men.
+Frankia was weak at this time, and they knew it.
+He blitzed Frankia and destroyed many costal villages.
+Charlie the bald had two armies on both sides of the river protecting the heart of france.
+So ragnar just attacked the smaller army, and all the other army could do was just watch as their men were being slaughtered.
+Ragnar took the remaining members of the smaller army and made a bloody ritual with them to odin.
+Then on Easter sunday, further demoralizing frankia he attacked paris, Showing god was not protecting them.
+
+He forced them to pay him 7000 pounds of gold. And then he raided every costal village they had and returned to norway.
+
+:: Ragnar And The Valkyrie's Daughter :: They got married, and She reveled that she was a daughter of a legendary dragon slayer and a valkyrie.
+They had Four legendary sons.
+
+== Ragnar And The End
+
+Ragnar And The Trap ::
+Ragnar got old and lazy and faded into legends.
+But he was still alive and wanted to add to his story before he passed, and his sons surpassed him.
+Ragnar decided to end his days attacking northumbria.
+Where his first raids started.
+Ragnar and his men raided deep into ireland.
+But the leader of Northumbria was pretending to lose.
+They trapped and surrounded him in ireland and won in a 1-sided battle.
+They captured him and threw him into a pit of snakes.
+
+Ragnar And The Death Speech ::
+
+This is what he wanted though, so he had his famous death speech as they were preparing to throw him in:
+"It gladdens me to know that balder's Father makes ready the benches for banquet, soon we shall be drinking ale from the curved horn's,
+the champion that comes into Odin's dwelling does not lament his death I shall not enter his hall with words of fear upon my lips,
+the Aesir welcomes me, death comes without lamenting eager am I to depart this Disir Summon me home those who Odin sends for me the valkyries
+from the halls of the lord of the host."I will not lament my death, gladly I shall drink ale in the high seat with the aesir,
+the days of my life are ended, and I laugh while I die."His last words were, "If the porkers knew the punishment of the boar pig,
+Surly they would break into the sty and hasten to lose him from his affliction."
+
+Ragnar's Legacy::
+
+Once they heard the legend that their father Had died, his sons gathered the largest viking army in history,
+the great heathen army which would invade England in 865, and they raided.
+They unleashed absolute violence for the next 14 years.
+All to avenge ragnar.
+
+== NO Expected Connection to Rus'
+
+This exploration did not lead to Vikings-Rus' connection discovery.
+But this was a good starting point for the Connection of Ragnar to Rus'.
+
+== Final Grade: A+
+
+#A+#
