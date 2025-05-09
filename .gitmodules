@@ -1,0 +1,6 @@
+[submodule "production/sindri-prospector"]
+	path = production/prospector
+	url = git@github.com:Gervi-Hera-Vitr/sindri-prospector.git
+[submodule "curriculum/Didactic-Plan"]
+	path = curriculum/Didactic-Plan
+	url = git@github.com:Gervi-Hera-Vitr/curriculum.git

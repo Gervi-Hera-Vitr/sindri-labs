@@ -43,7 +43,7 @@ See our security policy [here](https://github.com/Gervi-Hera-Vitr/sindri-labs/se
 - [**curriculum**](./curriculum) - _**Planned Learning Materials**_: exact content of the **hands-on** learning;
    - **Core Philosophy** - student must master the skills of discovering facts, building arguments, and drawing conclusions;
    - **Granularity** - learning materials covered here must be exact;
-   - <span style="color: green">**Format**</span> - <span style="color: yellow"> _there should never be top-down teaching of any kind_</span> - <span style="color: lightgreen">_** all learning is ALWAYS collaborative**_</span>!
+   - <span style="color: green">**Execution**</span> - <span style="color: yellow"> _there should never be top-down teaching of any kind_</span> - <span style="color: lightgreen"> _**all learning is ALWAYS collaborative!**_</span>
 - [**journey**](./journey) - _**Philosophical Foundation**_: high-level governance of the **hands-on** learning **journey**;
   - <span style="color: orange">**ToDo**</span>: _not fully committed to the learning trail yet - too few iterations_;
   - **For teachers**: a book or a guide encapsulating the educational program;
@@ -55,12 +55,13 @@ See our security policy [here](https://github.com/Gervi-Hera-Vitr/sindri-labs/se
 
 **Supporting materials, modules, and artifacts:**
 
+- [.run](./.run) - Shared project run configurations: useful stuff.
 - [**docs**](./docs) - Documentation, Tutorials, and Onboarding Guide for teachers and students;
   - <span style="color: orange">ToDo</span>: placeholder waiting for consumers, contributors, and maintainers;
   - **For teachers**: instructions on how to `fork` and set up own school program;
   - **For students**: mechanical and technical instructions such as IDE setup, etc.;
   - **Artifact**: inline project-bound documentation.
-- [.run](./.run) - Shared project run configurations: useful stuff.
+- [gradle](./gradle) - Gradle Wrapper files, supporting build.
 - [lab-ux-ktor](./lab-ux-ktor/README.md) - _**future**_ home and demo for shared labs (Gradle and Ktor subproject).
 
 **Technical and mechanical modules for the school assets:**
@@ -68,6 +69,7 @@ See our security policy [here](https://github.com/Gervi-Hera-Vitr/sindri-labs/se
 - [.github](./.github) - GitHub actions and workflows; this needs to be here.
 - [.idea](./.idea) - JetBrains IDE files, normally excluded, kept as an example for styles, etc.
 - [.kotlin](./.kotlin) - Kotlin files, normally excluded, kept as an example for ML bootstrap, etc.
+- [docs](./docs) - Documentation, Tutorials, and Onboarding Gide; **ToDo**
 
 **Transient folders that should not be committed:** _git-excluded and removed on cleanup_.
 
@@ -76,7 +78,6 @@ See our security policy [here](https://github.com/Gervi-Hera-Vitr/sindri-labs/se
 
 **ASDF**
 
-- [docs](./docs) - Documentation, Tutorials, and Onboarding Gide; **ToDo**
 - [lab-us-ktor](./lab-ux-ktor/README.md) - a reminder to Munchkins to expose their models; **ToDo**
 - [labs](./labs) - hands-on labs Munchkins will complete; **ToDo**
 - [planning](./planning) - evolution of the learning trails; **ToDo**
