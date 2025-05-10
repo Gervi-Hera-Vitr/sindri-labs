@@ -1,5 +1,4 @@
-
-= Introduction to Statistics
+= Mathematics: Introduction to Statistics
 Cpt. Lugaru (CaptainLugaru) <72951616+CaptainLugaru@users.noreply.github.com>
 v1.0, Thursday, March 13, 2025
 :doctype: book

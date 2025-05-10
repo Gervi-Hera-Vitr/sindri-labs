@@ -1,0 +1,101 @@
+= ML: Specific Development Dependency Versions
+Cpt. Lugaru (CaptainLugaru) <72951616+CaptainLugaru@users.noreply.github.com>
+v1.0, Friday, May 9, 2025
+:doctype: article
+:description: Gervi Héra Viskr Machine Learning Dependency Version Management.
+:sectnums:
+:sectanchors:
+:sectlinks:
+:icons: font
+:tip-caption: 💡️
+:note-caption: ℹ️
+:important-caption: ❗
+:caution-caption: 🔥
+:warning-caption: ⚠️
+:toc: preamble
+:toclevels: 2
+:toc-title: Technical Writing Learning Trail
+:keywords: Homeschool Learning Journey
+ifdef::env-name[:relfilesuffix: .adoc]
+:linear-regression-taxi: link:./100-linear-regression/LinearRegressionTaxi.ipynb[LinearRegressionTaxi]
+:linear-regression-me: link:./100-linear-regression/MyLinearRegression.ipynb[MyLinearRegression]
+
+In all ML projects, even simple ones such as these,
+used to educate children, *_dependency version correlations_*
+are absolutely crucial.
+
+== Dependency Map: Q2:2025
+
+.Most restrictive (Intel Mac) requirements.
+[%autowidth,cols="1h,2,1,1,1,1", options="header,footer"]
+|===
+| Requirement
+| Dependency
+| Version
+| Build
+| Channel
+| Comment
+
+2+| tensorflow
+.3+| 2.18.0 | cpu_py312hf9ba072_0
+.3+| conda-forge
+.3+| {linear-regression-taxi}
+
+| | tensorflow-base
+| cpu_py312hf5baff2_0
+
+
+| | tensorflow-estimator
+| cpu_py312he7b0848_0
+
+| keras |
+| 3.9.2 | pyh753f3f9_0
+| conda-forge
+| {linear-regression-taxi}
+
+| numpy |
+| 2.2.5 | py312h6693b03_0
+| conda-forge
+| {linear-regression-taxi}
+
+| pandas |
+| 2.2.3 | py312hec45ffd_3
+| conda-forge
+| {linear-regression-taxi}
+
+| plotly |
+| 6.0.1 | pyhd8ed1ab_0
+| conda-forge
+| {linear-regression-taxi}
+
+2+| seaborn
+.2+| 0.13.2 | hd8ed1ab_3
+.2+| conda-forge
+.2+| {linear-regression-taxi}
+
+| | seaborn-base
+| pyhd8ed1ab_3
+
+2+| scikit-learn
+| 1.6.1 | py312he1a5313_0
+| conda-forge
+| {linear-regression-me}
+
+
+6+a| asd
+6+a| asd
+
+|===
+
+scikit-learn              1.6.1           py312he1a5313_0    conda-forge
+
+
+== Intel Mac:
+
+* numpy: 1.24.3
+* tensorflow: 2.13.1
+* tensorflow-estimator: 2.13.0
+* tensorflow-io-gcs-filesystem: 0.37.1
+* tensorflow-metal 1.0.0
+
+See https://github.com/tensorflow/tensorflow/blob/v2.13.1/tensorflow/tools/pip_package/setup.py#L87

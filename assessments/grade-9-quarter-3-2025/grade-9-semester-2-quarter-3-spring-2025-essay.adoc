@@ -137,7 +137,7 @@ This work precedes the aforementioned study of <<decision-trees>>.
 
 . *Linear Regression:* #A+#
 .. link:{labsdir}/100-linear-regression/LinearRegressionTaxi.ipynb[Linear Regression Taxi Notebook]
-.. link:{labsdir}/100-linear-regression/MyLinearReggression.ipynb[My Linear Regression Notebook]
+.. link:{labsdir}/100-linear-regression/MyLinearRegression.ipynb[My Linear Regression Notebook]
 . ML Study Map: TBD - *_task for the teacher_*
 .. link:{labsdir}/101-ml-study-map/index.text[ML Study Map]
 . *ML Foundations:* #A+# - _3 points of additional credit_
