@@ -15,7 +15,7 @@ v1.0, Monday May 12th, 2025
 :toclevels: 3
 :toc-title: GitHub Learning Trail
 :keywords: AI ML Ops Learning Journey
-:imagesdir: ./resources/images
+:imagesdir: ./images
 ifdef::env-name[:relfilesuffix: .adoc]
 
 == What is GitHub Actions?
@@ -52,6 +52,8 @@ GitHub Actions lets you write (coded in YAML) custom automation scripts (called 
 |===
 
 NOTE: GitHub has many workflow templates available to choose from.
+
+image::image-2025-05-12-14-00-27-843.png[GitHub Actions Workflows]
 
 == Viewing Your Workflow Results
 
