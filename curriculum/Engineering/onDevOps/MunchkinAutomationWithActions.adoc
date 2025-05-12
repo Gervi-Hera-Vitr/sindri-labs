@@ -1,0 +1,133 @@
+= GitHub Actions and Automation
+Cpt. Lugaru (CaptainLugaru) <72951616+CaptainLugaru@users.noreply.github.com>
+v1.0, Monday May 12th, 2025
+:description: Munchkins' long learning trail in GitHub, VCS, and all-things Ops as part of Mímir homeschooling.
+:sectnums:
+:sectanchors:
+:sectlinks:
+:icons: font
+:tip-caption: 💡️
+:note-caption: ℹ️
+:important-caption: ❗
+:caution-caption: 🔥
+:warning-caption: ⚠️
+:toc: preamble
+:toclevels: 3
+:toc-title: GitHub Learning Trail
+:keywords: AI ML Ops Learning Journey
+:imagesdir: ./resources/images
+ifdef::env-name[:relfilesuffix: .adoc]
+
+== What is GitHub Actions?
+
+GitHub Actions is a continuous integration and continuous delivery (CI/CD) platform that allows you to automate your build, test, and deployment pipeline. You can create workflows that run tests whenever you push a change to your repository, or that deploy merged pull requests to production.
+
+Workflows ::
+GitHub Actions lets you write (coded in YAML) custom automation scripts (called workflows) that run when specific events happen in your GitHub repository.
+
+.GitHub Actions Key Concepts
+|===
+| Concept | Description
+
+| Workflow
+| The entire automation process (defined in a `.yml` file)
+
+| Job
+| A collection of steps that run on the same machine
+
+| Step
+| A single task, like running a command or using an action
+
+| Action
+| A reusable automation block (e.g., `actions/checkout`)
+
+| Runner
+| The machine that runs the job (e.g., Ubuntu, Windows)
+
+| Event
+| What triggers the workflow (e.g., `push`, `pull_request`, `schedule`)
+
+| Secrets
+| Secure storage for API keys, passwords, etc.
+|===
+
+NOTE: GitHub has many workflow templates available to choose from.
+
+== Viewing Your Workflow Results
+
+On GitHub, navigate to the main page of the repository.
+Under your repository name, click *Actions*.
+
+In the left sidebar of the workflow run page, under *Jobs*, click the `Explore-GitHub-Actions` job.
+
+The log shows you how each of the steps was processed. Expand any of the steps to view its details.
+
+For example, you can see the list of files in your repository. The workflow is triggered each time code is pushed to the branch and shows you how GitHub Actions can work with the contents of your repository.
+
+== Basic Example of an Action Workflow
+
+[source,yaml]
+----
+name: Node.js CI
+on: [push, pull_request] # Defines when the workflow should run
+jobs: # Defines the set of tasks that will run
+  build:
+    runs-on: ubuntu-latest
+    steps: # Each job contains steps (singular tasks) that will run
+      - uses: actions/checkout@v3
+      - name: Install dependencies
+        run: npm install
+      - name: Run tests
+        run: npm test
+----
+
+== Popular Actions to Use
+
+.Popular Actions
+|===
+| Action | Purpose
+
+| actions/checkout
+| Clones the repository
+
+| actions/setup-node
+| Sets up Node.js environment
+
+| actions/upload-artifact
+| Uploads files between jobs
+
+| docker/build-push-action
+| Builds/pushes Docker images
+|===
+
+=== Example of Common Use Cases
+
+|===
+| Task                 | Trigger               | Description
+
+| Run tests            | On push               | Validate code before merging
+
+| Deploy to production | On push to `main`     | Push new version to server/host
+
+| Lint code            | On `pull_request`     | Check formatting rules
+
+| Build Docker image   | On push               | Build and push Docker image to registry
+
+| Generate docs        | On schedule           | Regenerate docs every week
+
+| Tag new release      | On `workflow_dispatch`| Run manually to publish release
+|===
+
+== Best Practices
+
+1. Keep workflows small and modular
+2. Use caching to speed up builds (`actions/cache`)
+3. Keep secrets secure with GitHub Secrets
+4. Use matrix builds to test across environments
+5. Document workflows with clear names and comments
+6. Always test workflows in non-production branches
+
+=== Places to Learn and See Actions
+
+GitHub Docs: https://docs.github.com/actions +
+Marketplace: https://github.com/marketplace/actions
