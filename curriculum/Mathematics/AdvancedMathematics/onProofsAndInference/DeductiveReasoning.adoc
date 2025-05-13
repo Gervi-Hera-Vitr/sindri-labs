@@ -1,0 +1,32 @@
+= Basics of Mathematical Logic
+
+
+== Intro to mathimatical logic
+What is Mathematical Logic?
+
+Mathematical logic is a subfield of mathematics exploring formal systems in relation to the way we reason. It provides tools to analyze the structure of arguments, statements, and proofs.
+
+Why Study Logic? +
+To build rigorous mathematical proofs. +
+To understand the foundations of mathematics. +
+To apply in computer science (algorithms, circuits, AI). +
+To sharpen reasoning and problem-solving skills. +
+
+
+== Propositions and Logical Connectives
+|===
+| Symbol | Name          | Operation Example | Meaning
+
+| ¬      | Negation      | ¬P                | "not P"
+
+| ∧      | Conjunction   | P ∧ Q             | "P and Q"
+
+| ∨      | Disjunction   | P ∨ Q             | "P or Q" (inclusive or)
+
+| →      | Implication   | P → Q             | "Whenever P then Q"
+
+| ↔      | Biconditional | P ↔ Q             | "P if and only if Q" (iff)
+
+|===
+
+
