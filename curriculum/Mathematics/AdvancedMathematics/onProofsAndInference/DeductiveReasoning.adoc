@@ -1,32 +1,89 @@
 = Basics of Mathematical Logic
 
+== Intro to Mathematical Logic
 
-== Intro to mathimatical logic
-What is Mathematical Logic?
+=== What is Mathematical Logic?
 
 Mathematical logic is a subfield of mathematics exploring formal systems in relation to the way we reason. It provides tools to analyze the structure of arguments, statements, and proofs.
 
-Why Study Logic? +
-To build rigorous mathematical proofs. +
-To understand the foundations of mathematics. +
-To apply in computer science (algorithms, circuits, AI). +
-To sharpen reasoning and problem-solving skills. +
+=== What is a Proposition?
 
+Mathematical logic is also the study of truths in mathematical statements. These are called propositions — a claim that is either true or false.
 
+Example of a proposition: `2 + 2 = 4`
+This can only be either true or false.
+
+=== Most Important Laws of Mathematical Logic
+
+* Law of Self Identity: X, or any number, is always the same or equal to itself.
+* Law of Non-Contradiction: A statement cannot be both true and false.
+
+=== Why Study Logic?
+
+* To build rigorous mathematical proofs.
+* To understand the foundations of mathematics.
+* To apply in computer science (algorithms, circuits, AI).
+* To sharpen reasoning and problem-solving skills.
+
+[#_propositions_and_logical_connectives]
 == Propositions and Logical Connectives
+
+[cols="1,1,2,2", options="header"]
 |===
 | Symbol | Name          | Operation Example | Meaning
 
 | ¬      | Negation      | ¬P                | "not P"
-
 | ∧      | Conjunction   | P ∧ Q             | "P and Q"
-
-| ∨      | Disjunction   | P ∨ Q             | "P or Q" (inclusive or)
-
+| ∨      | Disjunction   | P ∨ Q             | "P or Q" (inclusive)
 | →      | Implication   | P → Q             | "Whenever P then Q"
-
 | ↔      | Biconditional | P ↔ Q             | "P if and only if Q" (iff)
-
 |===
 
+== Notational Variants of Connectives
 
+The propositional calculus is a branch of logic. It is also called propositional logic. These are some standard notations for propositional logic.
+
+[cols="1,2,2,4", options="header"]
+|===
+| Logical Operation | Name                  | Common Notations                                                                 | Explanation
+
+| AND               | Conjunction           | `A ∧ B`, `A · B`, `AB`, `A & B`, `A && B`                                        | True if *both* A and B are true.
+| OR                | Disjunction           | `A ∨ B`, `A + B`, `A ∣ B`, `A ∥ B`                                               | True if *at least one* of A or B is true.
+| NOT               | Negation              | `¬A`, `−A`, `Ā`, `~A`                                                            | True if A is false. Negates A.
+| IMPLIES           | Implication           | `A → B`, `A ⇒ B`, `A ⊃ B`                                                        | "If A then B". False only when A is true and B is false.
+| EQUIVALENT        | Biconditional         | `A ≡ B`, `A ⇔ B`, `A ⇋ B`                                                        | True if A and B have the *same truth value*.
+| XOR               | Exclusive OR          | `A ⊕ B`, `A ⊽ B`, `A ⩒̅ B`, `A ⊻ B`, sometimes written `A XOR B`                 | True if *exactly one* of A or B is true, not both.
+| XNOR              | Exclusive NOR         | `A ⊙ B`, sometimes `¬(A ⊕ B)` or `A ≡ B`                                         | True if *both A and B are equal* (either both true or both false).
+| NAND              | Not AND               | `¬(A ∧ B)`, `A ∧̅ B`, `Ā · B̄`                                                   | True unless *both* A and B are true.
+| NOR               | Not OR                | `A ∨̅ B`, `A ↓ B`, `¬(A ∨ B)`, `Ā + B̄`                                          | True if *neither* A nor B is true.
+| NONEQUIVALENT     | Negated Biconditional | `A ≢ B`, `A ⇎ B`, `A ↮ B`                                                        | True if A and B have *different truth values*.
+|===
+
+=== Common Symbols of Math Logic Equations
+
+[cols="1,2,4", options="header"]
+|===
+| Symbol | Name                | Meaning in Mathematics
+
+| ∈      | Element of          | Indicates that an element belongs to a set. Example: `3 ∈ ℕ` means 3 is an element of ℕ.
+| ℕ      | Natural Numbers     | `{0, 1, 2, 3, ...}` — the set of non-negative integers (some definitions exclude 0).
+| ℤ      | Integers            | `{..., -3, -2, -1, 0, 1, 2, 3, ...}` — includes negative and positive whole numbers.
+| ℚ      | Rational Numbers    | All numbers that can be expressed as a fraction `a/b`, where `a` and `b` are integers, `b ≠ 0`.
+| ℝ      | Real Numbers        | All rational and irrational numbers — includes decimals and roots like `√2`, `π`.
+| ℂ      | Complex Numbers     | Numbers of the form `a + bi`, where `i = √-1`. Encompasses all real and imaginary numbers.
+| ℍ      | Quaternions         | Extension of complex numbers — numbers of the form `a + bi + cj + dk`. Used in 3D modeling.
+| 𝔸 (A)  | Algebraic Numbers / Affine Space | Sometimes used for sets of algebraic numbers or affine spaces, depending on context.
+|===
+
+=== Quantifiers
+
+[cols="1,2,4", options="header"]
+|===
+| Symbol | Name                  | Meaning in Mathematics
+
+| ∃      | There exists (Existential Quantifier)        | Used in logic to express that *at least one* element in a set satisfies a given property. Example: `∃x ∈ ℕ, x > 5`.
+| ∀      | For all (Universal Quantifier)               | Used in logic to express that *every* element in a set satisfies a given property. Example: `∀x ∈ ℕ, x ≥ 0`.
+| ∃!     | Exists uniquely (Unique Existential Quantifier) | Used in logic to express that *exactly one* element in a set satisfies a given property.
+| ⊂      | Proper Subset of                              | A set A is a proper subset of set B (`A ⊂ B`) if all elements of A are in B, and A ≠ B.
+| ⊃      | Proper Superset of                            | A set A is a proper superset of B (`A ⊃ B`) if A contains all elements of B, and A ≠ B.
+|===
