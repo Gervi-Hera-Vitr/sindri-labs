@@ -1,7 +1,7 @@
 = History: Stoics Of Greece
 Cpt. Lugaru (CaptainLugaru) <72951616+CaptainLugaru@users.noreply.github.com>
 v1.0, Monday, May 19, 2025
-:description: Exploratory research into the history of modern Rus
+:description: Exploratory research into the history of Stoics
 :sectnums:
 :sectanchors:
 :sectlinks:
@@ -54,7 +54,7 @@ _“We treat the body rigorously so that it is not disobedient to the mind.”_ 
 
 3. **Work on Yourself a Little Each Day** +
 _“Each day, acquire something that will fortify you against poverty, death, or misfortune.”_ — Seneca, *Letters to Lucilius*
-
+**
 4. **Go to Sleep and Get Good Rest** +
 _“Eventually, the mind will break as surely as the anvil breaks the hammer.”_ — Seneca
 
