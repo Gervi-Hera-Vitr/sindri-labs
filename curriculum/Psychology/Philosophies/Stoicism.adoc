@@ -1,0 +1,157 @@
+= Stoicism
+Cpt. Lugaru (CaptainLugaru) <72951616+CaptainLugaru@users.noreply.github.com>
+v1.1, Monday, May 19, 2025
+:description: Learning what is Stoicism
+:sectnums:
+:sectanchors:
+:sectlinks:
+:icons: font
+:tip-caption: TIP:
+:note-caption: NOTE:
+:important-caption: ❗
+:caution-caption: 🔥
+:warning-caption: WARNING:
+:toc: preamble
+:toclevels: 1
+:toc-title: What is Stoicism
+:keywords: Homeschool Learning Journey, Philosophy, Virtue, Mental Resilience
+:imagesdir: ./images
+:labsdir: ./labs
+
+ifdef::env-name[:relfilesuffix: .adoc]
+
+== What is Stoicism?
+
+Stoicism is a school of Hellenistic philosophy that flourished in ancient Greece and Rome. The Stoics believed that the practice of virtue alone is enough to achieve *eudaimonia* — a well-lived and fulfilled life.
+
+At its core, Stoicism teaches the development of self-control and inner strength as a means of overcoming destructive emotions. According to this philosophy, becoming a clear and unbiased thinker allows one to understand and align with the rational structure of the universe, called the *logos*.
+
+The Stoics identified the path to *eudaimonia* with the daily practice of four cardinal virtues:
+
+* *Wisdom* — the ability to differentiate between what is within our control and what is not, and to choose our response accordingly. This Can Also be Seen as being able to Have Awareness and how to move through situations with clarity.
+* *Courage* — summed up by two words: “persist and resist.”
+* *Temperance* — exercising moderation, doing more with less, and avoiding excess.
+* *Justice* — treating all people fairly because we were born for one another.
+
+== How Stoicism Came to Be
+
+Stoicism was founded in the Agora of Athens by Zeno of Citium around 300 BC. According to tradition, Zeno was a wealthy trader whose ship sank on a voyage, taking all of his cargo with it. In a moment of total loss — one beyond his control — Zeno refused to collapse into despair. Instead, he went to a library in Athens, read the works of Socrates and other philosophers, and began developing what would become *Stoicism*.
+
+TIP: *"One small change lasts an eternity, and one small reframing of your mindset can cascade into larger and more impactful changes later down the line."*
+
+== The Principles of Stoicism
+
+Stoicism is more than an ancient philosophy — it’s a timeless mindset for navigating life. It teaches:
+
+- Accepting reality without complaint.
+- Focusing only on what we can control — our thoughts, emotions, and actions.
+- Preparing for adversity with practices like *voluntary discomfort* (e.g., taking cold showers or eating simply to build gratitude and mental resilience).
+- Reframing misfortune as opportunity to practice virtue and grow stronger.
+
+NOTE: As Epictetus said: *“The chief task in life is simply this: to identify and separate matters so that I can say clearly to myself which are externals not under my control, and which have to do with the choices I actually control.”*
+
+=== Rituals of Stoicism Include
+
+. *Morning Reflection (Pre-Meditation)* +
+Purpose: Prepare for the day with intention. +
+Practice: Upon waking, remind yourself of the kind of person you want to be and anticipate potential challenges. +
+Inspired by: Marcus Aurelius, who began his *Meditations* with reminders like: _“Today I shall meet with interference, ingratitude, insolence, disloyalty, ill-will, and selfishness…”_
+
+. *Waking Up Early* +
+Purpose: Begin the day with clarity and purpose. +
+Practice: Wake early to make time for solitude, self-discipline, and philosophical reflection. +
+Stoic thought: Don’t waste the most sacred part of the day in bed.
+
+. *Journaling (Evening Review)* +
+Purpose: Reflect on actions, correct mistakes, and reinforce progress. +
+Practice: Write about what went well, what didn’t, and how to improve. +
+Seneca wrote: _“When the light has been removed and my wife has fallen silent... I examine my entire day.”_
+
+. *Negative Visualization (Premeditatio Malorum)* +
+Purpose: Strengthen resilience by imagining worst-case scenarios. +
+Practice: Briefly imagine loss, failure, or pain — not to fear them, but to reduce their emotional power. +
+Benefits: Lowers anxiety and increases gratitude.
+
+. *Practicing Silence and Restraint* +
+Purpose: Train self-discipline and thoughtful speech. +
+Practice: Spend intentional time in silence. Avoid gossip and idle chatter.
+
+. *Meditation on Death (Memento Mori)* +
+Purpose: Prioritize what matters by remembering life’s finiteness. +
+Practice: Reflect on death briefly each day to increase gratitude and sharpen focus.
+
+. *Service to Others* +
+Purpose: Live out the Stoic virtue of justice. +
+Practice: Do good without seeking recognition. Help others because we are all part of one community (*cosmopolis*).
+
+. *Detaching from Outcomes* +
+Purpose: Avoid emotional dependency on success or failure. +
+Practice: Focus only on effort and intention, not external results. +
+Epictetus said: _“You are not upset by things, but by your judgment about things.”_
+
+. *Getting Enough Sleep* +
+Purpose: Rest and rejuvenate. +
+Practice: Get a good night’s sleep and wake up refreshed. +
+Seneca said: _“Eventually, the mind will break as surely as the anvil breaks the hammer.”_
+
+. *Habits and Routines* +
+Purpose: Establish a healthy structure to your day. +
+Practice: Develop a routine that helps you get things done and feel grounded. +
+Seneca wrote: _“Life without design is erratic.”_
+
+. *Treat the Body Rigorously* +
+Purpose: Build discipline by caring for your body. +
+Practice: Train your body so it supports, not hinders, your mind. +
+Seneca said: _“We treat the body rigorously so that it is not disobedient to the mind.”_
+
+. *Work on Yourself a Little Each Day* +
+Purpose: Make small daily progress toward resilience and wisdom. +
+Practice: Do one meaningful thing each day. +
+Seneca advised: _“Each day, acquire something that will fortify you against poverty, death, or misfortune.”_
+
+. *Don’t Procrastinate* +
+Purpose: Prioritize what matters now. +
+Practice: Take action today instead of waiting. +
+Marcus Aurelius wrote: _“You could be good today. But instead, you choose tomorrow.”_
+
+. *Don’t Overthink It* +
+Purpose: Avoid paralysis by analysis. +
+Practice: Take action with clarity. +
+Marcus Aurelius said: _“Waste no more time arguing what a good man should be. Be one.”_
+
+== Why Stoicism, and Why Is It Important?
+
+Stoicism offers a practical response to suffering and uncertainty in life. It teaches us that it’s not events that disturb us, but our judgments about them. For example, we don’t get sad just because bad things happen, but because *unexpected* bad things happen. Expecting misfortune makes it easier to endure.
+
+TIP: *Stoicism teaches us to imagine the worst-case scenario — and be okay with it.*
+
+This mindset doesn’t make you cold or emotionless. On the contrary, it helps you manage emotions with clarity and calm. That’s why even today, leaders and everyday people turn to Stoicism during crisis, hardship, or anxiety.
+
+== Stoicism and Equality
+
+Unlike many ancient philosophies, Stoicism was inclusive. Its teachings were shared openly, not locked in elite schools. Everyone from slaves (Epictetus) to emperors (Marcus Aurelius) practiced Stoicism.
+
+The Stoics even coined the word *cosmopolitan* — “citizen of the world” — and advocated for unity and fairness beyond class or gender.
+
+NOTE: Musonius Rufus, a Stoic teacher, wrote: +
+*“It is not men alone who possess eagerness and a natural inclination towards virtue, but women also.”*
+
+== Stoicism in Modern Life
+
+Stoicism's relevance today is stronger than ever:
+
+- *Psychology*: Stoic ideas are foundational in therapies like Rational Emotive Behavioral Therapy (REBT) and Logotherapy.
+- *Mental resilience*: Exercises like *voluntary discomfort* help build grit.
+- *Self-worth*: Stoicism warns against chasing happiness through material success or external validation.
+
+WARNING: *If your happiness depends on things outside your control — money, status, relationships — you're setting yourself up for disappointment.*
+
+Instead, Stoicism urges you to root your identity and joy in what you *do*, not what you *get*.
+
+== Final Thought: Reframing Your Life
+
+Think of a man denied a promotion. A Stoic doesn’t judge himself by the decision of his boss, but by the quality of the work he delivered. His value remains intact — the outcome was out of his control. As long as he did his best, he has succeeded.
+
+TIP: *“Between stimulus and response, there is a space. In that space is our power to choose our response.”* — Viktor Frankl
+
+Just as Zeno did when his ship sank, we can learn to accept life’s storms and sail through them with dignity. Even if the ship sinks, we can take comfort in having lived well — that is the way of the Stoic.
