@@ -1,6 +1,6 @@
 = Logic
 Cpt. Lugaru (CaptainLugaru) <72951616+CaptainLugaru@users.noreply.github.com>
-v1.1, tuesday, May 27, 2025
+v1.1, Tuesday, May 27, 2025
 :description: Learning what is Stoicism
 :sectnums:
 :sectanchors:
@@ -27,7 +27,7 @@ ifdef::env-name[:relfilesuffix: .adoc]
 Mathematical logic is a subfield of mathematics exploring formal systems in relation to the way we reason. It provides tools to analyze the structure of arguments, statements, and proofs.
 
 [#_propositions_and_logical_connectives]
-=== Propositions and Logical Connectives in mathematical logic
+=== Propositions and Logical Connectives in Mathematical Logic
 
 [cols="1,1,2,2", options="header"]
 |===
@@ -39,11 +39,15 @@ Mathematical logic is a subfield of mathematics exploring formal systems in rela
 | →      | Implication   | P → Q             | "Whenever P then Q"
 | ↔      | Biconditional | P ↔ Q             | "P if and only if Q" (iff)
 |===
+
 == Propositional Logic
-=== what is propositional calculus
+
+=== What is Propositional Calculus?
+
 The propositional calculus is a branch of logic. It is also called propositional logic.
 
 === What is a Proposition?
+
 Mathematical logic is also the study of truths in mathematical statements. These are called propositions — a claim that is either true or false.
 
 Example of a proposition: `2 + 2 = 4`
@@ -55,165 +59,156 @@ These are some standard notations for propositional logic.
 
 [cols="1,2,2,4", options="header"]
 |===
-| Logical Operation | Name                  | Common Notations                                                                 | Explanation
+| Logical Operation | Name          | Common Notations                                  | Explanation
 
-| AND               | Conjunction           | `A ∧ B`, `A · B`, `AB`, `A & B`, `A && B`                                        | True if *both* A and B are true.
-| OR                | Disjunction           | `A ∨ B`, `A + B`, `A ∣ B`, `A ∥ B`                                               | True if *at least one* of A or B is true.
-| NOT               | Negation              | `¬A`, `−A`, `Ā`, `~A`                                                            | True if A is false. Negates A.
-| IMPLIES           | Implication           | `A → B`, `A ⇒ B`, `A ⊃ B`                                                        | "If A then B". False only when A is true and B is false.
-| EQUIVALENT        | Biconditional         | `A ≡ B`, `A ⇔ B`, `A ⇋ B`                                                        | True if A and B have the *same truth value*.
-| XOR               | Exclusive OR          | `A ⊕ B`, `A ⊽ B`, `A ⩒̅ B`, `A ⊻ B`, sometimes written `A XOR B`                 | True if *exactly one* of A or B is true, not both.
-| XNOR              | Exclusive NOR         | `A ⊙ B`, sometimes `¬(A ⊕ B)` or `A ≡ B`                                         | True if *both A and B are equal* (either both true or both false).
-| NAND              | Not AND               | `¬(A ∧ B)`, `A ∧̅ B`, `Ā · B̄`                                                   | True unless *both* A and B are true.
-| NOR               | Not OR                | `A ∨̅ B`, `A ↓ B`, `¬(A ∨ B)`, `Ā + B̄`                                          | True if *neither* A nor B is true.
-| NONEQUIVALENT     | Negated Biconditional | `A ≢ B`, `A ⇎ B`, `A ↮ B`                                                        | True if A and B have *different truth values*.
-
-
+| AND               | Conjunction   | `A ∧ B`, `A · B`, `AB`, `A & B`, `A && B`         | True if *both* A and B are true.
+| OR                | Disjunction   | `A ∨ B`, `A + B`, `A ∣ B`, `A ∥ B`                | True if *at least one* of A or B is true.
+| NOT               | Negation      | `¬A`, `−A`, `Ā`, `~A`                             | True if A is false. Negates A.
+| IMPLIES           | Implication   | `A → B`, `A ⇒ B`, `A ⊃ B`                         | "If A then B". False only when A is true and B is false.
+| EQUIVALENT        | Biconditional | `A ≡ B`, `A ⇔ B`, `A ⇋ B`                         | True if A and B have the *same truth value*.
+| XOR               | Exclusive OR  | `A ⊕ B`, `A ⊽ B`, `A ⩒̅ B`, `A ⊻ B`, `A XOR B`     | True if *exactly one* of A or B is true, not both.
+| XNOR              | Exclusive NOR | `A ⊙ B`, `¬(A ⊕ B)`, `A ≡ B`                      | True if *both A and B are equal* (either both true or both false).
+| NAND              | Not AND       | `¬(A ∧ B)`, `A ∧̅ B`, `Ā · B̄`                    | True unless *both* A and B are true.
+| NOR               | Not OR        | `A ∨̅ B`, `A ↓ B`, `¬(A ∨ B)`, `Ā + B̄`           | True if *neither* A nor B is true.
+| NONEQUIVALENT     | Neg. Bicond.  | `A ≢ B`, `A ⇎ B`, `A ↮ B`                         | True if A and B have *different truth values*.
 |===
+
 === Common Symbols of Math Logic Equations
 
 [cols="1,2,4", options="header"]
 |===
-| Symbol | Name                | Meaning in Mathematics
+| Symbol | Name                        | Meaning in Mathematics
 
-| ∈      | Element of          | Indicates that an element belongs to a set. Example: `3 ∈ ℕ` means 3 is an element of ℕ.
-| ℕ      | Natural Numbers     | `{0, 1, 2, 3, ...}` — the set of non-negative integers (some definitions exclude 0).
-| ℤ      | Integers            | `{..., -3, -2, -1, 0, 1, 2, 3, ...}` — includes negative and positive whole numbers.
-| ℚ      | Rational Numbers    | All numbers that can be expressed as a fraction `a/b`, where `a` and `b` are integers, `b ≠ 0`.
-| ℝ      | Real Numbers        | All rational and irrational numbers — includes decimals and roots like `√2`, `π`.
-| ℂ      | Complex Numbers     | Numbers of the form `a + bi`, where `i = √-1`. Encompasses all real and imaginary numbers.
-| ℍ      | Quaternions         | Extension of complex numbers — numbers of the form `a + bi + cj + dk`. Used in 3D modeling.
-| 𝔸 (A)  | Algebraic Numbers / Affine Space | Sometimes used for sets of algebraic numbers or affine spaces, depending on context.
+| ∈      | Element of                  | Indicates that an element belongs to a set. Example: `3 ∈ ℕ`
+| ℕ      | Natural Numbers             | `{0, 1, 2, 3, ...}`
+| ℤ      | Integers                    | `{..., -3, -2, -1, 0, 1, 2, 3, ...}`
+| ℚ      | Rational Numbers            | All numbers that can be expressed as a fraction `a/b`, where `b ≠ 0`.
+| ℝ      | Real Numbers                | All rational and irrational numbers.
+| ℂ      | Complex Numbers             | Numbers of the form `a + bi`, where `i = √-1`.
+| ℍ      | Quaternions                 | Extension of complex numbers.
+| 𝔸 (A)  | Algebraic Numbers / Affine Space | Depends on context.
 |===
 
 === Quantifiers
 
 [cols="1,2,4", options="header"]
 |===
-| Symbol | Name                  | Meaning in Mathematics
+| Symbol | Name                        | Meaning in Mathematics
 
-| ∃      | There exists (Existential Quantifier)        | Used in logic to express that *at least one* element in a set satisfies a given property. Example: `∃x ∈ ℕ, x > 5`.
-| ∀      | For all (Universal Quantifier)               | Used in logic to express that *every* element in a set satisfies a given property. Example: `∀x ∈ ℕ, x ≥ 0`.
-| ∃!     | Exists uniquely (Unique Existential Quantifier) | Used in logic to express that *exactly one* element in a set satisfies a given property.
-| ⊂      | Proper Subset of                              | A set A is a proper subset of set B (`A ⊂ B`) if all elements of A are in B, and A ≠ B.
-| ⊃      | Proper Superset of                            | A set A is a proper superset of B (`A ⊃ B`) if A contains all elements of B, and A ≠ B.
+| ∃      | Existential Quantifier      | *At least one* element satisfies the property. Example: `∃x ∈ ℕ, x > 5`
+| ∀      | Universal Quantifier        | *Every* element satisfies the property. Example: `∀x ∈ ℕ, x ≥ 0`
+| ∃!     | Unique Existential          | *Exactly one* element satisfies the property.
+| ⊂      | Proper Subset               | A ⊂ B means all elements of A are in B, and A ≠ B.
+| ⊃      | Proper Superset             | A ⊃ B means A contains all elements of B, and A ≠ B.
 |===
-== Theory of proofs
-Proof theory is a major branch of mathematical logic and theoretical computer science within which proofs are treated as formal mathematical objects, facilitating their analysis by mathematical techniques. Proofs are typically presented as inductively defined data structures such as lists, boxed lists, or trees, which are constructed according to the axioms and rules of inference of a given logical system. Consequently, proof theory is syntactic in nature, in contrast to model theory, which is semantic in nature.
 
+== Theory of Proofs
+
+Proof theory is a major branch of mathematical logic and theoretical computer science. Proofs are treated as formal mathematical objects. They are constructed according to axioms and rules of inference and are syntactic in nature, contrasting with model theory (semantic).
 
 == Deductive Reasoning
-Deductive reasoning in general is that your trying to get certainty and a guaranteed conclusion based off of the information you have.
-Deductive reasoning is the process of drawing valid inferences. An inference is valid if its conclusion follows logically from its premises, meaning that it is impossible for the premises to be true and the conclusion to be false.
-Deductive Reasoning Argument +
-Argument: +
-All birds have feathers. +
 
+Deductive reasoning seeks certainty based on given information.
+It involves drawing valid inferences, where a conclusion logically follows from premises.
+
+*Argument:*
+All birds have feathers.
 A sparrow is a bird.
-
 Therefore, a sparrow has feathers.
 
-Explanation:
-This argument starts with a universal truth (all birds have feathers), applies it to a specific case (sparrow), and arrives at a logically certain conclusion
-
+*Explanation:*
+Starts with a universal truth and applies it to a specific case, yielding a certain conclusion.
 
 == Inductive Reasoning
-Inductive reasoning refers to a variety of methods of reasoning in which the conclusion of an argument is supported not with deductive certainty, but with some degree of probability. Unlike deductive reasoning (such as mathematical induction), where the conclusion is certain, given the premises are correct, inductive reasoning produces conclusions that are at best probable,
-given the evidence provided.
 
-Inductive Reasoning Argument – Example +
-Argument:
+Inductive reasoning supports conclusions with some probability, not certainty.
+Unlike deductive reasoning, its conclusions are probable based on evidence.
+
+*Argument:*
 I ate peanuts yesterday and had no allergic reaction.
-
 I ate peanuts last week and felt fine.
-
 I’ve eaten peanuts many times with no issues.
-
 Therefore, I am probably not allergic to peanuts.
 
-Explanation:
-This reasoning draws a general conclusion based on experiences. The conclusion is likely true but not guaranteed — you could still develop an allergy in the future.
+*Explanation:*
+General conclusion based on repeated experience. Likely but not guaranteed.
 
-===
 === Types of Inductive Reasoning
-Inductive Generalization: +
-Infers general rules from specific cases. +
-E.g., Observing that 3 out of 4 sampled balls are black and generalizing the urn contains mostly black balls. +
-Strength depends on sample size and representativeness.
 
-Statistical Generalization: +
-Uses statistical sampling and margin of error. +
-E.g., 66% of a random voter sample supports Measure Z, so approx. 66% of all voters might. +
+*Inductive Generalization:*
+Infers general rules from specific cases.
+E.g., Observing that 3 out of 4 sampled balls are black → urn likely has mostly black balls.
 
-Anecdotal Generalizations: +
-Based on non-random, often personal or isolated experiences. +
-Prone to hasty generalization fallacy. +
+*Statistical Generalization:*
+Uses sampling with margin of error.
+E.g., 66% support Measure Z → ~66% of voters might.
 
-Prediction: +
-Applies patterns observed in past or present to forecast a specific future event. +
-E.g., If most apples picked from a tree were red, the next will likely be red. +
+*Anecdotal Generalizations:*
+Based on isolated/personal experience.
+Prone to hasty generalization fallacy.
 
-Statistical Syllogism: +
-Moves from general statistical truth to a probable claim about an individual. +
-E.g., 90% of Excelsior Prep graduates go to college. Bob is a graduate, so he probably will too. +
+*Prediction:*
+Forecasts a future event based on observed patterns.
+E.g., Most apples picked were red → next likely red.
 
-Argument from Analogy: +
-Infers similarities between two things will extend to a further property. +
-E.g., If two minerals share many properties, one likely shares additional traits of the other. +
+*Statistical Syllogism:*
+From general truth to individual claim.
+E.g., 90% of grads go to college → Bob probably does too.
 
-Causal Inference: +
-Tries to identify a probable causal relationship based on observed correlations. +
-Common in scientific reasoning and experimentation. +
+*Argument from Analogy:*
+If A and B are similar in X, they might also share Y.
+E.g., Two minerals share traits → one may share more.
 
-== fallacies
-A fallacy is the use of invalid or otherwise faulty reasoning in the construction of an argument[1][2] that may appear to be well-reasoned if unnoticed.
+*Causal Inference:*
+Suggests probable causal relation from correlation.
+Common in science and experimentation.
 
-=== Use of fallacies
-Fallacies may be committed intentionally to manipulate or persuade by deception, unintentionally because of human limitations such as carelessness, cognitive or social biases and ignorance, or potentially due to the limitations of language and understanding of language. These delineations include not only the ignorance of the right reasoning standard but also the ignorance of relevant properties of the context. For instance, the soundness of legal arguments depends on the context in which they are made.[4]
+== Fallacies
 
-=== types of fallacies
+A fallacy is faulty reasoning in an argument. It may appear valid if not examined carefully.
+
+=== Use of Fallacies
+
+Fallacies can be intentional (manipulation) or unintentional (bias, ignorance, language limits).
+Context affects validity, especially in areas like legal reasoning.
+
+=== Types of Fallacies
+
 ==== Formal Fallacies (Errors in Structure)
-Definition:
-A formal fallacy is a mistake in the structure or logic of a deductive argument. Even if the premises look true, the conclusion doesn't logically follow based on how the argument is built.
 
-Key Point:
-Structure is wrong.
+*Definition:*
+A mistake in structure of deductive argument. Conclusion doesn’t follow from premises.
 
-Affects only deductive arguments.
+*Key Point:*
+Affects deductive arguments.
+Known as non sequitur.
 
-Called non sequitur ("it does not follow").
-
-Example:
-Fallacy: Affirming the Consequent
-
+*Example:*
+Affirming the Consequent
 If it rains, the ground gets wet.
-
 The ground is wet.
-
 Therefore, it rained.
-(Other things can also make the ground wet, like a sprinkler.)
+(But maybe a sprinkler did it.)
 
-==== Informal Fallacies (Error in content)
-Definition:
-An informal fallacy comes from the content or context of the argument—not the structure. The argument may be logically valid, but still unconvincing or misleading.
+==== Informal Fallacies (Errors in Content)
 
-Key Point:
-Problem is with reasoning or assumptions.
+*Definition:*
+Problem arises from content/context, not form.
+Argument might be valid but unconvincing.
 
-Can apply to any kind of argument (deductive or inductive).
+*Key Point:*
+Affects both deductive and inductive reasoning.
 
-Examples of Informal Fallacies
+*Examples:*
 
-1. Hasty Generalization
-Making a broad claim based on a small or unrepresentative sample.
-Example:
-"My two neighbors are rude, so everyone in this city is rude."
+1. *Hasty Generalization*
+Broad claim from limited sample.
+E.g., “My two neighbors are rude, so everyone in this city is rude.”
 
-2. Faulty Generalization
-A category of inductive fallacies where conclusions are drawn with insufficient evidence.
-These become valid generalizations when backed by enough reliable data.
+2. *Faulty Generalization*
+Conclusion drawn with insufficient evidence.
+Becomes valid with enough reliable data.
 
-3. Post Hoc Fallacy (False Cause)
-Assuming that because one event followed another, the first caused the second.
-"I ate a mushroom and got sick, so the mushroom must be poisonous."
-(Could be a coincidence, stress, or something else.)
+3. *Post Hoc Fallacy (False Cause)*
+Assumes sequence = causation.
+E.g., “I ate a mushroom and got sick, so the mushroom must be poisonous.”
