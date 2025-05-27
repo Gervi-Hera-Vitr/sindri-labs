@@ -1,0 +1,65 @@
+= History: Stoics Of Greece
+Cpt. Lugaru (CaptainLugaru) <72951616+CaptainLugaru@users.noreply.github.com>
+v1.0, Monday, May 19, 2025
+:description: Exploratory research into the history of Stoics
+:sectnums:
+:sectanchors:
+:sectlinks:
+:icons: font
+:tip-caption: 💡️
+:note-caption: ℹ️
+:important-caption: ❗
+:caution-caption: 🔥
+:warning-caption: ⚠️
+:toc: preamble
+:toclevels: 1
+:toc-title: History of Stoics
+:keywords: Homeschool Learning Journey
+:imagesdir: ./images
+:labsdir: ./labs
+ifdef::env-name[:relfilesuffix: .adoc]
+
+== Marcus Aurelius (April 26, 121 AD – March 17, 180 AD)
+
+Marcus Aurelius was a Roman emperor and philosopher, best known for being a leading figure of Stoic philosophy. He ruled as emperor from 161 to 180 AD, and his reign is often remembered as the last phase of the *Pax Romana* — a long period of relative peace and stability across the Roman Empire.
+
+He is widely considered to be one of the most intelligent Roman emperors and is the author of *Meditations*, a collection of philosophical Stoic teachings.
+
+Marcus emphasized virtues such as self-control, rationality, duty, and endurance in the face of hardship. He believed in accepting fate and maintaining inner peace regardless of external circumstances.
+
+=== Beliefs
+
+1. **Don't Procrastinate** +
+_“You could be good today. But instead, you choose tomorrow.”_ – Marcus Aurelius
+
+2. **Wake Up Early** +
+_"At dawn, when you have trouble getting out of bed, tell yourself: I have to go to work as a human being."_ – Marcus Aurelius, *Meditations* Book 5
+
+3. **Don't Overthink It** +
+_“Waste no more time arguing what a good man should be. Be one.”_ – Marcus Aurelius
+
+== Lucius Annaeus Seneca (4 BC – 65 AD)
+
+Lucius Annaeus Seneca (c. 4 BCE – 65 CE) was a Roman Stoic philosopher, writer, and statesman, best known for his essays, letters, and tragedies that offer timeless guidance on ethics, self-control, and the nature of human life.
+
+He was born in modern-day Spain and educated in Rome. Seneca served as Emperor Nero's advisor and is considered one of the most influential Stoic philosophers of all time.
+
+=== Beliefs
+
+1. **Habits and Routines** +
+_“Life without design is erratic.”_ — Seneca
+
+2. **Treat the Body Rigorously** +
+_“We treat the body rigorously so that it is not disobedient to the mind.”_ — Seneca
+
+3. **Work on Yourself a Little Each Day** +
+_“Each day, acquire something that will fortify you against poverty, death, or misfortune.”_ — Seneca, *Letters to Lucilius*
+**
+4. **Go to Sleep and Get Good Rest** +
+_“Eventually, the mind will break as surely as the anvil breaks the hammer.”_ — Seneca
+
+5. **Premeditatio Malorum (Negative Visualization)** +
+_“The unexpected blow lands heaviest.”_ — Seneca
+
+6. **Memento Mori (Remember Death)** +
+_“You will not live forever. Remember death.”_ — A core Stoic theme
