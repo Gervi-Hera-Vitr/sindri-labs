@@ -1,0 +1,219 @@
+= Logic
+Cpt. Lugaru (CaptainLugaru) <72951616+CaptainLugaru@users.noreply.github.com>
+v1.1, tuesday, May 27, 2025
+:description: Learning what is Stoicism
+:sectnums:
+:sectanchors:
+:sectlinks:
+:icons: font
+:tip-caption: TIP:
+:note-caption: NOTE:
+:important-caption: ❗
+:caution-caption: 🔥
+:warning-caption: WARNING:
+:toc: preamble
+:toclevels: 1
+:toc-title: What is Stoicism
+:keywords: Homeschool Learning Journey, Philosophy, Virtue, Mental Resilience
+:imagesdir: ./images
+:labsdir: ./labs
+
+ifdef::env-name[:relfilesuffix: .adoc]
+
+== Mathematical Logic
+
+=== What is Mathematical Logic?
+
+Mathematical logic is a subfield of mathematics exploring formal systems in relation to the way we reason. It provides tools to analyze the structure of arguments, statements, and proofs.
+
+[#_propositions_and_logical_connectives]
+=== Propositions and Logical Connectives in mathematical logic
+
+[cols="1,1,2,2", options="header"]
+|===
+| Symbol | Name          | Operation Example | Meaning
+
+| ¬      | Negation      | ¬P                | "not P"
+| ∧      | Conjunction   | P ∧ Q             | "P and Q"
+| ∨      | Disjunction   | P ∨ Q             | "P or Q" (inclusive)
+| →      | Implication   | P → Q             | "Whenever P then Q"
+| ↔      | Biconditional | P ↔ Q             | "P if and only if Q" (iff)
+|===
+== Propositional Logic
+=== what is propositional calculus
+The propositional calculus is a branch of logic. It is also called propositional logic.
+
+=== What is a Proposition?
+Mathematical logic is also the study of truths in mathematical statements. These are called propositions — a claim that is either true or false.
+
+Example of a proposition: `2 + 2 = 4`
+This can only be either true or false.
+
+== Notational Variants of Connectives
+
+These are some standard notations for propositional logic.
+
+[cols="1,2,2,4", options="header"]
+|===
+| Logical Operation | Name                  | Common Notations                                                                 | Explanation
+
+| AND               | Conjunction           | `A ∧ B`, `A · B`, `AB`, `A & B`, `A && B`                                        | True if *both* A and B are true.
+| OR                | Disjunction           | `A ∨ B`, `A + B`, `A ∣ B`, `A ∥ B`                                               | True if *at least one* of A or B is true.
+| NOT               | Negation              | `¬A`, `−A`, `Ā`, `~A`                                                            | True if A is false. Negates A.
+| IMPLIES           | Implication           | `A → B`, `A ⇒ B`, `A ⊃ B`                                                        | "If A then B". False only when A is true and B is false.
+| EQUIVALENT        | Biconditional         | `A ≡ B`, `A ⇔ B`, `A ⇋ B`                                                        | True if A and B have the *same truth value*.
+| XOR               | Exclusive OR          | `A ⊕ B`, `A ⊽ B`, `A ⩒̅ B`, `A ⊻ B`, sometimes written `A XOR B`                 | True if *exactly one* of A or B is true, not both.
+| XNOR              | Exclusive NOR         | `A ⊙ B`, sometimes `¬(A ⊕ B)` or `A ≡ B`                                         | True if *both A and B are equal* (either both true or both false).
+| NAND              | Not AND               | `¬(A ∧ B)`, `A ∧̅ B`, `Ā · B̄`                                                   | True unless *both* A and B are true.
+| NOR               | Not OR                | `A ∨̅ B`, `A ↓ B`, `¬(A ∨ B)`, `Ā + B̄`                                          | True if *neither* A nor B is true.
+| NONEQUIVALENT     | Negated Biconditional | `A ≢ B`, `A ⇎ B`, `A ↮ B`                                                        | True if A and B have *different truth values*.
+
+
+|===
+=== Common Symbols of Math Logic Equations
+
+[cols="1,2,4", options="header"]
+|===
+| Symbol | Name                | Meaning in Mathematics
+
+| ∈      | Element of          | Indicates that an element belongs to a set. Example: `3 ∈ ℕ` means 3 is an element of ℕ.
+| ℕ      | Natural Numbers     | `{0, 1, 2, 3, ...}` — the set of non-negative integers (some definitions exclude 0).
+| ℤ      | Integers            | `{..., -3, -2, -1, 0, 1, 2, 3, ...}` — includes negative and positive whole numbers.
+| ℚ      | Rational Numbers    | All numbers that can be expressed as a fraction `a/b`, where `a` and `b` are integers, `b ≠ 0`.
+| ℝ      | Real Numbers        | All rational and irrational numbers — includes decimals and roots like `√2`, `π`.
+| ℂ      | Complex Numbers     | Numbers of the form `a + bi`, where `i = √-1`. Encompasses all real and imaginary numbers.
+| ℍ      | Quaternions         | Extension of complex numbers — numbers of the form `a + bi + cj + dk`. Used in 3D modeling.
+| 𝔸 (A)  | Algebraic Numbers / Affine Space | Sometimes used for sets of algebraic numbers or affine spaces, depending on context.
+|===
+
+=== Quantifiers
+
+[cols="1,2,4", options="header"]
+|===
+| Symbol | Name                  | Meaning in Mathematics
+
+| ∃      | There exists (Existential Quantifier)        | Used in logic to express that *at least one* element in a set satisfies a given property. Example: `∃x ∈ ℕ, x > 5`.
+| ∀      | For all (Universal Quantifier)               | Used in logic to express that *every* element in a set satisfies a given property. Example: `∀x ∈ ℕ, x ≥ 0`.
+| ∃!     | Exists uniquely (Unique Existential Quantifier) | Used in logic to express that *exactly one* element in a set satisfies a given property.
+| ⊂      | Proper Subset of                              | A set A is a proper subset of set B (`A ⊂ B`) if all elements of A are in B, and A ≠ B.
+| ⊃      | Proper Superset of                            | A set A is a proper superset of B (`A ⊃ B`) if A contains all elements of B, and A ≠ B.
+|===
+== Theory of proofs
+Proof theory is a major branch of mathematical logic and theoretical computer science within which proofs are treated as formal mathematical objects, facilitating their analysis by mathematical techniques. Proofs are typically presented as inductively defined data structures such as lists, boxed lists, or trees, which are constructed according to the axioms and rules of inference of a given logical system. Consequently, proof theory is syntactic in nature, in contrast to model theory, which is semantic in nature.
+
+
+== Deductive Reasoning
+Deductive reasoning in general is that your trying to get certainty and a guaranteed conclusion based off of the information you have.
+Deductive reasoning is the process of drawing valid inferences. An inference is valid if its conclusion follows logically from its premises, meaning that it is impossible for the premises to be true and the conclusion to be false.
+Deductive Reasoning Argument +
+Argument: +
+All birds have feathers. +
+
+A sparrow is a bird.
+
+Therefore, a sparrow has feathers.
+
+Explanation:
+This argument starts with a universal truth (all birds have feathers), applies it to a specific case (sparrow), and arrives at a logically certain conclusion
+
+
+== Inductive Reasoning
+Inductive reasoning refers to a variety of methods of reasoning in which the conclusion of an argument is supported not with deductive certainty, but with some degree of probability. Unlike deductive reasoning (such as mathematical induction), where the conclusion is certain, given the premises are correct, inductive reasoning produces conclusions that are at best probable,
+given the evidence provided.
+
+Inductive Reasoning Argument – Example +
+Argument:
+I ate peanuts yesterday and had no allergic reaction.
+
+I ate peanuts last week and felt fine.
+
+I’ve eaten peanuts many times with no issues.
+
+Therefore, I am probably not allergic to peanuts.
+
+Explanation:
+This reasoning draws a general conclusion based on experiences. The conclusion is likely true but not guaranteed — you could still develop an allergy in the future.
+
+===
+=== Types of Inductive Reasoning
+Inductive Generalization: +
+Infers general rules from specific cases. +
+E.g., Observing that 3 out of 4 sampled balls are black and generalizing the urn contains mostly black balls. +
+Strength depends on sample size and representativeness.
+
+Statistical Generalization: +
+Uses statistical sampling and margin of error. +
+E.g., 66% of a random voter sample supports Measure Z, so approx. 66% of all voters might. +
+
+Anecdotal Generalizations: +
+Based on non-random, often personal or isolated experiences. +
+Prone to hasty generalization fallacy. +
+
+Prediction: +
+Applies patterns observed in past or present to forecast a specific future event. +
+E.g., If most apples picked from a tree were red, the next will likely be red. +
+
+Statistical Syllogism: +
+Moves from general statistical truth to a probable claim about an individual. +
+E.g., 90% of Excelsior Prep graduates go to college. Bob is a graduate, so he probably will too. +
+
+Argument from Analogy: +
+Infers similarities between two things will extend to a further property. +
+E.g., If two minerals share many properties, one likely shares additional traits of the other. +
+
+Causal Inference: +
+Tries to identify a probable causal relationship based on observed correlations. +
+Common in scientific reasoning and experimentation. +
+
+== fallacies
+A fallacy is the use of invalid or otherwise faulty reasoning in the construction of an argument[1][2] that may appear to be well-reasoned if unnoticed.
+
+=== Use of fallacies
+Fallacies may be committed intentionally to manipulate or persuade by deception, unintentionally because of human limitations such as carelessness, cognitive or social biases and ignorance, or potentially due to the limitations of language and understanding of language. These delineations include not only the ignorance of the right reasoning standard but also the ignorance of relevant properties of the context. For instance, the soundness of legal arguments depends on the context in which they are made.[4]
+
+=== types of fallacies
+==== Formal Fallacies (Errors in Structure)
+Definition:
+A formal fallacy is a mistake in the structure or logic of a deductive argument. Even if the premises look true, the conclusion doesn't logically follow based on how the argument is built.
+
+Key Point:
+Structure is wrong.
+
+Affects only deductive arguments.
+
+Called non sequitur ("it does not follow").
+
+Example:
+Fallacy: Affirming the Consequent
+
+If it rains, the ground gets wet.
+
+The ground is wet.
+
+Therefore, it rained.
+(Other things can also make the ground wet, like a sprinkler.)
+
+==== Informal Fallacies (Error in content)
+Definition:
+An informal fallacy comes from the content or context of the argument—not the structure. The argument may be logically valid, but still unconvincing or misleading.
+
+Key Point:
+Problem is with reasoning or assumptions.
+
+Can apply to any kind of argument (deductive or inductive).
+
+Examples of Informal Fallacies
+
+1. Hasty Generalization
+Making a broad claim based on a small or unrepresentative sample.
+Example:
+"My two neighbors are rude, so everyone in this city is rude."
+
+2. Faulty Generalization
+A category of inductive fallacies where conclusions are drawn with insufficient evidence.
+These become valid generalizations when backed by enough reliable data.
+
+3. Post Hoc Fallacy (False Cause)
+Assuming that because one event followed another, the first caused the second.
+"I ate a mushroom and got sick, so the mushroom must be poisonous."
+(Could be a coincidence, stress, or something else.)
