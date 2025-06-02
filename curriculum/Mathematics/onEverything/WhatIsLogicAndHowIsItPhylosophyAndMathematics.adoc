@@ -1,0 +1,587 @@
+= Logic
+Cpt. Lugaru (CaptainLugaru) <72951616+CaptainLugaru@users.noreply.github.com>
+v1.1, Tuesday, May 27, 2025
+:description: Learning what is Stoicism
+:sectnums:
+:sectanchors:
+:sectlinks:
+:icons: font
+:tip-caption: TIP:
+:note-caption: NOTE:
+:important-caption: ❗
+:caution-caption: 🔥
+:warning-caption: WARNING:
+:toc: preamble
+:toclevels: 1
+:toc-title: What is Stoicism
+:keywords: Homeschool Learning Journey, Philosophy, Virtue, Mental Resilience
+:imagesdir: ./images
+:labsdir: ./labs
+
+ifdef::env-name[:relfilesuffix: .adoc]
+
+== Mathematical Logic
+
+=== What is Mathematical Logic?
+
+Mathematical logic:: is a subfield of mathematics exploring formal systems in relation to the way we reason. It provides tools to analyze the structure of arguments, statements, and proofs.
+
+Major subareas::  include model theory, proof theory, set theory, and recursion theory (also known as computability theory). Research in mathematical logic commonly addresses the mathematical properties of formal systems of logic such as their expressive or deductive power. However, it can also include uses of logic to characterize correct mathematical reasoning or to establish foundations of mathematics.
+
+
+
+[#_propositions_and_logical_connectives]
+=== Propositions and Logical Connectives in Mathematical Logic
+
+[cols="1,1,2,2", options="header"]
+|===
+| Symbol | Name          | Operation Example | Meaning
+
+| ¬      | Negation      | ¬P                | "not P"
+| ∧      | Conjunction   | P ∧ Q             | "P and Q"
+| ∨      | Disjunction   | P ∨ Q             | "P or Q" (inclusive)
+| →      | Implication   | P → Q             | "Whenever P then Q"
+| ↔      | Biconditional | P ↔ Q             | "P if and only if Q" (iff)
+|===
+
+== Propositional Logic
+
+=== What is Propositional Calculus?
+
+Propositional calculus:: is a branch of logic. It is also called propositional logic.
+
+
+Mathematical logic is also the study of truths in mathematical statements. These are called propositions — a claim that is either true or false. A mix of these create propositional logic.
+
+Example of a proposition: `2 + 2 = 4`
+This can only be either true or false.
+
+=== Notational Variants of Connectives in propositional calculus
+
+These are some standard notations for propositional logic.
+
+[cols="1,2,2,4", options="header"]
+|===
+| Logical Operation | Name          | Common Notations                                  | Explanation
+
+| AND               | Conjunction   | `A ∧ B`, `A · B`, `AB`, `A & B`, `A && B`         | True if *both* A and B are true.
+| OR                | Disjunction   | `A ∨ B`, `A + B`, `A ∣ B`, `A ∥ B`                | True if *at least one* of A or B is true.
+| NOT               | Negation      | `¬A`, `−A`, `Ā`, `~A`                             | True if A is false. Negates A.
+| IMPLIES           | Implication   | `A → B`, `A ⇒ B`, `A ⊃ B`                         | "If A then B". False only when A is true and B is false.
+| EQUIVALENT        | Biconditional | `A ≡ B`, `A ⇔ B`, `A ⇋ B`                         | True if A and B have the *same truth value*.
+| XOR               | Exclusive OR  | `A ⊕ B`, `A ⊽ B`, `A ⩒̅ B`, `A ⊻ B`, `A XOR B`     | True if *exactly one* of A or B is true, not both.
+| XNOR              | Exclusive NOR | `A ⊙ B`, `¬(A ⊕ B)`, `A ≡ B`                      | True if *both A and B are equal* (either both true or both false).
+| NAND              | Not AND       | `¬(A ∧ B)`, `A ∧̅ B`, `Ā · B̄`                    | True unless *both* A and B are true.
+| NOR               | Not OR        | `A ∨̅ B`, `A ↓ B`, `¬(A ∨ B)`, `Ā + B̄`           | True if *neither* A nor B is true.
+| NONEQUIVALENT     | Neg. Bicond.  | `A ≢ B`, `A ⇎ B`, `A ↮ B`                         | True if A and B have *different truth values*.
+|===
+
+=== Common Symbols of Math Logic Equations
+
+[cols="1,2,4", options="header"]
+|===
+| Symbol | Name                        | Meaning in Mathematics
+
+| ∈      | Element of                  | Indicates that an element belongs to a set. Example: `3 ∈ ℕ`
+| ℕ      | Natural Numbers             | `{0, 1, 2, 3, ...}`
+| ℤ      | Integers                    | `{..., -3, -2, -1, 0, 1, 2, 3, ...}`
+| ℚ      | Rational Numbers            | All numbers that can be expressed as a fraction `a/b`, where `b ≠ 0`.
+| ℝ      | Real Numbers                | All rational and irrational numbers.
+| ℂ      | Complex Numbers             | Numbers of the form `a + bi`, where `i = √-1`.
+| ℍ      | Quaternions                 | Extension of complex numbers.
+| 𝔸 (A)  | Algebraic Numbers / Affine Space | Depends on context.
+|===
+
+=== Quantifiers
+
+[cols="1,2,4", options="header"]
+|===
+| Symbol | Name                        | Meaning in Mathematics
+
+| ∃      | Existential Quantifier      | *At least one* element satisfies the property. Example: `∃x ∈ ℕ, x > 5`
+| ∀      | Universal Quantifier        | *Every* element satisfies the property. Example: `∀x ∈ ℕ, x ≥ 0`
+| ∃!     | Unique Existential          | *Exactly one* element satisfies the property.
+| ⊂      | Proper Subset               | A ⊂ B means all elements of A are in B, and A ≠ B.
+| ⊃      | Proper Superset             | A ⊃ B means A contains all elements of B, and A ≠ B.
+|===
+
+== Fallacies
+
+=== mathimatical Fallacies
+A special case is a mathematical fallacy, an intentionally invalid mathematical proof with a concealed, or subtle, error. Mathematical fallacies are typically crafted and exhibited for educational purposes, usually taking the form of false proofs of obvious contradictions.[6]
+
+=== what are Fallacies?
+Fallacies:: are mistakes in arguments and logic, making them illogical. Most people have unsubstantiated assertions that are often delivered with a conviction that makes them sound as though they are proven facts when saying a Fallacies. Informal fallacies, in particular, are frequently found in mass media such as television and newspapers. Understanding fallacies may allow one to recognize them in either one's own or others' writing. Avoiding fallacies may help improve one's ability to produce sound arguments.
+
+=== Fallacies in the everyday
+
+TIP: Fallacies are used to manipulate people and come from Bias.
+
+Recognizing fallacies:: in everyday arguments may be difficult since arguments are often embedded in rhetorical patterns that obscure the logical connections between statements. Informal fallacies may also exploit the emotional, intellectual, or psychological weaknesses of the audience. Recognizing fallacies can develop reasoning skills to expose the weaker links between premises and conclusions to better discern between what appears to be true and what is true.
+
+
+Fallacies are used in place of valid reasoning to communicate a point with the intention to persuade. Examples in the mass media today include but are not limited to propaganda, advertisements, politics, newspaper editorials, and opinion-based news shows.[15]
+
+
+
+
+=== Types of Fallacies
+
+==== Formal Fallacies (Errors in Structure)
+
+*Definition:*
+A mistake in structure of deductive argument. Conclusion doesn’t follow from premises.
+
+*Key Point:*
+Affects deductive arguments.
+Known as non sequitur.
+
+*Example:*
+Affirming the Consequent
+If it rains, the ground gets wet.
+The ground is wet.
+Therefore, it rained.
+(But maybe a sprinkler did it.)
+
+==== Informal Fallacies (Errors in Content)
+
+*Definition:*
+Problem arises from content/context, not form.
+Argument might be valid but unconvincing.
+
+*Key Point:*
+Affects both deductive and inductive reasoning.
+
+*Examples:*
+
+1. *Hasty Generalization*
+Broad claim from limited sample.
+E.g., “My two neighbors are rude, so everyone in this city is rude.”
+
+2. *Faulty Generalization*
+Conclusion drawn with insufficient evidence.
+Becomes valid with enough reliable data.
+
+3. *Post Hoc Fallacy (False Cause)*
+Assumes sequence = causation.
+E.g., “I ate a mushroom and got sick, so the mushroom must be poisonous.”
+
+== Logic(finally)
+Definitions:
+
+. reasoning conducted or assessed according to strict principles of validity.
+
+. reaching a reasonable conclusion by adequately analyzing facts
+
+=== Logic
+==== Logic's Definition
+
+Logic is the study of correct reasoning.
+
+==== Formal and Informal
+ Formal logic:: is the study of deductively valid inferences or logical truths. It examines how conclusions follow from premises based on the structure of arguments alone, independent of their topic and content.
+
+Informal logic:: is associated with informal fallacies, critical thinking, and argumentation theory. Informal logic examines arguments expressed in natural language whereas formal logic uses formal language. When used as a countable noun, the term "a logic" refers to a specific logical formal system that articulates a proof system. Logic plays a central role in many fields, such as philosophy, mathematics, computer science, and linguistics.
+
+==== Basic concepts
+Premises, conclusions, and truth::
+Premises and conclusions are the main parts of inferences or arguments and are central to logic. In a valid inference or correct argument, the conclusion follows from the premises—meaning the premises support the conclusion. For example, the premises "Mars is red" and "Mars is a planet" support the conclusion "Mars is a red planet." In most logic systems, both premises and conclusions are truth-bearers, meaning they have a truth value (true or false). Today, philosophers usually see them as either propositions.
+
+
+==== Internal structure
+Premises and conclusions:: Premises and conclusions have internal structure. As propositions or sentences, they can be simple or complex. A complex proposition is made of smaller propositions linked by words like “and” or “if...then.” A simple proposition doesn’t contain smaller propositions but still has structure. It includes sub propositional parts, such as singular terms and predicates. For example, in “Mars is red,” the predicate “red” is applied to the singular term “Mars.” In contrast, “Mars is red and Venus is white” is a complex proposition made of two simple ones connected by “and.”
+
+=== Overall Structure
+==== 1. Syllogism (Deductive Structure)
+Form: Major Premise + Minor Premise → Conclusion
+
+Example:
+All humans are mortal.
+Socrates is a human.
+Therefore, Socrates is mortal.
+
+Use: Classic in deductive logic, especially in formal and categorical reasoning.
+
+==== 2. Hypothetical Syllogism
+Form: If A → B, and B → C, then A → C
+
+Example:
+If it rains, the ground gets wet.
+If the ground gets wet, the game is canceled.
+Therefore, if it rains, the game is canceled.
+
+Use: In chain-like conditional reasoning.
+
+==== 3. Disjunctive Syllogism
+Form: A or B, Not A → Therefore, B
+
+Example:
+Either it’s raining or it's snowing.
+It’s not raining.
+Therefore, it’s snowing.
+
+Use: To eliminate possibilities and arrive at a conclusion.
+
+==== 4. Modus Ponens (Affirming the Antecedent)
+Form: If A → B, A → Therefore, B
+
+Example:
+If the alarm is set, it will ring.
+The alarm is set.
+Therefore, it will ring.
+
+Use: Very common in formal logic and everyday reasoning.
+
+==== 5. Modus Tollens (Denying the Consequent)
+Form: If A → B, Not B → Therefore, Not A
+
+Example:
+If the light is on, the room is bright.
+The room is not bright.
+Therefore, the light is not on.
+
+Use: Valid way to refute a cause or claim.
+
+==== 6. Constructive Dilemma
+Form: (If A → B) and (If C → D), A or C → Therefore, B or D
+
+Example:
+If we go by car, we’ll be early.
+If we go by bus, we’ll be late.
+We’ll go by car or bus.
+Therefore, we’ll be early or late.
+
+Use: Handling multiple conditional scenarios.
+
+==== 7. Inductive Generalization
+Form: Specific examples → General conclusion
+
+Example:
+Swan 1 is white, Swan 2 is white, Swan 3 is white...
+Therefore, all swans are white.
+
+Use: Common in science and everyday reasoning, but not always logically certain.
+
+==== 8. Abductive Reasoning (Inference to the Best Explanation)
+Form: A is observed, B would explain A well → Therefore, B is likely true
+
+Example:
+The grass is wet.
+It probably rained last night.
+Therefore, it rained.
+
+Use: Common in diagnostic reasoning (e.g., medicine, detective work).
+
+=== Logical reasoning
+Logical reasoning is a mental activity that aims to arrive at a conclusion in a rigorous way. It happens in the form of inferences or arguments by starting from a set of premises and reasoning to a conclusion supported by these premises. The premises and the conclusion are propositions, i.e. true or false claims about what is the case. Together, they form an argument. Logical reasoning is norm-governed in the sense that it aims to formulate correct arguments that any rational person would find convincing. The main discipline studying logical reasoning is logic.
+
+==== Basic concepts
+Logical Reasoning: Key Concepts
+Logical reasoning involves drawing a conclusion from a set of premises. Both are usually understood as propositions, which are statements that can be true or false. For example, “The water is boiling” is a proposition, but “Boil the water!” or “Is the water boiling?” are not, since they aren't true or false.
+
+The starting propositions in reasoning are the premises, and the statement that follows from them is the conclusion.
+Example:
+“All puppies are dogs” and “All dogs are animals” are premises.
+“Therefore, all puppies are animals” is the conclusion.
+
+A set of premises plus a conclusion forms an argument.
+The inference is the mental step that moves from premises to conclusion.
+In logic, "argument" and "inference" are often used to mean the same thing.
+
+The goal of an argument is to give reasons to believe something. Not all arguments state every premise—some are implicit, especially if they seem obvious or are based on common sense.
+
+Some arguments are simple, while others are complex, meaning they contain sub-arguments. In a complex argument, each conclusion can serve as a premise for the next step. For the whole chain to work, each link must be successful.
+
+An argument is correct if its premises support the conclusion. If the premises are true, they should make the conclusion more likely to be true.
+Arguments come in two main forms:
+
+Deductive: The strongest type—if the premises are true, the conclusion must be true.
+
+Non-deductive: Weaker, but still reasonable. They increase the likelihood of the conclusion rather than guaranteeing it.
+
+A strong deductive (or nearly deductive) argument is often called a proof.
+
+Incorrect arguments that fail to support their conclusions are called fallacies.
+Note: An argument can be fallacious even if its conclusion happens to be correct.
+
+=== Types of reasoning
+
+=== Deductive Reasoning
+Deductive reasoning is a logical process where conclusions are drawn from a set of premises that are assumed to be true. If the premises are valid, the conclusion must also be valid. This method guarantees the truth of the conclusion if the reasoning is correctly structured.
+
+Argument:
+All birds have feathers.
+A sparrow is a bird.
+Therefore, a sparrow has feathers.
+
+Explanation:
+This is a top-down approach. It begins with a general principle (all birds have feathers) and applies it to a specific instance (a sparrow). The conclusion is logically certain because it strictly follows from the premises. Deductive arguments are often found in mathematics and formal logic, where absolute certainty is essential.
+
+=== Inductive Reasoning
+Inductive reasoning works by observing patterns or repeated experiences and then generalizing a conclusion. The conclusion is probable but not guaranteed—it can be overturned by new evidence.
+
+Argument:
+I ate peanuts yesterday and had no allergic reaction.
+I ate peanuts last week and felt fine.
+I’ve eaten peanuts many times with no issues.
+Therefore, I am probably not allergic to peanuts.
+
+Explanation:
+This is a bottom-up approach. It starts with specific observations and infers a general rule. Inductive reasoning is commonly used in scientific investigations, where conclusions are drawn from experiments and data. However, it always carries some degree of uncertainty because exceptions may exist.
+
+=== Abductive Reasoning
+Abductive reasoning is used to infer the most likely explanation for an observation. It is less strict than deduction and less data-driven than induction. It’s often used in situations where information is incomplete, such as diagnostic reasoning or forming hypotheses.
+
+Argument:
+The streets are wet.
+Therefore, it probably rained.
+
+Explanation:
+There could be many possible causes for the streets being wet (sprinklers, tsunami, broken water main), but rain is the most plausible explanation based on common experience. Abductive reasoning is sometimes referred to as “inference to the best explanation.” It is commonly used in medicine, detective work, and everyday life where we reason backward from effect to cause. The conclusion is plausible, not certain.
+
+=== Types of Inductive Reasoning
+
+*Inductive Generalization:*
+Infers general rules from specific cases.
+E.g., Observing that 3 out of 4 sampled balls are black → urn likely has mostly black balls.
+
+*Statistical Generalization:*
+Uses sampling with margin of error.
+E.g., 66% support Measure Z → ~66% of voters might.
+
+*Anecdotal Generalizations:*
+Based on isolated/personal experience.
+Prone to hasty generalization fallacy.
+
+*Prediction:*
+Forecasts a future event based on observed patterns.
+E.g., Most apples picked were red → next likely red.
+
+*Statistical Syllogism:*
+From general truth to individual claim.
+E.g., 90% of grads go to college → Bob probably does too.
+
+*Argument from Analogy:*
+If A and B are similar in X, they might also share Y.
+E.g., Two minerals share traits → one may share more.
+
+*Causal Inference:*
+Suggests probable causal relation from correlation.
+Common in science and experimentation.
+
+
+=== Analogical Reasoning
+Analogical reasoning involves comparing two entities or systems that are similar in some ways and inferring that they are likely to be similar in other ways. It’s especially useful in unfamiliar or abstract situations, where direct evidence is limited but similar known cases exist.
+
+Argument:
+Rats are similar to humans in biological makeup.
+Birth control pills affect the brain development of rats.
+Therefore, they may also affect the brain development of humans.
+
+Explanation:
+This type of reasoning draws upon structural or functional similarities between a known subject (rats) and an unknown one (humans). It is widely used in science, law, and ethics, particularly in experimental research, such as using animal models to predict human outcomes. The strength of an analogical argument depends on how closely related the two subjects are.
+
+
+
+
+=== Sematic vs Synatic logic
+==== Sematic
+In logic, the semantics of logic or formal semantics is the study of the meaning and interpretation of formal languages, formal systems, and (idealizations of) natural languages. This field seeks to provide precise mathematical models that capture the pre-theoretic notions of truth, validity, and logical consequence. While logical syntax concerns the formal rules for constructing well-formed expressions, logical semantics establishes frameworks for determining when these expressions are true and what follows from them.
+
+Example:
+Let a model assign:
+
+A = "It is raining"
+
+B = "It is cloudy"
+
+Then the formula A ∨ B is true if either it is raining or it is cloudy (or both).
+
+==== Synatic
+In logic, syntax is anything having to do with formal languages or formal systems without regard to any interpretation or meaning given to them. Syntax is concerned with the rules used for constructing, or transforming the symbols and words of a language, as contrasted with the semantics of a language which is concerned with its meaning.
+
+The symbols, formulas, systems, theorems and proofs expressed in formal languages are syntactic entities whose properties may be studied without regard to any meaning they may be given, and, in fact, need not be given any.
+
+Syntax is usually associated with the rules (or grammar) governing the composition of texts in a formal language that constitute the well-formed formulas of a formal system.
+
+In computer science, the term syntax refers to the rules governing the composition of well-formed expressions in a programming language. As in mathematical logic, it is independent of semantics and interpretation.
+
+Example:
+If we have:
+
+Axiom: A
+
+Inference Rule: If A, then A ∨ B
+
+We can syntactically derive A ∨ B without knowing what A or B actually mean.
+
+== Bias
+Bias is a disproportionate weight in favor of or against an idea or thing, usually in a way that is inaccurate, closed-minded, prejudicial, or unfair. Biases can be innate or learned. People may develop biases for or against an individual, a group, or a belief. In science and engineering, a bias is a systematic error. Statistical bias results from an unfair sampling of a population, or from an estimation process that does not give accurate results on average.
+
+=== Examples:
+
+Anchoring: This bias describes our tendency to rely heavily on the first piece of information we encounter when making decisions, like how the initial price of a used car can disproportionately influence subsequent negotiations. +
+
+Apophenia: Apophenia is the human tendency to perceive meaningful patterns in random data, such as gamblers believing they see trends in lottery numbers or roulette outcomes. +
+
+Attribution bias: This bias occurs when we evaluate the causes of our own and others' behaviors, often leading us to attribute others' actions to internal factors (like personality) while attributing our own to external circumstances. +
+
+Confirmation bias: Confirmation bias is the tendency to seek, interpret, favor, and recall information that supports our existing beliefs, even if it means ignoring contradictory evidence, as seen when people only consume news that aligns with their political views. +
+
+Framing: Framing involves presenting information in a specific way to influence how people perceive and understand reality, like political leaders carefully choosing words to promote a particular policy as the most appropriate solution. +
+
+Halo effect and horn effect: The halo effect occurs when a positive overall impression of someone or something influences our perception of their specific traits positively (e.g., finding an attractive person more intelligent), while the horn effect is the opposite, where a negative impression leads to negative judgments of other traits. +
+
+== Awareness
+Awareness:: Concept and Meaning
+In philosophy and psychology, awareness means having perception or knowledge of something. It is often linked with consciousness, but they’re not exactly the same. For example, in blindsight, a person can be aware of something without consciously seeing it.
+
+Awareness is connected to experience—the structure of what we are aware of often matches the structure of what we experience.
+
+What Is Awareness?::
+Awareness is a relative idea. It can refer to:
+
+-Internal states, like gut feelings.
+
+-External events, perceived through the senses.
+
+It’s similar to sensing something but different from observing or perceiving, which involve more direct interaction and understanding.
+
+Awareness can happen when the brain is activated in specific ways—like seeing the color red when light stimulates the retina. This idea helps us understand awareness, especially since it's hard to define it clearly or precisely.
+
+Awareness is also closely tied to consciousness. In this sense, it includes basic experiences like feelings or intuitions that come with experiencing something—this is called awareness of experience.
+
+=== Peripheral Awareness
+Peripheral awareness is the ability to process sensory information in the background of attention. For example, while reading a book, you might still notice distant voices outside without focusing on them.
+
+It includes all five senses and helps us stay alert to what’s happening around us. For instance, while walking and talking with a friend, peripheral awareness lets you stay aware of nearby cars or people, even if you're not directly paying attention.
+
+Peripheral Awareness and Cognition
+Studies suggest that peripheral awareness improves overall cognition. Enhancing peripheral awareness may also boost quality of life and productivity, though more evidence is needed.
+
+Self-Awareness
+Self-awareness means being aware of yourself—your thoughts, actions, and existence. It’s a key idea in consciousness studies.
+
+Modern systems theory, which explains how all systems follow certain rules, sees self-awareness as part of how complex living systems like humans work. Gregory Bateson described the mind as a self-organizing system, and awareness plays a vital role in that process.
+
+This theory suggests that humans not only sense the world but also reflect on themselves—thanks to our abilities like logic and curiosity.
+
+In neuroscience, efforts to explain consciousness often focus on how different brain networks create awareness. Some networks generate qualia (subjective experiences), while others become aware of those experiences, forming the basis of self-awareness.
+Being aware of one’s own awareness helps with self-regulation, or managing thoughts and behaviors.
+
+Neuroscience of Awareness
+In complex animals, neural systems control attention by filtering what reaches conscious awareness. This prevents the brain from being overwhelmed by the massive input from the central and peripheral nervous systems.
+
+Even when focused on something specific, the mind may still be aware of more in the background—thanks to a system that filters but doesn’t entirely block outside input
+
+Basic Awareness
+Basic awareness of both the internal and external world depends on the brain stem. Neuroscientist Bjorn Merker suggests that even infants with severe brain damage (hydranencephaly) can have basic, conscious-like thoughts supported by the brain stem. While higher awareness (like self-awareness) involves the cortex, primary consciousness—the ability to combine feelings and sensory input to guide behavior—comes from the brain stem.
+Psychologist Carroll Izard adds that this form of awareness allows for emotions and an understanding of surroundings, even without the ability to talk about them. This is common in pre-verbal infants, who may feel things they can’t describe.
+
+This challenges the usual medical definition of brain death as a lack of cortical activity.
+
+Basic Interests in the Brain Stem
+Within the brain stem, some regions not only control eye movement but also help plan actions like reaching for food or seeking a mate, showing that basic awareness includes purposeful behavior.
+
+Changes in Awareness
+People don’t always consciously detect a stimulus. One reason is due to baseline shifts in brain activity, influenced by top-down attention (attention coming from the brain's goals). This alters how we process new information.
+Two key processes:
+
+A baseline shift in alpha waves (linked to attention)
+
+A decision bias shown in gamma waves
+
+Living Systems View
+Biologists Humberto Maturana and Francisco Varela proposed the Santiago theory of cognition, which states:
+
+Living is a process of cognition—every organism, even without a nervous system, engages in this.
+This view suggests that cognition and perhaps even awareness are basic to all life, not just conscious beings.
+
+Awareness in Communication and Information Systems
+In cooperative settings, awareness means knowing what's happening in your environment and among others—“knowing what’s going on.” It helps individuals monitor and interact effectively, making it vital for collaboration.
+
+Awareness involves:
+
+Knowing the state of the environment
+
+Constantly updating that knowledge as the environment changes
+
+Maintaining it through interaction
+
+Supporting another activity (it’s usually not the main goal)
+
+Categories of Awareness:
+Informal awareness – knowing who’s nearby and what they’re doing
+
+Social awareness – understanding social cues (eye contact, facial expression)
+
+Group-structural awareness – knowing people’s roles and relationships in a group
+
+Workspace awareness – tracking what’s happening in a shared (often virtual) workspace
+
+These categories can overlap. Workspace awareness is especially important in digital workspaces used in CSCW (computer-supported cooperative work).
+
+Context and Location Awareness (for Systems)
+Context awareness: Information a system needs about the operational setting.
+
+Location awareness: A type of context awareness focused on tracking the position of devices or people.
+Originally about network locations, location awareness now includes mobile phones and ubiquitous computing.
+
+Covert Awareness
+Covert awareness means knowing something without realizing it. Some brain-damaged patients can’t describe objects (e.g., a pencil’s orientation), yet still process them unconsciously.
+
+In some cases, vegetative patients show no external signs of awareness but display signs of covert awareness via fMRI brain scans. When asked to imagine specific actions (like playing tennis), their brain activity showed intentional, willful responses, suggesting hidden awareness.
+
+Awareness vs. Attention
+Some scientists view awareness and attention as nearly the same; others see them as distinct. Evidence shows they have different brain mechanisms, though most research focuses on visual stimuli.
+
+
+== Arguements
+ What Is an Argument?
+An argument is a group of sentences, statements, or propositions where some are called premises and one is the conclusion. The purpose is to give reasons for believing the conclusion through justification, explanation, or persuasion.
+
+Arguments aim to show how likely or acceptable the conclusion is.
+
+Perspectives on Argumentation
+Argumentation—the process of making or presenting arguments—can be studied in three main ways:
+
+Logical – Focuses on truth, validity, and structure
+
+Dialectical – Emphasizes dialogue, opposing views, and debate
+
+Rhetorical – Centers on persuasion and audience impact
+
+Logic and Formal Arguments
+In logic, arguments are often written in a formal language (like math or programming) instead of everyday speech. Logic studies how truth is preserved from premises to conclusion using valid rules of inference. This is especially important in fields like mathematics and computer science.
+
+There are two main types of arguments:
+
+Deductive Arguments:
+Valid: If the premises are true, the conclusion must be true—even if they’re actually false in the real world.
+
+Sound: Valid and all premises are true → conclusion is guaranteed true.
+
+Inductive Arguments:
+Don’t guarantee the conclusion but support it to a certain degree.
+
+Stronger arguments make the conclusion more likely.
+
+Weaker arguments make it less likely.
+
+Other evaluation criteria include how persuasive, plausible, or useful the argument is (e.g., in transcendental or abductive reasoning).
+
+Informal vs. Formal Arguments
+Informal arguments are in natural language (ordinary speech) and used in everyday discussions. Studied by informal logic.
+
+Formal arguments use symbolic language, focusing on exact reasoning and structure. Studied in formal logic (aka symbolic or mathematical logic).
+
+Informal arguments often need to be analyzed to reveal their underlying structure—how claims, premises, and conclusions relate—because it's not always clearly laid out.
+
+Validity in Deductive Logic
+A deductive argument is:
+
+Valid if it’s impossible for all the premises to be true and the conclusion false in any possible world.
+
+Formally valid if denying the conclusion is incompatible with accepting all the premises.
+
+In short, validity is about structure, not whether the statements are actually true.
