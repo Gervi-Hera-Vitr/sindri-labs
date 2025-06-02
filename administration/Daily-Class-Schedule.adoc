@@ -1,0 +1,43 @@
+= Mímir Academy: Daily Class Schedule
+R!dd13r rdd13r <12781006+rdd13r@users.noreply.github.com>
+v1.0, Tuesday May 6th 2025
+:description: DNPE Requirements for Mímir Academy homeschooling program.
+:sectnums:
+:sectanchors:
+:sectlinks:
+:icons: font
+:tip-caption: 💡️
+:note-caption: ℹ️
+:important-caption: ❗
+:caution-caption: 🔥
+:warning-caption: ⚠️
+:toc: preamble
+:toclevels: 2
+:toc-title: Mímir Academy
+:keywords: Mímir Academy
+:imagesdir: ./assets/img
+ifdef::env-name[:relfilesuffix: .adoc]
+
+
+
+== Morning Routine
+* 6:00 - 7:00 :: Wake up, brush teeth, tidy room, set goals for the day, eat breakfast.
+
+== Study Blocks (90/20 Rule)
+* 7:00 - 8:50 :: Subject 1
+*Break: 20 minutes*
+* 8:50 - 10:40 :: Subject 2
+*Break: 20 minutes*
+* 10:40 - 12:30 :: Subject 1
+*Break: 20 minutes*
+* 12:30 - 2:20 :: Subject 2
+*Break: 20 minutes*
+* 2:20 - 4:10 :: Subject 1
+*Break: 20 minutes*
+* 4:10 - 5:40 :: Subject 2
+*End of school day*
+
+== Evening Routine
+* 5:40 - 7:00 :: Workout
+* 7:00 - 8:00 :: Dinner / Free time
+* 8:00 - 9:00 :: Wind down and sleep preparation
