@@ -20,16 +20,12 @@ ifdef::env-name[:relfilesuffix: .adoc]
 
 Mímir Academy operates on a one-week unit of instruction.
 Each week follows a specified and standardized format.
-There are three different day categories.
-Each category is paired in two days.
-Each day consists of 2 (two) class pairs each 90 minutes long.
-Class pairs have a primary 90-minute session which covers theory.
-And a supporting 90-minute session that applies theory *_hands-on_*.
-It is the hands-on section graded on each block of instruction.
+We follow a 2 subject week were I learn 2 subjects that
+are in the same category(Exp: coding and math in Stem).
+At the end of the week I need to show what I learned in a Project.
+
 
 Learning categories are as follows:
 
-. Hard Skills - math, reading, language arts, science;
-. Soft Skills - social, physical, and personal development;
-. Connecting skills - physical asset building with active learning.
-
+- Stem(Science, math, engineering, tech.)
+- Humanities(english, philosophy, writing, psychology)

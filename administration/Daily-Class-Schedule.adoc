@@ -18,6 +18,8 @@ v1.0, Tuesday May 6th 2025
 :imagesdir: ./assets/img
 ifdef::env-name[:relfilesuffix: .adoc]
 
+
+
 == Morning Routine
 * 6:00 - 7:00 :: Wake up, brush teeth, tidy room, set goals for the day, eat breakfast.
 
