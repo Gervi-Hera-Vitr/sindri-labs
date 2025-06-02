@@ -33,10 +33,3 @@ Learning categories are as follows:
 . Soft Skills - social, physical, and personal development;
 . Connecting skills - physical asset building with active learning.
 
-== Weekly Class Schedule
-
-. Fluffy Days - soft skills: Monday and Friday (Humanities)
--- Primary subject: Selected Weekly in blocks of disciplines;
-. Smart Days - hard skills: Tuesday and Thursday (Sciences)
---  Primary subject: Static rotating list of subjects;
-. Connecting Days - make skills: Wednesday and Saturday (Shop and business).
