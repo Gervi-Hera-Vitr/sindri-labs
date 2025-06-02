@@ -26,7 +26,7 @@ ifdef::env-name[:relfilesuffix: .adoc]
 
 Mathematical logic:: is a subfield of mathematics exploring formal systems in relation to the way we reason. It provides tools to analyze the structure of arguments, statements, and proofs.
 
-:: Major subareas::  include model theory, proof theory, set theory, and recursion theory (also known as computability theory). Research in mathematical logic commonly addresses the mathematical properties of formal systems of logic such as their expressive or deductive power. However, it can also include uses of logic to characterize correct mathematical reasoning or to establish foundations of mathematics.
+Major subareas::  include model theory, proof theory, set theory, and recursion theory (also known as computability theory). Research in mathematical logic commonly addresses the mathematical properties of formal systems of logic such as their expressive or deductive power. However, it can also include uses of logic to characterize correct mathematical reasoning or to establish foundations of mathematics.
 
 
 
