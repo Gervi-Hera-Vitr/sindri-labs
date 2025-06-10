@@ -188,20 +188,285 @@
 # import random
 # print(random.randint(1, 10))
 
-# functions
-import random
-def greeting(name, response, karma):
-    karma = random.randint(1, 100)
-    greet = {1: "Hello, my name is", 2: "Ew go away!"}
-    name = input("Enter your name: ")
-    if karma > 50: print(greet[1] + " " + name + "!")
-    else: print(greet[2])
+# # functions
+# import random
+# def greeting(name, response, karma): # default values can be assigned here to!
+#     karma = random.randint(1, 100)
+#     greet = {1: "Hello, my name is", 2: "Ew go away!"}
+#     name = str(name)
+#     if karma > 50: print(greet[1] + " " + name + "!")
+#     else: print(greet[2])
+#
+# greeting(input("Enter your name: "), "Hello", "Karma")# here you can assign values by putting it in normally, or: greeting("name", karma="Karma", response="Hello")
+#
+# def add(*args): # tuple
+#     total = 0
+#     for num in args:
+#         total += num
+#     return total
+#
+# print(add(1, 2, 3, 4, 5))
+#
+#
+# def add(**kwargs): # dictionary
+#     total = 0
+#     for num in kwargs.values():
+#         total += num
+#     return total
+#
+# print(add(a=1, b=2, c=3, d=4, e=5))
 
-greeting(input("Enter your name: "), "Hello", "Karma")
 
+# # iterables, an object/collection that can return elements one at a time, letting it be able to irterate over a loop.
+# numbers = [1, 2, 3, 4, 5]
+# for num in numbers:
+#     print(num)
+#
+# # membership operators
+# # in, not in
 
+# # List Comprehension = a way to create a new list in python, more compact and readable
+# numbers = [1, 2, 3, 4, 5]
+# new_list = [num * 2 for num in numbers]
+# print(new_list)
+#
+# # Match case statement(switch statement)
+#
+# def get_day(day):
+#     match day:
+#         case 1:
+#             return "Monday"
+#         case 2:
+#             return "Tuesday"
+#         case 3:
+#             return "Wednesday"
+#         case 4:
+#             return "Thursday"
+#         case 5:
+#             return "Friday"
+#         case 6:
+#             return "Saturday"
+#         case 7:
+#             return "Sunday"
+#         case _:
+#             return "Invalid day"
+#
+# print(get_day(4))
 
+# # modules are files that contain code that can be imported and used in other files, there are many already in python and you can create your own modules. use import module_name.
+# print(help("modules"))
 
+# variable scope = where a variable is accessible and can be used.
+# scope resolution = Local > Enclosed > Global > Built-in
 
+# def main():
+#     # program code goes here
+#
+# if __name__ == "__main__":
+#     main() # now you can use classes and functions from the main file. this is like a library.
 
+# object = a bundle of related attributes and methods.
+# class = a blueprint for the layout of an object.
 
+# # classes
+# class Person:
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
+#
+#     def greet(self):
+#         print(f"Hello, my name is {self.name} and I am {self.age} years old.")
+#
+# person1 = Person("John", 50)
+# person1.greet()
+#
+
+# class Sword:
+#     def __init__(self, name, damage, durability):
+#         self.name = name
+#         self.damage = damage
+#         self.durability = durability
+#
+#     def attack(self):
+#         self.durability -= 1
+#         return self.damage
+#
+#
+# class Knife (Sword):
+#     def __init__(self, name, damage, durability):
+#         super().__init__(name, damage, durability)
+#
+# knife = Knife("Knife", 10, 100)
+# print(knife.attack())
+#
+# class Axe:
+#     def __init__(self, name, damage, durability, chopping_speed):
+#         self.name = name
+#         self.damage = damage
+#         self.durability = durability
+#         self.chopping_speed = chopping_speed
+#
+#     def attack(self):
+#         self.durability -= 1
+#         return self.damage
+#
+#     def chop(self):
+#         self.durability -= 1
+#         return self.chopping_speed
+#
+# class AxeSword(Sword, Axe):
+#     def __init__(self, name, damage, durability, chopping_speed):
+#         self.name = name
+#         self.damage = damage
+#         self.durability = durability
+#         self.chopping_speed = chopping_speed
+#
+# AxeSword = AxeSword("AxeSword", 10, 100, 20)
+# print(AxeSword.chop())
+
+#super() = call the constructor of the parent class
+
+# Polymorphism = to have many forms
+# Inheritance = to inherit attributes and methods from a parent class
+# duck typing = object must have necessary attributes/methods
+
+# from abc import ABC, abstractmethod
+#
+# class Shape(ABC):
+#     @abstractmethod
+#     def area(self):
+#         pass
+
+# # duck typing: if it moves like a duck, swims like a duck, and quacks like a duck, then it is a duck
+#
+# class Animal:
+#
+#     def speak(self):
+#         pass
+#
+# class Dog(Animal):
+#
+#     def speak(self):
+#         print("Woof woof")
+#
+# class Cat(Animal):
+#
+#     def speak(self):
+#         print("Meow meow")
+# class car:
+#
+#         def speak(self):
+#             print("Vroom vroom")
+#
+# animals = [Dog(), Cat(), car()]
+#
+# for animal in animals:
+#     animal.speak()
+
+# static method = a method that belongs to a class, not to an instance of a class
+# instance method = best for operations of instances of classes(objects)
+
+# class Employee:
+#
+#     def __init__(self, name, position):
+#         self.name = name
+#         self.position = position
+#
+#         def get_info(self):
+#             return f"{self.name} is a {self.position}"
+#         @staticmethod
+#         def valid_position(position):
+#             valid_positions = ["manager", "developer", "tester"]
+#             return position in valid_positions
+#
+# print(Employee.valid_position("tester")) # True
+
+# # Class Methods = Allow operations to be performed on the class itself
+#
+# class student:
+#     count = 0
+#     def __init__(self, name, age, gpa):
+#         self.name = name
+#         self.age = age
+#         self.gpa = gpa
+#         student.count += 1
+#
+#     def get_info(self):
+#         return f"{self.name} is {self.age} years old and has a gpa of {self.gpa}"
+#
+#     @classmethod
+#     def get_count(cls):
+#         return f"There are {cls.count} students in this class"
+#
+# student1 = student("John", 20, 3.9)
+# student2 = student("Jane", 21, 3.8)
+# student3 = student("Bob", 22, 3.7)
+#
+# print(student.get_count())
+
+# MAGIC METHODS
+# __init__ = constructor
+# __str__ = string representation
+# __eq__ = equal too
+# __lt__ = less than
+# __gt__ = greater than
+
+# # properties, setter, getter and deleter method
+# class rectangle:
+#     def __init__(self, width, height):
+#         self.width = width
+#         self.height = height
+#
+#     @property
+#     def width(self):
+#         return f"Width: {self.__width}cm"
+#
+#     property
+#     def height(self):
+#         return f"Height: {self.__height}cm"
+#
+
+# # decorator = a function that extends the behavior of another function, without modifying the base function.
+# # pass the base function as an argument to the decorator
+#
+# def add_sprinkles(func):
+#     def wrapper():
+#         print("Adding sprinkles")
+#         func()
+#     return wrapper
+#
+# @add_sprinkles
+# def get_ice_cream():
+#     print("Getting ice cream")
+#
+# get_ice_cream()
+
+# # multithreading = multiple threads of execution, good for multitasking
+# import threading
+# import time
+#
+#
+# def laundry():
+#     time.sleep(8)
+#     print("Washing clothes")
+#     print("Dry clothes")
+#     print("Fold clothes")
+#
+# def cooking():
+#     time.sleep(5)
+#     print("Cooking food")
+#     print("Serving food")
+#
+#
+# def dishes():
+#     time.sleep(3)
+#     print("Cleaning dishes")
+#
+# chore1 = threading.Thread(target=laundry)
+# chore2 = threading.Thread(target=cooking)
+# chore3 = threading.Thread(target=dishes)
+#
+# chore1.start()
+# chore2.start()
+# chore3.start()
+#
