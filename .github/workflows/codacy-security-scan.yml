@@ -50,7 +50,7 @@ jobs:
 
 
       - name: "Upload SARIF results to CodeQL"
-        uses: github/codeql-action/upload-sarif@4a00331d4ecf79a214751520faf8e540e60c7567
+        uses: github/codeql-action/upload-sarif@be30325fa679497c9a67f006166793cfa1d5840d
         timeout-minutes: 3
         with:
           sarif_file: results.sarif
