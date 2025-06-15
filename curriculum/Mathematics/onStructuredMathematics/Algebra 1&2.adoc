@@ -1,0 +1,138 @@
+= Algebra 1&2
+Cpt. Lugaru (CaptainLugaru) <72951616+CaptainLugaru@users.noreply.github.com>
+v1.1, Tuesday, May 27, 2025
+:description: Learning Algebra 1&2
+:sectnums:
+:sectanchors:
+:sectlinks:
+:icons: font
+:tip-caption: TIP:
+:note-caption: NOTE:
+:important-caption: ❗
+:caution-caption: 🔥
+:warning-caption: WARNING:
+:toc: preamble
+:toclevels: 1
+:toc-title: Solving Algebra
+:keywords: Homeschool Learning Mathimatics
+:imagesdir: ./images
+:labsdir: ./labs
+
+ifdef::env-name[:relfilesuffix: .adoc]
+
+TIP: This course is meant to teach you algebra by solving problems. The topic not here is matrices as that will be done in my Linear Algebra course.
+
+== Basic Algebra
+
+=== What is a Variable?
+
+A _variable_ is a letter that represents an unknown number.
+Example: `x`, `y`, `z`
+
+=== Expressions
+
+- A *mathematical expression* is a combination of terms like `3x`, `3x + 5`, or `3x + 5 + 2y`.
+- A *monomial* is a single term (e.g. `3x`)
+- A *binomial* has two terms (e.g. `3x + 5`)
+- A *trinomial* has three terms (e.g. `3x + 5 + 2y`)
+- A *polynomial* has two or more terms and may include different math operations.
+
+=== Equations and Inequalities
+
+- An *equation* includes an equals sign, e.g. `7x = 14`
+- An *inequality* uses symbols like `<`, `>`, `≤`, `≥`, or `≠`
+
+=== Like Terms
+
+- *Like terms* have the same variable (e.g. `3x` and `7x`)
+- *Unlike terms* have different variables (e.g. `3x` and `4y`)
+- You can add or subtract like terms, but not unlike terms.
+
+=== Coefficient and Variable
+
+In `7a`, `7` is the *coefficient* and `a` is the *variable*.
+
+=== Operations on Terms
+
+- `3x + 7x = 10x` (addition of like terms)
+- `3x + 4y` → cannot be simplified (unlike terms)
+- `3 * x = 3x`
+- `3x * 2y = 6xy` (multiplying terms with different variables)
+- `3x / 4x = 3/4` because `x / x = 1`
+
+== Properties of Numbers
+
+In algebra, several fundamental properties help us understand how numbers behave during addition and multiplication. Here are the key properties:
+
+1. *Commutative Property of Addition*::
+No matter the order in which you add two numbers, the sum remains the same.
++
+Example:
++
+----
+a + b = b + a
+----
+
+2. *Commutative Property of Multiplication*::
+The order of multiplying two numbers does not affect the result.
++
+Example:
++
+----
+a · b = b · a
+----
+
+3. *Associative Property of Addition*::
+When adding a group of numbers, you can regroup them in any way without changing the sum.
++
+Example:
++
+----
+(a + b) + c = a + (b + c)
+----
+
+4. *Associative Property of Multiplication*::
+When multiplying a group of numbers, the way you group them does not change the product.
++
+Example:
++
+----
+(a · b) · c = a · (b · c)
+----
+
+5. *Distributive Property of Multiplication over Addition*::
+Multiplying a number by a group of numbers added together is the same as multiplying each addend individually and then adding the results.
++
+Example:
++
+----
+a · (b + c) = a · b + a · c
+----
+
+== Solving Basic Equations
+1. Simplify each side of the equation
+2. Add and/or subtract like terms
+3. Multiply or divide unlike terms
++
+----
+Example:
+4x + 2x - 7 + 9 + x = 5x - x
+7x + 2 = 4x
+3x = -2
+x = -2/3
+----
+
+== Solving Inequalities
+Inequalities have symbols such as: +
+> greater than +
+< lesser than +
+≤ Less than or equal too +
+≥ greater than or equal too +
+
+How to solve:
+1. Simplify each side of the equation
+2. Add and/or subtract like terms
+3. Multiply or divide unlike terms
+4. If you multiply or divide by a negative flip the inequality.
+
+

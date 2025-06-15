@@ -34,11 +34,11 @@ jobs:
     steps:
 
       - name: "Checkout repository source code"
-        uses: actions/checkout@85e6279cec87321a52edac9c87bce653a07cf6c2
+        uses: actions/checkout@09d2acae674a48949e3602304ab46fd20ae0c42f
         timeout-minutes: 3
 
       - name: "Initialize CodeQL Quality Analysis Action"
-        uses: github/codeql-action/init@4a00331d4ecf79a214751520faf8e540e60c7567
+        uses: github/codeql-action/init@be30325fa679497c9a67f006166793cfa1d5840d
         timeout-minutes: 17
         with:
           languages: ${{ matrix.language }}
@@ -52,7 +52,7 @@ jobs:
           ./gradlew build test --no-daemon --no-parallel --no-build-cache
 
       - name: "Perform CodeQL Quality Analysis Action"
-        uses: github/codeql-action/analyze@4a00331d4ecf79a214751520faf8e540e60c7567
+        uses: github/codeql-action/analyze@be30325fa679497c9a67f006166793cfa1d5840d
         timeout-minutes: 17
         with:
           category: "/language:${{matrix.language}}"
