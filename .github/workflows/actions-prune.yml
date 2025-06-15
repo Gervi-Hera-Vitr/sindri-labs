@@ -31,7 +31,7 @@ jobs:
 
   cleanup-old-action-runs-leaving-one:
     timeout-minutes: 17
-    runs-on: self-hosted
+    runs-on: [self-hosted,housekeeping]
     name: "Prune old actions leaving one"
 
     steps:
