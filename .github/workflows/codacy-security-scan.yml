@@ -34,7 +34,7 @@ jobs:
     steps:
 
       - name: "Checkout repository source code"
-        uses: actions/checkout@85e6279cec87321a52edac9c87bce653a07cf6c2
+        uses: actions/checkout@09d2acae674a48949e3602304ab46fd20ae0c42f
         timeout-minutes: 3
 
       - name: "Run Codacy Analysis CLI Action and generate SARIF report"
@@ -50,7 +50,7 @@ jobs:
 
 
       - name: "Upload SARIF results to CodeQL"
-        uses: github/codeql-action/upload-sarif@4a00331d4ecf79a214751520faf8e540e60c7567
+        uses: github/codeql-action/upload-sarif@be30325fa679497c9a67f006166793cfa1d5840d
         timeout-minutes: 3
         with:
           sarif_file: results.sarif
