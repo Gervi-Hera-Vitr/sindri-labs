@@ -3,19 +3,16 @@ run-name: "Prune Old Action Runs on [${{ github.repository }}] @ ${{ github.ref 
 
 on:
   workflow_dispatch:
-    inputs:
-      restriction:
-        required: true
-        type: string
-        default: "no-restriction"
-        description: "Optional parameter on restrictions for parallelism and early cancellation of jobs; ToDo: placeholder not yet implemented and used."
   workflow_call:
-    inputs:
-      restriction:
-        required: false
-        type: string
-        default: "no-restriction"
-        description: "Optional parameter on restrictions for parallelism and early cancellation of jobs; ToDo: placeholder not yet implemented and used."
+  push:
+    branches:
+      - main
+      - '[0-9]*-*'
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - closed
 
 permissions:
   actions: write
@@ -33,20 +30,21 @@ concurrency:
 jobs:
 
   cleanup-old-action-runs-leaving-one:
-    timeout-minutes: 3
+    timeout-minutes: 7
     runs-on: self-hosted
     name: "Prune old actions leaving one"
 
     steps:
 
       - name: "Checkout repository source code"
-        uses: actions/checkout@09d2acae674a48949e3602304ab46fd20ae0c42f
+        uses: actions/checkout@v4.2.2
         timeout-minutes: 1
+        with:
+          fetch-depth: 0
+          fetch-tags: 'true'
 
       - name: "Cleanup old action runs leaving the last one for each workflow"
         run: ./util/src/main/sh/clean-runs.sh
+        timeout-minutes: 5
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          REPO: ${{ github.repository }}
-          BRANCH: ${{ github.ref }}
-          RESTRICTION: ${{ inputs.restriction }}

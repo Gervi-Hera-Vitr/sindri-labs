@@ -1,131 +1,89 @@
 #!/usr/bin/env zsh
+set -uo pipefail
+declare -i MAX_PARALLEL=${MAX_PARALLEL:-100}
 
-# Check if the current directory is a git repository.
-#
-# Returns 0 if the current directory is a git repository, 1 otherwise.
-function is_git_repo() {
-  git rev-parse --is-inside-work-tree &> /dev/null
-  return $?
-}
+readonly repository="${REPO:-$(basename "$(git rev-parse --show-toplevel)")}"
+readonly branch="${BRANCH:-$(git rev-parse --abbrev-ref HEAD)}"
+echo "::notice title=Workflow Runs Pruner::Starting GH CLI pruning run for <$repository>"
+echo "::notice title=Active Branch Detected::<$branch>"
 
-##
-# Check if the current repository has the `.github/workflows` folder.
-#
-# Returns 0 if the folder exists, 11 otherwise.
-function has_github_workflow_folder() {
-    local repository_root;
-    local github_workflow_folder;
-    repository_root=$(git rev-parse --show-toplevel)
-    github_workflow_folder="$repository_root/.github/workflows"
+declare -a workflows
+declare -a runs_to_prune
 
-    if [ -d "$github_workflow_folder" ]; then
-      return 0
+function acquire_workflows_to_process() {
+  local -i workflow_count=0
+  local -r debug="${1:-off}"
+
+  echo "::group::Acquire workflows to inspect."
+  local -r workflows_as_text="$(gh workflow list --json id,name,path,state -q '.[] | [ .id, .name, .path, .state ] | @csv')"
+  while IFS= read -r workflow_row; do
+    IFS=',' read -r workflow_id workflow_name workflow_path workflow_state <<< "${workflow_row//}"
+    [[ "$debug" == "on" ]] && echo "::debug title=Reading a Workflow row::Workflow $workflow_name with ID $workflow_id in state $workflow_state and at path  $workflow_path."
+    if [[ -z "${workflow_id// }" ]]; then
+      echo "::notice title=NOOP::Workflow $workflow_name has an empty ID that makes no sense. Skipping it!"
     else
-      return 11
+      workflows+=("$workflow_id|$workflow_name|$workflow_path|$workflow_state")
+      ((workflow_count++))
     fi
+  done <<< "$workflows_as_text"
+  echo "::notice title=Acquired Workflows::There are $workflow_count workflows to process."
+  echo "::endgroup::"
 }
 
-##
-# Check if the current working directory is at the root of the git repository.
-#
-# This is necessary because the cleanup scripts expect  run from the root
-# of the repository, since it's cleaning up the entire repository unscoped.
-#
-# Returns 0 if the current working directory is at the root of the repository,
-# 3 if it's not.
-function is_at_root_of_repo() {
-  if [ "$(pwd)" = "$(git rev-parse --show-toplevel)" ]; then
-    return 0
-  else
-    return 3
-  fi
-}
+function prepare_workflows_to_process() {
+  local -i runs_count=0 workflow_runs_count=0
+  local -r debug="${1:-off}"
 
-on_branch="${BRANCH:-$(git rev-parse --abbrev-ref HEAD)}"
-on_restriction="${RESTRICTION:-no-restriction-provided}"
-echo "::notice file=clean-runs.sh,line=46::Agent host $(hostname): Running on branch $on_branch with restriction $on_restriction";
+  echo "::group::Prepare workflows to inspect."
+  for workflow_row in "${workflows[@]}"; do
+    IFS='|' read -r workflow_id workflow_name workflow_path workflow_state <<< "${workflow_row//\"/}"
+    echo "::notice title=Reading runs for $workflow_name::Extracting all but one runs for $workflow_state workflow with id $workflow_id and path $workflow_path."
 
-if ! is_git_repo; then
-  cat <<EOF
-=========================================
-ERROR: Current directory is NOT in a git repository.
+    if ! executed_runs_text="$(gh run list --workflow="$workflow_id" --json databaseId --limit 1000 | jq -r '.[1:][]?.databaseId')"; then
+      echo "::error title=Run Query Failed::Could not query runs for workflow $workflow_name"
+      continue
+    fi
 
-- This script must be run from a GitHub git repository.
-=========================================
-EOF
-  echo "::error file=clean-runs.sh,line=56::Agent host $(hostname): Current directory is NOT in a git repository! Please investigate your workflow configuration.";
-  exit 7
-fi
-echo "::notice file=clean-runs.sh,line=59::Agent host $(hostname): Current directory is a healthy git repository.";
-
-if ! has_github_workflow_folder; then
-  cat <<EOF
-=========================================
-ERROR: No GitHub Workflow directory found.
-
-- The .github/workflows directory must exist at its root.
-=========================================
-EOF
-  echo "::error file=clean-runs.sh,line=69::Agent host $(hostname): No GitHub Workflow directory found! Please investigate your workflow configuration.";
-  exit 11
-fi
-echo "::notice file=clean-runs.sh,line=72::Agent host $(hostname): GitHub Workflow directory found.";
-
-if ! is_at_root_of_repo; then
-  cat <<EOF
-=========================================
-WARNING: Not at root of repository.
-
-Running 'gh' operations from subdirectories is not recommended.
-=========================================
-EOF
-  echo "::warning file=clean-runs.sh,line=82::Agent host $(hostname): Not at root of repository. Running 'gh' operations from subdirectories is not recommended.";
-fi
-echo "::notice file=clean-runs.sh,line=84::Agent host $(hostname): Running 'gh' operations from root of repository."
-
-#workflows_text=$(gh workflow list --json id,name,path,state -q '.[] | [ .id, .name, .path, .state ] | @csv')
-workflows_text=$(gh workflow list --json id,name -q '.[] | select(.name != "Local Build Only") | [.id, .name] | @csv')
-
-cat <<EOF
-=========================================
-INFO: Storing workflow details in workflows.csv
-=========================================
-EOF
-tee workflows.csv <<<"$workflows_text"
-cat <<EOF
-=========================================
-EOF
-
-# shellcheck disable=SC2296
-workflows=("${(f)workflows_text}")
-
-for workflow_row in "${workflows[@]}"; do
-  IFS=, read -rA workflow <<< "$workflow_row"
-  workflow_id=${workflow[1]}
-  workflow_name=${workflow[2]}
-
-  if [[ -z "${workflow_id// }" ]]; then
-    echo -e "\tAll good!"
-    echo "::notice file=clean-runs.sh,line=109::Agent host $(hostname): Workflows have no runs to clean up.";
-  else
-    echo -e "\n\nProcessing workflow: $workflow_name (ID: $workflow_id)"
-
-    # Get all runs for this workflow, sorted by created date descending, skipping the first run
-    # shellcheck disable=SC2034
-    run_ids_text=$(gh run list --workflow="$workflow_id" --json databaseId --limit 500 -q '.[1:] | .[].databaseId')
-    # shellcheck disable=SC2296
-    run_ids=("${(f)run_ids_text}")
-
-    # Delete all but the latest run
-    for run_id in "${run_ids[@]}"; do
-      if [[ -z "${run_id// }" ]]; then
-        echo -e "\tAll good:\t Workflow $workflow_name has no runs to clean up!"
-        echo "::notice file=clean-runs.sh,line=123::Agent host $(hostname): Workflow $workflow_name has no runs to clean up.";
-      else
-        echo "Deleting run ID: $run_id for workflow: $workflow_name"
-        gh run delete "$run_id"
-        echo "::notice file=clean-runs.sh,line=127::Agent host $(hostname): Deleted run ID: $run_id for workflow: $workflow_name"
+    while IFS= read -r run_row; do
+      (( runs_count++ ))
+      if [[ -n "${run_row//}" ]]; then
+        run_entry="$run_row|$workflow_name"
+        runs_to_prune+=("$run_entry")
+        (( workflow_runs_count++ ))
+        echo "::notice title=Queued::$run_entry."
       fi
-    done
-  fi
-done
+    done <<< "${executed_runs_text}"
+  done
+
+  echo "::notice title=Prepared workflow runs::Total $runs_count rows processed and $workflow_runs_count queued to prune."
+  echo "::endgroup::"
+}
+
+function process_workflows_to_process() {
+  local -r debug="${1:-off}"
+  local -i requests_count=0
+  echo "::group::Processing deletion requests."
+  for run_delete_request in "${runs_to_prune[@]}"; do
+    IFS='|' read -r run_id run_workflow_name <<< "$run_delete_request"
+    if [[ -n "${run_id// }" ]]; then
+      (( requests_count++ ))
+      (
+        gh run delete "$run_id"
+        echo "::notice title=Deleted::$run_id of $run_workflow_name"
+      ) &
+      if (( requests_count % MAX_PARALLEL == 0 )); then
+        wait
+      fi
+    fi
+  done
+  wait
+  echo "::endgroup::"
+}
+
+function main() {
+  acquire_workflows_to_process "${1:-off}"
+  prepare_workflows_to_process "${2:-on}"
+  process_workflows_to_process "${3:-off}"
+}
+
+main "$@"
