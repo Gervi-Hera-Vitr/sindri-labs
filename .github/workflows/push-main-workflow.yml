@@ -2,9 +2,6 @@ name: "Working Push"
 run-name: "Push on [${{ github.repository }}] @ ${{ github.ref }} by ${{ github.actor }} with ${{ github.event_name }}"
 
 on:
-  push:
-    branches-ignore:
-      - main
   workflow_dispatch:
 
 

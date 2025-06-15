@@ -2,8 +2,6 @@ name: "Build and Deploy Jekyll Site with GitHub Pages"
 run-name: "Jekyll Build and Deploy by ${{ github.actor }} with ${{ github.event_name }}"
 
 on:
-  push:
-    branches: ["main"]
   workflow_dispatch:
   workflow_call:
     inputs:
