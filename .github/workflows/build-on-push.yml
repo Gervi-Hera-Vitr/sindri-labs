@@ -44,13 +44,20 @@ jobs:
           fetch-depth: 0
           fetch-tags: 'true'
 
+      - name: Set up Java
+        uses: actions/setup-java@v4.7.1
+        timeout-minutes: 5
+        with:
+          distribution: temurin
+          java-version: 21
+
 
       - name: Build and Test
         run: |
-          source "$SDKMAN_DIR/bin/sdkman-init.sh" && sdk current
           gradle clean build test dependencyUpdates asciidoctor asciidoctorPdf asciidoctorEpub --scan
           gradle dependencyUpdates
           
-      - name: 📡 Submit Dependency Graph
+      - name: Submit Dependency Graph
         uses: gradle/actions/dependency-submission@v4.4.1
         timeout-minutes: 3
+
