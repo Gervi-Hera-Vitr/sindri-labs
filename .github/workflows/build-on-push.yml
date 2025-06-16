@@ -50,16 +50,6 @@ jobs:
           sdk current
         timeout-minutes: 1
 
-      - name: Submit Dependency Graph
-        uses: gradle/actions/dependency-submission@v4.4.1
-        with:
-          artifact-retention-days: 3
-          gradle-home-cache-cleanup: 'true'
-          build-scan-publish: true
-          build-scan-terms-of-use-url: "https://gradle.com/help/legal-terms-of-use"
-          build-scan-terms-of-use-agree: "yes"
-        timeout-minutes: 7
-
       - name: Build and Test
         run: |
           ./gradlew clean build test asciidoctor asciidoctorPdf asciidoctorHtml asciidoctorEpub --no-daemon --no-parallel --no-build-cache
