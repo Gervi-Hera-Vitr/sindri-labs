@@ -4,11 +4,6 @@ run-name: "Pruned Old Action Run Caches on ${{ github.repository }} by ${{ githu
 
 on:
   workflow_dispatch:
-  workflow_call:
-  push:
-    branches:
-      - main
-      - '[0-9]*-*'
   create:
     branches:
       - '[0-9]*-*'
@@ -18,18 +13,18 @@ on:
       - reopened
       - closed
 
-
-concurrency:
-  group: "${{ github.workflow }}-${{ github.ref }}-cache-prune"
-  cancel-in-progress: true
+permissions:
+  contents: write
+  actions: write
 
 defaults:
   run:
     shell: zsh -l {0}
 
-permissions:
-  contents: write
-  actions: write
+concurrency:
+  group: "${{ github.workflow }}-cache"
+  cancel-in-progress: true
+
 
 jobs:
 

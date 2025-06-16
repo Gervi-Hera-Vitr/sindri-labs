@@ -13,10 +13,6 @@ on:
   schedule:
     - cron: '19 15 3 * *'
 
-concurrency:
-  group: "${{ github.workflow }}-${{ github.ref }}-qodana"
-  cancel-in-progress: true
-
 permissions:
   contents: write
   pull-requests: write
@@ -25,6 +21,11 @@ permissions:
 defaults:
   run:
     shell: zsh -l {0}
+
+concurrency:
+  group: "${{ github.workflow }}-qodana"
+  cancel-in-progress: true
+
 
 jobs:
   qodana-scan:

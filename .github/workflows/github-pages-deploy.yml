@@ -12,13 +12,14 @@ permissions:
   pages: write
   id-token: write
 
+defaults:
+  run:
+    shell: zsh -l {0}
+
 concurrency:
   group: "${{ github.workflow }}-site"
   cancel-in-progress: false
 
-defaults:
-  run:
-    shell: zsh -l {0}
 
 jobs:
 

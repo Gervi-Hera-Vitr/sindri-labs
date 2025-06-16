@@ -6,14 +6,18 @@ on:
     types:
       - assigned
 
-
 permissions:
   issues: write
   pull-requests: write
 
+defaults:
+  run:
+    shell: zsh -l {0}
+
 concurrency:
   group: "Greeting Group"
   cancel-in-progress: false
+
 
 jobs:
 
@@ -22,10 +26,6 @@ jobs:
     name: "Welcoming new contributors!"
     runs-on: [self-hosted, housekeeping]
     timeout-minutes: 1
-
-    defaults:
-      run:
-        shell: zsh -l {0}
 
     steps:
 

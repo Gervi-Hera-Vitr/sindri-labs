@@ -2,9 +2,6 @@ name: Build on Push
 run-name: "Build on Push on ${{ github.repository }} by ${{ github.actor }} with ${{ github.event_name }} (Attempt ${{ github.run_attempt }})"
 
 on:
-  push:
-    branches:
-      - '[0-9]*-*'
   pull_request:
     types:
       - opened
@@ -16,13 +13,14 @@ permissions:
   contents: write
   id-token: write
 
+defaults:
+  run:
+    shell: zsh -l {0}
+
 concurrency:
   group: "${{ github.workflow }}-push"
   cancel-in-progress: true
 
-defaults:
-  run:
-    shell: zsh -l {0}
 
 jobs:
 

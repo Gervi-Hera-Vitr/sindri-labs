@@ -7,10 +7,10 @@ on:
   schedule:
     - cron: '20 10 * * 1'
   workflow_dispatch:
-  workflow_call:
   push:
     branches:
       - main
+      - '[0-9]*-*'
 
 permissions:
   issues: write
@@ -20,6 +20,11 @@ permissions:
 defaults:
   run:
     shell: zsh -l {0}
+
+concurrency:
+  group: "${{ github.workflow }}-stale"
+  cancel-in-progress: true
+
 
 jobs:
   stale-issues-and-pull-requests-check:

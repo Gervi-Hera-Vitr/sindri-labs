@@ -21,6 +21,11 @@ defaults:
   run:
     shell: bash
 
+concurrency:
+  group: "${{ github.workflow }}-snyk"
+  cancel-in-progress: true
+
+
 jobs:
 
   snyk-scan:

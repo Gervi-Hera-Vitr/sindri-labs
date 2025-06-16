@@ -3,6 +3,9 @@ run-name: "Jekyll built and bundles on ${{ github.repository }} by ${{ github.ac
 #.github/workflows/github-pages-deploy.yml
 
 on:
+  push:
+    branches:
+      - '[0-9]*-*'
   pull_request:
     types:
       - opened
@@ -13,21 +16,22 @@ on:
 permissions:
   contents: read
 
-concurrency:
-  group: "${{ github.workflow }}-jekyll"
-  cancel-in-progress: true
-
 defaults:
   run:
     shell: zsh -l {0}
 
+concurrency:
+  group: "${{ github.workflow }}-jekyll"
+  cancel-in-progress: true
+
+
 jobs:
 
   build-custom-jekyll-site:
-      runs-on: [self-hosted, jekyll]
-      timeout-minutes: 13
+    runs-on: [ self-hosted, jekyll ]
+    timeout-minutes: 13
 
-      steps:
+    steps:
       - name: ⬇️ Checkout repository
         uses: actions/checkout@v4.2.2
 

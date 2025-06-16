@@ -4,11 +4,6 @@ run-name: "Pruned Old Action Runs but ONE on ${{ github.repository }} by ${{ git
 
 on:
   workflow_dispatch:
-  workflow_call:
-  push:
-    branches:
-      - main
-      - '[0-9]*-*'
   create:
     branches:
       - '[0-9]*-*'
@@ -27,7 +22,7 @@ defaults:
     shell: zsh -l {0}
 
 concurrency:
-  group: "${{ github.workflow }}-${{ github.ref }}-actions-prune"
+  group: "${{ github.workflow }}-actions"
   cancel-in-progress: true
 
 
