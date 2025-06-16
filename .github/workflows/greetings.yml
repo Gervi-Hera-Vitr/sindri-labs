@@ -20,7 +20,7 @@ jobs:
   first-time-user-greeting:
 
     name: "Welcoming new contributors!"
-    runs-on: self-hosted
+    runs-on: [self-hosted, housekeeping]
     timeout-minutes: 1
 
     defaults:

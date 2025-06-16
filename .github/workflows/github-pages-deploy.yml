@@ -1,0 +1,43 @@
+name: GitHub Site Publish by Pages
+run-name: "Publish Pages Artifact on ${{ github.repository }} by ${{ github.actor }} with ${{ github.event_name }} (Attempt ${{ github.run_attempt }})"
+#.github/workflows/github-pages-deploy.yml
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "${{ github.workflow }}-site"
+  cancel-in-progress: false
+
+defaults:
+  run:
+    shell: zsh -l {0}
+
+jobs:
+
+  deploy-to-default-pages:
+    runs-on: [self-hosted, site]
+    timeout-minutes: 11
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+
+      - name: 🚀 Deploy to GitHub Pages
+        id: deployment
+        timeout-minutes: 9
+        uses: actions/deploy-pages@v4.0.5
+        with:
+          artifact_name: 'gervi-hera-viskr-learning-trails'
+          reporting_interval: '2500'
+          error_count: '7'
+          timeout: '420000'
+

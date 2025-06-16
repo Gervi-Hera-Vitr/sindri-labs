@@ -29,7 +29,7 @@ defaults:
 jobs:
   label-pull-request-iaw-labeling-guidelines:
     timeout-minutes: 3
-    runs-on: self-hosted
+    runs-on: [self-hosted, housekeeping]
     name: "Label Pull Request with IAW Labeling Guidelines examining content"
 
     steps:

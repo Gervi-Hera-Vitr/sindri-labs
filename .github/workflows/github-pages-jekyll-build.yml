@@ -1,0 +1,71 @@
+name: GitHub Site Build with Jekyll
+run-name: "Jekyll built and bundles on ${{ github.repository }} by ${{ github.actor }} with ${{ github.event_name }} (Attempt ${{ github.run_attempt }})"
+#.github/workflows/github-pages-deploy.yml
+
+on:
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: "${{ github.workflow }}-jekyll"
+  cancel-in-progress: true
+
+defaults:
+  run:
+    shell: zsh -l {0}
+
+jobs:
+
+  build-custom-jekyll-site:
+      runs-on: [self-hosted, jekyll]
+      timeout-minutes: 13
+
+      steps:
+      - name: ⬇️ Checkout repository
+        uses: actions/checkout@v4.2.2
+
+
+      - name: 📦 Install dependencies
+        working-directory: site
+        timeout-minutes: 7
+        run: bundle install
+
+
+      - name: 🛠️ Build Jekyll site
+        working-directory: site
+        timeout-minutes: 13
+        run: |
+          echo "::group::Jekyll Build"
+          JEKYLL_ENV=production bundle exec jekyll build
+          echo "::notice title=Jekyll Status::✅ Build complete"
+          echo "::endgroup::"
+
+
+      - name: 🔗 Check for broken links
+        working-directory: site/_site
+        run: |
+          echo "::group::Link Check"
+          find . -name "*.html" -exec grep -o 'href="[^"]*"' {} \; \
+            | cut -d'"' -f2 \
+            | grep -Ev '^#|^mailto:|^https?://' \
+            | xargs -I{} test -e "{}" \
+            && echo "::notice title=Links::✅ All internal links valid" \
+            || echo "::warning title=Links::⚠️ Broken internal links found"
+          echo "::endgroup::"
+
+
+      - name: 📤 Upload site artifact
+        uses: actions/upload-pages-artifact@v3.0.1
+        timeout-minutes: 5
+        with:
+          path: site/_site
+          retention-days: '2'
+          name: 'gervi-hera-viskr-learning-trails'
+
