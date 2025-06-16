@@ -44,6 +44,7 @@ jobs:
           fetch-depth: 0
           fetch-tags: 'true'
 
+
       - name: Set up Java
         uses: actions/setup-java@v4.7.1
         timeout-minutes: 5
@@ -52,11 +53,21 @@ jobs:
           java-version: 21
 
 
+      - name: Set up Gradle
+        uses: gradle/actions/setup-gradle@v4.4.1
+        timeout-minutes: 5
+        with:
+          build-scan-publish: true
+          build-scan-terms-of-use-agree: 'yes'
+          build-scan-terms-of-use-url: 'https://gradle.com/terms-of-service'
+
+
       - name: Build and Test
+        timeout-minutes: 5
         run: |
-          gradle clean build test dependencyUpdates asciidoctor asciidoctorPdf asciidoctorEpub --scan
-          gradle dependencyUpdates
+          gradle clean build test dependencyUpdates asciidoctor asciidoctorPdf asciidoctorEpub
           
+
       - name: Submit Dependency Graph
         uses: gradle/actions/dependency-submission@v4.4.1
         timeout-minutes: 3
