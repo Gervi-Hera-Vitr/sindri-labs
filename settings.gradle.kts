@@ -12,6 +12,11 @@ pluginManagement {
     val versionOfDokka: String by extra
     val versionOfAsciidoctorJvm: String by extra
 
+    repositories {
+        gradlePluginPortal()
+        mavenCentral()
+    }
+
     plugins {
         id("org.gradle.toolchains.foojay-resolver-convention") version versionOfToolchainsFoojayResolver
         id("com.gradle.develocity") version versionOfDevelocity

@@ -47,6 +47,5 @@ jobs:
 
       - name: Build and Test
         run: |
-          source "$SDKMAN_DIR/bin/sdkman-init.sh" && \
-          sdk current
-          ./gradlew clean build test --scan
+          source "$SDKMAN_DIR/bin/sdkman-init.sh" && sdk current
+          gradle clean build asciidoctor asciidoctorPdf asciidoctorEpub --scan
