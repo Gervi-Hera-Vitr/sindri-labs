@@ -3,6 +3,7 @@ pluginManagement {
     val versionOfBenManesPlugin: String by extra
 
     val versionOfToolchainsFoojayResolver: String by extra
+    val versionOfDevelocity: String by extra
 
     val versionOfKotlinDsl: String by extra
     val versionOfKotlin: String by extra
@@ -13,7 +14,9 @@ pluginManagement {
 
     plugins {
         id("org.gradle.toolchains.foojay-resolver-convention") version versionOfToolchainsFoojayResolver
+        id("com.gradle.develocity") version versionOfDevelocity
         id("com.github.ben-manes.versions") version versionOfBenManesPlugin
+
 
         kotlin("jvm") version versionOfKotlin
         id("org.jetbrains.dokka") version versionOfDokka
@@ -31,6 +34,18 @@ pluginManagement {
             id("org.asciidoctor.jvm.epub") version this
             id("org.asciidoctor.jvm.convert") version this
         }
+    }
+
+}
+
+plugins {
+    id("com.gradle.develocity")
+}
+
+develocity {
+    buildScan {
+        termsOfUseUrl.set("https://gradle.com/help/legal-terms-of-use")
+        termsOfUseAgree.set("yes")
     }
 }
 

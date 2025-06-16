@@ -49,4 +49,4 @@ jobs:
         run: |
           source "$SDKMAN_DIR/bin/sdkman-init.sh" && \
           sdk current
-          ./gradlew clean build test
+          ./gradlew clean build test --scan
