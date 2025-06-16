@@ -14,10 +14,6 @@ site:
   - changed-files:
       - any-glob-to-any-file: 'site/**'
 
-utilities:
-  - changed-files:
-      - any-glob-to-any-file: 'util/**'
-
 structural:
   - changed-files:
       - any-glob-to-any-file: ['about.text', 'about.txt']

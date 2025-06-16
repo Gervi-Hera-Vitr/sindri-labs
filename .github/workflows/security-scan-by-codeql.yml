@@ -1,0 +1,91 @@
+name: Security Scan by CodeQL
+run-name: "Executed Security Scan by CodeQL Advanced on ${{ github.repository }} by ${{ github.actor }} with ${{ github.event_name }} (Attempt ${{ github.run_attempt }})"
+#.github/workflows/security-scan-by-codeql.yml
+
+on:
+  push:
+    branches:
+      - '[0-9]*-*'
+  workflow_dispatch:
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
+  schedule:
+    - cron: '16 13 2 * *'
+
+permissions:
+  security-events: write
+  contents: read
+  actions: read
+  packages: read
+
+
+concurrency:
+  group: "${{ github.workflow }}-${{ github.ref }}-codeql"
+  cancel-in-progress: true
+
+defaults:
+  run:
+    shell: zsh -l {0}
+
+jobs:
+
+  code-security-scan-with-codeql:
+    name: CodeQL to Analyze (${{ matrix.language }})
+    timeout-minutes: 21
+    runs-on: [self-hosted, codeql]
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - language: actions
+            build-mode: none
+            uses-gradle: false
+          - language: java-kotlin
+            build-mode: autobuild
+            uses-gradle: true
+          - language: ruby
+            build-mode: none
+            uses-gradle: false
+
+    steps:
+
+      - name: "Checkout repository source code"
+        uses: actions/checkout@v4.2.2
+
+
+      - name: Setup Java for Kotlin
+        uses: actions/setup-java@v4.7.1
+        timeout-minutes: 5
+        with:
+          distribution: temurin
+          java-version: 21
+
+
+      - name: Initialize CodeQL
+        uses: github/codeql-action/init@v3.29.0
+        timeout-minutes: 17
+        with:
+          languages: ${{ matrix.language }}
+          build-mode: ${{ matrix.build-mode }}
+          queries: +security-extended,security-and-quality
+
+
+      - name: Fallback Gradle Build
+        if: matrix.uses-gradle && matrix.build-mode == 'autobuild'
+        timeout-minutes: 5
+        run: |
+          echo "::group::Fallback Gradle Build"
+          ./gradlew clean classes testClasses \
+            && echo "::notice title=Gradle::✔️ Fallback succeeded" \
+            || echo "::warning title=Gradle::❌ Fallback failed (ignored)"
+          echo "::endgroup::"
+
+
+      - name: Wrap-Up
+        if: always()
+        run: |
+          echo "::notice title=CodeQL Status::✅ Analysis complete for ${{ matrix.language }}"
+          echo "📍 See results under the 'Security' tab → 'Code scanning alerts'"

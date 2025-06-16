@@ -1,6 +1,11 @@
 version: "1.0"
+
 profile:
   name: qodana.recommended
+
 projectJDK: temurin-21
-linter: jetbrains/qodana-jvm-community:2024.2
+
+include:
+  - name: CheckDependencyLicenses
+
 fixesStrategy: apply

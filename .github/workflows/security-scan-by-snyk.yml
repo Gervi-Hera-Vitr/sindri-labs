@@ -1,0 +1,58 @@
+name: Security Scan by Snyk
+run-name: "Executed Security Scan by Snyk on ${{ github.repository }} by ${{ github.actor }} with ${{ github.event_name }} (Attempt ${{ github.run_attempt }})"
+#.github/workflows/security-scan-by-snyk.yml
+# See der-jynK https://github.com/snyk/actions/tree/master/setup
+
+on:
+  push:
+    branches:
+      - '[0-9]*-*'
+  workflow_dispatch:
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - closed
+  schedule:
+    - cron: '23 17 4 * *'
+
+permissions:
+  contents: read
+  security-events: write
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+
+  snyk-scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 11
+
+    steps:
+
+      - name: Checkout code
+        uses: actions/checkout@v4.2.2
+        with:
+          fetch-depth: 0
+
+
+      - name: Setup Java
+        uses: actions/setup-java@v4.7.1
+        timeout-minutes: 5
+        with:
+          distribution: temurin
+          java-version: 21
+
+
+      - name: Run Snyk directly from trunk
+        timeout-minutes: 5
+        uses: snyk/actions/setup@master
+
+
+      - name: Run Snyk Test App
+        timeout-minutes: 9
+        run: snyk monitor
+        env:
+          SNYK_TOKEN: ${{ secrets.SNYK_PROJECT_TOKEN }}
