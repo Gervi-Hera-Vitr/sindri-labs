@@ -1,0 +1,55 @@
+name: Build on Push
+run-name: "Build on Push on ${{ github.repository }} by ${{ github.actor }} with ${{ github.event_name }} (Attempt ${{ github.run_attempt }})"
+
+on:
+  push:
+    branches:
+      - '[0-9]*-*'
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: "${{ github.workflow }}-push"
+  cancel-in-progress: true
+
+jobs:
+
+  build-on-push:
+    name: Build project on push for sanity checks
+    timeout-minutes: 13
+    runs-on: [self-hosted, builder]
+
+    env:
+      GH_TOKEN: ${{ github.token }}
+
+    steps:
+
+      - name: Full Checkout
+        id: checkout
+        uses: actions/checkout@v4.2.2
+        timeout-minutes: 1
+        with:
+          fetch-depth: 0
+          fetch-tags: 'true'
+
+      - name: Submit Dependency Graph
+        uses: gradle/actions/dependency-submission@v4.4.1
+        with:
+          artifact-retention-days: 3
+          gradle-home-cache-cleanup: 'true'
+          build-scan-publish: true
+          build-scan-terms-of-use-url: "https://gradle.com/help/legal-terms-of-use"
+          build-scan-terms-of-use-agree: "yes"
+        timeout-minutes: 7
+
+      - name: Build and Test
+        run: |
+          ./gradlew clean build test asciidoctor asciidoctorPdf asciidoctorHtml asciidoctorEpub --no-daemon --no-parallel --no-build-cache

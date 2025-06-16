@@ -1,4 +1,4 @@
-name: GitHub Prune Actions Cache
+name: GitHub Caches Prune
 run-name: "Pruned Old Action Run Caches on ${{ github.repository }} by ${{ github.actor }} with ${{ github.event_name }} (Attempt ${{ github.run_attempt }})"
 #.github/workflows/github-cache-prune.yml
 
@@ -56,11 +56,10 @@ jobs:
 
 
       - name: "Cleanup stale actions caches"
-        run: ./util/src/main/sh/clean-github-cache.sh
+        run: ./src/main/sh/clean-github-cache.sh
         timeout-minutes: 5
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: "Cleanup agent-local Gradle caches"
-        if: ${{ inputs.restriction == 'purge-local-caches' }}
-        run: ./util/src/main/sh/check-gradle-cache.sh
+        run: ./src/main/sh/check-gradle-cache.sh
