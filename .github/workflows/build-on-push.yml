@@ -20,6 +20,10 @@ concurrency:
   group: "${{ github.workflow }}-push"
   cancel-in-progress: true
 
+defaults:
+  run:
+    shell: zsh -l {0}
+
 jobs:
 
   build-on-push:
