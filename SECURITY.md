@@ -54,3 +54,8 @@ gradle --quiet --build-cache --no-daemon dependencyUpdates
 
 Hint: search output fof 'The following dependencies have later milestone versions.'
 Hint: `kotlin-dsl` version forcing is not required here yet.
+
+___
+
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/de545692d2054bf7a4a6ccff66783bd1)](https://app.codacy.com/gh/Gervi-Hera-Vitr/sindri-labs/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
+

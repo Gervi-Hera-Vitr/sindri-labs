@@ -47,7 +47,7 @@ jobs:
         timeout-minutes: 27
         with:
           verbose: true
-          project-token: ${{ secrets.CODACY_PROJECT_TOKEN }}
+          project-token: ${{ secrets.CODACY_TOKEN }}
           gh-code-scanning-compat: true
           max-allowed-issues: 999
           upload: true

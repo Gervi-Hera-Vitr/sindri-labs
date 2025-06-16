@@ -70,8 +70,7 @@ See our security policy [here](https://github.com/Gervi-Hera-Vitr/sindri-labs/se
 - [local](./local) - Fluent local setup instructions for IDEs used in labs and production applications.
 - [site](./site) - Public home page for the school published with Jekyll and GitHub Pages.
 - [src](./src) - Source code for the support of the school program operations at the root of the repository.
-- [util](./util) - Script and library files for the ops and maintenance of the school program;
-  - [.github](./.github) - GitHub actions and workflows are actively using these scripts.
+- [.github](./.github) - GitHub actions and workflows are actively using these scripts.
 
 **Technical and mechanical modules for the school assets:**
 
@@ -99,3 +98,10 @@ See our security policy [here](https://github.com/Gervi-Hera-Vitr/sindri-labs/se
 - [Productivity Game](https://www.youtube.com/@ProductivityGame "Productivity Game")
 - [LITTLE BIT BETTER](https://www.youtube.com/@littlebitbetter7 "LITTLE BIT BETTER")
 
+## Code Quality and Validation
+
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/de545692d2054bf7a4a6ccff66783bd1)](https://app.codacy.com/gh/Gervi-Hera-Vitr/sindri-labs/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
+
+## DevOps, MLOps, and CICD Pipelines
+
+[![Security Scan by Codacy](https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/security-scan-by-codacy.yml/badge.svg)](https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/security-scan-by-codacy.yml)
