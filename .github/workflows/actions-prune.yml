@@ -1,5 +1,6 @@
-name: "Prune Actions by CLI"
-run-name: "Prune Old Action Runs on [${{ github.repository }}] @ ${{ github.ref }} by ${{ github.actor }} with ${{ github.event_name }}"
+name: GitHub Actions Prune
+run-name: "Pruned Old Action Runs but ONE on ${{ github.repository }} by ${{ github.actor }} with ${{ github.event_name }} (Attempt ${{ github.run_attempt }})"
+#.github/workflows/github-actions-prune.yml
 
 on:
   workflow_dispatch:
@@ -7,6 +8,9 @@ on:
   push:
     branches:
       - main
+      - '[0-9]*-*'
+  create:
+    branches:
       - '[0-9]*-*'
   pull_request:
     types:
@@ -30,7 +34,7 @@ concurrency:
 jobs:
 
   cleanup-old-action-runs-leaving-one:
-    timeout-minutes: 17
+    timeout-minutes: 7
     runs-on: [self-hosted, housekeeping]
     name: "Prune old actions leaving one"
 
@@ -45,6 +49,6 @@ jobs:
 
       - name: "Cleanup old action runs leaving the last one for each workflow"
         run: ./util/src/main/sh/clean-runs.sh
-        timeout-minutes: 15
+        timeout-minutes: 5
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
