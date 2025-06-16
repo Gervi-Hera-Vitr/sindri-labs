@@ -44,12 +44,9 @@ jobs:
           fetch-depth: 0
           fetch-tags: 'true'
 
-      - name: Bootstrap toolkit
-        run: |
-          source "$SDKMAN_DIR/bin/sdkman-init.sh" && \
-          sdk current
-        timeout-minutes: 1
 
       - name: Build and Test
         run: |
-          ./gradlew clean build test asciidoctor asciidoctorPdf asciidoctorHtml asciidoctorEpub --no-daemon --no-parallel --no-build-cache
+          source "$SDKMAN_DIR/bin/sdkman-init.sh" && \
+          sdk current
+          ./gradlew clean build test
