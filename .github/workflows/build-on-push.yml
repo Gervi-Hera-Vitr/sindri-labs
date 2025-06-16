@@ -48,4 +48,9 @@ jobs:
       - name: Build and Test
         run: |
           source "$SDKMAN_DIR/bin/sdkman-init.sh" && sdk current
-          gradle clean build asciidoctor asciidoctorPdf asciidoctorEpub --scan
+          gradle clean build test dependencyUpdates asciidoctor asciidoctorPdf asciidoctorEpub --scan
+          gradle dependencyUpdates
+          
+      - name: 📡 Submit Dependency Graph
+        uses: gradle/actions/dependency-submission@v4.4.1
+        timeout-minutes: 3

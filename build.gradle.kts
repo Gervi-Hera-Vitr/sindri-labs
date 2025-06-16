@@ -19,7 +19,7 @@ val documentationRootFolder = file(project.property("docs.root.folder") as Strin
 private val log by lazy { LoggerFactory.getLogger("ai.gervi.hera.vitr.build") }
 
 plugins {
-    id("org.gradle.kotlin.kotlin-dsl") apply false  // `kotlin-dsl` forced version upgrade
+    id("org.gradle.kotlin.kotlin-dsl") apply false
     id("com.github.ben-manes.versions")
 
     kotlin("jvm")
