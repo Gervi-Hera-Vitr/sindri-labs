@@ -1,3 +1,4 @@
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/2245da99171f45b2894bc6a94716f8d7)](https://app.codacy.com/gh/Gervi-Hera-Vitr/sindri-labs?utm_source=github.com&utm_medium=referral&utm_content=Gervi-Hera-Vitr/sindri-labs&utm_campaign=Badge_Grade)
 [![built with Codeium](https://codeium.com/badges/main)](https://codeium.com)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/de545692d2054bf7a4a6ccff66783bd1)](https://app.codacy.com/gh/Gervi-Hera-Vitr/sindri-labs/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 
