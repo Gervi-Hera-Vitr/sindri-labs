@@ -14,7 +14,7 @@ defaults:
 
 concurrency:
   group: "${{ github.workflow }}-jekyll"
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 
 jobs:
