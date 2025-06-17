@@ -78,4 +78,5 @@ jobs:
         with:
           path: site/_site
           retention-days: '2'
+          name: 'github-pages'
 

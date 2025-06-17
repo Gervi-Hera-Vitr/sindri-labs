@@ -2,9 +2,6 @@ name: Security Scan by Codacy
 run-name: "Executed Security Scan by Codacy on ${{ github.repository }} by ${{ github.actor }} with ${{ github.event_name }} (Attempt ${{ github.run_attempt }})"
 
 on:
-  push:
-    branches:
-      - main
   workflow_dispatch:
   pull_request:
     types:

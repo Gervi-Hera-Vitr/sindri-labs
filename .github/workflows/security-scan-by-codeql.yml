@@ -3,9 +3,6 @@ run-name: "Executed Security Scan by CodeQL Advanced on ${{ github.repository }}
 #.github/workflows/security-scan-by-codeql.yml
 
 on:
-  push:
-    branches:
-      - main
   workflow_dispatch:
   pull_request:
     types:
