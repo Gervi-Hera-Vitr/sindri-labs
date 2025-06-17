@@ -10,7 +10,7 @@ on:
     types:
       - opened
       - reopened
-      - synchronize
+      - closed
   schedule:
     - cron: '17 11 1 * *'
 

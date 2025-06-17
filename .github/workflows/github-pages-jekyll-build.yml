@@ -8,6 +8,7 @@ on:
       - opened
       - reopened
       - closed
+      - synchronize
   workflow_dispatch:
 
 permissions:
@@ -39,12 +40,20 @@ jobs:
         run: bundle install
 
 
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5.0.0
+        timeout-minutes: 3
+
+
       - name: 🛠️ Build Jekyll site
         working-directory: site
         timeout-minutes: 13
+        env:
+          JEKYLL_ENV: production
         run: |
           echo "::group::Jekyll Build"
-          JEKYLL_ENV=production bundle exec jekyll build
+          bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
           echo "::notice title=Jekyll Status::✅ Build complete"
           echo "::endgroup::"
 
@@ -68,5 +77,5 @@ jobs:
         with:
           path: site/_site
           retention-days: '2'
-          name: 'gervi-hera-viskr-learning-trails'
+          name: 'gervi-hera-viskr'
 

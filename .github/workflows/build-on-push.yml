@@ -6,7 +6,7 @@ on:
     types:
       - opened
       - reopened
-      - synchronize
+      - closed
   workflow_dispatch:
 
 permissions:
