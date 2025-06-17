@@ -36,10 +36,3 @@ jobs:
         id: deployment
         timeout-minutes: 9
         uses: actions/deploy-pages@v4.0.5
-        with:
-          artifact_name: 'gervi-hera-viskr'
-          reporting_interval: '2500'
-          error_count: '7'
-          timeout: '420000'
-          preview: 'true'
-
