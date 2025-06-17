@@ -68,5 +68,5 @@ jobs:
         with:
           path: site/_site
           retention-days: '2'
-          name: 'gervi-hera-viskr-learning-trails'
+          name: 'gervi-hera-viskr'
 
