@@ -4,6 +4,9 @@ run-name: "Publish Pages Artifact on ${{ github.repository }} by ${{ github.acto
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
 
 permissions:
   pages: write
@@ -19,6 +22,12 @@ concurrency:
 
 
 jobs:
+
+
+  build-site:
+    uses: ./.github/workflows/github-pages-jekyll-build.yml
+    secrets: inherit
+
 
   deploy-to-default-pages:
     runs-on: [self-hosted, site]
