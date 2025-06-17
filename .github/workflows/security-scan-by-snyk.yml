@@ -4,6 +4,9 @@ run-name: "Executed Security Scan by Snyk on ${{ github.repository }} by ${{ git
 # See der-jynK https://github.com/snyk/actions/tree/master/setup
 
 on:
+  push:
+    branches:
+      - main
   workflow_dispatch:
   pull_request:
     types:

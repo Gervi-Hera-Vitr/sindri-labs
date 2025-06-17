@@ -12,8 +12,6 @@ val versionOfKotlinLogging: String by project
 val versionOfSlf4j: String by project
 val versionOfLogback: String by project
 
-val asciidoctorJDiagramVersion: String by project
-
 val documentationRootFolder = file(project.property("docs.root.folder") as String)
 
 private val log by lazy { LoggerFactory.getLogger("ai.gervi.hera.vitr.build") }

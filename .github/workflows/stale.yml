@@ -10,7 +10,12 @@ on:
   push:
     branches:
       - main
-      - '[0-9]*-*'
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - closed
+
 
 permissions:
   issues: write
