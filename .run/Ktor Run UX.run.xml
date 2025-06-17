@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="RunUX" type="KtorApplicationConfigurationType" factoryName="Ktor">
+  <configuration default="false" name="Ktor Run UX" type="KtorApplicationConfigurationType" factoryName="Ktor">
     <option name="MAIN_CLASS_NAME" value="ux.virt.lugaru.me.ApplicationKt" />
     <module name="sindri-labs.lab-ux-ktor.main" />
     <option name="alternativeJrePath" />
@@ -7,7 +7,7 @@
     <option name="includeProvidedScope" value="false" />
     <option name="mainClass" value="ux.virt.lugaru.me.ApplicationKt" />
     <option name="passParentEnvs" value="true" />
-    <option name="programParameters" />
+    <option name="programParameters" value="" />
     <option name="shortenCommandLine" />
     <option name="vmParameters" />
     <option name="workingDirectory" value="$PROJECT_DIR$" />

@@ -1,17 +1,19 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="CheckActionsCatalog" type="ShConfigurationType" focusToolWindowBeforeRun="true">
-    <option name="SCRIPT_TEXT" value="" />
+  <configuration default="false" name="Bundle Local Site" type="ShConfigurationType" activateToolWindowBeforeRun="false">
+    <option name="SCRIPT_TEXT" value="bundle exec jekyll serve -wolIVt" />
     <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
-    <option name="SCRIPT_PATH" value="$PROJECT_DIR$/util/src/main/sh/lib/catalog.sh" />
+    <option name="SCRIPT_PATH" value="$PROJECT_DIR$/src/main/sh/build-site.sh" />
     <option name="SCRIPT_OPTIONS" value="" />
     <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
-    <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/" />
+    <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/site" />
     <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
     <option name="INTERPRETER_PATH" value="/usr/bin/env" />
     <option name="INTERPRETER_OPTIONS" value="zsh" />
     <option name="EXECUTE_IN_TERMINAL" value="false" />
     <option name="EXECUTE_SCRIPT_FILE" value="true" />
     <envs />
-    <method v="2" />
+    <method v="2">
+      <option name="LaunchBrowser.Before.Run" url="http://127.0.0.1:4000/sindri-labs/" />
+    </method>
   </configuration>
 </component>

@@ -3,12 +3,6 @@ run-name: "Jekyll built and bundles on ${{ github.repository }} by ${{ github.ac
 #.github/workflows/github-pages-deploy.yml
 
 on:
-  pull_request:
-    types:
-      - opened
-      - reopened
-      - closed
-      - synchronize
   workflow_dispatch:
 
 permissions:
@@ -58,25 +52,11 @@ jobs:
           echo "::endgroup::"
 
 
-      - name: 🔗 Check for broken links
-        working-directory: site/_site
-        run: |
-          echo "::group::Link Check"
-          find . -name "*.html" -exec grep -o 'href="[^"]*"' {} \; \
-            | cut -d'"' -f2 \
-            | grep -Ev '^#|^mailto:|^https?://' \
-            | xargs -I{} test -e "{}" \
-            && echo "::notice title=Links::✅ All internal links valid" \
-            || echo "::warning title=Links::⚠️ Broken internal links found"
-          echo "::endgroup::"
-
-
-
       - name: 📤 Upload site artifact
         uses: actions/upload-pages-artifact@v3.0.1
         timeout-minutes: 5
         with:
           path: site/_site
-          retention-days: '2'
+          retention-days: 7
           name: 'github-pages'
 

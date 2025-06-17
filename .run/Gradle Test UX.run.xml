@@ -1,8 +1,8 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="BuildCurriculum" type="GradleRunConfiguration" factoryName="Gradle">
+  <configuration default="false" name="Gradle Test UX" type="GradleRunConfiguration" factoryName="Gradle">
     <ExternalSystemSettings>
       <option name="executionName" />
-      <option name="externalProjectPath" value="$PROJECT_DIR$" />
+      <option name="externalProjectPath" value="$PROJECT_DIR$/lab-ux-ktor" />
       <option name="externalSystemIdString" value="GRADLE" />
       <option name="scriptParameters" value="--rerun-tasks" />
       <option name="taskDescriptions">
@@ -10,9 +10,7 @@
       </option>
       <option name="taskNames">
         <list>
-          <option value="asciidoctor" />
-          <option value="asciidoctorPdf" />
-          <option value="asciidoctorEpub" />
+          <option value="test" />
         </list>
       </option>
       <option name="vmOptions" />

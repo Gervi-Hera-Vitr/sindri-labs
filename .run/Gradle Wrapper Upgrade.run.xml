@@ -1,16 +1,20 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="TestLabUX" type="GradleRunConfiguration" factoryName="Gradle">
+  <configuration default="false" name="Gradle Wrapper Upgrade" type="GradleRunConfiguration" factoryName="Gradle">
     <ExternalSystemSettings>
       <option name="executionName" />
-      <option name="externalProjectPath" value="$PROJECT_DIR$/lab-ux-ktor" />
+      <option name="externalProjectPath" value="$PROJECT_DIR$" />
       <option name="externalSystemIdString" value="GRADLE" />
-      <option name="scriptParameters" value="--rerun-tasks" />
+      <option name="scriptParameters" value="" />
       <option name="taskDescriptions">
         <list />
       </option>
       <option name="taskNames">
         <list>
-          <option value="test" />
+          <option value="wrapper" />
+          <option value="--gradle-version" />
+          <option value="latest" />
+          <option value="--distribution-type" />
+          <option value="all" />
         </list>
       </option>
       <option name="vmOptions" />

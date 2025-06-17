@@ -3,9 +3,6 @@ run-name: "Publish Pages Artifact on ${{ github.repository }} by ${{ github.acto
 #.github/workflows/github-pages-deploy.yml
 
 on:
-  push:
-    branches:
-      - main
   workflow_dispatch:
 
 permissions:
