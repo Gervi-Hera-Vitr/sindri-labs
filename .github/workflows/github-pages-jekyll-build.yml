@@ -4,6 +4,9 @@ run-name: "Jekyll built and bundles on ${{ github.repository }} by ${{ github.ac
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
 
 permissions:
   contents: read
@@ -24,11 +27,11 @@ jobs:
     timeout-minutes: 13
 
     steps:
-      - name: ⬇️ Checkout repository
+      - name: Checkout repository
         uses: actions/checkout@v4.2.2
 
 
-      - name: 📦 Install dependencies
+      - name: Install dependencies
         working-directory: site
         timeout-minutes: 7
         run: bundle install
@@ -40,23 +43,18 @@ jobs:
         timeout-minutes: 3
 
 
-      - name: 🛠️ Build Jekyll site
+      - name: Build Jekyll site
         working-directory: site
         timeout-minutes: 13
         env:
           JEKYLL_ENV: production
         run: |
-          echo "::group::Jekyll Build"
           bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
-          echo "::notice title=Jekyll Status::✅ Build complete"
-          echo "::endgroup::"
 
 
-      - name: 📤 Upload site artifact
+      - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3.0.1
         timeout-minutes: 5
         with:
           path: site/_site
-          retention-days: 7
-          name: 'github-pages'
 

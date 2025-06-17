@@ -4,6 +4,9 @@ run-name: "Publish Pages Artifact on ${{ github.repository }} by ${{ github.acto
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
 
 permissions:
   pages: write
@@ -28,6 +31,10 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
+
+
+      - name: Wait for GitHub Cache propagation
+        run: sleep 17
 
       - name: 🚀 Deploy to GitHub Pages
         id: deployment
