@@ -8,6 +8,7 @@ on:
       - opened
       - reopened
       - closed
+      - synchronize
   workflow_dispatch:
 
 permissions:
