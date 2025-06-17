@@ -35,6 +35,7 @@ jobs:
   deploy-to-default-pages:
     runs-on: [self-hosted, site]
     timeout-minutes: 11
+    needs: build-site
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
