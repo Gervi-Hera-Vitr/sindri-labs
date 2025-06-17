@@ -4,9 +4,6 @@ run-name: "Publish Pages Artifact on ${{ github.repository }} by ${{ github.acto
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - main
 
 permissions:
   pages: write
@@ -33,10 +30,10 @@ jobs:
     steps:
 
 
-      - name: Wait for GitHub Cache propagation
-        run: sleep 17
-
       - name: 🚀 Deploy to GitHub Pages
         id: deployment
         timeout-minutes: 9
         uses: actions/deploy-pages@v4.0.5
+        with:
+          artifact_name: sindri-school-site
+
