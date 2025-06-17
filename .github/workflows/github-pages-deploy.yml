@@ -41,4 +41,5 @@ jobs:
           reporting_interval: '2500'
           error_count: '7'
           timeout: '420000'
+          preview: 'true'
 
