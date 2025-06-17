@@ -11,7 +11,7 @@ on:
     types:
       - opened
       - reopened
-      - synchronize
+      - closed
   schedule:
     - cron: '16 13 2 * *'
 
