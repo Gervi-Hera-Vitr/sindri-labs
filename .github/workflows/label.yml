@@ -3,33 +3,39 @@ run-name: "Label Pull Request with IAW Labeling Guidelines examining content by 
 # https://github.com/actions/labeler
 
 on:
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - labeled
+      - unlabeled
+      - closed
+      - synchronize
   workflow_dispatch:
-  workflow_call:
-    inputs:
-      restriction:
-        required: true
-        type: string
 
 permissions:
   contents: read
   pull-requests: write
+  issues: write
+
+defaults:
+  run:
+    shell: zsh -l {0}
 
 concurrency:
-  group: "Labeling Group"
-  cancel-in-progress: false
+  group: "${{ github.workflow }}-labels"
+  cancel-in-progress: true
+
 
 jobs:
   label-pull-request-iaw-labeling-guidelines:
     timeout-minutes: 3
-    runs-on: self-hosted
+    runs-on: [self-hosted, housekeeping]
     name: "Label Pull Request with IAW Labeling Guidelines examining content"
 
-    defaults:
-      run:
-        shell: zsh -l {0}
-
     steps:
+
       - name: "Label Pull Request pushing labels to GitHub Pull Request"
-        uses: actions/labeler@bee50fefe18762fad67754b2f3bfff2c8082ebb8
+        uses: actions/labeler@v5.0.0
         with:
           repo-token: "${{ secrets.GITHUB_TOKEN }}"

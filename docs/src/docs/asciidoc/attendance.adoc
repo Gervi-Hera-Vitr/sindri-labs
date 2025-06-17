@@ -1,0 +1,23 @@
+= Mímir Academy: Attendance Policy
+R!dd13r rdd13r <12781006+rdd13r@users.noreply.github.com>
+v1.0, Monday June 16th 2025
+:description: Mímir Academy (homeschooling) attendance policy documentation module.
+:sectnums:
+:sectanchors:
+:sectlinks:
+:icons: font
+:tip-caption: 💡️
+:note-caption: ℹ️
+:important-caption: ❗
+:caution-caption: 🔥
+:warning-caption: ⚠️
+:toc: preamble
+:toclevels: 3
+:toc-title: Mímir Academy
+:keywords: Mímir Academy 2025
+:imagesdir: ../../resources/images
+ifdef::env-name[:relfilesuffix: .adoc]
+
+PLACEHOLDER
+
+image::avatar.png[Pedagogy,width=240,align=right]

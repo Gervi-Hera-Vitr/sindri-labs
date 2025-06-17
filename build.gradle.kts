@@ -1,4 +1,8 @@
 import com.github.benmanes.gradle.versions.updates.DependencyUpdatesTask
+import org.asciidoctor.gradle.jvm.AsciidoctorTask
+import org.asciidoctor.gradle.jvm.epub.AsciidoctorEpubTask
+import org.asciidoctor.gradle.jvm.epub.AsciidoctorEpubTask.EPUB3
+import org.asciidoctor.gradle.jvm.pdf.AsciidoctorPdfTask
 import org.slf4j.LoggerFactory
 import java.util.*
 
@@ -8,13 +12,12 @@ val versionOfKotlinLogging: String by project
 val versionOfSlf4j: String by project
 val versionOfLogback: String by project
 
-val asciidoctorJDiagramVersion: String by project
+val documentationRootFolder = file(project.property("docs.root.folder") as String)
 
 private val log by lazy { LoggerFactory.getLogger("ai.gervi.hera.vitr.build") }
 
 plugins {
-    id("org.gradle.kotlin.kotlin-dsl") apply false  // `kotlin-dsl` forced version upgrade
-//    `kotlin-dsl` apply false  // `kotlin-dsl` maintainer's recommendation
+    id("org.gradle.kotlin.kotlin-dsl") apply false
     id("com.github.ben-manes.versions")
 
     kotlin("jvm")
@@ -23,22 +26,10 @@ plugins {
     id("io.ktor.plugin") apply false
     id("org.jetbrains.kotlin.plugin.serialization") apply false
 
-    id("org.asciidoctor.jvm.pdf") apply false
-    id("org.asciidoctor.jvm.gems") apply false
-    id("org.asciidoctor.jvm.epub") apply false
-    id("org.asciidoctor.jvm.convert") apply false
-}
-
-allprojects {
-    repositories {
-        mavenCentral()
-    }
-}
-
-java {
-    toolchain {
-        languageVersion = JavaLanguageVersion.of(useJavaVer)
-    }
+    id("org.asciidoctor.jvm.pdf")
+    id("org.asciidoctor.jvm.gems")
+    id("org.asciidoctor.jvm.epub")
+    id("org.asciidoctor.jvm.convert")
 }
 
 dependencies {
@@ -52,6 +43,41 @@ dependencies {
     testImplementation(platform(kotlin("bom")))
     testImplementation(kotlin("test"))
 }
+
+allprojects {
+    repositories {
+        mavenCentral()
+    }
+}
+java {
+    toolchain {
+        languageVersion.set(JavaLanguageVersion.of(useJavaVer))
+        vendor.set(JvmVendorSpec.ADOPTIUM)
+        log.info("\t|=> Riddle me that Java Toolchain SET to    -> $useJavaVer : ${JvmVendorSpec.ADOPTIUM}.")
+    }
+}
+
+tasks.named<AsciidoctorTask>("asciidoctor") { configureAsciiDocInput(this) }
+
+tasks.named<AsciidoctorPdfTask>("asciidoctorPdf") { configureAsciiDocInput(this) }
+
+tasks.named<AsciidoctorEpubTask>("asciidoctorEpub") { configureAsciiDocInput(this).also { ebookFormats(EPUB3) } }
+
+pdfThemes {
+    local("principal") {
+        themeDir = file("docs/src/resources/themes")
+        themeName = "principal-theme"
+    }
+    local("project") {
+        themeDir = file("docs/src/resources/themes")
+        themeName = "project-theme"
+    }
+    local("student") {
+        themeDir = file("docs/src/resources/themes")
+        themeName = "student-theme"
+    }
+}
+
 
 tasks.named<DependencyUpdatesTask>("dependencyUpdates").configure {
     checkForGradleUpdate = true
@@ -126,5 +152,32 @@ tasks.register("processDependencyUpdates") {
             println("All dependencies are up to date.")
             println("::notice file=build.gradle.kts::Dependencies are up to date.")
         }
+    }
+}
+
+/**
+ * Configures the Asciidoctor task to generate documents from a specified source directory
+ * and include only the specified patterns.
+ *
+ * @param task the Asciidoctor task to configure
+ * @param sourceDir the source directory containing the documents to generate
+ * @param includePatterns the patterns to include in the generation. Defaults to ["OnLeadership.adoc"]
+ */
+fun configureAsciiDocInput(
+    task: org.asciidoctor.gradle.jvm.AbstractAsciidoctorTask,
+    sourceDir: File = documentationRootFolder,
+    includePatterns: List<String> = listOf(
+        "attendance.adoc",
+        "compliance.adoc",
+        "curriculum.adoc",
+        "index.adoc",
+        "testing.adoc")
+) {
+    task.apply {
+        isLogDocuments = true
+        baseDirFollowsSourceDir()
+        sourceDir(sourceDir)
+
+        sources { includePatterns.forEach { include(it) } }
     }
 }
