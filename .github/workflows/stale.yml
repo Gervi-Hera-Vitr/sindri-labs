@@ -7,15 +7,10 @@ on:
   schedule:
     - cron: '20 10 * * 1'
   workflow_dispatch:
-  push:
-    branches:
-      - main
   pull_request:
     types:
       - opened
       - reopened
-      - closed
-
 
 permissions:
   issues: write
