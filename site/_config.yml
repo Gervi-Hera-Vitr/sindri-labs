@@ -1,49 +1,83 @@
-title: "Gervi Héra Vitr Labs"
-email: 12781006+rdd13r@users.noreply.github.com
-description: "A dedicated space for learning, exploring, and building AI projects."
-github_username: Gervi-Hera-Vitr
-github: [metadata]
+github                      : [metadata]
 
-baseurl: "/sindri-labs"
-url: "https://gervi-hera-vitr.github.io"
+# Site Metadata
+title                       : "Gervi Héra Vitr Labs"
+subtitle                    : "<i>Gervi Héra Viskr Learning Trails/i>"
+title_separator             : " - "
+description                 : "A dedicated space for learning, exploring, and building AI projects."
+email                       : 12781006+rdd13r@users.noreply.github.com
+url                         : "https://gervi-hera-vitr.github.io"
+baseurl                     : "/sindri-labs"
+github_username             : Gervi-Hera-Vitr
+twitter_username            : ""
 
-markdown: kramdown
-remote_theme: "mmistakes/minimal-mistakes"
+# Theme and Styling
+remote_theme                : "mmistakes/minimal-mistakes"
 #minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-minimal_mistakes_skin: "air"
+minimal_mistakes_skin       : "air"
+sass:
+  quiet_deps                : true
 
+markdown                    : kramdown
+safe                        : false
+
+# Plugins
 plugins:
+  - jekyll-asciidoc
+  - jekyll-data
+  - jekyll-feed
   - jekyll-remote-theme
   - jekyll-paginate-v2
-  - jekyll-sitemap
-  - jekyll-data
-  - jekyll-gist
-  - jekyll-feed
   - jekyll-include-cache
-  - jekyll-algolia
   - jekyll-archives
-  - jemoji
+  - jekyll-sitemap
 
-safe: false
+# Pagination defaults
+pagination:
+  enabled                   : true
+  per_page                  : 10
+  permalink                 : '/page/:num/'
+  title                     : ':title - page :num'
 
-author:
-  name: "Gervi Héra Vitr Labs Team"
-  avatar: "/assets/images/avatar.png"
-  bio: "Exploring AI and building innovative solutions."
-
+# Defaults for posts (when you start adding them) and pages
 defaults:
   - scope:
-      path: ""
-      type: "posts"
+      path                  : ""
+      type                  : posts
     values:
-      layout: "single"
-      author: "Gervi Héra Vitr Labs Team"
-      comments: true
+      layout                : single
+      author_profile        : true
+      read_time             : true
+      comments              : false
+      share                 : true
+      related               : true
+      breadcrumbs           : false
   - scope:
-      path: ""
-      type: "pages"
+      path                  : ""
+      type                  : pages
     values:
-      layout: "single"
+      author_profile        : false
+
+# Reading Files
+include:
+  - _pages
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
+  - README.md
+keep_files:
+  - .temp
+encoding                    : "utf-8"
+
+
+author:
+  name                      : "Gervi Héra Vitr Labs Team"
+  avatar                    : "/assets/images/avatar.png"
+  bio                       : "Exploring AI and building innovative solutions."
 
 # Navigation
 header_pages:
@@ -52,11 +86,5 @@ header_pages:
 
 # SEO and sitemap
 seo:
-  title: "Gervi Héra Vitr Labs"
-  description: "Exploring AI and building innovative solutions."
-
-# Exclude unnecessary folders/files from processing
-exclude:
-  - README.md
-  - Gemfile
-  - Gemfile.lock
+  title                     : "Gervi Héra Vitr Labs"
+  description               : "Exploring AI and building innovative solutions."

@@ -1,0 +1,20 @@
+---
+excerpt: Gervi Héra Vitr is a space where ancient wisdom meets modern coding fluffle innovations... by munchkins.
+header:
+  overlay_image: /assets/images/banner.png
+  overlay_filter: 0.4
+  caption: Gervi Hî Vitr Labs Team
+  actions:
+    - label: "Gervi Héra Viskr Learning Trails"
+      url: https://github.com/orgs/Gervi-Hera-Vitr/projects/1/views/1
+    - label: "School Curriculum"
+      url: https://github.com/Gervi-Hera-Vitr/sindri-labs/tree/main/curriculum
+classes: wide
+permalink: /
+layout: home
+description: "A dedicated space for learning, exploring, and building AI projects."
+author: "Gervi Hî Vitr Labs Team"
+---
+= Learning Trails byGervi Héra Vitr
+:icons: font
+
