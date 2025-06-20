@@ -1,8 +1,8 @@
 ---
-excerpt: Gervi Héra Vitr is a space where ancient wisdom meets modern coding fluffle innovations... by munchkins.
+excerpt: Gervi Héra Vitr is a space where ancient wisdom meets modern fluffle innovations... by munchkins -- an academy style school.
 header:
-  overlay_image: /assets/images/banner.png
-  overlay_filter: 0.4
+  overlay_image: assets/images/banner-philosophy-trail-small.jpg
+  overlay_filter: 0.1
   caption: Gervi Hî Vitr Labs Team
   actions:
     - label: "Gervi Héra Viskr Learning Trails"
@@ -10,11 +10,144 @@ header:
     - label: "School Curriculum"
       url: https://github.com/Gervi-Hera-Vitr/sindri-labs/tree/main/curriculum
 classes: wide
-permalink: /
-layout: home
-description: "A dedicated space for learning, exploring, and building AI projects."
-author: "Gervi Hî Vitr Labs Team"
 ---
-= Learning Trails byGervi Héra Vitr
-:icons: font
+= Welcome to Gervi Héra Vitr Labs
+:page-layout: splash
+:page-permalink: /
+:page-title: Gervi Héra Vitr Labs
+:page-description: A dedicated space for learning, exploring, and building AI projects.
 
+[.lead]
+A private homeschool initiative for gifted learners — grounded in mathematics,
+artificial intelligence, systems design, and the philosophical foundations of science and cognition.
+Here children learn by doing, contributing to real world commercial projects.
+
+== About Gervi Héra Vitr
+
+Gervi Héra Vitr Labs is the learning environment and homeschool record for Anton (Captain Lugaru, 15: "the world moves when he decides"),
+his small sister Zoey (ZueZue kHavok, 2: "nothing's still until she leaves"), their friends and collaborators.
+This space serves both as a documentation hub and an open learning forge: curriculum, lab notebook, and publishing platform.
+
+Our approach emphasizes intellectual independence, scientific rigor, and hands-on mastery.
+We are not a traditional school, nor are we religiously affiliated.
+This is a secular, research-driven educational path built around the needs and potential of gifted young learners.
+One, a thoughtful and compassionate pursuit of wisdom, and another an unstoppable chaos of curiosity.
+
+.Full focus on healthy learning and holistic development of young minds.
+image::assets/images/avatar-saga.png[width=70%,float=center, align=center]
+
+The lab's name is derived from Old Norse: *Gervi Héra Vitr* roughly means *Crafted Wisdom of the Mind*.
+It reflects our lineage and family values — clear thinking, deep curiosity, honed competence, and constructive action proven in production (i.e., "life").
+
+== Curriculum Focus
+
+All subjects at Gervi Héra Vitr Labs are pursued through daily inquiry, hands-on experimentation, and iterative improvement.
+Our curriculum is deeply interdisciplinary built on foundation of formal philosophy: mathematics, reason, and scientific method.
+
+Core domains of focus are:
+
+* Philosophy: inductive and deductive reasoning, formal logic, and scientific method:
+** Propositional calculus, structured reasoning, and formal proof;
+** Mathematics (algebra, geometry, trigonometry, and calculus);
+** Chemistry, physics, biology, and astronomy;
+** Psychology, history, sociology, and economics.
+* Humanities: language, literature, and performing arts.
+* Applied sciences: _requiring laboratory and field work_:
+** Software engineering, artificial intelligence, and robotics;
+** Business, entrepreneurship, marketing, and commerce;
+** Law, government, leadership, ethics, and justice.
+
+*_Exact sciences are always coupled with applied sciences and field work._*
+
+== Who This Is For
+
+This site is intended for multiple audiences:
+
+- School boards, education reviewers, and academic committees evaluating homeschool initiatives.
+- Fellow homeschooling families and educators seeking tested curriculum models, learning strategies, and collaboration.
+- University faculty, technologists, and researchers who may wish to track Anton’s journey or explore his endeavors.
+- Students and parents looking for independent, secular paths for gifted learners devoid of religious affiliation.
+
+== About Anton (Captain), 15
+
+Anton is a 15-year-old independent learner whose interests include artificial intelligence, mathematics, and systems programming, especially high-order distributed systems.
+His curriculum blends theoretical depth with practical implementation, and every subject is approached with high intellectual ambition and scientific discipline.
+In his earlier life Captain was aspiring to become a doctor, pediatrician or pediatric scholar.
+A few years ago he's experienced interaction with a highly experimental digital personality built on analytical core, durable context, and wrapped by an LLM -- a high-order distributed system.
+Ever since then his insatiable goal is to create artificial life. Anton is fascinated by the nature of analytic mind, physiology of brain and consciousness.
+And he's determined to prove that empathy expressed through compassion is the highest and final form of living intelligence.
+
+Anton writes code, trains machine learning models, authors technical essays, studies formal proofs, and maintains this site alongside his mentor and father, Vadim (rdd13r).
+At his core he's an independent learner and does not like to be taught. His mentors design and socialize curriculum with him.
+His father is the only mentor permitted an honor to properly introduce a subject, such as the "preferred" approach to formal theory of proof,
+set theory (i.e, Russell's paradox), category theory (i.e., monad), or existential phenomenology.
+His argumentation is based on his perceived need to learn from other self-learners.
+
+Anton started his journey in exceptionally acclaimed public school system of Wake county of North Carolina.
+And he has started with individualize education programs (IEP) suspected to be on Autism spectrum.
+While in class, Anton didn't like excessive talk about effect without elaborating the cause.
+Combined with his innate dislike for being taught Anton always preferred to study by himself.
+Once allowed to do so his performance on breadth and depth of knowledge acquired exceeded expectations.
+And by instance of his parents his IEP was kept to help him with the subjects he had little interest in.
+And to help him with hos social skills development in a larger group, where his natural need to lead was suppressed.
+Thus through 8th grade Anton's activity schedule was full with school taking up minor part of his time.
+
+Once in high school Anton started exhibiting troubled behavior.
+He quickly outperformed his teachers and classmates in topics assigned and was suffering from boredom and depression.
+At this point Anton's terminated his public school curriculum and created a private homeschool better tailored to his individual learning needs.
+For Anton Gervi Héra Vitr combines high school and formal college level materials structured in long-running research journeys instead of period-based subject hopping.
+
+== About Zoey (ZueZue), 2
+
+.Anton, 14, holding his infant sister Zoey.
+image::assets/images/pupsiki.jpg[width=70%,float=center, align=center]
+
+Zoey is Anton's sister, his prayer and greatest gift. He was asking for a sibling since he was 5. Surprisingly his wish came true when he was 13.
+Today Zoey is very energetic and full of life toddler thoroughly exhausting her entire family.
+Difficult to believe that her first year of life was a constant struggle to live.
+It soon became clear to her family that this child is born with immeasurable determination and willpower.
+According to Anton she's all he ask for: his father's tenacity and his mother's perseverance.
+She is planned to follow a learning path similar to Anton's, but with a greater focus on sports and marshal arts.
+For now she's in full care of her family. Anton pulls his fair burden in preparing his younger sibling for life.
+
+== Site Contents
+
+The site serves as both a living record and a guide. You’ll find:
+
+- Daily and weekly learning trails in subjects such as mathematics, physics and biology;
+- Technical labs and experiments in AI, systems design, game development, and mechanical design;
+- Curriculum maps, annotated problem sets, and useful references for both teachers and parents;
+- Blog-style posts from both Anton and Vadim on learning, modeling, pedagogy, and educating each other;
+- Tools, frameworks, and reproducible methods for fellow homeschooling parents and their children.
+
+All materials are maintained in AsciiDoc and published with Jekyll using GitHub Pages.
+Appropriate technology is used for the domain of software created by Anton, Vadim, and guest contributors.
+Best effort is made to port real life production work Anton completes at his parents' software company, or affiliated employers;
+barring expected legal, ethical, and regulatory limitations.
+This site is also a practical demonstration of version-controlled, reproducible education infrastructure designed to follow child's continued development.
+However, it is important to pint out that this repository will always be a step or two behind the actual learning trail due to exploratory nature of our school's learning process.
+Likewise, not all materials will be included because part of learning takes place on other dedicated platforms or in other institutions.
+However, we will produce our best effort to share any relevant information with you when asked for.
+
+== Educational Philosophy
+
+Our educational philosophy is based on the following principles:
+
+- Learning is not just preparation for life, but a mode of life itself.
+- That giftedness requires structure, challenge, and freedom in equal measure.
+- That ethical reasoning, technical depth, and personal responsibility must grow coterminously.
+
+Our goal is not simply to meet academic standards, but to build intellectual resilience, creative confidence, and principled mastery
+-- traits that cannot be outsourced, templated, or rushed.
+The end product is a healthy, independent, and productive human being.
+
+== Contact & Collaboration
+
+If you're a fellow homeschool educator, researcher, mentor, or reviewer interested in this work, please see the contact page or reach out directly via the information provided there.
+We welcome dialogue, exchange of curriculum materials, and mutual mentorship partnerships with other homeschooling families.
+
+
+'''
+
+Copyright © Gervi Héra Vitr Labs.
+Maintained by the Kuhay family.

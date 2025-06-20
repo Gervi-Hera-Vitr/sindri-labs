@@ -14,7 +14,7 @@ twitter_username            : ""
 # Theme and Styling
 remote_theme                : "mmistakes/minimal-mistakes"
 #minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-minimal_mistakes_skin       : "air"
+minimal_mistakes_skin       : "sunrise"
 sass:
   quiet_deps                : true
 
