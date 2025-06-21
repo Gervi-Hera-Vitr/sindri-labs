@@ -43,7 +43,7 @@ Our curriculum is deeply interdisciplinary, built on the foundation of formal ph
 ** Chemistry, physics, biology, and astronomy;
 ** Psychology, history, sociology, and economics.
 * Humanities: language, literature, and performing arts.
-* Applied sciences to generate testible assets proving theory:
+* Applied sciences to generate testable assets proving theory:
 ** Software engineering, artificial intelligence, and robotics;
 ** Business, entrepreneurship, marketing, and commerce;
 ** Law, government, leadership, ethics, and justice.
@@ -57,7 +57,7 @@ This site is intended for multiple audiences:
 - School boards, education reviewers, and academic committees evaluating homeschool initiatives;
 - Fellow homeschooling families and educators seeking tested curriculum models, learning strategies, and collaboration;
 - University faculty, technologists, and researchers who may wish to track Anton’s journey or explore his endeavors;
-- Students and parents looking for independent, secular paths for gifted learners devoid of religious affiliation.
+- Students and parents looking for independent, secular paths for gifted learners unaffiliated with any religion.
 
 == Captain Lugaru, 15
 
