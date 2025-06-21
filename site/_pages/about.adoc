@@ -1,40 +1,53 @@
 ---
 excerpt: introduction to our forge and core values
 header:
-  overlay_image: assets/images/banner-anton.jpg
+  overlay_image: assets/images/banner-devops.jpg
   overlay_filter: 0.2
 layout: single
 permalink: /about/
 ---
 = About Gervi Héra Vitr Labs
 
-Gervi Héra Vitr is a homeschool in North Carolina.
+Gervi Héra Vitr is a homeschool in Cary North Carolina.
 And this site is its classroom and laboratory repository.
-Our curriculum is built by parents and mentors who take full responsibility for their children’s development, autonomy, and future competence.
-Relevant resources are available on this site and its hosting GitHub repository.
+Our curriculum is built by parents, mentors, and students.
+We care deeply about children’s development, autonomy, and competence.
+This site is backed by a GitHub repository and hosted on GitHub Pages.
 
 [.lead]
-*We raise thinkers, builders, and leaders — not products of a system.*
+*We raise thinkers, builders, and leaders +
+{nbsp}{nbsp} -- not products of any system.*
 
 == Our Mission
 
 - Build intellectual resilience.
 - Cultivate ethical reasoning.
 - Develop technical depth.
-- Forge real-world competence through hands-on creation.
-- Share our knowledge and experience.
+- Forge real-world competence.
+- Test through hands-on creation.
+- Share our experiences openly.
 
 == Our Method
 
 Gervi Héra Vitr combines foundational theory with relentless application.
-All learning culminates in a tangible result — an artifact, a contribution, a decision that matters.
+All learning culminates in a tangible result.
+Acceptable outcomes are consequential to the learner.
+Possible assets are an artifact, a product contribution, a business transaction.
+The learning environment is a Socratic classroom. +
+*_A completely flat hierarchy_*: +
+_parents are equal learners to their children_.
 
-Children do not “study subjects.”
-They pursue long arcs of discovery, production, and self-directed inquiry — guided by mentors, powered by curiosity, and tested against reality.
+Children do not "study subjects."
+They pursue long arcs of discovery, production, and self-directed inquiry
+-- helped by mentors, powered by curiosity, and tested against reality.
 
 == A Final Word
 
-We share this forge with the hope that other families — educators, researchers, and mentors — might benefit, collaborate, or contribute to this work.
+We share this forge with the hope that other families
+-- educators, researchers, and mentors
+-- may benefit, collaborate, or contribute to this work.
 
-We're not building a school.
-We're building future elders, founders, warriors, and scientists — one fire-tested soul at a time.
+We're not running a school.
+We're raising future elders,
+founders, warriors, and scientists
+-- one battle-fire-tested soul at a time.

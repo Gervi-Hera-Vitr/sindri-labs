@@ -145,6 +145,6 @@ We welcome dialogue, exchange of curriculum materials, and mutual mentorship par
 
 == On Methodology
 
-We change our methods and curriculum iteratively.
-Check back frequently to see what we're up to.
+We change our methods and curriculum iteratively. +
+Check back frequently to see what we're up to. +
 Please also consider RSS Feeds.
