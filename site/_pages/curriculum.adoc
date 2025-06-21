@@ -6,7 +6,7 @@ header:
 layout: single
 permalink: /curriculum/
 ---
-Curriculum:
+
 = Curriculum
 
 We don’t teach for grades. We build mastery through real work, tested in the field.
