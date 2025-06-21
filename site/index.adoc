@@ -123,9 +123,11 @@ ____
 Poverty is hereditary.
 ____
 
-Children must:
+{zwsp}
 
-. Personally and physically experience dependence on oneself, through decisions and consequences of their own actions.
+*Children must:*
+
+. Personally and physically _experience_ dependence on oneself, through decisions and consequences of their own actions.
 . Be fully and irreversibly immersed into real adult life interactions and shenanigans.
 . Be explicitly shown all aspects of current environment from extreme poverty to extreme wealth.
 . Rigorously introduced to concrete knowledge and given hands-on practice to navigate:
@@ -141,4 +143,8 @@ _To help children attain equality with their parents and surpass them before the
 If you're a fellow homeschool educator, researcher, mentor, or reviewer interested in this work, please see the contact page or reach out directly via the information provided there.
 We welcome dialogue, exchange of curriculum materials, and mutual mentorship partnerships with other homeschooling families.
 
-== Methodology
+== On Methodology
+
+We change our methods and curriculum iteratively.
+Check back frequently to see what we're up to.
+Please also consider RSS Feeds.
