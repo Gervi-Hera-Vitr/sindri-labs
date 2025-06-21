@@ -14,7 +14,7 @@ I learn by building. Most of my work lives here: https://github.com/Gervi-Hera-V
 
 == Current Focus
 
-- **Mathematics**: algebra through calculus, formal proofs, symbolic logic
-- **AI**: transformer architectures, reinforcement learning, model introspection
-- **Philosophy**: metaphysics, decision theory, analytic reasoning
-- **Software Engineering**: game engines, full-stack apps, systems design
+- **Foundational mathematics** — learning mathematical logic, And theorems.
+- **Philosophy and Stoicism** — studying logic, ethics, and classical Stoic texts to cultivate discipline, clarity, and inner strength.
+- **Coding and Python** — learning python and how it can be used in data science.
+- **Business and marketing** — exploring the job market and how to find a job.

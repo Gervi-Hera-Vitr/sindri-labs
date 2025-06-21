@@ -7,3 +7,40 @@ layout: single
 permalink: /curriculum/
 ---
 Curriculum:
+= Curriculum
+
+We don’t teach for grades. We build mastery through real work, tested in the field.
+
+== Overview
+
+The Gervi Héra Vitr curriculum is interdisciplinary and adaptive.
+Each student progresses through high-agency learning trails that combine:
+
+- theory (math, science, philosophy),
+- practice (projects, experiments, production),
+- and reflection (journals, essays, analysis).
+
+== Core Domains
+
+* **Mathematics** — from arithmetic to calculus and proof
+* **Philosophy** — logic, ethics, decision theory, Stoicism
+* **Science** — physics, chemistry, biology, astronomy
+* **Coding & AI** — Python, algorithms, ML models, LLMs
+* **Business & Economics** — markets, incentives, entrepreneurship
+* **Writing & Humanities** — literature, history, critical analysis
+* **Systems & Society** — law, civics, leadership, governance
+
+== Method
+
+- **No lectures. No tests. No busywork.**
+- Learning is the most important achievement
+- Each subject begins with a challenge or need.
+- Theory is introduced only when it’s time to apply it.
+- Progress is proven through assets, not assignments.
+- Every day uses the 90/20 rule to have the most productivity.
+
+== Curriculum Artifacts
+
+All learning trails and work artifacts live in the GitHub curriculum folder:
+
+-> https://github.com/Gervi-Hera-Vitr/sindri-labs/tree/main/curriculum
