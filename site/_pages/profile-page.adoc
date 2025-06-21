@@ -1,1 +1,20 @@
-Profile:
+---
+excerpt: captains profile page
+header:
+  overlay_image: assets/images/banner-anton.jpg
+  overlay_filter: 0.2
+layout: single
+permalink: /Captain-Profile/
+---
+= Captain Lugaru
+
+Hacker. Builder. Learner.
+
+I learn by building. Most of my work lives here: https://github.com/Gervi-Hera-Vitr/
+
+== Current Focus
+
+- **Mathematics**: algebra through calculus, formal proofs, symbolic logic
+- **AI**: transformer architectures, reinforcement learning, model introspection
+- **Philosophy**: metaphysics, decision theory, analytic reasoning
+- **Software Engineering**: game engines, full-stack apps, systems design

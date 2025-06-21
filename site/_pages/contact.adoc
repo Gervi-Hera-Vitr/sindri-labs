@@ -8,3 +8,9 @@ permalink: /contact/
 ---
 
 = Contact
+
+To get in touch, please open an issue in our repository:
+
+-> https://github.com/Gervi-Hera-Vitr/sindri-labs/issues
+
+We welcome questions, dialogue, and collaboration.
