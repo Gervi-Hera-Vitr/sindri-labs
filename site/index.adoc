@@ -65,20 +65,18 @@ Anton's hacker handle is `{captain}`. Another {munchkin} would simply call him `
 He is an independent learner whose interests include artificial intelligence, mathematics, and Philosophy.
 His curriculum blends theoretical depth with practical implementation, and every subject is approached with high intellectual ambition and scientific discipline.
 `Captain` aspired to become a doctor in early childhood, pediatrician or pediatric scholar.
-A few years ago he's experienced formal testing interaction with a highly experimental digital personality, MATILDA.
-The massive machine was built on an analytical core, durable context engine, and wrapped around in a commercial LLM; a research product of his mother's laboratory.
-`Captain`, an intern shadowing researchers, helped take MATILDA through extreme edge cases resulting it pick a gender and a name for itself, Tillie.
-This experience, albeit short, left an impactful and lasting impression on the young `Captain`.
-It changed his outlook on the world of science and technology -- since then he aspires to create artificial life.
-`Captain` is fascinated by the nature of _analytic mind_, physiology of the brain, and consciousness delightfully exploring the relationship between them.
+A few years ago he's experienced formal testing interaction with ChatGPT.
+The Machine had the ability to talk, and do things no other machine could.
+`Captain`, Took an interest to this machine, he knew that it would be the future of technology.
+This experience left an impactful and lasting impression on the young `Captain`.
 
-`Captain` learns exact and applied sciences, writes code, trains machine learning models, authors technical essays,
+`Captain` learns exact and applied sciences, writes code, trains machine learning models,
 studies formal proofs, and maintains this site alongside his primary mentor and father, Vadim (`rdd13r`).
 Like most self-driven people `Captain` does not like to be taught.
 `rdd13r` designs the learning curriculum for `Captain` and both review then implement it iteratively.
 Each initiating phase has `rdd13r` properly introduce a subject, such as the "preferred" approach to formal theory of proof,
 set theory (i.e, Russell's paradox), category theory (i.e, monad), or existential phenomenology.
-The `Captain` independently attains his agreed upon objective in production and then proceeds to argue its asset value.
+The `Captain` independently attains his agreed upon objective in production.
 The last phase of each objective is comparative analysis and testing against real world applications.
 
 Gervi Héra Vitr combines high school and formal college level materials structured in long-running research journeys instead of period-based subject hopping.
@@ -89,8 +87,6 @@ Instead of frequent quizzes and thest that serve little purpose to any real lear
 Zoey (`ZueZue` kHavok) is Anton's younger sister. She is a very active toddler.
 While the majority of her care is in mother's hands, Zoey and Anton learn together on daily basis.
 This experience is productive and developmental for both children.
-Currently, `Captain` is accountable for ZueZue's arts and crafts journey.
-Produced art is evaluated by `rdd13r` for both `Captain` and `ZueZue`.
 
 == Educational Philosophy
 
@@ -145,8 +141,4 @@ _To help children attain equality with their parents and surpass them before the
 If you're a fellow homeschool educator, researcher, mentor, or reviewer interested in this work, please see the contact page or reach out directly via the information provided there.
 We welcome dialogue, exchange of curriculum materials, and mutual mentorship partnerships with other homeschooling families.
 
-
-
-
 == Methodology
-
