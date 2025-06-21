@@ -1,5 +1,8 @@
 ---
-title: About
+excerpt: introduction to our forge and core values
+header:
+  overlay_image: assets/images/banner-anton.jpg
+  overlay_filter: 0.2
 layout: single
 permalink: /about/
 ---
