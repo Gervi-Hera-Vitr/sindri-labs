@@ -1,0 +1,37 @@
+---
+title: About
+layout: single
+permalink: /about/
+---
+= About Gervi Héra Vitr Labs
+
+Gervi Héra Vitr is a homeschool in North Carolina.
+And this site is its classroom and laboratory repository.
+Our curriculum is built by parents and mentors who take full responsibility for their children’s development, autonomy, and future competence.
+Relevant resources are available on this site and its hosting GitHub repository.
+
+[.lead]
+*We raise thinkers, builders, and leaders — not products of a system.*
+
+== Our Mission
+
+- Build intellectual resilience.
+- Cultivate ethical reasoning.
+- Develop technical depth.
+- Forge real-world competence through hands-on creation.
+- Share our knowledge and experience.
+
+== Our Method
+
+Gervi Héra Vitr combines foundational theory with relentless application.
+All learning culminates in a tangible result — an artifact, a contribution, a decision that matters.
+
+Children do not “study subjects.”
+They pursue long arcs of discovery, production, and self-directed inquiry — guided by mentors, powered by curiosity, and tested against reality.
+
+== A Final Word
+
+We share this forge with the hope that other families — educators, researchers, and mentors — might benefit, collaborate, or contribute to this work.
+
+We're not building a school.
+We're building future elders, founders, warriors, and scientists — one fire-tested soul at a time.

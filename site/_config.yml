@@ -94,10 +94,6 @@ author:
   avatar                    : "/assets/images/avatar.png"
   bio                       : "Exploring AI and building innovative solutions."
 
-# Navigation
-header_pages:
-  - about.md
-  - contact.md
 
 # SEO and sitemap
 seo:
