@@ -33,7 +33,7 @@ All relevant educational materials are here for our two students:
 == Curriculum Focus
 
 All subjects at Gervi Héra Vitr Labs are pursued through daily inquiry, hands-on experimentation, and iterative improvement. +
-Our curriculum is deeply interdisciplinary; built on foundation of formal philosophy: mathematics, reason, and _scientific method_.
+Our curriculum is deeply interdisciplinary, built on the foundation of formal philosophy: mathematics, reason, and _scientific method_.
 
 *Core domains of focus are*:
 
@@ -43,7 +43,7 @@ Our curriculum is deeply interdisciplinary; built on foundation of formal philos
 ** Chemistry, physics, biology, and astronomy;
 ** Psychology, history, sociology, and economics.
 * Humanities: language, literature, and performing arts.
-* Applied sciences: _requiring laboratory and field work_:
+* Applied sciences to generate testible assets proving theory:
 ** Software engineering, artificial intelligence, and robotics;
 ** Business, entrepreneurship, marketing, and commerce;
 ** Law, government, leadership, ethics, and justice.
