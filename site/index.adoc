@@ -85,16 +85,16 @@ Instead of frequent quizzes and thest that serve little purpose to any real lear
 == ZueZue kHavok, 2
 
 Zoey (`ZueZue` kHavok) is Anton's younger sister. She is a very active toddler.
-While the majority of her care is in mother's hands, Zoey and Anton learn together on daily basis.
-This experience is productive and developmental for both children.
+While her care is primarily in their mother's hands, Zoey and Anton learn together on a daily basis
+Both gain from the time they spend learning together.
 
 == Educational Philosophy
 
 Our educational philosophy is based on the following principles:
 
 - Learning is not just preparation for life, but a mode of life itself.
-- That giftedness requires structure, challenge, and freedom in equal measure.
-- That ethical reasoning, technical depth, and personal responsibility must grow coterminously.
+- Giftedness requires structure, challenge, and freedom in equal measure.
+- Ethical reasoning, technical depth, and personal responsibility must grow coterminously.
 
 [.middle]
 .Children pursuing knowledge in a Socratic setting.
@@ -103,7 +103,7 @@ image::assets/images/site-banner-600.jpg[Curriculum,width="80%",float="right",al
 
 Our goal is not simply to meet academic standards, but to build intellectual resilience, creative confidence, and principled mastery
 -- traits that cannot be outsourced, templated, or rushed.
-The end product is a healthy, independent, and productive human being.
+The outcome is a human being ready to build, care, and lead.
 
 
 == Role of Parents and Mentors
