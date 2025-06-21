@@ -62,25 +62,25 @@ This site is intended for multiple audiences:
 == Captain Lugaru, 15
 
 Anton's hacker handle is `{captain}`. Another {munchkin} would simply call him `Captain`.
-He is an independent learner whose interests include artificial intelligence, mathematics, and Philosophy.
+He is an independent learner whose interests include artificial intelligence, mathematics, and philosophy.
 His curriculum blends theoretical depth with practical implementation, and every subject is approached with high intellectual ambition and scientific discipline.
 `Captain` aspired to become a doctor in early childhood, pediatrician or pediatric scholar.
-A few years ago he's experienced formal testing interaction with ChatGPT.
-The Machine had the ability to talk, and do things no other machine could.
-`Captain`, Took an interest to this machine, he knew that it would be the future of technology.
+A few years ago he experienced formal testing interaction with ChatGPT.
+The Machine could speak-and act-in ways no other ever had.
+`Captain`, Took an interest in the machine; he knew that it would be the future of technology.
 This experience left an impactful and lasting impression on the young `Captain`.
 
 `Captain` learns exact and applied sciences, writes code, trains machine learning models,
-studies formal proofs, and maintains this site alongside his primary mentor and father, Vadim (`rdd13r`).
+studies formal proofs-and maintains this site alongside his primary mentor and father, Vadim (`rdd13r`).
 Like most self-driven people `Captain` does not like to be taught.
 `rdd13r` designs the learning curriculum for `Captain` and both review then implement it iteratively.
-Each initiating phase has `rdd13r` properly introduce a subject, such as the "preferred" approach to formal theory of proof,
+Each new subject begins with `rdd13r` properly introduce a subject, such as the "preferred" approach to formal theory of proof,
 set theory (i.e, Russell's paradox), category theory (i.e, monad), or existential phenomenology.
-The `Captain` independently attains his agreed upon objective in production.
+He then delivers the object in production and completeness comparative analysis against real-world applications.
 The last phase of each objective is comparative analysis and testing against real world applications.
 
-Gervi Héra Vitr combines high school and formal college level materials structured in long-running research journeys instead of period-based subject hopping.
-Instead of frequent quizzes and thest that serve little purpose to any real learning `Captain` demonstrates his proficiency by assets he has created.
+Gervi Héra Vitr blends high school and college-level material into long-term research journeys—avoiding subject-hopping, frequent quizzes, and tests that do little to deepen real learning.
+
 
 == ZueZue kHavok, 2
 
