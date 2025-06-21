@@ -1,15 +1,30 @@
 github                      : [metadata]
 
 # Site Metadata
-title                       : "Gervi Héra Vitr Labs"
-subtitle                    : "<i>Gervi Héra Viskr Learning Trails/i>"
+title                       : Héra Verkstaðr
+subtitle                    : natural leadership forge and armory
 title_separator             : " - "
-description                 : "A dedicated space for learning, exploring, and building AI projects."
+description                 : "A dedicated space for learning, exploring, experimenting, and testing."
 email                       : 12781006+rdd13r@users.noreply.github.com
 url                         : "https://gervi-hera-vitr.github.io"
 baseurl                     : "/sindri-labs"
 github_username             : Gervi-Hera-Vitr
 twitter_username            : ""
+
+locale                      : "en-US"
+rtl                         : false
+name                        : Gervi Héra Vitr
+repository                  : "Gervi-Hera-Vitr/sindri-labs"
+teaser                      : "/assets/images/site-image.png"
+logo                        : "/assets/images/favicon.png"
+masthead_title              : Héra Academy Laboratory
+breadcrumbs                 : true
+words_per_minute            : 300
+enable_copy_code_button     : true
+compress_html               : true
+
+copyright                   : "© 2023–2025 Gervi Héra Vitr Labs. All rights reserved. Use with permission only."
+copyright_url               : "https://github.com/Gervi-Hera-Vitr/sindri-labs"
 
 # Theme and Styling
 remote_theme                : "mmistakes/minimal-mistakes"
@@ -88,3 +103,26 @@ header_pages:
 seo:
   title                     : "Gervi Héra Vitr Labs"
   description               : "Exploring AI and building innovative solutions."
+
+
+
+
+
+# School General Footer
+footer:
+  links:
+    - label: "Academy Organization"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Gervi-Hera-Vitr"
+    - label: "Discussions"
+      icon: "fas fa-fw fa-comments"
+      url: "https://github.com/orgs/Gervi-Hera-Vitr/discussions"
+    - label: "Tracker"
+      icon: "fas fa-fw fa-tachometer-alt"
+      url: "https://github.com/orgs/Gervi-Hera-Vitr/projects/1"
+    - label: "Repository"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Gervi-Hera-Vitr/sindri-labs"
+    - label: "Fingerprint"
+      icon: "fas fa-fw fa-fingerprint"
+      url: "/sindri-labs/assets/images/favicon-gervi-school.png"
