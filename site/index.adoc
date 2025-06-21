@@ -35,7 +35,7 @@ All relevant educational materials are here for our two students:
 All subjects at Gervi Héra Vitr Labs are pursued through daily inquiry, hands-on experimentation, and iterative improvement.
 Our curriculum is deeply interdisciplinary built on foundation of formal philosophy: mathematics, reason, and scientific method.
 
-Core domains of focus are:
+*Core domains of focus are*:
 
 * Philosophy: inductive and deductive reasoning, formal logic, and scientific method:
 ** Propositional calculus, structured reasoning, and formal proof;
@@ -63,7 +63,7 @@ This site is intended for multiple audiences:
 
 Anton's hacker handle is `{captain}`. Most contributors call him simply `Captain`.
 He is an avid independent learner whose interests include artificial intelligence,
-mathematics, and systems programming, especially with _high-order distributed systems_.
+mathematics, and Philosophy.
 His curriculum blends theoretical depth with practical implementation, and every subject is approached with high intellectual ambition and scientific discipline.
 In his childhood `Captain` was aspiring to become a doctor, pediatrician or pediatric scholar.
 A few years ago he's experienced interaction with a highly experimental digital personality built on analytical core,
@@ -91,6 +91,6 @@ An additional And to help him with hos social skills development in a larger gro
 Thus through 8th grade Anton's activity schedule was full with school taking up minor part of his time.
 
 Once in high school Anton started exhibiting troubled behavior.
-He quickly outperformed his teachers and classmates in topics assigned and was suffering from boredom and depression.
+He started to underperform and was suffering from boredom and depression.
 At this point Anton's terminated his public school curriculum and created a private homeschool better tailored to his individual learning needs.
 For Anton Gervi Héra Vitr combines high school and formal college level materials structured in long-running research journeys instead of period-based subject hopping.
