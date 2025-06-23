@@ -4,11 +4,11 @@ main:
     url: /about/
   - title: "Contact"
     url: /contact/
-  - title: "setup"
-    url: /SETUP/
-  - title: "Projects"
-    url: https://github.com/Gervi-Hera-Vitr/sindri-labs
-  - title: "Profile"
-    url: /Captain-Profile/
   - title: "Curriculum"
     url: /curriculum/
+  - title: "Profile"
+    url: /captain/
+  - title: "Own Site Setup"
+    url: /site-setup/
+  - title: "Projects (external)"
+    url: https://github.com/Gervi-Hera-Vitr/sindri-labs

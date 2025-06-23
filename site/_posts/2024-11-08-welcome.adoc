@@ -1,0 +1,35 @@
+---
+header:
+  overlay_image: assets/images/banner-mathematics.jpg
+  overlay_filter: 0.1
+categories: [school]
+tags: [launch,update]
+---
+= My School is Live
+lugaru
+:page-author_profile: true
+:page-excerpt: My parents yielded to my request for homeschooling, and rearranged their business so that my sister and I can have a school made just for us.
+:page-layout: single
+:page-classes: wide
+:anton-school: https://github.com/Gervi-Hera-Vitr/[Gervi Hëra Vitr,window=_blank]
+:mimis-publishing: https://github.com/orgs/Mimis-Gildi/[Mímis Publishing,window=_blank]
+:rdd13r: https://github.com/rdd13r/[Mr. R!dd13r,window=_blank]
+:captain: -&nbsp;https://github.com/CaptainLugaru[Captain Lugaru,window=_blank]
+
+Dear Munchkin Friends,
+
+This is _the beginning ouf our journey_ through the wonderful world of AI, science, engineering, and coding.
+My mother finally said "Okay, let's do this."
+And my father created my School, where my sister and I are principal students.
+My School organization is {anton-school} from *Mímis Gildi Academy* that my parents have registered with the state.
+Best of all it is managed by my parents organization {mimis-publishing} where I access massive amounts of engineering and AI knowledge.
+
+My principal instructor is {rdd13r}, my father.
+And I no longer have to deal with a political history teacher who worships Russia.
+And I don't need to worry about silly social rankings of lazy students.
+
+Welcome, Friend and lets have a creative time together.
+
+Sincerely yours,
+
+{captain}

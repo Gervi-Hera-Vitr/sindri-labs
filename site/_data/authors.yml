@@ -1,23 +1,51 @@
-Lugaru:
-  name: "Captain Lugaru"
-  bio: "I am a coding Viking Bunny. In 2021 I won internship at ASE Inc."
-  avatar: "/assets/images/72951616.png"
+zuezue:
+  name: "ZueZue kHavok"
+  about: "I move and the world moves"
+  bio: "A proud tester of everything Gervi Héra Vitr Labs; if it works for me then it works for you."
+  avatar: assets/images/author-zuezue-khavok.jpg
   links:
-    - label: "Email"
+    - label: "My Organization"
+      icon: "fab fa-fw fa-school"
+      url: "https://github.com/Gervi-Hera-Vitr"
+
+zaizai:
+  name: "Mama Zaia"
+  about: "I am the supreme ruler of herein fluffle."
+  bio: "Coming from a long lineage of Vikings this mama raises her fluffle of young warriors."
+  avatar: assets/images/author-mama-zaizai.jpg
+  links:
+    - label: "My Organization"
+      icon: "fab fa-fw fa-school"
+      url: "https://github.com/Gervi-Hera-Vitr"
+
+lugaru:
+  name: "Captain Lugaru"
+  about: "I am the principal student of Gervi-Hera-Vitr."
+  bio: "I am a coding Viking Bunny. In 2021 I won internship at ASE Inc."
+  avatar: assets/images/author-captain-lugaru.jpg
+  links:
+    - label: "Email No-reply"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:72951616+CaptainLugaru@users.noreply.github.com"
-    - label: "Website"
+    - label: "GitHub Home"
       icon: "fas fa-fw fa-link"
       url: "https://github.com/CaptainLugaru"
+    - label: "My Organization"
+      icon: "fab fa-fw fa-school"
+      url: "https://github.com/Gervi-Hera-Vitr"
+    - label: "My Graphic Novel"
+      icon: "fas fa-fw fa-book"
+      url: "https://github.com/Gervi-Hera-Vitr/the-echoes-of-wasteland"
 
-R!dd13r:
-  name: "R!dd13r"
-  bio: 'Kotlin❤️Scala😜Python🤘Go🚀'
-  avatar: "/assets/images/12781006.jpeg"
+rdd13r:
+  name: "Daddy R!dd13r"
+  about: "I am a fluffle daddy."
+  bio: "I code therefore I am."
+  avatar: assets/images/author-daidai-riddler.jpg
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:12781006+rdd13r@users.noreply.github.com"
-    - label: "Website"
+    - label: "GitHub Home"
       icon: "fas fa-fw fa-link"
-      url: "https://rdd13r.github.io"
+      url: "https://github.com/rdd13r"
+    - label: "My Organization"
+      icon: "fab fa-fw fa-school"
+      url: "https://github.com/Gervi-Hera-Vitr"

@@ -1,5 +1,4 @@
 ---
-excerpt: introduction to our forge and core values
 header:
   overlay_image: assets/images/banner-anton.jpg
   overlay_filter: 0.2
@@ -9,11 +8,12 @@ header:
       url: https://github.com/orgs/Gervi-Hera-Vitr/projects/1/views/1
     - label: "Artifacts: Curriculum"
       url: https://github.com/Gervi-Hera-Vitr/sindri-labs/tree/main/curriculum
-classes: wide
 ---
 = Welcome to our Laboratory
-:page-layout: splash
+:page-layout: home
 :page-permalink: /
+:page-classes: wide
+:page-excerpt: introduction to our forge and core values
 :page-description: A dedicated space for learning, exploring, and building real-world projects.
 :captain: https://github.com/CaptainLugaru[Captain Lugaru,target=_blank]
 :munchkin: http://www.catb.org/jargon/html/M/munchkin.html[munchkin,target=_blank]

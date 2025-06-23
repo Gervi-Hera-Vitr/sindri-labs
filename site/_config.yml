@@ -1,6 +1,6 @@
 github                      : [metadata]
 
-# Site Metadata
+### Site Metadata
 title                       : Héra Verkstaðr
 subtitle                    : natural leadership forge and armory
 title_separator             : " - "
@@ -14,9 +14,10 @@ twitter_username            : ""
 locale                      : "en-US"
 rtl                         : false
 name                        : Gervi Héra Vitr
-repository                  : "Gervi-Hera-Vitr/sindri-labs"
+repository                  : Gervi-Hera-Vitr/sindri-labs
 teaser                      : "/assets/images/site-image.png"
-logo                        : "/assets/images/favicon.png"
+favicon                     : "/assets/images/favicon.png"
+logo                        : "/assets/images/site-image.png"
 masthead_title              : Héra Academy Laboratory
 breadcrumbs                 : true
 words_per_minute            : 300
@@ -30,13 +31,13 @@ copyright_url               : "https://github.com/Gervi-Hera-Vitr/sindri-labs"
 remote_theme                : "mmistakes/minimal-mistakes"
 #minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 minimal_mistakes_skin       : "sunrise"
+
 sass:
   quiet_deps                : true
-
-markdown                    : kramdown
 safe                        : false
 
-# Plugins
+
+### Plugins
 plugins:
   - jekyll-asciidoc
   - jekyll-data
@@ -47,14 +48,13 @@ plugins:
   - jekyll-archives
   - jekyll-sitemap
 
-# Pagination defaults
-pagination:
-  enabled                   : true
-  per_page                  : 10
-  permalink                 : '/page/:num/'
-  title                     : ':title - page :num'
 
-# Defaults for posts (when you start adding them) and pages
+### Pagination defaults
+pagination:
+  enabled                   : false
+
+
+### Defaults for posts (when you start adding them) and pages
 defaults:
   - scope:
       path                  : ""
@@ -71,9 +71,10 @@ defaults:
       path                  : ""
       type                  : pages
     values:
-      author_profile        : false
+      author_profile        : true
 
-# Reading Files
+
+### Reading Files
 include:
   - _pages
 exclude:
@@ -89,22 +90,61 @@ keep_files:
 encoding                    : "utf-8"
 
 
+### Site root Author
 author:
-  name                      : "Gervi Héra Vitr Labs Team"
-  avatar                    : "/assets/images/avatar.png"
-  bio                       : "Exploring AI and building innovative solutions."
+  name                      : "Mama Zaia"
+  about                     : "Fluffle Mama Matriarch."
+  bio                       : "Coming from a long lineage of Viking Bunnies this mama raises her Fluffle of young Freedom Fighters."
+  avatar                    : assets/images/author-mama-zaizai.jpg
+  location                  : "At Gervi Héra Vitr"
+  links:
+    - label                 : "GitHub Home"
+      icon                  : "fab fa-fw fa-github"
+      url                   : "https://github.com/asei-boss"
+    - label                 : "My Organization"
+      icon                  : "fab fa-fw fa-school"
+      url                   : "https://github.com/Gervi-Hera-Vitr"
+    - label                 : "LinkedIn"
+      icon                  : "fab fa-fw fa-linkedin"
+      url                   : "https://www.linkedin.com/in/tetiana-kuhay/"
+    - label                 : "Company Website"
+      icon                  : "fas fa-fw fa-link"
+      url                   : "https://asei.systems"
 
 
-# SEO and sitemap
-seo:
-  title                     : "Gervi Héra Vitr Labs"
-  description               : "Exploring AI and building innovative solutions."
+### Using feeds
+atom_feed:
+  hide                      : false
+### Search Configuration
+search                      : true
+search_full_content         : true
+search_provider             : lunr
+lunr:
+  search_within_pages       : true
+
+
+# Social Sharing
+og_image                    : assets/images/og-image.png
+social:
+  type                      : Organization
+  name                      : "Gervi Héra Vitr"
+  links:
+    - "https://gervi-hera-vitr.github.io//sindri-labs"
+    - "https://github.com/Gervi-Hera-Vitr/sindri-labs"
+
+
+### GitHub Issues and Discussions for Comments
+comments:
+  provider                  : utterances
+  utterances:
+    theme                   : preferred-color-scheme
+    issue_term              : title
+    repo                    : Gervi-Hera-Vitr/sindri-labs
+    label                   : comment
 
 
 
-
-
-# School General Footer
+### School General Footer
 footer:
   links:
     - label: "Academy Organization"
@@ -122,3 +162,33 @@ footer:
     - label: "Fingerprint"
       icon: "fas fa-fw fa-fingerprint"
       url: "/sindri-labs/assets/images/favicon-gervi-school.png"
+
+### Archives: Enable taxonomy pages for tags, categories, and year
+#category_archive:
+#  type                      : jekyll-archives
+#  path                      : /categories/
+#
+#tag_archive:
+#  type                      : jekyll-archives
+#  path                      : /tags/
+#
+#jekyll-archives:
+#  enabled:
+#    - year
+#    - month
+#    - day
+#    - categories
+#    - tags
+#  layouts:
+#    year                    : archive-year
+#    month                   : archive-month
+#    day                     : archive-day
+#    category                : archive-taxonomy
+#    tag                     : archive-taxonomy
+#  permalinks:
+#    year                    : /archive/:year/
+#    month                   : /archive/:year/:month/
+#    day                     : /archive/:year/:month/:day/
+#    category                : /categories/:name/
+#    tag                     : /tags/:name/
+#

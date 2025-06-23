@@ -1,12 +1,16 @@
 ---
-excerpt: introduction to our forge and core values
 header:
+  caption: ...this forge is where the future is made.
   overlay_image: assets/images/banner-devops.jpg
   overlay_filter: 0.2
-layout: single
-permalink: /about/
 ---
 = About Gervi Héra Vitr Labs
+rdd13r
+:page-author_profile: true
+:page-excerpt: introduction to our forge and core values
+:page-layout: single
+:page-permalink: /about/
+:page-classes: wide
 
 Gervi Héra Vitr is a homeschool in Cary North Carolina.
 And this site is its classroom and laboratory repository.
@@ -36,6 +40,10 @@ Possible assets are an artifact, a product contribution, a business transaction.
 The learning environment is a Socratic classroom. +
 *_A completely flat hierarchy_*: +
 _parents are equal learners to their children_.
+
+.Children learn by doing: making assets and testing value.
+image::/sindri-labs/assets/images/image-devops.jpg[Kids learn in Production,width="80%",align="center"]
+{nbsp}
 
 Children do not "study subjects."
 They pursue long arcs of discovery, production, and self-directed inquiry
