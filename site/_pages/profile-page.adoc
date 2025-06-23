@@ -6,7 +6,7 @@ header:
 = Captain Lugaru
 lugaru
 :page-author_profile: true
-:page-excerpt: about me and my work -- Captain's profile page
+:page-excerpt: about me and my work -- Captain's active profile page
 :page-layout: single
 :page-permalink: /captain/
 :page-classes: wide

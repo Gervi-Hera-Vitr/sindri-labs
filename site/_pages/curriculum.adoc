@@ -6,7 +6,7 @@ header:
 = Curriculum
 zaizai
 :page-author_profile: true
-:page-excerpt: how our curriculum works
+:page-excerpt: how our curriculum works -- a flat hierarchy, like in the real world
 :page-layout: single
 :page-permalink: /curriculum/
 :page-classes: wide

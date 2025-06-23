@@ -1,17 +1,15 @@
-[![built with Codeium](https://codeium.com/badges/main)](https://codeium.com)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/de545692d2054bf7a4a6ccff66783bd1)](https://app.codacy.com/gh/Gervi-Hera-Vitr/sindri-labs/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
+[![Build on Push](https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/build-on-push.yml/badge.svg)](https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/build-on-push.yml)
+[![built with Codeium](https://codeium.com/badges/main)](https://codeium.com)
 
-[//]: # ([![CodeQL Quality Scan]&#40;https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/codeql.yml/badge.svg&#41;]&#40;https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/codeql.yml&#41;<br>)
-[//]: # ([![Build action checks on Push]&#40;https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/push-gates.yaml/badge.svg&#41;]&#40;https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/push-gates.yaml&#41;)
-[//]: # ([![Prune Caches by Branch]&#40;https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/cache-prune.yaml/badge.svg&#41;]&#40;https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/cache-prune.yaml&#41;<br>)
-[//]: # ([![Manage Stale Issues and Pull Requests]&#40;https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/stale.yml/badge.svg&#41;]&#40;https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/stale.yml&#41;)
-[//]: # ([![Label Pull Request]&#40;https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/label.yml/badge.svg&#41;]&#40;https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/label.yml&#41;)
-[//]: # ([![Greetings and Welcome!]&#40;https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/greetings.yml/badge.svg&#41;]&#40;https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/greetings.yml&#41;<br>)
-[![Build and Deploy Jekyll Site with GitHub Pages](https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/jekyll-gh-pages.yml/badge.svg)](https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/jekyll-gh-pages.yml)
+[![Security Scan by CodeQL](https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/security-scan-by-codeql.yml/badge.svg)](https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/security-scan-by-codeql.yml)
+[![Security Scan by Codacy](https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/security-scan-by-codacy.yml/badge.svg)](https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/security-scan-by-codacy.yml)
+[![Security Scan by Qodana](https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/security-scan-by-qodana.yml/badge.svg)](https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/security-scan-by-qodana.yml)
+___
 
-> [Vitr`î Labs Site](https://gervi-hera-vitr.github.io/sindri-labs/ "Gervi Hî Vitr Labs") 🚧 <- not ready yet
+[Vitr`î Labs Site](https://gervi-hera-vitr.github.io/sindri-labs/ "Gervi Hî Vitr Labs") <- **Visit our Website**
  
-[![Gervi Héra Viskr](./src/main/resources/images/avatar.png)](https://github.com/orgs/Gervi-Hera-Vitr/projects/1 "Gervi Héra Viskr Learning Trails")
+[![Gervi Héra Viskr](./site/assets/images/site-image.png)](https://gervi-hera-vitr.github.io/sindri-labs/ "Gervi Hî Vitr Labs")
 
 ## Welcome, Dear Friend
 
@@ -97,11 +95,3 @@ See our security policy [here](https://github.com/Gervi-Hera-Vitr/sindri-labs/se
   5. EAT THAT LOL.
 - [Productivity Game](https://www.youtube.com/@ProductivityGame "Productivity Game")
 - [LITTLE BIT BETTER](https://www.youtube.com/@littlebitbetter7 "LITTLE BIT BETTER")
-
-## Code Quality and Validation
-
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/de545692d2054bf7a4a6ccff66783bd1)](https://app.codacy.com/gh/Gervi-Hera-Vitr/sindri-labs/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
-
-## DevOps, MLOps, and CICD Pipelines
-
-[![Security Scan by Codacy](https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/security-scan-by-codacy.yml/badge.svg)](https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/security-scan-by-codacy.yml)
