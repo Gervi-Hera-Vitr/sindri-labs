@@ -1,0 +1,34 @@
+---
+header:
+  overlay_image: assets/images/banner-philosophy.jpg
+  overlay_filter: 0.2
+---
+= Captain Lugaru
+lugaru
+:page-author_profile: true
+:page-excerpt: about me and my work -- Captain's profile page
+:page-layout: single
+:page-permalink: /captain/
+:page-classes: wide
+
+Hacker. Builder. Learner.
+
+I learn by building. Most of my work lives here: https://github.com/Gervi-Hera-Vitr/
+
+[.left]
+I am the eldest munchkin in my clan +
+{nbsp} and that comes with some additional perks, +
+expectation and responsibilities.
+
+.Eldest Munchkin of my Fluffle.
+image::/sindri-labs/assets/images/image-anton.jpg[Anton,width="55%",align="right",link=https://github.com/CaptainLugaru]
+
+== Current Focus
+
+- **Philosophy and Stoicism** -- studying logic, both deductive and inductive reasoning, ethics, and classical Stoic texts to cultivate discipline, clarity, and inner strength.
+- **Foundational mathematics** -- learning formal proofs and propositional calculus in mathematical logic, practicing with theorems in algebra, geometry, trigonometry, and calculus.
+- **ML and Python** -- honing my skills in Python and data science libraries; attempting functional programming paradigm in Python having previously mastered Kotlin, Java, and TypeScript .
+- **Business and marketing** -- exploring the job market and how to find a job; experimenting with basic marketing and prospecting having previously applied "Rich Dad and Poor Dad" ideas.
+- **Languages and literature** -- reading and analyzing "To Kill a Mockingbird" and "Go Set a Watchman" by Harper Lee; working up to "The Land of Sweet Forever: Stories and Essays."
+- **Social Studies** -- preparing to watch a drama series "Station Eleven" (2021) with my father; this is pending completion of Harper Lee works and "The Matrix" trilogy (1999, 2003, 2008).
+

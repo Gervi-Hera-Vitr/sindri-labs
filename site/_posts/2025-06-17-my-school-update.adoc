@@ -1,0 +1,24 @@
+---
+header:
+  overlay_image: assets/images/banner-philosophy.jpg
+  overlay_filter: 0.1
+categories: [school]
+tags: [update]
+---
+= Best Thing that ever Happened to Me!
+lugaru
+:page-author_profile: true
+:page-excerpt: I revisit my idea for homeschooling. And here are my current thoughts.
+:page-layout: single
+:page-classes: wide
+:captain: -&nbsp;https://github.com/CaptainLugaru[Captain Lugaru,window=_blank]
+
+Dear Friends,
+
+My parents and I have now completed several school iterations.
+In this little time I have learned more about myself, science, coding and life than I ever have in a public school.
+I plan to write here regularly and share my experiences, my thoughts and my discoveries.
+
+Sincerely yours,
+
+{captain}

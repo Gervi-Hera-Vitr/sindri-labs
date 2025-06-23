@@ -1,0 +1,150 @@
+---
+header:
+  overlay_image: assets/images/banner-anton.jpg
+  overlay_filter: 0.2
+  caption: ...where ancient wisdom meets modern fluffle innovations
+  actions:
+    - label: "Project: GHV Learning Trails"
+      url: https://github.com/orgs/Gervi-Hera-Vitr/projects/1/views/1
+    - label: "Artifacts: Curriculum"
+      url: https://github.com/Gervi-Hera-Vitr/sindri-labs/tree/main/curriculum
+---
+= Welcome to our Laboratory
+:page-layout: home
+:page-permalink: /
+:page-classes: wide
+:page-excerpt: introduction to our forge and core values
+:page-description: A dedicated space for learning, exploring, and building real-world projects.
+:captain: https://github.com/CaptainLugaru[Captain Lugaru,target=_blank]
+:munchkin: http://www.catb.org/jargon/html/M/munchkin.html[munchkin,target=_blank]
+
+[.lead]
+Gervi Héra Vitr is a home school in a community of homeschoolers. +
+*_Here we don’t separate theory from application or learning from life._*
+
+== About Gervi Héra Vitr
+
+Gervi Héra Vitr Labs is the classroom repository for our school. +
+All relevant educational materials are here for our two students:
+
+* *Anton*: `Captain Lugaru`, 15 -- the world moves when he decides.
+* *Zoey*: `ZueZue kHavok`, 2 -- nothing is still until she leaves.
+
+== Curriculum Focus
+
+All subjects at Gervi Héra Vitr Labs are pursued through daily inquiry, hands-on experimentation, and iterative improvement. +
+Our curriculum is deeply interdisciplinary, built on the foundation of formal philosophy: mathematics, reason, and _scientific method_.
+
+*Core domains of focus are*:
+
+* Philosophy: inductive and deductive reasoning, formal logic, and scientific method:
+** Propositional calculus, structured reasoning, and formal proof;
+** Mathematics (algebra, geometry, trigonometry, and calculus);
+** Chemistry, physics, biology, and astronomy;
+** Psychology, history, sociology, and economics.
+* Humanities: language, literature, and performing arts.
+* Applied sciences to generate testable assets proving theory:
+** Software engineering, artificial intelligence, and robotics;
+** Business, entrepreneurship, marketing, and commerce;
+** Law, government, leadership, ethics, and justice.
+
+*_Exact sciences are always coupled with applied sciences and field work._*
+
+== Who This Is For
+
+This site is intended for multiple audiences:
+
+- School boards, education reviewers, and academic committees evaluating homeschool initiatives;
+- Fellow homeschooling families and educators seeking tested curriculum models, learning strategies, and collaboration;
+- University faculty, technologists, and researchers who may wish to track Anton’s journey or explore his endeavors;
+- Students and parents looking for independent, secular paths for gifted learners unaffiliated with any religion.
+
+== Captain Lugaru, 15
+
+Anton's hacker handle is `{captain}`. Another {munchkin} would simply call him `Captain`.
+He is an independent learner whose interests include artificial intelligence, mathematics, and philosophy.
+His curriculum blends theoretical depth with practical implementation, and every subject is approached with high intellectual ambition and scientific discipline.
+`Captain` aspired to become a doctor in early childhood, pediatrician or pediatric scholar.
+A few years ago he experienced formal testing interaction with ChatGPT.
+The Machine could speak-and act-in ways no other ever had.
+`Captain`, Took an interest in the machine; he knew that it would be the future of technology.
+This experience left an impactful and lasting impression on the young `Captain`.
+
+`Captain` learns exact and applied sciences, writes code, trains machine learning models,
+studies formal proofs-and maintains this site alongside his primary mentor and father, Vadim (`rdd13r`).
+Like most self-driven people `Captain` does not like to be taught.
+`rdd13r` designs the learning curriculum for `Captain` and both review then implement it iteratively.
+Each new subject begins with `rdd13r` properly introduce a subject, such as the "preferred" approach to formal theory of proof,
+set theory (i.e, Russell's paradox), category theory (i.e, monad), or existential phenomenology.
+He then delivers the object in production and completeness comparative analysis against real-world applications.
+The last phase of each objective is comparative analysis and testing against real world applications.
+
+Gervi Héra Vitr blends high school and college-level material into long-term research journeys -- avoiding subject-hopping, frequent quizzes, and tests that do little to deepen real learning.
+
+
+== ZueZue kHavok, 2
+
+Zoey (`ZueZue` kHavok) is Anton's younger sister. She is a very active toddler.
+While her care is primarily in their mother's hands, Zoey and Anton learn together on a daily basis
+Both gain from the time they spend learning together.
+
+== Educational Philosophy
+
+Our educational philosophy is based on the following principles:
+
+- Learning is not just preparation for life, but a mode of life itself.
+- Giftedness requires structure, challenge, and freedom in equal measure.
+- Ethical reasoning, technical depth, and personal responsibility must grow coterminously.
+
+[.middle]
+.Children pursuing knowledge in a Socratic setting.
+image::assets/images/site-banner-600.jpg[Curriculum,width="80%",float="right",align="center",link=https://github.com/Gervi-Hera-Vitr/sindri-labs/tree/main/curriculum]
+
+
+Our goal is not simply to meet academic standards, but to build intellectual resilience, creative confidence, and principled mastery
+-- traits that cannot be outsourced, templated, or rushed.
+The outcome is a human being ready to build, care, and lead.
+
+
+== Role of Parents and Mentors
+
+The primary role of parents and mentors is to prepare children for the real world.
+Parents start by providing a safe and nurturing environment for learning when children are young.
+Most parents falter in the later stages.
+By pre-teenage years children should be exposed to real life in a managed and controlled setting.
+At this young stage kids are cognitively ready to grasp foundations of personal finances, business, health, and safety.
+At the beginning of teenage years children should be well on the way to independent personal leadership and independent personal leadership and fully autonomous decision-making.
+Yet ALL American public and private schools completely fail here producing insulated, risk-averse children governed by institutional fear.
+_This occurs because one cannot teach what one hasn't learned._
+
+.First fundamental theorem of life:
+[quote,John Kenneth Galbraith,Often attributed to.]
+____
+Poverty is hereditary.
+____
+
+{zwsp}
+
+*Children must:*
+
+. Personally and physically _experience_ dependence on oneself, through decisions and consequences of their own actions.
+. Be fully and irreversibly immersed into real adult life interactions and shenanigans.
+. Be explicitly shown all aspects of current environment from extreme poverty to extreme wealth.
+. Rigorously introduced to concrete knowledge and given hands-on practice to navigate:
+* adult psychological barriers (i.e, social norms) and physical barriers (i.e, tribal separation);
+* financial, business, commerce and marketing barriers (i.e, assets versus liabilities, role of money);
+* personal and collective health and safety barriers (i.e, nutrition, diseases, accidents, and illnesses).
+
+*_It is parents' sacred duty to safely, progressively, and iteratively immerse children into the real world._*
+_To help children attain equality with their parents and surpass them before they are old enough to become parents._
+
+== Contact & Collaboration
+
+If you're a fellow homeschool educator, researcher, mentor, or reviewer interested in this work, please see the contact page or reach out directly via the information provided there.
+We welcome dialogue, exchange of curriculum materials, and mutual mentorship partnerships with other homeschooling families.
+
+== On Methodology
+
+We change our methods and curriculum iteratively. +
+Check back frequently to see what we're up to. +
+Please also consider RSS Feeds.

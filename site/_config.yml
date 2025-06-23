@@ -1,62 +1,194 @@
-title: "Gervi Héra Vitr Labs"
-email: 12781006+rdd13r@users.noreply.github.com
-description: "A dedicated space for learning, exploring, and building AI projects."
-github_username: Gervi-Hera-Vitr
-github: [metadata]
+github                      : [metadata]
 
-baseurl: "/sindri-labs"
-url: "https://gervi-hera-vitr.github.io"
+### Site Metadata
+title                       : Héra Verkstaðr
+subtitle                    : natural leadership forge and armory
+title_separator             : " - "
+description                 : "A dedicated space for learning, exploring, experimenting, and testing."
+email                       : 12781006+rdd13r@users.noreply.github.com
+url                         : "https://gervi-hera-vitr.github.io"
+baseurl                     : "/sindri-labs"
+github_username             : Gervi-Hera-Vitr
+twitter_username            : ""
 
-markdown: kramdown
-remote_theme: "mmistakes/minimal-mistakes"
+locale                      : "en-US"
+rtl                         : false
+name                        : Gervi Héra Vitr
+repository                  : Gervi-Hera-Vitr/sindri-labs
+teaser                      : "/assets/images/site-image.png"
+favicon                     : "/assets/images/favicon.png"
+logo                        : "/assets/images/site-image.png"
+masthead_title              : Héra Academy Laboratory
+breadcrumbs                 : true
+words_per_minute            : 300
+enable_copy_code_button     : true
+compress_html               : true
+
+copyright                   : "© 2023–2025 Gervi Héra Vitr Labs. All rights reserved. Use with permission only."
+copyright_url               : "https://github.com/Gervi-Hera-Vitr/sindri-labs"
+
+# Theme and Styling
+remote_theme                : "mmistakes/minimal-mistakes"
 #minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-minimal_mistakes_skin: "air"
+minimal_mistakes_skin       : "sunrise"
 
+sass:
+  quiet_deps                : true
+safe                        : false
+
+
+### Plugins
 plugins:
+  - jekyll-asciidoc
+  - jekyll-data
+  - jekyll-feed
   - jekyll-remote-theme
   - jekyll-paginate-v2
-  - jekyll-sitemap
-  - jekyll-data
-  - jekyll-gist
-  - jekyll-feed
   - jekyll-include-cache
-  - jekyll-algolia
   - jekyll-archives
-  - jemoji
+  - jekyll-sitemap
 
-safe: false
 
-author:
-  name: "Gervi Héra Vitr Labs Team"
-  avatar: "/assets/images/avatar.png"
-  bio: "Exploring AI and building innovative solutions."
+### Pagination defaults
+pagination:
+  enabled                   : false
 
+
+### Defaults for posts (when you start adding them) and pages
 defaults:
   - scope:
-      path: ""
-      type: "posts"
+      path                  : ""
+      type                  : posts
     values:
-      layout: "single"
-      author: "Gervi Héra Vitr Labs Team"
-      comments: true
+      layout                : single
+      author_profile        : true
+      read_time             : true
+      comments              : false
+      share                 : true
+      related               : true
+      breadcrumbs           : false
   - scope:
-      path: ""
-      type: "pages"
+      path                  : ""
+      type                  : pages
     values:
-      layout: "single"
+      author_profile        : true
 
-# Navigation
-header_pages:
-  - about.md
-  - contact.md
 
-# SEO and sitemap
-seo:
-  title: "Gervi Héra Vitr Labs"
-  description: "Exploring AI and building innovative solutions."
-
-# Exclude unnecessary folders/files from processing
+### Reading Files
+include:
+  - _pages
 exclude:
-  - README.md
+  - .sass-cache/
+  - .jekyll-cache/
   - Gemfile
   - Gemfile.lock
+  - node_modules/
+  - vendor/
+  - README.md
+keep_files:
+  - .temp
+encoding                    : "utf-8"
+
+
+### Site root Author
+author:
+  name                      : "Mama Zaia"
+  about                     : "Fluffle Mama Matriarch."
+  bio                       : "Coming from a long lineage of Viking Bunnies this mama raises her Fluffle of young Freedom Fighters."
+  avatar                    : assets/images/author-mama-zaizai.jpg
+  location                  : "At Gervi Héra Vitr"
+  links:
+    - label                 : "GitHub Home"
+      icon                  : "fab fa-fw fa-github"
+      url                   : "https://github.com/asei-boss"
+    - label                 : "My Organization"
+      icon                  : "fab fa-fw fa-school"
+      url                   : "https://github.com/Gervi-Hera-Vitr"
+    - label                 : "LinkedIn"
+      icon                  : "fab fa-fw fa-linkedin"
+      url                   : "https://www.linkedin.com/in/tetiana-kuhay/"
+    - label                 : "Company Website"
+      icon                  : "fas fa-fw fa-link"
+      url                   : "https://asei.systems"
+
+
+### Using feeds
+atom_feed:
+  hide                      : false
+### Search Configuration
+search                      : true
+search_full_content         : true
+search_provider             : lunr
+lunr:
+  search_within_pages       : true
+
+
+# Social Sharing
+og_image                    : assets/images/og-image.png
+social:
+  type                      : Organization
+  name                      : "Gervi Héra Vitr"
+  links:
+    - "https://gervi-hera-vitr.github.io//sindri-labs"
+    - "https://github.com/Gervi-Hera-Vitr/sindri-labs"
+
+
+### GitHub Issues and Discussions for Comments
+comments:
+  provider                  : utterances
+  utterances:
+    theme                   : preferred-color-scheme
+    issue_term              : title
+    repo                    : Gervi-Hera-Vitr/sindri-labs
+    label                   : comment
+
+
+
+### School General Footer
+footer:
+  links:
+    - label: "Academy Organization"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Gervi-Hera-Vitr"
+    - label: "Discussions"
+      icon: "fas fa-fw fa-comments"
+      url: "https://github.com/orgs/Gervi-Hera-Vitr/discussions"
+    - label: "Tracker"
+      icon: "fas fa-fw fa-tachometer-alt"
+      url: "https://github.com/orgs/Gervi-Hera-Vitr/projects/1"
+    - label: "Repository"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Gervi-Hera-Vitr/sindri-labs"
+    - label: "Fingerprint"
+      icon: "fas fa-fw fa-fingerprint"
+      url: "/sindri-labs/assets/images/favicon-gervi-school.png"
+
+### Archives: Enable taxonomy pages for tags, categories, and year
+#category_archive:
+#  type                      : jekyll-archives
+#  path                      : /categories/
+#
+#tag_archive:
+#  type                      : jekyll-archives
+#  path                      : /tags/
+#
+#jekyll-archives:
+#  enabled:
+#    - year
+#    - month
+#    - day
+#    - categories
+#    - tags
+#  layouts:
+#    year                    : archive-year
+#    month                   : archive-month
+#    day                     : archive-day
+#    category                : archive-taxonomy
+#    tag                     : archive-taxonomy
+#  permalinks:
+#    year                    : /archive/:year/
+#    month                   : /archive/:year/:month/
+#    day                     : /archive/:year/:month/:day/
+#    category                : /categories/:name/
+#    tag                     : /tags/:name/
+#

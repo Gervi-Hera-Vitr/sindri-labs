@@ -1,0 +1,101 @@
+---
+header:
+  overlay_image: assets/images/banner-mathematics.jpg
+  overlay_filter: 0.2
+---
+= Curriculum
+zaizai
+:page-author_profile: true
+:page-excerpt: how our curriculum works
+:page-layout: single
+:page-permalink: /curriculum/
+:page-classes: wide
+:rdd13r: https://github.com/rdd13r/[R!dd13r,window=_blank]
+:zaia: https://github.com/asei-boss/[Zaia,window=_blank]
+:lugaru: https://github.com/captainlugaru/[Lugaru,window=_blank]
+:daidai: footnote:onedaidai[Daddy {rdd13r} as the principal theory mentor]
+:zaizai: footnote:onezaizai[Mama {zaia} as the principal practice mentor]
+:captain: footnote:cptlugaru[Captain {lugaru} as the first prodigy]
+
+
+We don’t teach for grades. We don't even have a classroom or a grading system. +
+We build mastery through real work, tested in the field at real businesses. +
+State and Federal offer a secondary assessment systems that kids enjoy beating. +
+Most universities in the world offer a formal entry exam either private or public. +
+Here, at Gervi Héra Vitr, kids have office, shop, and lab space; tools, machines, and toys. +
+_Most importantly, here kids have freedom to learn, to create, to make mistakes, and grow._
+
+== Overview
+
+The Gervi Héra Vitr curriculum is interdisciplinary, iterative, adaptive, and incremental. +
+All learning is contextualized in real work on real _assets_ and is completely salf-paced. +
+There are no semesters, quarters, periods, school years or any other superficial timeframes. +
+As in colonial times kids learn continuously regardless of "vacations" because life is continuous.
+
+[.text-center]
+ Our kids keep a diary of their learning activities and reflections.
+
+.Reflection and self-introspection are key to progressive development.
+image::/sindri-labs/assets/images/image-posts.jpg[Gervi Hера Vitr kids keep a diary,width=80%,align=center]
+{nbsp}
+
+Each student progresses through high-agency _"learning trails"_ that *tightly combine*:
+
+- *Core Scientific Theory*{daidai} (i.e, math, science, philosophy, etc.) -- the fundamentals of thinking;
+- *Maker Practice*{zaizai} (i.e, projects, experiments, µSaaS production, etc.) -- science in motion;
+- and, *Reflection*{captain} by introspection and retrospection (journals, essays, feedback, etc.).
+
+== Core Domains
+
+* #**Philosophy**#{daidai} -- logic, ethics, decision theory, Stoicism <- the foundations of science:
+** **Mathematics** -- from arithmetic to calculus and proof;
+** **Physics** -- from Newtonian mechanics to quantum mechanics and relativity;
+** **Chemistry** -- from acids and bases to organic chemistry and biochemistry;
+** **Biology** -- from microscopic life to macroscopic ecosystems and evolution;
+** **Astronomy** -- from the Sun to the Universe and beyond;
+** **Psychology** -- from cognitive psychology to social psychology and neuroscience.
+* #**Applied Sciences**#{daidai}{zaizai} -- software engineering, artificial intelligence, robotics <- civilization:
+** **Business** -- entrepreneurship, marketing, commerce && finance and personal finances;
+** **Law & Government** -- herding structures, government forms, ethics, justice, lobbying;
+** **Leadership & Ethics** -- volunteering, supporting democracy and independence fighters;
+** **Engineering & AI** -- robotics, machine learning, component printing, circuit design.
+* #**Humanities**#{zaizai} -- language, literature, poetry, history, and performing arts:
+** **Systems & Society** -- law, civics, leadership, impact of innovation and adoption curve;
+** **Languages** -- linguistics, language families and language learning, theory and practice;
+** **Literature** -- poetry, prose, fiction, selected works of American and world authors;
+** **Performing Arts** — composition, improvisation, choreography, comics, and drama.
+
+== Methodology and Philosophy of Pedagogy
+
+[.text-center]
+ Mind is a temple. Treat it as one.
+
+.Preparation is the key to the next successful day of learning.
+image::/sindri-labs/assets/images/image-philosophy.jpg[Preparation is the key to the next successful day of learning,width=80%,align=center]
+
+
+* **No lectures. No tests. No busywork.**
+* Lifelong continued learning is not an achievement but a fundamental necessity.
+* There's no such thing as specialization or preferred focus:
+** A real world objective is selected and the asset for it is created;
+** Both theoretical and practical learning is applied together to create the asset;
+** Progress is proven through the quality of the assets, not any "assignments."
+* Every day uses the 80/20 rule to learn to optimize running productivity.
+
+== School Year Concepts
+
+- Learning never stops in real life -- no such things as a vacation from thinking.
+- Breadth of knowledge trumps the depth of knowledge, especially for young adults.
+- Social development trumps intellectual development, this is also more difficult for home schooled kids.
+
+Considering these factors we use a _"learning trail"_ approach to learning:
+
+- Satisfy just the minimum amount of time state required for children to learn each week;
+- Prefer immersive learning integrated with social activities over formalized sit-down study;
+- Make all learning activities fun, interesting, and objective based on real world assets.
+
+== Curriculum Artifacts
+
+All learning trails and work artifacts live in the GitHub curriculum folder:
+
+-> https://github.com/Gervi-Hera-Vitr/sindri-labs/tree/main/curriculum[/sindri-labs/tree/main/curriculum,window=_blank,opts=nofollow]

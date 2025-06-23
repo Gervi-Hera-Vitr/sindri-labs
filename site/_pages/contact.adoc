@@ -1,0 +1,31 @@
+---
+header:
+  caption: ...find us on GitHub and fork this repo.
+  overlay_image: assets/images/banner-contact.jpg
+  overlay_filter: 0.2
+---
+= Contact
+zuezue
+:page-author_profile: true
+:page-excerpt: how to contact us
+:page-layout: single
+:page-permalink: /contact/
+:page-classes: wide
+
+To get in touch, please open an issue in our repository:
+
+-> https://github.com/Gervi-Hera-Vitr/sindri-labs/issues
+
+We welcome questions, dialogue, and collaboration.
+
+Please note, that one of the easiest methods to open an issue is in *_discussions_*:
+
+-> https://github.com/orgs/Gervi-Hera-Vitr/discussions
+
+All school organization discussions are linked to the labs repository.
+
+[.lead]
+*We love to collaborate by exchanging ideas through assets.*
+
+.Our door is always open on GitHub Discussions.
+image::/sindri-labs/assets/images/contact-image.jpg[Dorway to collaboration on gitHub,width="80%"]

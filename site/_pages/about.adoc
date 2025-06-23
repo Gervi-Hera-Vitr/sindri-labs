@@ -1,0 +1,61 @@
+---
+header:
+  caption: ...this forge is where the future is made.
+  overlay_image: assets/images/banner-devops.jpg
+  overlay_filter: 0.2
+---
+= About Gervi Héra Vitr Labs
+rdd13r
+:page-author_profile: true
+:page-excerpt: introduction to our forge and core values
+:page-layout: single
+:page-permalink: /about/
+:page-classes: wide
+
+Gervi Héra Vitr is a homeschool in Cary North Carolina.
+And this site is its classroom and laboratory repository.
+Our curriculum is built by parents, mentors, and students.
+We care deeply about children’s development, autonomy, and competence.
+This site is backed by a GitHub repository and hosted on GitHub Pages.
+
+[.lead]
+*We raise thinkers, builders, and leaders +
+{nbsp}{nbsp} -- not products of any system.*
+
+== Our Mission
+
+- Build intellectual resilience.
+- Cultivate ethical reasoning.
+- Develop technical depth.
+- Forge real-world competence.
+- Test through hands-on creation.
+- Share our experiences openly.
+
+== Our Method
+
+Gervi Héra Vitr combines foundational theory with relentless application.
+All learning culminates in a tangible result.
+Acceptable outcomes are consequential to the learner.
+Possible assets are an artifact, a product contribution, a business transaction.
+The learning environment is a Socratic classroom. +
+*_A completely flat hierarchy_*: +
+_parents are equal learners to their children_.
+
+.Children learn by doing: making assets and testing value.
+image::/sindri-labs/assets/images/image-devops.jpg[Kids learn in Production,width="80%",align="center"]
+{nbsp}
+
+Children do not "study subjects."
+They pursue long arcs of discovery, production, and self-directed inquiry
+-- helped by mentors, powered by curiosity, and tested against reality.
+
+== A Final Word
+
+We share this forge with the hope that other families
+-- educators, researchers, and mentors
+-- may benefit, collaborate, or contribute to this work.
+
+We're not running a school.
+We're raising future elders,
+founders, warriors, and scientists
+-- one battle-fire-tested soul at a time.
