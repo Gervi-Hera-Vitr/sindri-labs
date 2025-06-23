@@ -1,21 +1,16 @@
-name: "Prune Actions by CLI"
-run-name: "Prune Old Action Runs on [${{ github.repository }}] @ ${{ github.ref }} by ${{ github.actor }} with ${{ github.event_name }}"
+name: GitHub Actions Prune
+run-name: "Pruned Old Action Runs but ONE on ${{ github.repository }} by ${{ github.actor }} with ${{ github.event_name }} (Attempt ${{ github.run_attempt }})"
+#.github/workflows/github-actions-prune.yml
 
 on:
   workflow_dispatch:
-    inputs:
-      restriction:
-        required: true
-        type: string
-        default: "no-restriction"
-        description: "Optional parameter on restrictions for parallelism and early cancellation of jobs; ToDo: placeholder not yet implemented and used."
-  workflow_call:
-    inputs:
-      restriction:
-        required: false
-        type: string
-        default: "no-restriction"
-        description: "Optional parameter on restrictions for parallelism and early cancellation of jobs; ToDo: placeholder not yet implemented and used."
+  create:
+    branches:
+      - '[0-9]*-*'
+  pull_request:
+    types:
+      - opened
+      - reopened
 
 permissions:
   actions: write
@@ -26,27 +21,28 @@ defaults:
     shell: zsh -l {0}
 
 concurrency:
-  group: "${{ github.workflow }}-${{ github.ref }}-actions-prune"
+  group: "${{ github.workflow }}-actions"
   cancel-in-progress: true
 
 
 jobs:
 
   cleanup-old-action-runs-leaving-one:
-    timeout-minutes: 3
-    runs-on: self-hosted
+    timeout-minutes: 7
+    runs-on: [self-hosted, housekeeping]
     name: "Prune old actions leaving one"
 
     steps:
 
       - name: "Checkout repository source code"
-        uses: actions/checkout@09d2acae674a48949e3602304ab46fd20ae0c42f
+        uses: actions/checkout@v4.2.2
         timeout-minutes: 1
+        with:
+          fetch-depth: 0
+          fetch-tags: 'true'
 
       - name: "Cleanup old action runs leaving the last one for each workflow"
-        run: ./util/src/main/sh/clean-runs.sh
+        run: ./src/main/sh/clean-runs.sh
+        timeout-minutes: 5
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          REPO: ${{ github.repository }}
-          BRANCH: ${{ github.ref }}
-          RESTRICTION: ${{ inputs.restriction }}

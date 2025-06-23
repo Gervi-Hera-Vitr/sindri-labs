@@ -3,39 +3,44 @@ run-name: "Gervi Herdem Vitr Greeting for ${{ github.actor }} with ${{ github.ev
 
 on:
   issues:
-  workflow_dispatch:
-  workflow_call:
-    inputs:
-      restriction:
-        required: true
-        type: string
-
+    types:
+      - assigned
 
 permissions:
   issues: write
   pull-requests: write
 
+defaults:
+  run:
+    shell: zsh -l {0}
+
 concurrency:
   group: "Greeting Group"
   cancel-in-progress: false
+
 
 jobs:
 
   first-time-user-greeting:
 
     name: "Welcoming new contributors!"
-    runs-on: self-hosted
+    runs-on: [self-hosted, housekeeping]
     timeout-minutes: 1
-
-    defaults:
-      run:
-        shell: zsh -l {0}
 
     steps:
 
       - name: "Greet first time contributors!"
-        uses: actions/first-interaction@1c611a1969b4f85d5dc5bce96a83653f4f06c795
+        uses: actions/first-interaction@v1.3.0
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-          issue-message: "Dear Contributor, Welcome to Gervi Herdem Vitr! We're happy to have you here! Please let us know if you wish to pair on this issue. Thank you!"
-          pr-message: "Dear Contributor, Congratulations on your first Pull Request @ Gervi Herdem Vitr!"
+          issue-message: |
+            💫 Greetings, friend!
+
+            Welcome to Captain's School. 
+            If you wish to collaborate or contribute know that you are most welcome. 
+            Our principal can be found as `riddler9297` on Discord.
+
+          pr-message: |
+            🛠✨ First Pull Request -- Yay!
+
+            Thank you for contributing to Captain's School.

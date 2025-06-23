@@ -1,0 +1,52 @@
+name: GitHub Site Publish by Pages
+run-name: "Publish Pages Artifact on ${{ github.repository }} by ${{ github.actor }} with ${{ github.event_name }} (Attempt ${{ github.run_attempt }})"
+#.github/workflows/github-pages-deploy.yml
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+defaults:
+  run:
+    shell: zsh -l {0}
+
+concurrency:
+  group: "${{ github.workflow }}-site"
+  cancel-in-progress: false
+
+
+jobs:
+
+
+  build-site:
+    uses: ./.github/workflows/github-pages-jekyll-build.yml
+    secrets: inherit
+    permissions:
+      contents: read
+
+
+  deploy-to-default-pages:
+    runs-on: [self-hosted, site]
+    timeout-minutes: 11
+    needs: build-site
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+
+
+      - name: 🚀 Deploy to GitHub Pages
+        id: deployment
+        timeout-minutes: 9
+        uses: actions/deploy-pages@v4.0.5
+        with:
+          artifact_name: sindri-school-site
+

@@ -1,0 +1,65 @@
+name: GitHub Site Build with Jekyll
+run-name: "Jekyll built and bundles on ${{ github.repository }} by ${{ github.actor }} with ${{ github.event_name }} (Attempt ${{ github.run_attempt }})"
+#.github/workflows/github-pages-deploy.yml
+
+on:
+  workflow_dispatch:
+  workflow_call:
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
+
+permissions:
+  contents: read
+
+defaults:
+  run:
+    shell: zsh -l {0}
+
+concurrency:
+  group: "${{ github.workflow }}-jekyll"
+  cancel-in-progress: false
+
+
+jobs:
+
+  build-custom-jekyll-site:
+    runs-on: [ self-hosted, jekyll ]
+    timeout-minutes: 13
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4.2.2
+
+
+      - name: Install dependencies
+        working-directory: site
+        timeout-minutes: 7
+        run: bundle install
+
+
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5.0.0
+        timeout-minutes: 3
+
+
+      - name: Build Jekyll site
+        working-directory: site
+        timeout-minutes: 13
+        env:
+          JEKYLL_ENV: production
+        run: |
+          bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+
+
+      - name: Upload site artifact
+        uses: actions/upload-pages-artifact@v3.0.1
+        timeout-minutes: 5
+        with:
+          path: site/_site
+          name: sindri-school-site
+          retention-days: 3
+
