@@ -7,7 +7,7 @@ header:
 = Contact
 zuezue
 :page-author_profile: true
-:page-excerpt: how to contact us
+:page-excerpt: how to contact us -- have a Discussion please
 :page-layout: single
 :page-permalink: /contact/
 :page-classes: wide

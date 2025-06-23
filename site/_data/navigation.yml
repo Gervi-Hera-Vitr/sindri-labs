@@ -10,5 +10,9 @@ main:
     url: /captain/
   - title: "Own Site Setup"
     url: /site-setup/
+  - title: "Categories"
+    url: /categories/
+  - title: "Tags"
+    url: /tags/
   - title: "Projects (external)"
     url: https://github.com/Gervi-Hera-Vitr/sindri-labs

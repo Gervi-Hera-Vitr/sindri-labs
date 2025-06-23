@@ -163,32 +163,16 @@ footer:
       icon: "fas fa-fw fa-fingerprint"
       url: "/sindri-labs/assets/images/favicon-gervi-school.png"
 
+
 ### Archives: Enable taxonomy pages for tags, categories, and year
-#category_archive:
-#  type                      : jekyll-archives
-#  path                      : /categories/
-#
-#tag_archive:
-#  type                      : jekyll-archives
-#  path                      : /tags/
-#
-#jekyll-archives:
-#  enabled:
-#    - year
-#    - month
-#    - day
-#    - categories
-#    - tags
-#  layouts:
-#    year                    : archive-year
-#    month                   : archive-month
-#    day                     : archive-day
-#    category                : archive-taxonomy
-#    tag                     : archive-taxonomy
-#  permalinks:
-#    year                    : /archive/:year/
-#    month                   : /archive/:year/:month/
-#    day                     : /archive/:year/:month/:day/
-#    category                : /categories/:name/
-#    tag                     : /tags/:name/
-#
+jekyll-archives:
+  enabled: all
+  layouts:
+    year: archive-taxonomy
+    month: archive-taxonomy
+    day: archive-taxonomy
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
