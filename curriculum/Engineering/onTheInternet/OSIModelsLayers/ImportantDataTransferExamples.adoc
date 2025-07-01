@@ -1,6 +1,6 @@
 = The TCP/IP Protocol Layers: A Deep Dive
 
-The image you provided showcases the core layers and key protocols of the **TCP/IP (Transmission Control Protocol/Internet Protocol) model**. This is a stack of communication protocols that define how data is exchanged over the Internet and other computer networks. It's a hierarchical model, meaning each layer provides services to the layer above it and utilizes services from the layer below it.
+The layers provided showcases the core layers and key protocols of the **TCP/IP (Transmission Control Protocol/Internet Protocol) model**. This is a stack of communication protocols that define how data is exchanged over the Internet and other computer networks. It's a hierarchical model, meaning each layer provides services to the layer above it and utilizes services from the layer below it.
 
 The fundamental principle that connects these layers is **encapsulation**. As data moves down the stack from the Application Layer to the Link Layer, each layer adds its own header (and sometimes a trailer) to the data it receives from the layer above. This process is like putting a letter into increasingly larger envelopes, with each envelope containing instructions relevant to its level. At the receiving end, the process is reversed (decapsulation), with each layer stripping off its respective header as the data moves up the stack.
 
