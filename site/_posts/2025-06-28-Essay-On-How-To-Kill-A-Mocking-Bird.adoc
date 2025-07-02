@@ -1,4 +1,19 @@
-= The Flawed Framework: How To Kill a Mockingbird's Unconventional Structure Undermines its Narrative Pacing
+---
+header:
+  overlay_image: assets/images/banner-philosophy.jpg
+  overlay_filter: 0.1
+categories: [school]
+tags: [essay]
+---
+= How To Kill a Mockingbird's -- Unconventional Structure
+lugaru
+:page-author_profile: true
+:page-excerpt: An analysis of the pacing of Harper Lee's seminal novel, To Kill a Mockingbird; The Flawed Framework: Unconventional Structure Undermines its Narrative Pacing.
+:page-layout: single
+:page-classes: wide
+:captain: -&nbsp;https://github.com/CaptainLugaru[Captain Lugaru,window=_blank]
+
+
 
 == Introduction
 Harper Lee's seminal novel, To Kill a Mockingbird, has resonated deeply with readers since its release, prompting vital discussions about racial injustice, empathy, and moral courage. However, despite its profound thematic successes, I contend that the unique structural choices made by Lee, particularly concerning its pacing, ultimately present a significant underlying flaw that hinders the narrative's overall effectiveness.
