@@ -3,6 +3,8 @@
 #
 
 
+**/__pycache__
+
 ### macOS template
 # General
 .DS_Store
