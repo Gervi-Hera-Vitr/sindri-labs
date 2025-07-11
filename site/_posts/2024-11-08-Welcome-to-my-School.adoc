@@ -8,13 +8,13 @@ tags: [launch,update]
 = My School is Live
 lugaru
 :page-author_profile: true
-:page-excerpt: My parents yielded to my request for homeschooling, and rearranged their business so that my sister and I can have a school made just for us.
+:page-excerpt:
 :page-layout: single
 :page-classes: wide
 :anton-school: https://github.com/Gervi-Hera-Vitr/[Gervi Hëra Vitr,window=_blank]
 :mimis-publishing: https://github.com/orgs/Mimis-Gildi/[Mímis Publishing,window=_blank]
 :rdd13r: https://github.com/rdd13r/[Mr. R!dd13r,window=_blank]
-:captain: -&nbsp;https://github.com/CaptainLugaru[Captain Lugaru,window=_blank]
+:captain: https://github.com/CaptainLugaru[Captain Lugaru,window=_blank]
 
 Dear Munchkin Friends,
 

@@ -1,38 +1,42 @@
-= Foundations Of Mathematics
-Cpt. Lugaru (CaptainLugaru) <72951616+CaptainLugaru@users.noreply.github.com>
-v1.1, Tuesday, May 27, 2025
-:description: Learning the foundation of mathematics
-:sectnums:
-:sectanchors:
-:sectlinks:
-:icons: font
-:tip-caption: TIP:
-:note-caption: NOTE:
-:important-caption: ❗
-:caution-caption: 🔥
-:warning-caption: WARNING:
-:toc: preamble
-:toclevels: 1
-:toc-title:
-:keywords: Math
-:imagesdir: ./images
-:labsdir: ./labs
+---
+header:
+  overlay_image: assets/images/banner-philosophy.jpg
+  overlay_filter: 0.1
+categories: [school]
+tags:
+  - mathematics
+  - theory
+  - logic
+  - set theory
+---
+= On Foundations Of Mathematics & Reason: Part 1
+lugaru
+:page-author_profile: true
+:page-excerpt:
+:stem: asciimath
+:page-layout: single
+:page-classes: wide
+:captain: https://github.com/CaptainLugaru[Captain Lugaru,window=_blank]
+:peano-axioms: https://en.wikipedia.org/wiki/Peano_axioms[Peano Axioms,window=_blank]
+:on-sets: link://posts/2025-07-12-onSetTheory[On Sets,window=_blank]
 
-ifdef::env-name[:relfilesuffix: .adoc]
+== Mathematics and Logic
 
-== Mathematical Logic
+_This exploratory research work is graded A on July 10th, 2025._
 
 === What is Mathematical Logic?
 
-Mathematical logic:: is a subfield of mathematics exploring formal systems in relation to the way we reason. It provides tools to analyze the structure of arguments, statements, and proofs.
+Mathematical logic::
+is a subfield of mathematics exploring formal systems in relation to the way we reason. It provides tools to analyze the structure of arguments, statements, and proofs.
 
-Major subareas::  include model theory, proof theory, set theory, and recursion theory (also known as computability theory). Research in mathematical logic commonly addresses the mathematical properties of formal systems of logic such as their expressive or deductive power. However, it can also include uses of logic to characterize correct mathematical reasoning or to establish foundations of mathematics.
+Major subareas::
+include model theory, proof theory, set theory, and recursion theory (also known as computability theory).
+Research in mathematical logic commonly addresses the mathematical properties of formal systems of logic such as their expressive or deductive power.
+However, it can also include uses of logic to characterize correct mathematical reasoning or to establish foundations of mathematics.
 
+== Propositional Logic
 
-
-[#_propositions_and_logical_connectives]
-=== Propositions and Logical Connectives in Mathematical Logic
-
+.Propositions and Logical Connectives in Mathematical Logic
 [cols="1,1,2,2", options="header"]
 |===
 | Symbol | Name          | Operation Example | Meaning
@@ -43,8 +47,6 @@ Major subareas::  include model theory, proof theory, set theory, and recursion 
 | →      | Implication   | P → Q             | "Whenever P then Q"
 | ↔      | Biconditional | P ↔ Q             | "P if and only if Q" (iff)
 |===
-
-== Propositional Logic
 
 === What is Propositional Calculus?
 
@@ -60,7 +62,7 @@ This can only be either true or false.
 
 These are some standard notations for propositional logic.
 
-🧠 Logical Connectives and Operations
+.Logical Connectives and Operations
 [cols="1,2,2,5", options="header"]
 |===
 | Operator | Name | Alternate Symbols | Truth Condition
@@ -77,7 +79,10 @@ These are some standard notations for propositional logic.
 | NONEQUIVALENT | Negated Biconditional| A ≢ B, A ⇎ B, A ↮ B | True if A and B have different truth values.
 |===
 
-🔢 Types of Numbers in Mathematics
+ The table above in a reference.
+ In my actual work I use :stem: notation instead.
+
+.Types of Numbers in Mathematics
 [cols="1,3,4", options="header"]
 |===
 | Symbol | Name | Description / Example
@@ -97,7 +102,7 @@ These are some standard notations for propositional logic.
 | ∅ | Empty Set | A set with no elements.
 |===
 
-∀ Quantifiers and Set Relations
+.∀ Quantifiers and Set Relations
 [cols="1,2,4", options="header"]
 |===
 | Symbol | Name | Mathematical Meaning
@@ -118,65 +123,95 @@ These are some standard notations for propositional logic.
 | ∅ | Empty Set | A set containing no elements.
 | ℘ | Power Set | Set of all subsets of a set.
 |===
+
 == Axioms
+
+ Important point: accepted without proof.
+
 === Axioms: Foundations of Logical Reasoning
 
-An axiom, also known as a postulate or assumption, is a statement accepted as true without proof. It serves as a starting point for further reasoning and deductive processes.
+An axiom, also known as a postulate or assumption, is a statement accepted as true without proof.
+It serves as a starting point for further reasoning and deductive processes.
 
-In mathematics and logic, axioms are fundamental to building formal systems. They come in two main types:
+In mathematics and logic, axioms are fundamental to building formal systems. They come in *two* main types.
 
 ==== Types of Axioms
 
-===== Logical Axioms
-Logical axioms are formulas within a formal language that are universally valid. These are tautologies—statements that are always true regardless of the truth values of their components. They form the backbone of logical systems.
+ Logical and non-logical.
+
+Logical Axioms::
+are formulas within a formal language that are universally valid.
+These are tautologies—statements that are always true regardless of the truth values of their components.
+They form the backbone of logical systems.
 
 Examples include:
 
-(A and B) implies A
+`(A ^ B) => A`
 
-A implies (A or B)
+`A => (A v B)`
 
 Logical axioms provide the formal structure necessary for logical deductions and are typically used in propositional and predicate logic.
 
-===== Non-Logical Axioms
-Also known as postulates or proper axioms, these are domain-specific assertions used to define particular mathematical structures. Unlike logical axioms, they are not universally valid but are accepted as true within the context of a specific mathematical theory.
+Non-Logical Axioms::
+also known as postulates or proper axioms, these are domain-specific assertions used to define particular mathematical structures.
+Unlike logical axioms, they are not universally valid but are accepted as true within the context of a specific mathematical theory.
 
-Example:
+Example: the {peano-axioms} from arithmetic
 
-In integer arithmetic:
+`∀x (S(x) ≠ 0)`
 
-Non-logical axioms establish the foundational truths from which theorems of a specific theory are derived.
+Meaning, "for all x, the successor of x is not zero."
 
-==== Common Axioms in Mathematics
+This axiom is non-logical because:
+
+- It depends on the interpretation of symbols like `0` and `S(x)`, the _successor function_.
+- It makes a specific claim about natural numbers, not about general logical structure.
+
+_In integer arithmetic non-logical axioms establish the foundational truths from which theorems of a specific theory are derived._
+
+ In other words, our invented reasoning structures.
+
+=== Common Axioms in Mathematics
 
 Reflexive Axiom: Every entity is equal to itself.
 
-- a = a
+- `a = a`
 
 Transitive Axiom of Equality: Equality is transitive.
 
-- If a = b  and b = c , then a = c
+- *If* `a = b` *and* `b = c` , *then* `a = c`
 
 Addition Axiom: Equal quantities added to equal quantities yield equal sums.
 
-- If a = b and c = d , then a + c = b + d
+- *If* `a = b` *and* `c = d` , *then* `a + c = b + d`
+
+ See the thruthfunctional connectives?!
 
 ==== Role in Mathematical Systems
-Axioms form the basis of deductive reasoning in mathematics. They allow mathematicians to derive theorems and build entire structures such as geometry (e.g., Euclidean postulates) and number theory (e.g., Peano axioms).
 
-A well-chosen set of axioms ensures a consistent, complete, and useful framework for exploring mathematical truths.
+Axioms form the basis of *_deductive reasoning_* in mathematics.
+They allow mathematicians to derive theorems and build entire structures such as geometry
+(e.g., Euclidean postulates) and number theory (e.g., Peano axioms). +
+_Recall domains, i.e, fields of study, are created by non-logical axioms._
 
-
+A well-chosen set of axioms ensures a consistent, complete,
+and useful framework for exploring mathematical truths.
 
 == Set Theory
 
 === Introduction to Set Theory
 
-Set theory is the branch of mathematical logic that studies sets, which can be informally described as collections of objects. Although objects of any kind can be collected into a set, set theory – as a branch of mathematics – is mostly concerned with sets relevant to mathematics.
+Set theory is the branch of mathematical logic that studies sets, which can be informally described as collections of objects.
 
-A set is a collection of objects (elements).
+`collections` *of* `objects`
 
-These elements can be numbers, symbols, other sets, etc.
+Although objects of any kind can be collected into a set, set theory
+-- as a branch of mathematics
+-- is mostly concerned with sets relevant to mathematics.
+
+_A `set` is a `collection` of objects (`elements`)._
+
+These elements can be numbers, symbols, _other sets_, etc.
 
 === 1. Definition and Notation
 
@@ -184,11 +219,14 @@ These elements can be numbers, symbols, other sets, etc.
 
 A set is a well-defined collection of distinct elements.
 
-.Examples
-----
-A = {1, 2, 3}
-B = {a, b, c}
-----
+.Two `sets` defined:
+====
+
+ A = {1, 2, 3}
+
+ B = {a, b, c}
+
+====
 
 ==== Membership Symbols
 
@@ -207,7 +245,6 @@ P = {p | p is prime}
 
 Two sets are equal if they contain the same elements, regardless of order or repetition.
 
-.Example
 ----
 A = {1, 2, 3}, B = {3, 1, 2, 2} ⇒ A = B
 ----
@@ -218,21 +255,18 @@ The cardinality of a set is the number of elements in it.
 
 Denoted as `|A|`
 
-.Example
 ----
 |A| = 3
 ----
 
 .Infinite set example
-----
-The set of prime numbers has cardinality ∞
-----
+====
+ The set of prime numbers has cardinality ∞
+====
 
 === 4. Subsets
 
-==== Definition
-
-Set A is a subset of B if every element of A is also in B.
+ Set A is a subset of B if every element of A is also in B.
 
 `A ⊆ B`
 
@@ -246,7 +280,6 @@ If A is a subset of B but not equal to B:
 
 The empty set is a set with no elements.
 
-.Symbols
 ----
 ∅ or {}
 ----
@@ -293,7 +326,7 @@ A \ B = {x ∈ A | x ∉ B}
 
 ==== Complement
 
-The set of all elements not in A within a given universal set U:
+The set of all elements not in `A` _within_ a given universal set `U`:
 
 ----
 Aᶜ = U \ A
@@ -306,7 +339,7 @@ Aᶜ = U \ A
 (A ∩ B)ᶜ = Aᶜ ∪ Bᶜ
 ----
 
-These laws relate complements to unions and intersections.
+_These laws relate complements to unions and `intersections`._
 
 === 9. Power Sets and Sets of Sets
 
@@ -318,7 +351,7 @@ The set of all subsets of a set A:
 𝒫(A)
 ----
 
-.Example
+
 ----
 A = {0, 1} ⇒ 𝒫(A) = {∅, {0}, {1}, {0,1}}
 ----
@@ -329,8 +362,6 @@ Sets can contain other sets as elements.
 
 === 10. Russell's Paradox
 
-Define:
-
 ----
 Ω = {x | x ∉ x}
 ----
@@ -339,7 +370,9 @@ If `Ω ∈ Ω`, then `Ω ∉ Ω`
 
 If `Ω ∉ Ω`, then `Ω ∈ Ω`
 
-Leads to a paradox. Solved using axiomatic set theory with strict rules (axioms).
+Leads to a paradox. 'Solved' using axiomatic set theory with strict rules (axioms).
+
+See article on Sets -- i.e., NOT solved!
 
 === 11. Practical Applications
 
