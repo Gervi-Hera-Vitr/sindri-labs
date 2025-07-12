@@ -1,0 +1,133 @@
+---
+header:
+  overlay_image: assets/images/banner-philosophy.jpg
+  overlay_filter: 0.1
+categories: [school]
+tags:
+  - mathematics
+  - theory
+  - logic
+---
+= Mathematics - Part 5: Gödel's incompleteness theorem
+lugaru
+:page-author_profile: true
+:page-excerpt:
+:stem: asciimath
+:page-layout: single
+:page-classes: wide
+:captain: https://github.com/CaptainLugaru[Captain Lugaru,window=_blank]
+:on-sets: link:/school/2025/07/11/On-Set-Theory.html[On Sets,window=_blank]
+
+== Gödel's incompleteness theorem & Axiom sets
+=== Introduction
+
+Gödel’s Incompleteness Theorem is one of the most profound discoveries in mathematics. It reveals that in any consistent axiomatic system capable of expressing arithmetic, there exist true statements that are unprovable within that system. This challenges the very notion of mathematical certainty.
+
+=== From Paradox to Proof
+
+Consider the classic paradox: “This statement is false.” If true, then it’s false; if false, then it’s true. Such self-referential statements create logical loops.
+
+Kurt Gödel translated this idea into mathematics. By encoding statements as numbers, he constructed a mathematical version: “This statement cannot be proved.” Unlike linguistic paradoxes, mathematical statements must be either true or false.
+
+=== Gödel’s Strategy: Gödel Numbering
+
+Gödel devised a method to assign unique code numbers to mathematical statements and proofs:
+
+Every statement (e.g., axioms, theorems) is represented by a number.
+
+Proof becomes a mathematical property (e.g., divisibility by axiom codes).
+
+This allows mathematics to refer to itself.
+
+=== The Unprovable Truth
+
+Gödel’s key construction:
+
+“This statement cannot be proved from the axioms.”
+
+Analyzing this:
+
+If false → it’s provable → contradiction → must be true.
+
+Therefore, it's a true but unprovable statement within the system.
+
+=== Implications of the Theorem
+
+Incompleteness: Not all truths are provable.
+
+Consistency limits: A system cannot prove its own consistency.
+
+Infinite regress: Adding unprovable truths as axioms generates new unprovable truths.
+
+=== Philosophical and Historical Context
+
+Mathematicians once believed every truth could be proved. Gödel’s theorem upended this view, revealing fundamental limits.
+
+Gödel worked at Princeton alongside Einstein, who deeply respected his intellect. His theorems, published in 1931, marked a revolution in logic.
+
+=== Formal Systems and Axioms
+
+Mathematics is based on formal systems:
+
+Axioms: Assumed truths (e.g., "through any two points there is a unique line").
+
+Rules of inference: Logical methods for deriving new truths.
+
+Theorems: Statements derived from axioms via inference.
+
+Euclidean and non-Euclidean geometry demonstrate how changing axioms can lead to different, yet consistent, mathematical systems.
+
+=== Gödel’s First and Second Incompleteness Theorems
+
+First Theorem: In any consistent, sufficiently expressive system (e.g., number theory), there are true statements that cannot be proved within that system.
+
+Second Theorem: No such system can prove its own consistency.
+
+These results showed that mathematics cannot be reduced to a complete algorithmic procedure.
+
+=== Impact on Computation and Logic
+
+Alan Turing, working concurrently, proved the Halting Problem is unsolvable—reinforcing Gödel’s insights. These ideas founded modern computer science and formalized the limitations of algorithmic reasoning.
+
+=== Beyond Gödel: Emergence and Perception
+
+Questions remain about emergence and perception in systems like cellular automata and neural networks:
+
+Simple rules can generate complex behavior (e.g., Game of Life).
+
+Ambiguous perception (e.g., rabbit-duck illusion) reflects subjective interpretation.
+
+Complementarity (from quantum mechanics) explains how different perspectives can coexist.
+
+=== Goldbach, Riemann, and Real-World Conjectures
+
+Initially thought to affect only abstract logic, Gödel’s theorem also impacts number theory.
+
+Goldbach’s Conjecture: May be true yet unprovable.
+
+Riemann Hypothesis: If undecidable, must be true (since its falsehood would be provable).
+
+=== Mathematics as an Open-Ended Process
+
+Gödel’s work invites us to view mathematics not as a closed system, but an evolving, creative enterprise. Just as physics evolved from Newton to Einstein, our understanding of computation and proof may shift with future insights.
+
+=== Subjectivity and Limits of Knowledge
+
+Human perception, biases, and unconscious influences affect even formal reasoning:
+
+AI training includes implicit human biases.
+
+Conscious awareness does not fully capture all cognitive processes.
+
+=== Summary
+
+Gödel’s theorems reveal a gap between truth and proof.
+
+No consistent, complete system can prove all mathematical truths.
+
+Formal systems are limited by their own structure.
+
+Mathematics, like reality, may remain partly unknowable.
+
+Gödel’s legacy reshaped logic, mathematics, and computer science—reminding us that even in structured thought, mystery remains.
+
