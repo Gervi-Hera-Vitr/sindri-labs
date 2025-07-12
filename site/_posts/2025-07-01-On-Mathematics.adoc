@@ -14,6 +14,8 @@ lugaru
 :page-layout: single
 :page-classes: wide
 :captain: https://github.com/CaptainLugaru[Captain Lugaru,window=_blank]
+:youtube-channel-domain-of-science: https://www.youtube.com/@domainofscience
+:youtube-the-map-of-math: https://youtu.be/OmJ-4B-mS-Y
 
 _This is how I organized my research into the fields of mathematics._
 
