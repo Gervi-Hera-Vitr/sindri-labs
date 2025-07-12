@@ -1,0 +1,220 @@
+---
+header:
+  overlay_image: assets/images/banner-philosophy.jpg
+  overlay_filter: 0.1
+categories: [school]
+tags:
+  - mathematics
+  - theory
+  - logic
+---
+= Mathematics - Part 2: Set Theory
+lugaru
+:page-author_profile: true
+:page-excerpt:
+:stem: asciimath
+:page-layout: single
+:page-classes: wide
+:captain: https://github.com/CaptainLugaru[Captain Lugaru,window=_blank]
+:peano-axioms: https://en.wikipedia.org/wiki/Peano_axioms[Peano Axioms,window=_blank]
+
+:on-next-complexity: link:/sindri-labs/school/2025/07/04/On-Mathematics-Complexity-Theory.html[Mathematics - Part 3: Complexity Theory,window=_blank]
+:on-sets: link:/sindri-labs/school/2025/07/11/On-Set-Theory.html[On Sets,window=_blank]
+
+Set theory is the branch of mathematical logic that studies sets, which can be informally described as collections of objects.
+
+`collections` *of* `objects`
+
+Although objects of any kind can be collected into a set, set theory
+-- as a branch of mathematics
+-- is mostly concerned with sets relevant to mathematics.
+
+_A `set` is a `collection` of objects (`elements`)._
+
+These elements can be numbers, symbols, _other sets_, etc.
+
+== 1. Definition and Notation
+
+=== What is a Set?
+
+A set is a well-defined collection of distinct elements.
+
+.Two `sets` defined:
+====
+
+ A = {1, 2, 3}
+
+ B = {a, b, c}
+
+====
+
+=== Membership Symbols
+
+* `∈` means "is an element of": `2 ∈ A`
+* `∉` means "is not an element of": `4 ∉ A`
+
+=== Set Builder Notation
+
+Used when listing all elements is impractical.
+
+----
+P = {p | p is prime}
+----
+
+== 2. Equality of Sets
+
+Two sets are equal if they contain the same elements, regardless of order or repetition.
+
+----
+A = {1, 2, 3}, B = {3, 1, 2, 2} ⇒ A = B
+----
+
+== 3. Cardinality (Size of a Set)
+
+The cardinality of a set is the number of elements in it.
+
+Denoted as `|A|`
+
+----
+|A| = 3
+----
+
+.Infinite set example
+====
+ The set of prime numbers has cardinality ∞
+====
+
+== 4. Subsets
+
+ Set A is a subset of B if every element of A is also in B.
+
+`A ⊆ B`
+
+=== Proper Subset
+
+If A is a subset of B but not equal to B:
+
+`A ⊂ B`
+
+== 5. The Empty Set
+
+The empty set is a set with no elements.
+
+----
+∅ or {}
+----
+
+.Properties
+* `∅ ⊆ A` for any set A
+* Unique: there is only one empty set
+
+== 6. Union and Intersection
+
+=== Union
+
+All elements from both sets:
+
+----
+A ∪ B = {x | x ∈ A or x ∈ B}
+----
+
+=== Intersection
+
+Only elements common to both sets:
+
+----
+A ∩ B = {x | x ∈ A and x ∈ B}
+----
+
+=== Properties
+
+* Commutative: `A ∪ B = B ∪ A`, `A ∩ B = B ∩ A`
+* Associative: `(A ∪ B) ∪ C = A ∪ (B ∪ C)`
+
+=== Identities
+
+* `A ∪ ∅ = A`
+* `A ∩ ∅ = ∅`
+
+== 7. Set Difference and Complement
+
+=== Difference
+
+----
+A \ B = {x ∈ A | x ∉ B}
+----
+
+=== Complement
+
+The set of all elements not in `A` _within_ a given universal set `U`:
+
+----
+Aᶜ = U \ A
+----
+
+== 8. De Morgan's Laws
+
+----
+(A ∪ B)ᶜ = Aᶜ ∩ Bᶜ
+(A ∩ B)ᶜ = Aᶜ ∪ Bᶜ
+----
+
+_These laws relate complements to unions and `intersections`._
+
+== 9. Power Sets and Sets of Sets
+
+=== Power Set
+
+The set of all subsets of a set A:
+
+----
+𝒫(A)
+----
+
+
+----
+A = {0, 1} ⇒ 𝒫(A) = {∅, {0}, {1}, {0,1}}
+----
+
+=== Sets of Sets
+
+Sets can contain other sets as elements.
+
+== 10. Russell's Paradox
+
+----
+Ω = {x | x ∉ x}
+----
+
+If `Ω ∈ Ω`, then `Ω ∉ Ω`
+
+If `Ω ∉ Ω`, then `Ω ∈ Ω`
+
+Leads to a paradox. 'Solved' using axiomatic set theory with strict rules (axioms).
+
+See article on Sets -- i.e., NOT solved!
+
+== 11. Practical Applications
+
+Set theory is used in:
+
+* Mathematical logic
+* Computer science
+* Probability
+* Database systems
+* Defining logical statements and predicates
+
+== Summary
+
+* Set = collection of elements
+* Notation: curly brackets `{}`, `∈`, `∉`, `|A|`
+* Set Builder: `{x ∈ A | condition}`
+* Empty set: `∅`, subset of all sets
+* Union / Intersection: `∪`, `∩`
+* Difference / Complement: `\`, `ᶜ`
+* Equal sets: same elements regardless of order or repetition
+* Power Set: all subsets
+* Russell's Paradox: motivates axiomatic theory
+
+- Next is {on-next-complexity}
+- Completed with {on-sets}

@@ -1,0 +1,199 @@
+---
+header:
+  overlay_image: assets/images/banner-philosophy.jpg
+  overlay_filter: 0.1
+categories: [school]
+tags:
+  - mathematics
+  - theory
+  - logic
+---
+= Mathematics - Part 1: Foundations & Reason
+lugaru
+:page-author_profile: true
+:page-excerpt:
+:stem: asciimath
+:page-layout: single
+:page-classes: wide
+:captain: https://github.com/CaptainLugaru[Captain Lugaru,window=_blank]
+:peano-axioms: https://en.wikipedia.org/wiki/Peano_axioms[Peano Axioms,window=_blank]
+:on-next-sets: link:/sindri-labs/school/2025/07/03/On-Mathematics-Set-Theory.html[Mathematics - Part 2: Set Theory,window=_blank]
+:on-sets: link:/sindri-labs/school/2025/07/11/On-Set-Theory.html[On Sets,window=_blank]
+
+_This exploratory research work is graded A on July 10th, 2025._
+
+== What is Mathematical Logic?
+
+Mathematical logic::
+is a subfield of mathematics exploring formal systems in relation to the way we reason. It provides tools to analyze the structure of arguments, statements, and proofs.
+
+Major subareas::
+include model theory, proof theory, set theory, and recursion theory (also known as computability theory).
+Research in mathematical logic commonly addresses the mathematical properties of formal systems of logic such as their expressive or deductive power.
+However, it can also include uses of logic to characterize correct mathematical reasoning or to establish foundations of mathematics.
+
+== Propositional Logic
+
+.Propositions and Logical Connectives in Mathematical Logic
+[cols="1,1,2,2", options="header"]
+|===
+| Symbol | Name          | Operation Example | Meaning
+
+| ¬      | Negation      | ¬P                | "not P"
+| ∧      | Conjunction   | P ∧ Q             | "P and Q"
+| ∨      | Disjunction   | P ∨ Q             | "P or Q" (inclusive)
+| →      | Implication   | P → Q             | "Whenever P then Q"
+| ↔      | Biconditional | P ↔ Q             | "P if and only if Q" (iff)
+|===
+
+== What is Propositional Calculus?
+
+Propositional calculus:: is a branch of logic. It is also called propositional logic.
+
+
+Mathematical logic is also the study of truths in mathematical statements. These are called propositions — a claim that is either true or false. A mix of these create propositional logic.
+
+Example of a proposition: `2 + 2 = 4`
+This can only be either true or false.
+
+== Notational Variants of Connectives in propositional calculus
+
+These are some standard notations for propositional logic.
+
+.Logical Connectives and Operations
+[cols="1,2,2,5", options="header"]
+|===
+| Operator | Name | Alternate Symbols | Truth Condition
+
+| AND | Conjunction | A ∧ B, A · B, AB, A & B, A && B | True if both A and B are true.
+| OR | Disjunction | A ∨ B, A + B, A ∣ B, A ∥ B | True if at least one of A or B is true.
+| NOT | Negation | ¬A, −A, Ā, ~A, !A | True if A is false.
+| IMPLIES | Implication | A → B, A ⇒ B, A ⊃ B | False only if A is true and B is false.
+| EQUIVALENT | Biconditional | A ⇔ B, A ≡ B, A ↔ B, A ⟺ B | True if A and B are logically equivalent.
+| XOR | Exclusive OR | A ⊕ B, A ⊻ B, A ⩒̅ B | True if exactly one of A or B is true.
+| XNOR | Exclusive NOR | A ⊙ B, ¬(A ⊕ B), A ≡ B | True if both A and B are equal.
+| NAND | Not AND | ¬(A ∧ B), A ↑ B | True unless both A and B are true.
+| NOR | Not OR | ¬(A ∨ B), A ↓ B | True if neither A nor B is true.
+| NONEQUIVALENT | Negated Biconditional| A ≢ B, A ⇎ B, A ↮ B | True if A and B have different truth values.
+|===
+
+ The table above in a reference.
+ In my actual work I use :stem: notation instead.
+
+.Types of Numbers in Mathematics
+[cols="1,3,4", options="header"]
+|===
+| Symbol | Name | Description / Example
+
+| ℕ | Natural Numbers | {0, 1, 2, 3, ...} — Counting numbers.
+| ℤ | Integers | {..., -2, -1, 0, 1, 2, ...} — Whole numbers and their negatives.
+| ℚ | Rational Numbers | Numbers that can be expressed as a/b, where a, b ∈ ℤ, b ≠ 0.
+| ℝ | Real Numbers | All rational and irrational numbers.
+| ℂ | Complex Numbers | a + bi, where i = √-1.
+| ℍ | Quaternions | a + bi + cj + dk — Extension of complex numbers.
+| ℙ | Prime Numbers | Natural numbers greater than 1 with no divisors other than 1 and itself.
+| ℙ* | Probable Primes | Numbers that pass a primality test but not definitively proven prime.
+| 𝕋 | Transcendental Numbers | Numbers not roots of any polynomial with integer coefficients (e.g. π, e).
+| 𝔸 | Algebraic Numbers | Solutions to polynomials with integer coefficients (includes rationals, some irrationals).
+| 𝕌 | Unit Circle Numbers | Complex numbers with modulus 1 (roots of unity).
+| 𝕆 | Octonions | 8-dimensional number system generalizing quaternions.
+| ∅ | Empty Set | A set with no elements.
+|===
+
+.∀ Quantifiers and Set Relations
+[cols="1,2,4", options="header"]
+|===
+| Symbol | Name | Mathematical Meaning
+
+| ∃ | Existential Quantifier | "There exists". Example: ∃x ∈ ℝ: x² = 4 ⇒ true.
+| ∃! | Uniqueness Quantifier | "There exists exactly one". Example: ∃!x: x + 1 = 2
+| ∀ | Universal Quantifier | "For all". Example: ∀x ∈ ℕ, x ≥ 0
+| ∈ | Element of | x ∈ A: x is a member of set A.
+| ∉ | Not an Element of | x ∉ A: x is not in A.
+| ⊂ | Proper Subset | A ⊂ B: all A in B, A ≠ B.
+| ⊆ | Subset | A ⊆ B: all A in B, possibly A = B.
+| ⊄ | Not a Subset | A ⊄ B: A is not subset of B.
+| ⊃ | Proper Superset | A ⊃ B: A has all elements of B and more.
+| ⊇ | Superset | A ⊇ B: A contains B, possibly equal.
+| ∪ | Union | A ∪ B: Set of elements in A, B, or both.
+| ∩ | Intersection | A ∩ B: Elements common to A and B.
+| \ | Set Difference | A \ B: Elements in A not in B.
+| ∅ | Empty Set | A set containing no elements.
+| ℘ | Power Set | Set of all subsets of a set.
+|===
+
+== Axioms
+
+ Important point: accepted without proof.
+
+=== Axioms: Foundations of Logical Reasoning
+
+An axiom, also known as a postulate or assumption, is a statement accepted as true without proof.
+It serves as a starting point for further reasoning and deductive processes.
+
+In mathematics and logic, axioms are fundamental to building formal systems. They come in *two* main types.
+
+==== Types of Axioms
+
+ Logical and non-logical.
+
+Logical Axioms::
+are formulas within a formal language that are universally valid.
+These are tautologies—statements that are always true regardless of the truth values of their components.
+They form the backbone of logical systems.
+
+Examples include:
+
+`(A ^ B) => A`
+
+`A => (A v B)`
+
+Logical axioms provide the formal structure necessary for logical deductions and are typically used in propositional and predicate logic.
+
+Non-Logical Axioms::
+also known as postulates or proper axioms, these are domain-specific assertions used to define particular mathematical structures.
+Unlike logical axioms, they are not universally valid but are accepted as true within the context of a specific mathematical theory.
+
+Example: the {peano-axioms} from arithmetic
+
+`∀x (S(x) ≠ 0)`
+
+Meaning, "for all x, the successor of x is not zero."
+
+This axiom is non-logical because:
+
+- It depends on the interpretation of symbols like `0` and `S(x)`, the _successor function_.
+- It makes a specific claim about natural numbers, not about general logical structure.
+
+_In integer arithmetic non-logical axioms establish the foundational truths from which theorems of a specific theory are derived._
+
+ In other words, our invented reasoning structures.
+
+=== Common Axioms in Mathematics
+
+Reflexive Axiom: Every entity is equal to itself.
+
+- `a = a`
+
+Transitive Axiom of Equality: Equality is transitive.
+
+- *If* `a = b` *and* `b = c` , *then* `a = c`
+
+Addition Axiom: Equal quantities added to equal quantities yield equal sums.
+
+- *If* `a = b` *and* `c = d` , *then* `a + c = b + d`
+
+ See the thruthfunctional connectives?!
+
+==== Role in Mathematical Systems
+
+Axioms form the basis of *_deductive reasoning_* in mathematics.
+They allow mathematicians to derive theorems and build entire structures such as geometry
+(e.g., Euclidean postulates) and number theory (e.g., Peano axioms). +
+_Recall domains, i.e, fields of study, are created by non-logical axioms._
+
+A well-chosen set of axioms ensures a consistent, complete,
+and useful framework for exploring mathematical truths.
+
+- Next is {on-next-sets}
+- Completed with {on-sets}
