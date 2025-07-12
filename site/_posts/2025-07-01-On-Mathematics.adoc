@@ -1,0 +1,19 @@
+---
+header:
+  overlay_image: assets/images/banner-philosophy.jpg
+  overlay_filter: 0.1
+categories: [school]
+tags:
+  - mathematics
+---
+= Mathematics - My Research
+lugaru
+:page-author_profile: true
+:page-excerpt:
+:stem: asciimath
+:page-layout: single
+:page-classes: wide
+:captain: https://github.com/CaptainLugaru[Captain Lugaru,window=_blank]
+
+_This is how I organized my research into the fields of mathematics._
+
