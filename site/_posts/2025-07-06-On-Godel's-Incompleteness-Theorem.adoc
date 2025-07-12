@@ -8,7 +8,7 @@ tags:
   - theory
   - logic
 ---
-= Mathematics - Part 6: Gödel's incompleteness theorem
+= Mathematics - Part 5: Gödel's incompleteness theorem
 lugaru
 :page-author_profile: true
 :page-excerpt:
