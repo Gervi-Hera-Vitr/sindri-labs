@@ -6,9 +6,7 @@ categories: [school]
 tags:
   - mathematics
   - theory
-  - logic
-
-
+  - complexity theory
 ---
 = Mathematics - Part 3: Complexity Theory
 lugaru
@@ -18,9 +16,9 @@ lugaru
 :page-layout: single
 :page-classes: wide
 :captain: https://github.com/CaptainLugaru[Captain Lugaru,window=_blank]
-:on-sets: link:/school/2025/07/11/On-Set-Theory.html[On Sets,window=_blank]
-:on-top: link:/school/2025/07/01/On-Mathematics.html[Mathematics - My Research,window=_blank]
-:on-next: link:/school/2025/07/05/On-Mathematics-Category-Theory.html[Mathematics - Part 4: Category Theory,window=_blank]
+:on-sets: link:/sindri-labs/school/2025/07/11/On-Set-Theory.html[On Sets,window=_blank]
+:on-top: link:/sindri-labs/school/2025/07/01/On-Mathematics.html[Mathematics - My Research,window=_blank]
+:on-next: link:/sindri-labs/school/2025/07/05/On-Mathematics-Category-Theory.html[Mathematics - Part 4: Category Theory,window=_blank]
 
 Complexity theory::
 
@@ -39,11 +37,8 @@ Emergence describes how novel structures arise as simple components interact.
 This area incorporates:
 
 - Information theory — interpreting organization in terms of entropy.
-
 - Physics — studies on synchronization and pattern formation.
-
 - Chemistry — models of dissipative and far-from-equilibrium systems.
-
 - Tools such as agent-based modeling help simulate how local rules give rise to emergent global patterns.
 
 === Nonlinear Systems and Chaos Theory
@@ -63,11 +58,8 @@ Network theory offers mathematical tools (e.g., graph theory) to analyze how com
 Applications include:
 
 - Financial contagion mapping
-
 - Global logistics
-
 - Socio-political interactions
-
 - This data-driven, computational approach moves beyond models toward real-time system visualization.
 
 === Adaptive Systems
@@ -78,11 +70,8 @@ Examples include fish schools, markets, and international relations.
 Key components:
 
 - Cybernetics — theories of regulation and control.
-
 - Game theory — models of interaction, competition, and cooperation.
-
 - Evolutionary theory — population-level adaptation over life cycles.
-
 - CAS research incorporates tools such as evolutionary game theory, fitness landscapes, and genetic algorithms.
 
 === Context and Significance
