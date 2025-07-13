@@ -18,6 +18,9 @@ lugaru
 :captain: https://github.com/CaptainLugaru[Captain Lugaru,window=_blank]
 :on-sets: link:/school/2025/07/11/On-Set-Theory.html[On Sets,window=_blank]
 
+:on-top: link:/school/2025/07/01/On-Mathematics.html[Mathematics - My Research,window=_blank]
+
+:on-next: link:/sindri-labs/school/2025/07/06/On-Godel-Incompleteness-Theorem.html[Part 5: On Godel's Incompleteness Theorem,window=_blank] ,window=_blank]
 
 == Category Theory
 === Introduction
@@ -105,6 +108,7 @@ Category theory generalizes to n-categories, allowing morphisms between morphism
 === Summary
 
 Category theory:: provides a universal language to describe and analyze mathematical structures. Through categories, functors, and natural transformations, it unifies diverse areas of mathematics and informs modern developments in logic, algebra, topology, and computer science.
-
+- next is {on-next}
+- Top is {on-top}
 
 

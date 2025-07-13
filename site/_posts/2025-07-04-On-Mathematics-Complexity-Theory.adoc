@@ -7,6 +7,8 @@ tags:
   - mathematics
   - theory
   - logic
+
+
 ---
 = Mathematics - Part 3: Complexity Theory
 lugaru
@@ -17,6 +19,8 @@ lugaru
 :page-classes: wide
 :captain: https://github.com/CaptainLugaru[Captain Lugaru,window=_blank]
 :on-sets: link:/school/2025/07/11/On-Set-Theory.html[On Sets,window=_blank]
+:on-top: link:/school/2025/07/01/On-Mathematics.html[Mathematics - My Research,window=_blank]
+:on-next: link:/school/2025/07/05/On-Mathematics-Category-Theory.html[Mathematics - Part 4: Category Theory,window=_blank]
 
 Complexity theory::
 
@@ -92,6 +96,9 @@ Complexity theory:: brings together diverse models and methods to understand how
 Its four major frameworks — self-organization, nonlinear systems, network theory, and adaptive systems — form a foundation for studying complexity across scientific domains.
 
 As a post-Newtonian science, it helps extend our understanding of nature and society beyond the limits of classical models.
+
+- Next is {on-next}
+- Top is {on-top}
 
 == Final Grade and Comments
 
