@@ -18,7 +18,7 @@ lugaru
 :captain: https://github.com/CaptainLugaru[Captain Lugaru,window=_blank]
 :on-sets: link:/school/2025/07/11/On-Set-Theory.html[On Sets,window=_blank]
 
-Complexity theory is a collection of theoretical frameworks developed to model and analyze complex systems across diverse domains such as computer science, ecology, and engineering.
+Complexity theory:: is a collection of theoretical frameworks developed to model and analyze complex systems across diverse domains such as computer science, ecology, and engineering.
 These systems often exhibit behaviors and dynamics that defy traditional scientific methods rooted in linear and reductionist models.
 
 As complexity has emerged as a universal feature of our world, a unified, though loosely structured, approach to its study has evolved.
@@ -26,65 +26,65 @@ This overview organizes complexity theory into four primary areas: self-organiza
 
 == Self-Organization and Emergence
 
-Self-organization refers to the formation of global order through local interactions without centralized control.
+Self-organization:: refers to the formation of global order through local interactions without centralized control.
 Examples include bird flocks, financial markets, the brain, and social networks.
 Emergence describes how novel structures arise as simple components interact.
 
 This area incorporates:
 
-Information theory — interpreting organization in terms of entropy.
+- Information theory — interpreting organization in terms of entropy.
 
-Physics — studies on synchronization and pattern formation.
+- Physics — studies on synchronization and pattern formation.
 
-Chemistry — models of dissipative and far-from-equilibrium systems.
+- Chemistry — models of dissipative and far-from-equilibrium systems.
 
-Tools such as agent-based modeling help simulate how local rules give rise to emergent global patterns.
+T- Tools such as agent-based modeling help simulate how local rules give rise to emergent global patterns.
 
-==== Nonlinear Systems and Chaos Theory
+=== Nonlinear Systems and Chaos Theory
 
-Nonlinear dynamics are inherent to most complex systems.
+Nonlinear dynamics:: are inherent to most complex systems.
 Originating in mathematics and physics, this field examines how small changes can produce disproportionately large effects — exemplified by the butterfly effect.
 
-Chaos theory challenged the Newtonian reliance on equilibrium and predictability, revealing that many real-world processes (ecosystem shifts, societal change) are governed by feedback loops and far-from-equilibrium dynamics.
+Chaos theory:: challenged the Newtonian reliance on equilibrium and predictability, revealing that many real-world processes (ecosystem shifts, societal change) are governed by feedback loops and far-from-equilibrium dynamics.
 
-==== Network Theory
+=== Network Theory
 
 Complex systems can often be represented as networks.
 Network theory offers mathematical tools (e.g., graph theory) to analyze how components are connected and how information, matter, or influence flows through them.
 
 Applications include:
 
-Financial contagion mapping
+- Financial contagion mapping
 
-Global logistics
+- Global logistics
 
-Socio-political interactions
+- Socio-political interactions
 
-This data-driven, computational approach moves beyond models toward real-time system visualization.
+- This data-driven, computational approach moves beyond models toward real-time system visualization.
 
-==== Adaptive Systems
+=== Adaptive Systems
 
-Complex adaptive systems (CAS) consist of agents that learn, evolve, and adapt to each other.
+Complex adaptive systems (CAS):: consist of agents that learn, evolve, and adapt to each other.
 Examples include fish schools, markets, and international relations.
 
 Key components:
 
-Cybernetics — theories of regulation and control.
+- Cybernetics — theories of regulation and control.
 
-Game theory — models of interaction, competition, and cooperation.
+- Game theory — models of interaction, competition, and cooperation.
 
-Evolutionary theory — population-level adaptation over life cycles.
+- Evolutionary theory — population-level adaptation over life cycles.
 
-CAS research incorporates tools such as evolutionary game theory, fitness landscapes, and genetic algorithms.
+- CAS research incorporates tools such as evolutionary game theory, fitness landscapes, and genetic algorithms.
 
-==== Context and Significance
+=== Context and Significance
 
-Complexity theory challenges the Newtonian worldview by addressing systems that are inherently nonlinear and not reducible to parts.
+Complexity theory:: challenges the Newtonian worldview by addressing systems that are inherently nonlinear and not reducible to parts.
 Scholarpedia describes it as a "post-Newtonian paradigm" — a necessary shift as 21st-century science tackles ecological, economic, and sociopolitical complexity.
 
-==== Summary
+=== Summary
 
-Complexity theory brings together diverse models and methods to understand how order, structure, and change emerge in highly interconnected and dynamic systems.
+Complexity theory:: brings together diverse models and methods to understand how order, structure, and change emerge in highly interconnected and dynamic systems.
 Its four major frameworks — self-organization, nonlinear systems, network theory, and adaptive systems — form a foundation for studying complexity across scientific domains.
 
 As a post-Newtonian science, it helps extend our understanding of nature and society beyond the limits of classical models.
