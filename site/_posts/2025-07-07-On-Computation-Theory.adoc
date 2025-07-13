@@ -8,7 +8,7 @@ tags:
   - theory
   - logic
 ---
-= Mathematics - Part 6: Complexity Theory
+= Mathematics - Part 6: Computation Theory
 lugaru
 :page-author_profile: true
 :page-excerpt:
