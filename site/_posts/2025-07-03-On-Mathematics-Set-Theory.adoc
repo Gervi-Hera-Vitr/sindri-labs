@@ -6,7 +6,7 @@ categories: [school]
 tags:
   - mathematics
   - theory
-  - logic
+  - set theory
 ---
 = Mathematics - Part 2: Set Theory
 lugaru
