@@ -18,5 +18,8 @@ lugaru
 :page-classes: wide
 :captain: https://github.com/CaptainLugaru[Captain Lugaru,window=_blank]
 :peano-axioms: https://en.wikipedia.org/wiki/Peano_axioms[Peano Axioms,window=_blank]
+:on-top: link:/sindri-labs/school/2025/07/01/On-Mathematics.html[Mathematics - My Research,window=_blank]
 
-ToDo:
+== Summary
+
+- Start of the series {on-top}

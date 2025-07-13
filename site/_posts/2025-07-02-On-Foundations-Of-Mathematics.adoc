@@ -17,8 +17,9 @@ lugaru
 :page-classes: wide
 :captain: https://github.com/CaptainLugaru[Captain Lugaru,window=_blank]
 :peano-axioms: https://en.wikipedia.org/wiki/Peano_axioms[Peano Axioms,window=_blank]
-:on-next-sets: link:/sindri-labs/school/2025/07/03/On-Mathematics-Set-Theory.html[Mathematics - Part 2: Set Theory,window=_blank]
 :on-sets: link:/sindri-labs/school/2025/07/11/On-Set-Theory.html[On Sets,window=_blank]
+:on-top: link:/sindri-labs/school/2025/07/01/On-Mathematics.html[Mathematics - My Research,window=_blank]
+:on-next: link:/sindri-labs/school/2025/07/03/On-Mathematics-Set-Theory.html[Mathematics - Part 2: Set Theory,window=_blank]
 
 _This exploratory research work is graded A on July 10th, 2025._
 
@@ -195,5 +196,6 @@ _Recall domains, i.e, fields of study, are created by non-logical axioms._
 A well-chosen set of axioms ensures a consistent, complete,
 and useful framework for exploring mathematical truths.
 
-- Next is {on-next-sets}
+- Next is {on-next}
 - Completed with {on-sets}
+- Top is {on-top}

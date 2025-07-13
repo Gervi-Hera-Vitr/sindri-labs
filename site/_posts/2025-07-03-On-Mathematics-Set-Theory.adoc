@@ -17,9 +17,9 @@ lugaru
 :page-classes: wide
 :captain: https://github.com/CaptainLugaru[Captain Lugaru,window=_blank]
 :peano-axioms: https://en.wikipedia.org/wiki/Peano_axioms[Peano Axioms,window=_blank]
-
-:on-next-complexity: link:/sindri-labs/school/2025/07/04/On-Mathematics-Complexity-Theory.html[Mathematics - Part 3: Complexity Theory,window=_blank]
 :on-sets: link:/sindri-labs/school/2025/07/11/On-Set-Theory.html[On Sets,window=_blank]
+:on-top: link:/sindri-labs/school/2025/07/01/On-Mathematics.html[Mathematics - My Research,window=_blank]
+:on-next: link:/sindri-labs/school/2025/07/04/On-Mathematics-Complexity-Theory.html[Mathematics - Part 3: Complexity Theory,window=_blank]
 
 Set theory is the branch of mathematical logic that studies sets, which can be informally described as collections of objects.
 
@@ -216,5 +216,6 @@ Set theory is used in:
 * Power Set: all subsets
 * Russell's Paradox: motivates axiomatic theory
 
-- Next is {on-next-complexity}
+- Next is {on-next}
 - Completed with {on-sets}
+- Top is {on-top}
