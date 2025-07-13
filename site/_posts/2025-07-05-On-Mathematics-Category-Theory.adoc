@@ -22,47 +22,47 @@ lugaru
 == Category Theory
 === Introduction
 
-Category theory is a branch of mathematics concerned with general structures and their interrelations. Initially developed to formalize concepts in algebraic topology, it has since become foundational across mathematics and increasingly influential in computer science, especially in functional programming and type theory.
+Category theory:: is a branch of mathematics concerned with general structures and their interrelations. Initially developed to formalize concepts in algebraic topology, it has since become foundational across mathematics and increasingly influential in computer science, especially in functional programming and type theory.
 
 === What is Category Theory?
 
-Category theory is often described as "the mathematics of mathematics." It abstracts and studies the structural features common to many mathematical theories. Instead of focusing on elements within structures, it focuses on the relationships (morphisms) between objects.
+Category theory:: is often described as "the mathematics of mathematics." It abstracts and studies the structural features common to many mathematical theories. Instead of focusing on elements within structures, it focuses on the relationships (morphisms) between objects.
 
 === Structure of a Mathematical Theory
 
 A typical mathematical theory consists of:
 
-Semantics – The subject matter (e.g., symmetry, space).
+- Semantics – The subject matter (e.g., symmetry, space).
 
-Syntax – A formal language to reason about the semantics.
+- Syntax – A formal language to reason about the semantics.
 
 Category theory unifies various mathematical theories by providing a framework that emphasizes these relationships.
 
 === Categories, Objects, and Morphisms
 
-A category consists of:
+*A category consists of:*
 
-A class of objects.
+- A class of objects.
 
-A class of morphisms (arrows) between objects.
+- A class of morphisms (arrows) between objects.
 
 Each morphism has a source and a target. Morphisms can be composed, and this composition is associative. Every object has an identity morphism.
 
-Example: In the category Set, objects are sets, and morphisms are functions between sets.
+Example:: In the category Set, objects are sets, and morphisms are functions between sets.
 
 === Functors
 
-A functor is a map between categories that preserves structure:
+A *functor* is a map between categories that preserves structure:
 
-It maps objects to objects.
+- It maps objects to objects.
 
-It maps morphisms to morphisms.
+- It maps morphisms to morphisms.
 
 Functors preserve identity and composition. Contravariant functors reverse the direction of morphisms.
 
 === Natural Transformations
 
-A natural transformation is a morphism between functors. It assigns to each object in the source category a morphism in the target category, satisfying a commutativity condition.
+A natural transformation:: is a morphism between functors. It assigns to each object in the source category a morphism in the target category, satisfying a commutativity condition.
 
 Two functors are naturally isomorphic if there's a natural transformation between them that is an isomorphism at each object.
 
@@ -70,11 +70,11 @@ Two functors are naturally isomorphic if there's a natural transformation betwee
 
 Examples of categories include:
 
-Top: Topological spaces and continuous maps.
+- Top: Topological spaces and continuous maps.
 
-Vect: Vector spaces and linear transformations.
+- Vect: Vector spaces and linear transformations.
 
-Group: Groups and group homomorphisms.
+- Group: Groups and group homomorphisms.
 
 Each can be represented as a directed graph (nodes as objects, arrows as morphisms), forming a common structure.
 
@@ -82,29 +82,29 @@ Each can be represented as a directed graph (nodes as objects, arrows as morphis
 
 Many constructions across mathematics are captured categorically via universal properties. These include:
 
-Limits: Generalizations of products and intersections.
+- Limits: Generalizations of products and intersections.
 
-Colimits: Generalizations of unions and quotients.
+- Colimits: Generalizations of unions and quotients.
 
 These allow the definition of objects purely by their relationships within a category.
 
 === Equivalence of Categories
 
-Two categories are equivalent if there's a pair of functors (one in each direction) that are inverses up to natural isomorphism. This captures the idea of structural sameness without requiring isomorphism of objects.
+Two categories:: are equivalent if there's a pair of functors (one in each direction) that are inverses up to natural isomorphism. This captures the idea of structural sameness without requiring isomorphism of objects.
 
 === Higher-Dimensional Categories
 
 Category theory generalizes to n-categories, allowing morphisms between morphisms, and so on.
 
-2-categories: Include natural transformations between functors.
+- 2-categories: Include natural transformations between functors.
 
-Bicategories: Loosen strict associativity.
+- Bicategories: Loosen strict associativity.
 
-n-categories and ω-categories: Further generalizations used in higher-dimensional algebra.
+- n-categories and ω-categories: Further generalizations used in higher-dimensional algebra.
 
 === Summary
 
-Category theory provides a universal language to describe and analyze mathematical structures. Through categories, functors, and natural transformations, it unifies diverse areas of mathematics and informs modern developments in logic, algebra, topology, and computer science.
+Category theory:: provides a universal language to describe and analyze mathematical structures. Through categories, functors, and natural transformations, it unifies diverse areas of mathematics and informs modern developments in logic, algebra, topology, and computer science.
 
 
 
