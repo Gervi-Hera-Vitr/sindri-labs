@@ -199,3 +199,7 @@ and useful framework for exploring mathematical truths.
 - Next is {on-next}
 - Completed with {on-sets}
 - Top is {on-top}
+
+== Final Grade and Comments
+
+- ✅ Graded assignment https://github.com/rdd13r[by `rdd13r`] on July 12th 2025. *A*
