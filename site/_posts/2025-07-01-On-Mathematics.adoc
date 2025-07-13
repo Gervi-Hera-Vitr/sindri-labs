@@ -16,6 +16,7 @@ lugaru
 :captain: https://github.com/CaptainLugaru[Captain Lugaru,window=_blank]
 :youtube-channel-domain-of-science: https://www.youtube.com/@domainofscience[Domain of Science,window=_blank]
 :youtube-the-map-of-math: https://youtu.be/OmJ-4B-mS-Y[The Map of Mathematics,window=_blank]
+:part-1: link:/sindri-labs/school/2025/07/02/On-Foundations-Of-Mathematics.html[Part 1: Foundations & Reason,window=_blank]
 
 _This is how I organized my research into the fields of mathematics._
 
@@ -78,7 +79,7 @@ ToDo: dai dai.
 
 == My Research Notes
 
-. todo
+. {part-1}
 
 == Summary
 
