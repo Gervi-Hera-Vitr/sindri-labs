@@ -1,0 +1,91 @@
+---
+header:
+  overlay_image: assets/images/banner-philosophy.jpg
+  overlay_filter: 0.1
+categories: [school]
+tags:
+  - mathematics
+  - theory
+  - computation theory
+---
+= Mathematics - Part 6: Computation Theory
+lugaru
+:page-author_profile: true
+:page-excerpt:
+:stem: asciimath
+:page-layout: single
+:page-classes: wide
+:captain: https://github.com/CaptainLugaru[Captain Lugaru,window=_blank]
+:on-top: link:/school/2025/07/01/On-Mathematics.html[Mathematics - My Research,window=_blank]
+
+
+[.lead]
+The theory of computation is a branch of theoretical computer science and mathematics that explores what problems can be solved using algorithms on computational models and how efficiently these problems can be solved.
+
+It is structured into three primary branches:
+
+- Automata theory and formal languages.
+- Computability theory.
+- Computational complexity theory.
+
+== Models of Computation
+
+To study computation rigorously, theoretical models such as the Turing machine are used.
+The Turing machine is central to the Church–Turing thesis, which posits it as the most powerful reasonable model of computation.
+
+Other notable models include:
+
+- Lambda calculus.
+- Combinatory logic.
+- μ-recursive functions.
+- Markov algorithms.
+- Register machines.
+
+== Automata Theory
+
+Automata theory deals with abstract machines and the problems they can solve. Key types of automata, corresponding to classes of languages in the Chomsky hierarchy, include:
+
+- Type-0 (Recursively enumerable): Turing machines.
+- Type-1 (Context-sensitive): Linear-bounded automata.
+- Type-2 (Context-free): Pushdown automata.
+- Type-3 (Regular): Finite automata.
+
+Automata are closely tied to formal languages, serving as models to generate or recognize them.
+
+== Formal Language Theory
+
+Formal languages are defined over alphabets using a set of rules.
+They are classified in the Chomsky hierarchy and recognized by different types of automata.
+This theory provides a foundational framework for specifying problems to be solved computationally.
+
+== Computability Theory
+
+This branch studies the limits of algorithmic problem-solving.
+
+It addresses what problems are solvable in principle:
+
+- The Halting Problem: A central result proving some problems are unsolvable by any Turing machine.
+- Rice's Theorem: Any non-trivial property of the function computed by a Turing machine is undecidable.
+- Related to recursion theory, which generalizes Turing-computability.
+
+== Computational Complexity Theory
+
+This field examines the efficiency of algorithms. Major concepts include:
+
+- Time and space complexity.
+- Big O notation.
+- Complexity classes like P and NP.
+- The P vs NP problem: One of the Millennium Prize Problems.
+
+Complexity theory categorizes problems based on the resources required for their solution.
+
+== Summary
+
+The theory of computation provides a formal basis for understanding what can be computed and how efficiently.
+It blends logic, mathematics, and theoretical computer science to explore the capabilities and limitations of computational models and algorithms.
+
+- Top is {on-top}
+
+== Final Grade and Comments
+
+- ✅ Graded assignment https://github.com/rdd13r[by `rdd13r`] on July 12th 2025. *A*
