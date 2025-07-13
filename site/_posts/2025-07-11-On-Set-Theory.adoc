@@ -23,8 +23,22 @@ lugaru
 The Axiomatic Set Theory is an exact discipline, that is a Domain of Mathematics,
 defined by a set of non-logical axioms, like all formal domains are.
 
-Googoo write here.
+1. Unrestricted Composition
+2. Set identity is membership
+3. Order Does not matter
+4. Repeats Dont change anything
+5. Description Does not matter
+6. The union of any sets is a set
+7. and subset is a set
+8. A set can have just 1 member
+9. A set can have no members
+10. You can have sets of sets
+11. sets can contain themselves
+
+A paradox is aself-contradictory statement or proposition, And russells paradox is a paradox in core logic itself as "is not true of itself" is the lingusitic way of thinking about this paradox.
 
 == Summary
+
+Russell's paradox:: demonstrates a contradiction arising in naive set theory. It explores the idea of a set containing all sets that do not contain themselves.
 
 - Start of the series {on-top}
