@@ -18,7 +18,9 @@ lugaru
 :captain: https://github.com/CaptainLugaru[Captain Lugaru,window=_blank]
 :on-sets: link:/school/2025/07/11/On-Set-Theory.html[On Sets,window=_blank]
 
-Complexity theory:: is a collection of theoretical frameworks developed to model and analyze complex systems across diverse domains such as computer science, ecology, and engineering.
+Complexity theory::
+
+is a collection of theoretical frameworks developed to model and analyze complex systems across diverse domains such as computer science, ecology, and engineering.
 These systems often exhibit behaviors and dynamics that defy traditional scientific methods rooted in linear and reductionist models.
 
 As complexity has emerged as a universal feature of our world, a unified, though loosely structured, approach to its study has evolved.
@@ -38,14 +40,16 @@ This area incorporates:
 
 - Chemistry — models of dissipative and far-from-equilibrium systems.
 
-T- Tools such as agent-based modeling help simulate how local rules give rise to emergent global patterns.
+- Tools such as agent-based modeling help simulate how local rules give rise to emergent global patterns.
 
 === Nonlinear Systems and Chaos Theory
 
 Nonlinear dynamics:: are inherent to most complex systems.
 Originating in mathematics and physics, this field examines how small changes can produce disproportionately large effects — exemplified by the butterfly effect.
 
-Chaos theory:: challenged the Newtonian reliance on equilibrium and predictability, revealing that many real-world processes (ecosystem shifts, societal change) are governed by feedback loops and far-from-equilibrium dynamics.
+Chaos theory::
+challenged the Newtonian reliance on equilibrium and predictability,
+revealing that many real-world processes (ecosystem shifts, societal change) are governed by feedback loops and far-from-equilibrium dynamics.
 
 === Network Theory
 
@@ -88,3 +92,7 @@ Complexity theory:: brings together diverse models and methods to understand how
 Its four major frameworks — self-organization, nonlinear systems, network theory, and adaptive systems — form a foundation for studying complexity across scientific domains.
 
 As a post-Newtonian science, it helps extend our understanding of nature and society beyond the limits of classical models.
+
+== Final Grade and Comments
+
+- ✅ Graded assignment https://github.com/rdd13r[by `rdd13r`] on July 12th 2025. *A*
