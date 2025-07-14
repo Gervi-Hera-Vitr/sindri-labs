@@ -8,10 +8,10 @@ tags: [update]
 = Best Thing that ever Happened to Me!
 lugaru
 :page-author_profile: true
-:page-excerpt: I revisit my idea for homeschooling. And here are my current thoughts.
+:page-excerpt:
 :page-layout: single
 :page-classes: wide
-:captain: -&nbsp;https://github.com/CaptainLugaru[Captain Lugaru,window=_blank]
+:captain: https://github.com/CaptainLugaru[Captain Lugaru,window=_blank]
 
 Dear Friends,
 

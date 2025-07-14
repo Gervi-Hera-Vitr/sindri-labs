@@ -1,0 +1,99 @@
+---
+header:
+  overlay_image: assets/images/banner-philosophy.jpg
+  overlay_filter: 0.1
+categories: [school]
+tags:
+  - mathematics
+---
+= Mathematics - My Research
+lugaru
+:page-author_profile: true
+:page-excerpt:
+:stem: asciimath
+:page-layout: single
+:page-classes: wide
+:captain: https://github.com/CaptainLugaru[Captain Lugaru,window=_blank]
+:youtube-channel-domain-of-science: https://www.youtube.com/@domainofscience[Domain of Science,window=_blank]
+:youtube-the-map-of-math: https://youtu.be/OmJ-4B-mS-Y[The Map of Mathematics,window=_blank]
+:part-1: link:/sindri-labs/school/2025/07/02/On-Foundations-Of-Mathematics.html[Part 1: Foundations & Reason,window=_blank]
+:part-2: link:/sindri-labs/school/2025/07/03/On-Mathematics-Set-Theory.html[Part 2: Set Theory,window=_blank]
+:part-3: link:/sindri-labs/school/2025/07/04/On-Mathematics-Complexity-Theory.html[Part 3: Complexity Theory,window=_blank]
+:part-4: link:/sindri-labs/school/2025/07/05/On-Mathematics-Category-Theory.html[Part 4: Category Theory,window=_blank]
+:part-5: link:/sindri-labs/school/2025/07/06/On-Godel-Incompleteness-Theorem.html[Part 5: On Godel's Incompleteness Theorem,window=_blank]
+:part-6: link:/sindri-labs/school/2025/07/07/On-Computation-Theory.html[Part 6: Computation Theory,window=_blank]
+:part-7: link:/sindri-labs/school/2025/07/11/On-Set-Theory.html[Part 7: Set Theory,window=_blank]
+
+
+_This is how I organized my research into the fields of mathematics._
+
+I have reviewed many resources available online and in print.
+My father's key stipulation was the grasp on fundamentals.
+None of "go do that when you have this."
+But a real understanding of a topic requiring *_no mechanical memorization_*.
+My father is really strict in separating what he calls mastery from coggery.
+
+Interestingly enough, the best resource I found is a YouTube channel.
+{youtube-channel-domain-of-science}.
+It offered an overview video: {youtube-the-map-of-math}.
+Exactly what I was looking for, validated by the research I'd already done.
+
+My father immediately approved the channel: "... something a homeschooling parent would build."
+
+== About the Channel "Domain of Science (DoS)"
+
+Domain of Science is a science‑education YouTube channel created and hosted by Dr.{nbsp}Dominic{nbsp}Walliman,
+a Canadian physicist with a Ph.D. in quantum device physics, formerly with D-Wave.
+
+- Launch date: Channel created on April 8, 2010
+- Subscribers: ~1.55 million
+- Total views: ~64 million
+
+Content focus::
+Explains complex scientific disciplines—like physics, math, chemistry, biology, engineering—through visual “maps” and simplified explanations.
+
+Creator Background::
+Dominic Walliman, Ph.D. in quantum device physics, is also the author of the Professor Astro Cat children’s book series;
+produces scientific posters sold via stores and on Flickr.
+His signature content on DoS is the “Maps” series -- illustrated overviews of entire disciplines:
+Map of Physics, Map of Mathematics, Map of Chemistry, Map of Biology, Map of Engineering, Map of Medicine, Map of Quantum Computing, etc.
+His special work is explanatory videos on quantum physics topics: e.g., Quantum Supremacy, Quantum Computing Misconceptions is breathtaking.
+He also has exceptionally well written and narrated episodes on scientific installations and phenomena: e.g.,
+Behind the Scenes at CERN, Atomic Spectroscopy Explained.
+As researcher he's featured in articles praising the “Map of Physics” visualization — e.g., on Sciencealert.com and Physics says what? (blog)
+And this channel is listed among top science channels for quantum physics by blogs and curators.
+
+Style & Format::
+Visual-rich, data-driven diagrams and animations—often from Walliman’s own design work.
+Concise, high-level surveys rather than deep technical dives—ideal for overview learnings.
+The lecturer tone balances rigorous science background with friendly delivery, appealing to both students and science enthusiasts.
+
+Who is this Channel For::
+Learners who want a holistic understanding of a scientific field.
+Visual learners who benefit from conceptual maps and diagrams.
+Fans of quantum mechanics, modern physics, or interdisciplinary science explained clearly.
+
+Summary::
+Oh yeah, *_dad approved_*. Not only approved, my father was ecstatic and reviewed many lectures on his own.
+"Cleanly delineated Domains of Science combine academic rigor and visual storytelling, offering engaging, map-based overviews of scientific topics."
+Built on Dominic Walliman’s expertise and creativity, it’s a standout among science education channels,
+with over 1.5 million subscribers and strong community recognition, "something one would not expect from plebs."
+
+== The Map Series
+
+ToDo: dai dai.
+
+
+== My Research Notes
+
+. {part-1}
+. {part-2}
+. {part-3}
+. {part-4}
+. {part-5}
+. {part-6}
+. {part-7}
+
+== Summary
+
+. todo
