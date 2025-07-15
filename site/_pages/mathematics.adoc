@@ -1,0 +1,107 @@
+---
+header:
+  caption: ...reliving Mathematics
+  overlay_image: assets/images/banner-mathematics.jpg
+  overlay_filter: 0.2
+---
+= Mímis Academy: Mathematics
+rdd13r
+:page-author_profile: true
+:page-excerpt: Reliving Mathematics with the people of it.
+:page-layout: single
+:page-permalink: /mathematics
+:page-classes: wide
+:sectnums:
+:sectanchors:
+:sectlinks:
+:icons: font
+:tip-caption: 💡️
+:note-caption: ℹ️
+:important-caption: ❗
+:caution-caption: 🔥
+:warning-caption: ⚠️
+:toc: preamble
+:toclevels: 2
+:toc-title: Mímir Academy Mathematics
+:keywords: Mímir Academy Mathematics
+:imagesdir: ./assets/img
+ifdef::env-name[:relfilesuffix: .adoc]
+
+:fiveable-math: https://library.fiveable.me/history-of-mathematics[fivable a brief history of mathematics,window=_blank]
+:mathigon-trigonometry: https://mathigon.org/course/triangles/introduction[Mathigon: Trigonometry,window=_blank]
+:mathigon-trigonometry-fn: footnote:[Mathigon: {mathigon-trigonometry}]
+
+:thales: https://en.wikipedia.org/wiki/Thales_of_Miletus[Thales of Miletus,window=_blank]
+:thales-fn: footnote:[Wikipedia article on {thales}]
+:tahles-biography: https://mathshistory.st-andrews.ac.uk/Biographies/Thales/[Thales of Miletus,window=_blank]
+:tahles-biography-fn: footnote:[St Andrews University, Scottland, MacTutor article on {tahles-biography}]
+
+:thales-theorem: https://en.wikipedia.org/wiki/Thales%27s_theorem[Thales's theorem,window=_blank]
+:thales-theorem-fn: footnote:[Wikipedia article on {thales-theorem}]
+:thales-intercept-theorem: https://en.wikipedia.org/wiki/Intercept_theorem[Intercept theorem,window=_blank]
+:thales-intercept-theorem-fn: footnote:[Wikipedia article on {thales-intercept-theorem}]
+
+:pythagoras: https://en.wikipedia.org/wiki/Pythagoras[Pythagoras of Samos,window=_blank]
+:pythagoras-fn: footnote:[Wikipedia article on {pythagoras}]
+:pyhthagoras-biography: https://mathshistory.st-andrews.ac.uk/Biographies/Pythagoras/[Pythagoras of Samos,window=_blank]
+:pyhthagoras-biography-fn: footnote:[St Andrews University, Scottland, MacTutor article on {pyhthagoras-biography}]
+
+:pythagoras-theorem: https://en.wikipedia.org/wiki/Pythagorean_theorem[Pythagorean theorem,window=_blank]
+:pythagoras-theorem-fn: footnote:[Wikipedia article on {pythagoras-theorem}]
+:pythagoras-trigonometry: https://en.wikipedia.org/wiki/Pythagorean_trigonometry[Pythagorean trigonometry,window=_blank]
+:pythagoras-trigonometry-fn: footnote:[Wikipedia article on {pythagoras-trigonometry}]
+
+:euclid: https://en.wikipedia.org/wiki/Euclid[Euclid of Alexandria,window=_blank]
+:euclid-fn: footnote:[Wikipedia article on {euclid}]
+:euclid-biography: https://mathshistory.st-andrews.ac.uk/Biographies/Euclid/[Euclid of Alexandria,window=_blank]
+:euclid-biography-fn: footnote:[St Andrews University, Scottland, MacTutor article on {euclid-biography}]
+
+:euclidean-geometry: https://en.wikipedia.org/wiki/Euclidean_geometry[Euclidean geometry,window=_blank]
+:euclidean-geometry-fn: footnote:[Wikipedia article on {euclidean-geometry}]
+:foundations-geometry: https://en.wikipedia.org/wiki/Foundations_of_geometry[Foundations of geometry,window=_blank]
+:foundations-geometry-fn: footnote:[Wikipedia article on {foundations-geometry}]
+
+:archimedes: https://en.wikipedia.org/wiki/Archimedes[Archimedes of Syracuse,window=_blank]
+:archimedes-fn: footnote:[Wikipedia article on {archimedes}]
+
+:mathematics: https://en.wikipedia.org/wiki/Mathematics[Mathematics,window=_blank]
+:mathematics-fn: footnote:[Wikipedia article on {mathematics}]
+
+Our approach to Mathematics is as Lived Thought.
+Similarly for how we moved through Philosophy in previous curriculum iteration.
+We will relive a series of personal struggles and breakthroughs by flawed,
+brilliant humans chasing patterns of the universe.
+The main difference between the current and the previous curriculum is that the previous followed an independent study and research format.
+And this iteration is more choreographed and curated experience journeyed together with the mentor and the giants of Mathematics.
+We will experience Mathematics as a human being and not as a subject matter.
+
+Fun _{fiveable-math}_.
+
+== I. Geometry and Intuition (600 BCE -- 200 CE)
+
+ The world as space and form.
+
+* **{thales}**{tahles-biography-fn} -- Geometry from first principles{thales-fn}.
+** Tales and Egypt{thales-theorem-fn}{thales-intercept-theorem-fn} -- {thales-theorem}.
+** ... optional side-tour of _Trigonometry_{mathigon-trigonometry-fn}.
+* **{pythagoras}**{pyhthagoras-biography-fn} -- Harmony of numbers{pythagoras-fn}.
+** {pythagoras-theorem}.
+* **{euclid}**{euclid-biography-fn} -- Elements and axiomatic method.
+** {euclidean-geometry}, arriving at _foundations of geometry_{foundations-geometry-fn}.
+* **{archimedes}** -- The lost method: exhaustion, infinitesimals.
+** Fundamentals of Analysis -- Area of the circle.
+{nbsp}
+** *_Fun learning discovery assignments_*:
+*** Reconstruct Archimedes’ circle area proof via inscribed polygons;
+*** Read fragments of The Method, imagine what was lost.
+
+_Fun bonus assignment: map philosophers on the timeline._
+
+== II. Algebra and Algorithm (800 -- 1200 CE)
+
+== II. Motion, Change, and Infinity (1600 -- 1750)
+
+== IV. Rigor and Foundations (1800 -- 1930)
+
+== V. Computation and Mind (1930 -- Present)
+

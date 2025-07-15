@@ -7,6 +7,9 @@ zuezue:
     - label: "My Organization"
       icon: "fab fa-fw fa-school"
       url: "https://github.com/Gervi-Hera-Vitr"
+    - label: "Academic Year"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "/sindri-labs/academic-year/"
 
 zaizai:
   name: "Mama Zaia"
