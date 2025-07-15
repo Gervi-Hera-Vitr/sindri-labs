@@ -1,0 +1,58 @@
+= Euclid Of Alexandria
+
+Euclid Of Alexandria was an ancient Greek mathematician active as a geometer and logician  Considered the "father of geometry", he is chiefly known for the Elements treatise, which established the foundations of geometry that largely dominated the field until the early 19th century. His system, now referred to as Euclidean geometry, involved innovations in combination with a synthesis of theories from earlier Greek mathematicians, including Eudoxus of Cnidus, Hippocrates of Chios, Thales and Theaetetus. With Archimedes and Apollonius of Perga, Euclid is generally considered among the greatest mathematicians of antiquity, and one of the most influential in the history of mathematics.
+
+== Biographic review
+Very little is known of Euclid's life, and most information comes from the scholars Proclus and Pappus of Alexandria many centuries later. Medieval Islamic mathematicians invented a fanciful biography, and medieval Byzantine and early Renaissance scholars mistook him for the earlier philosopher Euclid of Megara. It is now generally accepted that he spent his career in Alexandria and lived around 300 BC, after Plato's students and before Archimedes. There is some speculation that Euclid studied at the Platonic Academy and later taught at the Musaeum; he is regarded as bridging the earlier Platonic tradition in Athens with the later tradition of Alexandria.
+
+He is credited with authoring four treatises: Elements, Optics, Data, and Phaenomena. Most of the traditional narrative about him comes from Proclus' 5th-century AD Commentary on the First Book of Euclid's Elements and some anecdotes from Pappus of Alexandria in the early 4th century.
+
+Proclus suggests Euclid lived between Plato's followers and before Archimedes (c. 287 – c. 212 BC), specifically during Ptolemy I's rule (305/304–282 BC). While his birthdate is unknown, some scholars estimate around 330 or 325 BC. He is presumed to be of Greek descent, though his birthplace is unknown. It's often speculated he was educated at Plato's Academy in Athens, as his work shows familiarity with Platonic geometry.
+
+Pappus's mention that Apollonius studied with Euclid's students in Alexandria implies Euclid worked there and founded a mathematical tradition. Alexandria, founded in 331 BC, became a stable center of education under Ptolemy I, with the massive Musaeum institution. Euclid is thought to have been one of its first scholars. His death date is unknown, with some speculating around 270 BC.
+
+Euclid is often called 'Euclid of Alexandria' to distinguish him from the philosopher Euclid of Megara, a pupil of Socrates, with whom he was historically confused. This confusion led to inaccuracies in medieval Byzantine sources and early printed editions of the Elements, attributing biographical details of both men to the mathematician. Later Renaissance scholars, like Peter Ramus, corrected this misconception.
+
+Medieval Arabic sources offer extensive, but unverifiable, information about Euclid's life, even claiming him to be Tyre-born Greek residing in Damascus and the son of Naucrates. These are generally considered unreliable, possibly fictionalized to link a revered mathematician with the Arab world. Numerous unverified anecdotes portray Euclid as a "kindly and gentle old man," the most famous being his reply to Ptolemy I that "there is no royal road to geometry." However, a similar interaction is recorded between Menaechmus and Alexander the Great, casting doubt on its originality.
+
+Firm dating of Euclid around 300 BC is challenged by a lack of contemporary references. The earliest certain reference to Euclid is in Apollonius's Conics (early 2nd century BC). The Elements is believed to have been in circulation by the 3rd century BC, as Archimedes and Apollonius reference its propositions. The oldest physical copies of Elements material date from roughly 100 AD on papyrus fragments from Oxyrhynchus. Direct citations in works with firmly known dates don't appear until the 2nd century AD, when it was a standard school text. Some ancient Greek mathematicians refer to Euclid by name, but he is usually called "the author of Elements." In the Middle Ages, some scholars questioned his historical existence, suggesting his name was a corruption of Greek mathematical terms.
+
+== Achievements
+In the Elements, Euclid deduced the theorems from a small set of axioms. He also wrote works on perspective, conic sections, spherical geometry, number theory, and mathematical rigour. In addition to the Elements, Euclid wrote a central early text in the optics field, Optics, and lesser-known works including Data and Phaenomena. Euclid's authorship of On Divisions of Figures and Catoptrics has been questioned. He is thought to have written many lost works.
+
+Euclid is most renowned for his thirteen-book treatise, Euclid's Elements (Stoicheia), considered his greatest work. While much of its content came from earlier mathematicians like Eudoxus, Hippocrates, Thales, and Theaetetus, and some theorems were mentioned by Plato and Aristotle, Euclid's achievement lies in organizing this knowledge into a coherent order and adding new proofs to fill gaps. The Elements superseded much older, now lost, Greek mathematics, and its remarkably tight structure indicates more than mere editing.
+
+
+Contrary to popular belief, The Elements doesn't solely focus on geometry. It's divided into three main topics: plane geometry (Books 1–6), basic number theory (Books 7–10), and solid geometry (Books 11–13), though Books 5 (proportions) and 10 (irrational lines) deviate from this scheme. The core of the text is its theorems, categorized as "first principles" (definitions, postulates, common notions) and "second principles" (propositions with proofs and diagrams). While it's unknown if Euclid intended it as a textbook, its presentation style made it ideal. The authorial voice remains general and impersonal.
+
+Book 1 is foundational, starting with 20 definitions for basic geometric concepts. It then presents 10 assumptions: five postulates (later called axioms) and five common notions, forming the logical basis for subsequent theorems. The common notions concern comparing magnitudes. Postulates 1-4 are straightforward, but the 5th, the parallel postulate, is particularly famous. Book 1 also includes 48 propositions covering basic plane geometry, triangle congruence, parallel lines, areas of triangles and parallelograms, and the earliest surviving proof of the Pythagorean theorem.
+
+Book 2 is thought to deal with "geometric algebra," though this interpretation is debated as anachronistic. It focuses on algebraic theorems accompanying geometric shapes, particularly the area of rectangles and squares, leading to a geometric precursor of the law of cosines. Book 3 covers circles, and Book 4 discusses regular polygons, especially the pentagon. Book 5, on the "general theory of proportion," is crucial. Book 6 applies the "theory of ratios" to plane geometry, built upon its first proposition: "Triangles and parallelograms which are under the same height are to one another as their bases."
+
+
+From Book 7 onward, Euclid begins anew, with nothing from previous books being used. Books 7-10 cover number theory, with Book 7 defining concepts like parity and prime numbers and including the Euclidean algorithm for finding the greatest common divisor. Book 8 discusses geometric progressions, and Book 9 contains Euclid's theorem, proving the infinitude of prime numbers. Book 10 is the largest and most complex, addressing irrational numbers in the context of magnitudes.
+
+
+The final three books (11–13) primarily discuss solid geometry. Book 11 provides 37 definitions for the next two books but lacks an axiomatic system or postulates. Its sections cover solid geometry, solid angles, and parallelepipedal solids.
+
+Beyond The Elements, at least five of Euclid's other works survive, all sharing the same logical structure of definitions and proved propositions:
+
+- Catoptrics: Concerns the mathematical theory of mirrors, though attribution is sometimes questioned.
+
+- Data: A short text on the nature and implications of "given" information in geometrical problems.
+
+- On Divisions: Survives partially in Arabic, discussing the division of geometric figures into equal or proportional parts.
+
+- Optics: The earliest surviving Greek treatise on perspective, covering geometrical optics and basic perspective rules.
+
+- Phaenomena: A treatise on spherical astronomy, similar to Autolycus of Pitane's On the Moving Sphere.
+
+- Four other works credibly attributed to Euclid are lost:
+
+- The Conics: A four-book survey on conic sections, superseded by Apollonius's work.
+
+- The Pseudaria ('Fallacies'): A text advising beginners on avoiding common geometrical reasoning fallacies.
+
+- The Porisms ('Corollaries'): Likely a three-book treatise with about 200 propositions, describing a type of proposition for discovering features of existing geometrical entities.
+
+- The Surface Loci: Of virtually unknown contents, speculated to discuss cones and cylinders.

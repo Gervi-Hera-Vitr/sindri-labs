@@ -1,0 +1,99 @@
+= Archimedes Of Syracuse
+
+== Summary
+Archimedes of Syracuse (c. 287 – c. 212 BC) was an Ancient Greek polymath from Sicily, renowned as one of the greatest mathematicians and scientists of classical antiquity.
+
+He pioneered concepts anticipating modern calculus, using infinitesimals and the method of exhaustion to rigorously prove numerous geometric theorems. These included calculating the area of a circle, the surface area and volume of a sphere, the area of an ellipse, the area under a parabola, and volumes of segments of paraboloids and hyperboloids of revolution, as well as the area of a spiral.
+
+Unlike his inventions, Archimedes' mathematical writings were not widely known in antiquity. Alexandrian mathematicians cited him, but the first comprehensive compilation was by Isidore of Miletus around 530 AD in Byzantine Constantinople. Eutocius' commentaries in the same century further broadened their readership. During the Middle Ages, his works were translated into Arabic (9th century) and Latin (12th century), greatly influencing Renaissance and Scientific Revolution thinkers. The 1906 discovery of the Archimedes Palimpsest provided new insights into his mathematical methods.
+
+Archimedes was killed by a Roman soldier during the siege of Syracuse, despite orders to spare him. Cicero later described visiting Archimedes' tomb, which featured a sphere and a cylinder, symbols of his most valued mathematical discovery.
+
+== Biographical Summary
+Details of Archimedes' life are scarce. A rumored biography by his friend Heraclides Lembus is lost and its authorship doubted by modern scholars.
+
+Based on a 5th-century AD statement by John Tzetzes that Archimedes lived 75 years, he is estimated to have been born around 287 BC in Syracuse, Sicily, then a self-governing colony of Magna Graecia. In The Sand-Reckoner, Archimedes names his father as Phidias, an otherwise unknown astronomer. While Plutarch suggested a relation to King Hiero II of Syracuse, Cicero and Silius Italicus imply humble origins. It's unknown if he married, had children, or visited Alexandria in his youth, though his writings addressed to scholars there (Dositheus of Pelusium, a student of Conon of Samos, and Eratosthenes of Cyrene) suggest he maintained professional connections. His preface to On Spirals mentions "many years have elapsed since Conon's death," implying Archimedes was older when he wrote some of his works.
+
+=== Golden Wreath
+One famous story involves King Hiero II's suspicion that a goldsmith had adulterated a golden wreath. Vitruvius, writing two centuries later, claims Archimedes discovered the solution while bathing, noticing the water level rise. Realizing this could determine the wreath's volume, he reputedly ran naked through the streets shouting "Eureka!" (Greek for "I have found it!"). Vitruvius states Archimedes then used lumps of pure gold and silver, equal in weight to the wreath, to show the wreath displaced more water than gold but less than silver, proving it was not pure gold.
+
+A different 5th-century Latin poem, Carmen de Ponderibus, describes a method involving immersing a balance with the gold and silver in water, using the difference in density to tip the scales. This account aligns with Archimedes' principle of buoyancy, detailed in his treatise On Floating Bodies, where an immersed object experiences an upward force equal to the weight of the fluid it displaces. Galileo Galilei later invented a hydrostatic balance based on this principle, believing it to be Archimedes' method.
+
+=== Launching the Syracusia
+Archimedes' engineering work likely served Syracuse's needs. Athenaeus of Naucratis quotes Moschion, who describes King Hiero II commissioning the massive ship Syracusia, said to be the largest ship of classical antiquity, which Archimedes supposedly launched. Plutarch offers a slightly different version, where Archimedes boasted he could move any weight, and Hiero challenged him to move a ship. These accounts contain fantastic details and conflicting explanations for how it was achieved: Plutarch mentions a block-and-tackle pulley system, while Hero of Alexandria attributes it to the baroulkos (a windlass). Pappus of Alexandria credits it to mechanical advantage and leverage, quoting Archimedes' famous remark: "Give me a place to stand on, and I will move the Earth." Athenaeus also mentions Archimedes using a "screw" to remove bilge water from the Syracusia, though this device, now called Archimedes' screw, likely predates him.
+
+=== War Machines
+Archimedes gained his greatest ancient reputation for defending Syracuse from the Romans during its siege. According to Plutarch, Archimedes had built war machines for Hiero II but only used them when Syracuse allied with Carthage in 214 BC during the Second Punic War. He allegedly oversaw their use, significantly delaying the Roman army under Marcus Claudius Marcellus. Historians like Plutarch, Livy, and Polybius describe improved catapults, cranes that dropped heavy lead on ships, or iron claws that lifted ships out of the water and then sank them.
+
+A more improbable account, not found in the earliest sources, describes Archimedes using "burning mirrors" to ignite Roman ships. The earliest mention of ships being set on fire by artificial means (2nd century CE satirist Lucian) doesn't specify mirrors, possibly implying burning projectiles. Galen, later in the same century, is the first to mention mirrors. The "Archimedes' heat ray" has been debated since the Renaissance; René Descartes rejected it, and modern attempts to recreate it with ancient technology have had mixed results.
+
+=== Death
+Several conflicting accounts exist regarding Archimedes' death during the sack of Syracuse. Livy states he was killed by a Roman soldier unaware of his identity, while drawing figures in the dust. Plutarch offers two versions: one where Archimedes refused to leave his problem and was killed, and another where a soldier killed him, mistaking his mathematical instruments for valuables. Valerius Maximus (1st century AD) wrote that Archimedes' last words were "... but protecting the dust with his hands, said 'I beg of you, do not disturb this.'" The common phrase "Do not disturb my circles" doesn't appear in ancient sources.
+
+Marcellus was reportedly angered by Archimedes' death, having ordered his protection due to his scientific value. Cicero (106–43 BC) mentions Marcellus brought two of Archimedes' planetariums to Rome, which showed the movements of celestial bodies. One was donated to the Temple of Virtue, the other kept by Marcellus. Pappus of Alexandria's lost treatise On Sphere-Making may have discussed their construction. These mechanisms required sophisticated differential gearing, once thought beyond ancient technology, but the discovery of the Antikythera mechanism (c. 100 BC) confirms such devices existed, with Archimedes' considered a precursor.
+
+Cicero, while a quaestor in Sicily, found Archimedes' neglected tomb near the Agrigentine gate in Syracuse. He had it cleaned and noted it featured a carving illustrating Archimedes' favorite mathematical proof: the volume and surface area of a sphere are two-thirds that of an enclosing cylinder.
+
+== Achievements
+His other mathematical achievements include approximating pi (π), defining the Archimedean spiral, and devising an exponentiation system for expressing very large numbers. He was also a pioneer in applying mathematics to physics, specifically in statics and hydrostatics. His contributions here include proving the law of the lever, widely using the concept of the center of gravity, and articulating the law of buoyancy, known as Archimedes' principle
+
+In astronomy, he measured the apparent diameter of the Sun and the size of the universe. He is also said to have built a planetarium that demonstrated celestial movements, possibly predating the Antikythera mechanism. As an engineer and inventor, he is credited with the screw pump, compound pulleys, and defensive war machines used to protect Syracuse from invasion.
+
+Archimedes significantly advanced mathematics by both building on predecessors' work and developing original methods. He rigorously applied the method of exhaustion to calculate areas and volumes of complex shapes like circles, parabolas, spheres, and ellipses, famously using it to approximate pi (π) with high accuracy. Beyond pure geometry, he pioneered a "mechanical method" that used principles of levers and centers of gravity as a heuristic tool to discover new theorems, which he would then prove rigorously. Furthermore, he devised innovative systems for representing extremely large numbers, as seen in "The Sand Reckoner" and "The Cattle Problem," demonstrating mathematics' capacity to describe vast quantities. His contributions also extended to the study of semiregular polyhedra, known as Archimedean solids.
+
+== Works
+
+Archimedes shared his work through correspondence with mathematicians in Alexandria, writing in Doric Greek.
+
+Surviving Works:
+
+- Measurement of a Circle: Approximates pi (π) between 3.1408 and 3.1428.
+
+- The Sand Reckoner: Calculates an upper bound for the number of sand grains to fill the universe (8x10^63 in modern notation), discusses Aristarchus' heliocentric theory, and includes astronomical measurements. Mentions Archimedes' father, Phidias, an astronomer.
+
+- On the Equilibrium of Planes: Proves the law of the lever and calculates areas/centers of gravity for shapes like triangles, parallelograms, and parabolas.
+
+- Quadrature of the Parabola: Proves the area enclosed by a parabola and a line is 4/3 the area of a triangle with the same base and height, using both the law of the lever and geometric series.
+
+- On the Sphere and Cylinder: Establishes the relationship between a sphere and its circumscribing cylinder (volume and surface area ratios of 2/3).
+
+- On Spirals: Defines the Archimedean spiral, a curve traced by a point moving along a rotating line.
+
+- On Conoids and Spheroids: Calculates areas and volumes of sections of cones, spheres, and paraboloids.
+
+- On Floating Bodies: Explains the law of fluid equilibrium, proving water adopts a spherical form, and states Archimedes' principle of buoyancy. Also discusses equilibrium positions of paraboloid sections, possibly idealizing ship hulls.
+
+- Ostomachion: A dissection puzzle, similar to a Tangram, where Archimedes calculated the areas of 14 pieces that can form a square. The Archimedes Palimpsest provided a more complete analysis of this combinatorial problem.
+
+- The Cattle Problem: A mathematical challenge sent to Alexandrian mathematicians, involving solving simultaneous Diophantine equations to count cattle.
+
+- The Method of Mechanical Theorems: Uses an early form of Cavalieri's principle and the law of the lever to re-derive geometric results previously proven by the method of exhaustion. This work was rediscovered in the Archimedes Palimpsest.
+
+Apocryphal Works:
+
+- Book of Lemmas (Liber Assumptorum): A treatise on circles, but likely not written by Archimedes in its current form as it quotes him.
+
+- Carmen de ponderibus et mensuris: A Latin poem describing the hydrostatic balance for the crown problem.
+
+- Mappae clavicula: A 12th-century text on metal assaying using specific gravities.
+
+Lost Works:
+
+- On Sphere-Making: Mentioned by Pappus.
+
+- Work on semiregular polyhedra: Mentioned by Pappus.
+
+- Work on spirals (different from the surviving one): Mentioned by Pappus.
+
+- Catoptrica: Contained remarks on refraction, quoted by Theon of Alexandria.
+
+- Principles: Explained the number system in The Sand Reckoner.
+
+- On Balances
+
+- On Centers of Gravity
+
+- Work proving Heron's formula: Attributed to Archimedes by Islamic scholars.
+
+Archimedes Palimpsest:
+Discovered in 1906, this 13th-century prayer book is a palimpsest, meaning it was written over erased 10th-century copies of previously lost treatises by Archimedes. It contains the only surviving Greek copy of On Floating Bodies and the only known copy of The Method of Mechanical Theorems. It also provided a more complete version of Ostomachion. The treatises within the palimpsest include: On the Equilibrium of Planes, On Spirals, Measurement of a Circle, On the Sphere and Cylinder, On Floating Bodies, The Method of Mechanical Theorems, and Stomachion. The palimpsest was sold in 1998 for $2.2 million and has since been extensively studied using modern imaging techniques.
