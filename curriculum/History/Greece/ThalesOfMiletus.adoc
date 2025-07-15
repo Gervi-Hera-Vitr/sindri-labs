@@ -1,0 +1,28 @@
+= Thales Of Miletus: An passionate presocratic greek philosopher
+
+== A brief summary
+Thales of Miletus was an Ancient Greek pre-Socratic philosopher from Miletus in Ionia, Asia Minor.
+He is thus otherwise referred to as the first to have engaged in mathematics, science, and deductive reasoning.
+He was also the first recorded European philosopher, believed by aristotle as he was the first to convince the idea of the universe being made out of one universal material. Due to him being a pre socratic philosopher and left no writings behind meaning, we know very little about him, besides the writings of other philosophers and historians, none being contemporary.
+
+== A short biograph
+He was born a descendant of noble blood in the Ionian city of Miletus located in Asia Minor. We are told by Herodotus that he was a Practical Statesman who advocated for the federalization of the Ionian cities located in the Aegean region. He never married, owing to his desire to avoid  the worry of children, or so he once told Solon, but later in life he had a change of heart  and adopted his nephew Cybisthus.  We also  have information that he belonged to the highly respected “seven wise men” or “seven sages”. In our last bit of Biographical knowledge, as we are told by Apollodorus of Athens that his life ended during the 58th Olympiad, details  are not present but consensus leads us
+to believe that it was heat stroke which caused his death, he was some 78 years old at the time.
+
+The main source concerning the details of Thales's life and career is the doxographer Diogenes Laërtius, in his third-century-AD work Lives and Opinions of the Eminent Philosophers. While it is all we have, Diogenes wrote some eight centuries after Thales's death and his sources often contained "unreliable or even fabricated information".
+
+The culture of Archaic Greece was heavily influenced by those of the Levant and Mesopotamia. It is said Thales was engaged in trade and visited either Egypt or Babylonia. However, there is no strong evidence that Thales ever visited countries in the Near East, and the issue is disputed among scholars. Visits to such places were a commonplace attribution to various philosophers by later writers.
+
+== beliefs
+What sets Thales apart from those European minds before him was that rather than falling into the prevailing dogmas or natural mythology of his day, he instead considered deeply what he observed and gave the best of his abilities to ferreting out what lay beneath and behind their being. While most believed in the greek gods to cause chaos he chose to find patterns in nature, to understand and to try to find the one universal element in all things.
+
+From perspective water was the key element to the universe:
+1. water moved on its own(he did not know about gravity)
+2. water was needed for all life itself
+3. he believed the world was on water, and nearby his home were floating islands in the water(as we know now)
+4. water could be in all states, gas, liquid, solid explaining the ability of things to change in the universe.
+
+== feats
+In mathematics, Thales is the namesake of Thales's theorem, and the intercept theorem can also be referred to as Thales's theorem. Thales was said to have calculated the heights of the pyramids and the distance of ships from the shore. In science, Thales was an astronomer who reportedly predicted the weather and a solar eclipse. The discovery of the position of the constellation Ursa Major is also attributed to Thales, as well as the timings of the solstices and equinoxes. He was also an engineer, known for having diverted the Halys River. Plutarch wrote that "at that time, Thales alone had raised philosophy from mere speculation to practice."
+
+A story, with different versions, recounts how Thales achieved riches from an olive harvest by prediction of the weather. In one version, he bought all the olive presses in Miletus after predicting the weather and a good harvest for a particular year. Another version of the story has Aristotle explain that Thales had reserved presses in advance, at a discount, and could rent them out at a high price when demand peaked, following his prediction of a particularly good harvest. This first version of the story would constitute the first historically known creation and use of futures, whereas the second version would be the first historically known creation and use of options

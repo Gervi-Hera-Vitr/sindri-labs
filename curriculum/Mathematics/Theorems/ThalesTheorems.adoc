@@ -1,0 +1,10 @@
+= Thales' Theorem (The Semicircle Angle Theorem)
+
+== Proposition
+If you have a circle, and you draw a triangle inside it such that one of the triangle's sides is a diameter of the circle, then the angle opposite that diameter will always be a right angle (90).
+
+Imagine drawing a circle. Now, draw a straight line right through the center of the circle from one edge to the other – this is your diameter. Pick any point on the circle's edge that isn't one of the ends of your diameter. Connect that point to both ends of the diameter. Voila! You've just created a right-angled triangle. No matter where you pick that third point on the circle, the angle formed at that point will always be 90 degrees.
+
+== proof
+Proof::
+The following facts are used: the sum of the angles in a triangle is equal to 180° and the base angles of an isosceles triangle are equal
