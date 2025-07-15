@@ -1,0 +1,36 @@
+= Pythagorean Theorem
+
+== Summary
+In mathematics, the Pythagorean theorem (or Pythagoras' theorem) is a fundamental relationship in Euclidean geometry concerning the three sides of a right triangle. It states that the area of the square whose side is the hypotenuse (the side opposite the right angle) is equal to the sum of the areas of the squares on the other two sides.
+
+The theorem can be written as an equation relating the lengths of the sides a, b and the hypotenuse c, sometimes called the Pythagorean equation: (a^2 + b^2 = c^2)
+
+== A Brief History
+In Mathematics
+While Pythagoras is famously associated with the Pythagorean theorem (a^2 + b^2 = c^2) which describes the relationship between the sides of a right-angled triangle, historians actually debate whether he discovered it. This theorem was known to Babylonians and Indians centuries before Pythagoras. Many scholars believe Pythagoras wasn't directly involved in proving mathematical theorems, and the math often attributed to him may have been developed by later followers like Philolaus. The legend of Pythagoras sacrificing an ox after discovering the theorem is likely false, as he reportedly forbade such acts.
+
+== Proof
+
+=== Proof by Rearrangement (Visual Proof)
+This is one of the most elegant and easy-to-understand proofs, often called the "Bride's Chair" proof.
+
+Setup: Imagine two identical large squares.
+
+First Square: Divide the first large square into:
+
+One smaller square with side a.
+
+Another smaller square with side b.
+
+Four identical right-angled triangles, each with legs a and b and hypotenuse c.
+The total area of this large square is (a+b)^2
+
+Second Square: Arrange the four identical right-angled triangles from the first square within the second large square in a different way. If you place them corner-to-corner, they will form a larger inner square with side c. The remaining area outside this inner square but within the larger square is the area of the four triangles.
+
+The Logic: Since the two large squares are identical, and you've removed the same four triangles from each, the remaining area must be equal.
+
+In the first square, the remaining area is (a + b)^2
+
+In the second square, the remaining area is c^2
+
+Conclusion: Therefore, a^2 + b^2 = c^2
