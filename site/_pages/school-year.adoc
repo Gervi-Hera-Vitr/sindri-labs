@@ -1,0 +1,52 @@
+---
+header:
+  caption: ...academic year schedule for 2025
+  overlay_image: assets/images/banner-devops.jpg
+  overlay_filter: 0.2
+---
+= Mímis Academic Year Schedule: Gervi Héra Viskr
+rdd13r
+:page-author_profile: true
+:page-excerpt: 2025 Academic Year Schedule
+:page-layout: single
+:page-permalink: /academic-year
+:page-classes: wide
+:sectnums:
+:sectanchors:
+:sectlinks:
+:icons: font
+:tip-caption: 💡️
+:note-caption: ℹ️
+:important-caption: ❗
+:caution-caption: 🔥
+:warning-caption: ⚠️
+:toc: preamble
+:toclevels: 2
+:toc-title: Mímir Academy
+:keywords: Mímir Academy
+:imagesdir: ./assets/img
+ifdef::env-name[:relfilesuffix: .adoc]
+:leetcode-programming-skills: https://leetcode.com/studyplan/programming-skills/
+
+Mímis academic year is *_planned by week numbers_* -- not calendar months.
+_This *Ancient Norse School* follows a seasonal theme similar to year-around schools._
+
+. Academy Instruction Year is yearlong.
+. All Federal Holidays are observed.
+
+== Academic Year Curriculum Schedule
+
+The Academy Instruction Year is planned in three stages.
+
+. Immediate -- a detailed plan for two (2) weeks of instruction.
+. Tactical -- a topic plan for six (6) weeks of instruction.
+. Strategic -- a topic-group plan for 36 to 52 weeks out.
+
+Schedule Iteration 2.0.7 complete on #Week #28# of 2025.
+
+== v3.0.0 (2025) Academic Year Schedule
+
+* Week 28:
+** STEM: LeetCode - {leetcode-programming-skills}[Programming Skills - Basic Implementation] section.
+** Science: Introduction to Analysis, prelude to Newtonian Mechanics.
+** Humanities: Matrix Trilogy.

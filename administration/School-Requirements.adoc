@@ -30,7 +30,7 @@ Gracefully, NC provides a regulatory body to make this journey a more sustainabl
 
 . *Duration*: _Operate on a **regular schedule**_ for at least _**nine (9)** calendar months_ each academic year.
 * Mímir Academy is a WHOLE Year Homeschooling Program: 40 + 12 weeks.
-* The link:./Academic-Year-School-Schedule.adoc[Mímir Academic Year Schedule] <-is published here.
+* The link:./Retired-Academic-Year-School-Schedule.adoc[Mímir Academic Year Schedule] <-is published here.
 . Annual Testing:
 * *Subjects*:
 ** English Grammar,

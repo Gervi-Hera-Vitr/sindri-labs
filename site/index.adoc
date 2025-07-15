@@ -4,10 +4,16 @@ header:
   overlay_filter: 0.2
   caption: ...where ancient wisdom meets modern fluffle innovations
   actions:
-    - label: "Project: GHV Learning Trails"
+    - label: "Academic Year"
+      url: /academic-year/
+    - label: "Philosophy"
+      url: /philosophy/
+    - label: "Mathematics"
+      url: /mathematics/
+    - label: "Project"
       url: https://github.com/orgs/Gervi-Hera-Vitr/projects/1/views/1
-    - label: "Artifacts: Curriculum"
-      url: https://github.com/Gervi-Hera-Vitr/sindri-labs/tree/main/curriculum
+    - label: "Curriculum"
+      url: /curriculum/
 ---
 = Welcome to our Laboratory
 :page-layout: home
