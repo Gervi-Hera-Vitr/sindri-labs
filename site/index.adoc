@@ -4,16 +4,18 @@ header:
   overlay_filter: 0.2
   caption: ...where ancient wisdom meets modern fluffle innovations
   actions:
-    - label: "Academic Year"
-      url: /academic-year/
     - label: "Philosophy"
       url: /philosophy/
     - label: "Mathematics"
       url: /mathematics/
-    - label: "Project"
-      url: https://github.com/orgs/Gervi-Hera-Vitr/projects/1/views/1
+    - label: "Science"
+      url: /science/
+    - label: "Academic Year"
+      url: /academic-year/
     - label: "Curriculum"
       url: /curriculum/
+    - label: "Project"
+      url: https://github.com/orgs/Gervi-Hera-Vitr/projects/1/views/1
 ---
 = Welcome to our Laboratory
 :page-layout: home

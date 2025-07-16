@@ -1,0 +1,92 @@
+---
+header:
+  caption: ...reliving living people, people who thought, people who thus lived.
+  overlay_image: assets/images/banner-mathematics.jpg
+  overlay_filter: 0.2
+---
+= Greek and Stoic Philosophers
+rdd13r
+:page-author_profile: true
+:page-excerpt: Reliving reason with the people of it.
+:page-layout: single
+:page-permalink: /philosophers
+:page-classes: wide
+:sectnums:
+:sectanchors:
+:sectlinks:
+:icons: font
+:tip-caption: 💡️
+:note-caption: ℹ️
+:important-caption: ❗
+:caution-caption: 🔥
+:warning-caption: ⚠️
+:toc: preamble
+:toclevels: 2
+:toc-title: Mímir Academy Giants
+:keywords: Mímir Academy Philosophers
+:imagesdir: /sindri-labs/assets/images
+ifdef::env-name[:relfilesuffix: .adoc]
+
+[#philosophers]
+image::philosophers.png[Philosophers,float="right",align="center"]
+
+{nbsp}
+
+== Pre-Socratics (Natural Philosophers)
+
+* 624–546 BCE: #*Thales of Miletus*# -- Water as fundamental substance; founder of Greek science; Milesian school.
+* 610–546 BCE: *Anaximander of Miletus* -- Introduced the "apeiron" (infinite or boundless); student of Thales.
+* 586–526 BCE: *Anaximenes of Miletus* -- Air as primary substance; refined Thales’ ideas.
+* 570–495 BCE: #*Pythagoras of Samos*# -- Mathematical harmony of cosmos; number theory; early influence on Plato.
+* 570–478 BCE: *Xenophanes of Colophon* -- Critic of anthropomorphic gods; early monotheistic themes.
+* 535–475 BCE: *Heraclitus of Ephesus* -- "Everything flows" (*panta rhei*); *logos*; fire as base element.
+* 515–450 BCE: *Parmenides of Elea* -- "Being is"; change is illusion; foundational metaphysics.
+* 490–430 BCE: *Zeno of Elea* -- Paradoxes of motion and plurality; defender of Parmenidean logic.
+* 494–434 BCE: *Empedocles of Akragas* -- Four classical elements; cosmic forces of Love and Strife.
+* 500–428 BCE: *Anaxagoras of Clazomenae* -- *Nous* (Mind) as organizing principle of cosmos; mentor to Pericles.
+* 5th c. BCE: *Leucippus of Miletus* -- Co-founder of atomism with Democritus.
+* 460–370 BCE: *Democritus of Abdera* -- Atomic theory; matter as indivisible particles in the void.
+
+== Classical Period (Socratic and Scientific)
+
+* 470–399 BCE: #*Socrates of Athens*# -- Dialogical method; ethics and virtue; “Know thyself”; left no writings.
+* 430–354 BCE: *Xenophon of Athens* -- Student of Socrates; practical Socratic accounts in _Memorabilia_.
+* 428–348 BCE: #*Plato of Athens*# -- Theory of Forms; _The Republic_; founded the Academy.
+* 436–338 BCE: *Isocrates of Athens* -- Orator and educator; rival educational vision to Plato’s.
+* 384–322 BCE: #*Aristotle of Stagira*# -- Logic, biology, metaphysics; founded the Lyceum.
+* 371–287 BCE: *Theophrastus of Eresos* -- Aristotle’s successor; work in botany and logic.
+* 387–312 BCE: *Menaechmus of Alopeconnesus* -- Conic sections; influence on Apollonius.
+* 370–285 BCE: *Eudoxus of Cnidus* -- Theory of proportion; model of planetary motion.
+* 360–290 BCE: *Dicaearchus of Messana* -- Geographer and student of Aristotle.
+* 330–275 BCE: #*Euclid of Alexandria*# -- Father of geometry; _Elements_ as foundation of axiomatic method.
+* 310–230 BCE: *Aristarchus of Samos* -- Heliocentric theory; early astronomical model.
+* 287–212 BCE: #*Archimedes of Syracuse*# -- Mechanics, hydrostatics, geometry; inventor and physicist.
+* 276–194 BCE: *Eratosthenes of Cyrene* -- Calculated Earth's circumference; geography and chronology.
+* 240–190 BCE: *Apollonius of Perga* -- Formalized conics; advanced Greek geometry.
+* 190–120 BCE: *Hipparchus of Nicaea* -- Trigonometry; star catalog; precession of equinoxes.
+
+== Hellenistic Period (Stoic and Skeptical Schools)
+
+* 334–262 BCE: #*Zeno of Citium*# -- Founder of Stoicism; emphasized virtue and rational living.
+* 330–230 BCE: *Cleanthes of Assos* -- Second head of the Stoa; author of _Hymn to Zeus_.
+* 280–206 BCE: *Chrysippus of Soloi* -- Codified Stoic logic, ethics, and physics; most prolific Stoic.
+* 341–270 BCE: *Epicurus of Samos* -- Founded Epicureanism; pleasure through ataraxia (tranquility).
+* 360–270 BCE: *Pyrrho of Elis* -- Founder of Pyrrhonian Skepticism; suspended judgment (*epoché*).
+* 316–241 BCE: *Arcesilaus of Pitane* -- Turned Plato’s Academy toward Skepticism.
+* 214–129 BCE: *Carneades of Cyrene* -- Argued both sides of issues; Academic Skeptic.
+
+== Roman Stoics
+
+* 4 BCE – 65 CE: #*Seneca of Corduba*# -- Statesman and dramatist; applied Stoicism to practical life.
+* 30–100 CE: *Musonius Rufus of Volsinii* -- Teacher of Epictetus; emphasized equality and endurance.
+* 50–135 CE: #*Epictetus of Hierapolis*# -- Former slave; taught inner freedom through reason.
+* 121–180 CE: #*Marcus Aurelius of Rome*# -- Roman emperor; _Meditations_ on duty, virtue, and resilience.
+
+== Legacy Summary
+
+* *Pre-Socratics:* Introduced rational inquiry into nature and metaphysical being.
+* *Socratics:* _Ethics and dialectical methods as a foundation for personal and civic virtue._
+* *Plato → Aristotle:* _Core of Western logic, metaphysics, political theory, and natural science._
+* *Hellenistic Science:* _Formal geometry, astronomy, physics, medicine, and geography._
+* *Stoics:* _Lasting influence on ethics, modern CBT, self-mastery, and resilience philosophy._
+* *Skeptics & Epicureans:* _Alternative Hellenistic schools emphasizing doubt, tranquility, and pleasure._

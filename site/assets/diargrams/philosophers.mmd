@@ -1,0 +1,101 @@
+graph TD
+%% Transparent background is renderer-dependent; fallbacks applied manually
+
+%% === Pre-Socratics ===
+    Thales["Thales of Miletus"] --> Anaximander["Anaximander"]
+    Anaximander --> Anaximenes["Anaximenes"]
+    Thales --> Pythagoras["Pythagoras"]
+    Thales --> Heraclitus["Heraclitus"]
+    Heraclitus --> Socrates["Socrates"]
+    Anaxagoras["Anaxagoras"] --> Socrates
+    Xenophanes["Xenophanes"] --> Parmenides["Parmenides"] --> Zeno_of_Elea["Zeno of Elea"] --> Socrates
+    Leucippus["Leucippus"] --> Democritus["Democritus"]
+
+%% === Classical ===
+    Socrates --> Plato["Plato"]
+    Plato --> Aristotle["Aristotle"]
+    Socrates --> Xenophon["Xenophon"]
+    Plato --> Menaechmus["Menaechmus"]
+    Aristotle --> Theophrastus["Theophrastus"]
+    Aristotle --> Eudoxus["Eudoxus"]
+    Eudoxus --> Dicaearchus["Dicaearchus"]
+    Eudoxus -.-> Euclid["Euclid"]
+    Euclid --> Apollonius["Apollonius"]
+    Aristarchus["Aristarchus"] -.-> Hipparchus["Hipparchus"]
+    Archimedes["Archimedes"] --> Eratosthenes["Eratosthenes"] --> Apollonius
+
+%% === Stoics & Skeptics ===
+    Crates["Crates"] --> ZenoC["Zeno of Citium"] --> Cleanthes["Cleanthes"] --> Chrysippus["Chrysippus"]
+    Pyrrho["Pyrrho"] -.-> Arcesilaus["Arcesilaus"] -.-> Carneades["Carneades"]
+    Chrysippus --> Seneca["Seneca"]
+    Seneca --> Marcus["Marcus Aurelius"]
+    Musonius["Musonius"] --> Epictetus["Epictetus"] --> Marcus
+
+%% === Subgraphs for clarity ===
+    subgraph PRE[Pre-Socratics]
+        Thales
+        Anaximander
+        Anaximenes
+        Pythagoras
+        Heraclitus
+        Xenophanes
+        Parmenides
+        Zeno_of_Elea
+        Anaxagoras
+        Leucippus
+        Democritus
+    end
+
+    subgraph CLASSICS[Classical Science]
+        Socrates
+        Plato
+        Aristotle
+        Xenophon
+        Menaechmus
+        Theophrastus
+        Eudoxus
+        Dicaearchus
+        Euclid
+        Archimedes
+        Aristarchus
+        Hipparchus
+        Eratosthenes
+        Apollonius
+    end
+
+    subgraph STCS[Stoics and Skeptics]
+        Crates
+        ZenoC
+        Cleanthes
+        Chrysippus
+        Pyrrho
+        Arcesilaus
+        Carneades
+        Seneca
+        Musonius
+        Epictetus
+        Marcus
+    end
+
+%% === Forced Styling for Compatibility (basic) ===
+    classDef presocratic fill:#dff3ff,stroke:#1e90ff,color:#000;
+    classDef classical fill:#fff3cd,stroke:#ffc107,color:#000;
+    classDef stoic fill:#e2e2e2,stroke:#606060,color:#000;
+    classDef roman fill:#f9e2e2,stroke:#b22222,color:#000;
+    classDef rounded rx:10,ry:10;
+
+    class Thales,Anaximander,Anaximenes,Pythagoras,Heraclitus,Xenophanes,Parmenides,Zeno_of_Elea,Anaxagoras,Leucippus,Democritus presocratic,rounded;
+    class Socrates,Plato,Aristotle,Xenophon,Menaechmus,Theophrastus,Eudoxus,Dicaearchus,Euclid,Archimedes,Aristarchus,Hipparchus,Eratosthenes,Apollonius classical,rounded;
+    class Crates,ZenoC,Cleanthes,Chrysippus stoic,rounded;
+    class Pyrrho,Arcesilaus,Carneades stoic,rounded;
+    class Seneca,Musonius,Epictetus,Marcus roman,rounded;
+
+    style Thales stroke-width:4px, fill:#006600FF,stroke:#990000FF
+    style Pythagoras stroke-width:3px, fill:#008800FF,stroke:#990000FF
+    style Socrates stroke-width:2px, fill:#00990099,stroke:#990000FF
+    style Aristotle stroke-width:5px, fill:#005500FF,stroke:#990000FF
+    style Euclid stroke-width:4px, fill:#00660077,stroke:#990000FF
+    style Archimedes stroke-width:7px, fill:#00550099,stroke:#990000FF
+    style Marcus stroke-width:4px, fill:#336699FF,stroke:#990000FF
+
+    PRE ~~~~~~~~~~~ STCS
