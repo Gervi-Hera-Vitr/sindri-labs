@@ -59,9 +59,9 @@ rdd13r:
     - label: "My Organization"
       icon: "fab fa-fw fa-school"
       url: "https://github.com/Gervi-Hera-Vitr"
-    - label: "Philosophy"
-      url: /sindri-labs/philosophy/
     - label: "Mathematics"
       url: /sindri-labs/mathematics/
     - label: "Science"
       url: /sindri-labs/science/
+    - label: "Philosophy"
+      url: /sindri-labs/philosophy/
