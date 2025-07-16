@@ -9,7 +9,7 @@ rdd13r
 :page-author_profile: true
 :page-excerpt: 2025 Academic Year Schedule
 :page-layout: single
-:page-permalink: /academic-year
+:page-permalink: /academic-year/
 :page-classes: wide
 :sectnums:
 :sectanchors:

@@ -9,7 +9,7 @@ rdd13r
 :page-author_profile: true
 :page-excerpt: Reliving Mathematics as Lived Thought.
 :page-layout: single
-:page-permalink: /mathematics
+:page-permalink: /mathematics/
 :page-classes: wide
 :sectnums:
 :sectanchors:

@@ -9,7 +9,7 @@ rdd13r
 :page-author_profile: true
 :page-excerpt: Reliving reason with the people of it.
 :page-layout: single
-:page-permalink: /philosophy
+:page-permalink: /philosophy/
 :page-classes: wide
 :sectnums:
 :sectanchors:

@@ -9,7 +9,7 @@ rdd13r
 :page-author_profile: true
 :page-excerpt: Reliving Science as Lived Thought.
 :page-layout: single
-:page-permalink: /science
+:page-permalink: /science/
 :page-classes: wide
 :sectnums:
 :sectanchors:
