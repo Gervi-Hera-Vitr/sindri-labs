@@ -1,0 +1,38 @@
+---
+header:
+  caption: ...reliving living people, people who thought, people who thus lived.
+  overlay_image: assets/images/banner-philosophy.jpg
+  overlay_filter: 0.2
+---
+= Mímis Academy: Philosophy
+rdd13r
+:page-author_profile: true
+:page-excerpt: Reliving reason with the people of it.
+:page-layout: single
+:page-permalink: /philosophy
+:page-classes: wide
+:sectnums:
+:sectanchors:
+:sectlinks:
+:icons: font
+:tip-caption: 💡️
+:note-caption: ℹ️
+:important-caption: ❗
+:caution-caption: 🔥
+:warning-caption: ⚠️
+:toc: preamble
+:toclevels: 2
+:toc-title: Mímir Academy Giants
+:keywords: Mímir Academy Philosophers
+:imagesdir: /sindri-labs/assets/images
+ifdef::env-name[:relfilesuffix: .adoc]
+:philosophers: link:/sindri-labs/philosophers/[Foundations Philosophers,window=_blank]
+
+[#philosophers]
+image::philosophers.png[Philosophers,float="right",align="center"]
+
+{nbsp}
+
+See _{philosophers}_.
+
+ToDo: Pending inscribed curriculum.

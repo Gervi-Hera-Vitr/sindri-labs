@@ -1,0 +1,34 @@
+---
+header:
+  caption: ...reliving Mathematics with "The Living" of it
+  overlay_image: assets/images/banner-ai-labs.jpg
+  overlay_filter: 0.2
+---
+= Mímis Academy: Science
+rdd13r
+:page-author_profile: true
+:page-excerpt: Reliving Science as Lived Thought.
+:page-layout: single
+:page-permalink: /science
+:page-classes: wide
+:sectnums:
+:sectanchors:
+:sectlinks:
+:icons: font
+:tip-caption: 💡️
+:note-caption: ℹ️
+:important-caption: ❗
+:caution-caption: 🔥
+:warning-caption: ⚠️
+:toc: preamble
+:toclevels: 2
+:toc-title: Mímir Academy Science
+:keywords: Mímir Academy Science
+:imagesdir: ./assets/img
+ifdef::env-name[:relfilesuffix: .adoc]
+
+:philosophers: link:/sindri-labs/philosophers/[Foundations Philosophers,window=_blank]
+
+See _{philosophers}_.
+
+ToDo: Pending inscribed curriculum.

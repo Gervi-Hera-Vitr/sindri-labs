@@ -4,7 +4,6 @@ about: Create a report to help us correct all the mistakes, please!
 title: Erroneous Observation Report
 labels: bug, invalid
 assignees: CaptainLugaru
-
 ---
 
 **Describe the bug**
