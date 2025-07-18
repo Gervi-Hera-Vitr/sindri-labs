@@ -1,6 +1,6 @@
 [*]
 charset = utf-8
-max_line_length = 240
+max_line_length = 160
 
 
 [{*.bash,*.sh,*.zsh}]

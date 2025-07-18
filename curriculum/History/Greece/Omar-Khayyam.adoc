@@ -1,0 +1,94 @@
+= Omar Khayyam
+
+== Summary
+Omar Khayyam (May 18, 1048 – December 4, 1131) was a Persian polymath born in Nishapur, Iran, during the Seljuk era. He made significant contributions to mathematics, astronomy, philosophy, and Persian literature.
+
+In mathematics, Khayyam is recognized for his work on classifying and solving cubic equations using a geometric approach. He also advanced the understanding of Euclid's parallel axiom.
+
+As an astronomer, he accurately calculated the solar year's duration and designed the Jalali calendar, a highly precise solar calendar that forms the basis of the modern Persian calendar.
+
+Khayyam is also known for his quatrains (rubāʿiyāt), which gained widespread recognition in the English-speaking world through Edward FitzGerald's translation, Rubaiyat of Omar Khayyam (1859).
+
+== An Autographical Review
+Omar Khayyam was born in Nishapur, a metropolis in the Khorasan province of the Seljuk Empire, in 1048. His full name was Abu’l Fath Omar ibn Ibrahim al-Khayyam, and "Khayyam" means "tent-maker" in Arabic, though this is open to doubt regarding his forebears' trade. His birth date of May 18, 1048, was established by modern scholars based on details of his horoscope provided by the historian Bayhaqi, who knew Khayyam personally.
+
+Khayyam's early education took place in Nishapur, a significant center in the Seljuk Empire. His talents were recognized, and he studied under Imam Muwaffaq Nishaburi, a renowned teacher. He may also have studied with Bahmanyar, a disciple of Avicenna.
+
+Around 1068, Khayyam traveled to Bukhara to frequent its library, and by 1070, he moved to Samarkand, where he began writing his Treatise on Algebra under the patronage of Abu Tahir Abd al-Rahman ibn ʿAlaq. He was highly regarded by the Karakhanid ruler Shams al-Mulk Nasr.
+
+In 1074, Khayyam entered the service of Sultan Malik-Shah I, invited by Grand Vizier Nizam al-Mulk. He was commissioned to establish an observatory in Isfahan and lead a team of scientists to conduct astronomical observations for the revision of the Persian calendar. This project, which began in 1074 and concluded in 1079, resulted in a highly accurate calculation of the year's length: 365.24219858156 days.
+
+After the deaths of Malik-Shah and his vizier, Khayyam's standing at court declined, leading him to undertake a pilgrimage to Mecca, possibly to counter allegations of skepticism and unorthodoxy. Later, Sultan Sanjar invited him to Marv, possibly as a court astrologer. Due to declining health, he eventually returned to Nishapur, where he lived a reclusive life.
+
+Omar Khayyam died on December 4, 1131, at the age of 83 in his hometown of Nishapur, where he is buried in what is now the Mausoleum of Omar Khayyam. A disciple, Nizami Aruzi, recounts Khayyam's prophecy that his tomb would be in a spot where the north wind would scatter roses over it. Four years after his death, Aruzi found Khayyam's tomb at the foot of a garden wall, hidden by the flowers of pear and apricot trees, just as Khayyam had foretold.
+
+== Discoveries/Achievements
+
+Omar Khayyam was a renowned mathematician, and several of his surviving mathematical works attest to his significant contributions. These include:
+
+=== Key Mathematical Works
+Commentary on the Difficulties Concerning the Postulates of Euclid's Elements (completed December 1077): This work addresses issues related to Euclid's postulates.
+
+Treatise On the Division of a Quadrant of a Circle (undated, but before the Treatise on Algebra): In this treatise, Khayyam applied algebraic principles to geometric problems, specifically concerning the division of a circular quadrant.
+
+Treatise on Algebra (most likely completed 1079): This is a pivotal work in which Khayyam systematically explored cubic equations.
+
+Khayyam also wrote a treatise on the binomial theorem and extracting n
+th
+roots of natural numbers, though this work has been lost.
+
+=== Theory of Parallels
+Khayyam's Commentary on the Difficulties Concerning the Postulates of Euclid's Elements notably tackles the parallel axiom. He was the first to offer a treatment of this axiom not based on circular reasoning, but on a more intuitive postulate. He critically refuted previous attempts to prove the proposition, arguing that they assumed what they aimed to prove. Drawing on Aristotle, he rejected the use of movement in geometry.
+
+He was also the first to consider the three distinct cases (acute, obtuse, and right angle) for the summit angles of a Khayyam-Saccheri quadrilateral. After proving theorems related to these, he demonstrated that Euclid's Fifth Postulate follows from the right angle hypothesis, while refuting the obtuse and acute cases as self-contradictory. His work was crucial in showing the possibility of non-Euclidean geometries, with these angle hypotheses leading to hyperbolic, Riemannian, and Euclidean geometries, respectively.
+
+Khayyam's insights on parallels, through Tusi's commentaries, influenced European mathematicians like John Wallis and Girolamo Saccheri, contributing to the eventual development of non-Euclidean geometry.
+
+=== Real Number Concept
+Khayyam's treatise on Euclid also delves into the theory of proportions and irrational numbers. He redefined the concept of a number using a continued fraction to express ratios, effectively placing irrational quantities and numbers on the same operational scale. This was a revolutionary step towards the modern concept of the real number.
+
+=== Geometric Algebra
+Khayyam's geometrical approach to algebraic equations is seen as a precursor to Descartes' invention of analytic geometry. In his Treatise on the Division of a Quadrant of a Circle, he used algebra to solve geometric problems involving the division of a circular quadrant, leading to equations with cubic and quadratic terms.
+
+=== Solution of Cubic Equations
+Khayyam is credited with being the first to conceive a general theory of cubic equations and to geometrically solve every type of cubic equation for positive roots. His Treatise on Algebra categorizes cubic equations into those solvable by compass and straightedge, those solvable by conic sections, and those involving the inverse of the unknown.
+
+He identified fourteen types of cubics that could not be reduced to lower degrees and provided geometric solutions for all of them using the intersection of conic sections (e.g., two parabolas, or a parabola and a circle). While he acknowledged that the arithmetic problem of these cubics remained unsolved at his time, his work laid the groundwork for later algebraic solutions developed in Renaissance Italy by mathematicians like Cardano.
+
+Khayyam's work aimed to unify algebra and geometry, a systematic approach that was praised for its rigor and power of generalization.
+
+=== Binomial Theorem and Extraction of Roots
+In his Treatise on Algebra, Khayyam referenced a lost book on extracting the n
+th
+root of natural numbers using a non-geometric method. This suggests he understood the formula for the expansion of the binomial (a+b)
+n
+. He is also credited with popularizing the triangular arrangement of binomial coefficients in Iran, now known as Omar Khayyam's triangle (predating Pascal's triangle in Europe).
+
+=== Astronomy
+In 1074–75, Sultan Malik-Shah commissioned Khayyam to build an observatory in Isfahan and reform the Persian calendar. Leading a team of eight scholars, Khayyam recalibrated the calendar to fix the first day of the year at the vernal equinox. This resulted in the Jalali calendar, inaugurated on March 15, 1079.
+
+The Jalali calendar was a highly accurate solar calendar that used a unique 33-year intercalation cycle. It consisted of 25 ordinary years of 365 days and 8 leap years of 366 days. This calendar was remarkably precise, with an error of one day accumulating over 5,000 years, making it more accurate than the Gregorian calendar. It remained in use across Greater Iran for centuries and forms the basis of the modern Iranian calendar.
+
+Despite his astronomical work, Khayyam did not appear to have a strong belief in astrology and divination.
+
+=== Other Works
+Khayyam wrote a short treatise on Archimedes' principle, detailing a precise method for determining the gold and silver content in an alloy by weighing it in air and water. His solution was considered more accurate than those by other scholars.
+
+He also contributed to music theory, systematically classifying musical scales and discussing the mathematical relationships between notes, minor and major intervals, and tetrachords.
+
+=== Poetry
+The earliest references to Omar Khayyam's poetry, specifically his quatrains (rubāʿiyāt), date from around 30 years after his death. While some of these verses were in circulation during his time, it's difficult to definitively attribute all of them to him, and some scholars suggest much of the attributed poetry might be pseudepigraphic.
+
+Regardless, Khayyam's popular fame in the modern era largely stems from Edward FitzGerald's highly successful 1859 translation, Rubaiyat of Omar Khayyam, which introduced his poetry to the English-speaking world.
+
+=== Philosophy
+Khayyam considered himself a student of Avicenna, and his philosophical writings, including On existence and The necessity of contradiction in the world, determinism and subsistence, explore topics like existence, universals, free will, and determinism. These prose works are generally written in a theistic Peripatetic style, indicating his engagement with metaphysics.
+
+=== Religious Views
+The interpretation of Khayyam's religious views remains a subject of debate. A literal reading of his quatrains often suggests a philosophical stance encompassing pessimism, nihilism, Epicureanism, fatalism, and agnosticism. Some Iranologists and scholars like Arthur Christensen and Edward FitzGerald support this view, with FitzGerald emphasizing the religious skepticism in Khayyam's poetry. Sadegh Hedayat even considered Khayyam an atheist.
+
+Conversely, some interpret Khayyam's quatrains as mystical Sufi poetry, where references to wine and drunkenness are metaphorical for divine rapture. However, many Iranian experts and other commentators reject this Sufi interpretation, arguing that there's no evidence he was formally a Sufi and noting that several celebrated Sufi mystics of his time disliked him and considered him an "unhappy philosopher, atheist, and materialist."
+
+Evidence from his biographical accounts and prose works often points to his conformity with Islamic customs, with religious honorifics used to describe him and prayers included in his treatises. This suggests a more orthodox stance, or at least a public adherence to religious norms.
+
+Ultimately, given the conflicting textual and biographical evidence, Khayyam's precise religious beliefs remain an open question, leading to diverse and often contradictory interpretations of his legacy.

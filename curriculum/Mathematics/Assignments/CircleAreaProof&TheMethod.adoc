@@ -1,0 +1,92 @@
+= Circle Area Proof and The Method
+
+== Circle area proof via inscribed polygons
+An inscribed polygon:: is a polygon where all of its vertices (corners) lie on the circumference of a circle.
+
+Proposition::
+Archimedes' goal was to prove that the area of a circle (A) is equal to the area of a right-angled triangle (T) whose legs are the radius (r) and the circumference (c) of the circle. Or more bluntly to prove that: Area of a circle = Pi * R^2
+
+
+
+The Proof?::
+He used a proof by contradiction. The "inscribed polygons" part is used to demonstrate that the area of the circle cannot be greater than the area of this triangle (A≯T).
+
+=== Explanation:
+Proving "A cannot be bigger than T" (using INSCRIBED polygons)
+
+Imagine trying to fill the circle with a simple shape.
+Start by drawing a square inside the circle, touching the circle's edge at its corners.
+This square's area is definitely smaller than the circle's area.
+
+Make the shape better.
+Now, take that square and turn it into an octagon (8 sides) by adding new corners on the circle's edge.
+This octagon's area is bigger than the square's, and it's much closer to the circle's area.
+
+Keep making it better and better.
+Keep doubling the number of sides: from 8 to 16, then 32, then 64, and so on.
+Each time you add more sides, the polygon gets closer and closer to filling up the circle. It starts to look more and more like the circle itself.
+
+The key idea (the "squishing" part):
+Archimedes realized that you can make this inside polygon so close to the circle's area that the tiny gap between them (the un-filled space) becomes incredibly, unbelievably small. You can make that gap smaller than any tiny amount you can imagine.
+
+Now for the trick (proof by contradiction):
+
+Let's pretend (just for a moment) that the circle's area (A) IS bigger than our special triangle's area (T).
+
+If A > T, that means there's a certain "extra" amount that A has compared to T.
+
+Because we can make our inside polygon fill the circle so well, we could choose a polygon (let's say a 1000-sided polygon!) whose area is so close to the circle's area that it must also be bigger than T. (Because A is bigger than T, and our polygon is almost A).
+
+So, we have an INSIDE polygon whose area is greater than T.
+
+But wait! Let's look at the INSIDE polygon itself.
+
+Imagine slicing up our 1000-sided polygon into 1000 tiny triangles, all meeting at the center of the circle.
+
+The height of each of these tiny triangles is the "apothem" (the distance from the center to the middle of one side of the polygon).
+
+The base of each tiny triangle is one side of the polygon.
+
+The total area of the polygon is roughly half of (its apothem multiplied by its total perimeter).
+
+Comparing the polygon to our special triangle (T):
+
+The "apothem" of the inside polygon is always slightly shorter than the actual radius of the circle. (Because the side of the polygon is inside the circle).
+
+The "perimeter" of the inside polygon is always shorter than the circle's actual circumference. (Because the polygon's edges are straight lines inside the curve).
+
+Since both the apothem and the perimeter are smaller than the radius and circumference respectively, it logically means that the area of the INSIDE polygon must be SMALLER than the area of our special triangle (T).
+
+The Contradiction!
+
+In step 5, we said: "Our inside polygon's area is greater than T."
+
+In step 7, we said: "Our inside polygon's area is smaller than T."
+
+You can't be both greater than and smaller than T at the same time! This is a contradiction.
+
+The Conclusion:
+Since our initial assumption ("A is bigger than T") led to a nonsense answer, that assumption must be wrong.
+Therefore, the Circle's Area (A) cannot be bigger than the Special Triangle's Area (T).
+
+== What was Lost in the Method?
+
+=== Discovery
+In 1998, a heavily damaged, moldy prayer book, barely legible, sold for an astonishing $2.2 million at auction, despite legal attempts to halt the sale. This wasn't just any old book of generic prayers; hidden beneath the Christian text were the lost mathematical insights of Archimedes of Syracuse, arguably the greatest mathematical mind of the ancient world.
+
+
+=== The Lost Secret: Archimedes' "Method"
+For centuries, mathematicians suspected Archimedes possessed a secret technique that allowed him to solve incredibly complex problems with curved shapes, far beyond what anyone else imagined possible. This book, known as Codex C, was the only surviving copy of a letter Archimedes wrote to his friend Eratosthenes, revealing this private, controversial technique he called "The Method."
+
+=== Archimedes' approach was revolutionary
+
+- The Mechanical Method: He imagined shapes as physical objects that could be "weighed" on a seesaw, breaking them down into infinitely thin slices (lines with no thickness).
+
+- A "Bogus" Approach: While seemingly paradoxical and "bogus" to modern minds (how can lines with no width have weight?), this method consistently gave him the correct answers for areas and volumes of complex shapes.
+
+- A Private Confession: Knowing his method broke the rules of rigorous Greek mathematics (which avoided the concept of actual infinity), he kept it secret, revealing it only to Eratosthenes, hoping future generations would build upon it. He used a separate, rigorous method called the "method of exhaustion" to prove his results, never using infinity in his public works.
+
+- Archimedes' Foresight: He was working with concepts fundamental to calculus 1,800 years before Newton and Leibniz developed it.
+
+=== New Discoveries:
+Heiberg couldn't read everything, but the restoration revealed previously unknown calculations, like the volume of a strangely shaped cylindrical slice, and a mysterious page from another lost work called "Stomachion" (which Heiberg had initially dismissed as a children's game).

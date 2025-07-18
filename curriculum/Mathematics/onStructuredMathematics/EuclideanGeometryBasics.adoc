@@ -1,0 +1,79 @@
+= Euclidean Geometry Basics
+
+== Summary
+Euclidean geometry, named after the ancient Greek mathematician Euclid, is a mathematical system described in his textbook, Elements. Euclid's method involves starting with a few intuitively appealing axioms (postulates) and logically deducing many other propositions (theorems from them. While many of Euclid's results were known earlier, he was the first to organize them into a logical system where each result is proven from axioms and previously established theorems.
+
+The Elements begins with plane geometry, still taught in schools today as an axiomatic system and an introduction to mathematical proofs. It progresses to three-dimensional solid geometry. Much of the Elements also covers results in what are now called algebra and number theory, presented using geometrical language.
+
+For over two millennia, "Euclidean" was an unnecessary adjective because its axioms seemed universally true. However, in the early 19th century, self-consistent non-Euclidean geometries were discovered. Albert Einstein's theory of general relativity later showed that physical space isn't perfectly Euclidean, only approximating it over short distances.
+
+Euclidean geometry is a form of synthetic geometry, building logically from axioms about basic geometric objects (points, lines) to propositions about them. This contrasts with analytic geometry, introduced by René Descartes nearly 2,000 years later, which uses coordinates and algebraic formulas to express geometric properties.
+
+== The Elements
+The Elements primarily systematized existing geometric knowledge. Its superiority led to the loss of most earlier treatments. It consists of 13 books:
+
+- Books I–IV and VI: Discuss plane geometry, proving results like "In any triangle, two angles taken together in any manner are less than two right angles" (Book I, Prop. 17) and the Pythagorean theorem (Book I, Prop. 47).
+
+- Books V and VII–X: Deal with number theory, treating numbers geometrically as lengths or areas. Concepts like prime, rational, and irrational numbers are introduced, and it's proven that there are infinitely many prime numbers.
+
+- Books XI–XIII: Concern solid geometry, demonstrating results such as the 1:3 volume ratio between a cone and a cylinder with the same height and base, and constructing the Platonic solids.
+
+== Axioms
+Euclidean geometry is an axiomatic system where all theorems are derived from a few simple axioms. Euclid presented five postulates for plane geometry in the first book of Elements:
+
+- To draw a straight line from any point to any point.
+
+- To produce (extend) a finite straight line continuously in a straight line.
+
+- To describe a circle with any center and distance (radius).
+
+- That all right angles are equal to one another.
+
+- The Parallel Postulate: If a straight line falling on two straight lines makes the interior angles on the same side less than two right angles, the two straight lines, if produced indefinitely, meet on that side on which the angles are less than two right angles.
+
+Euclid also included five "common notions":
+
+- Things that are equal to the same thing are also equal to one another.
+
+- If equals are added to equals, then the wholes are equal.
+
+- If equals are subtracted from equals, then the differences are equal.
+
+- Things that coincide with one another are equal to one another.
+
+- The whole is greater than the part.
+
+Modern scholars note that Euclid's postulates aren't a complete logical foundation, and modern treatments use more extensive axiom sets.
+
+== Parallel Postulate
+The parallel postulate was less obvious to ancient mathematicians, who sought to prove it from simpler statements. It's now known that such a proof is impossible, as consistent geometries exist where it's true and others where it's false. Euclid himself seemed to recognize its unique nature, proving his first 28 propositions without it. Many alternative axioms are logically equivalent to the parallel postulate, such as Playfair's axiom: "In a plane, through a point not on a given straight line, at most one line can be drawn that never meets the given line."
+
+== Methods of Proof
+Euclidean geometry is constructive. Its postulates assert the existence and uniqueness of geometric figures and provide methods for creating them using only a compass and an unmarked straightedge. This makes it more concrete than some modern axiomatic systems. Euclid often used proof by contradiction.
+
+== Notation and Terminology
+
+- Naming: Points are typically named with capital letters (e.g., A, B, C). Figures like triangles or circles are named by listing enough points to identify them uniquely (e.g., triangle ABC).
+
+- Complementary Angles: Angles that sum to a right angle (90 degrees).
+
+- Supplementary Angles: Angles that sum to a straight angle (180 degrees).
+
+Modern vs. Euclid's Notation: Modern texts often distinguish between lines (infinite), rays (semi-infinite), and line segments (finite). Euclid would use phrases like "if the line is extended" and used "straight line" when necessary, as "line" could refer to a straight or curved path. Modern angle measurements are typically in degrees or radians.
+
+== Important Results
+
+- Pons Asinorum (Bridge of Asses): In isosceles triangles, the base angles are equal.
+
+- Congruence of Triangles: Triangles are congruent if they have all three sides equal (SSS), two sides and the included angle equal (SAS), or two angles and a corresponding side equal (ASA). Triangles with three equal angles (AAA) are similar but not necessarily congruent.
+
+-  Angle Sum: The sum of the angles in any triangle is 180 degrees.
+
+- Pythagorean Theorem: In a right triangle, the square of the hypotenuse is equal to the sum of the squares of the other two sides.
+
+- Thales' Theorem: If points A, B, and C are on a circle and AC is a diameter, then the angle ABC is a right angle.
+
+- Scaling of Area and Volume: In modern terms, the area of a plane figure is proportional to the square of its linear dimensions .
+
+== System of Measurement and Arithmetic
+Euclidean geometry uses two fundamental measurements: angle and distance. The angle scale is absolute, with the right angle as the basic unit. The distance scale is relative, with an arbitrarily chosen line segment as the unit. Addition and subtraction of distances are represented by geometric constructions. Area and volume measurements are derived from distances. Euclid's geometric interpretation of multiplication was limited to three dimensions, avoiding products of four or more numbers. Euclid used "equal" (ἴσος) for figures with equal lengths, areas, or volumes. "Congruent" implies identical size and shape (can be superimposed, including flipping). "Similar" figures have the same shape but different sizes, with corresponding angles equal and corresponding sides proportional.

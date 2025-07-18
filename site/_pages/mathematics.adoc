@@ -168,7 +168,6 @@ ifdef::env-name[:relfilesuffix: .adoc]
 :chaitin-biography: https://mathshistory.st-andrews.ac.uk/Biographies/Chaitin/[Gregory Chaitin,window=_blank]
 :chaitin-biography-fn: footnote:[St Andrews, MacTutor article on {chaitin-biography}]
 
-
 Our approach to Mathematics is as Lived Thought.
 Similarly for how we moved through Philosophy in previous curriculum iteration.
 We will relive a series of personal struggles and breakthroughs by flawed,
@@ -196,6 +195,7 @@ _{fiveable-math}_.
 ** {pythagoras-theorem}.
 * **{euclid}**{euclid-biography-fn} -- Elements and axiomatic method.
 ** {euclidean-geometry}, arriving at _foundations of geometry_{foundations-geometry-fn}.
+
 * **{archimedes}**{archimedes-biography-fn} -- The lost method: exhaustion, infinitesimals{archimedes-the-lost-method-fn}.
 ** Fundamentals of Analysis -- Area of the circle.
 
