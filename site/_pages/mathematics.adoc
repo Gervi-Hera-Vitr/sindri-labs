@@ -1,15 +1,15 @@
 ---
 header:
-  caption: ...reliving Mathematics
+  caption: ...reliving Mathematics with "The Living" of it.
   overlay_image: assets/images/banner-mathematics.jpg
   overlay_filter: 0.2
 ---
 = Mímis Academy: Mathematics
 rdd13r
 :page-author_profile: true
-:page-excerpt: Reliving Mathematics with the people of it.
+:page-excerpt: Reliving Mathematics as Lived Thought.
 :page-layout: single
-:page-permalink: /mathematics
+:page-permalink: /mathematics/
 :page-classes: wide
 :sectnums:
 :sectanchors:
@@ -26,6 +26,8 @@ rdd13r
 :keywords: Mímir Academy Mathematics
 :imagesdir: ./assets/img
 ifdef::env-name[:relfilesuffix: .adoc]
+
+:philosophers: link:/sindri-labs/philosophers/[Foundations Philosophers,window=_blank]
 
 :fiveable-math: https://library.fiveable.me/history-of-mathematics[fivable a brief history of mathematics,window=_blank]
 :mathigon-trigonometry: https://mathigon.org/course/triangles/introduction[Mathigon: Trigonometry,window=_blank]
@@ -63,9 +65,108 @@ ifdef::env-name[:relfilesuffix: .adoc]
 
 :archimedes: https://en.wikipedia.org/wiki/Archimedes[Archimedes of Syracuse,window=_blank]
 :archimedes-fn: footnote:[Wikipedia article on {archimedes}]
+:archimedes-biography: https://mathshistory.st-andrews.ac.uk/Biographies/Archimedes/[Archimedes of Syracuse,window=_blank]
+:archimedes-biography-fn: footnote:[St Andrews University, Scottland, MacTutor article on {archimedes-biography}]
+:archimedes-the-lost-method: https://en.wikipedia.org/wiki/Archimedes_Palimpsest[Archimedes' Palimpsest - The Lost Method,window=_blank]
+:archimedes-the-lost-method-fn: footnote:[Wikipedia article on {archimedes-the-lost-method}]
 
-:mathematics: https://en.wikipedia.org/wiki/Mathematics[Mathematics,window=_blank]
-:mathematics-fn: footnote:[Wikipedia article on {mathematics}]
+:al-khwarizmi: https://en.wikipedia.org/wiki/Al-Khwarizmi[Muhammad ibn Musa al-Khwarizmi,window=_blank]
+:al-khwarizmi-fn: footnote:[Wikipedia article on {al-khwarizmi}]
+:al-khwarizmi-biography: https://mathshistory.st-andrews.ac.uk/Biographies/Al-Khwarizmi/[Abu Ja'far Muhammad ibn Musa Al-Khwarizmi,window=_blank]
+:al-khwarizmi-biography-fn: footnote:[St Andrews, MacTutor article on {al-khwarizmi-biography}]
+
+:fibonacci: https://en.wikipedia.org/wiki/Fibonacci[Leonardo of Pisa (Fibonacci),window=_blank]
+:fibonacci-fn: footnote:[Wikipedia article on {fibonacci}]
+:fibonacci-biography: https://mathshistory.st-andrews.ac.uk/Biographies/Fibonacci/[Leonardo of Pisa (Fibonacci),window=_blank]
+:fibonacci-biography-fn: footnote:[St Andrews, MacTutor article on {fibonacci-biography}]
+:fibonacci-liberabaci: https://en.wikipedia.org/wiki/Liber_Abaci[Liber Abaci,window=_blank]
+:fibonacci-liberabaci-fn: footnote:[Wikipedia article on {fibonacci-liberabaci}]
+
+:khayyam: https://en.wikipedia.org/wiki/Omar_Khayyam[Omar Khayyam,window=_blank]
+:khayyam-fn: footnote:[Wikipedia article on {khayyam}]
+:khayyam-biography: https://mathshistory.st-andrews.ac.uk/Biographies/Khayyam/[Omar Khayyam,window=_blank]
+:khayyam-biography-fn: footnote:[St Andrews, MacTutor article on {khayyam-biography}]
+:khayyam-treatise: https://en.wikipedia.org/wiki/Binomial_theorem[Binomial theorem,window=_blank]
+:khayyam-treatise-fn: footnote:[Wikipedia article on {khayyam-treatise}]
+:khayyam-liberabaci: https://en.wikipedia.org/wiki/Liber_Abaci[Liber Abaci,window=_blank]
+:khayyam-liberabaci-fn: footnote:[Wikipedia article on {khayyam-liberabaci}]
+
+:descartes: https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes[René Descartes,window=_blank]
+:descartes-fn: footnote:[Wikipedia article on {descartes}]
+:descartes-biography: https://mathshistory.st-andrews.ac.uk/Biographies/Descartes/[René Descartes,window=_blank]
+:descartes-biography-fn: footnote:[St Andrews, MacTutor article on {descartes-biography}]
+
+:cavalieri: https://en.wikipedia.org/wiki/Bonaventura_Cavalieri[Bonaventura Cavalieri,window=_blank]
+:cavalieri-fn: footnote:[Wikipedia article on {cavalieri}]
+:cavalieri-biography: https://mathshistory.st-andrews.ac.uk/Biographies/Cavalieri/[Bonaventura Cavalieri,window=_blank]
+:cavalieri-biography-fn: footnote:[St Andrews, MacTutor article on {cavalieri-biography}]
+
+:newton: https://en.wikipedia.org/wiki/Isaac_Newton[Isaac Newton,window=_blank]
+:newton-fn: footnote:[Wikipedia article on {newton}]
+:newton-biography: https://mathshistory.st-andrews.ac.uk/Biographies/Newton/[Isaac Newton,window=_blank]
+:newton-biography-fn: footnote:[St Andrews, MacTutor article on {newton-biography}]
+
+:leibniz: https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz[Gottfried Wilhelm Leibniz,window=_blank]
+:leibniz-fn: footnote:[Wikipedia article on {leibniz}]
+:leibniz-biography: https://mathshistory.st-andrews.ac.uk/Biographies/Leibniz/[Gottfried Wilhelm Leibniz,window=_blank]
+:leibniz-biography-fn: footnote:[St Andrews, MacTutor article on {leibniz-biography}]
+
+:cauchy: https://en.wikipedia.org/wiki/Augustin-Louis_Cauchy[Augustin-Louis Cauchy,window=_blank]
+:cauchy-fn: footnote:[Wikipedia article on {cauchy}]
+:cauchy-biography: https://mathshistory.st-andrews.ac.uk/Biographies/Cauchy/[Augustin-Louis Cauchy,window=_blank]
+:cauchy-biography-fn: footnote:[St Andrews, MacTutor article on {cauchy-biography}]
+:cauchy-theorem: https://en.wikipedia.org/wiki/Cauchy%27s_theorem_(group_theory)[Cauchy's theorem (group theory),window=_blank]
+:cauchy-theorem-fn: footnote:[Wikipedia article on {cauchy-theorem}]
+
+:weierstrass: https://en.wikipedia.org/wiki/Karl_Weierstrass[Karl Weierstrass,window=_blank]
+:weierstrass-fn: footnote:[Wikipedia article on {weierstrass}]
+:weierstrass-biography: https://mathshistory.st-andrews.ac.uk/Biographies/Weierstrass/[Karl Weierstrass,window=_blank]
+:weierstrass-biography-fn: footnote:[St Andrews, MacTutor article on {weierstrass-biography}]
+
+:cantor: https://en.wikipedia.org/wiki/Georg_Cantor[Georg Cantor,window=_blank]
+:cantor-fn: footnote:[Wikipedia article on {cantor}]
+:cantor-biography: https://mathshistory.st-andrews.ac.uk/Biographies/Cantor/[Georg Cantor,window=_blank]
+:cantor-biography-fn: footnote:[St Andrews, MacTutor article on {cantor-biography}]
+
+:dedekind: https://en.wikipedia.org/wiki/Richard_Dedekind[Richard Dedekind,window=_blank]
+:dedekind-fn: footnote:[Wikipedia article on {dedekind}]
+:dedekind-biography: https://mathshistory.st-andrews.ac.uk/Biographies/Dedekind/[Richard Dedekind,window=_blank]
+:dedekind-biography-fn: footnote:[St Andrews, MacTutor article on {dedekind-biography}]
+
+:hilbert: https://en.wikipedia.org/wiki/David_Hilbert[David Hilbert,window=_blank]
+:hilbert-fn: footnote:[Wikipedia article on {hilbert}]
+:hilbert-biography: https://mathshistory.st-andrews.ac.uk/Biographies/Hilbert/[David Hilbert,window=_blank]
+:hilbert-biography-fn: footnote:[St Andrews, MacTutor article on {hilbert-biography}]
+
+:godel: https://en.wikipedia.org/wiki/Kurt_G%C3%B6del[Kurt Gödel,window=_blank]
+:godel-fn: footnote:[Wikipedia article on {godel}]
+:godel-biography: https://mathshistory.st-andrews.ac.uk/Biographies/Godel/[Kurt Gödel,window=_blank]
+:godel-biography-fn: footnote:[St Andrews, MacTutor article on {godel-biography}]
+
+:turing: https://en.wikipedia.org/wiki/Alan_Turing[Alan Turing,window=_blank]
+:turing-fn: footnote:[Wikipedia article on {turing}]
+:turing-biography: https://mathshistory.st-andrews.ac.uk/Biographies/Turing/[Alan Turing,window=_blank]
+:turing-biography-fn: footnote:[St Andrews, MacTutor article on {turing-biography}]
+
+:church: https://en.wikipedia.org/wiki/Alonzo_Church[Alonzo Church,window=_blank]
+:church-fn: footnote:[Wikipedia article on {church}]
+:church-biography: https://mathshistory.st-andrews.ac.uk/Biographies/Church/[Alonzo Church,window=_blank]
+:church-biography-fn: footnote:[St Andrews, MacTutor article on {church-biography}]
+
+:von-neumann: https://en.wikipedia.org/wiki/John_von_Neumann[John von Neumann,window=_blank]
+:von-neumann-fn: footnote:[Wikipedia article on {von-neumann}]
+:von-neumann-biography: https://mathshistory.st-andrews.ac.uk/Biographies/Von_Neumann/[John von Neumann,window=_blank]
+:von-neumann-biography-fn: footnote:[St Andrews, MacTutor article on {von-neumann-biography}]
+
+:kolmogorov: https://en.wikipedia.org/wiki/Andrey_Kolmogorov[Andrey Kolmogorov,window=_blank]
+:kolmogorov-fn: footnote:[Wikipedia article on {kolmogorov}]
+:kolmogorov-biography: https://mathshistory.st-andrews.ac.uk/Biographies/Kolmogorov/[Andrey Kolmogorov,window=_blank]
+:kolmogorov-biography-fn: footnote:[St Andrews, MacTutor article on {kolmogorov-biography}]
+
+:chaitin: https://en.wikipedia.org/wiki/Gregory_Chaitin[Gregory Chaitin,window=_blank]
+:chaitin-fn: footnote:[Wikipedia article on {chaitin}]
+:chaitin-biography: https://mathshistory.st-andrews.ac.uk/Biographies/Chaitin/[Gregory Chaitin,window=_blank]
+:chaitin-biography-fn: footnote:[St Andrews, MacTutor article on {chaitin-biography}]
 
 Our approach to Mathematics is as Lived Thought.
 Similarly for how we moved through Philosophy in previous curriculum iteration.
@@ -75,11 +176,17 @@ The main difference between the current and the previous curriculum is that the 
 And this iteration is more choreographed and curated experience journeyed together with the mentor and the giants of Mathematics.
 We will experience Mathematics as a human being and not as a subject matter.
 
-Fun _{fiveable-math}_.
+See _{philosophers}_ ,and +
+_{fiveable-math}_.
 
-== I. Geometry and Intuition (600 BCE -- 200 CE)
+'''
+> Once we master a section, we reflect, adding key constructs to our milestone path.
 
- The world as space and form.
+'''
+
+== Geometry and Intuition (600 BCE -- 200 CE)
+
+> The world as space and form.
 
 * **{thales}**{tahles-biography-fn} -- Geometry from first principles{thales-fn}.
 ** Tales and Egypt{thales-theorem-fn}{thales-intercept-theorem-fn} -- {thales-theorem}.
@@ -88,20 +195,164 @@ Fun _{fiveable-math}_.
 ** {pythagoras-theorem}.
 * **{euclid}**{euclid-biography-fn} -- Elements and axiomatic method.
 ** {euclidean-geometry}, arriving at _foundations of geometry_{foundations-geometry-fn}.
-* **{archimedes}** -- The lost method: exhaustion, infinitesimals.
+
+* **{archimedes}**{archimedes-biography-fn} -- The lost method: exhaustion, infinitesimals{archimedes-the-lost-method-fn}.
 ** Fundamentals of Analysis -- Area of the circle.
+
 {nbsp}
-** *_Fun learning discovery assignments_*:
-*** Reconstruct Archimedes’ circle area proof via inscribed polygons;
-*** Read fragments of The Method, imagine what was lost.
 
-_Fun bonus assignment: map philosophers on the timeline._
+Fun learning discovery assignments::
+* Reconstruct Archimedes’ circle area proof via inscribed polygons;
+* Read fragments of The Method, imagine what was lost.
+* _Fun bonus assignment: map philosophers on the timeline._
 
-== II. Algebra and Algorithm (800 -- 1200 CE)
+#WE ARE HERE.#
 
-== II. Motion, Change, and Infinity (1600 -- 1750)
+== Algebra and Algorithm (800 -- 1200 CE)
 
-== IV. Rigor and Foundations (1800 -- 1930)
+> Abstraction emerges from counting and commerce.
 
-== V. Computation and Mind (1930 -- Present)
+* **{al-khwarizmi}**{al-khwarizmi-biography-fn} -- *_Algorithms, solving equations_*.
+* **{fibonacci}**{fibonacci-biography-fn} -- Commerce, numerals, and problem solving{fibonacci-fn}.
+** Liber Abaci and the Hindu-Arabic system{fibonacci-liberabaci-fn}.
+* **{khayyam}**{khayyam-biography-fn} -- Cubics, conics, and poetic geometry{khayyam-fn}.
+** Solving equations with geometric methods, see {khayyam-treatise}.
 
+{nbsp}
+
+Fun learning discovery assignments::
+* Solve problems from {khayyam-liberabaci}.
+* _Compare geometric vs. algebraic solutions (Khayyam’s work)_.
+
+'''
+> Now, with some Geometry and Algebra under our belt, we can tackle motion!
+
+'''
+
+
+== Motion, Change, and Infinity (1600 -- 1750)
+
+> The analysis of nature demanded a new mathematics.
+
+* **{descartes}**{descartes-biography-fn} -- Analytic geometry: merge algebra + geometry{descartes-fn}.
+* **{cavalieri}**{cavalieri-biography-fn} -- Indivisibles, early integral concepts{cavalieri-fn}.
+* **{newton}**{newton-biography-fn} -- Fluxions and the birth of calculus{newton-fn}.
+* **{leibniz}**{leibniz-biography-fn} -- Differentials, notation, and calculus wars{leibniz-fn}.
+
+
+{nbsp}
+
+Fun learning discovery assignments::
+* Compare Newton's fluxions with Leibniz’s differentials.
+* Derive derivative of x² using both styles.
+* Graph motion with early velocity equations.
+
+{nbsp}
+
+Notes from the mentor (DaiDai `rdd13r`)::
+* Consider livelihood disparities between {leibniz} and {newton}.
+* Compare the depth and quality in scientific contribution of the two men.
+* Does this remind you of any other prominent figure pairs in history?
+
+'''
+> We now have the trivial Mathematics!
+
+'''
+
+== Rigor and Foundations (1800 -- 1930)
+
+>  The need to defend math from paradox.
+
+* **{cauchy}**{cauchy-biography-fn} -- The need to defend math from paradox; rigor in limits and calculus{cauchy-fn}.
+** _Too many papers to list, we will touch on  elementary abelian groups._{cauchy-theorem-fn}.
+* **{weierstrass}**{weierstrass-biography-fn} -- ε-δ formalism; precision in defining limits and continuity{weierstrass-fn}.
+* **{cantor}**{cantor-biography-fn} -- Infinity, cardinality, set theory; the mathematics of the infinite{cantor-fn}.
+* **{dedekind}**{dedekind-biography-fn} -- Cuts, real numbers; taming the continuum{dedekind-fn}.
+* **{hilbert}**{hilbert-biography-fn} -- Formalism and completeness; axioms as the foundation of certainty{hilbert-fn}.
+* **{godel}**{godel-biography-fn} -- Incompleteness, the end of certainty; limits of formal systems{godel-fn}.
+
+{nbsp}
+
+Fun learning discovery assignments::
+* Create an ε-δ proof Captain already produced, now formally.
+* Explain Cantor’s diagonal proof from a personal angle.
+* *_Tell the story of Hilbert’s program and Gödel’s bomb._*
+
+'''
+> We not have Symbolic Mathematics -- the real math!
+
+'''
+
+== Computation and Mind (1930 -- Present)
+
+>  What is computable? What is meaning? What is mind?
+
+* **{turing}**{turing-biography-fn} -- Computability and logic; the birth of the machine mind{turing-fn}.
+* **{church}**{church-biography-fn} -- Lambda calculus; abstraction and functional reasoning{church-fn}.
+* **{von-neumann}**{von-neumann-biography-fn} -- Stored-program computing; architecture of modern machines{von-neumann-fn}.
+* **{kolmogorov}**{kolmogorov-biography-fn} -- Complexity and randomness; measuring information in nature{kolmogorov-fn}.
+* **{chaitin}**{chaitin-biography-fn} -- Algorithmic information theory; the limits of compressibility{chaitin-fn}.
+
+{nbsp}
+
+Fun learning discovery assignments::
+* Build a Turing machine emulator and simulate basic programs.
+* Model a recursive function in lambda calculus.
+* Explore how Kolmogorov complexity relates to data compression.
+
+{nbsp}
+
+Notes from the mentor (DaiDai `rdd13r`)::
+* What’s the difference between computability and intelligence?
+* Can a machine reason about itself?
+* Where do you think consciousness fits into this arc?
+
+
+'''
+> We now have the Living Mathematics!
+
+'''
+
+== Next Fundamental Construct: Reasoning about Reasoning
+
+>  When symbols can act on symbols, thought becomes architecture.
+
+* This is the threshold between computation and meaning-making.
+* We will venture into systems that reason *about* reasoning.
+* What happens when the system knows it’s a system?
+
+{nbsp}
+
+Coming Next Semester::
+
+* **The Mathematics of Complexity** – emergence, attractors, chaos, and the hidden order in the wild.
+* **Category Theory** – the grammar of structure; functors, morphisms, and monads as thought tools.
+* **Phenomenology and Existential Inquiry** – how human consciousness reflects into our models.
+* **Symbolics and Rewriting Systems** – manipulating meaning as a craft.
+* **Constructive Mathematics and Intuitionism** – truth as a process, not a verdict.
+* **AI as a Mirror** – what our models reveal about the modeler.
+
+{nbsp}
+
+Notes from the mentor (DaiDai `rdd13r`)::
+* At this level, math is no longer "about" numbers -- it becomes a language for _possibility_.
+* Expect to meet rebels, mystics, hackers, and warrior-scientists.
+* You will not be *taught* this tier -- you must begin to shape it yourself.
+
+'''
+> Finally, at Symbolic Reasoning -- begin crafting the tools that craft the mind.
+
+'''
+_Thereafter deeper dive, omitting for now:_
+
+* **Recursion & Self-Reference**
+- Systems that reflect and build on themselves
+- *Expansion on*: Gödel, λ-calculus, Y-combinator
+* **Emergence & Generativity**
+- Simple rules giving rise to surprising patterns
+- *Expansion on*: cellular automata, fractals, chaos
+* **Duality & Symmetry**
+- Opposites and mirrors to shape deeper structure
+- *Expansion on*: linear duals, category duals, group theory
+
+*_This journey repeats annually, but with a new set of topics to acquire solidity and depth._*

@@ -9,7 +9,7 @@ rdd13r
 :page-author_profile: true
 :page-excerpt: 2025 Academic Year Schedule
 :page-layout: single
-:page-permalink: /academic-year
+:page-permalink: /academic-year/
 :page-classes: wide
 :sectnums:
 :sectanchors:
@@ -50,3 +50,70 @@ Schedule Iteration 2.0.7 complete on #Week #28# of 2025.
 ** STEM: LeetCode - {leetcode-programming-skills}[Programming Skills - Basic Implementation] section.
 ** Science: Introduction to Analysis, prelude to Newtonian Mechanics.
 ** Humanities: Matrix Trilogy.
+
+
+#We're here: pending the rest of the year copied from notes.#
+
+
+== Governing Dynamics of Structured Thought
+
+> Captain, these are the deep structural forces that shape mathematics, computation, and symbolic minds. Some appeared in your journey. Others we'll meet later.
+
+[cols="1,2,2", options="header"]
+|===
+| Dynamic | What It Teaches | Representative Topics
+
+| Truth & Proof
+| Foundations of valid reasoning
+| Frege, Hilbert, Gödel
+
+| Computation & Constructibility
+| What can be calculated and how
+| Turing, Church, Tarski
+
+| Structure & Relation
+| Abstract objects and their interactions
+| Set theory, algebra, category theory
+
+| Infinity & Continuum
+| Different sizes and kinds of infinity
+| Cantor, Dedekind
+
+| Information & Compression
+| Meaning and minimal description
+| Shannon, Kolmogorov, Chaitin
+
+| Uncertainty & Belief
+| Reasoning under doubt
+| Bayes, Laplace, Turing (crypto)
+
+| Language & Reference
+| How symbols connect to meaning
+| Frege, Russell, type theory
+
+| Limits of Systems
+| Boundaries of provability and computability
+| Gödel, Turing, Rice’s Theorem
+
+| Measurement & Modeling
+| Mapping math onto the physical world
+| Galileo, Maxwell, physics arc
+
+| Recursion & Self-Reference
+| Systems that refer to themselves
+| Gödel, λ-calculus, fixed points
+
+| Emergence & Generativity
+| Simple rules → complex behavior
+| Cellular automata, fractals, chaos
+
+| Duality & Symmetry
+| Inverses, mirrors, and balance
+| Linear duals, group theory, Noether
+|===
+
+[NOTE]
+====
+The first 8 dynamics are covered in the current journey or in parallel arcs (physics, logic, etc.).
+The final 3 (recursion, emergence, duality) are *optional deeper arcs* you may revisit in future years.
+====

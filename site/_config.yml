@@ -101,12 +101,15 @@ author:
     - label                 : "Academic Year"
       icon                  : "fab fa-fw fa-graduation-cap"
       url                   : /sindri-labs/academic-year/
+    - label                 : "Philosophy"
+      icon                  : "fas fa-fw fa-lightbulb"
+      url                   : /sindri-labs/philosophy/
     - label                 : "Mathematics"
       icon                  : "fas fa-fw fa-calculator"
       url                   : /sindri-labs/mathematics/
-    - label                 : "Philosophy"
-      icon                  : "fas fa-fw fa-mind-share"
-      url                   : /sindri-labs/philosophy/
+    - label                 : "Science"
+      icon                  : "fas fa-fw fa-flask"
+      url                   : /sindri-labs/science/
     - label                 : "My Organization"
       icon                  : "fab fa-fw fa-school"
       url                   : "https://github.com/Gervi-Hera-Vitr"
