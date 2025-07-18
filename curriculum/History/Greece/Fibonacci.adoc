@@ -1,0 +1,11 @@
+= Fibonacci
+
+== Summary
+*Leonardo Bonacci* (c. 1170 – c. 1240–50), commonly known as Fibonacci, was an Italian mathematician from the Republic of Pisa, considered to be "the most talented Western mathematician of the Middle Ages."
+
+The name he is commonly called, Fibonacci, is first found in a modern source in a 1838 text by the Franco-Italian mathematician Guglielmo Libri and is short for filius Bonacci ('son of Bonacci'). However, even as early as 1506, Perizolo, a notary of the Holy Roman Empire, mentions him as "Lionardo Fibonacci."
+
+Fibonacci popularized the Indo–Arabic numeral system in the Western world primarily through his composition in 1202 of Liber Abaci (Book of Calculation) and also introduced Europe to the sequence of Fibonacci numbers, which he used as an example in Liber Abaci.
+== An Autographical Review
+
+== Discoveries/Achievements

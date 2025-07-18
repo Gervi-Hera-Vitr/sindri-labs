@@ -2,7 +2,7 @@
 
 Euclid Of Alexandria was an ancient Greek mathematician active as a geometer and logician  Considered the "father of geometry", he is chiefly known for the Elements treatise, which established the foundations of geometry that largely dominated the field until the early 19th century. His system, now referred to as Euclidean geometry, involved innovations in combination with a synthesis of theories from earlier Greek mathematicians, including Eudoxus of Cnidus, Hippocrates of Chios, Thales and Theaetetus. With Archimedes and Apollonius of Perga, Euclid is generally considered among the greatest mathematicians of antiquity, and one of the most influential in the history of mathematics.
 
-== Biographic review
+== An Autographical Review
 Very little is known of Euclid's life, and most information comes from the scholars Proclus and Pappus of Alexandria many centuries later. Medieval Islamic mathematicians invented a fanciful biography, and medieval Byzantine and early Renaissance scholars mistook him for the earlier philosopher Euclid of Megara. It is now generally accepted that he spent his career in Alexandria and lived around 300 BC, after Plato's students and before Archimedes. There is some speculation that Euclid studied at the Platonic Academy and later taught at the Musaeum; he is regarded as bridging the earlier Platonic tradition in Athens with the later tradition of Alexandria.
 
 He is credited with authoring four treatises: Elements, Optics, Data, and Phaenomena. Most of the traditional narrative about him comes from Proclus' 5th-century AD Commentary on the First Book of Euclid's Elements and some anecdotes from Pappus of Alexandria in the early 4th century.

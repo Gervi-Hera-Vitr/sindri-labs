@@ -1,0 +1,67 @@
+= Al-Khwarizmi
+
+== Summary
+Muḥammad ibn Mūsā al-Khwārizmī
+
+Details::
+
+- Born: c. 780
+- Died: c. 850
+- Occupation: House of Wisdom in Baghdad (appointed c. 820)
+- Era: Islamic Golden Age
+- Main interests: Mathematics, Astronomy, Geography
+
+Muhammad ibn Musa al-Khwarizmi (c. 780 – c. 850), or simply al-Khwarizmi, was a mathematician active during the Islamic Golden Age. He produced Arabic-language works in mathematics, astronomy, and geography. Around 820, he worked at the House of Wisdom in Baghdad, the contemporary capital city of the Abbasid Caliphate. One of the most prominent scholars of the period, his works were widely influential on later authors, both in the Islamic world and Europe.
+
+His popularizing treatise on algebra, compiled between 813 and 833 as Al-Jabr (The Compendious Book on Calculation by Completion and Balancing), presented the first systematic solution of linear and quadratic equations. One of his achievements in algebra was his demonstration of how to solve quadratic equations by completing the square, for which he provided geometric justifications. Because al-Khwarizmi was the first person to treat algebra as an independent discipline and introduced the methods of "reduction" and "balancing" (the transposition of subtracted terms to the other side of an equation, that is, the cancellation of like terms on opposite sides of the equation), he has been described as the father or founder of algebra. The English term "algebra" comes from the short-hand title of his aforementioned treatise (الجبر Al-Jabr, translating to "completion" or "rejoining"). His name gave rise to the English terms "algorism" and "algorithm"; the Spanish, Italian, and Portuguese terms "algoritmo"; and the Spanish term "guarismo" and Portuguese term "algarismo," all meaning 'digit'.
+
+== An Autographical Review
+Life of Al-Khwarizmi
+Few definite details are known about al-Khwarizmi's life. He is generally believed to have been born in Khwarazm, a region that was part of Greater Iran and is now located in Turkmenistan and Uzbekistan. He was of Persian descent; his name itself means "from Khwarazm."
+
+Some historical accounts, like that from al-Tabari, refer to him with an epithet that might suggest he was from Qutrubbul, near Baghdad. However, this is disputed by some scholars who believe it might be a textual error. Another epithet used by al-Tabari, "al-Majūsī," could suggest his family, or he in his youth, might have been Zoroastrian. However, his writings, such as the preface to his Algebra, indicate he was an orthodox Muslim.
+
+Al-Khwarizmi performed most of his significant work between 813 and 833 CE. After the Muslim conquest of Persia, Baghdad became a hub for scientific studies and trade. Around 820 CE, he was appointed as an astronomer and the head of the library of the House of Wisdom in Baghdad, which was established by the Abbasid Caliph al-Ma'mūn. At the House of Wisdom, he studied sciences and mathematics, including translating Greek and Sanskrit scientific manuscripts. He was also a historian and is cited by prominent figures like al-Tabari and Ibn Abi Tahir.
+
+It is also mentioned that during the reign of al-Wathiq, he might have been part of the first of two diplomatic missions to the Khazars. Some theories suggest he might be the same individual as Muḥammad ibn Mūsā ibn Shākir, the eldest of the Banū Mūsā brothers, but this is not definitively confirmed.
+
+== Discoveries/Achievements
+
+Al-Khwarizmi's Contributions
+Al-Khwarizmi's work in mathematics, geography, astronomy, and cartography laid the groundwork for significant advancements in these fields.
+
+=== Mathematics:
+
+Algebra: His most famous contribution is Al-Jabr (The Compendious Book on Calculation by Completion and Balancing), written around 820 CE. This book introduced a systematic way to solve linear and quadratic equations. The English word "algebra" comes directly from the title of this work. He showed how to solve equations by "reduction" and "balancing," which involve moving terms to different sides of an equation to simplify it.
+
+Hindu-Arabic Numerals and Algorithms: His book, On the Calculation with Hindu Numerals (c. 820 CE), was crucial in spreading the decimal-based Hindu-Arabic numeral system throughout the Middle East and Europe. When this work was translated into Latin in the 12th century as Algoritmi de numero Indorum, it introduced the term "algorithm" to the Western world. This method of calculation gradually replaced the use of the abacus in Europe.
+
+Solving Equations: He outlined methods to reduce linear and quadratic equations to one of six standard forms, using operations he called al-jabr (restoring negative terms) and al-muqābala (balancing similar terms on both sides). While modern notation wasn't available then, he explained these processes clearly through text and examples.
+
+=== Astronomy:
+
+His work Zīj as-Sindhind (Astronomical Tables of Siddhanta, c. 820 CE) was a comprehensive set of tables and calculations based on Indian astronomical methods. It included data for the movements of the Sun, Moon, and the five known planets, marking a turning point in Islamic astronomy.
+
+This work also contained tables for trigonometric functions like sine and cosine.
+
+=== Geography and Cartography:
+
+His third major work is Kitāb Ṣūrat al-Arḍ ("Book of the Description of the Earth"), completed in 833 CE. This was a significant revision of Ptolemy's 2nd-century Geography, providing improved coordinates for cities and features, especially for the Mediterranean Sea, Asia, and Africa.
+
+He is also known to have assisted in a project to determine the Earth's circumference and create a world map for Caliph al-Ma'mun, overseeing 70 geographers.
+
+Al-Khwarizmi corrected Ptolemy's overestimation of the Mediterranean Sea's length and depicted the Atlantic and Indian Oceans as open bodies of water.
+
+=== Other Works:
+
+He wrote on mechanical devices such as the astrolabe and sundial.
+
+He composed a treatise on the Hebrew calendar, detailing cycles and rules for calculating dates and celestial positions.
+
+Historical records mention a book of annals, Kitāb al-Taʾrīkh, though no direct manuscript survives.
+
+He also wrote on topics such as determining the direction of Mecca and spherical astronomy.
+
+In the 12th century, Latin translations of al-Khwarizmi's textbook on Indian arithmetic (Algorithmo de Numero Indorum), which codified the various Indian numerals, introduced the decimal-based positional number system to the Western world. Likewise, Al-Jabr, translated into Latin by the English scholar Robert of Chester in 1145, was used until the 16th century as the principal mathematical textbook of European universities.
+
+Al-Khwarizmi revised Geography, the 2nd-century Greek-language treatise by Ptolemy, listing the longitudes and latitudes of cities and localities. He further produced a set of astronomical tables and wrote about calendric works, as well as the astrolabe and the sundial. Al-Khwarizmi made important contributions to trigonometry, producing accurate sine and cosine tables.
