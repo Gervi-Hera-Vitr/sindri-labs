@@ -54,13 +54,13 @@ Al-Khwarizmi corrected Ptolemy's overestimation of the Mediterranean Sea's lengt
 
 === Other Works:
 
-He wrote on mechanical devices such as the astrolabe and sundial.
+- He wrote on mechanical devices such as the astrolabe and sundial.
 
-He composed a treatise on the Hebrew calendar, detailing cycles and rules for calculating dates and celestial positions.
+- He composed a treatise on the Hebrew calendar, detailing cycles and rules for calculating dates and celestial positions.
 
-Historical records mention a book of annals, Kitāb al-Taʾrīkh, though no direct manuscript survives.
+- Historical records mention a book of annals, Kitāb al-Taʾrīkh, though no direct manuscript survives.
 
-He also wrote on topics such as determining the direction of Mecca and spherical astronomy.
+- He also wrote on topics such as determining the direction of Mecca and spherical astronomy.
 
 In the 12th century, Latin translations of al-Khwarizmi's textbook on Indian arithmetic (Algorithmo de Numero Indorum), which codified the various Indian numerals, introduced the decimal-based positional number system to the Western world. Likewise, Al-Jabr, translated into Latin by the English scholar Robert of Chester in 1145, was used until the 16th century as the principal mathematical textbook of European universities.
 

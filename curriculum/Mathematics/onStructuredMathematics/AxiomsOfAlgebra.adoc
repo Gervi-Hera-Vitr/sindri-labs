@@ -1,0 +1,85 @@
+= 11 Axioms of Algebra
+
+== 1. Closure of Addition
+Property:
+- If 𝑎 , 𝑏 ∈ 𝑅 a,b ∈ R, then 𝑎 + 𝑏 ∈ 𝑅 a + b ∈ R
+Al-Khwarizmi: Used this when combining terms and solving equations, assuming that the sum of two known numbers or quantities results in a valid number.
+
+- Fibonacci: Applied it in commercial arithmetic when adding different quantities or values, with the expectation that the total would be a meaningful quantity.
+
+- Omar Khayyam: Used it in the composition of lengths and areas in his geometric approach to algebra, where the sum of two magnitudes resulted in a valid magnitude.
+
+== 2. Closure of Multiplication
+Property:If 𝑎 , 𝑏 ∈ 𝑅 a,b∈R, then 𝑎 × 𝑏 ∈ 𝑅 a×b∈R
+
+- Al-Khwarizmi: Applied this consistently in his algorithmic solutions to equations, where multiplying quantities yielded a meaningful product.
+
+- Fibonacci: Demonstrated this in Liber Abaci when multiplying quantities for trade, assuming the product was a valid numerical result.
+
+- Omar Khayyam: Used it in geometric interpretations of polynomial products, where the product of lengths resulted in areas or volumes.
+
+== 3. Commutative Property of Addition
+Property:𝑎+ 𝑏 = 𝑏+ 𝑎 a+b=b+a
+
+- Al-Khwarizmi: Rearranged terms during simplification, implying that the order of addition does not affect the sum.
+
+- Fibonacci: Used it in business problem-solving, understanding that the order in which items were added did not change the total.
+
+- Omar Khayyam: While primarily using geometry, he assumed additive symmetry in his constructions.
+
+== 4. Commutative Property of Multiplication
+Property:𝑎 × 𝑏 = b × 𝑎 a×b=b×a
+- Al-Khwarizmi: Likely took this for granted in his calculations.
+
+- Fibonacci: Used it in practical mercantile problems, recognizing that the order of multiplication did not affect the final product (e.g., in calculating total cost).
+
+- Omar Khayyam: Relied on it in area-based interpretations, where the area of a rectangle is the same regardless of which side is considered length or width.
+
+== 5. Associative Property of Addition
+Property:( 𝑎+ 𝑏 )+ 𝑐 = 𝑎+( 𝑏+𝑐 ) (a+b)+c=a+(b+c)
+
+- All three: While none explicitly stated this axiom, they worked with longer expressions assuming that the grouping of numbers in a sum does not change the total.
+
+== 6. Associative Property of Multiplication
+Property:( 𝑎 × b ) × 𝑐 = 𝑎 × ( 𝑏 × 𝑐 ) (a×b)×c=a×(b×c)
+- All three: Similar to addition, this property was applied but not formalized. Fibonacci’s multiplication tables suggest assumed associativity, and Khayyam’s geometric constructions implicitly used it.
+
+== 7. Additive Identity (0)
+Property:𝑎+ 0 = 𝑎 a+0=a
+- Al-Khwarizmi: Although the concept of zero was introduced to the Islamic world before him, he used it functionally in his algebraic equations for balancing and simplification.
+
+- Fibonacci: Helped spread the use of zero in Europe through Liber Abaci, which was crucial for positional notation and calculations involving sums where zero had an identity role.
+
+- Omar Khayyam: Likely assumed it, though his focus was often on positive roots and geometric magnitudes.
+== 8. Multiplicative Identity (1)
+Property:𝑎 × 1 = 𝑎 a×1=a
+- All three: Used this implicitly, especially when simplifying expressions or performing calculations where multiplying by one did not change the value.
+
+- Al-Khwarizmi: Applied it in equation simplification.
+
+- Fibonacci: Used it in practical computation tables.
+
+== 9. Additive Inverse (−a)
+Property:𝑎+ ( − a ) = 0 a+(−a)=0
+
+- Al-Khwarizmi and Fibonacci: In practice, they primarily worked with positive numbers, but their methods (like "restoration" in Al-Khwarizmi's algebra) functionally involved the idea of canceling out quantities, which is a conceptual precursor to the additive inverse.
+
+- Omar Khayyam: With his geometric roots, he rarely directly addressed negative values, but understood that quantities could be reduced to zero, implying a concept of 'removal' that relates to inverse operations.
+
+== 10. Multiplicative Inverse (1/a, a ≠ 0)
+Property:𝑎 × 1 𝑎 = 1 a× a 1 ​ =1
+
+- Fibonacci: Used reciprocals extensively in Liber Abaci for commercial calculations, such as trade and currency conversion problems.
+
+- Al-Khwarizmi: Rarely used reciprocals explicitly but implied them through balancing equations, where division (the inverse of multiplication) was performed.
+
+- Omar Khayyam: Dealt with proportions in geometry, which inherently involves the concept of inverses.
+
+== 11. Distributive Property
+Property: a×(b+c)=a×b+a×c
+
+- Al-Khwarizmi: Used this directly in the algebraic expansion of expressions when solving equations.
+
+- Fibonacci: Used it when breaking down multiplication in word problems, showing how a total product could be found by summing partial products.
+
+- Omar Khayyam: His geometric constructions preserved this property through area decomposition (e.g., the area of a rectangle with sides a and (b+c) is the sum of two rectangles with areas a×b and a×c).
