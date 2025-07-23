@@ -4,7 +4,7 @@ header:
   overlay_image: assets/images/banner-philosophy.jpg
   overlay_filter: 0.2
 ---
-= Mímis Academy: Philosophy
+= Applied Stoicism Through Scientific Method
 rdd13r
 :page-author_profile: true
 :page-excerpt: Reliving reason with the people of it.
@@ -28,11 +28,221 @@ rdd13r
 ifdef::env-name[:relfilesuffix: .adoc]
 :philosophers: link:/sindri-labs/philosophers/[Foundations Philosophers,window=_blank]
 
-[#philosophers]
-image::philosophers.png[Philosophers,float="right",align="center"]
 
-{nbsp}
+*Mímir Academy - Advanced Independent Study* _over school break_ +
+*Student*: Lugaru (Captain) +
+*Instructor*: Vadim (rdd13r) +
+*Academic Period*: Fall 2025
 
-See _{philosophers}_.
+'''
 
-ToDo: Pending inscribed curriculum.
+== Course Overview
+
+_"We're not going to gobble up 'Ancient Wisdom' with teary eyes, like the sheeple do on stoicism channels today. We will understand. Reason. Prove. Disprove. And accept only that which is sound."_
+
+This advanced philosophy course applies Aristotelian scientific method to Stoic philosophy, treating ancient wisdom as testable propositions rather than dogmatic principles. Students learn to distinguish between foundational axioms and derived theorems, then systematically evaluate each through empirical observation and logical analysis.
+
+=== Prerequisites Completed
+
+* *Foundations of Formal Logic* (Aristotelian method);
+* *History of Philosophy*: Pre-Socratics through Roman Stoics;
+* *Mathematical Proof Theory* (Euclidean axiomatic systems);
+* *Scientific Method Application* (hypothesis testing);
+* *Symbolic Logic and Reason* (Gödel's symbolic mapping).
+
+== Learning Objectives
+
+*Upon completion, students will be able to:*
+
+. *Distinguish* between philosophical axioms and derived theorems (domain mapping).
+. *Apply* scientific methodology to evaluate philosophical claims (formal proofs).
+. *Construct* logical arguments for accepting or rejecting philosophical principles.
+. *Synthesize* personal philosophical frameworks based on evidence and reason.
+. *Critique* popular interpretations of ancient philosophy using rigorous analysis.
+
+== Course Structure
+
+=== Phase I: Foundational Analysis (Week 1)
+
+*Assignment*: Systematic categorization of Stoic principles:
+
+- Identify the four core axioms of Stoicism;
+- Catalog commonly cited "theorems" and practices;
+- Establish logical relationships between principles.
+
+*Deliverable*: "Axioms &amp; Theorems of Stoicism" - systematic framework.
+
+=== Phase II: Empirical Testing (Week 2)
+
+*Assignment*: Scientific evaluation of selected theorems:
+
+- Design experiments to test philosophical claims;
+- Collect observational data on personal practice;
+- Apply logical analysis to determine validity.
+
+*Current Focus*: Evaluation of four challenged theorems:
+
+- [line-through]#Waking Up Early# (DISPROVEN)
+- [line-through]#Treat the Body Rigorously# (DISPROVEN)
+- [line-through]#Voluntary Discomfort# (DISPROVEN)
+- [line-through]#Procrastination# (UNDER ANALYSIS)
+
+=== Phase III: Synthesis &amp; Reconstruction (Week 3-4)
+
+*Assignment*: Construct refined philosophical framework:
+
+- Eliminate disproven elements (leave annotated in appendix);
+- Reorganize remaining principles in *logical order*;
+- Develop personal Stoic philosophy based on evidence.
+
+== Assessment Criteria
+
+=== Academic Rigor (40%)
+
+* *Logical consistency* in argumentation (may use inductive logic);
+* *Evidence quality* supporting conclusions;
+* *Methodological soundness* in testing approach (may use symbolism);
+* *Clear distinction* between axioms and theorems (formalize domain).
+
+=== Critical Thinking (35%)
+
+* *Independent analysis* rather than acceptance of authority;
+* *Sophisticated reasoning* about complex philosophical issues;
+* *Ability to challenge* popular interpretations;
+* *Original insights* into philosophical problems.
+
+=== Communication (25%)
+
+* *Clear expression* of complex ideas (formally and informally);
+* *Proper academic formatting* and documentation (asciidoc);
+* *Structured presentation* of arguments (induction, deduction, symbolism);
+* *Effective use* of philosophical terminology (stay clean and expressive).
+
+== Current Academic Standing
+
+_This is a continuous and iterative developmental work!_
+We don't do subjects like state schools -- see school methodology.
+
+*Strengths Already Demonstrated*:
+
+- Excellent grasp of core Stoic concepts;
+- Clear systematic organization;
+- Recognition that practices ≠ principles;
+- Beginning of independent critical analysis.
+
+*Areas for Next Dialectic with Mentor*:
+
+- Distinguish between logical theorems vs. recommended practices;
+- Develop more rigorous proof/disproof methodology for evaluating claims;
+- Refine categorization of philosophical claims.
+
+=== Work in Progress: Theorem Evaluation
+
+*Successfully Challenged* (Demonstrating Critical Thinking):
+
+. *"Waking Up Early"*
+-- Disproven through recognition that Marcus Aurelius struggled with early rising yet remained exemplary Stoic.
+*_Virtue lies in wise use of time, not specific hours_*.
+
+. *"Treat the Body Rigorously"*
+-- Disproven as potentially contrary to Stoic principle of treating health as "indifferent."
+Excessive focus on physical cultivation can become attachment.
+
+. *"Voluntary Discomfort"*
+-- Disproven as artificial creation of suffering contrary to Stoic acceptance of natural conditions.
+True Stoicism *accepts what comes* rather than manufacturing hardship.
+
+. *"Procrastination"*
+-- Under analysis. Student recognizing need to separate harmful delay from prudent deliberation and natural timing.
+Additional thinking time is required to properly discover actual theorems here, if any.
+
+== Philosophical Lineage Context
+
+*This course grounds Stoicism within the full tradition of Western philosophy:*
+
+See relevant philosophers: {philosophers}.
+
+=== Pre-Socratic Foundations
+
+* *Heraclitus*: _Logos_ and acceptance of change.
+* *Democritus*: Atomic materialism influencing Stoic physics.
+
+=== Classical Development
+
+* *Socrates*: Virtue ethics and examined life.
+* *Aristotle*: Logical approach and Scientific Method.
+
+=== Stoic Evolution
+
+* *Zeno of Citium*: Foundational principles -- student will have relived and understood.
+* *Chrysippus*: Logical systematization -- student will have understood and critiqued.
+* *Epictetus*: Practical application -- life-long examination for each human being.
+* *Marcus Aurelius*: Imperial synthesis -- student builds formal model instead.
+
+=== Modern Application
+
+* *Scientific Method*: Empirical testing of philosophical claims.
+* *Cognitive Behavioral Therapy*: Psychological validation of Stoic practices.
+* *Critical Philosophy*: *_Questioning rather than accepting authority_*.
+
+== Assessment Philosophy
+
+_"In the beginning of our lives we are completely dependent on others.
+We need and expect that which we ourselves cannot or will not give to others.
+That is the nature of 'Childhood'.
+Growing into adulthood changes EVERYTHING."_
+
+This course treats the student as an emerging adult philosopher capable of independent reasoning rather than a passive recipient of ancient wisdom.
+Success is measured NOT by memorization of classical texts, but by _**demonstrated** ability to *think* critically_ about fundamental questions of human existence.
+
+*The goal is not to create a "Stoic" but to develop a philosopher who can:*
+
+- Think independently about ethical questions.
+- Apply rigorous methodology to evaluate truth claims.
+- Construct personal philosophy based on evidence and reason.
+- _Distinguish between useful principles and cultural artifacts._
+
+== Resources &amp; References
+
+=== Primary Sources
+
+* *Epictetus*, _Discourses and Enchiridion_ <- your most important reading;
+* Marcus Aurelius, _Meditations_ <- your scientific rigor applied here;
+* Seneca, _Letters from a Stoic_ <- your exploratory thinking applied here.
+
+=== Secondary and Extended Analysis
+
+* Hadot, Pierre, _Philosophy as a Way of Life_.
+* Robertson, Donald, _How to Think Like a Roman Emperor_.
+* Pigliucci, Massimo, _How to Be a Stoic_
+
+=== Methodological Framework
+
+* Aristotle, _Posterior Analytics_ (scientific method).
+* Euclid, _Elements_ (axiomatic reasoning).
+* Popper, Karl, _The Logic of Scientific Discovery_ (falsifiability).
+
+== Next Steps
+
+*Immediate Priority*: Complete analysis of "Procrastination" theorem by distinguishing:
+
+. *Harmful Procrastination*: Avoiding necessary action due to fear/laziness
+. *Prudent Deliberation*: Waiting for proper timing or additional information
+. *Stoic Acceptance*: Aligning action with natural order rather than forcing timing
+
+*Week 3-4*: Learning Objectives:
+
+- Synthesize remaining valid principles into coherent framework;
+- Establish proper logical ordering of accepted theorems;
+- Document personal philosophical development through course.
+
+*Assessment Timeline*:
+
+- *Week 5*: Final theorem evaluations working session.
+- *Week 6*: Complete philosophical synthesis.
+- *Remainder of Life*: Refinement of Personal Ethics Domain.
+
+_This course represents advanced philosophical education treating ancient wisdom as living tradition to be critically examined rather than dogmatically accepted.
+The student's willingness to challenge popular interpretations and think independently demonstrates exceptional intellectual maturity and genuine philosophical aptitude.
+Methods discovered and learned here are expected to begin shaping the foundations of person's adult life._
+
