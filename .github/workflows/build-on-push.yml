@@ -36,7 +36,7 @@ jobs:
 
       - name: Full Checkout
         id: checkout
-        uses: actions/checkout@v4.3.0
+        uses: actions/checkout@v5.0.0
         timeout-minutes: 1
         with:
           fetch-depth: 0
