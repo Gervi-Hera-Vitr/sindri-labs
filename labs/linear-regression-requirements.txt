@@ -1,5 +1,5 @@
 catboost~=1.2.5
-imbalanced-learn~=0.13.0
+imbalanced-learn~=0.14.0
 imblearn~=0.0
 kagglehub~=0.3.8
 keras~=3.11.0
