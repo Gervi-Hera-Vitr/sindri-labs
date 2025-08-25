@@ -1,4 +1,4 @@
-= History: Stoics Of Greece
+[.line-through]#= History: Stoics Of Greece#
 Cpt. Lugaru (CaptainLugaru) <72951616+CaptainLugaru@users.noreply.github.com>
 v1.0, Monday, May 19, 2025
 :description: Exploratory research into the history of Stoics
