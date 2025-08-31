@@ -18,26 +18,142 @@ v1.0, Tuesday May 6th 2025
 :imagesdir: ./assets/img
 ifdef::env-name[:relfilesuffix: .adoc]
 
+== The Biological Advantage
 
+This 11pm-8am sleep schedule aligns perfectly with your natural teenage circadian rhythm. Your melatonin naturally starts releasing around 10:30-11pm and cortisol peaks around 8-9am. Working WITH this rhythm instead of against it means better sleep quality, improved cognitive performance, enhanced muscle recovery, and optimal hormone production for growth and development.
 
-== Morning Routine
-* 6:00 - 7:00 :: Wake up, brush teeth, tidy room, set goals for the day, eat breakfast.
+== Core Schedule Structure
 
-== Study Blocks (90/20 Rule)
-* 7:00 - 8:50 :: Subject 1
-*Break: 20 minutes*
-* 8:50 - 10:40 :: Subject 2
-*Break: 20 minutes*
-* 10:40 - 12:30 :: Subject 1
-*Break: 20 minutes*
-* 12:30 - 2:20 :: Subject 2
-*Break: 20 minutes*
-* 2:20 - 4:10 :: Subject 1
-*Break: 20 minutes*
-* 4:10 - 5:40 :: Subject 2
-*End of school day*
+=== 8:00 AM - Natural Wake
+Wake naturally with your cortisol rise. Open curtains immediately for natural light. Drink 16-20oz water. No need for aggressive light therapy - your body is waking when it wants to.
 
-== Evening Routine
-* 5:40 - 7:00 :: Workout
-* 7:00 - 8:00 :: Dinner / Free time
-* 8:00 - 9:00 :: Wind down and sleep preparation
+=== 8:15 AM - Pre-Study Fuel
+Light breakfast: Greek yogurt with berries, or oatmeal with nuts. Keep it moderate since you'll train after your first study block.
+
+=== 8:30 AM - Deep Work Session 1
+**90 minutes** of your hardest subject. Your cognitive performance is rising naturally and will peak around 10am. This is prime time for mathematics, physics, or complex problem-solving.
+
+=== 10:00 AM - Pre-Workout Prep
+Quick snack (banana or dates), change clothes, hydrate, mental preparation.
+
+=== 10:10 AM - Workout
+- 10 min running warm-up
+- 5 min dynamic stretching
+- 45 min strength training
+- Total: 60 minutes
+
+Your testosterone peaks mid-morning. Perfect timing for maximum strength gains.
+
+=== 11:10 AM - Post-Workout Recovery
+**Critical window:** Protein shake or chocolate milk immediately. Cool shower. Static stretching.
+
+=== 11:30 AM - Recovery Meal
+Substantial meal: 3 eggs, whole grain toast, avocado, mixed fruit. This fuels your afternoon cognitive work.
+
+=== 12:00 PM - Outdoor Walk
+20-minute recovery walk. Gets you outside, aids digestion, resets attention for afternoon work.
+
+=== 12:20 PM - Deep Work Session 2
+**90 minutes** of focused study. Your secondary cognitive peak hits around 2-3pm. Great for language arts, writing, or creative subjects.
+
+=== 1:50 PM - Movement Break
+20-minute outdoor walk. Critical for maintaining afternoon focus.
+
+=== 2:10 PM - Deep Work Session 3
+**90 minutes** leveraging your afternoon cognitive peak. History, sciences, or project work.
+
+=== 3:40 PM - Lunch
+Main meal of the day. Lean protein (6-8oz), complex carbs, vegetables, healthy fats. This timing prevents evening energy crashes.
+
+=== 4:20 PM - Review Session
+40 minutes reviewing morning material. The 6-hour gap optimizes retention through spaced repetition.
+
+=== 5:00 PM - Deep Work Session 4 (Optional/Lighter)
+**90 minutes** for less demanding work: coding, languages, music, or hands-on projects. Skip if mentally fatigued.
+
+=== 6:30 PM - Life Skills/Free Time
+Household tasks, hobbies, social time. Stay moderately active but avoid intense exercise.
+
+=== 7:30 PM - Dinner
+Balanced but lighter than lunch. Include tryptophan-rich foods (turkey, cheese, nuts) to support later melatonin production.
+
+=== 8:00 PM - Evening Activities
+Reading, music, games, creative projects. Screens are still OK for now - you have 2 hours before they matter.
+
+=== 9:00 PM - Screen Curfew
+**All screens off.** Switch to warm lighting only. This gives you 2 hours for natural melatonin production.
+
+== 9:30 PM - Wind-Down Routine
+- Warm shower (the cooling after helps trigger sleep)
+- Prep tomorrow's clothes and materials
+- Light stretching or breathing exercises
+- Journal or read physical books
+
+=== 10:30 PM - Final Prep
+- Room temp to 65-67°F
+- Complete darkness setup
+- Final bathroom visit
+- Phone in another room
+
+=== 11:00 PM - Lights Out
+You'll fall asleep naturally within 15-20 minutes since this aligns with your biological sleep pressure.
+
+== Key Optimization Points
+
+=== Why This Schedule Works
+
+1. **Circadian Alignment**: Your melatonin naturally releases around 10:30pm, making 11pm sleep effortless
+2. **Cognitive Peaks**: Study sessions hit your natural alertness waves (10am, 2pm)
+3. **Hormonal Optimization**: Morning workout catches peak testosterone for maximum gains
+4. **Recovery Built In**: 9 hours sleep supports growth hormone release and muscle recovery
+5. **Sustainable Pacing**: 5-6 hours total study time prevents burnout
+
+=== Non-Negotiables
+
+1. **9pm Screen Cutoff** - Even though you sleep at 11pm, 2 hours screen-free is minimum for melatonin production
+2. **Post-Workout Nutrition** - 30-minute window for protein/carbs is critical at your age
+3. **Outdoor Light Exposure** - Those two 20-minute walks anchor your circadian rhythm
+4. **Weekend Consistency** - Keep the 11pm-8am schedule even on weekends (1-hour variance maximum)
+
+=== Meal Timing Strategy
+
+- **8:15 AM**: Light pre-study fuel
+- **11:30 AM**: Post-workout recovery meal
+- **3:40 PM**: Main meal when metabolism peaks
+- **7:30 PM**: Lighter dinner supporting sleep
+
+=== Study Block Distribution
+
+- **Session 1 (8:30-10:00)**: Hardest cognitive work during morning peak
+- **Session 2 (12:20-1:50)**: Building toward afternoon peak
+- **Session 3 (2:10-3:40)**: Peak afternoon performance
+- **Session 4 (5:00-6:30)**: Optional lighter work
+- **Total**: 5-6 hours maximum with breaks
+
+=== Evening Optimization
+
+The 9-11pm window is crucial. No screens, dim warm lights only, relaxing activities. This isn't wasted time - it's active sleep preparation that improves sleep quality and next-day performance.
+
+=== Weekend Adjustments
+
+Maintain core sleep schedule but can swap study blocks for projects, skills development, or social activities. Keep the workout timing consistent for hormonal optimization.
+
+== Signs You're Aligned
+
+When this schedule is working:
+- Fall asleep within 20 minutes
+- Wake naturally around 8am without alarm
+- Sustained energy through study blocks
+- Progressive strength gains
+- Stable mood and motivation
+- Clear skin and good recovery
+
+== Red Flags to Watch
+
+- Taking >30 minutes to fall asleep → Review evening light exposure
+- Afternoon energy crashes → Check meal timing and composition
+- Declining workout performance → Ensure adequate protein and sleep
+- Mental fog during study → May need more breaks or fewer sessions
+- Sunday night insomnia → Weekend schedule drifted too much
+
+This schedule works WITH your biology, not against it. The 11pm-8am timing eliminates the biological stress of forced early sleep, meaning better hormones, recovery, cognitive performance, and overall development during these critical growth years.
