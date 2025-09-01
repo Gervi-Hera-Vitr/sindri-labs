@@ -1,0 +1,91 @@
+= Aristotle Of Stagira
+
+== Biography
+
+=== Synopsis
+
+Aristotle was an Ancient Greek philosopher and polymath who lived from 384 to 322 BC. His vast writings covered a wide range of subjects, including the natural sciences, philosophy, politics, and the arts. He is considered the founder of the Peripatetic school of philosophy and is credited with laying the groundwork for modern science.
+
+==== Life and Career
+Born in Stagira, northern Greece, Aristotle's father, Nicomachus, died when he was a child. At age eighteen, he joined Plato's Academy in Athens and remained there for nearly two decades. After Plato's death, Aristotle left Athens and, at the request of Philip II of Macedon, became the tutor of his son, Alexander the Great, starting in 343 BC. He later founded a library at the Lyceum in Athens, where he wrote many of his works.
+
+==== Influence and Legacy
+Although much of his work has been lost, the surviving writings have had a profound impact. Aristotle's views on physical science influenced medieval scholarship for centuries until the Enlightenment. He was highly revered by medieval Muslim scholars as "The First Teacher" and by medieval Christians like Thomas Aquinas as "The Philosopher." The poet Dante even called him "the master of those who know."
+
+Aristotle's works contain the earliest known systematic study of logic, which remained influential until the 19th century. His ethical philosophy has also seen a modern resurgence with the development of virtue ethics.
+
+=== Early Life
+
+Aristotle was born in 384 BC in Stagira, Greece. His father, Nicomachus, was the personal physician to the King of Macedon, and this likely sparked Aristotle's early interest in medicine and biology. After his parents died, he was raised by a guardian named Proxenus of Atarneus.
+
+At age 17, Aristotle moved to Athens to study at Plato's Academy, where he remained for about two decades. He was a distinguished student and earned the nickname "mind of the school" from Plato. After Plato's death, Aristotle left Athens and traveled to Assos in Asia Minor. While there, he conducted extensive research in botany and marine biology. During this time, he married Pythias, with whom he had a daughter, also named Pythias.
+
+=== Journeys
+In 343/42 BC, Aristotle was invited by Philip II of Macedon to become the tutor for his son, the 13-year-old Alexander the Great. Aristotle taught Alexander at a private school in Mieza, a royal estate near Pella. His curriculum likely included subjects like ethics, politics, and literature. During this time, Aristotle gifted Alexander an annotated copy of the Iliad, which became one of Alexander's most treasured possessions. Aristotle's time as Alexander's tutor lasted only a few years, as Alexander returned to Pella around age 16 to be a regent.
+
+After Philip II was assassinated, Aristotle returned to Athens and founded his own school, the Lyceum, in 335 BC. As he was a foreigner (metic), he could not own property and instead rented a building. The school was also known as the Peripatetic school, a name derived from the colonnades (peripatos) where Aristotle lectured. During the next 12 years, he conducted research and taught, amassing a large library with his students. This is the period when he is believed to have composed many of his most important works, including the treatises on Physics, Metaphysics, Nicomachean Ethics, and Politics.
+
+While in Athens, his wife Pythias died, and he became involved with a woman named Herpyllis, with whom he had a son, Nicomachus.
+
+=== Old Days and Death
+Although Alexander the Great greatly admired his teacher, Aristotle, they became estranged later in Alexander's life due to differing views on issues like politics and the treatment of conquered peoples.
+
+Following Alexander's death, anti-Macedonian sentiment rose in Athens, and Aristotle was accused of impiety. To avoid the same fate as Socrates, he fled to his mother's family estate in Chalcis, Euboea, reportedly saying, "I will not allow the Athenians to sin twice against philosophy."
+
+He died of natural causes later that same year, in 322 BC, and was buried next to his wife as he requested in his will. His works were left to his successor at the Lyceum, Theophrastus.
+
+== Philosophy
+
+=== Theoretical Philosophy
+==== Logic
+Aristotle is considered the father of logic, and his work, compiled into a set of six books called the Organon, was the dominant form of Western logic until the 19th century. He is credited with the first systematic study of the subject, particularly his work on the syllogism, a method of logical argument where a conclusion is inferred from two premises.
+
+
+=== Metaphysics
+Aristotle called metaphysics "first philosophy" or theology. He defined it as "the study of being qua being"—the study of things that are eternal, unchanging, and immaterial.
+
+
+=== Substance:
+Aristotle's theory of hylomorphism
+posits that every particular substance is a combination of both matter (the potential) and form (the actual). For example, a bronze statue is a composite of bronze (matter) and the shape (form) that makes it a statue.
+
+=== Universals:
+Unlike his teacher Plato, who believed in a separate realm of Forms, Aristotle argued that universals (like "redness" or "humanity") do not exist independently but are present within the particular things themselves.
+
+=== Potentiality and Actuality:
+He introduced the concepts of potentiality (dynamis) and actuality (entelecheia) to explain change. Potentiality is what a thing is capable of becoming, while actuality is the fulfillment of that potential. A seed has the potential to become a tree, and the tree itself is the actuality.
+
+=== Natural Philosophy
+==== Physics
+Aristotle's physics was based on the four classical elements: earth, water, air, and fire, with the addition of a divine fifth element, aether, for the heavens. He also distinguished between two types of motion: "natural motion," which is an object seeking its natural place (e.g., a rock falling), and "violent motion," which is caused by an external force (e.g., a thrown spear).
+
+Four Causes: He identified four causes or explanations for why something is the way it is:
+
+- Material Cause: The matter it is made of (e.g., the bronze of a statue).
+
+- Formal Cause: The form or design (e.g., the shape of the statue).
+
+- Efficient Cause: The agent or maker (e.g., the sculptor).
+
+- Final Cause: The purpose or end goal (e.g., the reason the statue was created).
+
+=== Biology
+Aristotle was a pioneer in biology and zoology. He systematically observed and described about 500 species of animals, particularly marine life. He correctly described the reproductive habits of the octopus and the four-chambered stomachs of ruminants. While he didn't conduct experiments in the modern sense, his methodical approach to gathering data and inferring patterns from observations was a form of scientific inquiry.
+
+
+He also created a Scala Naturae (Scale of Nature), a graded scale of perfection with humans at the top, followed by other animals, and then plants and minerals. This was a non-religious, hierarchical classification system.
+
+=== Psychology
+In his work On the Soul, Aristotle proposed that there are three types of souls:
+
+- Vegetative Soul: Responsible for growth and nourishment (in plants).
+
+- Sensitive Soul: Responsible for sensation and movement (in animals).
+
+- Rational Soul: Unique to humans, responsible for intellect (nous) and reason (logos).
+
+He believed the soul is the "form" of a living being and that it cannot be separated from the body. He also explored memory, dreams, and the concept of association, proposing that our thoughts are connected through principles like similarity, contrast, and contiguity.
+
+=== Practical Philosophy
+==== Ethics
+Aristotle's ethics are a form of virtue ethics, which focuses on developing a good character rather than on rules of conduct. He argued that the proper function (ergon) of a human is an activity of the soul in accordance with reason. The goal of human life is to achieve eudaimonia, which is often translated as "happiness" or "well-being." To achieve this, a person must cultivate moral virtues, which he defined as a golden mean between two extremes of vice (excess and deficiency). For example, courage is the mean between the vice of cowardice (deficiency) and the vice of rashness (excess)

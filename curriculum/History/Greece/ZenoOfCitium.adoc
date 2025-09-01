@@ -1,0 +1,51 @@
+= Zeno Of Citium
+
+== Biography
+
+=== Synopsis
+Zeno of Citium was a Hellenistic philosopher from Cyprus who founded the Stoic school of philosophy around 300 BC in Athens.
+
+Stoicism, which was influenced by the Cynics, teaches that goodness and peace of mind are achieved by living a life of virtue in accordance with nature. The philosophy was one of the most popular schools of thought during the Hellenistic and Roman periods and has seen revivals as Neostoicism and Modern Stoicism.
+
+=== Early Life
+
+Zeno of Citium was born around 334 BC in the Cypriot colony of Citium. His ancestry is debated among historians, who suggest he may have been Phoenician, Greek, or both, as the city had a mixed population.
+
+Historians know for certain that Zeno had a Greek name and higher education, and there is no evidence that he spoke a language other than Greek. His father's name was Mnaseas, but his mother's name is not recorded.
+
+=== Journeys
+Most of what is known about Zeno's life comes from the writings of Diogenes Laërtius. According to him, Zeno became interested in philosophy after surviving a shipwreck and discovering a bookstore in Athens. He read Xenophon's Memorabilia and was so impressed by the character of Socrates that he asked the bookseller where he could find a similar man. The bookseller pointed to Crates of Thebes, a famous Cynic philosopher who happened to be walking by.
+
+Zeno became Crates's pupil but was known for his modesty, which clashed with the Cynic's emphasis on "shamelessness" and disregard for social norms. He was also said to have studied with philosophers from the Megarian and Platonist schools.
+
+In 301 BC, Zeno began teaching in a public colonnade in the Agora of Athens called the Stoa Poikile. His followers were initially called "Zenonians" but eventually became known as "Stoics," after the name of the place where they gathered.
+
+Zeno's admirers included King Antigonus II Gonatas of Macedonia, who would visit him in Athens. Zeno declined an invitation to visit the king in Macedon, sending his disciple Persaeus instead. Zeno was also highly esteemed in his native Cyprus. He reportedly declined Athenian citizenship out of loyalty to his homeland. He was succeeded as the head of the Stoic school by his student, Cleanthes.
+
+=== Old Days and Death
+Zeno died around 262 BC. There are differing accounts of his death, including one by Diogenes Laërtius, who claims Zeno tripped, broke his toe, and, taking it as a sign, held his breath until he died.
+
+Despite his non-Greek background, Zeno was highly respected by the Athenians, who honored him with a golden crown and a bronze statue. An epitaph at his funeral compared him to Cadmus, a legendary Phoenician hero who was said to have brought the alphabet to the Greeks, as Zeno had brought Stoicism to Athens. His moral influence on the youth of his era was widely recognized.
+
+The lunar crater Zeno is named in his honor.
+
+=== Philosophy
+
+According to Zeno, philosophy is divided into three parts: logic, physics, and ethics. Zeno's ideas were expanded upon by later Stoics, but his core views can be outlined as follows.
+
+==== Logic
+Zeno believed that logic was essential for a wise person to avoid deception. He taught that there were four stages to acquiring true knowledge, which he illustrated with a hand:
+
+- Perception: An open, flat hand.
+
+- Assent: The fingers are slightly closed.
+
+- Comprehension: A fully closed fist.
+
+- Knowledge: A second hand firmly grasping the fist.
+
+==== Physics
+Zeno's physics was pantheistic, viewing the universe as a divine, reasoning entity. He adopted the ideas of Heraclitus, believing the universe contains a "divine artisan-fire" or aether that is the basis for all activity. This fire works on otherwise passive matter to create everything in the universe. In this view, nature is identified with unconditional Fate, and true happiness is found by living in accordance with its laws. He also believed the universe undergoes regular cycles of formation and destruction.
+
+==== Ethics
+Like the Cynics, Zeno believed in a single, simple good, which is virtue. He defined happiness as a "good flow of life" achieved by using reason in accordance with the universal reason, or Logos. For Zeno, negative emotions like desire, fear, pleasure, and sorrow are "disturbances of the mind repugnant to reason." He argued that all actions are either good or bad, as they are based on free consent. Virtue and vice cannot be increased or decreased; an action is either virtuous or not. However, Zeno did differ from the Cynics by saying that some things, though not virtuous in themselves, could have a relative value if they aid in self-preservation.
