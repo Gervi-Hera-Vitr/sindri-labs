@@ -35,7 +35,7 @@ jobs:
     steps:
 
       - name: Checkout full repository
-        uses: actions/checkout@v4.2.2
+        uses: actions/checkout@v5.0.0
         timeout-minutes: 3
         with:
           ref: ${{ github.event.pull_request.head.sha }}
@@ -43,7 +43,7 @@ jobs:
 
 
       - name: Run Qodana Scan (PR-mode enabled)
-        uses: JetBrains/qodana-action@v2025.1.1
+        uses: JetBrains/qodana-action@v2025.2.1
         timeout-minutes: 75
         env:
           QODANA_TOKEN: ${{ secrets.QODANA_TOKEN }}
