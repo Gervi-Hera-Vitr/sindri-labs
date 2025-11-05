@@ -32,15 +32,15 @@ jobs:
       - name: "Greet first time contributors!"
         uses: actions/first-interaction@v3.1.0
         with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          issue-message: |
+          repo_token: '${{ secrets.GITHUB_TOKEN }}'
+          issue_message: |
             💫 Greetings, friend!
 
             Welcome to Captain's School. 
             If you wish to collaborate or contribute know that you are most welcome. 
             Our principal can be found as `riddler9297` on Discord.
 
-          pr-message: |
+          pr_message: |
             🛠✨ First Pull Request -- Yay!
 
             Thank you for contributing to Captain's School.

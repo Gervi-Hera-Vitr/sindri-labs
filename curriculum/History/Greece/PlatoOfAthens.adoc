@@ -1,0 +1,84 @@
+= Plato Of Athens
+
+
+== Biography & Philosophy
+
+=== Synopsis
+Plato was an ancient Greek philosopher of the Classical period, born between 428 and 423 BC and died in 348/347 BC. Who is considered a foundational thinker in Western philosophy and an innovator of the written dialogue and dialectic forms. He influenced all the major areas of theoretical and practical philosophy, and was the founder of the Platonic Academy, a philosophical school in Athens where he taught the doctrines that would later become known as Platonism.
+
+Plato's most famous contribution is the theory of forms, which aims to solve what is now known as the problem of universals. He was influenced by the pre-Socratic thinkers Pythagoras, Heraclitus, and Parmenides.
+
+Along with his teacher Socrates and his student Aristotle, Plato is a central figure in the history of Western philosophy. Plato's complete works are believed to have survived for over 2,400 years. He also influenced both Christian and Islamic philosophy through Neoplatonism.
+
+=== Family and Early Life
+Plato was born into an aristocratic Athenian family between 428 and 423 BC. Through his mother, Perictione, he was a descendant of Solon, a statesman known for establishing the foundations of Athenian democracy. There is a story that Plato's birth name was Aristocles, but this is widely considered false by modern scholars. He had two brothers, Glaucon and Adeimantus, who appear in the Republic, and a sister, Potone, and a half-brother, Antiphon.
+
+During his childhood, Athens was at war with Sparta in the Peloponnesian War. Despite the conflict, Plato and his brothers received a traditional education in gymnastics and music. According to ancient writers, Plato was fond of poetry in his youth and wrote various poems and tragedies. However, he is said to have burned his works and devoted himself to philosophy after meeting Socrates.
+
+=== Socrates(teacher)
+
+In his youth, Plato became one of the devoted young followers of Socrates, who would become his teacher and greatest source of inspiration. He was a member of Socrates' inner circle, meeting with him and other followers.
+
+Socrates, along with the sophists of his day, challenged the prevailing focus of early Greek philosophy on natural philosophy. He instead investigated questions of ethics and politics, using a series of questions called the Socratic method.
+
+Socrates' immense influence on Plato is evident in Plato's dialogues, where Plato never speaks in his own voice. Every dialogue except Laws features Socrates. The exact relationship between Plato and Socrates is still an area of debate among scholars due to different accounts of Socrates from Plato, Xenophon, and Aristotle.
+
+=== Thirty Tyrants and the Trial
+
+Following the Peloponnesian War, Sparta's victory led to the rise of the Thirty Tyrants in Athens, a regime that included two of Plato's relatives, Critias and Charmides. Plato was invited to join but was quickly disillusioned by their brutal actions, particularly their attempt to involve Socrates in the execution of the democratic general Leon of Salamis.
+
+In 403 BC, democracy was restored, and both Critias and Charmides were killed. However, Plato's political ambitions were ended by the subsequent prosecution and trial of Socrates by Anytus. After Socrates' death, Plato remained in Athens for about three years.
+
+=== Philosophical Development
+
+In Athens, Plato studied with two philosophers: Cratylus, a follower of Heraclitus, and Hermogenes, a follower of Parmenides. Heraclitus believed that everything is in constant flux and change, while Parmenides held the opposite view that the universe is eternal and unchanging, and all change is an illusion.
+
+After leaving Athens, Plato traveled to Megara to study with Euclid of Megara and other Socratics. He later returned to Athens and, during the Corinthian War, spent time studying mathematics with notable figures like Archytas of Tarentum and Theaetetus in the grove of Hecademus, where he would eventually found his Academy.
+
+After the war, Plato traveled to southern Italy to study with Pythagoreans, which significantly influenced his philosophy. The three main points of influence were:
+
+- The idea of a tightly organized community of like-minded thinkers.
+
+- The belief that mathematics and abstract thinking are a secure basis for philosophy and science.
+
+- A mystical approach to the soul's place in the material world.
+
+When he was around 40, Plato visited Syracuse. His first trip led to a friendship with Dion of Syracuse, but the tyrant Dionysius I turned against him. After returning to Athens, Plato founded his philosophical school, the Platonic Academy, in roughly 383 BC.
+
+He made two more trips to Syracuse. The second was at the request of Dion to tutor the new ruler, Dionysius II, and guide him to become a "philosopher king," but this attempt failed. Plato's third and final trip was also difficult, as Dionysius II held him against his will until he was able to return to Athens.
+
+=== Death
+
+After 360 BC, Plato returned to Athens, where he spent the rest of his life.
+
+He wrote or revised some of his final works, including Timaeus, Critias, Sophist, Statesman, Philebus, and his longest work, Laws. The similarities in their language and themes suggest they were intended to present a unified viewpoint. At the time of his death, Laws was unfinished and was later edited by a student named Philip of Opus.
+
+Plato died in 348/347 BC and was buried in his garden at the Academy in Athens. He was succeeded as the head of the Academy by his nephew, Speusippus.
+
+== Philosophy & Works
+
+Plato's philosophy rests on two main pillars: the theory of Forms and the immortality of the soul. His dialogues explore a wide range of subjects including metaphysics, human nature, ethics, politics, and art, often contrasting perception with reality and the body with the soul.
+
+=== The Theory of Forms
+The theory of Forms, also known as the theory of Ideas, is a central part of Plato's metaphysics. It proposes that the material world we perceive through our senses is not the true reality but merely an imperfect copy. The real world is an unchanging, unseen realm of Forms, which can only be understood through reason. For example, a chair you sit on is just an imperfect copy of the ideal Form of a 'chair'. The Forms represent the perfect essence of things, such as justice, truth, and beauty. Plato first introduced this concept in the Phaedo dialogue.
+
+=== The Soul and Epistemology
+Plato believed the soul is immortal and is the source of life. He suggested the soul has three parts located in the body: reason (head), spirit (upper torso), and appetite (mid-torso). He also discussed reincarnation and argued that knowledge is a process of recollection (anamnesis). This is the idea that we are born with innate knowledge of the Forms, and learning is simply the process of remembering what our soul already knows from a previous existence.
+
+Plato's epistemology, or theory of knowledge, argues that true knowledge is not gained through the senses, as the material world is in a constant state of flux. He suggests that genuine knowledge comes from apprehending the unchanging Forms. He explored the idea of justified true belief, but also pointed out the circular problems with this definition in his dialogue, Theaetetus.
+
+=== Ethics and Politics
+Plato's ethics and politics are deeply intertwined. In the Republic, he asks, "What is justice?" He defines justice as understanding and fulfilling one's moral and political function in society. This is based on his concept of "The Good," the supreme Form that exists "beyond being."
+
+He proposed that a society has a tripartite class structure that mirrors the parts of the individual soul:
+
+- Productive (Appetite): Workers and laborers.
+
+- Protective (Spirit): Warriors or guardians.
+
+- Governing (Reason): Rulers or Philosopher Kings.
+
+He believed a state would decline through different forms of government, starting with an aristocracy (rule by the best) and eventually falling into tyranny.
+
+=== Rhetoric and Poetry
+Plato had a complex view of art. While he acknowledged that poetry can be divinely inspired, he also famously suggested in the Republic that it should be outlawed because it imitates the material world, which is itself an imitation of the true Forms. He was critical of rhetoric but also used it skillfully in his own writings, often employing myths and allegorical narratives to make philosophical concepts more accessible to a wider audience. Notable examples include the Allegory of the Cave and the Myth of Er.

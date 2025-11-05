@@ -1,0 +1,111 @@
+= Epictetus: Slave, Teacher, Philosopher
+
+== Life Summary
+
+=== Synopsis
+
+*Epictetus* was a philosopher born around 50 AD in Hierapolis, Phrygia. His given name is unknown. The name *Epictetus* is derived from the Greek word *epíktētos*, meaning "gained" or "acquired".
+
+He spent his youth in Rome as a slave to Epaphroditus, a wealthy freedman and secretary to Nero. This gave him a unique social position: a slave, yet connected to imperial power. He lived among individuals of immense fame, wealth, and authority, despite having none himself.
+
+=== Trials
+
+His position exposed him to education, which elevated his status. At some point, he became disabled—Celsus, quoted by Origen, claimed this was because his master deliberately broke his leg, possibly out of cruelty.
+
+Epictetus gained his freedom sometime after Nero's death in AD 68 and began teaching philosophy in Rome. Around AD 93, Emperor Domitian expelled all philosophers from the city. Epictetus then relocated to Nicopolis, Epirus, Greece, where he founded a philosophical school.
+
+His most famous student, Arrian, studied under him around AD 108. Arrian recorded *Discourses* based on Epictetus' lectures, comparing them to Socratic literature. He described Epictetus as a powerful speaker capable of moving listeners profoundly. Even Emperor Hadrian was friendly with him and possibly attended his school.
+
+Epictetus lived simply with few possessions. He lived alone for much of his life, but in old age adopted a friend's child who would have otherwise been abandoned, raising the child with a woman whose relationship to him is unclear. He died around AD 135.
+
+== Teachings
+
+=== The Dichotomy of Control
+
+The fundamental principle: separate everything into what is in our control vs. what is not.
+
+*In Our Control:*
+* Opinions
+* Pursuits
+* Desires
+* Aversions
+* Our own actions
+
+*Not In Our Control:*
+* Body
+* Property
+* Reputation
+* Commands from others
+* Things not our own actions
+
+____
+"You can bind up my leg, but not even Zeus can take away my power of choice."
+____
+
+=== Choice and Response
+
+* We always control how we respond to external conditions
+* "It's not things that upset us, it's our judgment about things"
+* Nobody else is responsible for your emotions
+* When provoked, understand you are complicit in getting upset
+* Take a moment before reacting to regain control
+
+=== Intellectual Humility
+
+* "It's impossible to learn that which you think you already know"
+* Quality matters more than quantity in reading
+* "Show me what you have learned by thinking better"
+* "If you wish to improve, be content to be thought foolish and stupid"
+* Must be willing to be bad at something to get good at it
+
+=== Philosophy as Practice
+
+* "Don't talk about your philosophy, embody it"
+* Philosophy is not intellectual exercise but coping mechanism for life's hardships
+* Never wrote anything down – embodied teachings through living example
+* "Let's see evidence of your progress" – judge by actions, not words
+
+=== Freedom Through Detachment
+
+* "Better to starve to death calm and confident than live anxiously amidst abundance"
+* "You can always win if you only enter competitions where winning is up to you"
+* Focus on effort and process (what you control), not outcomes
+* Don't possess precious people – appreciate without attachment
+* "You can only lose what you have"
+
+=== Facing Reality
+
+* "Set before your eyes every day death and exile... especially death"
+* Don't take things for granted
+* Even as you tuck children in, remember mortality (via Marcus Aurelius)
+* Acceptance of what's outside control (art of acquiescence)
+
+=== Every Circumstance as Opportunity
+
+* "Every circumstance represents an opportunity"
+* Even illness, abuse, and slander can benefit us
+* Life pairs you with strong sparring partners to make you stronger
+* Every situation has two handles – choose how to grasp it
+
+== Thought
+
+Epictetus believed that the foundation of philosophy is self-knowledge: the conviction of our ignorance and gullibility must be our first study. Logic, while providing valid reasoning and judgment, is secondary to practical needs.
+
+He identified three areas of philosophy:
+. Application of doctrine – e.g., not lying
+. Reasons for doctrine – e.g., why one should not lie
+. Examination of reasons – the logical structure that proves them
+
+The third area supports the second, which in turn supports the first—practical application being the most essential.
+
+== Legacy
+
+No original writings by Epictetus are known. His teachings were recorded by his pupil Arrian in *The Discourses*, of which four out of eight books survive. Arrian also compiled the *Enchiridion*, or *Handbook*, a digest of key teachings.
+
+In the preface to *Discourses*, addressed to Lucius Gellius, Arrian wrote:
+
+____
+"Whatever I heard him say I used to write down, word for word, as best I could, endeavouring to preserve it as a memorial, for my own future use, of his way of thinking and the frankness of his speech."
+____
+
+- Sources: https://en.wikipedia.org/wiki/Epictetus[Wikipedia]  & https://www.youtube.com/watch?v=ux9i4qIDpI4&t=451s[Daily Stoic]
