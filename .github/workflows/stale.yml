@@ -35,7 +35,7 @@ jobs:
     steps:
 
       - name: "Run Stale Issues and Pull Requests checks in repository [${{ github.repository }}] by ${{ github.actor }}"
-        uses: actions/stale@v9.1.0
+        uses: actions/stale@v10.1.0
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
 
