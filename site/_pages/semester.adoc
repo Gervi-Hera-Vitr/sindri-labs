@@ -62,7 +62,7 @@ Neuroscience: {neuro-1}.
 - {duke-neuro}. (semesters 3 and 4)
 . *Optional:*
 * {neuro-learning}. (semester 2)
-* {neuro-learning-overview}!
+* {neuro-learning-overview} on your optional materials!
 
 
 _Note: This ties into a heritability of IQ, a controversial genetic study we'd extensively covered in the past,
