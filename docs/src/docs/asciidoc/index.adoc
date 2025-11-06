@@ -28,4 +28,4 @@ PLACEHOLDER
 
 _Check back regularly. Or raise a very specific issue if urgent clarification is needed._
 
-image::avatar.png[Pedagogy,width=240,align=right]
+image::avatar.jpg[Pedagogy,width=240,align=right]

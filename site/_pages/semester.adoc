@@ -1,0 +1,103 @@
+---
+header:
+  caption: ...academic year schedule for 2025
+  overlay_image: assets/images/banner-philosophy.jpg
+  overlay_filter: 0.2
+---
+= Current Semester: Fall-Winter 2025
+rdd13r
+:page-author_profile: false
+:page-excerpt: This bulletin contains all classes currently selected for the course of study. The scope in this manifest is a single semester currently active. Relation to the review workload, which is present in every semester, is included at the end of the manifest. Acceptance criteria for each field of study is listed with its entry. This page is updated to contains the current workload with each new semester and removed when not in an active semester. Active semesters includes interim and hiatus semesters. Internship semesters are considered inactive semesters.
+:page-layout: single
+:page-permalink: /semester/
+:page-classes: wide
+:sectnums:
+:sectanchors:
+:sectlinks:
+:icons: font
+:tip-caption: 💡️
+:note-caption: ℹ️
+:important-caption: ❗
+:caution-caption: 🔥
+:warning-caption: ⚠️
+:toc: preamble
+:toclevels: 2
+:toc-title: Mímir Academy
+:keywords: Mímir Academy
+:imagesdir: ./assets/img
+ifdef::env-name[:relfilesuffix: .adoc]
+:psyc-110: https://oyc.yale.edu/introduction-psychology/psyc-110[Yale: PSYC 110, window=_blank]
+:neuro-1: https://pll.harvard.edu/course/fundamentals-neuroscience-part-1-electrical-properties-neuron[HarvardX: Fundamentals of Neuroscience; Part 1: The Electrical Properties of the Neuron, window=_blank]
+:duke-neuro: https://www.classcentral.com/course/medicalneuro-384[Duke University - Medical Neuroscience,window=_blank]
+:neuro-learning: https://www.classcentral.com/course/learning-how-to-learn-2161[Learning How to Learn: Powerful mental tools to help you master tough subjects,window=_blank]
+:neuro-learning-overview: https://youtu.be/zgBkbKrnCrk[Captain - watch this before you decide,window=_blank]
+
+
+Each semester has a single primary subject and minor companion subjects. +
+In addition, both previous study review, arts and crafts are always included.
+
+== Primary Focus: Monday, Friday; Load 40%
+
+Introduction to Psychology -- {psyc-110}.
+
+=== Acceptance Criteria
+
+Semester thesis by:
+
+- Correlational Research;
+- Observational Studies;
+- Meta-Analysis.
+
+_See project sources for field assignment development._
+
+== Companion Focus: Tuesday, Thursday; Load 30%
+
+Neuroscience: {neuro-1}.
+
+<Audit> -- Note: this is a new multi-semester learning trail.
+
+. This relates to previously completed multi-semester hands-on AI studies (ANN, RNN, LLM) +
+(labs 001-107).
+. *Leads To:*
+- {duke-neuro}. (semesters 3 and 4)
+. *Optional:*
+* {neuro-learning}. (semester 2)
+* {neuro-learning-overview} on your optional materials!
+
+
+_Note: This ties into a heritability of IQ, a controversial genetic study we'd extensively covered in the past,
+that explains genetic reshuffle and why two brightest people will have the most average and unremarkable brood.
+Datasets are available to you at Duke University Research Datalake.
+More importantly, why one gifted parent and one average parent produce the best genius offspring 25% of the time.
+Especially prominent in humans when the gifted parent is the mother. Semesters 5-8 cover genetic regression in
+detail. Especially the biokinetics of recessive traits._
+
+=== Acceptance Criteria
+
+ALL/ANY secondary option rolls over to the next semester thereafter.
+
+Reinforcement is accomplished by courseware online quizzing.
+
+Assignment #1 is tested by https://github.com/Gervi-Hera-Vitr/sindri-labs/tree/main/labs[coding labs,window=_blank]
+-- the neural mesh simulation Lab 119[TBD] +
+produced by your homeschool instructor.
+
+== Maintenance and Review: Wednesday, Saturday; Load 20%
+
+. *Primary Review:* Philosophy of Morals (Stoicism):
+- *_Acceptance Criteria:_* *_Second thesis on Epictetus_*;
+- See link:/sindri-labs/philosophers[Foundation Scholars] for reminders;
+- See link:/sindri-labs/philosophy/[Philosophy Curriculum] for structure.
+. *Companion Review:* Mathematics, Chemistry, Physics:
+- Mathematics: M Skanavi pre-calculus problems;
+- Mathematics: Fundamentals of Analysis review (3 fundamental theorems problems);
+- Physics: Newtonian applications to Analysis problems;
+- Chemistry: Periodic table elemental properties review (element class per week).
+
+== Internship
+
+Previous semester was real business sales and marketing. No internship this semester.
+
+== Fine Motor Skills and Creativity, Saturday; Load 5-10%
+
+Fine woodworking. New project for Zoey's 3D puzzle toys.
