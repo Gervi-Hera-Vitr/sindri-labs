@@ -35,8 +35,12 @@ Gervi Héra Vitr is a home school in a community of homeschoolers. +
 Gervi Héra Vitr Labs is the classroom repository for our school. +
 All relevant educational materials are here for our two students:
 
-* *Anton*: `Captain Lugaru`, 15 -- the world moves when he decides.
-* *Zoey*: `ZueZue kHavok`, 2 -- nothing is still until she leaves.
+*Anton*: `Captain Lugaru`, 16 -- "the world moves when he decides for action, never before"::
+// suppress inspection "AsciiDocLinkResolve"
+The link:semester[Current Semester] is "Fall-Winter 2025."
+
+*Zoey*: `ZueZue kHavok`, 2 -- "nothing touches the floor until she leaves; then stuff rains down"::
+Potty Training 101.
 
 == Curriculum Focus
 
