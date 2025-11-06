@@ -27,7 +27,7 @@ rdd13r
 :imagesdir: ./assets/img
 ifdef::env-name[:relfilesuffix: .adoc]
 :psyc-110: https://oyc.yale.edu/introduction-psychology/psyc-110[Yale: PSYC 110, window=_blank]
-:neuro-1: https://www.edx.org/learn/neuroscience/harvard-university-fundamentals-of-neuroscience-part-1-the-electrical-properties-of-the-neuron[HarvardX: Fundamentals of Neuroscience; Part 1: The Electrical Properties of the Neuron, window=_blank]
+:neuro-1: https://pll.harvard.edu/course/fundamentals-neuroscience-part-1-electrical-properties-neuron[HarvardX: Fundamentals of Neuroscience; Part 1: The Electrical Properties of the Neuron, window=_blank]
 :duke-neuro: https://www.classcentral.com/course/medicalneuro-384[Duke University - Medical Neuroscience,window=_blank]
 :neuro-learning: https://www.classcentral.com/course/learning-how-to-learn-2161[Learning How to Learn: Powerful mental tools to help you master tough subjects,window=_blank]
 
