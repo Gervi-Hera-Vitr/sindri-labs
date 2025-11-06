@@ -30,6 +30,7 @@ ifdef::env-name[:relfilesuffix: .adoc]
 :neuro-1: https://pll.harvard.edu/course/fundamentals-neuroscience-part-1-electrical-properties-neuron[HarvardX: Fundamentals of Neuroscience; Part 1: The Electrical Properties of the Neuron, window=_blank]
 :duke-neuro: https://www.classcentral.com/course/medicalneuro-384[Duke University - Medical Neuroscience,window=_blank]
 :neuro-learning: https://www.classcentral.com/course/learning-how-to-learn-2161[Learning How to Learn: Powerful mental tools to help you master tough subjects,window=_blank]
+:neuro-learning-overview: https://youtu.be/zgBkbKrnCrk[Captain - watch this before you decide,window=_blank]
 
 
 Each semester has a single primary subject and minor companion subjects. +
@@ -61,6 +62,15 @@ Neuroscience: {neuro-1}.
 - {duke-neuro}. (semesters 3 and 4)
 . *Optional:*
 * {neuro-learning}. (semester 2)
+* {neuro-learning-overview}!
+
+
+_Note: This ties into a heritability of IQ, a controversial genetic study we'd extensively covered in the past,
+that explains genetic reshuffle and why two brightest people will have the most average and unremarkable brood.
+Datasets are available to you at Duke University Research Datalake.
+More importantly, why one gifted parent and one average parent produce the best genius offspring 25% of the time.
+Especially prominent in humans when the gifted parent is the mother. Semesters 5-8 cover genetic regression in
+detail. Especially the biokinetics of recessive traits._
 
 === Acceptance Criteria
 
