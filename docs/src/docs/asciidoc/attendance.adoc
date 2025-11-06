@@ -20,4 +20,4 @@ ifdef::env-name[:relfilesuffix: .adoc]
 
 PLACEHOLDER
 
-image::avatar.png[Pedagogy,width=240,align=right]
+image::avatar.jpg[Pedagogy,width=240,align=right]
