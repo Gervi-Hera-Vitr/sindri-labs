@@ -54,7 +54,7 @@ jobs:
       - name: Build and Test
         timeout-minutes: 5
         run: |
-          ./gradlew clean build test dependencyUpdates asciidoctor asciidoctorPdf asciidoctorEpub
+          ./gradlew --no-parallel clean build test dependencyUpdates asciidoctor asciidoctorPdf asciidoctorEpub
           
 
       - name: Submit Dependency Graph
