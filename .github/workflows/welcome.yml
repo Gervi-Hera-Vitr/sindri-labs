@@ -1,4 +1,4 @@
-name: "Greetings and Welcome!"
+name: "Welcome Friends"
 run-name: "Gervi Herdem Vitr Greeting for ${{ github.actor }} with ${{ github.event_name }}"
 
 on:

@@ -5,7 +5,7 @@ updates:
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "weekly"
+      interval: "daily"
     commit-message:
       prefix: "⬆️ actions"
     labels:
@@ -15,7 +15,7 @@ updates:
   - package-ecosystem: "gradle"
     directory: "/"
     schedule:
-      interval: "weekly"
+      interval: "daily"
     commit-message:
       prefix: "⬆️ gradle"
     labels:
@@ -25,7 +25,7 @@ updates:
   - package-ecosystem: "gradle"
     directory: "/buildSrc"
     schedule:
-      interval: "weekly"
+      interval: "daily"
     commit-message:
       prefix: "⬆️ gradle (buildSrc)"
     labels:
@@ -35,7 +35,7 @@ updates:
   - package-ecosystem: "bundler"
     directory: "/site"
     schedule:
-      interval: "monthly"
+      interval: "daily"
     commit-message:
       prefix: "⬆️ bundler"
     labels:

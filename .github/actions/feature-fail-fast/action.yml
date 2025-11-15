@@ -1,0 +1,76 @@
+name: Feature Branch Guard
+description: "Fail fast unless PR source matches feature branch pattern and target is main"
+author: "VK (rdd13r)"
+branding:
+  icon: "git-branch"
+  color: "red"
+
+inputs:
+  feature-branch-pattern:
+    description: "Regex pattern for feature branch names"
+    required: false
+    default: '^[0-9]+-'
+
+  target-branch:
+    description: "Expected base branch"
+    required: false
+    default: main
+
+outputs:
+  feature:
+    description: "true if branch matches, false otherwise"
+    value: ${{ steps.check-feature-branch.outputs.feature }}
+
+  targeting:
+    description: "If in pull request, then there will be a target."
+    value: ${{ steps.check-feature-branch.outputs.target }}
+
+runs:
+  using: "composite"
+
+  steps:
+
+    - name: Check the current branch being a Feature Branch
+      id: check-feature-branch
+      shell: zsh -l {0}
+      run: |
+        fail=false
+        FEATURE_PATTERN="${{ inputs.feature-branch-pattern }}"
+        EXPECTED_TARGET="${{ inputs.target-branch }}"
+        
+        FEATURE_BRANCH="${{ github.head_ref || github.ref }}"
+        FEATURE_BRANCH="${FEATURE_BRANCH#refs/heads/}"
+        echo "::debug::github.head_ref='${{ github.head_ref }}'"
+        echo "::debug::github.ref='${{ github.ref }}'"
+        echo "::debug::Calculated FEATURE_BRANCH=$FEATURE_BRANCH" 
+  
+        TARGET_BRANCH="${{ github.base_ref }}"
+        echo "::debug::Calculated TARGET_BRANCH=$TARGET_BRANCH because github.base_ref=${{ github.base_ref }}; i.e., branch is new, not in PR."
+  
+        feature=false
+        target="$TARGET_BRANCH"                 # Should this trim prefix?
+
+        echo "::notice title=Validating Feature Branch::$FEATURE_BRANCH is indeed a feature."
+        echo "::notice title=Optionally Noting Target Branch::Target branch is $TARGET_BRANCH."
+
+        if [[ "$TARGET_BRANCH" != "$EXPECTED_TARGET" ]]; then
+          echo "::warning title=Not targeting Trunk::This branch is not targeting '$EXPECTED_TARGET' but targets '$TARGET_BRANCH'"
+        fi
+        
+        if [[ -z "${FEATURE_BRANCH}" ]]; then
+          echo "::error title=Source Branch is NOT Resolved::Variable FEATURE_BRANCH is EMPTY - cannot proceed."
+          fail="true"
+        elif [[ ! "$FEATURE_BRANCH" =~ $FEATURE_PATTERN ]]; then
+          echo "::warning title=Source Branch is NOT a Feature Branch::Feature branch '$FEATURE_BRANCH' does not match required pattern '$FEATURE_PATTERN'"
+        else
+          echo "::Notice title=Source Branch is a Feature Branch::Feature branch '$FEATURE_BRANCH' matches required pattern '$FEATURE_PATTERN'"
+          feature=true
+          git fetch origin main:main        
+        fi
+
+        echo "feature=$feature" >> $GITHUB_OUTPUT
+        echo "targeting=$target" >> $GITHUB_OUTPUT
+
+        if $fail; then
+          echo "::error title=Unrecoverable::Unrecoverable error occured preventing feature branch calculation. See other errors."
+        fi

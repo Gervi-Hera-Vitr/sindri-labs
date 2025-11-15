@@ -1,0 +1,125 @@
+name: Bump Version on Branch
+run-name: "Incremented Version on ${{ github.repository }} by ${{ github.actor }} with ${{ github.event_name }} (Attempt ${{ github.run_attempt }})"
+#.github/workflows/custom-bump-version-on-feature-branch.yml
+
+on:
+  create:
+    branches:
+      - '[0-9]+-**'
+  workflow_dispatch:
+  workflow_call:
+
+defaults:
+  run:
+    shell: zsh -l {0}
+
+jobs:
+
+  bump_minor_version:
+    runs-on: [self-hosted]
+    timeout-minutes: 3
+
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+
+      - name: ⏳ Wait for GitHub ref propagation
+        run: sleep 5
+
+
+      - name: ⬇️ Checkout repository
+        uses: actions/checkout@v5.0.0
+        with:
+          fetch-depth: 0
+          fetch-tags: true
+
+
+      - name: Guard Branch
+        id: branch-guard
+        uses: ./.github/actions/feature-fail-fast
+
+
+      - name: 🧮 Extract Issue Number from Branch
+        id: extract-issue
+        if: steps.branch-guard.outputs.feature == 'true'
+        run: |
+          BRANCH_NAME="${GITHUB_REF#refs/heads/}"
+          ISSUE_NUMBER=$(echo "$BRANCH_NAME" | cut -d- -f1)
+          echo "number=$ISSUE_NUMBER" >> $GITHUB_OUTPUT
+          
+
+      - name: 🔖 Check for 'major' label on issue
+        id: check-issue-labels
+        if: steps.branch-guard.outputs.feature == 'true'
+        uses: ./.github/actions/issue-labels-read
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          issue-number: ${{ steps.extract-issue.outputs.number }}
+          required-label: "major"
+
+
+      - name: 🧬 Bump properties version
+        id: version-bump
+        if: steps.branch-guard.outputs.feature == 'true'
+        run: |
+          FILE="gradle.properties"
+          VERSION=$(grep '^version=' "$FILE" | cut -d= -f2)
+
+          if [[ ! "$VERSION" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
+            echo "::error title=Invalid Version Format::Expected format MAJOR.MINOR.PATCH, got '$VERSION'"
+            exit 12
+          fi
+
+          MAJOR=$(echo "$VERSION" | cut -d. -f1)
+          MINOR=$(echo "$VERSION" | cut -d. -f2)
+
+          echo "old=$VERSION" >> $GITHUB_OUTPUT
+
+          if [[ "${{ steps.check-issue-labels.outputs.satisfied }}" == "true" ]]; then
+            NEW_VERSION="$((MAJOR + 1)).0.0"
+            echo "::notice title=Version Type::🚀 MAJOR bump triggered"
+          else
+            NEW_VERSION="$MAJOR.$((MINOR + 1)).0"
+            echo "::notice title=Version Type::🔁 minor bump"
+          fi
+
+          echo "::notice title=Version Bumped::🔄 $VERSION → $NEW_VERSION"
+          sed -i "s/^version=.*/version=$NEW_VERSION/" "$FILE"
+          echo "new=$NEW_VERSION" >> $GITHUB_OUTPUT
+
+
+      - name: 📝 Update SECURITY.md and Site version references
+        if: steps.branch-guard.outputs.feature == 'true'
+        run: |
+          OLD_VERSION="${{ steps.version-bump.outputs.old }}"
+          NEW_VERSION="${{ steps.version-bump.outputs.new }}"
+
+          if [[ -f SECURITY.md && -f site/_config.yml ]]; then
+            echo "::notice title=Security Policy AND Site Version Update::🔄 $OLD_VERSION → $NEW_VERSION"
+            sed -i "s/v$OLD_VERSION/v$NEW_VERSION/g" SECURITY.md
+            sed -i "s/v$OLD_VERSION/v$NEW_VERSION/g" site/_config.yml
+          else
+            echo "::warning title=Shimmed Files Missing::⚠️ Is this script running in the correct directory?"
+          fi
+
+
+      - name: 📂 Commit and push version bump
+        if: steps.branch-guard.outputs.feature == 'true'
+        timeout-minutes: 2
+        uses: ./.github/actions/commit-and-push-files
+        with:
+          files: gradle.properties SECURITY.md site/_config.yml
+          message: "🔼 Auto bump version to ${{ steps.version-bump.outputs.new }}"
+
+
+      - name: 🏋️ Summary annotation
+        if: steps.branch-guard.outputs.feature == 'true'
+        run: |
+          echo "::notice title=📅 Bump Summary::
+          Branch:   ${GITHUB_REF#refs/heads/}
+          From:     ${{ steps.version-bump.outputs.old }}
+          To:       ${{ steps.version-bump.outputs.new }}
+          Bump:     ${{ steps.label-check.outputs.promote }}
+          Files touched: gradle.properties, SECURITY.md."
