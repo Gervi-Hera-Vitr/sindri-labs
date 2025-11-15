@@ -2,6 +2,7 @@ name: Build on Push
 run-name: "Build on Push on ${{ github.repository }} by ${{ github.actor }} with ${{ github.event_name }} (Attempt ${{ github.run_attempt }})"
 
 on:
+  push:
   pull_request:
     types:
       - opened

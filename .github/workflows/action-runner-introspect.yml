@@ -19,7 +19,7 @@ defaults:
 
 jobs:
   canary-flight-job:
-    runs-on: [self-hosted, peep]
+    runs-on: [self-hosted, canary]
     timeout-minutes: 11
 
     steps:
