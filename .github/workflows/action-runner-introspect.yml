@@ -1,9 +1,12 @@
-name: Runner Canary
+name: Actions Runner Canary
 run-name: "Introspect Runner on ${{ github.repository }} by ${{ github.actor }} with ${{ github.event_name }} (Attempt ${{ github.run_attempt }})"
 #.github/workflows/custom-runner-introspect.yml
 
 on:
   push:
+    branches-ignore:
+      - main
+      - 'dependabot/**'
   workflow_dispatch:
     inputs:
       host-info:

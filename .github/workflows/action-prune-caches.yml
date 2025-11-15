@@ -1,4 +1,4 @@
-name: GitHub Caches Prune
+name: Actions Prune Caches
 run-name: "Pruned Old Action Run Caches on ${{ github.repository }} by ${{ github.actor }} with ${{ github.event_name }} (Attempt ${{ github.run_attempt }})"
 #.github/workflows/github-action-prune-caches.yml
 
@@ -32,7 +32,7 @@ jobs:
 
   cleanup-stale-action-caches:
     timeout-minutes: 11
-    runs-on: [self-hosted, housekeeping]
+    runs-on: [self-hosted]
     name: "Prune stale caches if used  over GH Services"
 
     steps:

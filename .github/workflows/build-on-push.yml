@@ -3,6 +3,9 @@ run-name: "Build on Push on ${{ github.repository }} by ${{ github.actor }} with
 
 on:
   push:
+    branches-ignore:
+      - main
+      - 'dependabot/**'
   pull_request:
     types:
       - opened

@@ -1,4 +1,4 @@
-name: Version on New Branch
+name: Bump Version on Branch
 run-name: "Incremented Version on ${{ github.repository }} by ${{ github.actor }} with ${{ github.event_name }} (Attempt ${{ github.run_attempt }})"
 #.github/workflows/custom-bump-version-on-feature-branch.yml
 
@@ -7,6 +7,7 @@ on:
     branches:
       - '[0-9]+-**'
   workflow_dispatch:
+  workflow_call:
 
 defaults:
   run:
@@ -15,7 +16,7 @@ defaults:
 jobs:
 
   bump_minor_version:
-    runs-on: [self-hosted, feature]
+    runs-on: [self-hosted]
     timeout-minutes: 3
 
     permissions:
