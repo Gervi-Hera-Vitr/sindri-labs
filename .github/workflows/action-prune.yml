@@ -1,8 +1,11 @@
 name: GitHub Actions Prune
 run-name: "Pruned Old Action Runs but ONE on ${{ github.repository }} by ${{ github.actor }} with ${{ github.event_name }} (Attempt ${{ github.run_attempt }})"
-#.github/workflows/github-prune-actions.yml
+#.github/workflows/github-action-prune.yml
 
 on:
+  push:
+    branches:
+      - main
   workflow_dispatch:
   create:
     branches:
