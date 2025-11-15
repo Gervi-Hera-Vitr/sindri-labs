@@ -1,0 +1,309 @@
+= Introduction to Psychology: The Brain, Mind, and Dualism
+Professor Paul Bloom – Chapter 1–5 Notes
+
+== 1. The Astonishing Hypothesis (Francis Crick)
+
+*Core Claim:*
+"You, your joys and your sorrows, your memories and your ambitions, your sense of personal identity and free will are in fact no more than the behavior of a vast assembly of nerve cells and their associated molecules."
+
+*Translation:* You're nothing but a pack of neurons.
+
+*Why It's Astonishing:*
+This view contradicts human intuition and nearly all religious or philosophical traditions throughout history.
+
+== 2. Dualism: The Traditional View
+
+=== What Is Dualism?
+
+Dualism is the belief that humans consist of two separate kinds of things:
+
+* Physical material bodies
+* Immaterial minds/souls
+
+*Key Proponent:* René Descartes
+
+=== Descartes’ Position
+
+*Animals:* Biological robots (“beast machines”) with no immaterial soul.
+*Humans:* Possess both physical bodies *and* immaterial souls that:
+
+* Reside *in* physical bodies
+* Are separate *from* physical bodies
+* Can exist without the physical body
+
+== 3. Descartes’ Arguments for Dualism
+
+=== Argument #1: Human Capabilities Beyond Machines
+
+* Robots of his era could do reflexive actions.
+* Human bodies also have reflexes.
+* Humans, however, can:
+** Speak creatively
+** Choose freely
+** Coordinate complex behavior
+
+*Conclusion:* Humans cannot be mere machines.
+
+=== Argument #2: The Method of Doubt
+
+Descartes doubted nearly everything:
+
+* Existence of God
+* Having a body
+* Being awake
+* Not being deceived (evil demon / The Matrix-style)
+
+But he *could not* doubt:
+
+*He was thinking.*
+
+*Conclusion:*
+Cogito ergo sum — “I think, therefore I am.”
+Thus the mind (thinking substance) is separate from the physical body.
+
+== 4. Evidence of Dualism in Common Sense
+
+=== Embedded in Language
+We say:
+
+* “My body”
+* “My brain”
+
+as if they are possessions instead of identity.
+
+=== Intuitions About Personal Identity
+
+People imagine identity preserved across radical bodily changes:
+
+* Body-swap movies
+* Reincarnation
+* Kafka’s *Metamorphosis*
+* *Odyssey* companions turned into pigs but minds remain
+
+=== Multiple Personalities / Possession
+
+Widespread beliefs:
+
+* Several people in one body
+* Spirits taking control
+
+=== Survival After Death
+
+Nearly all cultures believe the self survives bodily death.
+Survey results:
+96% of Christians — “I’m going to Heaven.”
+Even many non-religious people believe the same.
+
+== 5. Scientific Consensus Against Dualism
+
+=== The Modern View
+*The mind is what the brain does.*
+No self independent of the brain.
+
+=== Problems With Dualism
+
+1. **Unscientific:** Explains nothing, can’t address language learning, mental illness, emotional responses.
+2. **Connection Problem:** No explanation for how a nonphysical soul interacts with a physical body.
+3. **Physical Things Can Be Complex:** Modern computers can play chess, recognize patterns, compute, etc.
+4. **Brain–Mind Correlation:**
+* Brain damage → mental changes
+* Drugs → mental changes
+* Brain imaging → specific regions for vision, sound, language, moral reasoning
+
+== 6. The Neuron: Basic Building Blocks
+
+=== Structure of a Neuron
+
+* *Dendrites:* Receive excitatory (+) or inhibitory (−) signals
+* *Cell Body:* Sums signals; fires at threshold (~+60)
+* *Axon:* Sends signals; often insulated with myelin
+
+=== Key Facts
+
+* ~1,000 billion neurons
+* Each connects to thousands of others
+* Types:
+** Sensory neurons
+** Motor neurons
+** Interneurons
+
+=== All-or-Nothing Firing
+
+* Neurons fire or they don’t — no halfway.
+* Intensity encoded by:
+** Number of neurons firing
+** Firing frequency
+
+== 7. How Neurons Communicate
+
+* Neurons do *not* touch.
+* Communication occurs across a tiny gap: the *synapse*.
+* Neurotransmitters cross the gap and influence the next neuron.
+
+== 8. Psychopharmacology: Drugs & Neurotransmitters
+
+=== Types of Drugs
+
+* *Agonists:* Increase neurotransmitter effects
+** Produce more
+** Prevent cleanup
+** Mimic neurotransmitters
+* *Antagonists:* Decrease neurotransmitter effects
+** Destroy neurotransmitters
+** Block receptor sites
+
+=== Examples
+
+* *Curare:* Antagonist → paralysis, death
+* *Alcohol:* Inhibitory → disinhibits frontal lobe
+* *Amphetamines:* Increase norepinephrine → arousal
+* *Prozac:* Increases serotonin availability
+* *L-DOPA:* Increases dopamine → helps Parkinson’s symptoms
+
+== 9. Brain Architecture: Not Like a Computer
+
+=== Why the Brain Differs
+
+1. **Damage Resistance:** Brain can reroute functions.
+2. **Speed Despite Slow Tissue:**
+* Computers: serial, fast wires
+* Brain: massive parallel processing
+
+=== Neural Networks
+
+Engineers attempt machine models of the brain, but current systems are far less capable than even a two-year-old human.
+
+== 10. Brain Functions Not Needing the Brain
+
+Certain reflexes operate without cortical involvement:
+
+* Newborn sucking
+* Withdrawal from pain
+* Vomiting
+* Sexual reflexes
+
+== 11. Subcortical Structures
+
+* *Medulla:* Heart rate, breathing
+* *Cerebellum:* Balance, coordination
+* *Hypothalamus:* Feeding, hunger, thirst, some sleep regulation
+
+== 12. The Cortex
+
+* Wrinkled outer layer; flattened = ~2 ft²
+* Evolutionary expansion:
+** Fish → none
+** Reptiles → little
+** Primates → a lot
+** Humans → huge (80% of brain)
+
+=== Four Lobes
+
+* Frontal
+* Parietal
+* Occipital
+* Temporal
+
+Left & right duplication.
+
+== 13. Topological Maps
+
+=== Discovery
+
+Electrical stimulation of cortex produced movements, sensations, colors, sounds.
+
+=== Two Maps
+
+* *Motor Cortex:* Movement
+* *Somatosensory Cortex:* Sensation
+
+=== Features
+
+1. Topographical
+2. Size reflects control/precision, not body size
+3. Only a fraction of cortex — rest supports higher reasoning
+
+== 14. Methods for Studying the Brain
+
+=== Imaging
+
+* CAT, PET, fMRI
+* Show active areas during tasks
+
+=== Lesion Studies
+
+Damaged regions reveal function:
+
+* *Apraxia:* Can move but not coordinate
+* *Agnosia:* “Psychic blindness”
+* *Sensory Neglect:* Ignore half of world
+* *Aphasias:* Language impairments
+* *Acquired Psychopathy:* Damage to frontal lobes
+
+== 15. The Two Hemispheres
+
+=== Lateralization
+
+*Right-handed people (~90%):*
+Left hemisphere = language
+
+*Right hemisphere:* math, music
+
+=== Crossover
+
+* Visual fields cross to opposite hemispheres
+* Motor control crosses as well
+
+=== Corpus Callosum
+
+Massive fiber bundle linking hemispheres.
+Split-brain cases reveal hidden specialization.
+
+== 16. The Hard Problem of Consciousness
+
+=== Info-Processing Approach
+
+Mind treated like a computer program.
+Explains many cognitive functions.
+
+=== What Remains
+
+*Subjective experience (“what it feels like”)* is unexplained.
+
+Classic framing:
+How does physical tissue produce experience?
+
+== 17. Mechanistic Conception: Ethical Implications
+
+Mechanistic view: All mental life emerges from physical processes.
+
+=== Conflicts With Humanist Values
+
+1. *Free Will:* If everything is mechanistic, where is choice?
+2. *Intrinsic Value:* How do machines have moral worth?
+3. *Spiritual Value:* Mechanistic models leave no room for soul.
+
+=== Possible Responses
+
+1. Reject scientific view → embrace dualism
+2. Reject humanist values → all illusions
+3. Reconcile both → integrate science + meaning
+
+== Key Takeaways
+
+* Dualism vs. Materialism remains central debate
+* Science strongly supports mind = brain activity
+* Brain structure/function deeply map mental processes
+* Consciousness remains mysterious
+* Mechanistic view challenges free will and morality
+
+== Study Questions
+
+1. What is Crick’s Astonishing Hypothesis and why is it astonishing?
+2. What are Descartes’ arguments for dualism and their weaknesses?
+3. How do neurons encode intensity despite all-or-nothing firing?
+4. What distinguishes agonists from antagonists? Give examples.
+5. Why can’t the brain operate like a traditional serial-processing computer?
+6. What do motor cortex maps reveal about body representation?
+7. What is the hard problem of consciousness, and why is it still unsolved?
+8. How does a mechanistic view challenge ideas of free will and responsibility?

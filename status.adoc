@@ -7,3 +7,50 @@ We've started our winter semester, and this is the completion of our first week.
 Yale Psychology Course Lectures: 1-4 +
 Learning how to learn: https://www.youtube.com/watch?v=zgBkbKrnCrk
 
+=== What I learned:
+Psychology:
+
+- THE ASTONISHING HYPOTHESIS (Francis Crick)
+- The war between Dualism and psychology
+- The Human Brain Structure
+- Freud and the development of the idea of Unconsciousness.
+- The unconsciousness as a means to Master psychological deception as the best lies are those believed.
+- Behaviorism and Conditioning.
+- Habituation, Classical Conditioning, and Operant (Instrumental) Conditioning.
+- Reinforcement Learning.
+- Natural Conditioning/Predetermined/Unconsciousness Proof
+
+
+
+==== Learning to Learn:
+
+- Memory Recall is the best technique for learning and people who test/exam themselves often is the best.
+-  Learning = making connections between neurons in long-term memory
+-  Sleep: Reinforces recently used connections Eliminates unused connections while clearing toxins
+- Distributed practicing has better results than cramming
+- Most successful teachers use metaphors/analogies
+- Focus mode(Concentrated attention on specific problem) vs. Diffuse Mode(Mind-wandering, shower thoughts, walking, Broad relaxed thinking)
+Problem: Cannot be in both modes simultaneously on same topic
+-   Exercise and Nutrition can help brain plasticity. Exercise + nutrition > sum of individual effects.
+- Some games undergoing FDA approval for cognitive enhancement
+- Multitasking: General population: ~30% efficiency loss when task switching
+- Procrastination: Trigger: Thinking about disliked task Response: Insular cortex activation (pain experience) Behavior: Shift to pleasant thoughts → immediate relief
+- Phones/Distractions Kill learning productivity.
+- Flow state's are bad for learning.
+
+
+
+
+
+==== NeuroScience:
+Neurons only fire digitally(YES, Or NO) But is decided Analog means in the brain through neuro chemical signals that adjust proteins in between the Axon(Message Senders) and Dendrites(Message Receivers) that change the chance of the Neuron firing.
+
+In order to show intensity A Neuron will either fire more rapidly, or more Neurons will Fire.
+
+The Brain does Countless Processes each second side by side in order to compensate for tissue being slow.
+
+The Brain forms Synapses: Connections in the brain between Neurons through Axons and Dendrites which can be connected up to 15000 Bypasses per Neuron at the age of 3. And 1 Quadrillion Total.
+
+
+
+
