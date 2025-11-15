@@ -1,0 +1,77 @@
+name: Commit and Push Files
+description: "Commit and push one or more files with a custom message."
+author: "VK (rdd13r)"
+branding:
+  icon: "upload"
+  color: "purple"
+
+inputs:
+  files:
+    description: "Space-separated list of files to commit"
+    required: true
+
+  message:
+    description: "Commit message"
+    required: true
+
+outputs:
+  pushed:
+    description: "true if commit was successful and push went through"
+    value: ${{ steps.update.outputs.pushed }}
+
+runs:
+  using: "composite"
+
+  steps:
+
+    - name: Configure Git Identity
+      shell: zsh -l {0}
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        echo "::notice title=Git Identity::✅ Configured git identity for commit"
+        
+        
+    - name: 🛠️ Ensure Branch Checkout
+      shell: zsh -l {0}
+      run: |
+        BRANCH="${GITHUB_HEAD_REF:-$(git rev-parse --abbrev-ref HEAD)}"
+        echo "::notice title=Target Branch::🔀 Switching to branch: $BRANCH"
+        git fetch origin "$BRANCH"
+        git checkout "$BRANCH"
+        git reset --soft "origin/$BRANCH"
+        git status
+
+
+    - name: 📤 Commit and Push Files
+      id: update
+      shell: zsh -l {0}
+      run: |
+        FILES="${{ inputs.files }}"
+        MESSAGE="${{ inputs.message }}"
+        
+        echo "::notice title=Preparing Commit::Files: $FILES"
+        
+        IFS=' ' read -r -A file_list <<< "$FILES"
+        git add "${file_list[@]}" || {
+          echo "::error title=Add Failed::One or more specified files do not exist or failed to add."
+          echo "pushed=false" >> $GITHUB_OUTPUT
+          exit 1
+        }
+        
+        if git diff --cached --quiet; then
+          echo "::warning title=No Changes to Commit::Skipping commit and push"
+          echo "pushed=false" >> $GITHUB_OUTPUT
+          exit 0
+        fi
+        
+        git commit -m "$MESSAGE"
+        
+        BRANCH="${GITHUB_HEAD_REF:-$(git rev-parse --abbrev-ref HEAD)}"
+        if output=$(git push origin "$BRANCH" --porcelain); then
+          echo "::notice title=Pushed Changes::➡️ Branch: $BRANCH :: $output"
+          echo "pushed=true" >> $GITHUB_OUTPUT
+        else
+          echo "::error title=Git Push Failed::Push to $BRANCH failed. Investigate detached HEAD or permission issues."
+          echo "pushed=false" >> $GITHUB_OUTPUT
+        fi
