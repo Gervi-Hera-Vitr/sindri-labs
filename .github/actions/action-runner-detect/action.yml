@@ -1,0 +1,41 @@
+name: Detect Runner Type"
+description: "Outputs whether we're running on self-hosted infra or a hosted GitHub runner"
+author: "VK (rdd13r)"
+branding:
+  icon: "server"
+  color: "red"
+
+outputs:
+  is-self-hosted:
+    description: "true if running on a self-hosted runner"
+    value: ${{ steps.detect.outputs.self }}
+  runner-name:
+    description: "The name of the runner"
+    value: ${{ steps.detect.outputs.name }}
+  runner-nick:
+    description: "The nickname of the runner"
+    value: ${{ steps.detect.outputs.nick }}
+
+runs:
+  using: "composite"
+
+  steps:
+
+    - id: detect
+      shell: zsh -l {0}
+      run: |
+        echo "::group::Detect Runner Type"
+        name="${{ runner.name }}"
+        nick="$( hostname -s )"
+        
+        if [[ "$name" == *"GitHub Actions"* ]]; then
+          echo "::notice title=🌀 Hosted runner::Running on GitHub-hosted collective farm infrastructure."
+          echo "self=false" >> $GITHUB_OUTPUT
+        else
+          echo "::notice title=✅ Self-hosted runner ($name -> $nick)::Running on self-hosted dedicated infrastructure."
+          echo "self=true" >> $GITHUB_OUTPUT
+        fi
+
+        echo "name=$name" >> $GITHUB_OUTPUT
+        echo "nick=$nick" >> $GITHUB_OUTPUT
+        echo "::endgroup::"

@@ -1,0 +1,103 @@
+name: Actions Runner Canary
+run-name: "Introspect Runner on ${{ github.repository }} by ${{ github.actor }} with ${{ github.event_name }} (Attempt ${{ github.run_attempt }})"
+#.github/workflows/custom-runner-introspect.yml
+
+on:
+  push:
+    branches-ignore:
+      - main
+      - 'dependabot/**'
+  workflow_dispatch:
+    inputs:
+      host-info:
+        required: false
+        type: boolean
+        default: true
+        description: "Should we probe for Hosted Infra? This is useful for debugging issues with Hosted Infra."
+
+
+defaults:
+  run:
+    shell: zsh -l {0}
+
+jobs:
+  canary-flight-job:
+    runs-on: [self-hosted, canary]
+    timeout-minutes: 11
+
+    steps:
+
+      - name: Checkout
+        uses: actions/checkout@v5.0.0
+        with:
+          fetch-depth: 0
+          fetch-tags: true
+
+
+      - name: Detect Runner Type
+        id: env
+        uses: ./.github/actions/action-runner-detect
+
+
+      - name: Hosted Infra Snapshot
+        if: inputs.host-info == 'true'
+        run: |
+          echo "::group::🖥️ Hosted Infra Fingerprint"
+          echo "::notice title=Event::$GITHUB_EVENT_NAME"
+          echo "::notice title=Branch::$GITHUB_REF_NAME"
+          echo "::notice title=OS:: $(cat /etc/issue || true)"
+          echo "::notice title=Kernel::$(uname -v || true)"
+          echo "::notice title=Memory::$(free -hg || true)"
+          echo "::notice title=CPU::$(nproc) cores, $(lscpu | grep 'Model name' | uniq || true)"
+          echo "::notice title=Git::$(git --version || true)"
+          echo "::notice title=GitHub CLI::$(gh version || true)"
+          echo "::notice title=Runner::${{ steps.env.outputs.runner-name }} (${{ steps.env.outputs.runner-nick }})"
+          echo "::endgroup::"
+
+
+      - name: Toolchain Validation
+        id: introspect
+        if: steps.env.outputs.is-self-hosted == 'true'
+        timeout-minutes: 7
+        uses: ./.github/actions/action-runner-introspect
+        with:
+          validate-sdks: true
+          mandatory-tools: "sdkman,java,gradle,kotlin,ruby,bundler,conda,mamba,python"
+          sdkman-version: '5.20.0'
+          sdkman-native: '0.7.14'
+          java-version: '21.0.9-tem'
+          gradle-version: '9.2.0'
+          kotlin-version: '2.2.21'
+          kobweb-version: '0.9.21'
+          maven-version: '3.9.11'
+          sbt-version: '1.11.7'
+          scala-version: '3.7.4'
+          ruby-version: '3.3.5'
+          gems-version: '3.7.2'
+          bundler-version: '2.7.2'
+          conda-version: '25.9.1'
+          mamba-version: '2.3.3'
+          python-version: '3.12.12'
+
+      - name: Toolchain Validation Report
+        if: always()
+        run: |
+          echo "::group::Toolchain Validation Report"
+          
+          if [[ "${{ steps.introspect.outputs.sdkman-matches }}" == "false" ]]; then
+            echo "::warning title=SDKMAN Version Mismatch::Expected script (0.5.19 vs. ${{ steps.introspect.outputs.sdkman-version }}), native (0.7.4 vs. ${{ steps.introspect.outputs.sdkman-native }}"
+          fi
+          
+          if [[ "${{ steps.introspect.outputs.sdks-have-missing }}" == "true" ]]; then
+            echo "::warning title=Missing SDKs::These SDKs are missing: ${{ steps.introspect.outputs.missing-sdks }}"
+          fi
+          
+          if [[ -n "${{ steps.introspect.outputs.added-sdks }}" ]]; then
+            echo "::notice title=Extra SDKs Installed::These SDKs are extra: ${{ steps.introspect.outputs.added-sdks }}"
+          fi
+          
+          if [[ -n "${{ steps.introspect.outputs.mismatched-sdks }}" ]]; then
+            echo "::error title=Mismatched SDKs::These SDKs are in wrong versions: ${{ steps.introspect.outputs.mismatched-sdks }}"
+          fi
+          
+          echo "::endgroup::"

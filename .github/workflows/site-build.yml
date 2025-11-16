@@ -1,6 +1,6 @@
-name: GitHub Site Build with Jekyll
+name: Site Build
 run-name: "Jekyll built and bundles on ${{ github.repository }} by ${{ github.actor }} with ${{ github.event_name }} (Attempt ${{ github.run_attempt }})"
-#.github/workflows/github-pages-deploy.yml
+#.github/workflows/site-deploy.yml
 
 on:
   workflow_dispatch:
@@ -26,7 +26,7 @@ concurrency:
 jobs:
 
   build-custom-jekyll-site:
-    runs-on: [ self-hosted, jekyll ]
+    runs-on: [self-hosted]
     timeout-minutes: 13
 
     steps:

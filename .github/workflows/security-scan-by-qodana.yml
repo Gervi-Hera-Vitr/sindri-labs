@@ -1,15 +1,20 @@
-name: Security Scan by Qodana
+name: Security by Qodana
 run-name: "Executed Security Scan by Qodana on ${{ github.repository }} by ${{ github.actor }} with ${{ github.event_name }} (Attempt ${{ github.run_attempt }})"
 #.github/workflows/security-scan-by-qodana.yml
 #.github/qodana.yaml
 
 on:
+  push:
+    branches:
+      - main
   workflow_dispatch:
+  workflow_call:
   pull_request:
     types:
       - opened
       - reopened
       - closed
+      - synchronize
   schedule:
     - cron: '19 15 3 * *'
 
