@@ -42,7 +42,7 @@
 * Dark motives stay hidden.
 * If you don’t consciously know your motives, you can’t reveal them involuntarily.
 
----
+'''
 
 == Part 2: Behaviorism – Historical Context
 
@@ -54,7 +54,7 @@
 === Skinner’s Cultural Impact
 * 1960s–1970s: Talk shows, bestselling books, mainstream influence.
 
----
+'''
 
 == Part 3: Core Principles of Behaviorism
 
@@ -85,7 +85,7 @@ ____
 * All animals learn via same mechanisms.
 * Therefore: Nonhuman animals can model human learning.
 
----
+'''
 
 == Part 4: Three Learning Mechanisms
 
@@ -100,7 +100,7 @@ ____
 === Research Use
 * Studying infants and nonverbal animals.
 
----
+'''
 
 == Mechanism 2: Classical Conditioning
 
@@ -122,7 +122,7 @@ ____
 * Repeated CS without UCS → CR weakens.
 * After delay, CR returns when CS is reintroduced.
 
----
+'''
 
 === Classical Conditioning Applications
 
@@ -145,7 +145,7 @@ ____
 ==== Fetish Development (Speculative)
 * Accidental pairing of sexual arousal with unrelated objects.
 
----
+'''
 
 === Modern View: Preparation Theory
 * Classical conditioning prepares organism for upcoming events.
@@ -156,14 +156,14 @@ ____
 * Raised hand (CS) → flinch (CR)
 * Hit (UCS) → pain (UCR)
 
----
+'''
 
 === Pop Culture: *A Clockwork Orange*
 * UCS: Drug-induced nausea
 * CS: Violent imagery
 * CR: Nausea at violence
 
----
+'''
 
 == Mechanism 3: Operant Conditioning
 
@@ -174,7 +174,7 @@ ____
 * Classical = passive
 * Operant = active
 
----
+'''
 
 === Thorndike’s Puzzle Box
 * Cats escape by chance.
@@ -185,7 +185,7 @@ ____
 * Reward → increased behavior
 * No reward → decreased behavior
 
----
+'''
 
 === Reinforcement Types
 
@@ -199,13 +199,13 @@ ____
 ==== Punishment
 * Decreases likelihood of behavior.
 
----
+'''
 
 === Shaping: Training Complex Behavior
 * Reinforce successive approximations.
 * Build behavior step-by-step.
 
----
+'''
 
 === Primary vs. Secondary Reinforcers
 * Primary: food, water, sex, pain avoidance.
@@ -215,7 +215,7 @@ ____
 * Tokens exchanged for primary reinforcers.
 * Allows complex reward schedules.
 
----
+'''
 
 === Schedules of Reinforcement
 
@@ -236,13 +236,13 @@ ____
 ==== Slot Machine Example: VR Schedule
 * Most addictive reinforcement schedule.
 
----
+'''
 
 === Partial Reinforcement Effect
 * Intermittently rewarded behaviors resist extinction.
 * Example: child nagging → parent gives in occasionally.
 
----
+'''
 
 === Skinner’s Extension to Human Society
 * Proposed behaviorist engineering for:
@@ -251,7 +251,7 @@ ____
 ** Social design
 * Viewed free will as unnecessary concept.
 
----
+'''
 
 == Part 5: Criticisms and Limitations of Behaviorism
 
@@ -285,7 +285,7 @@ ____
 * Risk of untestable circular explanations.
 * Helped end behaviorism’s dominance.
 
----
+'''
 
 == Part 6: Behaviorism’s Lasting Contributions
 
@@ -309,7 +309,7 @@ ____
 * Universal learning mechanisms
 * Complete reduction to stimulus-response
 
----
+'''
 
 == Key Terms Summary
 
