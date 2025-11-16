@@ -1,4 +1,4 @@
-name: "Label Pull Request"
+name: "PR Label"
 run-name: "Label Pull Request with IAW Labeling Guidelines examining content by ${{ github.actor }} with ${{ github.event_name }}"
 # https://github.com/actions/labeler
 
@@ -12,6 +12,7 @@ on:
       - closed
       - synchronize
   workflow_dispatch:
+  workflow_call:
 
 permissions:
   contents: read

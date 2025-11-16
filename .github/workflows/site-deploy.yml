@@ -1,6 +1,6 @@
-name: GitHub Site Publish by Pages
+name: Site Deploy
 run-name: "Publish Pages Artifact on ${{ github.repository }} by ${{ github.actor }} with ${{ github.event_name }} (Attempt ${{ github.run_attempt }})"
-#.github/workflows/github-pages-deploy.yml
+#.github/workflows/site-deploy.yml
 
 on:
   workflow_dispatch:
@@ -26,14 +26,14 @@ jobs:
 
 
   build-site:
-    uses: ./.github/workflows/github-pages-jekyll-build.yml
+    uses: ./.github/workflows/site-build.yml
     secrets: inherit
     permissions:
       contents: read
 
 
   deploy-to-default-pages:
-    runs-on: [self-hosted, site]
+    runs-on: [self-hosted]
     timeout-minutes: 11
     needs: build-site
     environment:

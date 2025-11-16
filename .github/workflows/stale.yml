@@ -1,4 +1,4 @@
-name: "Manage Stale Issues"
+name: "Stale Issues and PRs"
 run-name: "Managed Stale Labeling ${{ github.repository }} by ${{ github.actor }} with ${{ github.event_name }} (Attempt ${{ github.run_attempt }})"
 # https://github.com/actions/stale
 #.github/workflows/custom-stale-issues-watchdog.yml
@@ -7,10 +7,19 @@ on:
   schedule:
     - cron: '20 10 * * 1'
   workflow_dispatch:
+  workflow_call:
   pull_request:
     types:
       - opened
       - reopened
+      - assigned
+      - closed
+      - unassigned
+      - synchronize
+  create:
+    branches:
+      - '[0-9]+-**'
+      - 'dependabot/**'
 
 permissions:
   issues: write

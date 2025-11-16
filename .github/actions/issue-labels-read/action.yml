@@ -1,0 +1,87 @@
+name: Check Issue Labels
+description: "Extracts GitHub Issue labels and checks if all required ones are present"
+author: "VK (rdd13r)"
+branding:
+  icon: "tag"
+  color: "yellow"
+
+inputs:
+  token:
+    description: "GitHub token for authentication"
+    required: true
+  issue-number:
+    description: "Issue number to check labels on"
+    required: true
+  required-label:
+    description: "Optional single required label"
+    required: false
+  required-labels:
+    description: "Optional comma-separated list of required labels"
+    required: false
+
+outputs:
+  labels:
+    description: "All labels on the issue"
+    value: ${{ steps.eval-labels.outputs.labels }}
+  matched:
+    description: "Space-separated list of matched required labels"
+    value: ${{ steps.eval-labels.outputs.matched }}
+  satisfied:
+    description: "true if all required labels are satisfied"
+    value: ${{ steps.eval-labels.outputs.satisfied }}
+
+runs:
+  using: "composite"
+
+  steps:
+
+    - id: eval-labels
+      shell: zsh -l {0}
+      run: |
+        echo "::group::Fetching Issue Labels"
+        export GH_TOKEN="${{ inputs.token }}"
+        ISSUE=${{ inputs.issue-number }}
+
+        echo "Fetching labels from issue #$ISSUE"
+        LABELS=$(gh issue view "$ISSUE" --json labels --jq '.labels[].name' | sort)
+        echo "::notice title=Detected Issue Labels::$LABELS"
+
+        COMBINED=()
+        if [[ -n "${{ inputs.required-label }}" ]]; then
+          trimmed=$(echo "${{ inputs.required-label }}" | xargs)
+          COMBINED+=("$trimmed")
+          echo "::debug::Adding SINGLE label '$trimmed' as REQUIRED."
+        fi
+        if [[ -n "${{ inputs.required-labels }}" ]]; then
+          IFS=',' read -ra EXTRA <<< "${{ inputs.required-labels }}"
+          for label in "${EXTRA[@]}"; do 
+            trimmed=$(echo "$label" | xargs)
+            COMBINED+=("$trimmed")
+            echo "::debug::Adding MULTIPLE label '$trimmed' as REQUIRED."
+          done
+        fi
+
+        COMBINED=($(printf "%s\n" "${COMBINED[@]}" | sort -u))
+        echo "::notice title=Required Labels Count::Required labels count is ${#COMBINED[@]}"
+
+        MATCHED=()
+        satisfied=true
+        for req in "${COMBINED[@]}"; do
+          if ! echo "$LABELS" | grep -qx "$req"; then
+            echo "::warning title=Missing Label::$req not found on issue"
+            satisfied=false
+          else
+            MATCHED+=("$req")
+          fi
+        done
+
+        echo "labels<<EOF" >> $GITHUB_OUTPUT
+        echo "$LABELS" >> $GITHUB_OUTPUT
+        echo "EOF" >> $GITHUB_OUTPUT
+
+        echo "matched<<EOF" >> $GITHUB_OUTPUT
+        printf '%s\n' "${MATCHED[@]}" >> $GITHUB_OUTPUT
+        echo "EOF" >> $GITHUB_OUTPUT
+
+        echo "satisfied=$satisfied" >> $GITHUB_OUTPUT
+        echo "::endgroup::"
