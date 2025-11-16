@@ -1,0 +1,342 @@
+= Psychology Lecture Notes: The Unconscious and Behaviorism
+
+== Part 1: The Unconscious – Evolutionary Perspective
+
+=== Why Would an Unconscious Evolve?
+
+==== Core Question Reframing
+* Traditional question: *“Why are some things unconscious?”*
+* Better question: *“Why is only a tiny subset of mental life conscious?”*
+* Reality: Most mental activity is unconscious.
+
+=== Deception Hypothesis
+
+==== Basic Premise
+* Evolution favored unconscious processes.
+* The best lies are those we believe ourselves.
+* You are a more effective liar if you believe your own deception.
+
+==== Deception in Nature
+* *Chimpanzees:* Hair stands on end → appear larger.
+* *Angler fish:* Lure mimics prey → fools other fish.
+
+==== Human Deception
+* Humans excel at psychological deception.
+* Constant self-presentation: tougher, smarter, sexier, more trustworthy.
+* Social psychology studies strategies for managing impressions.
+
+==== Lie Detection Arms Race
+* Co-evolution of deceptive abilities and lie-detection mechanisms.
+
+==== Hitchcock Anecdote
+* Child actor couldn’t cry on command.
+* Hitchcock told him: *“Your parents have left you and are never coming back.”*
+* Genuine emotion → better acting.
+* Principle: Authentic emotions outperform performed ones.
+
+==== Applications to Pain & Emotion
+* Pain contest → best strategy is to *actually be in pain*.
+* Love → persuasion works better if you *truly believe it*.
+
+==== Unconscious as Deception Shield
+* Dark motives stay hidden.
+* If you don’t consciously know your motives, you can’t reveal them involuntarily.
+
+'''
+
+== Part 2: Behaviorism – Historical Context
+
+=== Origins and Development
+* Psychoanalysis: Created by Freud.
+* Behaviorism: Pre-Skinner; early leader = Watson.
+* Skinner: Packaged, expanded, and popularized behaviorism.
+
+=== Skinner’s Cultural Impact
+* 1960s–1970s: Talk shows, bestselling books, mainstream influence.
+
+'''
+
+== Part 3: Core Principles of Behaviorism
+
+=== Principle 1: Extreme Learning Emphasis
+* Everything you know/are = learned.
+* No innate human nature.
+* Humans are infinitely malleable.
+
+==== Watson’s Famous Boast
+____
+“Give me a dozen healthy infants … I’ll train them to become any type of specialist I choose.”
+____
+
+==== Egalitarian Implications
+* No group is inherently superior.
+* Differences arise from learning, not biology.
+
+=== Principle 2: Anti-Mentalism
+* Mental states (desires, wishes, goals) considered unscientific.
+* Replace them with observable constructs:
+** Stimulus
+** Response
+** Reinforcement
+** Punishment
+** Environment
+
+=== Principle 3: No Significant Species Differences
+* All animals learn via same mechanisms.
+* Therefore: Nonhuman animals can model human learning.
+
+'''
+
+== Part 4: Three Learning Mechanisms
+
+== Mechanism 1: Habituation
+* Decrease in response after repeated exposure to stimulus.
+* Adaptive: Frees attention for novel events.
+
+=== Key Properties
+* Harmful stimuli remain noticed.
+* Benign, repeated stimuli fade from awareness.
+
+=== Research Use
+* Studying infants and nonverbal animals.
+
+'''
+
+== Mechanism 2: Classical Conditioning
+
+=== Definition
+* Learning association between two stimuli.
+
+=== Pavlov’s Discovery
+* Food (UCS) → salivation (UCR)
+* Bell (neutral) + food → salivation
+* Bell becomes CS → salivation becomes CR
+
+=== Terms
+* *UCS:* Unconditioned Stimulus
+* *UCR:* Unconditioned Response
+* *CS:* Conditioned Stimulus
+* *CR:* Conditioned Response
+
+=== Extinction & Spontaneous Recovery
+* Repeated CS without UCS → CR weakens.
+* After delay, CR returns when CS is reintroduced.
+
+'''
+
+=== Classical Conditioning Applications
+
+==== Case Study: Little Albert
+* UCS: Loud noise
+* UCR: Fear
+* CS: Rat
+* CR: Fear
+* Generalization to related furry objects.
+
+==== Phobia Development
+* Neutral stimulus + trauma → phobia.
+
+==== Systematic Desensitization
+* Pair feared stimulus with relaxation.
+
+==== Hunger & Addiction
+* Eating/drinking/smoking become tied to environmental cues.
+
+==== Fetish Development (Speculative)
+* Accidental pairing of sexual arousal with unrelated objects.
+
+'''
+
+=== Modern View: Preparation Theory
+* Classical conditioning prepares organism for upcoming events.
+* CS must precede UCS for strongest learning.
+* CR ≠ UCR (CR is preparatory; UCR is direct).
+
+==== Example: Child Abuse
+* Raised hand (CS) → flinch (CR)
+* Hit (UCS) → pain (UCR)
+
+'''
+
+=== Pop Culture: *A Clockwork Orange*
+* UCS: Drug-induced nausea
+* CS: Violent imagery
+* CR: Nausea at violence
+
+'''
+
+== Mechanism 3: Operant Conditioning
+
+=== Definition
+* Learning relationship between action and consequence.
+
+=== Differences from Classical Conditioning
+* Classical = passive
+* Operant = active
+
+'''
+
+=== Thorndike’s Puzzle Box
+* Cats escape by chance.
+* Rewarded behaviors increase.
+* Non-rewarded behaviors extinguish.
+
+=== Law of Effect
+* Reward → increased behavior
+* No reward → decreased behavior
+
+'''
+
+=== Reinforcement Types
+
+==== Positive Reinforcement
+* Add something desirable.
+
+==== Negative Reinforcement
+* Remove something aversive.
+* NOT punishment.
+
+==== Punishment
+* Decreases likelihood of behavior.
+
+'''
+
+=== Shaping: Training Complex Behavior
+* Reinforce successive approximations.
+* Build behavior step-by-step.
+
+'''
+
+=== Primary vs. Secondary Reinforcers
+* Primary: food, water, sex, pain avoidance.
+* Secondary: learned via association (e.g., praise, tokens).
+
+=== Token Economies
+* Tokens exchanged for primary reinforcers.
+* Allows complex reward schedules.
+
+'''
+
+=== Schedules of Reinforcement
+
+==== Ratio vs. Interval
+* *Ratio:* Based on number of responses.
+* *Interval:* Based on time.
+
+==== Fixed vs. Variable
+* *Fixed:* Predictable.
+* *Variable:* Unpredictable.
+
+==== Four Schedules
+* FR (Fixed Ratio)
+* VR (Variable Ratio)
+* FI (Fixed Interval)
+* VI (Variable Interval)
+
+==== Slot Machine Example: VR Schedule
+* Most addictive reinforcement schedule.
+
+'''
+
+=== Partial Reinforcement Effect
+* Intermittently rewarded behaviors resist extinction.
+* Example: child nagging → parent gives in occasionally.
+
+'''
+
+=== Skinner’s Extension to Human Society
+* Proposed behaviorist engineering for:
+** Justice system
+** Parenting
+** Social design
+* Viewed free will as unnecessary concept.
+
+'''
+
+== Part 5: Criticisms and Limitations of Behaviorism
+
+=== 1. No Innate Knowledge
+* Language acquisition shows innate structures.
+* Early object understanding present in infants.
+* Sexual preferences emerge without training.
+
+=== 2. Unobservables Are Scientific
+* Physics, chemistry, biology all study unobservable constructs.
+* Internal mental mechanisms required for explanation.
+
+=== 3. Learning Without Reinforcement
+* Tolman’s rats formed mental maps without reward.
+* Demonstrates latent learning.
+
+=== 4. Species-Specific Learning Constraints
+* Certain behaviors easier to learn depending on species and instinct.
+
+=== Garcia Effect
+* Taste + nausea → strong learning
+* Taste + shock → no learning
+* Prepared learning is biologically specific.
+
+=== Prepared Phobias
+* Humans and chimps predisposed to fear snakes, spiders, heights.
+* Rare phobias for modern dangers (cars, outlets).
+
+=== 5. Chomsky’s Critique
+* Behaviorist terms become vague in human application.
+* Risk of untestable circular explanations.
+* Helped end behaviorism’s dominance.
+
+'''
+
+== Part 6: Behaviorism’s Lasting Contributions
+
+=== 1. Learning Mechanisms
+* Habituation, classical conditioning, operant conditioning remain valid.
+
+=== 2. Practical Training Techniques
+* Effective for animals, infants, autistic individuals, clinical settings.
+
+=== 3. Institutional Applications
+* Token economies in prisons, hospitals, etc.
+
+=== What Survived
+* Empirical methods
+* Learning principles
+* Reinforcement-based training
+
+=== What Failed
+* Blank-slate theory
+* Anti-mentalism
+* Universal learning mechanisms
+* Complete reduction to stimulus-response
+
+'''
+
+== Key Terms Summary
+
+=== Classical Conditioning
+* UCS / UCR
+* CS / CR
+* Extinction
+* Spontaneous recovery
+* Stimulus generalization
+* Systematic desensitization
+
+=== Operant Conditioning
+* Law of effect
+* Positive/negative reinforcement
+* Punishment
+* Shaping
+* Successive approximations
+* Primary/secondary reinforcers
+* Token economy
+* Ratio/interval schedules
+* Partial reinforcement effect
+
+=== General Concepts
+* Habituation
+* Anti-mentalism
+* Prepared learning
+* Garcia effect
+* Mental maps
+* Latent learning
+* Species-specific constraints

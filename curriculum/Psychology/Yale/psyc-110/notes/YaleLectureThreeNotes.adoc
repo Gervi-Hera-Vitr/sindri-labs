@@ -1,0 +1,251 @@
+= PSYC 110 Lecture 3: Foundations of Psychology – Freud
+
+== Historical Context & Significance
+
+*Sigmund Freud (1850s–1940s)*
+
+* Born in Austria, died in London (fled Nazis at the start of WWII)
+* Most famous psychologist in history
+* Known for building a comprehensive theory over decades (not for a single discovery)
+* Extremely energetic and productive (also a cocaine user)
+* Nominated for Nobel Prize (medicine & literature) – never won
+* Controversial personality:
+** Ambitious, often dishonest
+** Harsh toward both friends and enemies
+** Seen as a sexual renegade, threatening Christian values
+
+== Scope of Theory
+
+Freud proposed a *grand theory* that attempted to explain:
+
+* Daily life
+* Child development
+* Mental illness
+* Religion
+* War
+* Love
+* Dreams
+* Memory lapses
+* Attraction and repulsion
+
+This contrasts with most psychological theories, which are much more narrow and specialized.
+
+== Core Theoretical Framework
+
+=== The Unconscious Mind Structure
+
+Freud proposed three components in constant conflict:
+
+==== Id (present at birth)
+
+* Primitive, animal self
+* Seeks:
+** Food
+** Warmth
+** Elimination
+** Sexual satisfaction
+* Operates on the *Pleasure Principle* – wants immediate gratification
+* Completely unconscious and irrational
+* Called a state of *“polymorphous perversity”* by Freud
+
+==== Ego (develops early)
+
+* The conscious self
+* Operates on the *Reality Principle*
+* Mediates between id and superego
+* Plans how to satisfy desires or suppress them
+* Source of conscious awareness
+
+==== Superego (develops through socialization)
+
+* Internalized parental and social rules
+* Acts as conscience
+* Also irrational in its own way – says “you should be ashamed”
+* Not a sophisticated moral philosopher, just a harsh internal critic
+
+*Key Point:* Most of this system is unconscious – you cannot simply introspect to see these processes.
+
+=== Psychosexual Development Stages
+
+==== Stage 1: Oral Stage (infancy)
+
+* Pleasure center: mouth (sucking, chewing)
+* Fixation cause: premature weaning
+* Resulting “oral personality”:
+** Overeating
+** Smoking
+** Gum chewing
+** Dependency and neediness
+
+==== Stage 2: Anal Stage (early childhood)
+
+* Pleasure center: elimination
+* Fixation cause: poor toilet training
+* Resulting “anal personality”:
+** Compulsive
+** Obsessively clean
+** Stingy
+** Unwilling to “let go”
+
+==== Stage 3: Phallic Stage (3–4 years)
+
+* Pleasure center: genitals
+* Fixation can lead to:
+** Excessive masculinity
+** Strong need for attention or domination
+
+===== Oedipus Complex (in boys)
+
+* Boy loves mother (source of comfort)
+* Sees father as rival/competitor
+* Fantasizes about killing father
+* Believes father knows this
+* Fears *castration* as punishment
+* Resolution:
+** Identifies with father
+** Represses sexual feelings for mother
+
+===== Electra Complex (in girls)
+
+* Girl discovers she “lacks” a penis
+* Believes she was castrated
+* Experiences *penis envy*
+* Turns to father (who has a penis) as love object
+* Rejects mother (who is also “lacking”)
+* Supposedly shapes later sexual preferences and allegiances
+
+==== Stage 4: Latency Stage (childhood)
+
+* Sexual feelings are repressed after Oedipal/Electra resolution
+* Lasts several years
+
+==== Stage 5: Genital Stage (puberty onward)
+
+* Mature adult sexuality
+* However, unconscious conflicts continue to operate.
+
+== Defense Mechanisms
+
+Normal psychological processes that keep unconscious content out of consciousness:
+
+* *Sublimation* – Channel sexual/aggressive energy into socially acceptable outlets
+(e.g., art, sports)
+* *Displacement* – Redirect emotions to safer targets
+(e.g., hate father → kick dog)
+* *Projection* – Attribute your own unacceptable desires to others
+(e.g., homophobic person projecting own impulses)
+* *Rationalization* – Provide socially acceptable reasons for unacceptable behavior
+(e.g., “spanking is good parenting”)
+* *Regression* – Return to an earlier developmental stage under stress
+(e.g., thumb sucking, crying)
+
+== Clinical Applications
+
+=== Hysteria (outdated term)
+
+* Symptoms:
+** Blindness
+** Deafness
+** Paralysis
+** Trembling
+** Panic attacks
+** Amnesia
+(with no physiological cause)
+* Freud’s view: symptoms exist to prevent unconscious content from emerging.
+
+=== Psychoanalytic Method
+
+* Originally: hypnosis
+* Later: free association
+* Goal: overcome resistance and gain insight
+* Theoretical claim: once the unconscious cause is understood, the symptom disappears.
+
+== Dreams
+
+* *Manifest content:* what you consciously experience in the dream
+* *Latent content:* hidden meaning/symbolism
+* Freud: *all dreams are wish fulfillment* (even forbidden wishes)
+* Universal themes reflect unconscious struggles.
+
+== Scientific Critique
+
+=== Major Problems with Freudian Theory
+
+==== 1. Unfalsifiability (Karl Popper’s critique)
+
+* Theory is too vague to test.
+* Predicts everything, so it can’t be proven wrong.
+* Example:
+** Patient agrees with interpretation → Freud is right.
+** Patient disagrees → “Your resistance proves I’m right.”
+* Similar issue with astrology vs. real science (which can be disproven).
+
+==== 2. Lack of Empirical Support
+
+* No strong evidence that:
+** Oral/anal personalities correspond to weaning/toilet training history.
+* Cross-cultural data:
+** No consistent link between child-rearing practices and Freud’s predicted adult personality outcomes.
+* Freud’s theories about homosexuality are unsupported.
+* Psychoanalysis is not more effective than other treatments for mental disorders.
+
+==== 3. Validation Problems
+
+* You cannot validate the theory simply through psychoanalysis (circular reasoning).
+* When Freud’s ideas are tested via specific predictions, they often fail.
+
+=== Current Status
+
+* Rarely studied in psychology departments as *current* theory.
+* More common in:
+** History departments
+** Literature departments
+* Few modern psychologists identify as Freudian practitioners.
+* Psychoanalytic practice continues mostly outside academic psychology.
+
+== Valid Contributions (Modern Psychology Support)
+
+=== The Dynamic Unconscious Survives
+
+Modern evidence supports the idea of unconscious processes:
+
+* *Language processing* – automatic parsing of sentences without awareness.
+* *Automatic behaviors* – driving, tying shoes, etc., without conscious control.
+* *Preferences shaped unconsciously:*
+** Initiation effect: the harder you work for something, the more you like it.
+** Price effect: the more you pay, the more you value it.
+** Cognitive ease: the easier it is to list reasons, the stronger your preference feels.
+* *Terror management studies:* subliminal death-related words increase nationalism and decrease tolerance.
+* *Racial/sexual prejudice:* people hold implicit attitudes they’re unaware of and can’t easily control.
+
+=== Schwarz Experiment (lecture example)
+
+* Group 1:
+** List 3 positive features of a loved one → increased liking.
+* Group 2:
+** List 10 positive features → decreased liking.
+* Interpretation:
+** Difficulty generating 10 reasons makes people doubt their feelings.
+** People are unaware that the *task difficulty* influenced their ratings.
+
+== Historical Impact
+
+Freud’s ideas have reshaped our worldview so deeply that we forget how things looked before:
+
+* We now take for granted:
+** Unconscious motivation
+** Childhood shaping adult personality
+** Symbolic meaning of actions and symptoms
+* Freud is a *“victim of his own success”* – his concepts are so integrated that we rarely credit him explicitly.
+
+== Lecture Questions Addressed
+
+* *Single-parent families:*
+Freud’s theory was built around upper-class European nuclear families – it fits poorly with many modern family structures.
+* *Women and the superego:*
+Freud believed women had weaker superegos than men (a view now seen as highly problematic and sexist).
+* *Cross-cultural variation:*
+Little evidence that his psychosexual stages apply universally across cultures.
+* *Medication:*
+Freud thought talk therapy was superior; many modern psychoanalysts argue drugs mask symptoms rather than addressing root causes.
+
