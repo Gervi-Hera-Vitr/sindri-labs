@@ -1,0 +1,1858 @@
+= Psychology Lecture Notes: Piaget, Cognitive Development, and Infant Cognition
+
+== Part 1: Jean Piaget - Theoretical Framework
+
+=== Historical Influence
+
+*Current Impact:*
+
+* Most modern methods, theories, and ideas in developmental psychology shaped by Piaget's influence
+* Foundational figure in cognitive development research
+
+=== Core Philosophical Position
+
+*Children as Active Thinkers:*
+
+* Not passive recipients of information
+* Actively trying to figure out the world
+* Described as "little scientists"
+
+*Ambitious Foundational Goal:*
+
+* Did NOT initially study children out of interest in children per se
+* Primary interest: Emergence of knowledge in general
+* Discipline he created: "Genetic epistemology" (origins of knowledge)
+
+*Theoretical Reasoning:*
+
+* Studied individual child development as window into knowledge development generally
+* Believed ontogeny recapitulates phylogeny
+
+*"Ontogeny Recapitulates Phylogeny":*
+
+* Definition: Development of individual mimics/repeats development of species
+* Status: Entirely not true
+* But: Beautiful phrase and Piaget committed to this principle
+* Logic: How a kid develops → tells us about development of knowledge more generally
+
+'''
+
+=== Two Core Learning Mechanisms
+
+*1. Assimilation:*
+
+* Expanding the range of things you respond to
+* Extending existing schemas to new objects/situations
+* Example: Baby accustomed to sucking on breast → comes to suck on bottle, then rattle
+* Psychological sense: Have a way of looking at world → expand it to encompass new things
+
+*2. Accommodation:*
+
+* Changing HOW you respond
+* Modifying existing schemas when they don't fit
+* Example: Baby forms mouth differently depending on what's being sucked
+* More generally: Change your system of knowledge itself to fit reality
+
+*Interaction of Mechanisms:*
+
+* Both mechanisms drive child through different developmental stages
+* Continuous interplay between assimilation and accommodation
+* Child constructs understanding through active engagement
+
+'''
+
+== Part 2: Piaget's Stage Theory
+
+=== Distinction from Freudian Stage Theory
+
+* Quite different from Freud's psychosexual stages
+* Based on cognitive abilities rather than psychological conflicts
+
+=== Research Methodology
+
+*Piaget's Methods:*
+
+* Ask children to solve problems
+* Ask them questions
+* Observe how they solve problems differently at different ages
+
+*Result:*
+
+* Discoveries of age-related differences led to Stage Theory
+* Different cognitive capabilities emerge at predictable ages
+
+'''
+
+=== Stage 1: Sensorimotor Stage (Birth to ~2 years)
+
+*Defining Characteristics:*
+
+* Child is purely a physical creature
+* No understanding of external world in meaningful cognitive sense
+* No understanding of:
+** Past
+** Future
+** Stability
+** Differentiation
+* Child touches and sees but doesn't yet reason
+
+*Major Achievement: Object Permanence*
+
+*Definition:*
+
+* Understanding that things continue to exist when you no longer see them
+
+*Demonstration (Adults):*
+
+* When looking at someone, you know they continue to exist if they duck down
+* Not just perception - cognitive understanding of continued existence
+
+*Piaget's Claim About Infants:*
+
+* Before 6 months: Children lack object permanence
+* If you hide object child likes (e.g., rattle) behind something: "it's like it's gone"
+* Child genuinely thinks object has ceased to exist
+* Things don't continue to exist when not looking at them
+
+*Peek-a-Boo Interpretation:*
+
+* Why babies are surprised by peek-a-boo
+* Sequence from baby's perspective:
+** See adult face
+** Adult covers face
+** Baby: "He's gone" (literally ceased to exist)
+** Adult uncovers face: "He's back!" (literally came into existence)
+** Repeat cycle
+* Each disappearance/reappearance is genuine for the baby
+
+'''
+
+=== A-not-B Task (Changing Hiding Places Problem)
+
+*Setup:*
+
+* Test with 9-month-old (just starting to understand object permanence)
+* Hide object in cup at location A where child can't see it
+* Child successfully reaches for it at location A
+* Repeat multiple times - child continues reaching successfully at A
+
+*Critical Test:*
+
+* Move object to location B (while child watches)
+* Child still reaches for location A
+
+*Piaget's Interpretation:*
+
+* Children not smart enough to track object movement
+* Don't understand that object is no longer at A
+* Further evidence they don't understand objects fully
+* Understanding of objects takes considerable time and learning to develop
+
+'''
+
+=== Stage 2: Preoperational Stage (~2-7 years)
+
+*Transition:*
+
+* Child grasps world initially only in physical/sensorimotor way
+* In preoperational period: Capacity to represent world mentally emerges
+* Can have "world inside your head"
+
+*BUT: Significant Limitations:*
+
+*1. Egocentrism*
+
+*Common English Meaning:*
+
+* Being selfish
+
+*Piaget's Technical Meaning:*
+
+* Children literally cannot understand that others see world differently from them
+* Not moral failing - cognitive limitation
+
+*Three Mountains Task:*
+
+* Setup:
+** Three mountains positioned on table
+** Child sits on one side
+** Asked to draw what they see - 4-5 year olds can do this easily
+** Then asked to draw how mountains would appear from other side
+* Result: Children find this extraordinarily difficult
+* Interpretation: Very difficult to grasp world as another person might see it
+
+'''
+
+*2. Conservation Problems*
+
+*Definition of Conservation:*
+
+* Ways to transform things such that some aspects change but others remain the same
+* Certain properties are conserved through transformation
+
+*Examples:*
+
+*Liquid Conservation:*
+
+* Pour glass of water into different shaped glass (shallow or tall)
+* Amount of water doesn't change
+* But according to Piaget, children don't know this
+
+*Number Conservation:*
+
+* Take bunch of pennies and spread them out
+* Don't get more pennies by spreading
+* But children don't understand this
+
+*Classic Demonstration - Two Rows of Checkers:*
+
+*Procedure:*
+
+. Present two rows of checkers aligned one-to-one
+. Ask child which has more
+. Child correctly says they're the same
+. Experimenter spreads out one row (same number of items, just more spaced)
+. Ask again which has more
+. Child now says the spread-out row has more
+
+*Significance:*
+
+* "Really stupid" but robust finding
+* Replicates across children
+* Suggests fundamental limitation in understanding transformations
+
+*Practical Application:*
+
+* Anyone with access to 4-5 year old can replicate this
+* Simple demonstration of cognitive stage
+
+'''
+
+=== Stage 3: Concrete Operations (7-12 years)
+
+*Achievements:*
+
+* CAN solve conservation problems
+* Understand physical transformations preserve quantity
+
+*Limitations:*
+
+* Still limited in capacity for abstract reasoning
+* Stuck to some extent in concrete world
+
+*Examples of What's Beyond Them:*
+
+* Mathematical notions: Infinity
+* Logical notions: Logical entailment
+* Abstract theoretical concepts
+
+*Summary:*
+
+* Can do a lot
+* But abstract, theoretical thinking not yet fully developed
+
+'''
+
+=== Stage 4: Formal Operations (~12+ years)
+
+*Capabilities:*
+
+* Abstract reasoning emerges
+* Scientific reasoning possible
+* Can think hypothetically
+* Can reason about abstract concepts
+
+*Full Cognitive Maturity:*
+
+* Able to engage in adult-level abstract thought
+
+'''
+
+== Part 3: Evaluation of Piaget's Theory
+
+=== Why Piaget Fared Better Than Freud or Skinner
+
+*1. Falsifiable Claims:*
+
+* Interesting and testable claims about child development
+* Claims about conservation failures at different ages easily tested
+* Systematically testable predictions
+* Lot of empirical support
+
+*2. Rich Theoretical Framework:*
+
+* Pulled together many observations in coherent way
+* Wrote many books and articles
+* Very well articulated theory
+* Comprehensive explanatory system
+
+*3. Striking Findings:*
+
+* Conservation findings: Nobody noticed before Piaget
+* Object permanence problems: Previously unknown
+* Revealed hidden aspects of child cognition
+* Discoveries that were both surprising and replicable
+
+'''
+
+=== Limitations of Piaget's Theory
+
+*1. Theoretical Limitations:*
+
+*Explanatory Gaps:*
+
+* Interesting question: Does he really EXPLAIN transitions?
+** How does child go from concrete thinker to abstract thinker?
+** How does child go from lacking object permanence to having it?
+* Describes stages well
+* But mechanism of transition less clear
+
+'''
+
+*2. Methodological Limitations:*
+
+*Primary Method: Question and Answer:*
+
+* Heavy reliance on verbal responses from children
+
+*Problem:*
+
+* Children aren't very good with language
+* Might lead to underestimating what they actually know
+* Particularly problematic the younger the child
+
+*General Principle:*
+
+* Performance may not reflect competence
+* Verbal limitations may mask underlying knowledge
+
+'''
+
+*3. Importance of Methodology in Science*
+
+*General Principle:*
+
+* Often 90% of science is discovering clever method to test hypotheses
+* Methodology is crucial in psychology
+
+*Example from Different Domain: Tickling Research:*
+
+*Research Questions:*
+
+* When do people laugh when tickled?
+* Where do you have to tickle?
+* Can you tickle yourself?
+* Does it have to be surprise?
+
+*Methodological Challenge:*
+
+* Very difficult to study in lab
+* Can't just have graduate student tickle participants
+* Social dynamics interfere with natural response
+
+*Henry Gleitman's Solution:*
+
+* Built a "tickle machine"
+* Box with two giant hands that went "r-r-r-r"
+
+*Result:*
+
+* Complete failure
+* People couldn't go near machine without convulsing in laughter
+* Anticipation destroyed natural response
+
+*Point:*
+
+* Sometimes clever methodology fails
+* Sometimes methodology itself creates problems
+* Need to match method to question
+
+'''
+
+*4. Factual Limitations:*
+
+*Central Question:*
+
+* What do infants and children REALLY know?
+
+*Possibility:*
+
+* Due to methodological limitations, Piaget systematically underestimated children's and babies' knowledge
+* Reliance on verbal responses and motor responses may have missed cognitive capabilities
+
+*Evidence:*
+
+* Modern research suggests this is indeed the case
+* Babies know more than Piaget thought
+
+'''
+
+== Part 4: Modern Science of Infant Cognition
+
+=== Historical Context and Consensus View
+
+*Long-Standing View:*
+
+* Tremendous philosophical and psychological consensus
+* Babies are essentially stupid
+* Babies don't know much about the world
+
+*The Onion Headline:*
+
+* Satirizes common view: "New Study Reveals Babies Are Stupid"
+* Captures traditional assumption about infant cognition
+
+*Recent Research:*
+
+* Challenges this consensus
+* Suggests babies might be smarter than traditionally thought
+* But requires clever methods to discover this intelligence
+
+'''
+
+=== The Challenge of Studying Babies
+
+*Fundamental Problem:*
+
+* Can't ask questions - babies can't talk
+* Could look at behavior but babies aren't well-coordinated or skilled
+* Need clever, indirect methods
+
+'''
+
+=== Method 1: Brain Waves
+
+*Technique:*
+
+* Measure electrical activity in brain
+* Use electrodes on scalp
+
+*Example Image:*
+
+* Child with electrodes
+* (Joke about child dying - obviously didn't happen)
+* Shows feasibility of method
+
+*Limitations:*
+
+* Expensive equipment
+* Difficult to interpret
+* Limited information about specific cognitive content
+
+'''
+
+=== Method 2: Pacifier Sucking
+
+*Basic Capability:*
+
+* One thing babies CAN do consistently: suck on pacifier
+
+*Question:*
+
+* How could you learn anything from sucking?
+
+*Answer:*
+
+* Build machines that respond to sucking
+* When baby sucks, they hear music or language
+* Measure how much they suck to determine preferences
+* Sucking rate indicates interest/preference
+
+*Applications:*
+
+* Studying auditory preferences
+* Language discrimination
+* Musical preferences
+
+'''
+
+=== Method 3: Looking Times (Most Important Method)
+
+*Primary Researcher:*
+
+* Elizabeth Spelke (developmental psychologist)
+* Pioneered most research using looking times
+* Developed sophisticated paradigms
+
+*Basic Principle:*
+
+* Babies CAN look
+* Can control eye movements
+* Duration and direction of looking reveals cognitive processing
+
+'''
+
+=== Two Looking-Time Paradigms
+
+*Paradigm 1: Preference*
+
+*Logic:*
+
+* If baby looks longer at X than Y, baby prefers X
+
+*Example Applications:*
+
+*1. Dogs vs. Cats:*
+
+* Show picture of dog on one side
+* Show picture of cat on other side
+* Measure which one baby looks at longer
+* Reveals preference
+
+*2. Pretty Faces vs. Ugly Faces:*
+
+* Put pretty face on one side
+* Put ugly face on other side
+* See if baby prefers to look at pretty one
+* Tests aesthetic preferences
+
+'''
+
+*Paradigm 2: Habituation and Surprise*
+
+*Key Concept:*
+
+* Habituation = fancy word for boredom
+
+*Procedure:*
+
+. Show baby something over and over again
+. Baby learns it's not very interesting (habituation from behaviorism)
+. Show baby something different
+. If baby sees it AS different, baby will look longer
+
+*Measurement:*
+
+* Increased looking time = detection of difference
+* No increase in looking = baby sees stimuli as same
+
+*Example Application: Color Vision*
+
+*Question:*
+
+* Can babies tell green from red?
+
+*Procedure:*
+
+. Show green patch repeatedly
+. Baby habituates (gets bored)
+. Show red patch
+
+*If they look the same to baby:*
+
+* Baby continues to tune out
+* No increase in looking time
+
+*If red looks different:*
+
+* Baby perks up
+* Increased looking time
+
+*Result:*
+
+* This IS how researchers study color vision in babies
+
+'''
+
+=== Surprise Paradigm (Related to Habituation)
+
+*Principle:*
+
+* Show babies something that shouldn't happen
+* If babies also think it shouldn't happen, they'll look longer
+
+*Method:*
+
+* Essentially scientists do magic tricks
+* Violate expected physical or social rules
+* Measure surprise through looking time
+
+'''
+
+== Part 5: Object Permanence Research - Challenging Piaget
+
+=== The Central Question
+
+* Is it really true babies don't know objects remain when out of sight?
+* Piaget said yes - modern research says no
+
+'''
+
+=== Study 1: Spelke and Baillargeon - Occluded Bar
+
+*Display:*
+
+* Block positioned in center
+* Bar moves back and forth
+* Bar visible on top of block and below block
+* Middle section (behind block) is occluded
+
+*Adult Perception:*
+
+* Obvious assumption: There's a complete bar
+* Never see middle section but assume it's there
+* Understand object continues behind occluder
+
+*Alternative (Simpler) Perception:*
+
+* Could just see: bar on top + bar on bottom
+* Two separate objects
+* Wouldn't expect anything in middle (never saw it)
+
+*Test:*
+
+* Habituate babies to this display
+* Then show either:
+** *Display B:* Complete bar (expected)
+** *Display C:* Broken bar (unexpected if assume object continuity)
+
+*Results:*
+
+* Adults expect B; C is almost a joke
+* Babies respond SAME WAY as adults
+* Babies expect complete bar
+* Surprised by (look longer at) broken bar
+
+*Interpretation:*
+
+* Even young babies understand objects continue behind occluders
+* Have concept of object permanence
+* Contradicts Piaget's claims
+
+'''
+
+=== Study 2: Baillargeon - Drawbridge and Block
+
+*Test Age:*
+
+* Six-month-olds
+
+*Setup:*
+
+* Stage with block on it
+* Screen rises and obscures block
+
+*Two Possibilities:*
+
+*If babies expect block to still be there:*
+
+* Should think screen will be stopped by block
+* Screen can't pass through solid object
+
+*If "out of sight, out of mind" (Piaget's view):*
+
+* Should expect screen to keep going
+* Object no longer exists, so nothing to stop screen
+
+*Procedure:*
+
+* Create two displays:
+** *Possible event:* Screen stops at block (block stops screen)
+** *Impossible event:* Remove block with trap door; screen continues full rotation
+
+*Results:*
+
+* Baby "screams" (figurative - actually just looks longer)
+* Babies surprised by impossible event
+* Look longer at screen passing through where block should be
+
+*Interpretation:*
+
+* Babies expect object to remain
+* Understand solid objects should impede screen
+* Have object permanence
+
+'''
+
+=== Study 3: Karen Wynn - Arithmetic and Object Permanence
+
+*Research Location:*
+
+* Yale University, Karen Wynn's lab
+
+*Methods:*
+
+* Real objects in some studies
+* Animated versions in others
+
+*Animated Example:*
+
+* Baby sees: 1 object → +1 object added → occluder
+* Expected result: 2 objects
+* Baby then sees result:
+** 2 objects: Expected (no surprise)
+** 1 object: Unexpected (surprise - baby looks longer)
+** 3 objects: Unexpected (surprise - baby looks longer)
+** 0 objects: Unexpected (surprise - baby looks longer)
+
+*Test:*
+
+* 2 - 1 = ?
+* Babies expect: 1
+* When 2 - 1 = 2 or 3 or 0: Babies look longer (surprise)
+
+*Age:*
+
+* Even six-month-olds sensitive to these rudimentary arithmetic facts
+
+*Implications:*
+
+. Tells us about mathematical knowledge
+. Tells us babies expect things to remain when out of sight
+. Have object permanence much earlier than Piaget claimed
+
+'''
+
+== Part 6: Limits of Infant Physical Knowledge
+
+=== Important Caveat
+
+* Infants' understanding of physical world present from very start
+* BUT not entirely complete
+* Certain things babies DON'T know
+
+'''
+
+=== Gravity Understanding: Developmental Progression
+
+*Study: Floating Block*
+
+*Display:*
+
+* Block positioned mid-air with no support
+* Clearly violates gravity
+
+*6-Month-Olds:*
+
+* Find this surprising
+* Understand objects can't float in mid-air
+* Basic gravity concept present
+
+'''
+
+*Display: Block Partially Supported*
+
+* Block with small portion resting on surface
+* Most of block extends over edge unsupported
+
+*6-Month-Olds:*
+
+* Don't find this surprising
+* Not smart enough to know this should fall
+* Don't understand center of gravity/support requirements
+
+*12-Month-Olds:*
+
+* DO think it should fall
+* Understand need for adequate support
+
+'''
+
+*Display: Top-Heavy Configuration*
+
+* Object balanced but unstable
+* Should tip over
+
+*12-Month-Olds:*
+
+* Don't find anything weird about this
+* Don't understand instability
+
+*Adults:*
+
+* Sophisticated enough to understand unstable configuration
+* Know it should fall over
+
+'''
+
+=== General Principle
+
+*Conclusion:*
+
+* Some things are built in (basic object continuity, simple physics)
+* Some things develop over time (gravity details, stability)
+* Raises question: How do we explain development?
+
+'''
+
+== Part 7: Mechanisms of Development
+
+=== Mechanism 1: Neural Maturation - Growth of Brain
+
+*Neuron Count:*
+
+* Most neurons you have now in your head were present in mother's uterus
+* Don't generate massive numbers of new neurons through development
+
+*What DOES Happen in Development:*
+
+*Primary Process: Pruning*
+
+* Getting rid of neurons
+* Neural structures change radically
+* Babies eliminate excess neurons through development
+
+*Synaptic Growth:*
+
+* While pruning neurons, connections between neurons grow extensively
+* "Connections grow like crazy"
+* Process of synaptic growth: Connections across different synapses
+* Peaks at approximately 2 years of age
+
+*Myelination:*
+
+* Fatty sheath develops over neurons
+* Makes neurons more effective at transmission
+* Continues through development
+* Even teenagers not fully myelinated
+* Particularly: Not fully myelinated in frontal lobes
+
+*Frontal Lobe Functions:*
+
+* Involved in restraint
+* Involved in willpower
+* Executive function
+
+*Implication:*
+
+* Problem might be: Baby's brain doesn't develop certain capacities yet
+* Physical maturation of brain limits cognitive capabilities
+
+'''
+
+=== Mechanism 2: Problems with Inhibition
+
+*Relationship to Brain Development:*
+
+* Related to frontal lobe development
+* Comes out clearly in A-not-B error
+
+*A-not-B Error Revisited:*
+
+* Baby reaches at A repeatedly
+* Object moved to B
+* Baby continues reaching at A
+
+*Two Possible Explanations:*
+
+*Piaget's Explanation:*
+
+* Babies don't know anything about objects
+* Lack understanding of object permanence
+
+*Alternative Explanation:*
+
+* Once you do something, it's hard to stop
+* Takes cognitive control to inhibit prepotent response
+* Babies lack this control
+
+*Supporting Evidence:*
+
+* Independent evidence that babies lack inhibitory control
+* Part of brain controlling certain behaviors not active yet
+
+'''
+
+=== Simpson's Illustration of Inhibition
+
+*Homer's Task:*
+
+* Does behavior A repeatedly
+* Stimulus moved
+* Continues doing A (can't inhibit learned response)
+* "D'oh!" - realizes mistake but can't stop
+
+*Application to Development:*
+
+* May sum up much of developmental differences
+* Child does A, A, A
+* It's moved
+* Child continues reaching for A despite seeing movement
+
+*Adele Diamond's Research:*
+
+* Kids reach for A (where object was)
+* But LOOK at B (where object is)
+* Suggests: They KNOW it's at B
+* But can't stop themselves from reaching to A
+* Knowledge present; inhibitory control absent
+
+'''
+
+=== Mechanism 3: Learning - Some Things You Have to Learn
+
+*Domains of Learning:*
+
+* Social world
+* Economic world
+* Political world
+* Physical world
+
+*Even Adults Don't Know Everything:*
+
+'''
+
+=== McCloskey Study: College Students and Physics
+
+*Setup:*
+
+* Hollow tube at top
+* Ball thrown through tube
+* Ball whips through and exits
+
+*Question:*
+
+* What path does ball take after exiting?
+* Path A: Straight line (correct)
+* Path B: Curved path (incorrect)
+
+*Results at Yale:*
+
+* Everybody gets it right
+
+*Results at Johns Hopkins:*
+
+* 50/50 split between A and B
+* Systematic biases
+* Incorrect physical intuitions
+
+*Twist - Water Version:*
+
+* Ask: "What if you squirted water through tube?"
+* Nobody chooses B (curved path)
+* Everybody knows water continues in straight line
+
+*Interpretation:*
+
+* When you have experience: Helps you out
+* Absence of experience: Kind of lost
+* Some physical knowledge requires learning from experience
+* Not all intuitions about physics are innate
+
+'''
+
+== Part 8: Babies in the Social World
+
+=== Early Social Preferences
+
+*Research Challenges:*
+
+* Very hard to do research with newborns
+* Consent procedures
+* Logistical difficulties
+
+*Solution (Humorous):*
+
+* "Most work done in France where they have no laws at all"
+* "Rush in when women give birth: 'We are psychologists!'"
+* "Do experiments on babies - it's terrific"
+
+'''
+
+=== Face Preference Study
+
+*Stimuli:*
+
+* Face-like pattern
+* Scrambled facial features
+
+*Results:*
+
+* Newborns prefer face-like pattern
+* Look longer at organized face
+
+*Interpretation:*
+
+* Preference for faces in humans and other primates
+* Some innate face detection/preference
+
+'''
+
+=== Social Imitation
+
+*Andrew Meltzoff's Research:*
+
+*Advice:*
+
+* "First thing you should do" with newborn baby
+* Stick face right up to baby
+* Stick your tongue out
+
+*Results:*
+
+* Babies more often than not stick tongues out back
+* Suggests social connection between people
+* Early form of imitation
+
+*Later Development:*
+
+* Babies become more sophisticated mimics
+* Will copy facial expressions of person next to them
+
+'''
+
+=== Debates About Early Social Responses
+
+*Questions:*
+
+* Nature of face preference
+* Nature of mimicry responses
+* How "smart" are these behaviors?
+
+*Current Status:*
+
+* Matter of debate
+* Lot of ongoing research
+* Can we use physical world methods for social world?
+
+'''
+
+== Part 9: Social Cognition Research - Helping and Hindering Study
+
+=== Researchers
+
+* Paul Bloom (lecturer)
+* Valerie Kuhlmeier
+* Karen Wynn
+
+=== Participants
+
+* 9-month-olds
+* 12-month-olds
+
+'''
+
+=== Experimental Design
+
+*Setup:*
+
+* Babies watch movies
+* One character helps a ball achieve goal
+* Another character hinders the ball
+
+*Research Question:*
+
+* Will babies expect ball to approach helper vs. hinderer?
+
+*Methodology:*
+
+* Babies see literal movie used in experiment
+* Extensive controls:
+** Square in one movie → triangle in another
+** Top position in one movie → bottom in another
+** Counterbalancing across conditions
+
+'''
+
+=== Movie Content (Example)
+
+* Ball attempts to go up hill
+* One character (helper) pushes ball up
+* Other character (hinderer) pushes ball down
+* Repeated multiple times
+
+'''
+
+=== Test Phase
+
+*Question:*
+
+* Does baby expect ball to approach helper or hinderer?
+
+*Results:*
+
+* Statistically: Babies look longer when ball approaches hinderer
+* Look less (expected event) when ball approaches helper
+
+*Interpretation:*
+
+* Babies have social interpretation of events
+* See movie in terms of helping and hindering
+* Understand social valence of actions
+* Expect approach to helper, not hinderer
+
+'''
+
+=== Follow-Up Research: Kiley Hamlin
+
+*Extended Prediction:*
+
+* If babies understand helping/hindering
+* Babies should themselves prefer helper over hinderer
+
+*Method:*
+
+* Show babies three-dimensional scenes (not just movies)
+* Present actual character objects
+* See which one baby reaches for
+
+*Methodological Detail:*
+
+* Person offering choice is BLIND to study
+* "Blind" = technical term
+* Experimenter has no idea what baby saw
+* Point: Avoid intentional or unintentional influence
+* Can't bias result because doesn't know correct answer
+
+'''
+
+=== Video Example
+
+* Baby watches helping/hindering scene
+* Experimenter (blind to condition) offers two characters
+* Baby reaches for one
+
+*Evidence:*
+
+* Suggests some social understanding may be present from very start
+* Tentative evidence
+* Very controversial
+
+'''
+
+== Part 10: Developmental Puzzle - Children's Social Limitations
+
+=== The Paradox
+
+* Babies show some social understanding (helping/hindering studies)
+* BUT young children are very clueless about people in other ways
+* Not just babies - young children (3-4 years old)
+
+'''
+
+=== Study 1: Deceptive Dolls Study
+
+*Setup:*
+
+* Two dolls with different sized shoes
+* One doll: Big shoes
+* Other doll: Little shoes
+* Food gets stolen
+
+*Actual Thief:*
+
+* Doll with little shoes stole food
+
+*Deception:*
+
+* Big shoes placed at scene
+* Mother will see big shoes
+* Should think doll with big shoes stole food
+
+*Question to Child:*
+
+* "Who will mother think stole the food?"
+
+*Correct Answer:*
+
+* Mother will think doll with big shoes did it (based on evidence)
+
+*Children's Response:*
+
+* Point to doll with little shoes
+* Answer who REALLY stole food
+* Don't understand mother will have false belief based on misleading evidence
+
+'''
+
+=== Study 2: Mean Monkey Study
+
+*Setup:*
+
+* Child wants stickers
+* Two types available (e.g., rocket ships, other design)
+* Mean monkey present
+
+*Rules:*
+
+* Child points to which stickers they want
+* Mean monkey will take whatever child points to
+* Child gets the OTHER stickers
+
+*Correct Strategy:*
+
+* Point to stickers you DON'T want
+* Mean monkey takes those
+* You get the ones you DO want
+
+*Results:*
+
+* Young children repeatedly fail
+* Keep pointing to stickers they want
+* Mean monkey keeps taking them
+* Child gets undesired stickers
+* Doesn't learn to point to other option
+
+'''
+
+=== Age Pattern
+
+*Failure:*
+
+* Three-year-olds fail
+* Young four-year-olds tend to fail
+
+*Success:*
+
+* Around age 4-5, children succeed
+* Period around 4, 4.5 years: Transition from failure to success
+
+'''
+
+== Part 11: Explaining Children's Social Limitations
+
+=== Two Competing Theories
+
+*Theory 1: Knowledge Deficit (Psychologist's Interpretation)*
+
+*Position:*
+
+* Children need to know more about minds
+* Don't understand intent to deceive
+* Don't comprehend that someone could choose maliciously
+* Lack theory of mind
+
+*For Deceptive Dolls:*
+
+* Don't understand mother will form belief based on evidence
+* Can't represent false beliefs
+
+*For Mean Monkey:*
+
+* Don't understand strategic deception
+* Can't plan to point to non-preferred option
+
+*Status:*
+
+* This is possible
+* One respectable theory
+
+'''
+
+*Theory 2: Inhibition Problems (Alternative)*
+
+*Position:*
+
+* Children have right knowledge
+* Suffer from problems with inhibition
+* Can't suppress prepotent responses
+
+*For Deceptive Dolls:*
+
+* Task is "fairly difficult"
+* Children might get overwhelmed
+* When asked "who would mother think?" they respond with who REALLY did it
+* Some pull toward correct answer makes task difficult
+* Can't inhibit knowledge of true state
+
+*For Mean Monkey:*
+
+* Boy clearly wanted rocket ship stickers
+* When asked to point to what he wants
+* Just couldn't help but point to what he wanted
+* Extra work required to lie was beyond him
+* Inhibiting true desire too difficult
+
+'''
+
+=== Evidence for Inhibition Theory
+
+*Even Adults Find These Tasks Difficult:*
+
+* Slower at tasks involving lying and deception
+* Make more mistakes on deception tasks
+* Compared to tasks not involving lying/deception
+
+*Implication:*
+
+* Not just developmental limitation
+* Deception and strategic lying cognitively demanding even for adults
+* Suggests inhibition component, not just knowledge deficit
+
+'''
+
+=== Status of Debate
+
+*Unresolved:*
+
+* Not attempting to solve problem in this lecture
+* Raised as interesting area of debate
+* More coverage in:
+** Peter Gray textbook
+** Norton readings on development
+
+'''
+
+== Part 12: Modularity vs. General Development
+
+=== Two Theoretical Positions
+
+*Piaget's Position (and Freud's):*
+
+* General, across-the-board changes in how children think
+* Single developmental trajectory
+* Unified cognitive development
+
+*Alternative: Modular View*
+
+*Developers:*
+
+* Noam Chomsky
+* Jerry Fodor (philosopher of mind)
+
+*Core Claim:*
+
+* Idea of child developing as single story is mistaken
+* Instead: Separate pre-wired systems for reasoning about world
+
+*Characteristics of Modules:*
+
+* Separate systems for different domains
+* Each system has some built-in knowledge
+* Each must do some learning
+* Learning pattern varies from system to system
+* Separateness/independence between modules
+
+'''
+
+=== Evidence for Modularity: Developmental Disorders
+
+*Key Principle:*
+
+* If truly separate systems, should be able to damage one without damaging others
+* Selective impairment supports modularity
+
+'''
+
+=== Case Study: Autism
+
+*Personal Note from Lecturer:*
+
+* Why entered psychology
+* Started working with autistic children
+* Always found autism fascinating
+
+*Theoretical Significance:*
+
+* Striking illustration of how social part of brain is distinct from other brain parts
+* Social module can be damaged while other modules intact
+
+'''
+
+=== Autism: Basic Facts
+
+*Prevalence:*
+
+* Strikes approximately 1 in 1000 people
+* Mostly boys (significant gender difference)
+
+*Dominant Problems:*
+
+* Lack of social connectedness
+* Problems with language
+* Problems dealing with people
+
+*Simon Baron-Cohen's Term:*
+
+* "Mind blindness"
+
+*Pattern of Impairments:*
+
+* NO impairments dealing with physical world
+* NO necessary impairments on:
+** Mathematical skills
+** Spatial skills
+* But: Lot of problems with people
+
+'''
+
+=== Autism: Range of Severity
+
+*Severe:*
+
+* Many autistic children have no language
+* Totally shut off from society
+
+*Higher Functioning:*
+
+* Some learn language
+* Manage some sort of independent life
+* Nevertheless suffer from severe social impairment
+
+'''
+
+=== Experimental Demonstrations of Social Impairment
+
+*Study 1: Simon Baron-Cohen - Chocolate Choice Task*
+
+*Setup:*
+
+* Show 3-4 year olds picture
+* Four chocolates arranged in row
+* Character "Charlie" in middle
+* Charlie looking at one particular chocolate
+
+*Question:*
+
+* "Which chocolate will Charlie take?"
+
+*Typical Children's Response:*
+
+* Answer is "pretty clear"
+* The one Charlie's looking at
+* Obvious that people's interests align with gaze direction
+
+*Autistic Children's Response:*
+
+* Often just shrug
+* Say "How could I know?"
+* Don't instinctively appreciate that:
+** People's interests tend to align with where they're looking
+** Gaze direction indicates desire/intention
+
+'''
+
+=== Study 2: False Belief Task (Sally-Anne Task)
+
+*Frequency:*
+
+* Done hundreds, perhaps thousands of times
+* Classic developmental psychology task
+
+*Setup:*
+
+. Doll named Maxie puts ball in cupboard
+. Maxie leaves
+. Second doll enters
+. Second doll takes ball out of cupboard
+. Second doll puts ball under bed
+. Maxie returns
+
+*Question:*
+
+* "Where will Maxie look for the ball?"
+
+*Two Types of Questions:*
+
+*Physical World Question:*
+
+* "Where IS the ball really?"
+* Answer: Under the bed
+* Everyone can solve this
+
+*Mental World Question:*
+
+* "Where will Maxie LOOK for the ball?"
+* This is hard
+
+*Correct Answer:*
+
+* Maxie will look in cupboard
+* Even though ball not really there
+* Because Maxie has false belief about world
+* Maxie doesn't know ball was moved
+
+'''
+
+=== Developmental Pattern for False Belief
+
+*2-3 Year Olds:*
+
+* Find this difficult
+* Fail the task
+
+*4-5 Year Olds:*
+
+* Able to pass task
+* Understand false beliefs
+
+*Normal Adults:*
+
+* Able to pass task easily
+
+*Autistic Individuals:*
+
+* Have serious problems
+* Often people with autism who are otherwise very high functioning will fail
+* Will say "He'll check under the bed"
+* Can't represent that someone else has different (false) belief
+
+'''
+
+== Part 13: Questions About Autism
+
+=== Question 1: Relationship Between Deception Task and False Belief Task
+
+*Student Question:*
+
+* How do deception task (shoes) and false belief task relate?
+
+*Answer:*
+
+* Both designed to tap appreciation of false belief
+* Deception task: More complex
+** Can you understand mother might think it's one person even though it's really another?
+** Tests understanding of deception causing false belief
+* False belief task: Stripped-down version
+** Without "fanciness" of deception task
+** Tests exactly same underlying concept
+** Simpler, more direct test
+
+'''
+
+=== Question 2: Why Mostly Boys?
+
+*Student Question:*
+
+* Why does autism mostly affect boys?
+
+*Lecturer's Answer:*
+
+* "Nobody knows"
+* But there's a theory that provides broader context
+
+*Simon Baron-Cohen's Theory:*
+
+*Claims:*
+
+* Certain abilities more "sequestered" for males
+* Other abilities more "sequestered," focused on females
+
+*Specific Claim:*
+
+* Social abilities tend to be more female than male
+
+*Provocative Formulation:*
+
+* "To be a man is to suffer from very mild form of autism"
+
+*Autism as Extreme:*
+
+* Autistic individuals suffer from "extreme male brains"
+* Logical consequence: More sampled from male population than female
+
+*Status:*
+
+* Interesting, controversial theory
+* Will return to when discussing sex differences
+* Examine whether supported by evidence
+
+'''
+
+=== Question 3: Severity of Autism and Developmental Stages
+
+*Student Question:*
+
+* How think about severity of autism with regard to developmental stages?
+
+*Answer:*
+
+* Sort of surprisingly: Autism can't really be thought of that way
+
+*Key Point:*
+
+* NOT like adult with autism is like 3-year-old or 2-year-old
+* In some ways, somebody with autism isn't like any normally developing child at all
+
+*Not a Developmental Delay:*
+
+* Not same as developmental delay
+* Different from certain forms of intellectual disability/retardation
+
+*BUT:*
+
+* When assessing severity, DO look at things like language ability
+* In that sense, related to development
+
+'''
+
+=== Question 4: Overcoming Autism
+
+*Student Question:*
+
+* What are chances someone with autism can overcome deficiencies?
+
+*Answer:*
+
+* "Autism is funny disorder"
+* Lot of media publication and presentation
+
+*Media Bias:*
+
+* Often showcase very exceptional people
+* Example: Temple Grandin
+** Autistic woman
+** Wrote wonderful books about experience
+** But very unusual case
+
+*Reality for Majority:*
+
+* Answer depends on:
+** How one defines autism
+** Whether include Asperger syndrome (limited, more mild syndrome)
+* Majority of people with autism have severe problems
+* At this stage, with current therapy level:
+** Will not lead normal life
+** Severe, persistent impairments
+
+'''
+
+=== Question 5: Autistic Savants
+
+*Student Question:*
+
+* More specifically about Rain Man
+* Are these exceptional abilities common?
+
+*Answer:*
+
+*Rain Man Character:*
+
+* Played by Dustin Hoffman
+* Had extraordinary mathematical abilities
+
+*Real Phenomenon:*
+
+* Some people with autism have:
+** Extraordinary artistic abilities
+** Mathematical abilities
+** Musical abilities
+* "Amazing question why they have it"
+
+*Frequency:*
+
+* Very small minority
+* Very rare
+
+*Significance:*
+
+* Fascinating that happens at all
+* Severe damage in one area
+* Compensated with powerful skill in another
+* But: Most people with autism do NOT have exceptional abilities
+
+'''
+
+== Part 14: What Are the Modules?
+
+=== Modules Discussed So Far
+
+*Two Primary Modules:*
+
+. *Physics Module:*
+** Understanding physical world
+** Object permanence
+** Physical causation
+** Gravity, support
+
+. *Social Module:*
+** Understanding people
+** Intentions
+** Desires
+** Beliefs
+** Social causation
+
+'''
+
+=== Other Proposed Modules
+
+*Artifacts Module:*
+
+* Special brain module for dealing with artifacts
+* Artifacts: Things like tables, chairs, cars, forks
+* Human-made objects
+* Distinct from natural objects
+
+*Sociology Module:*
+
+* Dealing with human groups
+* Understanding:
+** Races
+** Classes
+** Social hierarchies
+
+*Intuitive Biology Module:*
+
+* Common-sense biological understanding of world
+* Separate from understanding of people
+* Separate from understanding of physics
+
+*Most Dominant Proponent:*
+
+* Frank Keil
+* Master of Morse College at Yale
+* Strongly defended notion of intuitive biological module
+
+'''
+
+== Part 15: General vs. Specific Development
+
+=== Beyond Modular View
+
+*Possibility:*
+
+* Might also be profound general differences between children and adults
+* Not just specific to particular domains
+* Not just:
+** How you think about objects
+** How you think about people
+** How you think about this or that
+* But rather: More general cognitive differences
+
+'''
+
+=== Language as General Cognitive Transformation
+
+*Claim:*
+
+* Very big difference between:
+** Creature without language
+** Creature with language
+
+*Part of Claim:*
+
+* Learning a language
+* Learning to speak
+* Reconfigures human brain in exceptional way
+
+*Significance:*
+
+* Really exceptional transformation
+* Has no parallel in any other species
+
+*Status:*
+
+* Interesting claim
+* Will return to next class when discussing language
+
+'''
+
+== Part 16: Why Study Development If You're Not Interested in Children?
+
+=== Stephen Jay Gould's Argument
+
+*Suppose You:*
+
+* Hate development
+* Hate developmental psychology
+* Hate babies
+* Hate children
+* They're not cute
+* They're ugly
+* Don't want to have them
+* Don't want to study them
+* Annoyed we have to discuss them
+
+*Fine. BUT:*
+
+* Still reasons to study development
+* Even if not interested in children per se
+
+'''
+
+=== Developmental Science Can Inform Questions About Adults
+
+*Principle:*
+
+* Sometimes developmental studies
+* Developmental data
+* Developmental science
+* Can answer questions about adult structures and functions
+
+'''
+
+=== Stephen Jay Gould's Example: The Zebra Question
+
+*Question:*
+
+* Is zebra a black animal with white stripes?
+* Or white animal with black stripes?
+
+*Method Limitation:*
+
+* Could look at adult zebras all day long
+* Never going to figure this out from adult observation
+
+*Solution:*
+
+* Look at development
+* Watch embryological development of zebra
+* That's how you would learn answer
+
+*Point:*
+
+* Developmental analysis reveals structural truths
+* Can't determine from adult form alone
+
+'''
+
+=== Final Quote: D'Arcy Thompson
+
+*Source:*
+
+* Famous biologist
+* Wrote "On Growth and Form"
+
+*Quote:*
+
+* "Everything is the way it is because it got that way"
+
+*Significance:*
+
+* Model for many developmental psychologists
+* Model for many evolutionary psychologists
+* Understanding current state requires understanding developmental/historical process
+
+'''
+
+== Key Terms and Concepts
+
+=== Piagetian Concepts:
+
+* Genetic epistemology
+* Ontogeny recapitulates phylogeny
+* Assimilation
+* Accommodation
+* Schemas
+* Sensorimotor stage
+* Preoperational stage
+* Concrete operations
+* Formal operations
+* Object permanence
+* A-not-B task
+* Egocentrism
+* Conservation
+
+=== Research Methods:
+
+* Habituation paradigm
+* Preferential looking
+* Surprise/violation of expectation
+* Looking time measures
+* Blind experimenter
+
+=== Developmental Mechanisms:
+
+* Neural maturation
+* Pruning
+* Synaptic growth
+* Myelination
+* Inhibitory control
+
+=== Modularity:
+
+* Domain-specific modules
+* Physics module
+* Social module
+* Theory of mind
+* Mind blindness
+* False belief task
+
+=== Autism:
+
+* Prevalence (1 in 1000)
+* Social impairment
+* Preserved vs. impaired abilities
+* Autistic savants
+* Asperger syndrome
+* Extreme male brain theory
