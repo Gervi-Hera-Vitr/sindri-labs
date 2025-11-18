@@ -1,0 +1,2013 @@
+= Psychology Lecture Notes: Memory Systems, Retrieval, and False Memories
+
+== Introduction: Change Blindness in Real World
+
+=== Dan Simons' Cornell Study
+
+*Background:*
+- One of first studies done by Dan Simons when at Cornell
+- Adviser at time was Frank Keil (now in Yale department)
+- Videotapes not available publicly
+- Get them from web as little Java scripts
+
+*The Study:*
+- [Video demonstration of person switching during interaction]
+- People don't notice the switch
+
+'''
+
+=== Big Moral of Change Blindness
+
+*What You Think You're Experiencing:*
+
+*Right Now:*
+- You think you're perceiving the world
+- Lecturer looks down and thinks has whole sense of where everybody is
+- Can't see everybody perfectly in back
+- People kind of far away and blurry
+- But: There's sense of having world around
+
+*When Close Eyes:*
+- Everything just remains
+- Could sort of remember some things that are there
+
+*Your Perception:*
+- Looking up
+- Think you have sense of world both in perception and memory
+
+'''
+
+*What Change-Blindness Experiments Suggest:*
+
+*This Isn't True*
+
+*Scenario 1:*
+- If you look at lecturer for second
+- During that second all classmates change positions
+- Including those next to you
+- You are extremely unlikely to notice
+
+*Scenario 2:*
+- Turn eyes away from lecturer towards there for second
+- Turn back
+- Lecturer dressed entirely differently
+- You wouldn't notice
+
+*Exception:*
+- If you told yourself consciously: "Remember what this guy is wearing; he's wearing this, that and the other"
+- But if don't do it consciously: You'll lose it
+
+'''
+
+=== Why This Is Usually Okay
+
+*Basic Fact About Universe:*
+- Most things stay same most of time
+
+*Memory and Visual System Exploit This:*
+- Don't have to explicitly remember that you're over there when turn head for second
+- Because: You'll be over there in any case
+- Don't need to hold precise representations of world
+
+*Only Notice in Certain Clever Circumstances:*
+
+*1. Psychologists Change Reality:*
+- As in change-blindness studies
+
+*2. Movies:*
+- Big surprises when people started making movies involving cuts
+- Extremely difficult to get everything continuously right
+- Need to work very hard to notice
+- All these continuity errors creep up into movies
+- Have to be film buff or writing it down to even notice this
+
+*Overall Moral:*
+- Your perception of reality is lot more sparse, lot more limited, than you might think it is
+
+'''
+
+== Part 1: Review - Types of Memory
+
+=== Where We Were at End of Last Class
+
+*Different Sorts of Memories:*
+
+*Sensory Memory:*
+- Fraction of second of sensory residue
+- Of what you're hearing and seeing
+
+*Working Memory / Short-Term Memory*
+
+*Long-Term Memory*
+
+*Topics Covered:*
+- How things get into sensory memory
+- Into working memory
+- Role of attention
+- Change-blindness studies: Actually just studies of how something gets from senses to consciousness
+- What does and what doesn't
+
+'''
+
+== Part 2: Distinction Between Short-Term and Long-Term Memory
+
+=== Storage Differences
+
+*Long-Term Memory (LTM):*
+
+*Huge Storage Capacity:*
+- Like hard drive of your computer
+- Memory you walk around with
+
+*What It Includes:*
+- All words in English
+- Just for example: 60 to 80,000 words
+- Everybody you've ever met
+- Languages
+- Faces
+- Stories
+- Locations
+- Nursery rhymes
+- Songs
+- TV programs
+
+*Nobody Knows the Storage:*
+- NOT true that you remember everything that has ever happened to you
+- No reason to believe this is true
+- At same time: Have huge amount stored in brain in long-term storage
+- Nobody actually--Has to be limited because it's finite, limited brain
+- But nobody knows how big it is
+- Nobody knows how many terabytes you carry around in brain
+- But: It's a lot
+
+'''
+
+*Working Memory / Short-Term Memory:*
+
+*Actually Very Limited:*
+- Memory of what you could store in consciousness right now
+- Quite limited
+
+'''
+
+=== Demonstration: Memory Capacity
+
+*Exercise:*
+- Do not write these things down
+- Want you to remember them
+- Going to give you few numbers
+
+*Numbers Given:*
+```
+14, 59, 11, 109, 43, 58, 98, 487, 25, 389, 54
+```
+
+*Then:*
+- "Please write them down"
+
+*Results:*
+
+*Class Survey:*
+- "How many got three or less?" [Some hands]
+- "Four, five, six, seven, eight, nine or more?"
+- "Anybody get all eleven?"
+
+*Assessment:*
+- Particularly difficult memory task
+- Numbers are meaningless
+- Forgot to tell people to get pen and pencil ready
+
+'''
+
+=== George Miller's Finding: Seven Plus or Minus Two
+
+*Under Normal Circumstances:*
+- Standard memory storage of short-term memory is seven, plus or minus two
+
+*What That Means:*
+- Anywhere from five to nine roughly
+
+*Individual Variation:*
+- Some can beat that
+- Some on not-so-good day maybe won't make it that much
+
+*"Seven Plus or Minus Two":*
+- What you hold in consciousness
+- Can tell you 14, 21
+- You walk around: "Oh, yeah, 14, 21"
+- Hold that in consciousness with no problem
+- But throw eleven numbers at you: Can't
+- Some dribble out
+- Can't hold that in conscious window in short-term memory
+
+'''
+
+== Part 3: Chunks - The Unit of Memory
+
+=== The Question: Seven Plus or Minus Two What?
+
+*Answer:*
+- What George Miller calls "chunks"
+
+*Definition of Chunk:*
+- Basic memory unit
+- Something you think of as single, individual entity
+
+'''
+
+=== Example 1: String of Letters
+
+*Letters: "L, A, M, A, I, S, O, N"*
+
+*If Can't Form Into Words:*
+- Have to remember them
+- These are eight chunks
+- Have to pick them up separately
+
+*If Break Up Into Four Words:*
+- Could just remember as four chunks
+
+*If Break Up Into Two Words in French:*
+- "La maison" ("the house")
+- Could just be one or two chunks
+
+*Principle:*
+- How much you know affects how much you could store in memory
+- Because: Affects what counts as basic unit of memory
+
+'''
+
+=== Example 2: Binary Numbers
+
+*Numbers: "1, 1, 0, 1, 1, 0, 0, 1, 0, 1, 1, 0"*
+
+*If Don't Know Binary Numbers:*
+- Might have to remember as "1, 1, 0, 0," whatever was said
+
+*If Know Binary Numbers:*
+- Computer scientists or mathematicians
+- Could convert into single binary number
+- "Anybody know what the number is?" [Someone guesses 24]
+- "Some number, 24, and then you remember '24'"
+- It's easier
+
+'''
+
+=== Example 3: Chessboard
+
+*If Don't Know How to Play Chess:*
+- Murderously hard to remember chessboard
+- They've done experiments
+- Taken people in lab who don't know how to play chess
+- Set up chessboard
+- "Okay. Look at this for five minutes"
+- Take it away, set it up again
+- Murderously hard
+- "There is a horse-y thing on the side there and everything"
+
+*If Chess Pieces Set Up Logically:*
+- Chess master could look at it and remember it in glance
+- "Oh. It's the Fibonacci defense" or something like that
+- Then immediately recover it
+
+'''
+
+=== Example 4: Football Diagrams
+
+*Football Coaches:*
+- Have been tested on memories of football diagrams
+- Have photographic memory for football diagrams
+- Because: Corresponds to things that make sense
+
+'''
+
+=== Example 5: Floor Plans
+
+*Architects:*
+- Could have photographic memory, perfect memory for floor plans
+- Because: Makes sense to them
+- They understand it
+
+'''
+
+=== General Principle
+
+*Way You Store Things in Memory:*
+- Depends in large extent on how much you understand it
+- This is theme we're going to return to when get to long-term memory
+
+*Shows Up In:*
+- Expertise effects
+
+'''
+
+== Part 4: Getting Information Into Long-Term Memory
+
+=== The Question
+
+*So Far:*
+- Short-term memory
+- How much you hold in there
+
+*Question:*
+- How do you get it into long-term memory?
+
+*You Have:*
+- Long-term memory: Major storage system
+
+*How Does Information Get:*
+- From your consciousness to long-term storage?
+
+'''
+
+=== Maintenance Rehearsal (Doesn't Work Well)
+
+*One Way:*
+- Sort of works sometimes but not very well
+- Called "maintenance rehearsal"
+
+*Example:*
+
+*Setup:*
+- "Suppose I said you have to remember this number, this string of numbers"
+- "If you remember it in twenty minutes you will get one thousand dollars"
+
+*String:*
+- Lecturer's phone number when he was a kid
+- Include area code: 514-688-9057
+
+*Four-Year-Old:*
+- Tell that to four-year-old
+- Four-year-old will say: "I'll remember it"
+- Then ask them: "What did I just say?"
+- "Well, I don't know"
+
+*Adult:*
+- Because you know something
+- If a lot depended on it, would know to do something
+
+*What You Would Do:*
+- Say to yourself: "514-688-9057, 514-688-9057, 514-688--"
+- Rehearse it in your head over and over again
+
+'''
+
+*The Problem:*
+
+*Could Hold It:*
+- As long as you can do that
+
+*Like Movies:*
+- See this all the time
+- Episode of 24: "Jack, call CTU and tell them Agent 11 is trapped in a--"
+- Can't even remember this
+- Way to remember: Hold it
+- Just got to repeat it over and over again in head
+
+*But:*
+- This will not typically get things into long-term memory
+
+'''
+
+== Part 5: Structure and Organization for Long-Term Memory
+
+=== What You Need
+
+*To Get Things Into Long-Term Memory:*
+- Rehearsal is usually not enough
+- Need to do other things
+
+*Typically:*
+- What you need is structure and organization
+
+'''
+
+=== Classic "Depth of Processing" Experiment
+
+*Purpose:*
+- Nicely illustrates fact that:
+- More you structure something
+- Deeper you think about it
+- Better it gets entrenched in long-term memory
+
+'''
+
+*The Study:*
+
+*Setup:*
+- Asked people/told people: Going to be words flashed on screen
+- All subjects saw same strings of words
+- Forty-eight words
+- Were NOT told to memorize words
+
+*Three Groups:*
+
+*Group 1: Structural Processing*
+- Told: "Look. Some of these words going to come out in capital letters, some not capital letters"
+- "Press button for capitals, non-capitals"
+- "Sure"
+
+*Group 2: Phonemic Processing*
+- Told: "Some of these words will rhyme with 'train.' Others won't"
+- "Press button if it rhymes with 'train'"
+
+*Group 3: Semantic Processing*
+- Told: "Does it fit into sentence 'The girl placed the blank on the table'?"
+- "Press button if it does"
+- "Press button if it doesn't"
+
+'''
+
+*Results:*
+
+*Then:*
+- Asked as surprise: "What words did you see?"
+
+*Findings:*
+- When asked to focus on just what word looked like: Memory very poor
+- Sound: Better
+- Meaning: Better
+
+*Conclusion:*
+- If you want to remember something
+- Best way to remember it: Give it meaning, give it sense
+
+'''
+
+=== Memory Tricks: Ancient Technique
+
+*Illustrated Through:*
+- Very ancient technique
+
+*The Way to Remember Things That Are Otherwise Arbitrary:*
+- Give them some organization through memory tricks
+- Through vivid imagery
+- Or songs
+- Or poetry
+
+'''
+
+=== Examples of Memory Tricks
+
+*Example 1: Hippocampus*
+
+*Part of Brain:*
+- Called hippocampus
+
+*Memory Trick:*
+- "This is worst memory trick ever but will stick with you for twenty years"
+
+*Function:*
+- Hippocampus involved in spatial memory
+- Involved in finding your way around
+
+*The Trick:*
+- Think to yourself: "The way I find my way around campus is through the hippocampus"
+- You think: "Well, that's stupid"
+- But: You'll never forget now that hippocampus is in charge of spatial memory
+- "Going to be all you retain from this course"
+
+'''
+
+*Example 2: Remembering Names*
+
+*Memory Books:*
+- On how to remember people's names
+- Usually try to exploit this sort of thing
+- Try to get poetry or dramatic images
+
+*Typical Approach:*
+- Meet somebody with very spiky hair
+- They say: "My name is Mr. Fish"
+- Then you remember/think of their--of big fish impaled on their hair
+- Whenever you see them: Remember their name
+
+*Limitation:*
+- "Only really works for names like 'Fish'"
+
+*The Idea:*
+- Try to generate vivid imagery
+
+'''
+
+*General Strategies:*
+
+*Ten Letters:*
+- Turn into song
+- Or dirty poem
+- Where each of letters is first words of it
+
+*Something Totally Arbitrary:*
+- Try to figure out grand and obscene image that will come to mind easily
+
+*These Are:*
+- One way to get things into memory
+
+'''
+
+=== Deep Level: Understanding
+
+*At Deep Level:*
+- Way to get things into memory
+- Applies to this course no less than anything else
+- Is by understanding it
+
+'''
+
+=== Demonstration: Memory and Context
+
+*Setup:*
+- "I'm going to read you something"
+- "I want you to try your best to remember what I tell you"
+- Not going to be strings of numbers
+- Going to be series of sentences
+
+*Sentences Read:*
+
+```
+"A newspaper is better than a magazine.
+A seashore is a better place than the street.
+At first it is better to run than to walk.
+You may have to try several times.
+It takes some skill but it's easy to learn.
+Even young children can enjoy it.
+Once successful, complications are minimal.
+Birds seldom get too close.
+Rain, however, soaks in very fast.
+Too many people doing the same things can also cause problems.
+One needs lots of room.
+If there are no complications, it can be very peaceful.
+Finally, a rock will serve as an anchor.
+If things break loose from it, however, you will not have a second chance."
+```
+
+*Assessment:*
+- "Murderously hard to remember"
+
+*Then:*
+- Shows picture [of kite flying]
+
+*Now Try It:*
+- Knowing what this is about
+- Being able to put context to it
+- Helps the memory
+- Helps it come to mind
+
+'''
+
+== Part 6: Memory Retrieval
+
+=== The Problem
+
+*Context:*
+- Exam period
+- Got stuff presumably into your head
+- Have to get it out
+- Have to retrieve it
+
+*Other Situations:*
+- Court case
+- Have to recount crime that you witnessed
+- See somebody
+- Want to know his or her name
+- You heard it
+- Just have to get it out
+
+*Question:*
+- How do you do that?
+
+'''
+
+=== Retrieval Cues
+
+*Retrieval Cues Make Sense:*
+- Just things that have been associated with what you're trying to remember
+
+*Examples:*
+
+*Example 1:*
+- Have to remember to replace windows
+- When walk into living room
+- See that window is cracked
+- That will remind to replace windows
+
+*Example 2:*
+- Had lunch date with you
+- Forgot about it
+- When see you: "Oh, yeah. We were supposed to get together to have lunch"
+
+*Function:*
+- Retrieval cues bring things back
+
+*But:*
+- Little bit more complicated than that
+
+'''
+
+=== Compatibility Principle / Context-Dependent Memory
+
+*More General Relationship:*
+- Between encoding and retrieval
+- Called "compatibility principle"
+
+*What This Means:*
+- Much better to remember something in context in which you have learned it
+
+*Also Known As:*
+- Context-dependent memory
+- State-dependent memory
+
+'''
+
+=== Strange Underwater Experiment
+
+*One of Strangest Experiments in History of Psychology:*
+
+*Setup:*
+- Had people on boat
+- Then had them scuba dive underwater
+- Taught them things either:
+- On boat
+- Or underwater with things they held up
+- Then tested them later
+
+*Results:*
+- Turns out: You'll remember it better if tested on it in context in which you learned it
+
+*Explanation:*
+- Might be because then retrieval cues help bring it back
+
+'''
+
+=== More General Than Environment
+
+*Applies to This Class:*
+- If have to remember something you learned in this class
+- Will do better if try to think about room in which you learned it in
+- Will do better on final exam if were to take it in this room
+- Than if were to take it in another room
+- Because: Being in this room will bring back cues
+
+'''
+
+*Not Just Environment:*
+
+*Learning While Stoned:*
+- People who learn things when they're stoned
+- Remember them better
+- Keeping stoned at sort of low-level that doesn't disrupt other mental activities
+- Remember them better when sort of stoned again
+- Than if they're non-stoned
+
+*Similarly:*
+- "If you study while you drink"
+- "Should tipple a little bit before coming in to Final exam"
+
+*General Pattern:*
+- "Sort of like 'what happens in Vegas stays in Vegas' sort of result"
+
+'''
+
+*Mood:*
+- Similarly: Even applies to moods
+- If you learn something when depressed
+- Have slightly better recovery of it when you're in same mood of depression
+- Than when you're elated
+
+*The Idea:*
+- Part of what memory is
+- Part of what recovering memory is
+- Is getting back your original context in which you learned it
+
+'''
+
+=== Elaborative Rehearsal
+
+*Elaborative Rehearsal:*
+- Involves connections between different things
+
+*Definition:*
+- More you think about something
+- Easier it is to remember
+
+*If Have to Remember Something:*
+- Try to connect it to as many things as possible
+- Think of an image
+- Make joke out of it
+- Imagine how you would explain it to somebody else
+- Imagine what world would be like if it wasn't so
+
+*The Idea:*
+- This sort of thinking about it makes connections in your memory
+- From that thing you have to learn, to other memories
+- So: Makes it easier to recover
+
+'''
+
+=== Elaborative Retrieval
+
+*Refers to Finding:*
+- When you want to get something back out of memory
+- People tend to give up too soon
+
+*Turns Out:*
+- Lot of stuff that's in your memory
+- But: Needs work to extract
+- Needs various sort of searching strategies
+
+'''
+
+*Study: High School Classmates*
+
+*Setup:*
+- Asked people who were considerably older than students
+- To remember their high school classmates
+
+*First Pass:*
+- People were terrible
+- Maybe had couple of friends they kept in touch with
+- Otherwise: Pretty bad
+
+*Good Experiment:*
+- Could use high school yearbooks to judge whether or not they get it right
+
+*Then:*
+- Tell person: "Look. Keep trying"
+- "Who was your teacher?"
+- "What sort of clubs did you belong to?"
+- "What sort of sports did you participate in?"
+- "How did you get to school?"
+- "How did you get from school?"
+- "What did you do during lunch?"
+- "What did you do during break?"
+- "Do you know have any friends whose letter--whose last name began with 'B,' with 'C,' with 'D'?"
+- Keep pushing and pushing and pushing
+
+*Over Span of Time:*
+- Things come back
+
+*Important Qualification:*
+- "Again, not true that you never forget"
+- "There is honest to God forgetting"
+- But: Sometimes you think you forget
+- Because: Haven't looked long enough
+
+*Real Physical Notion:*
+- Of searching for right answer
+
+'''
+
+=== Déjà Vu
+
+*Student Question:*
+- Every class: Somebody asks either in class or by email
+- What about déjà vu?
+
+*Definition:*
+- Déjà vu is feeling that event has happened before
+
+*Example:*
+- Looking at lecturer lecturing
+- Say: "I've heard this before. I know this before"
+- See somebody
+- Say: "I've been in this situation before"
+
+*Not Evidence For:*
+- Psychic powers
+- Which many people say it is
+
+*But:*
+- Nobody really knows why this exists
+
+'''
+
+*Clue:*
+- We know: It's worse with frontal lobe damage
+- If you get damage to this part of brain
+- Get lot more déjà vu experiences
+
+*Asked Experts:*
+- Including Marcia Johnson (chair of department)
+- "What's best explanation for déjà vu?"
+
+'''
+
+*Best Theory:*
+
+*Déjà Vu:*
+- Is feeling that it's happened before
+
+*Answer:*
+- It HAS happened before
+- It's happened half a second ago
+
+*What Happens:*
+- Sometimes there is glitch
+- Disturbance in the force
+- There's a glitch
+- You are talking
+- Then something happens to you
+- You put it in your memory
+- But: It's as if you don't put stamp on it of what time and what date
+
+*So:*
+- Talking to lecturer
+- Then you store it in memory
+- But: Don't store it in memory as happening right now
+- Then half second goes by
+- You're talking to lecturer
+- You say: "This is strangely familiar"
+
+*That's One Theory:*
+- Of what goes on in déjà vu
+
+'''
+
+== Part 7: Memory Failure - Forgetting
+
+=== Good News vs. Bad News
+
+*So Far:*
+- Sort of good news: Remembering
+
+*But Then:*
+- Bad news: Forgetting
+
+'''
+
+=== Demonstration: Forgetting Numbers
+
+*Question to Class:*
+- "How many people can remember, without looking down at notes, at least two of numbers I gave you earlier?"
+- [Some hands]
+- "How many people can remember at least four?"
+- "Oh, impressive"
+
+*If Asked in an Hour:*
+- Number would go down
+
+*These Are:*
+- Sort of statistics in similar experiment
+
+*Graph:*
+- Illustrates that people forget
+- Over time: You'll forget
+
+'''
+
+=== Why Forgetting? Three Explanations
+
+*Question:*
+- Why is there forgetting at all?
+
+'''
+
+#### Explanation 1: Physical Decay
+
+*Your Brain:*
+- Physical thing
+- Physical piece of meat
+- Kind of goes bad
+
+*Physical Things Decay:*
+- Memory traces that are laid onto your brain will just decay over time
+
+'''
+
+#### Explanation 2: Interference
+
+*Remember Those Numbers?*
+- Here's few more: 114, 81, 66, 42
+
+*Principle:*
+- More information that comes in that's similar to stuff you're trying to remember
+- It blocks your recovery of original information
+
+*Result:*
+- Your ability to remember something can be impaired by learning more things which are related to it
+- Because: They get confused in memory
+
+'''
+
+#### Explanation 3: Changes in Retrieval Cues
+
+*Finally:*
+- Maybe this is most interesting
+
+*Principle:*
+- More time goes by: More the world changes
+- If your memory is to some extent dependent on cues bringing it back to life
+- Then: Change in retrieval cues can make it more difficult to recall certain things
+
+'''
+
+== Part 8: Childhood Amnesia
+
+=== The Puzzle
+
+*Leads to Puzzle:*
+- Considerable scientific debate over case of childhood amnesia
+
+*Childhood Amnesia:*
+- Doesn't refer to when child gets brain damage and gets amnesia
+- What it refers to: People have difficult time recovering very early memories
+
+'''
+
+=== Exercise: First Memory
+
+*Want People To:*
+- Take second
+- Try to think back on what your first memory is
+- Roughly how old you were
+
+'''
+
+*Survey Results:*
+
+*Question:*
+- "How many people don't think you have first memory until you were about five years old or older?" [Some hands]
+
+*Question:*
+- "How many people think you have first memory of around age four or younger?"
+
+*Question:*
+- "How many people think you have first memory of around age three or younger?"
+
+*Question:*
+- "Two or younger?"
+
+*Question:*
+- "How many of you think you have first memory when you were about one years old or younger?"
+- "Not asking about past lives"
+
+'''
+
+*Individual Examples:*
+
+*Student 1:*
+- "Between one and two"
+
+*Question:*
+- "Anybody think they could beat that?"
+
+*Student 2:*
+- "One"
+
+'''
+
+=== Problems with Research
+
+*Literature Is Unclear:*
+- Very difficult to test people's recollections of first memories
+
+*If Ask People:*
+- They'll often say: "Oh, yeah. I remember I was in this room and there was crib and I'm going 'Ga ga, goo goo' and I was on potty. I was walking. I was so cute. I remember it"
+
+*Very Difficult to Tell:*
+- As we'll discuss in some detail
+- Lot of reasons to distrust people when they--not that they're lying
+- But: To distrust accuracy of people's memories
+
+'''
+
+*Studies About Trauma:*
+- Know from studies about trauma
+- Where people have terrible experiences when they're one or two
+- Typically: This trauma is not remembered later on
+- People know of trauma because they're told about it
+- But: Don't typically remember it with any accuracy
+
+*Even Children:*
+- Older children don't remember back beyond that age
+
+'''
+
+=== Why Childhood Amnesia Occurs
+
+*Status:*
+- Nobody knows why childhood amnesia occurs
+- Nobody knows why it's very difficult to recover memories before about age of three
+
+'''
+
+#### Theory 1: Retrieval Cues Change Radically
+
+*Example from Friend:*
+- Friend who's clinical psychologist
+- Suggested new form of therapy
+- Make giant tables and chairs
+- Then bring you into office
+- You're standing there with giant tables and chairs
+- All these memories of being baby would come flooding back
+- "And he dropped out of field"
+- "Really, but it's such cool idea"
+
+'''
+
+#### Theory 2: Language Is to Blame
+
+*Some People Think:*
+
+*Child Development:*
+- Baby starts out with no spoken or signed language
+- Language comes to be learned at around one, two, and three
+
+*Might Be:*
+- Learning of language reformats your memory
+- Once memory is reformatted
+- Can't go back to previous state prior to language in end
+
+'''
+
+#### Theory 3: Neural Maturation
+
+*Could Be:*
+- Neural maturation
+- Could be that memory parts of brains grow around age two or three
+- That just weren't there prior to that
+
+*Status:*
+- Nobody really knows
+- Fascinating research area
+- Why--about memory changes early on
+
+'''
+
+== Part 9: Brain Damage and Amnesia
+
+=== Two Types of Amnesia
+
+*Another Case of Memory Failure:*
+- Brain damage
+
+*Brain Damage Comes In:*
+- Couple of flavors
+
+'''
+
+=== Retrograde Amnesia
+
+*"Retro" for Past:*
+
+*Definition:*
+- When you lose some memory of past
+
+*Could Be:*
+- Case where you get some sort of head trauma
+- Lose memory of entire episodic memory
+
+*Typically:*
+- If you have any sort of serious accident that involves losing consciousness
+- You'll have blackout of some period prior to that
+- Say, blow to head
+
+'''
+
+*Reason for This:*
+- As you're having these experiences now
+- They need to kind of get consolidated into your brain
+- Your brain needs to rewire and catch up to experiences you're having
+- Sudden blow to head will knock you unconscious
+- Then: Memories that have happened immediately prior will not get consolidated
+- They'll be lost forever
+
+'''
+
+=== Anterograde Amnesia
+
+*Another Sort of Memory:*
+
+*Happens In:*
+- Korsakoff's syndrome
+- Happens to very famous patient known as H.M. (actually lives in Hartford, Connecticut)
+- Happened to Clive Wearing (film you saw last class)
+
+*This Sort of Amnesia:*
+- Sort of amnesia where you lose ability to form new memories
+- So: You live in perpetual present
+- Unable to accumulate new memories
+
+'''
+
+*Actually Little Bit More Complicated:*
+
+*Exciting Discovery:*
+- About these patients
+- Led to some real insights about normal memory
+
+*Brain Damage in These Cases:*
+- Temporal lobe
+- Hippocampus (very useful for spatial memory you'll know)
+
+'''
+
+=== Discovery: Can Form New Memories (Of Certain Types)
+
+*Example Task:*
+- Filling in star while looking into mirror
+- If asked you to do it: Find it pretty difficult
+- Just kind of difficult to do
+- Be clumsy at it
+
+*Bring In Amnesic:*
+- Who can't form new memories
+- Say: "Hey. I want you to try something new. I want you to try this star game"
+- He'd say: "Okay. I've never seen it before but I'll do it"
+- Tries it
+- Does very badly
+
+*Bring Him In Over and Over Again:*
+- Each time he does it: Starts off by saying "I've never seen this before. I'll--I'm sure I'll give it try"
+- But: He gets better and better at it
+
+'''
+
+*This Is Known As:*
+- Implicit memory
+
+*The Claim:*
+- In these sorts of cases you lose abilities to form explicit conscious memories
+- That you're aware of
+- That you understand
+- But: Some sorts of memories persist
+- You are able to form them
+
+'''
+
+=== Movies Illustrating This
+
+*Bad Movie:*
+- Drew Barrymore loses ability to form new memories
+- Somehow falls in love with Adam Sandler
+- "Definitely don't watch that"
+
+*Very Good Movie:*
+- "Memento"
+- About character who loses ability to form new memories
+- While trying to track down wife's killer
+- "Memento" is movie which is fascinating
+- Because: Told backwards
+- But throughout "Memento": Another story told forwards
+
+*Likes This Story Because:*
+- Very dramatically illustrates
+- What does, and what is and is not impaired
+- In cases of severe memory damage
+
+*Shows Clips:*
+- That illustrate disassociation from "Memento"
+- "Those of you who have seen movie know this ends up quite tragically for Sammy"
+- "Highly recommend movie"
+
+'''
+
+== Part 10: Everyday Forgetting Summary
+
+*We've Dealt Right Now With:*
+- Two sorts of failures of memory
+
+'''
+
+=== Type 1: Everyday Failure
+
+*Question to Class:*
+- "How many of you remember three or more of numbers I originally presented?"
+
+*Student Response:*
+- [Gives three numbers]
+- "Fourteen, 59, 11"
+
+*Question:*
+- "Is that right?" [Laughs]
+
+*Follow-Up:*
+- "I'm going to ask you again in a month"
+
+*Comment:*
+- "Well, people are supposed to forget"
+- "Some things will--you will forget"
+
+*Status:*
+- Normal forgetting
+
+'''
+
+=== Type 2: Forgetting Due to Brain Damage
+
+*Characteristics:*
+- Exotic and unusual
+
+*But Interesting:*
+- Illustrates some more general themes about how mind works
+
+*Remember:*
+- One theme of this course
+- Going to look at exotic cases like case of Clive Wearing
+- Not just because they're interesting in own right
+- But: Sometimes by looking at extremes
+- Could learn something about how normal people's normal, intact minds and brains work
+
+'''
+
+== Part 11: False Memories - Power of Suggestion
+
+=== Introduction to Third Type of Forgetting
+
+*The Third Case:*
+- More interesting
+
+'''
+
+=== Sam Stone Demonstration
+
+*Setup:*
+- "What I want to do is you to listen to three children describe event that happened"
+- "Want you to come to some--your own guess"
+- "Imagine you were judge, childcare worker"
+- "Wanted to see--want you to be--come to your own guess about who you believe and what you think happened"
+
+*Shows Three Children:*
+- Describing what happened
+
+'''
+
+*Question to Class:*
+- "You've heard three children. Who do you believe?"
+- "There's three of them, one, two, three"
+- "Who believes first one?"
+- "Who believes second one?"
+- "Who believes third one?"
+
+*Result:*
+- Sort of even split
+
+'''
+
+=== Expert Survey
+
+*Twenty-Three Hundred Experts:*
+- Were shown these films
+- Asked about different actions:
+- Whether or not person ripped book
+- Messed up bear
+- Tossed book in air
+
+*As You Could See:*
+- Majority thought that he did
+
+'''
+
+=== The Truth
+
+*This Is Work Done By:*
+- Steve Ceci
+- Who was gracious enough to lend film to use for teaching purposes
+
+*Turns Out:*
+- Second girl was right
+- Absolutely nothing happened
+
+*What Actually Happened:*
+- Teacher said: "There is somebody named Sam Stone who's going to come in"
+- Guy walks in
+- Says: "Hi"
+- Walks around
+- Leaves
+
+'''
+
+=== How Memories Were Implanted
+
+*First and Third Children:*
+- Had their memories implanted
+- Not through any sort of science fiction means
+
+*Method:*
+- Some of children would just ask questions
+- Interviewer, by way, was herself unaware of what happened
+- Interviewer was perfectly naive interviewer
+
+*Turns Out:*
+- If you just interview children
+- Ask them questions about whether book was ripped
+- "Did you see him? Did he really do it?"
+- They don't say anything
+- Didn't see anything
+- Won't say anything
+
+'''
+
+=== Experimental Conditions
+
+*Condition 1: Stereotype*
+
+*Other Children:*
+- Were told about Sam Stone
+- Were told stereotype about Sam Stone
+- That he's very clumsy
+- Tends to rip things
+- Trips
+- Breaks things
+- Spills things
+
+*In Fact:*
+- Third child mentioned that in passing
+- Said: "He always does that"
+
+*Result:*
+- Just knowing this about Sam Stone tends to raise proportion of kids who say, for instance, that he ripped book
+
+'''
+
+*Condition 2: Suggestive Questioning*
+
+*Other Children:*
+- Were given suggestions
+- Were given suggestive questioning
+- Were series of leading questions like:
+- "Oh. Sam Stone came in? Did he rip book while he was there?"
+
+'''
+
+*Condition 3: Both Stereotype and Suggestions*
+
+*Still More Children:*
+- Got both
+
+*In Fact:*
+- Children you saw were from this group
+- Heard Sam Stone being described as clumsy fellow
+- Were given series of suggestive questionings
+
+*In This Condition:*
+- Given several suggestive questionings over period of several months
+
+'''
+
+=== Key Points
+
+*These Children:*
+- Like first child and third child
+- Are NOT lying
+- Honestly believe that Sam Stone came in and did these things
+
+*Also:*
+- They believe it
+- They're so convincing in their belief
+
+*Experts:*
+- Including:
+- Police officers
+- Child caseworkers
+- Judges
+- Lawyers
+- Find these children to be extremely believable
+
+*Thinks:*
+- Probably find them to be extremely believable
+- Because: Children are not lying
+- They really believe they saw what they saw
+
+*But:*
+- These memories were implanted
+
+'''
+
+=== Research on Implanted Memories
+
+*Ceci and Many Other Investigators:*
+- Study how memories can be implanted in people's minds
+- Through suggestion
+- Through leading questions
+
+*Turns Out:*
+- Same sort of experiments
+- Same sort of research
+- Has been done with considerable success
+- In implanting false memories in adults
+
+'''
+
+== Part 12: False Memories in Adults
+
+=== Dramatic Cases
+
+*There Are:*
+- Dramatic cases of people remembering terrible crimes
+- Confessing to them
+- When actually: They didn't commit them
+
+*This Is Not Because:*
+- They are lying
+
+*Not Even Because:*
+- They're, in some obvious sense, deranged or schizophrenic or delusional
+
+*Rather:*
+- They have persuaded themselves
+- Or more often: Been persuaded by others
+- That these things have actually happened
+
+'''
+
+=== Laboratory Studies
+
+*Psychologists Have Studied:*
+- In laboratory
+- How one could do this
+- How one can implant memories in other people
+
+'''
+
+=== Basic Techniques
+
+*Some Things Are Sort of Standard:*
+
+*Example:*
+- Suppose lecturer was to tell you story about:
+- Trip to dentist
+- Visit to--or time when ate out at restaurant
+- And omit certain details
+- Omit fact that paid bill in restaurant, let's say
+- Or finished meal and then went home
+
+*Result:*
+- Still: You will tend to fill in blanks
+- You'll tend to fill in blanks with things you know
+
+*So:*
+- Might remember this later saying:
+- "Okay. He told me he finished eating, paid bill and left"
+- Because: Paying bill is what you do in restaurant
+
+*This Is:*
+- Benign enough
+- Fill in blanks
+
+'''
+
+=== Integration of Suppositions
+
+*You Also Can:*
+- Integrate suppositions made by others
+
+*Clearest Case:*
+- Eyewitness testimony
+
+'''
+
+== Part 13: Elizabeth Loftus' Research on Eyewitness Testimony
+
+=== Overview
+
+*Best Research:*
+- Done by Elizabeth Loftus
+
+*Series of Studies:*
+- Some discussed in textbook
+- Showing how people's memories can be swayed by leading questions
+- Can be extremely subtle
+
+'''
+
+=== Study 1: "A" vs. "The" Broken Headlight
+
+*In One Experiment:*
+
+*Setup:*
+- Person was just asked in course of series of questions
+- Shown scene where there's car accident
+
+*Asked Either:*
+1. "Did you see a broken headlight?"
+2. "Did you see the broken headlight?"
+
+*The 'The':*
+- Presupposes that there was broken headlight
+
+*In Fact:*
+- People asked: "Did you see the broken headlight?"
+- Later on: More likely to remember one
+- Creates an image
+- They fill it in
+
+'''
+
+=== Study 2: School Bus
+
+*In Another Study:*
+
+*Would Show:*
+- Film segments
+
+*Then Ask:*
+- "Did you see the children getting on the school bus?"
+
+*Now:*
+- There was no school bus
+
+*But:*
+- People who hear that question
+- Later on when asked: "Did you see school bus in film?"
+- More likely to say yes
+
+'''
+
+=== Study 3: "Hit" vs. "Smashed"
+
+*In Another Study:*
+
+*Would Show:*
+- People film segments
+
+*Ask Them Either:*
+1. "How fast were the cars going when they hit each other?"
+2. "How fast were the cars going when they smashed into each other?"
+
+*Week Later:*
+- Bring people back into laboratory
+- Ask: "Did you see any broken glass?"
+
+*Result:*
+- Those who hear "smashed": Tend to see broken glass more than those who hear "hit"
+- Because: Question has changed their memory
+- Making it more of dramatic event
+
+'''
+
+== Part 14: Hypnosis and Memory
+
+=== Hypnosis as Reconstructive Process
+
+*Hypnosis:*
+- Clearest case where there's sort of reconstructive effort
+- Led as result of leading and probing questions
+
+'''
+
+=== Who Can Be Hypnotized
+
+*Some of You:*
+- Are readily hypnotizable
+- Can be hypnotized
+
+*What We Would Learn:*
+- About past event from hypnotizing you
+- Will not necessarily then be inaccurate
+
+'''
+
+=== What Hypnotizing Does
+
+*Makes People:*
+- Very willing to cooperate
+
+*Unfortunately:*
+- Isn't as if there is memory storage there
+- Where you could just go through and look
+- As in movies where you just say: "What's license plate?"
+- Person's hypnotized
+- Then flashback comes in
+- Then they zoom in on license plate
+
+*Memory Doesn't Work That Way:*
+- What happens is--What somebody will do in hypnotizable state
+- They'll be very eager to please hypnotist
+- So: They'll make stuff up
+
+*People Under Hypnosis:*
+- Just make stuff up
+- Do very enthusiastically
+- Very believably make stuff up
+
+'''
+
+=== Hypnotic Regression
+
+*Particularly Case With:*
+- Hypnotic regression
+- When we ask you to go back to sixth birthday party, for instance
+
+'''
+
+*What's Great as Developmental Psychologist:*
+- If ask you to go back to fourth birthday party
+- And you're hypnotizable
+- You'll be oh, just like four-year-old
+
+*Except:*
+- You won't be like real four-year-old
+- What you'll be like is adult's notion of what four-year-old is supposed to be
+
+'''
+
+*Extreme Case:*
+- Happened with hypnotic regression
+- Where people claim to speak languages like from ancient Egypt
+
+*Linguists Love These Studies:*
+- Don't--of course don't really sound like you're speaking language from ancient Egypt
+- What you sound is like North American who believes he's speaking language from ancient Egypt
+- So they're "nonsense sounds"
+
+'''
+
+*What It Makes You:*
+- Hypnotism brings out actor in you
+- Makes you want to give persuasive account of what happened
+
+*So:*
+- Hypnotism is just extreme form of what normally happens in eyewitness testimony
+
+'''
+
+== Part 15: Repressed Memories
+
+=== Introduction
+
+*Could Devote:*
+- Class--Could devote semester
+- To very heated debate in United States mostly
+- About repressed memories
+
+'''
+
+=== Basic Phenomenon
+
+*Many Adults:*
+- Have claimed to have experienced traumatic sexual abuse
+
+*Some Cases:*
+- Unexceptional from memory point of view
+- People know this happened to them
+- They've always known it happens to them
+- Then they tell people about it
+
+*Subset of Cases:*
+- People have had no memory up to point of what happened to them
+- Then: They go to psychologist or psychiatrist
+- Undergo questioning
+- Often using hypnotic techniques
+- Then: They recover memory of past traumatic sexual abuse
+
+'''
+
+=== The Debate
+
+*What Makes This Debatable:*
+- There is debate about this
+- Lecturer doesn't want to try to preclude it one way or another
+
+'''
+
+*Position 1: Memories Are Real*
+
+*Some Psychologists Believe:*
+- In at least some cases
+- These memories are real
+- Have been repressed through Freudian mechanism
+- They're too terrible to bring to consciousness
+- Therapy brings them out into real life
+
+'''
+
+*Position 2: Memories Are Created*
+
+*Most Psychologists Believe:*
+- These memories cannot be trusted
+- These memories are created through actions of therapist
+
+'''
+
+=== Legal Battles
+
+*Actually:*
+- Considerable psychological and legal battles
+- Over veracity of therapists
+
+*Cases:*
+
+*Women's Claims:*
+- Women who have claimed to have been sexually abused
+- Have pressed criminal charges against fathers
+- On basis of false memories
+
+*Fathers' Claims:*
+- Similarly: People who have been accused of sexual abuse
+- Have pressed criminal charges against psychiatrists
+- Claiming: These psychiatrists have implanted memories into their sons and daughters
+
+'''
+
+=== Status
+
+*Controversial:*
+- Whether memories are ever repressed
+
+*Not Controversial:*
+- For at least some cases
+- Can implant false memories in people
+
+*Not Because:*
+- You're sinister or evil person
+
+*But Because:*
+- You really believed something happened
+- Talked to them about it
+- Then: Caused these memories to come into being
+
+'''
+
+== Part 16: Flashbulb Memories
+
+=== Introduction
+
+*Asked Early in Semester:*
+- Will ask again
+
+*Question:*
+- "How many of you remember where you were on September 11, 2001?"
+
+*Follow-Up:*
+- "Is there anybody who doesn't remember where they were on September 11, 2001?"
+- "Would be interesting"
+
+*Nature of Event:*
+- Socially relevant event
+
+'''
+
+=== Problem with Flashbulb Memories
+
+*Here's the Problem:*
+
+*Flashbulb Memories:*
+- Idea that these memories being so vivid
+- And they are vivid for many of us
+- Exactly where we stood
+- What happened
+
+*Well:*
+- They can't really be trusted
+
+'''
+
+=== Why Not
+
+*Here Is Why Not:*
+
+*Because:*
+- They are such important events
+- Bet many of you have actually heard question before:
+- "Where were you on September 11th?"
+- Talked about it
+
+*What Happens in These Conversations:*
+- Stories change
+
+*Personal Example:*
+- Lecturer had--knew where he was on September 11th
+- Wife knew where she was
+- But: Spent as much time listening to her talk about it
+- As spent time talking about it himself
+- "And now maybe my memory is actually of her experience and not mine"
+
+'''
+
+=== The Temptation to Resist
+
+*For All of These Cases:*
+
+*Temptation You Have to Resist:*
+- Saying: "Yes. I know memories can be swayed. I know they could be distorted and everything"
+- "But, you see, I really am sure that happened"
+
+*You Have to Resist That Temptation:*
+- Because: There are so many cases we know
+- Including tape of girls that we just saw
+- Where people are entirely sure things happened
+- And we know full well that they didn't exist
+
+*Being Sure:*
+- Is no guarantee that memory isn't:
+- False
+- Reconstructed
+- Or even implanted
+
+'''
+
+== Part 17: Three Main Morals About Memory
+
+=== Summary of Memory Section
+
+*This Part of Memory Has:*
+- Three main morals
+
+'''
+
+=== Moral 1: Many Types of Memories
+
+*Talked About:*
+- Short-term memory
+- Long-term memory
+- Implicit memory
+- Explicit memory
+
+*These Are:*
+- Sort of separable sort of memories
+- Could break one while having other one impaired
+
+*Arguably:*
+- There are brain systems dedicated to:
+- Memory for faces
+- Memory for everyday objects
+- Memory for spatial locations
+
+'''
+
+=== Moral 2: Key Is Organization and Understanding
+
+*The Key to Remembering:*
+- Organization and understanding
+
+*Introduction to X Courses:*
+- Including Introduction to Psychology courses
+- Among hardest courses at Yale
+
+*Reason Why:*
+- There is just lot of material that is diverse
+- Have to command each aspect separately
+
+*Easiest Courses at Yale:*
+- Tend to be highfalutin seminars
+- Where you kind of have enough of background
+- That everything is--can be clear and understandable
+
+*The More You Understand Something:*
+- Easier you'll remember it
+
+'''
+
+=== Moral 3: Can't Trust Some of Your Memories
+
+*Finally:*
+- You can't trust some of your memories
+
+'''
+
+=== Reading Response
+
+*Your Reading Response for This Week:*
+- You have to use your powers for good and not for evil
+- "Though if you manage to succeed at this I will be very impressed"
+
+*Task:*
+- Have to describe, based on lecture materials and readings
+- How to implant false memory
+
+'''
+
+== Part 18: Question and Answer on Memory
+
+=== Question 1: What Type of Memory Is Playing Piano?
+
+*Student Question:*
+- "What sort of memory is it when you know how to play piano?"
+
+*Answer:*
+- Very good question
+
+*It Is Long-Term Memory:*
+- Because: Might know how to do concerto or song
+- Have it stored in your head
+- Carry it around with you
+- Will remember it year from now, two years from now
+- It is long-term memory
+
+*But:*
+- Also excellent example of implicit memory
+- Because: Know how to do it
+- But: Could do it unconsciously without attending to it
+- Not sensory
+- But: As if, put it crudely, your fingers know and not your mind
+
+'''
+
+=== Question 2: Photographic Memory
+
+*Student Question:*
+- About photographic memory
+
+*Answer:*
+
+*Lot of Claims:*
+- About photographic memory
+
+*Lecturer's Understanding:*
+- They do not tend to be substantiated
+
+*Sometimes:*
+- Photographic memory
+- This came up when talked about autism few classes ago
+- Is linked with savant-like skills
+- People who have severe impairments in some ways
+- May have photographic memories in others
+
+*Not Convinced:*
+- That photographic memory in sense that:
+- You see something
+- Take picture of it
+- Hold it in memory
+- Really exists
+
+*May Be:*
+- One or two case studies that suggest it might be real
+- But: Thinks it's controversial
+
+'''
+
+=== Closing
+
+*Okay:*
+- Have guest lecturer on Wednesday
+- Dean Peter Salovey will talk to us about love
+
+'''
+
+== Key Terms and Concepts
+
+=== Memory Types:
+- Sensory memory
+- Working memory / short-term memory
+- Long-term memory (LTM)
+- Implicit memory
+- Explicit memory
+- Semantic memory
+- Episodic memory
+- Autobiographical memory
+
+=== Memory Capacity:
+- Seven plus or minus two (George Miller)
+- Chunks
+- Storage differences
+- Expertise effects
+
+=== Getting Into Long-Term Memory:
+- Maintenance rehearsal
+- Depth of processing
+- Structural processing
+- Phonemic processing
+- Semantic processing
+- Structure and organization
+- Memory tricks
+- Vivid imagery
+- Understanding
+
+=== Memory Retrieval:
+- Retrieval cues
+- Compatibility principle
+- Context-dependent memory
+- State-dependent memory
+- Elaborative rehearsal
+- Elaborative retrieval
+- Déjà vu
+
+=== Memory Failure:
+- Forgetting
+- Physical decay
+- Interference
+- Changes in retrieval cues
+- Childhood amnesia
+- Retrograde amnesia
+- Anterograde amnesia
+- Consolidation
+
+=== Brain Structures:
+- Temporal lobe
+- Hippocampus (spatial memory)
+- Frontal lobe
+
+=== Memory Disorders:
+- Korsakoff's syndrome
+- H.M. (patient)
+- Clive Wearing
+- Viral encephalitis
+
+=== False Memories:
+- Implanted memories
+- Suggestion
+- Leading questions
+- Stereotype effects
+- Suggestive questioning
+- Eyewitness testimony
+- Elizabeth Loftus' research
+- Hypnosis
+- Hypnotic regression
+- Repressed memories
+- Flashbulb memories
+- Sam Stone study (Steve Ceci)
+
+=== Famous Movies:
+- "Memento"
+- Drew Barrymore/Adam Sandler amnesia movie
