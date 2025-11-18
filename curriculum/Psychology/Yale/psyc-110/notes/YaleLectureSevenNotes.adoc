@@ -1,0 +1,2001 @@
+= Psychology Lecture Notes: Animal Communication, Perception, Attention, and Memory
+
+== Introduction: Follow-ups from Previous Lecture
+
+=== Follow-up 1: Language Preference Development
+
+*Question from Student:*
+- When does preference for own language emerge in development?
+
+*Answer:*
+- Studies on newborn babies
+- Pretty much moment they pop out: Favor their own language over other languages
+- Suggests: Listening while in utero (in the womb) to rhythms of their language
+- Developing preference before birth
+
+'''
+
+=== Follow-up 2: "Let Him Have It" Case Resolution
+
+*Background:*
+- Court case mentioned previously
+- Person said "Let him have it" when someone else pointing gun at police officer
+- Police officer was killed
+- Person charged with murder
+
+*Outcome:*
+- Tried and found guilty for murder
+- Subsequently pardoned in 1988
+- But: He was executed in 1957
+- "Really nice except he was executed"
+- Made into a movie
+
+'''
+
+== Part 1: Review of Language Lecture
+
+=== Topics Covered Previously
+
+*Universals of Language:*
+- Properties shared across all languages
+
+*Detailed Aspects:*
+- Phonology (sounds)
+- Morphology (words/morphemes)
+- Syntax (grammar)
+
+*Amazing Features:*
+- Language uses arbitrary signs or sounds to convey concepts
+- Languages exploit combinatorial system including recursion
+- Puts together symbols into virtually limitless set of meaningful sentences
+
+*Development:*
+- Developmental time course
+- Emergence of language from babies
+- Babies really good at learning language
+- Adults whose brains have "atrophied," whose language capacities are "dead"
+
+'''
+
+== Part 2: Animal Communication Systems
+
+=== Central Questions
+
+*Now That We Know About Language:*
+- Do animals possess same sort of language?
+- If not, can they learn it?
+
+'''
+
+=== Basic Facts About Animal Communication
+
+*No Doubt:*
+- Nonhuman animals possess communication systems
+- Known forever
+- Not matter of controversy
+
+*Definitional Issue:*
+
+*If "Language" Means "Communication":*
+- Answer is obviously "yes"
+- Dogs, bees, and monkeys have language
+
+*If "Language" in Technical, Narrow Sense:*
+- As anything with properties discussed earlier
+- Using English, ASL, Spanish as background
+- Answer's almost certainly "no"
+
+'''
+
+=== Three Categories of Animal Communication Systems
+
+*Category 1: Finite List of Calls*
+
+*Example: Vervet Monkeys*
+- Small list of calls
+- Convey different warnings
+- "Attack from a snake"
+- "Attack from a leopard"
+
+'''
+
+*Category 2: Continuous Analog Signal*
+
+*Example: Bee Dance*
+- Communicates location of food sources
+- Doesn't do it in syntactically structured way
+- Rather: Intensity of dance corresponds to richness of food source
+
+'''
+
+*Category 3: Random Variation on a Theme*
+
+*Example: Birdsong*
+
+'''
+
+=== What Animal Communication Systems Lack
+
+*Don't Find in Any Real Sense:*
+- Phonology
+- Morphology
+- Syntax
+- Combinatorial systems
+- Arbitrary names
+
+*Status:*
+- This much is not particularly controversial
+
+'''
+
+== Part 3: Trained Primates - Controversial Cases
+
+=== Famous Cases
+
+*Examples:*
+- Kanzi
+- Nim Chimpsky
+- Other famous primates seen on Discovery Channel and other venues
+
+*Status:*
+- Fairly controversial
+
+'''
+
+=== Critique of Textbook Treatment
+
+*Gray Textbook:*
+- Nothing particularly inaccurate
+- But: Lecturer thinks Gray "a little bit too credulous, too believing"
+- Too accepting of claims about abilities of animals
+
+'''
+
+=== Scientific Arguments Against Primate Language Claims
+
+*Argument 1: Very Few Words Learned*
+
+*If Can Be Said to Learn Words at All:*
+- Learn very few of them
+- Takes extensive years of training to learn
+- Unlike normally developing child:
+- Could learn word in a day
+- Could learn word in an hour
+
+'''
+
+*Argument 2: Limited Order*
+
+*Utterances:*
+- Often have order
+- But: Order tends to be very limited
+- Lacks recursive properties
+- In fact, lack of recursion is not controversial
+
+'''
+
+*Argument 3: Extreme Repetitiveness*
+
+*Utterances of Trained Chimpanzees:*
+- Extremely repetitive
+
+*What You See on TV:*
+- Sort of sampling
+- Sampling could often be very impressive
+
+*But If You Take Random Utterances:*
+- Tends to look very different
+
+*Typical Chimpanzee Utterances (Taken at Random):*
+
+```
+"Nim eat, Nim eat.
+Drink, eat, me Nim.
+Me gum, me gum.
+Tickle me, Nim play.
+Me eat, me eat.
+Me banana, you banana, me you give.
+Banana me, me eat.
+Give orange, me give, eat orange, me eat orange."
+```
+
+*Lila Gleitman's Comment:*
+- If any normally developing child spoke like this
+- Parents would rush him screaming to neurologist
+
+'''
+
+=== Broader Question: Why Expect Chimps to Learn Human Language?
+
+*General Principle:*
+- We don't normally expect one species to have capacities associated with another species
+
+*Examples:*
+
+*Bats:*
+- Use echolocation to get around
+- No active research program seeing if cats can use echolocation
+
+*Birds:*
+- Navigate by stars
+- No research program seeing if dogs could navigate by stars
+
+'''
+
+=== Bad Ideas About Language That Cause Confusion
+
+*Bad Idea 1: Chimps Are Smart, Therefore Should Use Language*
+
+*Response:*
+- They ARE smart
+- But we know that smart isn't enough
+
+*Evidence:*
+- Human capacity for language is not totally result of smartness
+- There are smart children who, due to deficit in language capacity:
+- Don't speak
+- Don't understand language
+- Smartness of chimpanzees does not in itself demonstrate they should be able to learn language
+
+'''
+
+*Bad Idea 2: Chimps Are Our Nearest Evolutionary Relatives*
+
+*Correct Part:*
+- This is right
+- One would expect, on face of it, not unreasonable to expect us to share lot of abilities with them
+
+*On the Other Hand:*
+- We split from them long time ago
+- Plainly humans are different from chimps
+- Five million years either way
+- That's more than enough time for language capacity to evolve
+
+'''
+
+=== Value of Studying Animal Communication
+
+*None of This Is to Say:*
+- Study of nonhuman communication systems isn't interesting
+
+*Lecturer's Personal Opinion:*
+
+*Misguided Approaches:*
+- Study of attempts to teach chimpanzees, gibbons, or gorillas a human language like ASL are misguided
+- Would be as if team of monkeys kidnapped human child and tried to train him how to hoot like monkey
+- Might be enjoyable
+- But: Does not seem to give us any rich insights
+
+*More Interesting Approach:*
+- Study of animal communication systems in the wild
+- There's linguistics of human language that has delineated principles underlying all human languages
+- Would be extraordinarily interesting to attempt same linguistic program to other communication systems used in wild
+- Such as:
+- Cries of vervet monkeys
+- Bee dance
+
+'''
+
+== Part 4: Topics Not Covered in Language Section
+
+=== Introduction to Omitted Topics
+
+*Problem:*
+- Intro Psych course: Have to whip through lot of topics very fast
+
+*If You Took Course Focused Directly on Language:*
+- Would learn more about various topics
+
+'''
+
+=== Topic 1: Language in the Brain
+
+*Coverage:*
+- Touched on very briefly in textbook
+- Has large literature associated with it
+
+'''
+
+=== Topic 2: Language Disorders
+
+*Examples:*
+- Aphasias
+- Specific language impairment
+- Dyslexia
+
+'''
+
+=== Topic 3: Language Perception and Production
+
+*Question:*
+- How is it that we do amazing feat of understanding and producing words in fraction of second?
+- Where does that ability come from?
+
+'''
+
+=== Topic 4: Reading
+
+*In Many Ways Different from Language:*
+
+*Darwin's Distinction:*
+- Described language as instinct
+- Carefully distinguished it from other things that don't come natural to us
+- Including reading
+
+*Facts About Reading:*
+- Reading is difficult
+- Reading is cultural invention
+- Not every human has it
+- Unlike language: Reading is acquired with tremendous difficulty over many years
+
+*On the Other Hand:*
+- Reading plainly intersects with language
+- New way of conveying language
+- Moving out from speech to writing
+- Psychology and neuroscience of reading thus very interesting
+
+'''
+
+=== Topic 5: Bilingualism and Multilingualism
+
+*Questions of Interest:*
+
+*For People in This Room:*
+- Does it matter for how well you learn language whether you're learning one, two, three, or four?
+- How does multilingual encode all these different languages inside single brain?
+- And so on
+
+'''
+
+=== Topic 6: Relationship Between Language and Thought
+
+*Status:*
+- Very hot issue
+- Few years ago: Lecturer taught entire seminar called "Language and Thought" devoted to this question
+
+*Cool Question:*
+- Can break up into two very general questions
+
+'''
+
+#### Question 1: Is Language Necessary for Abstract Thought?
+
+*One Way to Answer:*
+- Look at creatures without language
+- Like babies and chimpanzees
+- See how smart they are
+
+*Two Possible Outcomes:*
+
+*If Very Smart:*
+- Would suggest you don't need language for abstract thought
+
+*If Certain Cognitive Limitations:*
+- Would suggest language is essential for abstract thought
+
+'''
+
+#### Question 2: Does Language Structure Affect Thinking?
+
+*Question:*
+- Even once you know language
+- Do structural properties of language you know affect way you think?
+
+*This Claim Sometimes Described As:*
+- Linguistic relativity
+- Sapir-Whorf hypothesis
+
+*Example Research:*
+- Looking at speakers of different languages
+- Such as English versus Korean
+- Seeing whether structural differences in these languages affect how you think
+
+*Coverage:*
+- Some of this work discussed in readings
+- Gray textbook
+- Selections from The Norton Anthology
+- Makes up reading response
+- Have to address this question and take best shot at answering it
+
+'''
+
+== Part 5: Question and Answer on Language
+
+=== Question 1: Individual Differences in Language Learning
+
+*Student Question:*
+- Some people learn languages easier than others
+- How do we explain this?
+
+*Answer:*
+
+*Can Ask Question Two Ways:*
+
+*1. First Language Learning:*
+- Some children learn language very quickly
+- Some are very slow
+
+*2. Second Language Learning:*
+- Some breezing through second language requirement at Yale
+- Others struggling and miserable
+- Considerable variation
+
+*Einstein Story:*
+
+*Background:*
+- Very slow to learn language
+- Didn't speak at all until he was four
+
+*The Story:*
+- First words: All of sudden having supper with parents
+- Put down spoon
+- Said: "The soup is too hot"
+- Parents stared in astonishment
+- Said: "You've never spoken before"
+- He said: "Well, up to now everything's been fine"
+
+*Note: It's not a true story*
+
+*Why Differences Exist:*
+- Nobody really knows
+- Surprisingly hard
+
+*Known Factors:*
+
+*Slight Advantage for Being Female:*
+- Girls slightly more advanced in language than boys
+- But: Not a big one
+- Need hundred people to just see it statistically
+
+*Big Genetic Factor:*
+- If your parents learned language quickly and learned other languages quickly
+- You are more likely to
+
+*Understanding of Brain Bases:*
+- Brain bases of these differences
+- Cognitive bases
+- Social bases
+- Largely open question
+
+'''
+
+=== Question 2: Children Exposed to Multiple Languages
+
+*Student Question:*
+- What happens when parents [speak different languages]?
+
+*Answer:*
+
+*Context:*
+- Actually more the norm around world than situation in United States
+- US: Kids exposed to single language
+
+*What Happens:*
+- Children learn both languages
+
+*How They Do It:*
+- Children very good (as adults are) at distinguishing different languages on basis of:
+- Sound system
+- Rhythms
+- Don't typically confuse them
+- Then: Just learn more than one language
+
+*Status:*
+- Actually more the average state of affairs around world
+
+'''
+
+=== Question 3: Hemispheric Specialization for Language
+
+*Student Question:*
+- You said people who are right-handed learn languages [in left hemisphere]
+
+*Answer:*
+
+*Admission:*
+- Don't have much more to say than what said before
+- Agrees this is deeply unsatisfying
+
+*Right-Handed People:*
+- Language probably in left side of brain
+
+*Left-Handed People:*
+
+*Question to Class:*
+- "How many people here are left-handed?"
+
+*For Left-Handers:*
+- We don't know
+- It varies
+- Some: Have it in left side
+- Some: Have it in right side
+- Some: Kind of diffuse
+
+*Deeper Questions:*
+- Why is this?
+- In fact, why are some people right-handed and others left-handed in first place?
+- These are really good questions [but we don't have answers]
+
+'''
+
+=== Question 4: Does Learning Multiple Languages Slow Each One Down?
+
+*Student Question:*
+- Does learning more than one language cause you to learn them slower than just learning one language?
+
+*Intuitive Reasoning:*
+- Would stand to reason that it would
+- There's finite amount of mental resources
+- If just learning English: Use all of it for English
+- If learning English and Spanish: Got to split
+- Would expect each to be learned slower
+
+*Surprising Finding:*
+- Common-sense view does not appear to be true
+- Children learning more than one language seem to show no deficit in each of their languages
+- Relative to child learning just one language
+
+*In Other Words:*
+- If I am just learning English (kid)
+- You're learning English and Spanish (kid)
+- You'll reach milestones in English same time I will
+- Your extra learning of Spanish doesn't seem to affect you
+- Doesn't seem to be any detriment for learning multiple languages
+
+*Related Question:*
+- "Is there any cognitive deficit?"
+- Some people have argued learning multiple languages sometimes harms children in certain ways
+- Claim made in Quebec, for instance
+- Over debate over how children should be taught English and French
+
+*Evidence:*
+- Does not appear to be case
+- As far as we know: No downside to learning many languages when you're young
+
+'''
+
+== Part 6: Introduction to Perception, Attention, and Memory
+
+=== Why Treat Together?
+
+*Putting Them Together:*
+- Instead of treating as separate lectures
+- There's sense in which they're the same story
+
+'''
+
+=== The Common Story
+
+*Example Scenario:*
+
+*You See a Scene:*
+- See this scene
+- You're looking at it
+- You're perceiving it
+- Coming through your eyes
+- You're interpreting it
+- You see something
+- See man and house
+
+*If Shut Your Eyes:*
+- Could still hold that scene in memory
+
+*Week Later:*
+- If asked: "What season was it?"
+- You would do pretty well
+
+*This Is the Story:*
+- How we do this
+
+'''
+
+=== Series of Claims to Be Made
+
+*For Perception:*
+- First persuade you: Problem of perception is hard
+- Successful perception involves educated and unconscious guesses about world
+
+*For Attention:*
+- We attend to some things and not others
+- We miss surprising amount of what happens in world
+
+*For Memory:*
+- Many types of memory
+- Key to memory is organization and understanding
+- You can't trust some of your memories
+
+'''
+
+=== Memory Example: 9/11
+
+*Question to Class:*
+- "How many of you remember where you were at 9/11?"
+
+*Claim:*
+- Many of you are wrong
+- Will never persuade you of this because you have certain memories
+
+*Everyone Has Story:*
+- Could tell story where they were when towers went down
+
+*Clever Psychologists' Study:*
+
+*September 12:*
+- Said: "Let's do a study"
+- Asked people: "Where were you yesterday when you heard the news?"
+- They told them
+
+*Later:*
+- Went back to them year later, two years later
+- Said: "Tell me about what happened September 11"
+- They said: "I remember totally where I was. I have a very--"
+- Often story was wrong
+
+*General Pattern:*
+- Lot like that which we're going to talk about
+
+'''
+
+=== Biggest Moral
+
+*Central Claim (in Really Big Print):*
+- We are often wrong about our experiences
+- Both of the present and of right now
+
+'''
+
+== Part 7: Perception - The Problem Is Hard
+
+=== Marvin Minsky Story
+
+*Background:*
+- Lecturer went to graduate school at MIT
+- Story about Marvin Minsky (A.I. guru)
+
+*Marvin Minsky:*
+- If you've heard phrase "artificial intelligence" – that was him
+- If you heard claim "people are nothing more than machines made of meat" – also him
+
+*The Story:*
+
+*Robotics Work:*
+- Doing work on robotics
+- Interested in building robot that could do all sorts of cool things
+
+*Robot Requirements:*
+- Had to see the world
+- Had to be able to:
+- Pick up things
+- Recognize people
+- See chairs
+- Navigate its way
+
+*Minsky's Assessment:*
+- "That's tough problem"
+- "Going to take graduate student whole summer to figure it out"
+- Assigned it to graduate student for summer project
+
+'''
+
+=== Why Visual Psychologists Love This Story
+
+*Computer Vision and Robotics Vision:*
+- Attempts to make machines that can identify and recognize objects
+- Has been profound failure
+
+*Current State:*
+- At this point, no machine on earth could recognize people and objects and things
+- At level of really dumb one-year-old
+
+*Reason:*
+- Much harder problem than anybody could have expected
+
+'''
+
+=== Why Is It Such a Hard Problem?
+
+*Naive Approach:*
+- Might think it's easy problem
+- "Okay, we have to figure out problem of how people see"
+- "Here's what we do"
+- You're over there, here's your eye
+- Somehow has to get to television monitor
+- Then you look at it
+- That'll solve problem of how you see
+
+*Naive Observations:*
+- "Eye flips things upside down"
+- "Guess this guy is going to have to get used to looking at things upside down"
+- "That's an interesting problem"
+
+*Problem with This Approach:*
+- Not the way to look at it
+- Doesn't answer any questions
+- Just pushes question back
+- Fine. How does "he" see?
+- Not answering anything
+
+'''
+
+=== Terminator Example
+
+*Terminator's View:*
+- Has all these numbers shooting out
+- Well: He has to read the numbers
+- He has to see this
+
+*Note: iTunes screenshot inadvertently shown*
+
+'''
+
+=== Right Way to Think About Perception
+
+*The Eye:*
+- Very ugly and bloody
+- Around here: Have the retina
+
+*The Retina:*
+- Bunch of nerve cells
+- Nerve cells fire for some stimulus and not others
+- From array of firings: "firing... not firing... firing... not firing..."
+- Have to figure out what the world is
+
+*Better View:*
+- Firings of neurons could be viewed as array of numbers
+- Have to figure out how to get from numbers to:
+- Objects and people
+- Actions
+- Events
+
+*That's the Problem*
+
+'''
+
+=== The Fundamental Problem: 2D to 3D
+
+*Made Particularly Difficult:*
+- Retina is two-dimensional surface
+- Have to infer 3D world from two-dimensional surface
+
+*From Mathematical Point of View:*
+- Impossible
+
+*What This Means:*
+- For any two-dimensional image
+- There is indefinite number of three-dimensional images that correspond to it
+
+*Example:*
+
+*Suppose You Have This on Retina:*
+- Array of light shaped like [certain shape]
+
+*What Does That Correspond to in World?*
+- Could correspond to thing just like that you're looking for
+- Or: Could correspond to square that's tilted backwards
+- Have to figure out which is which
+
+'''
+
+=== Solution: Unconscious Assumptions
+
+*Way We Solve This Problem:*
+- We have unconscious assumptions about how world works
+- Our minds contain certain assumptions about how things should be
+- Enable us to make educated guesses
+- From two-dimensional array to three-dimensional world
+
+*Note About Slides:*
+- Purposefully did not make slides available for this class ahead of time
+- Don't want people to cheat
+- Several points where you could look at slides and confirm things lecturer says are actually true
+- Want to give three examples:
+1. Color
+2. Objects
+3. Depth
+
+'''
+
+== Part 8: Example 1 - Color and Brightness
+
+=== The Basic Problem
+
+*Question:*
+- How do you tell lump of coal from snowball?
+
+*Images Shown:*
+- Lump of coal
+- Snowball
+- From Google images
+
+*Initial Answer:*
+- How do you know which is which?
+- Lump of coal is black
+- Snowball is white
+
+*How Do You Know?*
+- Maybe have on retina: Retina responds to sort of color that hits it
+- Oversimplified, but assume this is true
+- This is black coming out
+- That's white
+- That's how you tell
+
+'''
+
+=== Why This Can't Be Right
+
+*Problem:*
+- Objects' color is not merely matter of what material they're made of
+- But: Amount of light that hits it
+
+*Example:*
+- As lecturer walks across stage
+- Falls into shadow and light
+- None of you screams: "Professor Bloom is changing colors!"
+
+*What You Do:*
+- Automatically factor out change in illumination as this is happening
+
+'''
+
+=== Demonstration: Checker Shadow Illusion
+
+*Display:*
+- See this display
+- Take look at those two blocks
+
+*Question:*
+- You see this one as lighter than that one?
+- You do
+
+*Might Imagine:*
+- This is because this strip is lighter than this
+
+*But It Isn't:*
+- They're the same
+
+*Proof:*
+- Won't believe until actually print it out and take look
+- But: In fact the same
+- Will show you
+
+*Could Say:*
+- "I'm tricking you"
+- But: This is the way it works
+
+*Close-Up:*
+- Remember: Comparing this and this
+- Now: Take away other parts of environment
+- You'll see they're the same
+
+*Objection:*
+- "But hold it. This can't be same as this"
+
+*Answer Goes Like This:*
+- We know shadows make surfaces darker
+- Don't know this like "Here's something I know"
+- Rather: Know this in that it's wired up in our brains
+- When we see surface in shadow: Automatically assume it's lighter than it looks
+- We see it as lighter
+
+*Can Show This:*
+- By removing cues to shadow
+- You see it as it really is
+
+*Illustration:*
+- Information to your eyes is just one bit of information
+- Degree of light coming from single source is one bit of information
+- You use to calculate certain assumptions
+- Come to conclusion
+
+'''
+
+== Part 9: Example 2 - Objects
+
+=== The Segmentation Problem
+
+*Scene:*
+- You see this
+- Automatically and intuitively segment it into different objects
+- Segment it into:
+- Man
+- House
+- Birds
+- Trees
+
+*Question:*
+- How do you do this?
+
+*Turns Out:*
+- To program computer to segment scene into different objects is hugely difficult
+- Question of how we do it is, to some extent, unknown
+
+'''
+
+=== Gestalt Principles
+
+*One Answer:*
+- There are certain cues in environment that are signals you're dealing with different objects
+- These cues often described as Gestalt principles
+
+'''
+
+#### Principle 1: Proximity
+
+*Rule:*
+- When you see things close to each other
+- More likely than not to assume they belong to same thing
+
+'''
+
+#### Principle 2: Similarity
+
+*Display:*
+- Could correspond to indefinite number of objects
+- But: Naturally tend to see it as two
+- Do one with one texture pattern
+- Other with other texture pattern
+
+'''
+
+#### Principle 3: Closure
+
+*Fact:*
+- This is closed square here
+- Suggests it's single object
+
+'''
+
+#### Principle 4: Good Continuation
+
+*Could Judge:*
+- Could just as well be two shapes:
+- One that runs from A to C
+- Other one that runs from D to B
+
+*But Don't Tend to See It That Way:*
+- Rather: Tend to see it as:
+- One that runs from A to B
+- Other one that runs from C to D
+
+'''
+
+#### Principle 5: Common Movement
+
+*Rule:*
+- If things move together
+- They're single object
+
+'''
+
+#### Principle 6: Good Form
+
+*Example:*
+- You see object over there
+- In absence of any other information
+- Might be tempted to say: That's single thing, plus sign maybe
+
+*Versus:*
+- This [different shape]
+- Because has lousy form
+- More tempted to say: It's two things, one thing lying on top of each other
+
+'''
+
+=== Nature of These Cues
+
+*Characteristics:*
+- These are sort of cues, expectations
+- None of them are right
+- Cases where they could all fool you
+
+*But:*
+- Useful cues that guide our parceling of world
+- Our segmenting of world into distinct objects
+
+'''
+
+=== When Cues Fool You
+
+*Illusory Triangle:*
+- Might think, if you're suggestible
+- There is triangle here
+- Case where certain cues driving you to think there's triangle here
+- However: No triangle here
+- If you cover up these little Pacmen
+- Triangle goes away
+
+*Illusory Square:*
+- Similarly: No square in middle
+- No square
+- "It's very Matrix"
+- These are illusions
+- Because these are cues that there should be square there
+- The regularity of form
+
+'''
+
+== Part 10: Example 3 - Depth
+
+=== The Depth Perception Problem
+
+*What You See:*
+- See this
+- Don't--See it on one level as flat thing
+- Another level: You look inside picture
+- See, for instance: Man is in front of house
+
+*You Look at Lecturer:*
+- See podium
+- If have terrible neurological disorder:
+- See strange creature that's half podium
+- Leading on to chest
+- Up to head
+- Top of him is wiggling
+- Podium staying still
+
+*If Neurologically Normal:*
+- See man walking back and forth behind podium
+
+'''
+
+=== Why This Is Really a Problem
+
+*Technical Reason:*
+- Vision is hard
+
+*Crudely:*
+- Got two-dimensional retina
+- Have to figure out three-dimensional world
+- How do you do it?
+
+*Answer Once Again:*
+- Assumptions or cues
+- Certain assumptions visual system makes
+- Aren't always right
+- In fact: In cases of visual illusions, can be wrong
+- But: Will guide you to perceive world in correct and accurate way
+
+'''
+
+=== Depth Cues
+
+#### Cue 1: Binocular Disparity
+
+*Interesting One:*
+- Only depth cue that involves two eyes
+
+*How It Works:*
+- If look at you pretty close
+- Image get here and image get here are somewhat different
+- Or: Have to focus eyes together to get same image
+- If look at you in back
+- They're almost identical
+- Because: Further away, given two eyes that are static, closer images look
+
+*Mechanism:*
+- Not that you say to yourself: "Oh. Back there an orange. Same image in right eye and left eye. You must be far away"
+- Rather: Unconsciously and automatically make estimations
+- On how far people are in depth
+- Based on binocular disparity
+
+'''
+
+#### Cue 2: Interposition
+
+*Question:*
+- How do you know lecturer is in front of podium and podium's not in front of lecturer?
+- [Humorous aside: "From where I'm standing it's right"]
+- How do you know podium is in front of lecturer?
+
+*Answer:*
+- Because lecturer walking here
+- Then it cuts into him
+- Unless going through grotesque metamorphosis
+- What's happening: Makes sense to say moving behind podium
+- Interposition
+
+*Example with Guy and House:*
+- How do you know guy standing in front of house?
+- Because: You see all of him
+- He's blocking lot of house
+
+'''
+
+#### Cue 3: Relative Size
+
+*Question:*
+- How far away am I?
+
+*If Had to Estimate:*
+- Part of way you'll figure that out
+- You know how tall human's supposed to be
+
+*Counterfactual:*
+- If you thought lecturer was fifty feet tall
+- Would assume lecturer is further away than he is
+
+*General Principle:*
+- Your judgments on size dictate your judgments about distance
+
+*Usually:*
+- This cue isn't necessary
+
+*But:*
+- If you look at Empire State Building
+- If you go into field and see tower
+- Your judgment of how far away tower's going to be
+- Depends on your knowledge of how tall tower should be
+- If it's this tall: You say "Oh, it must be--"
+- Then you'd be surprised
+
+'''
+
+#### Cue 4: Texture Gradient
+
+*Will Explain:*
+
+*Remember Problem:*
+- How do you know if that thing is this object or object in and of itself?
+
+*Answer:*
+- Things with textures will show themselves
+- Because textures will get smaller from distance
+
+*Logically:*
+- Could still be single thing standing upright
+- With just dots going up smaller
+
+*Natural Assumption:*
+- Reason why dots recede in this regular fashion
+- Is because it's receding in depth
+
+'''
+
+#### Cue 5: Linear Perspective
+
+*Rule:*
+- Parallel lines tend to recede in distance
+
+'''
+
+=== Classic Illusions
+
+#### Mueller-Lyer Illusion
+
+*Perception:*
+- People will see this as longer than this
+- It's not
+
+*Proof:*
+- If don't believe: Print it out and measure it
+
+'''
+
+#### Ponzo Illusion
+
+*Perception:*
+- People see this one as longer than this
+- Again: It's not
+- Get illusions named after you when you discover these
+
+'''
+
+=== Explanation of Illusions
+
+*Mueller-Lyer:*
+
+*What's Going On:*
+- Top line looks longer even though it isn't
+
+*Explanation:*
+- These other lines in scene cause visual system to make guesses about distance
+- Then you correct for distance by making assumptions about size
+
+*General Principle:*
+- If have two lines
+- Take up same amount of space on retina
+- But you believe one is 100 feet away and other's 50 feet away
+- The one that's 100 feet away: You will see as bigger
+- Because brain says: "Well, if it takes up just this much space but it's further away, it must be bigger than something that's closer and takes up that much space"
+
+*That's What Goes On:*
+- For top line, for Mueller-Lyer illusion
+- We assume this is further away
+- This is closer
+- Based on cues to distance
+- Cue is factored in
+- Because we assume this is further away
+- We assume it must be bigger to take up same space as this which is closer
+
+*Ponzo Illusion:*
+- Linear perspective
+- Parallel lines tend to recede in distance
+- If this top one is further away than this
+- But they take up same size in your eye
+- This one must be bigger
+- You see it as bigger
+
+*Book Offers More Details:*
+- On how these illusions work
+
+'''
+
+=== Final Illusion: Shepard Tables
+
+*Developer:*
+- Roger Shepard
+
+*Description:*
+- Called Shepard tables
+- Look like two tables
+
+*Question:*
+- "Which of these tables would be easier to get through door if you have thin door?"
+
+*People's Response:*
+- Would say one on left
+- This one looks sort of thicker and harder to get through
+- This one looks longer and leaner
+
+*Fact:*
+- They're same size
+
+*What This Means:*
+- This [one dimension] is exactly same as this [other dimension]
+
+'''
+
+*Proof:*
+
+*Demonstration:*
+- Took lecturer about seven hours to do on computer
+- Nobody's going to believe because could have faked it
+- But: Can print it out and do yourself
+- Take piece of paper, put on here
+- Then move it
+- Same
+
+*Reaction:*
+- Showed it to somebody
+- They called lecturer a liar
+
+*Can Do Yourself:*
+- In privacy of own home or study
+
+*But What Lecturer Really Wants:*
+- After you do it, say: "Okay. Fine. Why does this one look longer and thinner than this one?"
+- Answer is same answer that will explain:
+- Mueller-Lyer illusion
+- Ponzo illusion
+- Having to do with:
+- Cues to depth
+- Way your mind corrects perception of depth
+
+'''
+
+== Part 11: Attention and Memory - Introduction
+
+=== Why Treat Together
+
+*We Are Fascinated with Memory:*
+- Particularly interesting when memory goes wrong
+- Particularly fascinating what happens in cases of amnesia
+
+'''
+
+=== Amnesia Demonstration
+
+*Needs Volunteer:*
+- Willing to do little bit of acting
+
+*Scenario 1:*
+
+*Lecturer:*
+- "Pretend you have amnesia. What's your name?"
+
+*Student:*
+- "I don't know"
+
+*Lecturer's Response:*
+- "Perfect. Glad you said that"
+- "That's wrong answer"
+- "Because you don't have total amnesia"
+- "You still remember English"
+
+'''
+
+*Scenario 2:*
+
+*Second Volunteer:*
+
+*Lecturer:*
+- "What's your name?"
+
+*Observation:*
+- Looks puzzled
+- But still maintains bowel and bladder control
+- So hasn't forgotten everything
+
+*Point:*
+- "I always lose the third volunteer in that demo"
+
+'''
+
+=== Memory Is Hugely Broad Concept
+
+*What's Included:*
+
+*Autobiographical Memory:*
+- What we standardly think
+
+*Perfectly Rational Response:*
+- When say somebody's losing their memory
+- "Oh, I have movie about somebody losing their memory"
+- Don't imagine person in diapers
+- Imagine person:
+- Walking around
+- Having sex with cool people
+- Saying "Where am I?"
+
+*What You Imagine:*
+- Losing autobiographical memory
+- Sense of self
+
+*But of Course:*
+- Knowing English is part of your memory
+- Knowing how to stand
+- Knowing how to chew and swallow
+- All things you've learned
+- That have been molded by experience
+
+'''
+
+== Part 12: Types of Amnesia
+
+=== Two Broad Types
+
+*Often Run Together:*
+
+*Type 1: Retrograde Amnesia*
+- Lose memory of past
+- "The Matt Damon amnesia"
+
+*Type 2: Anterograde Amnesia*
+- Lose ability to form new memories
+
+'''
+
+=== Case Study: Man Who Can't Form New Memories
+
+*Film of Man with This Problem:*
+
+*Background:*
+- World-renowned choir director
+- Suffered viral encephalitis
+- Led to brain damage
+- Destroyed:
+- Most of temporal lobes
+- Hippocampus
+- Lot of left frontal lobe
+
+*Could Have Been Worse:*
+- Retains ability to talk
+- Not intellectually impaired
+
+*The Problem:*
+- Just can't form new memories
+- Lives in perpetual "now"
+- Nothing affects him
+- Feels continually reborn at every moment
+
+*Note:*
+- Not always happens like this
+- More than one of these cases
+- Doesn't always happen like this
+
+'''
+
+== Part 13: Basic Distinctions in Memory
+
+=== Three Main Types
+
+*Crudely:*
+- Can make distinction between:
+1. Sensory memory
+2. Short-term memory (also known as working memory)
+3. Long-term memory
+
+'''
+
+=== Sensory Memory
+
+*Definition:*
+- Residue in your senses
+
+*Example:*
+- Flash of lightning
+- Might see afterimage
+- That afterimage is your sensory memory
+
+*Echoic Memory:*
+- Somewhat longer echoic memory for sounds
+- As somebody talking to you
+- Even if not paying attention
+- Will store few seconds of what they're saying
+
+*Practical Application:*
+- Sometimes: Somebody talking to you
+- You're not listening
+- They say: "You're not listening to me"
+- You say: "No. You were talking about--"
+- Pick up last couple seconds from echoic memory
+
+'''
+
+=== Short-Term Memory
+
+*Question:*
+- "Anybody remember what I just said?"
+
+*If You Did:*
+- That's short-term memory
+
+*Duration:*
+- Spans for few minutes
+
+'''
+
+=== Long-Term Memory
+
+*Questions:*
+- "Anybody know who Elvis is?"
+- "Do you know your name?"
+- "Do you know where you live?"
+
+*Characteristics:*
+- Long-term memory store that you walk around with
+- Not going to lose right away
+
+'''
+
+=== When Think About Amnesia in Movie Sense
+
+*Standard Conception:*
+- Think of certain loss of long-term memory
+- Associated with autobiographical personal events
+
+'''
+
+== Part 14: More Memory Distinctions
+
+=== Implicit vs. Explicit Memory
+
+*Will Talk in More Detail:*
+
+*Explicit (Crudely):*
+- What you have conscious access to
+- Example: What you had for dinner last night
+- Could think back and say: "I had this for dinner last night"
+
+*Implicit:*
+- More unconscious
+- Examples:
+- What certain word means
+- What word "had" means
+- How to walk
+- How to ride bicycle
+- Might not be able to articulate
+- Might not even be conscious of
+- But still have access to
+
+'''
+
+=== Semantic vs. Episodic Memory
+
+*Semantic Memory:*
+- Basically facts
+- What word means
+- What's capital of Canada
+- And so on
+
+*Episodic:*
+- Autobiography
+- What happened to you
+
+*Examples:*
+
+*Semantic:*
+- Yale is in New Haven
+
+*Episodic:*
+- You went on vacation away from New Haven last week
+
+'''
+
+=== Encoding, Storage, and Retrieval
+
+*Refers to Different Levels of What Happens in Memory:*
+
+*Encoding:*
+- Getting memory in
+- As when you study for test
+- Or you have experience
+
+*Storage:*
+- Holding the memory
+
+*Retrieval:*
+- Getting memory out
+
+'''
+
+=== Retrieval: Recall vs. Recognition
+
+*Often Broken Conveniently Into:*
+
+*Recall:*
+- When you just pull it out of memory
+
+*Recognition:*
+- When you recognize what corresponds to something in past
+
+*Example:*
+
+*Question:*
+- "Anybody remember what color tie I had on two days ago?"
+- [Silence]
+- "That would be impossible to remember"
+
+*But:*
+- "If I asked you: 'Is it purple or is it orange?'"
+- That would be much easier
+
+'''
+
+== Part 15: Stages of Memory
+
+=== Crude Breakdown
+
+*Start:*
+- Sensory memory
+- Just stuff that comes in
+
+*Leading To:*
+- Short-term memory
+
+*Leading To:*
+- Long-term memory
+
+*This Stage Theory:*
+- Something we'll discuss in more detail
+
+'''
+
+=== This Leads to Issue of Attention
+
+*Question:*
+- How do you get memory from your sensations, from what you're hearing?
+
+*Example:*
+- Lecturer speaking to you
+- You're hearing
+- How does it ever get in to other systems?
+
+*Key Question:*
+- What decides what's remembered and what's not?
+
+'''
+
+=== What's Happening to You Now
+
+*All Sorts of Things:*
+- Seat of your chair pressing against your butt
+- Wouldn't say: "Oh, I want to remember this forever"
+- Your neighbor exuding certain sort of smell
+- You're thinking about something
+- Your eyes follow him
+- Not everything gets in memory
+
+*Consequence:*
+- Would go mad if tried to remember everything
+- You can't
+
+'''
+
+=== Role of Attention
+
+*Question:*
+- What determines what gets into memory?
+
+*Answer:*
+- "Attention does"
+
+*Attention:*
+- Could be crudely viewed as flashlight, spotlight on experience
+- Willingly zooms in on something
+- Makes it memorable
+
+'''
+
+== Part 16: Properties of Attention
+
+=== Effortless vs. Effortful Attention
+
+*Some Things Come to Attention:*
+- Effortlessly and automatically
+
+'''
+
+=== Demonstration 1: Pop-Out Effect
+
+*Setup:*
+- Going to see array of letters
+- One of them's going to be green
+- When you see green one, please clap
+
+*Result:*
+- Easy task
+- Green letter pops out
+
+'''
+
+=== Demonstration 2: Effortful Search
+
+*Task:*
+- "Find the red 'o'"
+
+*Result:*
+- Much harder
+- Requires conscious search
+
+'''
+
+=== Involuntary Attention: Stroop Effect
+
+*Demonstration Setup:*
+
+*Part 1: Name Colors*
+- Easy: Just go down colors
+
+*Part 2: Name Colors of Words*
+- Words present but just name colors
+- Also easy
+
+*Part 3: Color-Word Conflict*
+- Word "red" printed in blue
+- Word "blue" printed in green
+- Task: Name the color, not read word
+
+*Result:*
+- Very difficult
+- Slower
+- Many errors
+- Can't help but read word
+
+*This Is Stroop Effect:*
+- Being expert reader
+- Knowledge of reading
+- Attention to what words meant
+- Subverted desire to do task
+- Couldn't make that go away even if wanted to
+
+*Impossibility:*
+- If somebody gave you $1,000 to read this as fast as you read [simple colors]
+- Would be unable to
+- Can't block it
+
+'''
+
+== Part 17: Selective Attention and Inattentional Blindness
+
+=== Gorilla Study
+
+*Setup:*
+- See two teams of basketball players
+- One team: White T-shirts
+- Other team: Black T-shirts
+- Passing balls back and forth
+
+*Task:*
+- Count in your head how many passes white team does with ball
+
+*Results:*
+
+*Question:*
+- "What number did people get?"
+
+*Follow-up Question:*
+- "Did anybody notice anything unusual?"
+
+*Some People:*
+- Did not notice anything unusual
+
+*For Those Who Didn't:*
+- "Watch this again and just watch it"
+
+*Key Finding:*
+- About 50% of people when counting
+- Who have never seen this before
+- Don't notice anything [gorilla walks through]
+
+*But:*
+- When you're not counting
+- Kind of obvious what you're missing
+
+*Conclusion:*
+- One demonstration among many
+- When you're attending to something
+- Have very small window of attention
+- Lose focus on other things
+
+'''
+
+== Part 18: Change Blindness
+
+=== Film Study
+
+*Setup:*
+- Watch movie
+- Pay attention very closely to what happens
+- Try to remember
+
+*Questions:*
+- "How many of you noticed something odd in that movie?"
+- "How many of you didn't?"
+
+*Second Viewing:*
+- "Now everybody look at":
+- The scarf
+- Color of plates
+- The food
+- Among other things
+
+'''
+
+=== The Phenomena: Change Blindness
+
+*Definition:*
+- Tend to be oblivious to other things that go on in environment
+- When there's focus of attention focused in certain way
+
+*General Pattern:*
+- Often quite difficult when there's change in scene
+- To notice what changes and what stays same
+
+'''
+
+=== Flicker Task Demonstration
+
+*Setup:*
+- Two pictures flicking back and forth
+- Clap when you see what's different between two pictures
+
+*Results:*
+- Many people struggle
+- Some never see difference
+- Takes long time for others
+
+'''
+
+=== Dan Simons' Research
+
+*Lecturer:*
+- "This is work by Dan Simons"
+- Part of extraordinarily interesting body of work on "change blindness"
+
+*The Phenomena:*
+- We have very narrow focus of attention
+- Huge changes can happen that we are oblivious to
+
+*Movie Continuity:*
+- Why so much difficulty with continuity changes in movies
+
+'''
+
+=== Real-World Studies
+
+*Cornell Campus Study:*
+
+*Setup:*
+- Get unsuspecting person walking through campus
+- Guy comes over
+- Says: "Excuse me, Sir. I'm lost. Could you help me with directions?"
+- Has map
+- Person says: "Sure"
+- Then: Two construction workers holding door
+- Going to rudely bump between these two characters
+- Experimenter gets switched with another guy
+
+*Result:*
+- When two guys walk away
+- Subject standing there with entirely different person
+- What's interesting: Nobody notices
+
+*Exceptions:*
+- They notice if person changes sexes
+- "Didn't you used to be a woman?"
+- They notice if experimenter changes races
+- But most other changes: Oblivious to
+
+'''
+
+=== Human Subject Form Study
+
+*Setup (Brian Scholl or Dan Simons):*
+- Subject comes in to lab
+- "If you're going to do experiment with us, need to sign human subject form"
+- Hands form to subject
+- Subject signs form
+- Experimenter takes form
+- Says: "Thank you. I'll put it down here"
+- Goes down
+- Then: Different person pops up
+
+*Result:*
+- People don't notice
+
+'''
+
+=== General Conclusions
+
+*Pattern:*
+- Certain level on which we're oblivious to changes
+
+*What's Weird:*
+- We don't think we are
+- We think we see world as it is
+- Don't notice that when attending to something
+- Everything else gets blanked out
+
+*Gorilla Study:*
+- About 50% of people who have never seen demo before
+- Don't notice gorilla
+- Couldn't imagine anything more obvious
+
+'''
+
+=== Historical Note
+
+*Gorilla Study:*
+- Actually done very long time ago
+- Originally done in different way
+- [Lecturer attempts to show original study but has technical difficulties with DVD]
+
+'''
+
+== Part 19: Question and Answer on Attention and Memory
+
+=== Question 1: Why Does Practice Make Things Automatic?
+
+*Student Question:*
+- Why does it work that way?
+- Why do things that become very practiced become automatic and involuntary?
+
+*Answer:*
+- Good question
+- "I don't know"
+- We know that they do
+
+*Examples:*
+
+*Reading:*
+- Once you know how to read
+- Can't not read
+
+*Listening:*
+- If lecturer talking to you
+- Even if extremely boring
+- Very hard not to listen
+- Can't shut off your ears
+- Could put fingers in them
+- But can't shut off ears
+
+*Vision:*
+- Can't shut your eyes without actually shutting them
+- Can't say: "This is disgusting movie. I'm not going to attend to it"
+
+*General Pattern:*
+- Not answering your question
+- Just saying observation is right one
+- And more general one
+- When you're good at something and over-practiced
+- Becomes involuntary
+- You cannot stop it
+
+'''
+
+=== Question 2: Did Man with Amnesia Remember Before Accident?
+
+*Student Question:*
+- Did he remember things right before his accident?
+
+*Answer:*
+- Yes
+- He had some amnesia of events before his accident
+- But did remember things
+- Knew his name
+- Knew other things about his life
+
+'''
+
+== Key Terms and Concepts
+
+=== Animal Communication:
+- Finite list of calls
+- Continuous analog signal
+- Random variation on theme
+- Vervet monkeys
+- Bee dance
+- Birdsong
+- Trained primates (Kanzi, Nim Chimpsky)
+- Recursion (lack of in animal communication)
+
+=== Language and Thought:
+- Linguistic relativity
+- Sapir-Whorf hypothesis
+- Language as necessary for abstract thought
+- Structural properties affecting thought
+
+=== Perception:
+- Retina (two-dimensional surface)
+- 3D inference problem
+- Unconscious assumptions
+- Educated guesses
+- Color constancy
+- Shadow compensation
+- Checker shadow illusion
+
+=== Gestalt Principles:
+- Proximity
+- Similarity
+- Closure
+- Good continuation
+- Common movement
+- Good form
+- Illusory contours
+
+=== Depth Cues:
+- Binocular disparity
+- Interposition
+- Relative size
+- Texture gradient
+- Linear perspective
+- Mueller-Lyer illusion
+- Ponzo illusion
+- Shepard tables
+
+=== Memory Types:
+- Sensory memory
+- Short-term memory (working memory)
+- Long-term memory
+- Implicit memory
+- Explicit memory
+- Semantic memory
+- Episodic memory
+- Autobiographical memory
+
+=== Memory Processes:
+- Encoding
+- Storage
+- Retrieval
+- Recall
+- Recognition
+
+=== Amnesia:
+- Retrograde amnesia (loss of past)
+- Anterograde amnesia (can't form new memories)
+- Viral encephalitis
+- Temporal lobe damage
+- Hippocampus damage
+
+=== Attention:
+- Selective attention
+- Effortless attention (pop-out)
+- Effortful attention (search)
+- Involuntary attention
+- Stroop effect
+- Inattentional blindness
+- Change blindness
+- Gorilla study
+- Flicker task
+- Attention as spotlight
