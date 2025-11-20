@@ -55,7 +55,7 @@ jobs:
     steps:
 
       - name: "Checkout repository source code"
-        uses: actions/checkout@v5.0.0
+        uses: actions/checkout@v5.0.1
 
 
       - name: Setup Java for Kotlin
@@ -67,7 +67,7 @@ jobs:
 
 
       - name: Initialize CodeQL
-        uses: github/codeql-action/init@v4.31.3
+        uses: github/codeql-action/init@v4.31.4
         timeout-minutes: 17
         with:
           languages: ${{ matrix.language }}
