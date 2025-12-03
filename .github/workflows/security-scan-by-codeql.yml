@@ -55,7 +55,7 @@ jobs:
     steps:
 
       - name: "Checkout repository source code"
-        uses: actions/checkout@v6.0.0
+        uses: actions/checkout@v6.0.1
 
 
       - name: Setup Java for Kotlin
