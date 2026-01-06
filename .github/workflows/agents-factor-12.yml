@@ -83,7 +83,7 @@ jobs:
           echo "On <captain-ws>, the Goo agents, Ruby is installed to local user via <asdf> resulting in <asdf version 0.18.0 (revision 651275a)> version message."
           echo "And thus on that host asdf will need to be kept current. On all other hosts ruby 3.3.5 is installed globally." 
           echo "The <ruby> version is long-lived. But gems and bundler are upgraded regularly to match the project configuration."
-          each "Ruby is only used to manage the school's site."
+          echo "Ruby is only used to manage the school's site."
 
       - name: Correct bundler Packages
         run: |
