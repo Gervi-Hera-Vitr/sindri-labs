@@ -51,7 +51,8 @@ jobs:
           echo "::notice title=CPU::$(nproc) cores, $(lscpu | grep 'Model name' | uniq || true)"
           echo "::notice title=Git::$(git --version || true)"
           echo "::notice title=GitHub CLI::$(gh version || true)"
-          echo "::notice title=Runner::${{ steps.env.outputs.runner-name }} (${{ steps.env.outputs.runner-nick }})"
+          echo "::notice title=Runner::${{ steps.env.outputs.runner-name }} (${{ steps.env.outputs.runner-nick }}) collected on $(hostname)"
+          echo "::notice title=Location::${{ steps.env.outputs.runner-location }} @ ${{ steps.env.outputs.host-address }}"
           echo "::endgroup::"
 
 

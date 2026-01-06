@@ -1,0 +1,112 @@
+name: Actions Runner Upgrade
+run-name: "Upgrade Runner on ${{ github.repository }} by ${{ github.actor }} with ${{ github.event_name }} (Attempt ${{ github.run_attempt }})"
+#.github/workflows/custom-runner-introspect.yml
+
+on:
+  push:
+  workflow_dispatch:
+    inputs:
+      host-info:
+        required: false
+        type: boolean
+        default: true
+        description: "If executed manually, do we want to see the executing host information?"
+
+
+defaults:
+  run:
+    shell: zsh -l {0}
+
+jobs:
+
+  runner-upgrade-job:
+    runs-on:
+      - self-hosted
+    timeout-minutes: 13
+    steps:
+
+      - name: Checkout
+        uses: actions/checkout@v5.0.0
+        with:
+          fetch-depth: 0
+          fetch-tags: true
+
+      - name: Detect Runner Type
+        id: env
+        uses: ./.github/actions/action-runner-detect
+
+
+      - name: Hosted Infra Snapshot
+        if: inputs.host-info == 'true'
+        run: |
+          echo "::group::🖥️ Hosted Infra Fingerprint"
+          echo "::notice title=Event::$GITHUB_EVENT_NAME"
+          echo "::notice title=Branch::$GITHUB_REF_NAME"
+          echo "::notice title=OS:: $(cat /etc/issue || true)"
+          echo "::notice title=Kernel::$(uname -v || true)"
+          echo "::notice title=Memory::$(free -hg || true)"
+          echo "::notice title=CPU::$(nproc) cores, $(lscpu | grep 'Model name' | uniq || true)"
+          echo "::notice title=Git::$(git --version || true)"
+          echo "::notice title=GitHub CLI::$(gh version || true)"
+          echo "::notice title=Runner::${{ steps.env.outputs.runner-name }} (${{ steps.env.outputs.runner-nick }}) collected on $(hostname)"
+          echo "::notice title=Location::${{ steps.env.outputs.runner-location }} @ ${{ steps.env.outputs.host-address }}"
+          echo "::endgroup::"
+
+      - name: Check OS Upgradable
+        id: check-os
+
+        run: |
+          echo "Placeholder to execute `apt list --upgradable` and see if anything is produced."
+          echo "If there are upgradable packages for this host in later iteration we should create a maintenance issue."
+
+      - name: Create Support Item
+        if: check-os.outputs.upgradable == 'true'
+        run: |
+          echo "If upgrade is possible, it created Dependabot or Renovate style GitHub issue."
+
+      - name: Check SDKMan Packages
+        run: |
+          echo "Placeholder to check `sdkman current` against .sdkmanrc and note mismatch."
+          echo "Some SDKMan configuration is complex, for example java 21-0-.9-tem is expected current but 25.0.1-tem should also be installed and available."
+
+      - name: Correct SDKMan Packages
+        run: |
+          echo "Placeholder to upgrade sdkman packages."
+          echo "When we upgrade from java 21.0.8-tem to 21.0.9-tem, for example, we then remove 21.0.8-tem"
+          echo "In addition, we execute `sdk flush --all` to remove files wasting space in that user."
+          echo "In general, we clean up after every tool we upgrade."
+          echo "Additional point of complication is upgrading the tool itself first."
+          echo "For SDKMan that command is `sdk selfupdate`, etc."
+
+      - name: Check Bundler Packages
+        run: |
+          echo "Our Ruby does not change often and does not need automatic update."
+          echo "And it is installed differently on both types of Linux hosts we use."
+          echo "On `captain-ws`, the Goo agents, Ruby is installed to local user via `asdf` resulting in 'asdf version 0.18.0 (revision 651275a)' version message."
+          echo "And thus on that host asdf will need to be kept current. On all other hosts ruby 3.3.5 is installed globally." 
+          echo "The `ruby` version is long-lived. But gems and bundler are upgraded regularly to match the project configuration."
+          each "Ruby is only used to manage the school's site."
+
+      - name: Correct bundler Packages
+        run: |
+          echo "Self explanatory - placeholder to correct gems and bundler."
+
+      - name: Check Conda Version
+        run: |
+          echo "Inspect if conda needs to be upgraded."
+
+      - name: Check Mamba Version
+        run: |
+          echo "Inspect if mamba needs to be upgraded."
+
+      - name: Upgrade base Environment
+        run: |
+          echo "Upgrade `base` if `conda` or `mamba` are outdated."
+
+      - name: Upgrade ml Environment
+        run: |
+          echo "Upgrade the main `ml` environment in which all Python builds happen"
+
+      - name: Produce Bill of Material
+        run: |
+          echo "Make comments and annotations regarding the entire process."

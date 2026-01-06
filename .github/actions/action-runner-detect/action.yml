@@ -15,6 +15,12 @@ outputs:
   runner-nick:
     description: "The nickname of the runner"
     value: ${{ steps.detect.outputs.nick }}
+  host-address:
+    description: "Self-reported host adress by name call"
+    value: ${{ steps.detect.outputs.address }}
+  runner-location:
+    description: "Executing location path of the runner process"
+    value: ${{ steps.detect.outputs.location }}
 
 runs:
   using: "composite"
@@ -26,7 +32,9 @@ runs:
       run: |
         echo "::group::Detect Runner Type"
         name="${{ runner.name }}"
-        nick="$( hostname -s )"
+        nick="$( hostname --long )"
+        address="$( hostname -I )"
+        location="$( pwd )"
         
         if [[ "$name" == *"GitHub Actions"* ]]; then
           echo "::notice title=🌀 Hosted runner::Running on GitHub-hosted collective farm infrastructure."
@@ -38,4 +46,6 @@ runs:
 
         echo "name=$name" >> $GITHUB_OUTPUT
         echo "nick=$nick" >> $GITHUB_OUTPUT
+        echo "address=$address" >> $GITHUB_OUTPUT
+        echo "location=$location"  >> $GITHUB_OUTPUT
         echo "::endgroup::"
