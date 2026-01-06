@@ -5,12 +5,6 @@ run-name: "Upgrade Runner on ${{ github.repository }} by ${{ github.actor }} wit
 on:
   push:
   workflow_dispatch:
-    inputs:
-      host-info:
-        required: false
-        type: boolean
-        default: true
-        description: "If executed manually, do we want to see the executing host information?"
 
 
 defaults:
@@ -37,7 +31,6 @@ jobs:
 
 
       - name: Hosted Infra Snapshot
-        if: inputs.host-info == 'true'
         run: |
           echo "::group::🖥️ Hosted Infra Fingerprint"
           echo "::notice title=Event::$GITHUB_EVENT_NAME"
