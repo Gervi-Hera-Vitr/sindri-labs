@@ -54,13 +54,11 @@ jobs:
 
       - name: Check OS Upgradable
         id: check-os
-
         run: |
           echo "Placeholder to execute `apt list --upgradable` and see if anything is produced."
           echo "If there are upgradable packages for this host in later iteration we should create a maintenance issue."
 
       - name: Create Support Item
-        if: check-os.outputs.upgradable == 'true'
         run: |
           echo "If upgrade is possible, it created Dependabot or Renovate style GitHub issue."
 
