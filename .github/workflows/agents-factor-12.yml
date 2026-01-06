@@ -80,9 +80,9 @@ jobs:
         run: |
           echo "Our Ruby does not change often and does not need automatic update."
           echo "And it is installed differently on both types of Linux hosts we use."
-          echo "On `captain-ws`, the Goo agents, Ruby is installed to local user via `asdf` resulting in 'asdf version 0.18.0 (revision 651275a)' version message."
+          echo "On <captain-ws>, the Goo agents, Ruby is installed to local user via <asdf> resulting in <asdf version 0.18.0 (revision 651275a)> version message."
           echo "And thus on that host asdf will need to be kept current. On all other hosts ruby 3.3.5 is installed globally." 
-          echo "The `ruby` version is long-lived. But gems and bundler are upgraded regularly to match the project configuration."
+          echo "The <ruby> version is long-lived. But gems and bundler are upgraded regularly to match the project configuration."
           each "Ruby is only used to manage the school's site."
 
       - name: Correct bundler Packages
@@ -99,11 +99,11 @@ jobs:
 
       - name: Upgrade base Environment
         run: |
-          echo "Upgrade `base` if `conda` or `mamba` are outdated."
+          echo "Upgrade <base> if <conda> or <mamba> are outdated."
 
       - name: Upgrade ml Environment
         run: |
-          echo "Upgrade the main `ml` environment in which all Python builds happen"
+          echo "Upgrade the main <ml> environment in which all Python builds happen"
 
       - name: Produce Bill of Material
         run: |
