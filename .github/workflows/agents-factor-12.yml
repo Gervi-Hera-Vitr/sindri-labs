@@ -55,7 +55,7 @@ jobs:
       - name: Check OS Upgradable
         id: check-os
         run: |
-          echo "Placeholder to execute `apt list --upgradable` and see if anything is produced."
+          echo "Placeholder to execute <apt list --upgradable> and see if anything is produced."
           echo "If there are upgradable packages for this host in later iteration we should create a maintenance issue."
 
       - name: Create Support Item
@@ -64,17 +64,17 @@ jobs:
 
       - name: Check SDKMan Packages
         run: |
-          echo "Placeholder to check `sdkman current` against .sdkmanrc and note mismatch."
+          echo "Placeholder to check <sdkman current> against .sdkmanrc and note mismatch."
           echo "Some SDKMan configuration is complex, for example java 21-0-.9-tem is expected current but 25.0.1-tem should also be installed and available."
 
       - name: Correct SDKMan Packages
         run: |
           echo "Placeholder to upgrade sdkman packages."
           echo "When we upgrade from java 21.0.8-tem to 21.0.9-tem, for example, we then remove 21.0.8-tem"
-          echo "In addition, we execute `sdk flush --all` to remove files wasting space in that user."
+          echo "In addition, we execute <sdk flush --all> to remove files wasting space in that user."
           echo "In general, we clean up after every tool we upgrade."
           echo "Additional point of complication is upgrading the tool itself first."
-          echo "For SDKMan that command is `sdk selfupdate`, etc."
+          echo "For SDKMan that command is <sdk selfupdate>, etc."
 
       - name: Check Bundler Packages
         run: |
