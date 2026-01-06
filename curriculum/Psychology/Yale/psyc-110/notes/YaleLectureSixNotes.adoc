@@ -1,0 +1,1610 @@
+= Psychology Lecture Notes: Language Structure and Acquisition
+
+== Part 1: Introduction - Language as Battleground of Human Nature
+
+=== Language's Central Role in Understanding Human Nature
+
+*Why Language Matters:*
+- Study of human language = battleground over theories of human nature
+- Every major thinker about people has had to address language
+
+*Historical Figures Who Addressed Language:*
+- Aristotle
+- Plato
+- Hume
+- Locke
+- Freud
+- Skinner
+
+*Modern Approaches That Must Address Language:*
+- Computational theory
+- Cognitive neuroscience
+- Evolutionary theory
+- Cultural psychology
+
+*Central Claim:*
+- If you hope to make it with a theory of what people are and how people work, you HAVE to explain and talk about language
+
+*Dedicated Field:*
+- Unlike most psychological topics, language has entire field devoted to its study
+- Linguistics: Entirely devoted to studying nuances and structures of different languages
+
+'''
+
+=== Definitional Point: What Counts as Language?
+
+*Narrow Definition (Scientific Sense):*
+
+Systems like:
+- English
+- Dutch
+- Warlpiri
+- Italian
+- Turkish
+- Urdu
+- Various sign languages
+
+*Broader Possible Definition:*
+- Could use "language" to describe what dogs do
+- What chimpanzees do
+- What birds do
+- Music ("musical language")
+- Art
+- Any communicative system
+
+*Why Narrow Definition Is Necessary:*
+
+*Problem with Broad Definition:*
+- If language refers to everything from English to traffic signals
+- Cannot find interesting generalizations
+- Cannot do good science
+- Becomes scientifically useless
+
+*Scientific Strategy:*
+1. Restrict to systems like English, Dutch, American Sign Language, Navajo
+2. Make generalizations about language in this narrow sense
+3. Then ask: To what extent do other systems (like animal communication) relate to this narrower definition?
+4. After understanding narrow sense, can explore what other communicative systems share those properties
+
+'''
+
+== Part 2: Darwin's Claim - Language as Instinct
+
+=== Darwin's Assertion
+
+*Quote:*
+> "Man has an instinctive tendency to speak, as we see in the babble of our young children, while no child has an instinctive tendency to bake, brew or write."
+
+*Darwin's Claim:*
+- Language is special
+- Some sort of propensity, capacity, or instinct for language
+- Unlike other cultural activities (baking, brewing, writing)
+- Not everything comes natural to us
+- But language does come naturally
+
+'''
+
+=== Evidence 1: Universality of Language
+
+*Basic Fact:*
+- Every normal human society has language
+
+*Historical Evidence:*
+- Course of traveling: Cultures encounter other cultures
+- Often encounter very different cultures
+- BUT: Through entire course of human history, nobody has ever encountered another group of humans that did not have a language
+
+*Does Universality Prove It's Built In?*
+
+*Not Necessarily - Alternative Explanation:*
+- Could be cultural innovation
+- Language might be such a good idea that every culture comes across it and develops it independently
+
+*Analogy - Eating Utensils:*
+- Just about every culture uses some sort of utensils to eat food with
+- Knife and fork
+- Chopsticks
+- Spoon
+- This probably NOT because use of eating utensils is human nature
+- Rather: It's just very useful thing that cultures discover over and over again
+
+'''
+
+=== Evidence 2: Pidgins and Creoles - Language Creation in Single Generation
+
+*Stronger Evidence:*
+- Demonstrated case studies where language is created within a single generation
+- These case studies have happened over history
+
+*Standard Example: Slave Trade Context*
+
+*Setup:*
+- Slave trade revolving around tobacco, cotton, coffee, or sugar
+- Would mix slaves and laborers from different language backgrounds
+- Part of this mixing was deliberate: To avoid possibility of revolt
+
+*Result - Pidgin Development:*
+- Enslaved people from different cultures would develop makeshift communication system
+- Could talk to one another
+- Called a "pidgin" (p-i-d-g-i-n)
+
+*Characteristics of Pidgin:*
+- NOT a language
+- Strings of words borrowed from different languages around them
+- Put together in haphazard ways
+- No rich structure
+
+*Critical Question:*
+- What happens to children raised in this society?
+
+*Expected Outcome:*
+- Might expect children would come to speak pidgin
+
+*Actual Outcome:*
+- They DON'T speak pidgin
+- In course of single generation, they develop their own language
+- They CREATE a language with:
+- Rich syntax
+- Rich morphology
+- Rich phonology
+
+*This New Language = Creole:*
+- Languages we know now as creoles
+- Word refers back to their history
+- Means they were developed from pidgins
+
+*Significance:*
+- Suggests ability to use, understand, and learn language is part of human nature
+- Doesn't require extensive cultural history
+- Just about any normal child, even when not exposed to full-fledged language, can create a language
+
+'''
+
+=== Evidence 3: Modern Case Studies - Nicaraguan Sign Language
+
+*Context:*
+- Deaf children acquiring sign language
+- Adults teaching them are not versed in sign language
+- Adults are second-language learners struggling along
+
+*Expected Outcome:*
+- Children would use whatever system their adults use
+
+*Actual Outcome:*
+- They DON'T use adult system
+- They "creolize" it
+- Take makeshift communication system developed by adults
+- Turn it into full-blown language
+
+*Interpretation:*
+- To some extent, it's part of human nature to create languages
+
+'''
+
+=== Evidence 4: Universal Acquisition in Normal Humans
+
+*Basic Facts:*
+
+*Not Everyone Can Do Everything:*
+- Not everybody in room can ride bicycle
+- Not everybody in room can play chess
+
+*But Everybody Has Language:*
+- Every person possesses at least one language
+- Everybody started to possess at least one language when they were child
+
+*Exceptions:*
+- Exist, but come about due to some sort of brain damage
+- Any neurologically normal human will come to possess a language
+
+'''
+
+=== Evidence 5: Neurological Studies
+
+*Brain Specialization:*
+- Dedicated parts of brain that work for language
+- Referred to in earlier chapters on brain
+
+*Consequences of Brain Damage:*
+- If these parts of brain are damaged: Get language deficits
+- Aphasias: Might lose ability to understand or create language
+
+'''
+
+=== Evidence 6: Genetic Basis (More Speculative)
+
+*Recent Work:*
+- Studying genetic basis of language
+- Looking at genes directly responsible for capacity to learn and use language
+
+*Evidence:*
+- Some unfortunate people have point mutations in these genes
+- Such people are unable to learn and use language
+
+*General Conclusion:*
+- At very broad level, some support for claim that language is in some sense part of human nature
+
+'''
+
+== Part 3: What All Languages Share - Universal Properties
+
+=== Creativity of Language (Descartes' Argument)
+
+*René Descartes' Philosophical Position:*
+- We are more than merely machines
+- Best piece of evidence: Human capacity for language
+
+*Why Machines Couldn't Have Language (According to Descartes):*
+- Our capacity for language is unbounded and free
+- We could say anything we choose to say
+- We have free will
+
+*Productivity:*
+- Language allows us to produce virtual infinity of sentences
+- We could create and understand sentences we never heard before
+
+'''
+
+=== Number of Possible Sentences
+
+*Question:*
+- How many grammatical sentences under twenty words in English?
+
+*Answer:*
+- "A lot"
+
+*Implication:*
+- Any theory of language use and language comprehension cannot simply appeal to a list
+- When you understand a sentence, you have to have capacity to understand sentence even if you've never heard it before
+
+*Novel Sentences:*
+- We could effortlessly produce and understand sentences that no human has ever said before on earth
+
+*Examples of Novel Sentences:*
+
+1. "It's surprisingly easy to get a purple tie on eBay if you don't care much about quality."
+2. "I am upset that one cannot easily download 'Buffy the Vampire Slayer' through iTunes."
+
+*Key Point:*
+- Possible nobody has said these sentences before
+- But you probably have not heard them
+- Yet you understand them immediately
+
+*Mechanism:*
+- How do you do it?
+- You have rules in your head
+- You've learned what words mean
+- But you have abstract and unconscious rules that:
+- Take these words
+- Figure out the order
+- In fraction of second, give rise to understanding
+
+*This Is What Linguists Study*
+
+'''
+
+=== Examples of Unconscious Rules
+
+*Important Note:*
+- Rules we're talking about are NOT rules you explicitly know
+- They're automatic rules
+- Same sort as visual perception rules
+- Implicit and unconscious
+- Not accessible to explicit understanding
+
+*Example 1: "Eager to Eat" vs. "Easy to Eat"*
+
+- "The pig is eager to eat"
+- "The pig is easy to eat"
+
+*Immediate Understanding:*
+- In fraction of second, you know there's important difference
+- "The pig is eager to eat" = pig does the eating
+- "The pig is easy to eat" = pig is being eaten
+
+*Example 2: Pronoun Reference*
+
+- "Bill knew that John liked him"
+
+*Possible Meanings:*
+- Could mean: Bill knew that John liked Bill
+- Could mean: Bill knew that John liked Fred
+
+*Cannot Mean:*
+- Cannot mean: Bill knew that John liked John
+
+*Natural Interpretation:*
+- Bill knew that John liked Bill
+- The two words co-refer
+
+*Contrast:*
+- "Bill knew that John liked himself"
+- Only has meaning: Bill knew that John liked John
+
+*Professional Linguistics:*
+- "This is what linguists do for a living"
+- If this interests you: "You should become a linguist"
+
+'''
+
+=== Three Structures of Language
+
+*Language Has Multiple Levels of Structure:*
+- From bottom to top
+- All human languages have these
+
+*Three Core Structures:*
+
+1. **Phonology:** System of sounds or signs
+2. **Morphology:** System of words or morphemes (basic units of meaning)
+3. **Syntax:** Rules and principles that put together words and phrases into meaningful utterances
+
+*Source:*
+- Discussion indebted to Steven Pinker's excellent book "The Language Instinct"
+- Provides superb discussion of these phenomena
+- Many examples borrowed from Pinker
+
+'''
+
+== Part 4: Phonology - The System of Sounds
+
+=== Basic Definition
+
+*Phonology:*
+- The system of sounds that languages have
+
+*Setting Aside:*
+- For moment, putting aside question of sign languages and how they work
+- Will return to sign languages later
+
+'''
+
+=== Phonemes: Limited Set of Sounds
+
+*Finite List:*
+- Finite list of possible sounds that language can use
+
+*English Example:*
+- English has about forty phonemes
+
+*How It Works for Native English Speakers:*
+- If you're native monolingual speaker of English
+- You hear speech
+- Each sound you hear is categorized as falling into one of those forty phonemes
+
+'''
+
+=== Example: English "L" and "R" Phonemes
+
+*English Distinction:*
+- English has phoneme of "l" (/l/)
+- English has phoneme of "r" (/r/)
+
+*Result for English Speakers:*
+- English speaker can hear difference between "lip" and "rip"
+- Corresponds to two different words in English
+
+*Other Languages:*
+- Don't have that distinction
+- Those distinctions very difficult for non-native English speakers to learn
+
+'''
+
+=== Learning Phonemes
+
+*Part of Language Learning:*
+- You have to learn the phonemes that your language has
+
+'''
+
+=== Word Boundary Problem
+
+*Another Part of Learning:*
+- Have to figure out what the boundaries are between words
+- Have to use sound signals to figure out boundaries between words
+
+*Seems Like Non-Problem for English Speakers:*
+- If only language you've ever heard is English
+- Going to seem like really weird example of a problem
+- You're listening to lecturer speak
+- Between each word you're hearing a pause
+- Don't have to be very smart to figure out where one word begins and ends
+
+*But: The Pause Is Psychological Illusion*
+
+*Reality:*
+- If you were to talk into oscilloscope that measured sound vibrations
+- There are NO pauses between words
+- Rather: Pauses are inserted by your mind
+- You already know where one word begins and another ends
+- You insert pause at that point
+
+'''
+
+=== Demonstration: Foreign Language Without Pauses
+
+*French Example:*
+
+*If You've Never Heard French:*
+- When you hear somebody say "Je ne sais pas"
+- You could say: "Remarkable! French has no pauses between words"
+
+*French Speaker:*
+- Of course hears: "Je ne sais pas" (with pauses)
+
+*Hebrew Example:*
+- "Sleecha, eypho ha-sheeruteem" (request for bathroom)
+- If you don't know Hebrew: No pauses
+
+*Truth About Demonstrations:*
+- When each person gave their language demonstrations
+- Nobody spoke properly
+- Instead of sentence with pauses
+- All sounded like "blublublublublub" without any pauses
+- Because lecturer doesn't know those languages
+
+'''
+
+=== Children's Challenge
+
+*Starting Point:*
+- Children come into world without knowing any specific language
+- Have to learn pauses
+- Have to learn to interpret sounds in context
+
+*Result:*
+- Sometimes they make mistakes
+- Get problems of segmentation
+
+'''
+
+=== Segmentation Errors in Children
+
+*Can See Mistakes:*
+- When children trying to repeat back something already known within society
+- Songs are good example
+
+*Example 1:*
+- "I'll never be your pizza burnin'"
+- Actual: "Beast of burden" (Rolling Stones)
+
+*Example 2:*
+- "A girl with colitis goes by"
+- Actual: "A girl with kaleidoscope eyes" (Beatles)
+
+*Example 3:*
+- "The ants are my friends; they're blowin' in the wind"
+- Actual: "The answer, my friend, is blowin' in the wind" (Bob Dylan)
+
+*Example 4 (Religious):*
+- "Our father with Bart in heaven; Harold be they name… Lead us not into Penn Station…"
+- Actual: "Our Father who art in heaven; Hallowed be thy name… Lead us not into temptation…"
+
+'''
+
+=== Top-Down Processing in Phonological Understanding
+
+*Concept:*
+- Phonological understanding illustrates aspects of language processing and consciousness
+- Typically, when you hear sentence: You manufacture in your mind gaps between words
+- When something unclear: You'll fill in gap and figure out what word is
+- You'll hear it that way
+
+*Best Examples:*
+- When it goes wrong
+
+'''
+
+=== Classic Example: "Super Freak" by Rick James
+
+*Setup:*
+- Song by Rick James
+- Note: Lecturer mentions concern about copyright laws
+
+*The Ambiguous Line:*
+- "The kind of girl you read about--"
+- What comes next?
+
+*Nobody Really Knows:*
+- Sounds to many people (top-down interpretation) like:
+- "She's the kind of girl you read about in Newsweek magazine"
+
+*Problem:*
+- Makes no sense given context
+- "You don't want to bring home to Mama"
+- Doesn't fit
+
+*Actual Lyric:*
+- According to song notes:
+- "The kind of girl you read about in new wave magazines"
+
+*Perceptual Effect:*
+- Once you know this
+- When you listen again, you hear it that way
+
+'''
+
+=== Top-Down Processing Defined
+
+*Definition:*
+- When you know what something is, you hear it that way
+
+*Extremely Useful:*
+- Comes to filling in gaps in sounds
+
+*Normal Conversation:*
+- If speaker says "s-- entence"
+- You won't hear "s-- entence"
+- Rather, you hear "sentence"
+- You fill in gap
+
+'''
+
+=== Problems with Top-Down Processing
+
+*Personal Example: "Get Crunk"*
+
+*Background:*
+- Children (8 and 10 years old) asked to buy "Get Crunk" from iTunes
+- Lecturer aware song contains consistent refrain:
+- "Get crunk" [extremely bad word] "get crunk" [extremely bad word]
+- Lecturer said no
+
+*Clean Version:*
+- Children said there's clean version
+- Lecturer downloaded clean version
+
+*Problem:*
+- Knowing what the word is means clean version is not very clean to lecturer
+- Top-down knowledge makes censored version still sound offensive
+
+*Note:*
+- This IS the clean version
+- "Thank goodness they took away that obscene word"
+
+'''
+
+=== Top-Down Processing: General Benefits
+
+*Summary:*
+- Top-down processing affects how we hear things
+- Usually, almost always, for the better
+- What we know can clear things up
+
+*Preview:*
+- This is theme we'll return to next class with vision
+- How we see world is often confusing and befuddled
+- But what we know can clear things up
+- Same with sound
+
+'''
+
+== Part 5: Morphology - The System of Words
+
+=== Definition
+
+*Phonology = Sounds*
+*Morphology = Words*
+
+'''
+
+=== Arbitrariness of the Sign (Ferdinand de Saussure)
+
+*Amazing Trick of Human Language:*
+- Described by Ferdinand de Saussure (great linguist)
+- "The arbitrariness of the sign"
+
+*What It Means:*
+- Can take any arbitrary idea in the world
+- Idea of chair
+- Story
+- Country
+- Make sound or sign to connect to it
+- Link is arbitrary
+
+'''
+
+=== Limits and Flexibility of Arbitrary Naming
+
+*Some Partial Connections:*
+- Might choose word for "dog" as "woof woof" (sounds like dog)
+- BUT: Can't use word for "country" that sounds like country
+
+*Sign Language:*
+- Could use sign for "drink" that looks sort of like act of drinking
+- BUT: Can't use sign for "country" that looks like country
+- Can't use sign for "idea" that looks like idea
+
+*Core Principle:*
+- Languages work through arbitrary naming
+- Allows for map between:
+- Symbol (e.g., spoken word)
+- Any sort of thought we want to use
+
+*Result:*
+- Those arbitrary mappings, as we learn them, make up vocabulary of language
+
+'''
+
+=== Morphemes vs. Words
+
+*Talking About Words But:*
+- More technical term is "morpheme"
+
+*Definition of Morpheme:*
+- Smallest meaningful unit in a language
+
+*Often Same as Word:*
+- "Dog" is a word
+- "Dog" is also a morpheme
+
+*But Not Always:*
+- Single morphemes exist
+- Words composed of many morphemes also exist
+
+'''
+
+=== Multi-Morpheme Words
+
+*Examples:*
+- "Dogs" = one word, but two morphemes
+- "Complained" = one word, but two morphemes
+
+*What This Means:*
+- Make word by putting together two morphemes
+
+*Implication:*
+- To know what "dogs" means, you never had to learn the word "dogs"
+- All you had to know:
+- Word "dog"
+- Plural morpheme 's'
+- Could put them together to create word
+
+'''
+
+=== Size of Vocabulary
+
+*Question:*
+- How many morphemes does average speaker know?
+
+*Answer:*
+- Fairly startling
+- Low-ball estimate: About 60,000 words
+- Proper estimate closer to: 80,000 or 100,000 words
+
+*What This Means:*
+- If you average it out
+- Children start learning first words at about first year of life
+- They learn about nine new words a day
+
+*Pattern:*
+- Not continuous nine words every day
+- Goes up and down depending on age
+- But still: Amount of words we know is staggering
+
+'''
+
+=== Multilingual Speakers
+
+*Question for Class:*
+- "How many of you know more than one language pretty fluently?"
+
+*Implication:*
+- Those who know other languages might have:
+- 200,000 words in their heads
+- Or 300,000 words
+- Accessing them in fraction of second
+
+*Assessment:*
+- Could legitimately be seen as one of most astonishing things that people do
+
+'''
+
+== Part 6: Syntax - Communicating Complicated Ideas
+
+=== Building Blocks So Far
+
+*What We Have:*
+- Sound system of language (phonology)
+- Words of language (morphology)
+
+*What That Gives:*
+- "Dog," "cup," "chair," "house," "story," "idea"
+
+*Problem:*
+- Won't allow us to communicate complicated ideas
+
+'''
+
+=== Definition and Purpose of Syntax
+
+*Syntax:*
+- Refers to rules and principles that allow us to:
+- Combine words into phrases
+- Combine phrases into sentences
+
+'''
+
+=== Another Neat Trick: "Infinite Use of Finite Media"
+
+*Defined by Wilhelm von Humboldt:*
+- "The infinite use of finite media"
+
+*The Question:*
+- Your vocabulary is finite
+- Just so many words
+- Have to learn them one by one
+- But: Could produce virtual infinity of sentences
+- How can you do that?
+- How go from finite list of symbols to infinite number of sentences?
+
+*The Answer:*
+- You have a combinatorial system
+
+'''
+
+=== Other Combinatorial Systems
+
+*Language Not Unique:*
+
+*Music:*
+- Has combinatorial system
+- Finite number of notes
+- Limitless number of musical compositions
+
+*DNA:*
+- Has combinatorial system
+- Finite number of bases or amino acids
+- Could combine to possible infinity of DNA strings
+
+'''
+
+=== The Infinity Mechanism: Recursion
+
+*Key Concept:*
+- Many familiar with this from mathematics or computer science
+- Recursion
+
+*Can Be Illustrated Simply in Language*
+
+'''
+
+=== Simple Language Example
+
+*Very Simple Language:*
+- Not actual language but close to how linguists describe normal languages
+
+*Vocabulary:*
+- Three nouns: "Fred," "Barney," "Wilma"
+- Two verbs: "thinks," "likes"
+
+*One Rule:*
+- How to read: You make sentence by taking:
+- Noun (any noun)
+- Putting verb after it
+- Following verb with noun
+
+*Example Sentence:*
+- "Fred likes Wilma"
+
+*Question:*
+- How many possible sentences are there?
+
+'''
+
+=== Calculating Possible Sentences
+
+*Answer:*
+- Eighteen sentences
+
+*The Sentences:*
+- "Fred likes Fred"
+- "Fred likes Barney"
+- "Fred likes Wilma"
+- "Fred thinks Fred"
+- "Fred thinks Barney"
+- "Fred thinks Wilma"
+- And so on...
+
+*Pattern:*
+- Three nouns
+- Followed by any of two verbs
+- Followed by any of three nouns
+- 3 × 2 × 3 = 18
+
+*Assessment:*
+- Not very interesting language
+
+'''
+
+=== More Complicated Language with Recursion
+
+*Same Vocabulary:*
+- Same three nouns
+- Same two verbs
+- Same sentence structure as before
+
+*But Now:*
+- One other sentence rule
+- This sentence expands to:
+- Noun followed by verb followed by SENTENCE
+
+*Key Feature:*
+- One rule invoking another rule
+- Then you get recursion
+
+*Example:*
+- "Fred thinks Barney likes Wilma"
+
+*Result:*
+- Here you get potential infinity of sentences
+
+'''
+
+=== Recursion in Everyday Language
+
+*Obviously Toy Example But:*
+- Can see use of recursion in everyday life and language use
+
+*Examples:*
+
+*Simple:*
+- "John hates cheese"
+
+*Embedding Level 1:*
+- "My roommate heard a rumor that John hates cheese"
+
+*Embedding Level 2:*
+- "It disturbed Mary when I told her that my roommate heard a rumor that John hates cheese"
+
+*Embedding Level 3:*
+- "I was amazed that it disturbed Mary when I told her that my roommate heard a rumor that John hates cheese"
+
+*Embedding Level 4:*
+- "Professor Bloom had devoted way too much of his lecture talking about how I was amazed that it disturbed Mary when I told her that my roommate heard a rumor that John hates cheese"
+
+*Embedding Level 5:*
+- "It really bothered me that--"
+
+*Key Point:*
+- There's no limit
+- There's no longest sentence
+- Could keep producing sentence deeper and deeper embedded until you die
+- This is part of power of language
+
+'''
+
+=== Complexity of Syntactic Rules
+
+*Important Point:*
+- Syntactic rules are complicated
+
+*Puzzle:*
+- Different rules can conspire to create same sentence
+
+'''
+
+=== Ambiguity Example: Groucho Marx
+
+*Classic Line:*
+- "I once shot an elephant in my pajamas. How it got into my pajamas I'll never know."
+
+*Humor:*
+- Revolves around ambiguity of rules that generate it
+- Two possible structures:
+- I [shot an elephant] [in my pajamas]
+- I [shot] [an elephant in my pajamas]
+
+'''
+
+=== Poorly Thought-Out Headlines
+
+*Purpose:*
+- To illustrate issues of ambiguity
+- People have collected newspaper headlines that inadvertently have ambiguity
+
+*Examples:*
+
+1. "Complaints about NBA referees growing ugly"
+- Referees becoming ugly? Or complaints becoming ugly?
+
+2. "Kids make nutritious snacks"
+- Kids prepare snacks? Or kids ARE snacks?
+
+3. "No one was injured in a blast which was attributed to the buildup of gas by one town official"
+- Gas buildup caused blast? Or town official attributed blast to gas?
+
+4. "General arrested for fondling privates"
+- Fondling private parts? Or fondling private soldiers?
+- (From Korea University visit)
+
+'''
+
+=== Difficulty of Avoiding Ambiguity
+
+*General Problem:*
+- Ambiguity is actually quite difficult to avoid in construction and understanding of sentences
+- One of ways it's often difficult to write clearly
+
+*Legal Applications:*
+- Whole sub-field of law involving:
+- Use of linguistic theory to disambiguate sentences
+- In Constitution
+- In legislation
+- In criminal cases
+
+'''
+
+=== Serious Criminal Case Example
+
+*Background:*
+- Several years ago
+- Very serious criminal case that rested on a sentence
+
+*The Situation:*
+
+*Characters:*
+- Two brothers (one retarded, one not)
+- Police officer
+
+*Events:*
+1. Brothers get into robbery
+2. Police officer sees them and points gun at them
+3. One brother points gun at police officer
+4. Police officer shouts to non-retarded brother: "Give me the gun"
+5. Retarded brother shouts: "Let him have it"
+6. Brother shoots and kills police officer
+
+*Legal Question:*
+- Brother who did shooting: Plainly a murderer
+- What about brother who shouted "Let him have it"?
+
+*Depends on Interpretation:*
+- Sentence is beautifully ambiguous
+- Could mean: "Shoot him, let him have it"
+- Could mean: "Give him the gun, let him have it"
+
+*Trial Outcome:*
+- Understanding was he was found guilty
+- A lot turned on ambiguity of sentence
+
+'''
+
+== Part 7: Question and Answer on Language Structure
+
+=== Question 1: Syntax vs. Grammar
+
+*Student Question:*
+- How does syntax differ from grammar or are they exactly the same?
+
+*Answer:*
+- They're exactly the same
+- Syntax is more technical term
+- But means same thing as grammar
+
+'''
+
+=== Question 2: People Without Language Exposure
+
+*Student Question:*
+- You said every normal human being born uses at some point some kind of language
+- Aren't there people who weren't born within culture and grew up and never really spoke language though physically normal?
+
+*Lecturer's Clarification:*
+- Glad question was asked
+- As said, realized statement wasn't quite right
+
+*Revised Statement:*
+- Said: Everybody who's neurologically normal comes to acquire and learn language
+- But: What about people who are neurologically normal but don't have language around them?
+
+*Historical Cases:*
+
+*1. Children Raised by Animals:*
+- Probably apocryphal stories
+- Children raised by wolves or dogs
+
+*2. Child Abuse Cases:*
+- Horrible stories, some in twentieth century
+- Children locked away by insane or evil parents
+- Never learned to speak
+
+*3. Linguistic Isolates:*
+- Deaf people within certain societies
+- Nobody signs to them
+- They themselves never learn to speak
+
+*What These Cases Tell Us:*
+- Dramatic exception
+- Not enough to have brain for language
+- Somebody does have to use it with you
+
+'''
+
+=== Counterexample: Deaf Children Creating Language
+
+*Interestingly:*
+- Doesn't have to be that many people
+
+*Susan Goldin-Meadow's Research:*
+- Studied deaf children that nobody signed to
+- BUT: Studied deaf children with deaf siblings
+- These children don't just sit there
+- They create their own language
+
+*Characteristics:*
+- Not full-blown language like:
+- American Sign Language
+- Langue des signes québécoise
+- But: It's a language nonetheless
+- Has: Words, syntax, and phonology
+
+'''
+
+=== Question 3: Inherent Limits to Grammar
+
+*Student Question:*
+- Could it be argued there are inherent limits to grammar?
+
+*Answer:*
+- Good question
+- Most linguists would argue "yes"
+- Languages are highly constrained in how they do things
+
+*Examples of Constraints:*
+
+1. **No Language Has:*
+- Rule that constructs question by switching order of words around in sentence
+
+2. **No Language Has:*
+- Rule that says fifth word has to be verb
+
+*Universal Constraints:*
+- Linguists have all these conditions
+- "No language in the world works this way"
+
+*Significance:*
+- Constraints tell us what's humanly natural language versus what's not humanly natural language
+
+*But Notice:*
+- Even if incredible constraints on grammars
+- Still: Could still produce infinite number of sentences
+- Like if you restrict to only subset of numbers (only odd numbers)
+- Still infinity of odd numbers
+
+*Conclusion:*
+- Grammar can be restricted but still give rise to infinity of possible sentences
+
+'''
+
+== Part 8: Noam Chomsky and Language Acquisition
+
+=== Chomsky's Radical Claim
+
+*Background:*
+- Met Chomsky when talked about behaviorism
+- Wrote "A Review of Verbal Behavior"
+- Linguist Noam Chomsky
+
+*The Radical Claim:*
+- We shouldn't view language learning as learning at all
+- Instead: Should view it as something similar to growth
+
+'''
+
+=== Chomsky's Argument (Quote)
+
+*Quote:*
+> "No one would take seriously the proposal that a human organism learns through experience to have arms rather than wings, or that the basic structure of particular organs results from accidental experience. [Language] proves to be no less marvelous and intricate than these physical structures. Why, then, should we not study the acquisition of a cognitive structure like language more or less as we study some complex bodily organ?"
+
+*Implications:*
+
+*You Might Learn:*
+- To play baseball
+- About American Civil War
+
+*But If Chomsky Is Right:*
+- You didn't LEARN to speak English
+- Rather: What happened is you heard English
+- But capacity GREW in your head
+- Something lot more similar to development of:
+- Arms
+- Legs
+- Visual system
+
+'''
+
+=== Should We Believe Chomsky?
+
+*Evidence for Environmental Influence:*
+
+*Obviously:*
+- Has to be some effect of environment shaping language
+
+*Why?*
+- In order to know English: Have to have heard English
+- In order to know Dutch: Have to have learned and heard Dutch
+
+*And:*
+- Languages differ in all ways we were talking about
+
+'''
+
+=== Three Ways Languages Differ (Must Be Learned)
+
+*1. Phonology:*
+
+*English:*
+- Has distinction between 'l' and 'r'
+
+*Other Languages:*
+- Do not have this distinction
+
+'''
+
+*2. Morphology:*
+
+*Example: Word for Dog*
+
+*English:*
+- Referred to with morpheme "dog"
+- Historical accident of English
+
+*French:*
+- "Chien"
+
+*Greek:*
+- Something else
+
+*Each of 6,000 Languages:*
+- Has different word
+- Vietnamese: This
+- Urdu: This
+- Czech: That
+
+'''
+
+*3. Syntax:*
+
+*English:*
+- Subject-verb-object language
+- To convey idea that Bill hit John, say: "Bill hit John"
+
+*But Not All Languages Work That Way:*
+- In fact, majority of languages are actually subject-object-verb languages
+- Would say: "Bill John hit"
+
+*All of This:*
+- Has to be learned
+- Has to be learned through exposure to language users
+
+'''
+
+=== Evidence Supporting Chomsky's Growth Model
+
+*On the Other Hand:*
+- Considerable evidence that development of language skills, in some way, is similar to growth in way Chomsky suggests
+
+'''
+
+== Part 9: Basic Facts About Language Development
+
+=== Fact 1: All Normal Children Learn Language
+
+*Universal Acquisition:*
+- All normal children learn language
+
+'''
+
+=== Fact 2: Specific Language Impairments Exist
+
+*Can Be Due to Trauma:*
+- Aphasias
+- Trauma
+- Blow to head
+- Stroke can rid you of your language
+
+*Also Genetic Disorders:*
+- Some falling under rubric of "specific language impairment"
+- Children born without same ability as rest of us to learn to speak
+
+'''
+
+=== Significance of Specific Language Impairments
+
+*Why Interesting:*
+- Illustrate something about human language
+
+*Reasonable Pre-Lecture Assumptions:*
+- "All you need to have to learn language is to be smart"
+- "All you need to have to learn language is to want to communicate"
+- "All you need to have to learn language is to be social person wanting to/having ability to understand others and deal with others"
+
+*But:*
+- Cases of specific language impairments suggest all of that is WRONG
+
+*Evidence:*
+- There are children in this world right now who are:
+- Plenty smart
+- Really want to communicate
+- Entirely social creatures
+- But: They can't learn language
+
+*Implication:*
+- Ability to learn and understand language is to some extent separate from these other aspects of mental life
+
+'''
+
+=== Fact 3: Language Learned Without Feedback or Training
+
+*Myth:*
+- Many Americans believe they need to teach their children language
+
+*Huge Industry:*
+- DVDs
+- Flash cards
+- All sorts of things designed to teach children language
+
+*Many Parents Believe:*
+- If they didn't persist in using these things, children would never learn to speak
+
+*But We Know That's Not True:*
+
+'''
+
+=== Evidence from Cultures That Don't Speak to Children
+
+*Communities Exist:*
+- Where they don't speak to their kids
+- Don't believe it's important to speak to kids
+
+*Linguist Interviews:*
+
+*Linguists Would Ask:*
+- "Why don't you speak to your babies?"
+
+*Adults Would Respond:*
+- "It'd be ridiculous to speak to a baby"
+- "Baby has nothing to say"
+- "You might as well just speak to your dog"
+
+*American Linguist Would Say:*
+- "Yeah. We speak to our dogs."
+
+*Cultural Difference:*
+- Americans and Europeans speak to everything and everybody
+- Other cultures more picky
+- Don't talk to their children until children themselves are talking
+
+*Result:*
+- Doesn't seem to make much difference in language learning
+
+'''
+
+=== Studies on Feedback
+
+*Motivated by:*
+- Chomsky's work
+- Chomsky's critique of Skinner's "Verbal Behavior"
+
+*Question:*
+- What if we looked at children within United States?
+- Don't these children get feedback?
+
+*Answer:*
+- Yes and no
+
+*Average Highly Educated Western Parent:*
+- DOES give children feedback based on what they say
+
+*But:*
+- Don't typically give feedback based on:
+- Syntax
+- Grammaticality of what they say
+
+'''
+
+=== Classic Study: Brown and Hanlon (1970s)
+
+*Study:*
+- Did all these studies looking at:
+- What children say
+- How parents responded
+
+*Findings:*
+- Parents respond NOT to grammatical correctness
+- But TO:
+- Affect
+- Cuteness
+- Sociability of utterance
+
+*Example 1:*
+
+*Child Says:*
+- "I loves you, Mommy"
+
+*Unusual Parent Would Say:*
+- "Oh, no. The verb agreement is mistaken"
+- "You've added a redundant 's.'"
+- "It's not appropriate"
+
+*Typical Response:*
+- Accept and appreciate message
+
+*Example 2:*
+
+*Child Says:*
+- "I hate your guts, Mother"
+
+*Unusual Mother Would Say:*
+- "That's wonderful"
+- "There's a subject, verb, object"
+- "The whole thing's structurally fine"
+
+*Typical Response:*
+- Respond to negative message
+
+'''
+
+=== General Pattern
+
+*We Respond:*
+- To our kids like we respond to each other
+- Based on message that's conveyed
+- NOT grammaticality of utterances
+
+*Children's Mistakes:*
+- Children make grammatical mistakes all the time
+- But then they go away
+- They go away WITHOUT correction
+
+'''
+
+== Part 10: Time Course of Language Acquisition
+
+=== Very Early: Melody Preference (4 Days Old)
+
+*Studies Done in France:*
+- With four-day-old babies
+
+*Method:*
+- Used sucking method
+- Remember: Limited number of things babies can do
+- One thing: Suck
+
+*Procedure:*
+- Babies would suck on pacifier to hear French
+- Would prefer to hear French than to hear Russian
+
+*Investigators' Claim:*
+- Because they had been exposed to French in first four days of their lives
+
+*Reviewers Objected:*
+- Mostly from France
+- "No. Maybe French just sounds better"
+- "Everybody's going to like French"
+
+*So:*
+- Re-did study in Russia
+- Russian kids sucked harder to hear Russian than French
+
+*What They're Listening To:*
+- Isn't the words (don't know words yet)
+- Don't know syntax yet
+- It's rhythm of language
+
+*For Adults:*
+- French and Russian sound different
+- Even if you don't know word of either language
+- They still sound different
+- Sound different to babies too
+
+*Baby Knowledge:*
+- Baby being raised in France or Russia knows enough to tell:
+- What's his language
+- What isn't
+
+'''
+
+=== Early On: Universal Phoneme Sensitivity
+
+*Children Sensitive to Every Phoneme:*
+- Early on, children are sensitive to every phoneme there is
+
+*Example:*
+
+*English-Speaking Babies:*
+- Babies born in United States can distinguish between:
+- English phonemes like "lip" and "rip"
+
+*But Also:*
+- Could distinguish between phonemic contrasts NOT exemplified in English
+- Such as phonemic contrasts in:
+- Czech
+- Hindi
+
+'''
+
+=== Around 12 Months: Loss of Non-Native Phoneme Sensitivity
+
+*Goes Away:*
+- Around twelve months of age
+
+*You Were Better as Baby:*
+- This is one thing you were much better at when you were baby than you are now
+- When you were baby: Multilingual fool
+- Could understand sound differences of every language on earth
+
+*Now:*
+- If you're like lecturer: "Could barely understand English"
+- You narrow down until you're sensitive just to language you hear
+
+*Timeline:*
+- This narrowing down largely in place by about twelve months of age
+
+'''
+
+=== Around 7 Months: Babbling
+
+*Sign Language Babbling:*
+- Promised to return to issue of sign language
+- Going to show film
+- Very elegant series of experiments
+
+*Question:*
+- Do babies who are exposed to sign language, babble?
+
+*Surprising Finding:*
+- Over last 10-20 years in field
+- Acquisition of sign languages has turned out to be almost exactly the same
+- In fact, as far as we know: Exactly the same as acquisition of spoken languages
+
+*Didn't Have to Be That Way:*
+- Could have been just as reasonable to expect:
+- Advantage for speech over sign
+- Sign languages may be full-blown languages
+- But just take longer—harder to learn
+- Because brain and body adapted for speech
+
+*Turns Out:*
+- This just isn't the case
+- Sign and spoken languages:
+- Developmental milestones precisely the same
+- Start babbling at same point
+- Start using first words
+- First sentences
+- First complicated constructions
+
+*No Interesting Difference:*
+- Between how brain comes to acquire and use:
+- Spoken language versus sign language
+
+'''
+
+=== Around 12 Months: First Words
+
+*Children Start Using First Words:*
+- Around twelve months of age
+
+*Characteristics:*
+- Words for objects and actions
+- Like: "dog," "up," "milk"
+
+*Also:*
+- Start showing some sensitivity to order of words
+- Know that "dog bites cat" is different from "cat bites dog"
+
+'''
+
+=== Around 18 Months: Word Learning Acceleration
+
+*Start Learning Words Faster:*
+
+*Also:*
+- Start producing little, miniature sentences
+- Like: "Want cookie" or "Milk spill"
+
+*Function Morphemes Appear:*
+- Little words: "in," "of," "a," "the"
+- Start to gradually appear
+
+'''
+
+=== Around 7 Years Through Puberty: Critical Period
+
+*Then the Bad News:*
+
+*Around Seven Years Going Up Through Puberty:*
+- Ability to learn language starts to go away
+
+'''
+
+=== Best Research on Critical Period
+
+*Researchers:*
+- Elissa Newport
+- Sam Supalla
+
+*Study:*
+- People who have been in United States for many, many years (30-40 years)
+- Seeing how well they have come to speak English
+
+*Key Finding:*
+- Big determinant of how well you speak English as immigrant:
+- NOT how smart you are
+- NOT how many family members you have
+- NOT your motivation
+- It's how old you were when you started
+
+'''
+
+=== Critical Period Details
+
+*Timeline:*
+
+*Start Learning Second Language Within First Few Years of Life:*
+- You're fine
+- You'll speak like native
+
+*But Then:*
+- Starts getting worse and worse
+
+*Once You Hit Puberty:*
+- Suddenly huge variation in abilities to learn language
+- Very rare for somebody who learned English past puberty to speak without accent
+
+*Accent:*
+- Very hard to shake
+- Not just accent
+- Also other aspects of:
+- Phonology
+- Syntax
+- Morphology
+
+*Metaphor:*
+- Like part of brain responsible for language learning is only around early in development
+- If you don't get your language by then, it'll just run out
+
+'''
+
+== Key Terms and Concepts
+
+=== General Language Concepts:
+- Pidgin
+- Creole
+- Linguistic isolates
+- Language universals
+- Productivity/creativity of language
+- Recursion
+- Combinatorial system
+- Critical period
+
+=== Three Structures:
+- Phonology (system of sounds/phonemes)
+- Morphology (system of words/morphemes)
+- Syntax (grammar/rules for combining words)
+
+=== Linguistic Phenomena:
+- Phoneme
+- Morpheme
+- Arbitrariness of the sign
+- "Infinite use of finite media"
+- Top-down processing
+- Segmentation errors
+- Ambiguity
+
+=== Language Acquisition:
+- Specific language impairment
+- Aphasia
+- Universal phoneme sensitivity
+- Babbling
+- First words
+- Word learning acceleration
+- Function morphemes
+
+=== Theoretical Positions:
+- Darwin's instinct claim
+- Chomsky's growth model (vs. learning model)
+- Language as part of human nature
+- Genetic basis of language
+- Neurological specialization for language
