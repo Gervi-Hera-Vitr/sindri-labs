@@ -37,7 +37,7 @@ jobs:
           echo "::notice title=Branch::$GITHUB_REF_NAME"
           echo "::notice title=OS:: $(cat /etc/issue || true)"
           echo "::notice title=Kernel::$(uname -v || true)"
-          echo "::notice title=Memory::$(free -hg || true)"
+          echo "::notice title=Memory::$(free -hg | head -n 2 | tail -n 1 || true)"
           echo "::notice title=CPU::$(nproc) cores, $(lscpu | grep 'Model name' | uniq || true)"
           echo "::notice title=Git::$(git --version || true)"
           echo "::notice title=GitHub CLI::$(gh version || true)"
