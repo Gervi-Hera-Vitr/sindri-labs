@@ -1,973 +1,314 @@
-= The Complete Guide to Neurons: Structure, Signaling, and Plasticity
+= How Neurons Work: Structure, Signaling, and Plasticity
 :author: Research Synthesis
 :revdate: 2026-01-08
 :toc: left
-:toclevels: 3
+:toclevels: 2
 :sectnums:
 :icons: font
-:source-highlighter: rouge
 
 [.lead]
-Neurons are the fundamental signaling units of the nervous system, transmitting information through a combination of electrical and chemical processes. A typical neuron receives input from *thousands of other neurons* through its dendrites, integrates these signals at the axon hillock, and—if threshold is crossed—fires an action potential that travels at speeds up to *150 m/s* along myelinated axons. This document covers neuronal architecture, the biophysics of electrical signaling, synaptic transmission, and the plasticity mechanisms underlying learning and memory.
+Neurons transmit information through electrical signals within themselves and chemical signals between each other. A neuron receives thousands of inputs through its dendrites, integrates them at the axon hillock, and—if threshold is reached—fires an action potential down its axon to release neurotransmitters onto the next cell. This is the fundamental unit of nervous system computation.
 
-== Quick Reference
+== The Big Picture
 
-[cols="1,2,1", options="header"]
-|===
-|Parameter |Value |Notes
+A neuron does four things:
 
-|Resting potential
-|−70 mV
-|Inside negative
-
-|Action potential amplitude
-|~100 mV change
-|Peaks at +30 to +40 mV
-
-|Action potential duration
-|~2 ms
-|Includes depolarization + repolarization
-
-|Threshold
-|~−55 mV
-|~15 mV above rest
-
-|Conduction velocity (myelinated)
-|80–150 m/s
-|Large A-alpha fibers
-
-|Conduction velocity (unmyelinated)
-|0.5–2 m/s
-|C-fibers
-
-|Synaptic delay
-|0.5–1.0 ms
-|Total pre→post
-
-|Synaptic cleft width
-|20–30 nm
-|Central synapses
-|===
+. *Receive* signals (dendrites)
+. *Integrate* signals (soma and axon hillock)
+. *Transmit* signals (axon)
+. *Release* signals (axon terminals)
 
 == Neuron Structure
 
-=== Dendrites: The Input Antennae
+=== Dendrites: Receiving Input
 
-Dendrites form elaborate tree-like branching structures that expand the neuron's receptive surface. A large cortical pyramidal cell can receive signals from approximately *30,000 presynaptic neurons* through its dendritic arbor.
+Tree-like branches that receive signals from other neurons. A single neuron can receive input from *thousands* of other neurons through its dendrites.
 
-==== Dendritic Spines
+*Dendritic spines* are tiny protrusions where most excitatory synapses occur. These spines can grow, shrink, form, and disappear—this structural flexibility is central to learning.
 
-Tiny protrusions (*0.2–2.0 μm* in length) that serve as primary sites for excitatory synaptic input.
+The *postsynaptic density* at the spine tip contains receptors (AMPA, NMDA), scaffolding proteins, and signaling molecules.
 
-[cols="1,3", options="header"]
+=== Soma: The Cell Body
+
+Contains the nucleus and protein-synthesis machinery. This is the neuron's metabolic center.
+
+Key feature: *Nissl bodies* (rough ER clusters) are found in the soma and dendrites but *absent from the axon*—useful for identifying neuron parts under a microscope.
+
+=== Axon Hillock: The Decision Point
+
+Where the axon originates from the soma. The *axon initial segment (AIS)* here has the highest concentration of voltage-gated sodium channels in the entire neuron, giving it the *lowest threshold* for firing.
+
+This is where the neuron "decides" whether to fire based on all incoming signals.
+
+=== Axon: Long-Distance Cable
+
+Specialized for transmitting action potentials over distance. Can range from millimeters (local interneurons) to over a meter (motor neurons to your foot).
+
+Since proteins are made in the soma, *axonal transport* uses motor proteins to move materials:
+
+* *Kinesin*: Carries cargo toward axon terminals
+* *Dynein*: Carries cargo back to soma
+
+=== Myelin: The Speed Multiplier
+
+Fatty insulation wrapped around axons that dramatically speeds up signal transmission.
+
+[cols="1,2", options="header"]
 |===
-|Spine Type |Characteristics
+|Location |Myelinating Cell
 
-|Mushroom
-|Large bulbous head; mature, stable synapses
+|CNS (brain/spinal cord)
+|Oligodendrocytes
 
-|Thin
-|Small head, elongated neck; "learning spines" capable of rapid modification
-
-|Stubby
-|No distinct neck; connects directly to shaft
-
-|Filopodial
-|Long, thin; immature, often lacks postsynaptic density
-|===
-
-Spine density: *1–10 spines per μm* along dendrites
-
-The spine tip contains the *postsynaptic density (PSD)*—an electron-dense region packed with:
-
-* Glutamate receptors (AMPA, NMDA)
-* Scaffolding proteins (PSD-95, Shank, Homer)
-* Kinases and phosphatases
-* Ion channels
-
-=== Soma: The Metabolic Center
-
-The cell body contains the nucleus and protein-synthesizing machinery.
-
-Soma diameter:: 5–140 μm (varies by neuron type)
-
-Nucleus:: Large, spherical, euchromatic with prominent nucleolus
-
-Nissl bodies:: Aggregations of rough ER and polyribosomes; found in soma and dendrites but *absent from axon*—a key distinguishing feature
-
-NOTE: The brain consumes ~20% of body oxygen despite being only ~2% of body weight.
-
-=== Axon Hillock and Initial Segment
-
-The *axon initial segment (AIS)* extends 10–60 μm from the soma and serves as the "trigger zone" for action potentials.
-
-.Why the AIS Has the Lowest Threshold
-[sidebar]
-****
-Channel density comparison:
-
-* Cell body: ~1 Na⁺ channel per μm²
-* AIS: *100–200 Na⁺ channels per μm²*
-
-This 50-fold increase ensures reliable action potential initiation.
-****
-
-The master scaffolding protein *ankyrinG* organizes this structure by anchoring:
-
-* Sodium channels (Nav1.2, Nav1.6)
-* Potassium channels
-* Cell adhesion molecules
-
-=== The Axon: Long-Distance Transmission
-
-Axon length:: Few mm (local interneurons) to >1 meter (motor neurons to foot)
-
-Axon diameter:: <1 μm to 20 μm in human peripheral nerves
-
-==== Axonal Transport
-
-Since protein synthesis occurs mainly in the soma, neurons use molecular motors to transport materials.
-
-[cols="1,1,2,2", options="header"]
-|===
-|Type |Speed |Cargo |Motor
-
-|Fast anterograde
-|50–400 mm/day
-|Vesicles, mitochondria
-|Kinesin (toward + end)
-
-|Fast retrograde
-|50–400 mm/day
-|Signaling endosomes, degradation cargo
-|Dynein (toward − end)
-
-|Slow
-|0.1–6 mm/day
-|Cytoskeletal proteins, enzymes
-|Multiple mechanisms
+|PNS (peripheral nerves)
+|Schwann cells
 |===
 
-=== Myelin Sheath: The Speed Multiplier
-
-Myelin is a multilayered membrane wrapping that enables rapid signal transmission.
-
-Composition:: *70–80% lipid* by dry weight (vs 30–50% for typical membranes)
-
-[cols="1,2,2", options="header"]
-|===
-|Location |Myelinating Cell |Ratio
-
-|CNS
-|Oligodendrocyte
-|One cell → 40–60 axon segments
-
-|PNS
-|Schwann cell
-|One cell → one axon segment
-|===
-
-==== Nodes of Ranvier
-
-Unmyelinated gaps (~1 μm wide) between myelin segments where the axon membrane is exposed.
-
-Node channel density:: *1,000–2,000 Na⁺ channels per μm²*
-
-==== Saltatory Conduction
-
-Latin "saltare" = to jump
-
-Rather than continuously depolarizing, current flows passively through axoplasm under myelin, then regenerates at each node.
-
-Benefits:
-
-* Speed: Up to *150 m/s* (vs 0.5–10 m/s unmyelinated)
-* Energy efficiency: Fewer ions cross membrane, less pump activity needed
+*Nodes of Ranvier* are gaps in the myelin where sodium channels cluster. Action potentials "jump" from node to node (*saltatory conduction*), which is both faster and more energy-efficient than continuous conduction.
 
 === Axon Terminals: Release Sites
 
-The synaptic bouton contains the machinery for neurotransmitter release.
-
-==== Synaptic Vesicles
-
-Small membrane spheres (*40–80 nm* diameter) storing neurotransmitters.
-
-[cols="1,2,1", options="header"]
-|===
-|Pool |Function |% of Total
-
-|Readily releasable (RRP)
-|Docked, primed for immediate release
-|1–2%
-
-|Recycling
-|Mobilized during moderate activity
-|10–20%
-
-|Reserve
-|Tethered by synapsins; recruited during intense activity
-|80–90%
-|===
+Where the neuron releases neurotransmitters onto target cells. Contains *synaptic vesicles*—small spheres packed with neurotransmitter molecules, ready for release.
 
 == Electrical Signaling
 
 === Resting Membrane Potential
 
-The resting potential of *−70 mV* results from unequal ion distribution plus selective membrane permeability.
+At rest, the inside of a neuron is *negative* relative to outside. This results from:
 
-==== Ion Concentrations
+. *Unequal ion distribution*: More K⁺ inside, more Na⁺ outside
+. *Selective permeability*: Membrane is much more permeable to K⁺ at rest
+. *Na⁺/K⁺ pump*: Actively maintains gradients (pumps Na⁺ out, K⁺ in)
 
-[cols="1,1,1,1", options="header"]
-|===
-|Ion |Inside |Outside |Gradient Direction
-
-|K⁺
-|120–140 mM
-|4–5 mM
-|Out (30:1)
-
-|Na⁺
-|10–14 mM
-|140 mM
-|In (1:14)
-
-|Cl⁻
-|4–10 mM
-|110 mM
-|In (1:11)
-
-|Ca²⁺
-|0.0001 mM
-|1–2 mM
-|In (>10,000:1)
-|===
-
-==== Equilibrium Potentials
-
-[cols="1,1", options="header"]
-|===
-|Ion |E_ion
-
-|K⁺
-|−90 mV
-
-|Na⁺
-|+60 mV
-
-|Cl⁻
-|−70 to −80 mV
-|===
-
-==== The Sodium-Potassium Pump
-
-The Na⁺/K⁺-ATPase actively maintains gradients:
-
-* Pumps *3 Na⁺ out* for every *2 K⁺ in*
-* Consumes *20–40% of neuronal ATP* at rest
-* Contributes ~−4 mV directly (electrogenic)
-
-At rest, membrane is *50–100× more permeable to K⁺ than Na⁺*, pulling potential toward E_K.
+The resting potential exists because K⁺ is concentrated inside and Na⁺ outside, and the membrane is much more permeable to K⁺ at rest. The Na⁺/K⁺ pump actively maintains these gradients.
 
 === Graded Potentials
 
-Changes in membrane voltage that vary with stimulus strength.
+Small voltage changes that vary with stimulus strength and decay with distance.
 
-EPSP (Excitatory):: Depolarization (~0.5–1 mV per synapse); Na⁺ influx through AMPA receptors
+*EPSP (Excitatory)*:: Depolarization—makes the neuron more likely to fire
 
-IPSP (Inhibitory):: Hyperpolarization; Cl⁻ influx through GABA_A receptors
+*IPSP (Inhibitory)*:: Hyperpolarization—makes the neuron less likely to fire
 
-Key properties:
-
-* Spread *passively* (electrotonically)
-* Decay with distance (length constant λ = 0.1–5 mm)
-* Decay with time (time constant τ = 10–100 ms)
-* *Cannot transmit long distances*—hence the need for action potentials
+These spread passively and cannot transmit signals over long distances—which is why we need action potentials.
 
 === The Action Potential
 
-A rapid, stereotyped, all-or-none change in membrane potential.
+A rapid, all-or-none electrical spike that propagates without losing strength.
 
-==== Phases
+==== The Sequence
 
-[cols="1,1,3", options="header"]
-|===
-|Phase |Duration |Mechanism
+. *At rest*: Membrane is polarized (negative inside), sodium channels closed
+. *Stimulus reaches threshold*: Voltage-gated sodium channels open
+. *Depolarization*: Na⁺ rushes in, membrane rapidly becomes positive
+. *Peak*: Sodium channels inactivate (can't reopen immediately)
+. *Repolarization*: Potassium channels open, K⁺ exits, membrane returns toward rest
+. *Hyperpolarization*: Brief undershoot as K⁺ channels close slowly
 
-|Depolarization
-|~0.5–1 ms
-|Voltage-gated Na⁺ channels open; Na⁺ rushes in; positive feedback
+==== Key Principles
 
-|Peak
-|—
-|Membrane reaches +30 to +40 mV (approaches but doesn't reach E_Na)
+*All-or-none*:: Action potentials fire at full strength or not at all. Information is encoded in *firing rate*, not spike amplitude.
 
-|Repolarization
-|~1 ms
-|Na⁺ channels inactivate; K⁺ channels open; K⁺ exits
+*Refractory periods*::
+* *Absolute*: No stimulus can trigger another spike (Na⁺ channels inactivated)
+* *Relative*: Stronger stimulus needed (channels recovering)
 
-|Hyperpolarization
-|~1–2 ms
-|K⁺ channels still open; membrane approaches E_K (−80 to −90 mV)
-|===
-
-==== All-or-None Principle
-
-Action potentials fire at full amplitude or not at all. Information about stimulus intensity is encoded in *firing frequency*, not amplitude.
-
-==== Refractory Periods
-
-Absolute (1–2 ms):: Na⁺ channels inactivated; *no stimulus can trigger another AP*
-
-Relative (2–4 ms):: Na⁺ channels recovering; *stronger stimulus required*
-
-Maximum firing rate: ~500–1000 Hz (limited by refractories)
-
-Typical sustained rates: 10–200 Hz
+*Unidirectional propagation*:: Refractory periods prevent backward propagation—signals only move forward.
 
 === Ion Channels
 
-==== Voltage-Gated Sodium Channels
+*Voltage-gated sodium channels*:: Open rapidly when membrane depolarizes, then inactivate. Responsible for the rising phase.
 
-Structure:: Large α-subunit (~260 kDa) with four domains (I–IV), each having six transmembrane segments
+*Voltage-gated potassium channels*:: Open more slowly ("delayed rectifiers"). Responsible for repolarization.
 
-Voltage sensor:: S4 segment with positively charged residues; moves outward during depolarization
+*Selectivity*:: Channels achieve remarkable ion discrimination through their pore structure—K⁺ channels are far more permeable to K⁺ than Na⁺.
 
-Inactivation:: III–IV linker (IFM motif) swings into pore
+=== Propagation Speed
 
-==== Voltage-Gated Potassium Channels
+Myelinated axons conduct *much faster* than unmyelinated ones. Myelin works by insulating the axon, concentrating sodium channels at nodes, and enabling saltatory (jumping) conduction.
 
-Structure:: Tetramers of separate α-subunits
+== Chemical Signaling
 
-Kinetics:: ~10× slower than Na⁺ channels (hence "delayed rectifier")
+=== The Synapse
 
-==== Selectivity
+Neurons don't touch—there's a tiny gap (*synaptic cleft*) between them. Communication requires converting electrical signals to chemical signals and back.
 
-The *selectivity filter* achieves remarkable discrimination:
+=== Neurotransmitter Release
 
-* K⁺ channels: Backbone carbonyls match hydrated K⁺ size
-* Selectivity ratio: *10,000:1* (K⁺ over Na⁺)
-* Single channel conductance: up to *100 million ions/second*
+. Action potential arrives at axon terminal
+. *Voltage-gated Ca²⁺ channels* open
+. Ca²⁺ floods in
+. Ca²⁺ triggers *vesicle fusion* via SNARE proteins
+. Neurotransmitter spills into synaptic cleft
 
-=== Propagation
+The *SNARE complex* (synaptobrevin + syntaxin + SNAP-25) physically pulls vesicle and plasma membranes together. *Synaptotagmin* is the calcium sensor that triggers fusion.
 
-==== Unmyelinated Axons
+=== Postsynaptic Response
 
-* Continuous conduction
-* Velocity: *0.5–10 m/s*
-* Increases with √(diameter)
+Neurotransmitters bind to receptors on the target cell, producing either:
 
-==== Myelinated Axons (Saltatory)
+==== Ionotropic Receptors (Fast)
 
-* Current jumps node to node
-* Velocity: *80–150 m/s*
-* Increases linearly with diameter
+Ligand-gated ion channels—neurotransmitter binding directly opens a pore.
 
-.Fiber Types and Conduction Velocities
-[cols="1,1,1,1,2", options="header"]
-|===
-|Type |Diameter |Myelin |Velocity |Function
+* *AMPA receptors*: Na⁺ in → depolarization (EPSP)
+* *NMDA receptors*: Na⁺ and Ca²⁺ in → depolarization + calcium signaling (requires both glutamate AND depolarization to open—"coincidence detector")
+* *GABA_A receptors*: Cl⁻ in → hyperpolarization (IPSP)
 
-|A-alpha
-|12–20 μm
-|Heavy
-|80–120 m/s
-|Motor, proprioception
+==== Metabotropic Receptors (Slow)
 
-|A-beta
-|6–12 μm
-|Myelinated
-|35–90 m/s
-|Touch, pressure
+G-protein coupled receptors—trigger intracellular signaling cascades. Slower but longer-lasting effects.
 
-|A-delta
-|1–6 μm
-|Thin
-|5–30 m/s
-|Sharp pain, temperature
+=== Terminating the Signal
 
-|C-fiber
-|0.2–1.5 μm
-|None
-|0.5–2 m/s
-|Dull pain, temperature
-|===
+. *Reuptake*: Transporters pump neurotransmitter back into neurons (dopamine, serotonin, norepinephrine, GABA, glutamate)
+. *Enzymatic breakdown*: Acetylcholinesterase destroys acetylcholine
+. *Diffusion*: Neurotransmitter drifts away from the cleft
 
-== Chemical Signaling (Synaptic Transmission)
-
-=== Presynaptic Events
-
-==== Calcium Entry
-
-Action potential depolarizes terminal → opens *voltage-gated Ca²⁺ channels* (CaV2.1, CaV2.2)
-
-Calcium rises from ~50–100 nM to *10–100 μM* in microdomains near release sites within ~0.5 ms
-
-==== Vesicle Fusion: The SNARE Complex
+=== Major Neurotransmitters
 
 [cols="1,2,2", options="header"]
 |===
-|Protein |Location |Role
+|Neurotransmitter |Type |Key Functions
 
-|Synaptobrevin (VAMP)
-|Vesicle membrane
-|v-SNARE
+|Glutamate
+|Excitatory
+|Main excitatory signal; learning (via NMDA receptors)
 
-|Syntaxin-1
-|Plasma membrane
-|t-SNARE
+|GABA
+|Inhibitory
+|Main inhibitory signal; calming, anti-seizure
 
-|SNAP-25
-|Plasma membrane
-|t-SNARE
+|Dopamine
+|Modulatory
+|Reward, motivation, movement
+
+|Serotonin
+|Modulatory
+|Mood, sleep, appetite
+
+|Acetylcholine
+|Both
+|Muscle control, attention, memory
+
+|Norepinephrine
+|Modulatory
+|Arousal, attention, stress response
 |===
-
-These proteins "zipper" together, forcing membranes close.
-
-*Munc13*:: Opens syntaxin, enables SNARE assembly
-
-*Munc18*:: Templates and proofreads assembly
-
-*Complexin*:: Holds complex in cocked state
-
-*Synaptotagmin-1*:: Calcium sensor; Ca²⁺ binding triggers fusion
-
-Only *2–3 SNARE complexes* needed per vesicle fusion.
-
-==== Quantal Release
-
-Neurotransmitters released in discrete packets (single vesicles).
-
-Release probability: *0.1–0.3* at central synapses (most APs release 0–2 vesicles)
-
-=== The Synaptic Cleft
-
-Width:: 20–30 nm (central synapses)
-
-Peak glutamate concentration:: ~1.1 mM
-
-Clearance time constant:: ~1.2 ms
-
-==== Termination Mechanisms
-
-. *Enzymatic degradation* (e.g., acetylcholinesterase: ~5,000 molecules/sec)
-. *Reuptake transporters* (DAT, SERT, NET, GATs, EAATs)
-. *Diffusion* out of cleft
-
-=== Postsynaptic Receptors
-
-==== Ionotropic (Ligand-Gated Ion Channels)
-
-Fast responses (milliseconds)
-
-[cols="1,2,2,2", options="header"]
-|===
-|Receptor |Ion Permeability |Effect |Notes
-
-|AMPA
-|Na⁺, K⁺ (Ca²⁺ if lacking GluA2)
-|EPSP
-|Fast excitation
-
-|NMDA
-|Na⁺, K⁺, Ca²⁺
-|EPSP + Ca²⁺ signal
-|Coincidence detector (requires depolarization to relieve Mg²⁺ block)
-
-|GABA_A
-|Cl⁻
-|IPSP
-|Fast inhibition; benzodiazepine binding site
-|===
-
-==== Metabotropic (G-Protein Coupled)
-
-Slower responses (100s of ms to seconds)
-
-*cAMP pathway*:: Gs → adenylyl cyclase → cAMP → PKA
-
-*IP3/DAG pathway*:: Gq → phospholipase C → IP3 (Ca²⁺ release) + DAG (PKC activation)
-
-=== Major Neurotransmitter Systems
-
-==== Glutamate (Principal Excitatory)
-
-* Used at ~50% of CNS synapses
-* Vesicle concentration: 60–210 mM (~2,000–3,000 molecules/vesicle)
-* Clearance: EAAT transporters into astrocytes → glutamine synthetase → glutamine recycling
-
-==== GABA (Principal Inhibitory)
-
-* Synthesized from glutamate by GAD (glutamic acid decarboxylase)
-* GABA_A: Fast Cl⁻-mediated inhibition
-* GABA_B: Slow K⁺-mediated inhibition (metabotropic)
-* GABAergic interneurons: 20–40% of CNS neurons
-
-==== Dopamine
-
-* Synthesized: Tyrosine → L-DOPA (rate-limiting: tyrosine hydroxylase) → Dopamine
-* D1-like (D1, D5): Gs → ↑cAMP
-* D2-like (D2, D3, D4): Gi → ↓cAMP
-* Functions: Reward, motivation, motor control, working memory
-
-==== Serotonin (5-HT)
-
-* Produced by raphe nuclei
-* 14+ receptor subtypes
-* 5-HT3: Only ionotropic serotonin receptor
-* Functions: Mood, sleep, appetite, cognition
-
-==== Acetylcholine
-
-* Neuromuscular junction, autonomic synapses, cortical arousal
-* Nicotinic: Ionotropic (pentamer)
-* Muscarinic (M1–M5): Metabotropic
-* Cleared by *enzymatic degradation* (acetylcholinesterase), not reuptake
-
-==== Norepinephrine
-
-* Produced by locus coeruleus
-* α1 (Gq): Excitatory
-* α2 (Gi): Inhibitory autoreceptors
-* β (Gs): Generally excitatory
-* Functions: Arousal, attention, stress response
-
-=== Excitation vs Inhibition
-
-EPSPs:: Depolarize toward ~0 mV reversal potential → approach threshold
-
-IPSPs:: Hyperpolarize toward −70 to −90 mV → move away from threshold
-
-*Shunting inhibition*:: GABA_A channels open near rest, increasing conductance and "short-circuiting" EPSPs without obvious hyperpolarization
-
-IMPORTANT: Proper E/I balance is critical. Excitatory synapses outnumber inhibitory ~4:1, but inhibition is powerful and precisely timed. Disrupted balance → seizures (excess excitation) or dysfunction (excess inhibition).
 
 == Signal Integration
 
+A neuron receives thousands of inputs—some excitatory, some inhibitory. How does it decide whether to fire?
+
 === Spatial Summation
 
-EPSPs and IPSPs from *different synapses* arriving simultaneously are summed algebraically at the axon hillock.
-
-* Proximal synapses (near soma) exert greater influence
-* Signals decay with distance (length constant)
-
-Example: A motor neuron receives ~10,000 contacts (2,000 on soma, 8,000 on dendrites)
+Inputs arriving at *different locations* simultaneously are added together. EPSPs and IPSPs from across the dendritic tree converge at the axon hillock.
 
 === Temporal Summation
 
-Successive inputs from the *same synapse* arriving faster than the membrane time constant can summate.
+Inputs arriving in *rapid succession* from the same synapse can add together before they decay.
 
-* Membrane τ: 10–30 ms
-* EPSP duration: 15–20 ms
-* Inputs within this window can add together
+=== The Threshold Decision
 
-=== The Decision
+If the combined effect of all inputs depolarizes the axon initial segment to *threshold*, the neuron fires. Otherwise, it doesn't.
 
-When combined EPSPs − IPSPs depolarizes the AIS to threshold (~−55 mV):
-
-. High Na⁺ channel density ensures reliable AP initiation
-. Firing rate encodes stimulus intensity (rate coding)
+This is essentially an analog-to-digital conversion: graded inputs → all-or-none output.
 
 == Synaptic Plasticity
 
+Synapses can strengthen or weaken based on activity patterns. This is the cellular basis of learning and memory.
+
 === Long-Term Potentiation (LTP)
 
-Persistent strengthening of synaptic transmission lasting hours to weeks.
+*Strengthening* of a synapse that lasts hours to weeks.
 
-First discovered by Terje Lømo (1966); published with Tim Bliss (1973).
+==== The Mechanism
 
-==== NMDA Receptors as Coincidence Detectors
+. Strong/repeated stimulation depolarizes the postsynaptic neuron
+. This relieves the Mg²⁺ block on NMDA receptors
+. NMDA receptors open (they require BOTH glutamate AND depolarization)
+. Ca²⁺ enters the spine
+. Ca²⁺ activates CaMKII and other kinases
+. More AMPA receptors are inserted into the membrane
+. The synapse becomes stronger
 
-At rest, Mg²⁺ blocks the NMDA receptor pore.
+==== Why NMDA Receptors Matter
 
-Opening requires *both*:
-
-. Glutamate binding (presynaptic activity)
-. Postsynaptic depolarization (relieves Mg²⁺ block)
-
-This ensures only synapses active when the postsynaptic neuron fires are strengthened.
-
-==== Molecular Cascade
-
-. Ca²⁺ enters through NMDA receptors
-. Ca²⁺ binds *calmodulin*
-. Calmodulin activates *CaMKII*
-. CaMKII *autophosphorylates* → becomes constitutively active
-
-==== Early vs Late LTP
-
-[cols="1,2,2", options="header"]
-|===
-|Phase |Duration |Mechanism
-
-|Early LTP
-|1–2 hours
-|AMPA receptor trafficking and phosphorylation; no new protein synthesis
-
-|Late LTP
-|Hours to days
-|CREB activation, gene transcription, new protein synthesis, structural changes
-|===
-
-==== Induction Protocols
-
-* High-frequency stimulation: 100 Hz for 1 second
-* Theta-burst stimulation: Bursts of 4–5 pulses at 100 Hz, repeated at 5 Hz
+They're *coincidence detectors*—only strengthening synapses that were active when the postsynaptic neuron fired. This implements Hebb's rule: "Neurons that fire together wire together."
 
 === Long-Term Depression (LTD)
 
-Weakening of synaptic connections.
+*Weakening* of a synapse. Triggered by low-frequency stimulation that produces modest calcium increases—enough to activate phosphatases but not kinases.
 
-Induction:: Low-frequency stimulation (1 Hz for 10–15 min, ~900 pulses)
+Results in AMPA receptor removal from the synapse.
 
-Mechanism:: Modest Ca²⁺ increase preferentially activates *phosphatases* (calcineurin, PP1) rather than kinases
+LTD is just as important as LTP: it allows memory refinement and prevents all synapses from saturating at maximum strength.
 
-Result:: AMPA receptor internalization and dephosphorylation
+=== Spike-Timing Dependent Plasticity (STDP)
 
-Function::
-* Memory refinement (weakening inappropriate connections)
-* Prevents saturation
-* Allows memory updating
+The precise timing matters:
 
-=== Hebbian Plasticity and STDP
+* *Pre before post*: LTP (the input helped cause the output)
+* *Post before pre*: LTD (the input came too late)
 
-Donald Hebb (1949): Connections strengthen when presynaptic activity repeatedly contributes to postsynaptic firing.
+=== Structural Changes
 
-*Spike-Timing Dependent Plasticity (STDP)*:
+Plasticity isn't just functional—it's physical:
 
-[cols="1,2", options="header"]
-|===
-|Timing |Result
+* *LTP*: Spines enlarge, new spines form
+* *LTD*: Spines shrink, may be eliminated
 
-|Pre → Post (1–20 ms)
-|LTP (input "contributed to" firing)
+*BDNF* (Brain-Derived Neurotrophic Factor) is critical for these structural changes. It increases with learning and exercise, and decreases with aging and chronic stress.
 
-|Post → Pre
-|LTD (input arrived "too late")
-|===
-
-Critical window: ±20–40 ms
-
-"Neurons that fire together wire together"
-
-=== Structural Plasticity
-
-LTP triggers physical changes:
-
-* Spine volume increase: Up to *200–390%* within 5–7 minutes
-* Stabilizes at ~40–50% larger
-* New spine formation from dendritic shafts
-
-LTD triggers:
-
-* Spine shrinkage
-* Eventual elimination (pruning, partly mediated by microglia)
-
-==== Actin Dynamics
-
-~95% of spine F-actin turns over every ~40 seconds.
-
-LTP activates:
-
-* *Cofilin* (severs existing filaments)
-* *Arp2/3 complex* (nucleates new branched filaments)
-
-Result: Net polymerization → membrane pushed outward → spine enlargement
-
-==== BDNF (Brain-Derived Neurotrophic Factor)
-
-Essential for structural and functional plasticity.
-
-* Released activity-dependently
-* Binds TrkB receptors
-* Activates PI3K/Akt, MAPK/ERK, PLCγ pathways
-* Promotes spine growth, dendritic arborization, late-phase LTP
-
-BDNF increases with: Learning, exercise
-
-BDNF decreases with: Aging, neurodegeneration, chronic stress
-
-== Neuron Classification
+== Neuron Types
 
 === By Structure
 
-[cols="1,2,2,2", options="header"]
-|===
-|Type |Processes |Prevalence |Examples
+*Multipolar* (99%): Multiple dendrites + one axon. Most neurons.
 
-|Multipolar
-|Multiple dendrites + 1 axon
-|~99% of neurons
-|Motor neurons, pyramidal cells, Purkinje cells
+*Bipolar*: One dendrite + one axon on opposite sides. Sensory neurons in retina, ear.
 
-|Bipolar
-|1 dendrite + 1 axon (opposite sides)
-|Specialized sensory
-|Retinal bipolar cells, olfactory neurons
-
-|Pseudo-unipolar
-|Single process that splits (T-shape)
-|Sensory ganglia
-|Dorsal root ganglion neurons
-|===
+*Pseudo-unipolar*: Single process that splits. Sensory neurons carrying touch/pain information.
 
 === By Function
 
-Sensory (afferent):: Carry information toward CNS (mechanoreceptors, nociceptors, photoreceptors)
+*Sensory*: Carry information toward CNS
 
-Motor (efferent):: Carry commands to muscles/glands
+*Motor*: Carry commands to muscles/glands
 
-* Alpha motor neurons: 60–120 m/s; innervate force-generating muscle fibers
-* Gamma motor neurons: 4–24 m/s; innervate muscle spindles
+*Interneurons*: Everything in between (vast majority of brain neurons)
 
-Interneurons:: Process and integrate information within CNS; comprise >99% of all neurons (~20 billion)
+== When Things Go Wrong
 
-=== Specialized Types
+=== Demyelination (Multiple Sclerosis)
 
-Purkinje cells:: Cerebellar cortex; soma ~80 μm; elaborate candelabra-shaped dendrites; receives ~200,000 parallel fiber inputs; sole cerebellar cortex output (GABAergic)
-
-Pyramidal cells:: Cortex and hippocampus; cone-shaped soma ~20 μm; prominent apical dendrite; 70–90% of cortical neurons; form long-range connections
-
-Cerebellar granule cells:: Most numerous neurons (~50 billion); tiny soma (~10 μm); send parallel fibers through molecular layer
-
-Chandelier cells:: GABAergic interneurons; synapse exclusively on axon initial segment of pyramidal neurons; powerful control over AP generation
-
-== Pathology
-
-=== Demyelinating Diseases
-
-==== Multiple Sclerosis
-
-Prevalence: ~1 in 500–1,000 adults (North America); more common in women
-
-Mechanism:: Autoimmune attack on CNS myelin; T cells and B cells target myelin antigens
-
-Effects of demyelination::
-* Conduction velocity drops from ~60 m/s to *<5 m/s*
-* Complete *conduction block* possible
-* Signal desynchronization → tremor, ataxia
-
-Uhthoff's phenomenon:: Worsening symptoms with heat (elevated temperature further impairs demyelinated conduction)
-
-Remyelination challenges::
-
-* Oligodendrocyte precursors may not fully differentiate
-* Chronic inflammation creates hostile environment
-* Astrocytic scarring (gliosis) forms barriers
-* Successful remyelination produces thinner myelin with shorter internodes
+Immune system attacks myelin → conduction slows dramatically or fails entirely → weakness, numbness, coordination problems.
 
 === Channelopathies
 
-Diseases caused by ion channel mutations.
+Mutations in ion channel genes cause hyperexcitability (epilepsy) or inexcitability (paralysis).
 
-[cols="1,2,3", options="header"]
-|===
-|Gene |Channel |Disease
+=== Neurodegeneration
 
-|SCN1A
-|Nav1.1
-|Dravet syndrome (severe infantile epilepsy)
-
-|KCNQ2/3
-|M-type K⁺
-|Benign familial neonatal convulsions
-
-|SCN4A
-|Muscle Nav1.4
-|Periodic paralysis
-
-|CLCN1
-|Muscle Cl⁻
-|Myotonia congenita
-
-|KCNQ1, KCNH2
-|Cardiac K⁺
-|Long QT syndrome
-|===
-
-NOTE: SCN1A is primarily expressed in inhibitory interneurons; loss-of-function reduces inhibition → hyperexcitability.
-
-=== Neurodegenerative Diseases
-
-Common themes across diseases:
+Alzheimer's, Parkinson's, ALS all share common features:
 
 * Protein aggregation
-* Selective neuronal vulnerability
+* Synaptic loss (precedes cell death)
 * Mitochondrial dysfunction
-* Oxidative stress
-* *Synaptic loss precedes cell death*
-
-==== Alzheimer's Disease
-
-Pathological hallmarks::
-* *Amyloid plaques*: Extracellular Aβ (especially Aβ42)
-* *Neurofibrillary tangles*: Intracellular hyperphosphorylated tau
-
-Progression:: Begins in entorhinal cortex/hippocampus → spreads to association cortices
-
-Key finding:: Synaptic loss correlates most closely with cognitive decline
-
-==== Parkinson's Disease
-
-Pathology:: Loss of dopaminergic neurons in *substantia nigra pars compacta*
-
-Critical threshold:: *80% of nigral neurons lost* before clinical symptoms appear
-
-Lewy bodies:: Intracellular α-synuclein aggregates
-
-Symptoms:: Tremor, rigidity, bradykinesia (from disrupted basal ganglia circuitry)
-
-==== Amyotrophic Lateral Sclerosis (ALS)
-
-Affected:: Both upper (cortex) and lower (spinal cord/brainstem) motor neurons
-
-TDP-43:: Aggregates found in ~97% of cases (normally involved in RNA processing)
-
-Selective vulnerability:: Alpha motor neurons degenerate; gamma motor neurons spared
-
-==== Vicious Cycle
-
-. Protein misfolding
-. Soluble oligomers form (often most toxic)
-. Growth into protofibrils and amyloid fibrils
-. Mitochondrial dysfunction → ↓ATP, ↑ROS
-. Oxidative damage promotes further misfolding
 
 == Key Takeaways
 
 [IMPORTANT]
 ====
-. *Electrical signals* (action potentials) travel within neurons; *chemical signals* (neurotransmitters) travel between neurons
+. *Electrical within, chemical between*: Action potentials travel along neurons; neurotransmitters cross synapses
 
-. The *all-or-none* action potential encodes information in *firing frequency*, not amplitude
+. *All-or-none*: Action potentials either fire fully or not at all; information is encoded in firing rate
 
-. *Myelination* increases conduction velocity from ~1 m/s to ~150 m/s—a 150× improvement
+. *Integration*: Neurons sum thousands of inputs to make a binary decision
 
-. *NMDA receptors* are coincidence detectors requiring both presynaptic activity AND postsynaptic depolarization—the basis for Hebbian learning
+. *Coincidence detection*: NMDA receptors only open when presynaptic activity coincides with postsynaptic depolarization—the basis for learning
 
-. *Structural plasticity* means your brain physically changes shape as you learn—spines grow, shrink, form, and are eliminated based on experience
+. *Use it or lose it*: Active synapses strengthen (LTP), inactive ones weaken (LTD)
 
-. The molecular basis of memory involves CaMKII autophosphorylation, AMPA receptor trafficking, and BDNF-dependent gene expression
+. *Physical change*: Learning literally reshapes your brain—spines grow, shrink, form, and disappear
 ====
-
-[appendix]
-== Numerical Summary
-
-=== Concentrations and Potentials
-
-[cols="2,2", options="header"]
-|===
-|Parameter |Value
-
-|Intracellular K⁺
-|120–140 mM
-
-|Extracellular K⁺
-|4–5 mM
-
-|Intracellular Na⁺
-|10–14 mM
-
-|Extracellular Na⁺
-|140 mM
-
-|Intracellular Ca²⁺
-|0.0001 mM
-
-|Extracellular Ca²⁺
-|1–2 mM
-
-|Resting potential
-|−70 mV
-
-|E_K
-|−90 mV
-
-|E_Na
-|+60 mV
-
-|Threshold
-|−55 mV
-
-|AP peak
-|+30 to +40 mV
-|===
-
-=== Dimensions and Densities
-
-[cols="2,2", options="header"]
-|===
-|Structure |Value
-
-|Soma diameter
-|5–140 μm
-
-|Axon diameter
-|<1–20 μm
-
-|Axon length
-|mm to >1 m
-
-|AIS length
-|10–60 μm
-
-|Synaptic cleft width
-|20–30 nm
-
-|Synaptic vesicle diameter
-|40–80 nm
-
-|Dendritic spine length
-|0.2–2.0 μm
-
-|Na⁺ channel density (soma)
-|~1/μm²
-
-|Na⁺ channel density (AIS)
-|100–200/μm²
-
-|Na⁺ channel density (node)
-|1,000–2,000/μm²
-|===
-
-=== Temporal Parameters
-
-[cols="2,2", options="header"]
-|===
-|Event |Duration
-
-|Action potential
-|~2 ms
-
-|Absolute refractory period
-|1–2 ms
-
-|Relative refractory period
-|2–4 ms
-
-|Synaptic delay
-|0.5–1.0 ms
-
-|EPSP/IPSP duration
-|15–20 ms
-
-|Membrane time constant
-|10–30 ms
-
-|Glutamate clearance τ
-|~1.2 ms
-|===
-
-[appendix]
-== References
-
-=== Primary Sources
-
-* Bliss, T. V. P., & Lømo, T. (1973). Long-lasting potentiation of synaptic transmission in the dentate area of the anaesthetized rabbit following stimulation of the perforant path. _Journal of Physiology_, 232(2), 331–356.
-* Hebb, D. O. (1949). _The Organization of Behavior_. Wiley.
-* Hodgkin, A. L., & Huxley, A. F. (1952). A quantitative description of membrane current and its application to conduction and excitation in nerve. _Journal of Physiology_, 117(4), 500–544.
-
-=== Reviews
-
-* Südhof, T. C. (2013). Neurotransmitter release: The last millisecond in the life of a synaptic vesicle. _Neuron_, 80(3), 675–690.
-* Malenka, R. C., & Bear, M. F. (2004). LTP and LTD: An embarrassment of riches. _Neuron_, 44(1), 5–21.
-* Bhatt, D. H., Zhang, S., & Bhatt, D. H. (2009). Dendritic spine dynamics. _Annual Review of Physiology_, 71, 261–282.
