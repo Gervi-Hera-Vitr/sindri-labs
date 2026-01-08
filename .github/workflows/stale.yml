@@ -45,8 +45,11 @@ jobs:
 
       - name: "Run Stale Issues and Pull Requests checks in repository [${{ github.repository }}] by ${{ github.actor }}"
         uses: actions/stale@v10.1.1
+        continue-on-error: true
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
+          operations-per-run: 50
+          enable-statistics: true
 
           days-before-issue-stale: 30
           stale-issue-label: stale-issue
@@ -69,3 +72,9 @@ jobs:
           close-pr-label: stale-pr-closed
           close-pr-message: |
             Closing this pull request after 14 additional days of inactivity.
+
+      #      Above workflow has a bug accessing an empty text file in tmp. This is just to make sure it's not a dedicated host space issue
+      - name: Check on disk space remaining
+        if: steps.stale-issues-and-pull-requests-check.outcome == 'failure'
+        run: |
+          df -h
