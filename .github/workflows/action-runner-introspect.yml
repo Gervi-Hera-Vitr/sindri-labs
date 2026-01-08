@@ -68,7 +68,7 @@ jobs:
           sdkman-native: '0.7.14'
           java-version: '21.0.9-tem'
           gradle-version: '9.2.0'
-          kotlin-version: '2.3.0'
+          kotlin-version: '2.2.21'
           kobweb-version: '0.9.21'
           maven-version: '3.9.12'
           sbt-version: '1.12.0'
