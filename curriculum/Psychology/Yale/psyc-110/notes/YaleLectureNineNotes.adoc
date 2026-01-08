@@ -1,0 +1,448 @@
+= The Psychology of Love & Attraction
+:toc: left
+:toclevels: 3
+:sectnums:
+
+Based on Peter Salovey's Yale Introductory Psychology lecture (Valentine's Day)
+
+== Defining Love: Sternberg's Triangular Theory
+
+Robert Sternberg (former Yale faculty, later Dean of Tufts) proposed that love consists of *three required components*:
+
+=== The Three Components
+
+[cols="1,2,2"]
+|===
+|Component |Definition |Operational Meaning
+
+|*Intimacy*
+|Feeling of closeness, connectedness, bonding
+|Sharing secrets/information you don't share with others
+
+|*Passion*
+|The drive that leads to romance
+|Physical attraction, sexual arousal
+
+|*Commitment*
+|Decision that one is in a love relationship
+|Willingness to label it as love + desire to maintain it
+|===
+
+[IMPORTANT]
+====
+According to Sternberg: It's not love if you don't have all three elements. It's also not love if you don't *call* it love.
+====
+
+=== Permutations: What You Get With Different Combinations
+
+==== Zero Components
+* *Non-love* - The relationship you have with a random stranger
+
+==== One Component Only
+
+[cols="1,1,1,1,2"]
+|===
+|Type |Intimacy |Passion |Commitment |Description
+
+|*Liking*
+|✓
+|✗
+|✗
+|Casual friendships - closeness without attraction or commitment
+
+|*Infatuation*
+|✗
+|✓
+|✗
+|"Love at first sight" - pure physical attraction, no knowledge of person, no future thinking
+
+|*Empty Love*
+|✗
+|✗
+|✓
+|Commitment without intimacy or passion
+|===
+
+*Empty Love* is particularly interesting:
+
+* Often the *final stage* of long-term relationships gone bad ("staying together for the kids")
+* In arranged marriage societies, often the *first stage* - commitment exists before anything else
+* Arranged marriages don't have higher divorce rates, BUT confound: they occur in societies that make divorce socially costly
+
+==== Two Components ("Two Out of Three Ain't Bad" - Meat Loaf)
+
+[cols="1,1,1,1,2"]
+|===
+|Type |Intimacy |Passion |Commitment |Description
+
+|*Romantic Love*
+|✓
+|✓
+|✗
+|Physical attraction + close bonding, but no commitment. Romeo & Juliet when they first met. Won't use the "L word."
+
+|*Companionate Love*
+|✓
+|✗
+|✓
+|Best friendship - committed to sharing intimacy forever, but no physical attraction. The Greek ideal.
+
+|*Fatuous Love*
+|✗
+|✓
+|✓
+|Whirlwind courtship, Hollywood romance, Vegas wedding. "Committed to each other for sex." Hard to sustain - may have nothing in common.
+|===
+
+==== Three Components
+* *Consummate Love* - Complete love. The full package.
+
+---
+
+== The Social Psychology of Attraction
+
+Research has focused more on *attraction* (what draws people together initially) than love itself. Seven key variables identified, divided into two groups.
+
+=== The Big Three (Obvious, Powerful Effects)
+
+The phrase to understand these: *"All other things being equal..."*
+
+==== 1. Proximity (Spatial Closeness)
+
+People physically closer together are more likely to form romantic relationships.
+
+*Evidence:*
+
+* Manhattan studies: Correlation between city blocks separating people's doors and likelihood of romantic relationship
+* College campus studies: Negative correlation between feet separating dorm room doors and relationship formation
+
+*Cultural myth contradiction:* We romanticize "the stranger" - but statistically, it's the person nearby you'll fall for.
+
+==== 2. Similarity
+
+On *any dimension* psychologists have measured, more similar people are more attracted to each other.
+
+* Obvious: height, age
+* Less obvious: attitudes toward capital punishment, sports team preferences
+
+*Common sayings evaluated:*
+
+[cols="1,1"]
+|===
+|Saying |Evidence?
+
+|"Opposites attract"
+|*No* - little evidence
+
+|"Similarity breeds contempt"
+|*No* - little evidence
+
+|"Birds of a feather flock together"
+|*Yes* - supported
+|===
+
+==== 3. Familiarity
+
+We fall in love with people we already know, not strangers.
+
+*"Some Enchanted Evening"* (South Pacific) - seeing a stranger across a crowded room - is a cultural myth, not the statistical norm.
+
+*The Mere Exposure Effect:*
+
+* Works even for non-human stimuli
+* Flash words in an unfamiliar language very quickly
+* Later, mix those words with new ones
+* People prefer the words they saw before - even if they don't remember seeing them
+* Works even with subliminal exposure
+
+---
+
+=== The More Interesting Four (Subtle Effects)
+
+==== 1. The Pratfall Effect
+
+*Core finding:* Our liking for a competent person *increases* when they make a mistake.
+
+*Why it matters:*
+
+* We're attracted to competent people over incompetent ones (obvious)
+* BUT super-competent people are threatening - they diminish us by comparison
+* The competent person who occasionally blunders becomes *more* attractive
+
+*The Classic Experiment (Elliot Aronson):*
+
+Participants listen to tape recordings of "College Bowl" quiz show candidates:
+
+*Nearly Perfect Person:*
+
+* 92% correct answers
+* Member of campus honor society
+* Editor of yearbook
+* Ran varsity track
+
+*Mediocre Person:*
+
+* 30% correct answers
+* Average grades
+* Yearbook proofreader
+* Tried out for track, didn't make it
+
+*The Blunder Condition:*
+
+Half of participants hear additional audio: clattering dishes, person saying "Oh my goodness, I've spilled coffee all over my new suit."
+
+*Results:*
+
+[cols="1,1,1"]
+|===
+|Person Type |No Blunder |With Blunder
+
+|Competent
+|Attractive
+|*Even MORE attractive*
+
+|Mediocre
+|Less attractive
+|*Even LESS attractive*
+|===
+
+*Sad irony:* The effect works both ways. Blundering only helps if you're already seen as competent.
+
+*Real-world example:* Bill Clinton's popularity didn't suffer much after the Lewinsky scandal - "It just shows he's human."
+
+==== 2. Physical Attractiveness
+
+*The uncomfortable truth:* We say looks don't matter, but they do.
+
+*Survey vs. Reality:*
+
+When surveyed, college students say these matter:
+
+* Warmth ✓
+* Sensitivity ✓
+* Intelligence ✓
+* Compassion ✓
+* Sense of humor ✓
+* Looks ✗ (they say it doesn't matter)
+
+*Blind date studies:* The ONLY significant predictor of getting a second date was *physical attractiveness*.
+
+*University of Minnesota "Computer Dance" study:*
+
+* Students randomly paired by computer algorithm
+* Extensive data collected on all participants
+* Only predictor of continuing the relationship: rating partner as attractive
+
+*The "Frizzy Wig" Experiment (Aronson):*
+
+Setup: Naturally attractive female confederate interviews male participants, made to look either attractive or unattractive (frumpy clothes, bad makeup, frizzy wig). Gives them personality evaluations (favorable or unfavorable).
+
+*Results:*
+
+[cols="1,1,1"]
+|===
+|Confederate Appearance |Feedback Type |Participant Response
+
+|Attractive
+|Positive
+|Delighted
+
+|Attractive
+|Negative
+|Really upset; sought future interaction to prove evaluation wrong
+
+|Unattractive
+|Either
+|*Didn't care* - feedback had no impact
+|===
+
+*Implication:* Feedback from attractive people has more psychological impact on us.
+
+==== 3. Gain-Loss Effect
+
+*Core principle:* We are wired to be more sensitive to *change* than to steady states (change signals danger or opportunity - evolutionary advantage).
+
+*The Gain Effect:*
+
+* Not most powerful: Someone who always loves you ("I love you, I love you, I love you...")
+* Most powerful: Someone whose regard for you is *increasing over time*
+* Even if their average regard is lower (started low, went high), the positive trajectory captures attention
+* *The first derivative matters more than the absolute position*
+
+*The Loss Effect:*
+
+* Not most hurtful: Someone who has always been negative (constant hostility loses power to hurt)
+* Most hurtful: Someone who was positive but whose regard is *fading*
+
+[quote]
+"Nothing can hurt you like the person you love" - Ricky Skaggs
+
+* You can only hurt the one you love because you *expect* positive feedback from them
+* When that turns negative, it's devastating
+
+==== 4. Misattribution of Arousal
+
+*Core concept:* You feel physiologically aroused but aren't sure why → you make up an explanation → sometimes that explanation is wrong → you think it's love when it's something else.
+
+*The Starbucks Thought Experiment:*
+
+. You're on a date, order decaf for your companion
+. Barista accidentally uses caffeinated espresso
+. Walking home at 1am, companion feels: rapid heartbeat, sweaty palms, shorter breath
+. She thinks: "I ordered decaf, so it can't be coffee..."
+. She looks at you: "What a rare mood I'm in. It's almost like being in love."
+. Reality: Two shots of caffeine. Misattributed as romantic attraction.
+
+*The "Rickety Bridge" Field Experiment (University of British Columbia):*
+
+Two ways to cross a river on campus:
+
+[cols="1,2"]
+|===
+|Bridge Type |Characteristics
+
+|Rickety Bridge
+|Rope bridge, hundreds of feet up, sways in breeze, 3 feet wide, scary
+
+|Solid Bridge
+|Low, near water, solid wood planks, wide, safe
+|===
+
+Attractive female confederate intercepts men after crossing, asks questions, collects a story they write, gives her phone number.
+
+*Results:*
+
+[cols="1,1,1"]
+|===
+|Bridge |Story Content |Called Her Later?
+
+|Rickety
+|Sexy, ribald themes
+|More likely
+
+|Solid
+|Boring
+|Less likely
+|===
+
+*Interpretation:* Fear arousal from rickety bridge misattributed as attraction to the woman.
+
+*CRITICAL FLAW:* This is *not* a true experiment - no random assignment. People who choose the rickety bridge may be adventure-seekers who would naturally write sexy stories and call strangers. Selection bias.
+
+*Laboratory Experiments (with random assignment):*
+
+*Painful Shock Study:*
+
+* Control: "Please wait here. Fill out forms rating experimenter's attractiveness."
+* Experimental: "Please wait here. The painful shock experiment will begin shortly. Fill out forms."
+* Result: Shock condition rated experimenter as more attractive (anticipatory arousal misattributed)
+
+*Treadmill Study:*
+
+* Control: Wait and fill out forms
+* Experimental: Run on treadmill for 10 minutes, then fill out forms
+* Result: Exercise condition rated experimenter more attractive
+* Effect persists even when arousal source is obvious
+
+[NOTE]
+====
+"This is why the fourth floor of Payne Whitney Gym is such a dangerous place... that combination of aerobic exercise and spandex leads to trouble."
+====
+
+*The Fake Heartbeat Study:*
+
+* Male subjects view Playboy centerfolds
+* Wearing headphones supposedly amplifying their heartbeat
+* Asked which centerfold they find most attractive
+* *Twist:* Not actually hearing their heartbeat - hearing a tape recording
+* Experimenter randomly speeds up the "heartbeat" at different slides
+* Result: Whichever slide played during fast heartbeat = rated most attractive
+* *You can misattribute arousal that isn't even real*
+
+=== Serious Implications: Domestic Violence
+
+Why do people stay in abusive relationships?
+
+*#1 Reason:* Economic - belief there's no alternative (homelessness, children's welfare)
+
+*#2 Reason:* Misattribution of arousal
+
+* Emotional/psychological abuse: screaming, name-calling, fights
+* Creates physiological arousal
+* Misattributed as love: "He wouldn't be yelling at me if he didn't love me"
+* Fear misattributed as mutual attraction
+
+*Real example:* Woman whose boyfriend punched out her car window while yelling at her. Her response: "That's when I knew he really loved me."
+
+* His aggression → misattributed as love
+* Her fear → misattributed as mutual attraction
+
+---
+
+== Key Methodological Points
+
+=== Limitations Noted
+
+. Many classic experiments can't be replicated today - ethical standards have changed
+. Much research has androcentric and heterosexual bias (male participants, female targets)
+. Question to always ask: Do findings generalize to other dyadic relationships?
+
+=== Experiment vs. Non-Experiment
+
+*True experiment requires:* Random assignment to conditions
+
+*Rickety Bridge study flaw:* Participants self-selected which bridge to cross → can't establish causation
+
+---
+
+== Summary Table: Attraction Variables
+
+[cols="1,2,2"]
+|===
+|Variable |Effect |Key Insight
+
+|Proximity
+|Closer = more attracted
+|It's not the stranger you fall for
+
+|Similarity
+|More similar = more attracted
+|Opposites don't actually attract
+
+|Familiarity
+|More familiar = more attracted
+|Works even with subliminal exposure
+
+|Pratfall
+|Blunders increase liking for competent people
+|Only works if already seen as competent
+
+|Physical Attractiveness
+|Attractive = more influence, more second dates
+|We deny it matters, but it does
+
+|Gain-Loss
+|Increasing regard > constant regard
+|First derivative matters more than position
+
+|Misattribution
+|Arousal from any source can be mistaken for attraction
+|Even fake/obvious arousal can be misattributed
+|===
+
+---
+
+== Discussion Questions Raised
+
+. Can someone feel consummate love for more than one person?
+** Evolutionary perspective: Yes - facilitates genetic diversity
+** Social construction: Most societies say no - creates conflict
+** Result: Probably possible, but conflicted
+
+. Do the Big Three affect relationship maintenance or just initial attraction?
+** Literature mostly focuses on initial attraction
+** Hard to follow couples over time without interference (Heisenberg-esque problem)
+
+. Wouldn't natural selection favor people who learn and apply this knowledge?
+** Would require designing a proclivity for learning this material
+** Would make social psychologists very happy if true
