@@ -1,4 +1,5 @@
 import com.github.benmanes.gradle.versions.updates.DependencyUpdatesTask
+import org.asciidoctor.gradle.jvm.AbstractAsciidoctorTask.JAVA_EXEC
 import org.asciidoctor.gradle.jvm.AsciidoctorTask
 import org.asciidoctor.gradle.jvm.epub.AsciidoctorEpubTask
 import org.asciidoctor.gradle.jvm.epub.AsciidoctorEpubTask.EPUB3
@@ -48,6 +49,22 @@ java {
         languageVersion.set(JavaLanguageVersion.of(libs.versions.java.get()))
         vendor.set(JvmVendorSpec.ADOPTIUM)
         log.info("\t|=> Riddle me that Java Toolchain SET to    -> ${libs.versions.java.get()} : ${JvmVendorSpec.ADOPTIUM}.")
+    }
+}
+
+val adocJvmParams = listOf(
+    "--add-opens", "java.base/sun.nio.ch=ALL-UNNAMED",
+    "--add-opens", "java.base/java.io=ALL-UNNAMED",
+)
+
+listOf(
+    tasks.withType<AsciidoctorTask>(),
+    tasks.withType<AsciidoctorPdfTask>(),
+    tasks.withType<AsciidoctorEpubTask>(),
+).forEach {
+    it.configureEach {
+        setExecutionMode(JAVA_EXEC)
+        jvm { jvmArgs(adocJvmParams) }
     }
 }
 
