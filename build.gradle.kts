@@ -6,39 +6,33 @@ import org.asciidoctor.gradle.jvm.pdf.AsciidoctorPdfTask
 import org.slf4j.LoggerFactory
 import java.util.*
 
-val useJavaVer: String by project
-
-val versionOfKotlinLogging: String by project
-val versionOfSlf4j: String by project
-val versionOfLogback: String by project
-
 val documentationRootFolder = file(project.property("docs.root.folder") as String)
 
 private val log by lazy { LoggerFactory.getLogger("ai.gervi.hera.vitr.build") }
 
 plugins {
-    id("org.gradle.kotlin.kotlin-dsl") apply false
-    id("com.github.ben-manes.versions")
+    alias(libs.plugins.kotlin.dsl) apply false
+    alias(libs.plugins.ben.manes)
 
-    kotlin("jvm")
-    id("org.jetbrains.dokka") apply false
+    alias(libs.plugins.kotlin.jvm)
+    alias(libs.plugins.dokka) apply false
 
-    id("io.ktor.plugin") apply false
-    id("org.jetbrains.kotlin.plugin.serialization") apply false
+    alias(libs.plugins.ktor) apply false
+    alias(libs.plugins.kotlin.serialization) apply false
 
-    id("org.asciidoctor.jvm.pdf")
-    id("org.asciidoctor.jvm.gems")
-    id("org.asciidoctor.jvm.epub")
-    id("org.asciidoctor.jvm.convert")
+    alias(libs.plugins.asciidoctor.pdf)
+    alias(libs.plugins.asciidoctor.gems)
+    alias(libs.plugins.asciidoctor.epub)
+    alias(libs.plugins.asciidoctor.convert)
 }
 
 dependencies {
     implementation(gradleApi())
     implementation(platform(kotlin("bom")))
 
-    api("org.slf4j:slf4j-api:$versionOfSlf4j")
-    implementation("io.github.oshai:kotlin-logging:$versionOfKotlinLogging")
-    implementation("ch.qos.logback:logback-classic:$versionOfLogback")
+    api(libs.slf4j.api)
+    implementation(libs.kotlin.logging)
+    implementation(libs.logback.classic)
 
     testImplementation(platform(kotlin("bom")))
     testImplementation(kotlin("test"))
@@ -51,9 +45,9 @@ allprojects {
 }
 java {
     toolchain {
-        languageVersion.set(JavaLanguageVersion.of(useJavaVer))
+        languageVersion.set(JavaLanguageVersion.of(libs.versions.java.get()))
         vendor.set(JvmVendorSpec.ADOPTIUM)
-        log.info("\t|=> Riddle me that Java Toolchain SET to    -> $useJavaVer : ${JvmVendorSpec.ADOPTIUM}.")
+        log.info("\t|=> Riddle me that Java Toolchain SET to    -> ${libs.versions.java.get()} : ${JvmVendorSpec.ADOPTIUM}.")
     }
 }
 
