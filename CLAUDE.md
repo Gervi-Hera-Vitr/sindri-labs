@@ -34,7 +34,7 @@ sdk env install        # NEVER install SDKMAN tools - `.sdkamnrc` is provided as
 # So you should follow local maintenance workflow first, before working on any projects. 
 ```
 
-```bash
+```zsh
 gradle clean build test   # Build and test all subprojects
 gradle asciidoctor asciidoctorPdf asciidoctorEpub  # Generate docs
 gradle dependencyUpdates  # Check for dependency updates
@@ -44,7 +44,7 @@ NEVER use `gradle` wrapper scripts -- use PATH bootstrapped `gradle` and have it
 This is the free step that validates `local` for free, and offers a chance to inject local hooks.
 
 Jekyll site (separate build):
-```bash
+```zsh
 cd site && bundle install && bundle exec jekyll build
 ```
 

@@ -4,7 +4,7 @@ Kotlin/Ktor web application. Anton's hands-on web development lab.
 
 ## Build & Run
 
-```bash
+```zsh
 gradle :lab-ux-ktor:build
 gradle :lab-ux-ktor:run          # Starts CIO server
 gradle :lab-ux-ktor:test         # Runs Ktor test host

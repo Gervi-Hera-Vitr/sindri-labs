@@ -5,7 +5,7 @@ Anton's school website. Published at https://gervi-hera-vitr.github.io/sindri-la
 ## Build
 
 Just for reference -- use run configurations instead!
-```bash
+```zsh
 cd site
 bundle install
 bundle exec jekyll build
