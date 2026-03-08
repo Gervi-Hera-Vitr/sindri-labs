@@ -6,7 +6,7 @@ Gradle subproject for generating AsciiDoc documents about Anton's AI/ML learning
 
 Built as part of the root project. Uses AsciiDoctor plugins (pdf, gems, epub, convert).
 
-```bash
+```zsh
 gradle :journey:asciidoctor
 gradle :journey:asciidoctorPdf
 gradle :journey:asciidoctorEpub
