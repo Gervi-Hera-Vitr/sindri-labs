@@ -8,7 +8,7 @@
       "Grep",
       "WebSearch",
       "WebFetch",
-      "Bash(*)",
+      "Bash",
       "mcp__jetbrains__*",
       "mcp__ide__*"
     ],
