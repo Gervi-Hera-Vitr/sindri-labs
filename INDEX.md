@@ -23,18 +23,18 @@ Clear before merging.
 
 ## CLAUDE.md Files
 
-- [ ] Root CLAUDE.md -- project identity, build, conventions, who Anton is, Mimir Academy
-- [ ] curriculum/CLAUDE.md -- grading standards, document format, academic expectations
-- [ ] curriculum/Psychology/CLAUDE.md -- what's covered, resources, assessment
-- [ ] curriculum/Mathematics/CLAUDE.md
-- [ ] curriculum/History/CLAUDE.md
-- [ ] curriculum/Engineering/CLAUDE.md
-- [ ] curriculum/Biology/CLAUDE.md
-- [ ] curriculum/Physics/CLAUDE.md
-- [ ] curriculum/Business/CLAUDE.md
-- [ ] site/CLAUDE.md -- Jekyll build, post format, theme
-- [ ] journey/CLAUDE.md -- Gradle subproject, purpose
-- [ ] lab-ux-ktor/CLAUDE.md -- Ktor lab, build, run
+- [x] Root CLAUDE.md -- project identity, build, conventions, who Anton is, Mimir Academy
+- [x] curriculum/CLAUDE.md -- grading standards, document format, academic expectations
+- [x] curriculum/Psychology/CLAUDE.md -- what's covered, resources, assessment
+- [x] curriculum/Mathematics/CLAUDE.md
+- [x] curriculum/History/CLAUDE.md
+- [x] curriculum/Engineering/CLAUDE.md
+- [x] curriculum/Biology/CLAUDE.md
+- [x] curriculum/Physics/CLAUDE.md
+- [x] curriculum/Business/CLAUDE.md
+- [x] site/CLAUDE.md -- Jekyll build, post format, theme
+- [x] journey/CLAUDE.md -- Gradle subproject, purpose
+- [x] lab-ux-ktor/CLAUDE.md -- Ktor lab, build, run
 
 ## Anton's Psychology Semester Closeout
 
@@ -59,5 +59,4 @@ Grading summary from review:
 
 ## Open Questions
 
-- stale.yml: 9 new lines added on this branch -- Vadim, was that intentional?
 - Issue #348 filed for Shift #8 investigation (plan-of-attack repo)
