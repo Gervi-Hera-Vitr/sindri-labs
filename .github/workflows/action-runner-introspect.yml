@@ -65,7 +65,7 @@ jobs:
           validate-sdks: true
           mandatory-tools: "sdkman,java,gradle,kotlin,ruby,bundler,conda,mamba,python"
           sdkman-version: '5.20.0'
-          sdkman-native: '0.7.14'
+          sdkman-native: '0.7.21'
           java-version: '21.0.9-tem'
           gradle-version: '9.3.1'
           kotlin-version: '2.3.10'
@@ -76,9 +76,9 @@ jobs:
           ruby-version: '3.3.5'
           gems-version: '3.7.2'
           bundler-version: '2.7.2'
-          conda-version: '25.9.1'
-          mamba-version: '2.3.3'
-          python-version: '3.12.12'
+          conda-version: '26.1.1'
+          mamba-version: '2.5.0'
+          python-version: '3.12.13'
 
       - name: Toolchain Validation Report
         if: always()
