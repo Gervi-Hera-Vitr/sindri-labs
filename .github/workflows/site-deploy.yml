@@ -46,7 +46,7 @@ jobs:
       - name: 🚀 Deploy to GitHub Pages
         id: deployment
         timeout-minutes: 9
-        uses: actions/deploy-pages@v4.0.5
+        uses: actions/deploy-pages@v5.0.0
         with:
           artifact_name: sindri-school-site
 
