@@ -62,7 +62,7 @@ jobs:
           
 
       - name: Submit Dependency Graph
-        uses: gradle/actions/dependency-submission@v5.0.2
+        uses: gradle/actions/dependency-submission@v6.1.0
         timeout-minutes: 3
         with:
           additional-arguments: '--no-parallel'

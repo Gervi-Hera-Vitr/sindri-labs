@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="Bundle Serve Local" type="ShConfigurationType" activateToolWindowBeforeRun="false">
-    <option name="SCRIPT_TEXT" value="bundle exec jekyll serve -wolIVt" />
+    <option name="SCRIPT_TEXT" value="bundle exec jekyll serve -wolIVt --port 4400" />
     <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
     <option name="SCRIPT_PATH" value="" />
     <option name="SCRIPT_OPTIONS" value="" />
@@ -14,6 +14,7 @@
     <envs />
     <method v="2">
       <option name="RunConfigurationTask" enabled="true" run_configuration_name="Remove Local Site" run_configuration_type="ShConfigurationType" />
+      <option name="RunConfigurationTask" enabled="true" run_configuration_name="Bundle Install" run_configuration_type="ShConfigurationType" />
     </method>
   </configuration>
 </component>
