@@ -1,0 +1,172 @@
+= History of Particle Discovery
+
+== Origin of the Concept and Democritus and Atomos
+
+The idea that matter consists of tiny, indivisible units — what we now call "particles" — first appeared in Greek atomism:
+
+Leucippus was a Pre-Socratic Philosopher(century BCE) is credited with originating the atomic philosophy.
+Known for the principle: "Nothing happens at random; everything occurs for a reason and out of necessity".
+He proposed that atoms are infinite in number, unchangeable, and possess various shapes and sizes, which collide and reorganize to create different things.
+His student Democritus (c. 460–370 BCE) developed and popularized it. He proposed that everything is made of atomos (Greek for "indivisible" or "uncuttable") — small, hard, eternal particles moving through empty space (the void). These atoms differed in shape, size, and arrangement, explaining the variety of matter and its properties (e.g., sharp atoms for sour tastes).
+
+== Revival in the Scientific Revolution
+Gassendi — a French Catholic priest, philosopher, and astronomer — was the single most important figure in bringing atoms back.
+
+He spent decades studying the ancient Epicurean texts (Epicurus had built on Democritus).
+In works like Animadversiones in decimum librum Diogenis Laertii (1649) and his massive posthumous Syntagma Philosophicum (1658), Gassendi revived atomism but carefully removed its pagan/atheistic baggage.
+
+His clever fix: God created the atoms at the beginning of time and gave them their initial motion. Atoms themselves are inert (they don't have minds or souls), but God is the ultimate cause of everything. This made atomism safe for Christians.
+
+Isaac Newton (1643–1727): Particles become the foundation of classical physics
+
+Newton took Gassendi's ideas and ran with them — especially in his book Opticks (published 1704, written in English so it reached a wide audience).
+
+In Opticks, Newton explicitly endorsed the corpuscular (particle) theory of light. He argued that light consists of tiny material "corpuscles" (particles) that travel in straight lines, bounce off surfaces (reflection), and bend when entering new media (refraction)
+
+He described the entire universe as made of "infinitesimal material points" or particles that possess mass and obey mechanical laws.
+
+In the famous "Queries" at the end of Opticks (especially Query 31), Newton speculated that chemical reactions, forces, and even the structure of matter itself could be explained by attractions and repulsions between these particles.
+
+
+== Dalton's Atomic Theory
+Dalton's atomic theory, proposed by English chemist John Dalton in 1808, was the first scientific, quantitative attempt to describe all matter in terms of atoms.
+
+Dalton proposed that every single atom of an element, such as gold, is the same as every other atom of that element. He also noted that the atoms of one element differ from the atoms of all other elements. Today, we still know this to be mostly true.
+
+5 Main Postulates of Dalton's Theory:
+
+. Atom Structure: All matter is composed of tiny, indivisible, and indestructible particles called atoms.
+. Identical Atoms: Atoms of a specific element are identical in mass and properties; atoms of different elements differ in size, mass, and properties.
+. Indivisibility: Atoms cannot be divided, created, or destroyed during chemical reactions.
+. Compound Formation: Atoms of different elements combine in simple, whole-number ratios to form chemical compounds.
+. Reactions: Chemical reactions involve only the separation, combination, or rearrangement of atoms; atoms are not created or destroyed.
+
+== Thomson Discovers the Electron
+
+In 1897, J.J. Thomson was experimenting with cathode rays at the Cavendish Laboratory, Cambridge. Cathode rays were streams of glowing matter observed when electric current was forced through a glass tube evacuated of most air. At the time, German physicists (Hertz, Goldstein) argued cathode rays were electromagnetic waves like light. British physicists (Crookes, Thomson) suspected they were streams of charged particles.
+
+Thomson used a modified Crookes tube, passing cathode rays between two parallel metal plates that could be electrically charged, and also through magnetic fields. He measured how much the beam deflected under electric and magnetic forces. By balancing these two deflections against each other, he calculated the charge-to-mass ratio (e/m) of the particles in the beam.
+
+Key findings:
+
+* The rays deflected toward the positive plate, proving they carried negative charge.
+* The e/m ratio was roughly 1,000 times larger than that of a hydrogen ion -- meaning these particles were far lighter than any known atom.
+* The ratio was identical regardless of the cathode material or the residual gas in the tube, proving these particles were universal constituents of all matter, not specific to one element.
+
+Thomson announced that cathode rays consisted of negatively charged "corpuscles" (later renamed electrons) that were components of atoms. This was the first experimental proof that atoms have internal structure -- they are not indivisible as Dalton's model assumed. The electron was the first subatomic particle identified.
+
+Since atoms are electrically neutral overall, Thomson proposed (1904) that negative corpuscles were embedded in a diffuse sphere of positive charge -- like plums in a pudding. This "plum pudding model" held until Rutherford's gold foil experiment replaced it.
+
+Nobel Prize in Physics: 1906.
+
+== Rutherford's Gold Foil Experiment
+
+Conducted 1909-1911 at the University of Manchester. Hans Geiger and Ernest Marsden performed the physical experiments under Ernest Rutherford's direction.
+
+They fired alpha particles (helium nuclei, positively charged) from a radioactive source at a very thin gold foil, roughly 1000 atoms thick. A zinc sulfide scintillation screen surrounding the foil detected where particles landed.
+
+Under Thomson's plum pudding model, the atom was a diffuse sphere of positive charge with electrons embedded in it. Alpha particles should have passed through with only slight deflection.
+
+Results: most alpha particles did pass straight through or deflected only slightly. But roughly 1 in 8,000 bounced back at angles greater than 90 degrees -- some nearly straight back toward the source.
+
+Rutherford's famous quote: "It was almost as incredible as if you fired a 15-inch shell at a piece of tissue paper and it came back and hit you."
+
+Conclusions:
+
+* The atom is mostly empty space (explaining why most particles passed through).
+* Nearly all the atom's mass and all its positive charge are concentrated in a tiny, dense center -- which Rutherford named the *nucleus*.
+* Electrons orbit this nucleus at a distance.
+
+This replaced Thomson's model with the *nuclear model of the atom*.
+
+Rutherford had already received the 1908 Nobel Prize in Chemistry for his work on radioactive decay. The gold foil experiment came after his Nobel -- one of the rare cases where a scientist's most famous contribution postdates their prize.
+
+== Bohr's Atomic Model
+
+Niels Bohr worked in Rutherford's laboratory in Manchester starting in 1912. Rutherford's nuclear model had a fundamental problem: classical electromagnetism predicted that orbiting electrons would continuously radiate energy and spiral into the nucleus within nanoseconds. Matter should not be stable, yet it is.
+
+In 1913, Bohr published his atomic model across three papers in Philosophical Magazine. Key postulates:
+
+. Electrons orbit the nucleus only in specific, discrete energy levels (stationary states) without radiating energy.
+. An electron can jump from one energy level to another by absorbing or emitting a photon whose energy exactly equals the difference between those levels: E = hf (Planck's constant times frequency).
+. Angular momentum of electrons is quantized in integer multiples of h/2π.
+
+The model correctly predicted the wavelengths of hydrogen's emission spectrum -- the Balmer, Lyman, and Paschen series. Each visible color (red at 656 nm, blue-green at 486 nm, violet at 434 nm and 410 nm) corresponds to a specific electron transition between energy levels.
+
+This was the first model to successfully merge Planck's quantum hypothesis with atomic structure.
+
+Limitations: the model worked accurately only for hydrogen and single-electron systems. It could not account for multi-electron atoms or spectral fine structure.
+
+Nobel Prize in Physics: 1922.
+
+== Chadwick Discovers the Neutron
+
+Atomic masses were roughly double what they should be if nuclei contained only protons. Helium has atomic number 2 but mass number 4. Something else had to be in the nucleus. In 1920, Rutherford predicted that a neutral particle with mass similar to the proton must exist. He could not prove it experimentally.
+
+In 1932, James Chadwick -- Rutherford's student at the Cavendish Laboratory in Cambridge -- investigated a puzzling radiation discovered by Walther Bothe and Herbert Becker in 1930. They had bombarded beryllium with alpha particles from polonium and observed a penetrating, uncharged radiation. Irène and Frédéric Joliot-Curie showed this radiation could knock protons out of paraffin wax, but they misidentified it as gamma rays.
+
+Chadwick recognized gamma rays could not transfer that much momentum to protons. He repeated and extended the experiments, measuring the recoil of hydrogen and nitrogen nuclei. Using conservation of energy and momentum, he showed the radiation consisted of uncharged particles with a mass very close to that of the proton: approximately 1.008 atomic mass units.
+
+Why the neutron matters:
+
+* Explains isotopes: same number of protons, different numbers of neutrons.
+* Neutrons carry no charge, so they are not repelled by the positive nucleus. This lets them penetrate and split nuclei, making nuclear fission possible.
+* Completed the basic model of the atom: protons, neutrons, electrons.
+
+Nobel Prize in Physics: 1935.
+
+== Dirac Predicts Antimatter
+
+In 1928, Paul Dirac formulated the Dirac equation, combining quantum mechanics with Einstein's special relativity to describe the behavior of the electron. Previous quantum equations (like Schrödinger's) did not account for relativistic effects.
+
+The equation worked, but it had an uncomfortable feature: it produced two sets of solutions. One set described electrons with positive energy, as expected. The other set described states with negative energy, which had no known physical interpretation. Most physicists would have discarded these as mathematical artifacts.
+
+Dirac did not discard them. By 1931, he proposed that the negative-energy solutions corresponded to a real, undiscovered particle -- identical to the electron but with positive charge (the positron, or anti-electron).
+
+This was prediction from pure mathematics. No experiment had hinted at such a particle. No observation motivated it. The math demanded it, and Dirac trusted the math.
+
+Dirac was famously taciturn and precise. Colleagues joked that a "dirac" was a unit of one word per hour.
+
+Nobel Prize in Physics: 1933, shared with Schrödinger.
+
+== Anderson Finds the Positron
+
+In August 1932 at Caltech, Carl Anderson discovered the positron while studying cosmic rays using a cloud chamber. A cloud chamber contains supersaturated vapor; when charged particles pass through, they ionize gas molecules and leave visible trails of condensation droplets. A magnetic field bends these trails -- the direction and radius of curvature reveal the particle's charge and momentum.
+
+Anderson placed a lead plate across the middle of his chamber to slow particles down. He photographed a track that curved the wrong way for an electron -- same mass, same magnitude of curvature, but bending in the direction that indicated a positive charge.
+
+This was the first antimatter particle ever detected, confirming Dirac's 1928 theoretical prediction.
+
+Nobel Prize in Physics: 1936, at age 31.
+
+== Gell-Mann Proposes Quarks
+
+By the early 1960s, particle accelerators had produced dozens of new subatomic particles -- kaons, pions, hyperons, resonances -- with no clear organizing principle. Physicists called it the "particle zoo."
+
+In 1964, Murray Gell-Mann at Caltech and George Zweig at CERN independently proposed that hadrons (particles like protons and neutrons that feel the strong force) are built from smaller constituents. Gell-Mann called them "quarks," taking the word from a line in James Joyce's _Finnegans Wake_: "Three quarks for Muster Mark."
+
+The original model had three quark flavors: up (charge +2/3), down (charge -1/3), and strange (charge -1/3). A proton is two ups and a down; a neutron is two downs and an up. Fractional electric charges were unprecedented -- no one had observed anything other than whole-number multiples of the electron's charge.
+
+Three more flavors were discovered later: charm (1974, the "November Revolution"), bottom (1977), and top (1995, at Fermilab -- the heaviest known elementary particle at roughly 173 GeV).
+
+Nobel Prize in Physics: 1969.
+
+== Higgs Proposes the Higgs Field
+
+The Standard Model of particle physics could describe fundamental forces and particles but had no mechanism explaining why some particles have mass and others do not.
+
+In 1964, Peter Higgs at the University of Edinburgh proposed a field that permeates all of space. Independently, Robert Brout and François Englert in Brussels reached a similar conclusion, as did Gerald Guralnik, C.R. Hagen, and Tom Kibble at Imperial College London.
+
+The idea: particles that interact strongly with this field acquire mass (the W and Z bosons are heavy because they interact strongly); particles that do not interact with it, like photons, remain massless. The Higgs boson is a quantum excitation of this field -- direct evidence that the field exists.
+
+Nobel Prize in Physics: 2013, shared by Higgs and Englert. Brout had died in 2011 and was not eligible.
+
+== CERN and the LHC
+
+CERN (originally Conseil Européen pour la Recherche Nucléaire) was founded in 1954 near Geneva, straddling the French-Swiss border. It is the world's largest particle physics laboratory, currently with 23 member states.
+
+The Large Hadron Collider (LHC) sits in a tunnel 27 kilometers in circumference, roughly 100 meters underground. It accelerates two beams of protons in opposite directions to 6.5 TeV each (13 TeV collision energy), reaching 99.999999% the speed of light.
+
+On July 4, 2012, CERN announced the discovery of the Higgs boson -- 48 years after its prediction. Two independent detector experiments, ATLAS and CMS, each with thousands of physicists, confirmed the discovery separately. The total cost of the LHC is estimated at around $13.25 billion.
+
+CERN is also where Tim Berners-Lee invented the World Wide Web in 1989, originally as a system for physicists to share data across institutions.

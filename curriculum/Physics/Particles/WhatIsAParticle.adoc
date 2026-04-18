@@ -1,0 +1,71 @@
+= What Is a Particle?
+
+== Etymology
+
+The word "particle" entered English in the late 14th century (around 1350-1400) with the meaning "a bit or fragment, small part or division of a whole, minute portion of matter."
+Scientists simply kept the same word when they started talking about atoms, molecules, electrons, and subatomic bits in the 19th and 20th centuries. The specific term "particle physics" (for the study of subatomic particles) emerged gradually during the 60s as the field truly took off as its own discipline.
+
+== Definition
+
+There are 2 definitions for a particle:
+
+Classical Physics::
+A classical particle is a solid, distinct, and predictable "point mass" with a known location and path.
+Distinct: a particle is a particle; a wave is a wave.
+
+Modern Physics::
+Particles are excitations (quanta) of underlying quantum fields.
+They are not tiny solid balls -- they are fundamentally fuzzy and can behave as both particles and waves (wave-particle duality).
+There are two big families:
+
+* *Matter particles (fermions):* electrons, quarks, neutrinos, etc.
+* *Force-carrying particles (bosons):* photons (light), gluons, W/Z bosons, Higgs boson, etc.
+
+== Classical vs Quantum Particles
+
+[cols="1,2,2", options="header"]
+|===
+| Aspect | Classical Particle | Quantum Particle
+
+| Nature
+| Tiny, solid, point-like object with definite size zero
+| Localized excitation of a quantum field; not a solid ball
+
+| Position & Momentum
+| Exact values at every moment (Newton's laws)
+| Cannot be known exactly simultaneously (Heisenberg uncertainty principle)
+
+| Behavior
+| Deterministic: predictable trajectory
+| Probabilistic: described by a wave function Ψ(x,t)
+
+| Wave Properties
+| None (purely particle-like)
+| Wave-particle duality: behaves as both wave and particle
+
+| Energy & States
+| Continuous energy possible
+| Quantized (discrete allowed values)
+
+| Identical Particles
+| Can be distinguished (label them)
+| Indistinguishable; swapping two identical particles changes nothing
+
+| Creation / Destruction
+| Cannot be created or destroyed (conserved)
+| Can be created or annihilated (e.g., electron + positron → photons)
+
+| Spin
+| Not a concept (classical objects rotate, but no intrinsic spin)
+| Intrinsic angular momentum (½, 1, etc.); fermions vs. bosons
+
+| Obeys
+| Newton's laws, Maxwell's equations (classical)
+| Schrödinger / Dirac / quantum field equations
+
+| Examples
+| Billiard ball, planet, dust grain (approximated)
+| Electron, photon, quark, Higgs boson
+|===
+
+== Planck Length

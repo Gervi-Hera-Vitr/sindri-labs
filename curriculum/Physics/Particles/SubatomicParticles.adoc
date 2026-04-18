@@ -1,0 +1,101 @@
+= Subatomic Particles
+:stem: latexmath
+
+== What Subatomic Means
+
+"Subatomic" means anything smaller than or inside an atom.
+
+== Electrons, Protons, and Neutrons
+
+The *electron* was the first subatomic particle discovered (J.J. Thomson, 1897). It is fundamental -- it has no internal structure. Electrons orbit the nucleus in quantum orbitals (probability clouds, not fixed paths). They are stable and carry negative charge.
+
+The *proton* was identified by Ernest Rutherford (1917-1920). It lives in the nucleus and carries positive charge. It is not fundamental -- it is made of two up quarks and one down quark (uud). As far as we've observed, protons do not decay.
+
+The *neutron* was discovered by James Chadwick (1932). It also lives in the nucleus but carries no charge. Like the proton, it is composite -- one up quark and two down quarks (udd). A free neutron is unstable and decays in about 14.6 minutes, but inside a nucleus it is stable.
+
+== Properties
+
+.Subatomic Particle Properties
+[cols="1,1,1,1", options="header"]
+|===
+| Property | Electron | Proton | Neutron
+
+| Mass (kg)
+| 9.109 × 10⁻³¹
+| 1.673 × 10⁻²⁷
+| 1.675 × 10⁻²⁷
+
+| Mass (amu)
+| 0.00055
+| 1.00728
+| 1.00866
+
+| Charge
+| -1
+| +1
+| 0
+
+| Spin
+| ½
+| ½
+| ½
+
+| Location
+| Orbitals around nucleus
+| Nucleus
+| Nucleus
+
+| Fundamental?
+| Yes
+| No (uud)
+| No (udd)
+
+| Stable?
+| Yes
+| Yes (lifetime > 10³⁴ years)
+| Only inside nuclei
+
+| Charge radius
+| Point-like (< 10⁻¹⁸ m)
+| 0.842 fm
+| 0.84 fm
+|===
+
+1 femtometer (fm) = 10⁻¹⁵ meters.
+
+== Fundamental vs Composite Particles
+
+A *fundamental* particle has no internal structure -- it cannot be broken into smaller components. The Standard Model lists 17 fundamental particles: 6 quarks, 6 leptons, 4 gauge bosons, and the Higgs boson.
+
+A *composite* particle is built from fundamental particles bound together:
+
+* *Proton* = up + up + down quarks (uud)
+* *Neutron* = up + down + down quarks (udd)
+* *Pion* = 1 quark + 1 antiquark
+
+How do we know protons aren't fundamental? Deep inelastic scattering experiments at SLAC (Stanford Linear Accelerator Center), 1967-1973. Jerome Friedman, Henry Kendall, and Richard Taylor fired high-energy electrons at protons and found them scattering off point-like objects inside -- initially called "partons," later identified as quarks. Nobel Prize in Physics: 1990.
+
+=== The Mass Puzzle
+
+The three quarks inside a proton have a combined mass of roughly 9.4 MeV/c². But the proton's total mass is 938.3 MeV/c². The quarks account for only about 1% of the mass.
+
+Where does the other 99% come from? The energy of the gluon field binding the quarks together, and the kinetic energy of quarks and gluons. Mass from pure energy -- stem:[E = mc^2] in action. This was confirmed by lattice QCD calculations (Budapest-Marseille-Wuppertal collaboration, published in _Science_, 2008).
+
+== How They Combine to Make Atoms
+
+The *nucleus* (protons + neutrons) is held together by the *residual strong force* -- a spillover effect of the strong force between quarks. This force operates at femtometer scales (~1-3 fm) and overpowers the electromagnetic repulsion between protons at those distances.
+
+*Electrons* are bound to the nucleus by electromagnetic attraction. They occupy quantum orbitals -- probability clouds, not fixed orbits.
+
+Key definitions:
+
+* *Atomic number (Z)* = number of protons. This defines the element.
+* *Mass number (A)* = protons + neutrons.
+* *Isotopes* = same number of protons, different number of neutrons (e.g., carbon-12 has 6 neutrons, carbon-14 has 8).
+* *Ions* = atoms that have gained or lost electrons.
+
+=== Scale
+
+The proton radius is ~0.84 fm. The hydrogen atom's electron cloud extends to roughly 53,000 fm (the Bohr radius, 5.29 × 10⁻¹¹ m). That is a ratio of about 63,000:1.
+
+If the nucleus were a marble (1 cm), the electron cloud would extend about 630 meters -- roughly six football fields. The atom is overwhelmingly empty space.

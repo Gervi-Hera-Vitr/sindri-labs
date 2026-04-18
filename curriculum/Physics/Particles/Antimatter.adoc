@@ -1,0 +1,50 @@
+= Antimatter
+:stem: latexmath
+
+== What Is Antimatter
+Antimatter is the "mirror-image" version of ordinary matter.
+Every known particle in the universe has an antiparticle counterpart that is identical in mass but has the opposite values for electric charge, and certain other quantum properties (like baryon number or lepton number).
+
+=== Every Particle Has an Antimatter Partner
+
+.Antiparticle Examples
+[cols="1,1,1,1,1", options="header"]
+|===
+| Particle
+| Charge
+| Antiparticle
+| Charge
+| What happens on contact
+
+| Electron stem:[e^-]
+| –1
+| Positron stem:[e^+]
+| +1
+| Annihilate → 2 gamma-ray photons stem:[2\gamma]
+
+| Proton stem:[p]
+| +1
+| Antiproton stem:[\bar{p}]
+| –1
+| Annihilate → energy + pions
+
+| Neutron stem:[n]
+| 0
+| Antineutron stem:[\bar{n}]
+| 0
+| Annihilate → energy + pions
+
+| Up quark
+| +⅔
+| Anti-up quark
+| –⅔
+| Used to build anti-protons, anti-neutrons, etc.
+|===
+
+== Matter-Antimatter Annihilation
+When a particle and its antiparticle meet, they annihilate each other and convert their entire mass into pure energy (usually photons of light), following Einstein's famous equation:
+
+[stem]
+++++
+E = mc^2
+++++

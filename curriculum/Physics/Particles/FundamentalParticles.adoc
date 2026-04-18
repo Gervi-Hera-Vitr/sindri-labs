@@ -1,0 +1,47 @@
+= Fundamental Particles
+
+== Fermions (Matter Particles)
+
+=== Leptons
+Leptons do not feel the strong nuclear force. They only interact via the electromagnetic force (if charged) and the weak force.
+Example: Electron
+
+
+=== Quarks
+Quarks are the particles that feel the strong nuclear force. They are never found alone in nature (a rule called confinement). Instead, they always clump together into composite particles called hadrons:
+
+Baryons (3 quarks) → proton, neutron, etc.
+Mesons (1 quark + 1 antiquark) → pion, kaon, etc.
+
+== Three Generations
+
+Nature repeats the same pattern of fermions three times. Each generation is heavier and less stable than the last. Only Generation 1 particles are stable enough to make up ordinary matter.
+
+.Three Generations of Matter
+[cols="1,2,2,2", options="header"]
+|===
+| Generation | Quarks | Charged Lepton | Neutrino
+
+| 1 (stable, makes up all ordinary matter)
+| Up, Down
+| Electron
+| Electron neutrino
+
+| 2
+| Charm, Strange
+| Muon
+| Muon neutrino
+
+| 3
+| Top, Bottom
+| Tau
+| Tau neutrino
+|===
+
+Why exactly three? Nobody knows. It's one of the open questions in physics.
+
+== Bosons (Force Carriers + Higgs)
+
+Bosons carry the fundamental forces (except gravity) and give particles their mass.
+
+The Higgs boson is unique: it is not a force carrier. It interacts with the Higgs field that fills all of space.
