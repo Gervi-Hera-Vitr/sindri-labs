@@ -16,7 +16,7 @@ kotlin-logging = "8.0.01"
 
 # lab-ux-ktor dependency constraints
 httpcore = "4.4.16"
-jetbrains-annotations = "26.0.2-1"
+jetbrains-annotations = "26.1.0"
 kotlinx-io-core = "0.8.2"
 kotlinx-serialization = "1.9.0"
 
