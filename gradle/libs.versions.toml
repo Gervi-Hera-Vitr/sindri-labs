@@ -1,7 +1,7 @@
 [versions]
 java = "21"
 kotlin = "2.3.10"
-ktor = "3.4.1"
+ktor = "3.4.2"
 
 # Gradle plugins (buildscript-level: foojay, develocity live in gradle.properties)
 ben-manes = "0.53.0"
