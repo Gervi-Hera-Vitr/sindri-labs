@@ -1,0 +1,314 @@
+= How Neurons Work: Structure, Signaling, and Plasticity
+:author: Research Synthesis
+:revdate: 2026-01-08
+:toc: left
+:toclevels: 2
+:sectnums:
+:icons: font
+
+[.lead]
+Neurons transmit information through electrical signals within themselves and chemical signals between each other. A neuron receives thousands of inputs through its dendrites, integrates them at the axon hillock, and—if threshold is reached—fires an action potential down its axon to release neurotransmitters onto the next cell. This is the fundamental unit of nervous system computation.
+
+== The Big Picture
+
+A neuron does four things:
+
+. *Receive* signals (dendrites)
+. *Integrate* signals (soma and axon hillock)
+. *Transmit* signals (axon)
+. *Release* signals (axon terminals)
+
+== Neuron Structure
+
+=== Dendrites: Receiving Input
+
+Tree-like branches that receive signals from other neurons. A single neuron can receive input from *thousands* of other neurons through its dendrites.
+
+*Dendritic spines* are tiny protrusions where most excitatory synapses occur. These spines can grow, shrink, form, and disappear—this structural flexibility is central to learning.
+
+The *postsynaptic density* at the spine tip contains receptors (AMPA, NMDA), scaffolding proteins, and signaling molecules.
+
+=== Soma: The Cell Body
+
+Contains the nucleus and protein-synthesis machinery. This is the neuron's metabolic center.
+
+Key feature: *Nissl bodies* (rough ER clusters) are found in the soma and dendrites but *absent from the axon*—useful for identifying neuron parts under a microscope.
+
+=== Axon Hillock: The Decision Point
+
+Where the axon originates from the soma. The *axon initial segment (AIS)* here has the highest concentration of voltage-gated sodium channels in the entire neuron, giving it the *lowest threshold* for firing.
+
+This is where the neuron "decides" whether to fire based on all incoming signals.
+
+=== Axon: Long-Distance Cable
+
+Specialized for transmitting action potentials over distance. Can range from millimeters (local interneurons) to over a meter (motor neurons to your foot).
+
+Since proteins are made in the soma, *axonal transport* uses motor proteins to move materials:
+
+* *Kinesin*: Carries cargo toward axon terminals
+* *Dynein*: Carries cargo back to soma
+
+=== Myelin: The Speed Multiplier
+
+Fatty insulation wrapped around axons that dramatically speeds up signal transmission.
+
+[cols="1,2", options="header"]
+|===
+|Location |Myelinating Cell
+
+|CNS (brain/spinal cord)
+|Oligodendrocytes
+
+|PNS (peripheral nerves)
+|Schwann cells
+|===
+
+*Nodes of Ranvier* are gaps in the myelin where sodium channels cluster. Action potentials "jump" from node to node (*saltatory conduction*), which is both faster and more energy-efficient than continuous conduction.
+
+=== Axon Terminals: Release Sites
+
+Where the neuron releases neurotransmitters onto target cells. Contains *synaptic vesicles*—small spheres packed with neurotransmitter molecules, ready for release.
+
+== Electrical Signaling
+
+=== Resting Membrane Potential
+
+At rest, the inside of a neuron is *negative* relative to outside. This results from:
+
+. *Unequal ion distribution*: More K⁺ inside, more Na⁺ outside
+. *Selective permeability*: Membrane is much more permeable to K⁺ at rest
+. *Na⁺/K⁺ pump*: Actively maintains gradients (pumps Na⁺ out, K⁺ in)
+
+The resting potential exists because K⁺ is concentrated inside and Na⁺ outside, and the membrane is much more permeable to K⁺ at rest. The Na⁺/K⁺ pump actively maintains these gradients.
+
+=== Graded Potentials
+
+Small voltage changes that vary with stimulus strength and decay with distance.
+
+*EPSP (Excitatory)*:: Depolarization—makes the neuron more likely to fire
+
+*IPSP (Inhibitory)*:: Hyperpolarization—makes the neuron less likely to fire
+
+These spread passively and cannot transmit signals over long distances—which is why we need action potentials.
+
+=== The Action Potential
+
+A rapid, all-or-none electrical spike that propagates without losing strength.
+
+==== The Sequence
+
+. *At rest*: Membrane is polarized (negative inside), sodium channels closed
+. *Stimulus reaches threshold*: Voltage-gated sodium channels open
+. *Depolarization*: Na⁺ rushes in, membrane rapidly becomes positive
+. *Peak*: Sodium channels inactivate (can't reopen immediately)
+. *Repolarization*: Potassium channels open, K⁺ exits, membrane returns toward rest
+. *Hyperpolarization*: Brief undershoot as K⁺ channels close slowly
+
+==== Key Principles
+
+*All-or-none*:: Action potentials fire at full strength or not at all. Information is encoded in *firing rate*, not spike amplitude.
+
+*Refractory periods*::
+* *Absolute*: No stimulus can trigger another spike (Na⁺ channels inactivated)
+* *Relative*: Stronger stimulus needed (channels recovering)
+
+*Unidirectional propagation*:: Refractory periods prevent backward propagation—signals only move forward.
+
+=== Ion Channels
+
+*Voltage-gated sodium channels*:: Open rapidly when membrane depolarizes, then inactivate. Responsible for the rising phase.
+
+*Voltage-gated potassium channels*:: Open more slowly ("delayed rectifiers"). Responsible for repolarization.
+
+*Selectivity*:: Channels achieve remarkable ion discrimination through their pore structure—K⁺ channels are far more permeable to K⁺ than Na⁺.
+
+=== Propagation Speed
+
+Myelinated axons conduct *much faster* than unmyelinated ones. Myelin works by insulating the axon, concentrating sodium channels at nodes, and enabling saltatory (jumping) conduction.
+
+== Chemical Signaling
+
+=== The Synapse
+
+Neurons don't touch—there's a tiny gap (*synaptic cleft*) between them. Communication requires converting electrical signals to chemical signals and back.
+
+=== Neurotransmitter Release
+
+. Action potential arrives at axon terminal
+. *Voltage-gated Ca²⁺ channels* open
+. Ca²⁺ floods in
+. Ca²⁺ triggers *vesicle fusion* via SNARE proteins
+. Neurotransmitter spills into synaptic cleft
+
+The *SNARE complex* (synaptobrevin + syntaxin + SNAP-25) physically pulls vesicle and plasma membranes together. *Synaptotagmin* is the calcium sensor that triggers fusion.
+
+=== Postsynaptic Response
+
+Neurotransmitters bind to receptors on the target cell, producing either:
+
+==== Ionotropic Receptors (Fast)
+
+Ligand-gated ion channels—neurotransmitter binding directly opens a pore.
+
+* *AMPA receptors*: Na⁺ in → depolarization (EPSP)
+* *NMDA receptors*: Na⁺ and Ca²⁺ in → depolarization + calcium signaling (requires both glutamate AND depolarization to open—"coincidence detector")
+* *GABA_A receptors*: Cl⁻ in → hyperpolarization (IPSP)
+
+==== Metabotropic Receptors (Slow)
+
+G-protein coupled receptors—trigger intracellular signaling cascades. Slower but longer-lasting effects.
+
+=== Terminating the Signal
+
+. *Reuptake*: Transporters pump neurotransmitter back into neurons (dopamine, serotonin, norepinephrine, GABA, glutamate)
+. *Enzymatic breakdown*: Acetylcholinesterase destroys acetylcholine
+. *Diffusion*: Neurotransmitter drifts away from the cleft
+
+=== Major Neurotransmitters
+
+[cols="1,2,2", options="header"]
+|===
+|Neurotransmitter |Type |Key Functions
+
+|Glutamate
+|Excitatory
+|Main excitatory signal; learning (via NMDA receptors)
+
+|GABA
+|Inhibitory
+|Main inhibitory signal; calming, anti-seizure
+
+|Dopamine
+|Modulatory
+|Reward, motivation, movement
+
+|Serotonin
+|Modulatory
+|Mood, sleep, appetite
+
+|Acetylcholine
+|Both
+|Muscle control, attention, memory
+
+|Norepinephrine
+|Modulatory
+|Arousal, attention, stress response
+|===
+
+== Signal Integration
+
+A neuron receives thousands of inputs—some excitatory, some inhibitory. How does it decide whether to fire?
+
+=== Spatial Summation
+
+Inputs arriving at *different locations* simultaneously are added together. EPSPs and IPSPs from across the dendritic tree converge at the axon hillock.
+
+=== Temporal Summation
+
+Inputs arriving in *rapid succession* from the same synapse can add together before they decay.
+
+=== The Threshold Decision
+
+If the combined effect of all inputs depolarizes the axon initial segment to *threshold*, the neuron fires. Otherwise, it doesn't.
+
+This is essentially an analog-to-digital conversion: graded inputs → all-or-none output.
+
+== Synaptic Plasticity
+
+Synapses can strengthen or weaken based on activity patterns. This is the cellular basis of learning and memory.
+
+=== Long-Term Potentiation (LTP)
+
+*Strengthening* of a synapse that lasts hours to weeks.
+
+==== The Mechanism
+
+. Strong/repeated stimulation depolarizes the postsynaptic neuron
+. This relieves the Mg²⁺ block on NMDA receptors
+. NMDA receptors open (they require BOTH glutamate AND depolarization)
+. Ca²⁺ enters the spine
+. Ca²⁺ activates CaMKII and other kinases
+. More AMPA receptors are inserted into the membrane
+. The synapse becomes stronger
+
+==== Why NMDA Receptors Matter
+
+They're *coincidence detectors*—only strengthening synapses that were active when the postsynaptic neuron fired. This implements Hebb's rule: "Neurons that fire together wire together."
+
+=== Long-Term Depression (LTD)
+
+*Weakening* of a synapse. Triggered by low-frequency stimulation that produces modest calcium increases—enough to activate phosphatases but not kinases.
+
+Results in AMPA receptor removal from the synapse.
+
+LTD is just as important as LTP: it allows memory refinement and prevents all synapses from saturating at maximum strength.
+
+=== Spike-Timing Dependent Plasticity (STDP)
+
+The precise timing matters:
+
+* *Pre before post*: LTP (the input helped cause the output)
+* *Post before pre*: LTD (the input came too late)
+
+=== Structural Changes
+
+Plasticity isn't just functional—it's physical:
+
+* *LTP*: Spines enlarge, new spines form
+* *LTD*: Spines shrink, may be eliminated
+
+*BDNF* (Brain-Derived Neurotrophic Factor) is critical for these structural changes. It increases with learning and exercise, and decreases with aging and chronic stress.
+
+== Neuron Types
+
+=== By Structure
+
+*Multipolar* (99%): Multiple dendrites + one axon. Most neurons.
+
+*Bipolar*: One dendrite + one axon on opposite sides. Sensory neurons in retina, ear.
+
+*Pseudo-unipolar*: Single process that splits. Sensory neurons carrying touch/pain information.
+
+=== By Function
+
+*Sensory*: Carry information toward CNS
+
+*Motor*: Carry commands to muscles/glands
+
+*Interneurons*: Everything in between (vast majority of brain neurons)
+
+== When Things Go Wrong
+
+=== Demyelination (Multiple Sclerosis)
+
+Immune system attacks myelin → conduction slows dramatically or fails entirely → weakness, numbness, coordination problems.
+
+=== Channelopathies
+
+Mutations in ion channel genes cause hyperexcitability (epilepsy) or inexcitability (paralysis).
+
+=== Neurodegeneration
+
+Alzheimer's, Parkinson's, ALS all share common features:
+
+* Protein aggregation
+* Synaptic loss (precedes cell death)
+* Mitochondrial dysfunction
+
+== Key Takeaways
+
+[IMPORTANT]
+====
+. *Electrical within, chemical between*: Action potentials travel along neurons; neurotransmitters cross synapses
+
+. *All-or-none*: Action potentials either fire fully or not at all; information is encoded in firing rate
+
+. *Integration*: Neurons sum thousands of inputs to make a binary decision
+
+. *Coincidence detection*: NMDA receptors only open when presynaptic activity coincides with postsynaptic depolarization—the basis for learning
+
+. *Use it or lose it*: Active synapses strengthen (LTP), inactive ones weaken (LTD)
+
+. *Physical change*: Learning literally reshapes your brain—spines grow, shrink, form, and disappear
+====

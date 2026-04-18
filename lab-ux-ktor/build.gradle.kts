@@ -8,18 +8,10 @@ log.warn("AI/ML ktor UX build started.")
 
 val applicationMainClass: String by project
 
-val versionOfLogback: String by project
-val versionOfKotlin: String by project
-
-val versionOverrideHttpCore: String by project
-val versionOverrideJetbrainsAnnotations: String by project
-val versionOverrideKotlinxIoCore: String by project
-val versionOverrideKotlinxSerialization: String by project
-
 plugins {
-    kotlin("jvm")
-    id("io.ktor.plugin")
-    id("org.jetbrains.kotlin.plugin.serialization")
+    alias(libs.plugins.kotlin.jvm)
+    alias(libs.plugins.ktor)
+    alias(libs.plugins.kotlin.serialization)
 }
 
 application {
@@ -32,11 +24,11 @@ application {
 dependencies {
 
     constraints {
-        implementation("org.apache.httpcomponents:httpcore:$versionOverrideHttpCore")
-        implementation("org.jetbrains.kotlin:kotlin-stdlib:$versionOfKotlin")
-        implementation("org.jetbrains:annotations:$versionOverrideJetbrainsAnnotations")
-        implementation("org.jetbrains.kotlinx:kotlinx-io-core:$versionOverrideKotlinxIoCore")
-        implementation("org.jetbrains.kotlinx:kotlinx-serialization-core:$versionOverrideKotlinxSerialization")
+        implementation(libs.httpcore)
+        implementation(kotlin("stdlib"))
+        implementation(libs.jetbrains.annotations)
+        implementation(libs.kotlinx.io.core)
+        implementation(libs.kotlinx.serialization.core)
     }
 
     implementation(platform(kotlin("bom")))
@@ -53,7 +45,7 @@ dependencies {
     implementation("io.ktor:ktor-server-thymeleaf-jvm")
     implementation("io.ktor:ktor-server-cio-jvm")
 
-    implementation("ch.qos.logback:logback-classic:$versionOfLogback")
+    implementation(libs.logback.classic)
     testImplementation("io.ktor:ktor-server-test-host-jvm")
     testImplementation(kotlin("test-junit"))
 }
