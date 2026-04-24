@@ -1,6 +1,6 @@
 [versions]
 java = "21"
-kotlin = "2.3.20"
+kotlin = "2.3.21"
 ktor = "3.4.3"
 
 # Gradle plugins (buildscript-level: foojay, develocity live in gradle.properties)
