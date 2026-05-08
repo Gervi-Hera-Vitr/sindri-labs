@@ -170,3 +170,35 @@ The Large Hadron Collider (LHC) sits in a tunnel 27 kilometers in circumference,
 On July 4, 2012, CERN announced the discovery of the Higgs boson -- 48 years after its prediction. Two independent detector experiments, ATLAS and CMS, each with thousands of physicists, confirmed the discovery separately. The total cost of the LHC is estimated at around $13.25 billion.
 
 CERN is also where Tim Berners-Lee invented the World Wide Web in 1989, originally as a system for physicists to share data across institutions.
+
+== Sources
+
+=== General Histories
+
+* Abraham Pais, _Inward Bound: Of Matter and Forces in the Physical World_ (Oxford University Press, 1986). The standard scholarly history of particle physics through the early 1980s. Pais was a working theoretical physicist who knew most of the people involved.
+* Helge Kragh, _Quantum Generations: A History of Physics in the Twentieth Century_ (Princeton, 1999).
+* Steven Weinberg, _The Discovery of Subatomic Particles_, revised ed. (Cambridge, 2003). By the Nobel laureate who unified the weak and electromagnetic forces.
+* Richard Rhodes, _The Making of the Atomic Bomb_ (Simon & Schuster, 1986). Excellent on Rutherford, Bohr, Chadwick, and the lab cultures that produced 20th-century physics.
+
+=== Primary Sources by Discovery
+
+* *Greek atomism:* Surviving fragments of Leucippus and Democritus collected in Diels-Kranz, _Die Fragmente der Vorsokratiker_; Diogenes Laertius, _Lives of Eminent Philosophers_, Book IX (3rd century CE).
+* *Atomism revival:* Pierre Gassendi, _Animadversiones in decimum librum Diogenis Laertii_ (1649) and _Syntagma Philosophicum_ (posthumous, 1658). Isaac Newton, _Opticks_ (1704), especially Query 31.
+* *Atomic theory:* John Dalton, _A New System of Chemical Philosophy_, vol. 1 (1808).
+* *Electron:* J.J. Thomson, "Cathode Rays," _Philosophical Magazine_ 44, 293 (1897).
+* *Nucleus:* H. Geiger and E. Marsden, "On a Diffuse Reflection of the α-Particles," _Proceedings of the Royal Society A_ 82, 495 (1909) -- the first observation. E. Rutherford, "The Scattering of α and β Particles by Matter and the Structure of the Atom," _Philosophical Magazine_ 21, 669 (1911) -- the interpretation.
+* *Bohr atom:* Niels Bohr, "On the Constitution of Atoms and Molecules," _Philosophical Magazine_ 26, 1, 476, 857 (1913). Three papers in one year.
+* *Neutron:* James Chadwick, "The Existence of a Neutron," _Proceedings of the Royal Society A_ 136, 692 (1932).
+* *Antimatter prediction:* P.A.M. Dirac, "The Quantum Theory of the Electron," _Proc. Roy. Soc. A_ 117, 610 (1928).
+* *Positron:* C.D. Anderson, "The Positive Electron," _Physical Review_ 43, 491 (1933).
+* *Quarks:* M. Gell-Mann, "A Schematic Model of Baryons and Mesons," _Physics Letters_ 8, 214 (1964). G. Zweig, "An SU(3) model for strong interaction symmetry and its breaking," CERN preprint TH-401 (1964) -- never formally published in a journal.
+* *Higgs mechanism (three independent papers, 1964):* F. Englert and R. Brout, _Physical Review Letters_ 13, 321 (1964). P.W. Higgs, _Phys. Rev. Lett._ 13, 508 (1964). G.S. Guralnik, C.R. Hagen, T.W.B. Kibble, _Phys. Rev. Lett._ 13, 585 (1964).
+* *Higgs boson discovery:* ATLAS Collaboration, "Observation of a new particle in the search for the Standard Model Higgs boson with the ATLAS detector at the LHC," _Physics Letters B_ 716, 1 (2012). CMS Collaboration, "Observation of a new boson at a mass of 125 GeV with the CMS experiment at the LHC," _Phys. Lett. B_ 716, 30 (2012).
+
+=== Authoritative Web Resources
+
+* CERN, https://home.cern -- experiments, history, and current results.
+* Particle Data Group, https://pdg.lbl.gov -- the authoritative numerical reference for every particle.
+* American Institute of Physics, _Center for History of Physics_, https://www.aip.org/history-programs.
+* Nobel Foundation, https://www.nobelprize.org -- Nobel lectures by most of the people in this document, in their own words.
+`

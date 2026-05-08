@@ -45,3 +45,13 @@ Why exactly three? Nobody knows. It's one of the open questions in physics.
 Bosons carry the fundamental forces (except gravity) and give particles their mass.
 
 The Higgs boson is unique: it is not a force carrier. It interacts with the Higgs field that fills all of space.
+
+== Sources
+
+* Particle Data Group, _Review of Particle Physics_, https://pdg.lbl.gov. The authoritative reference on every fundamental particle, updated annually by an international collaboration.
+* David Griffiths, _Introduction to Elementary Particles_, 2nd ed. (Wiley-VCH, 2008). Standard undergraduate-level textbook covering fermions, bosons, the Standard Model.
+* Frank Close, _The Particle Zoo: The Search for the Fundamental Nature of Reality_ (Bloomsbury, 2012). Readable popular treatment.
+* CERN, "The Standard Model," https://home.cern/science/physics/standard-model. Official explainer with current diagrams.
+* *Three generations confirmed:* ALEPH, DELPHI, L3, OPAL collaborations, "Precision electroweak measurements on the Z resonance," _Physics Reports_ 427, 257 (2006). LEP at CERN measured the Z boson's invisible decay width and pinned the number of light neutrino species at exactly three -- which constrains the number of fermion generations.
+* *Quark confinement:* Kenneth G. Wilson, "Confinement of Quarks," _Physical Review D_ 10, 2445 (1974). The lattice formulation that explains why isolated quarks are never observed.
+* *Higgs boson observation:* ATLAS Collaboration, _Physics Letters B_ 716, 1 (2012). CMS Collaboration, _Physics Letters B_ 716, 30 (2012). The experimental confirmation that the Higgs field exists.

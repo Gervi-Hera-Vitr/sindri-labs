@@ -1,0 +1,21 @@
+---
+header:
+  overlay_image: assets/images/banner-philosophy.jpg
+  overlay_filter: 0.1
+categories: [school]
+tags:
+  - mathematics
+  - theory
+  - stem
+  - particle
+---
+= On Particle: The Atomic Science
+lugaru
+:page-author_profile: true
+:page-excerpt:
+:stem: asciimath
+:page-layout: single
+:page-classes: wide
+:captain: https://github.com/CaptainLugaru[Captain Lugaru,window=_blank]
+
+ My Dad, teacher, has a particulat approach to teaching...
