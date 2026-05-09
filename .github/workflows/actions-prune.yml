@@ -1,0 +1,10 @@
+name: Actions Prune
+run-name: "Pruned Old Runs on ${{ github.repository }} by ${{ github.actor }} with ${{ github.event_name }} (Attempt ${{ github.run_attempt }})"
+
+on:
+  workflow_dispatch:
+  push:
+
+jobs:
+  prune:
+    uses: Mimis-Gildi/fluffle/.github/workflows/actions-prune.yml@main
