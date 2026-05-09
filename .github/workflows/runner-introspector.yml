@@ -1,0 +1,10 @@
+name: War Canary
+run-name: "Introspect Runner on ${{ github.repository }} by ${{ github.actor }} with ${{ github.event_name }} (Attempt ${{ github.run_attempt }})"
+
+on:
+  workflow_dispatch:
+  push:
+
+jobs:
+  canary:
+    uses: Mimis-Gildi/fluffle/.github/workflows/runner-introspector.yml@main
