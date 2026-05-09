@@ -1,0 +1,39 @@
+= John Dalton (1766-1844)
+
+English Quaker schoolteacher who brought number to atomism. Color-blind (the modern term _Daltonism_ comes from him). Kept a daily weather diary for 57 years -- around 200,000 entries.
+
+// tag::fullbody[]
+== History
+
+Born in Eaglesfield, Cumbria. Quaker, son of a weaver. Self-taught after a basic Quaker school education. Began teaching at age 12 in his home village. Moved to Manchester in 1793 to teach mathematics and natural philosophy at the New College there, and stayed in Manchester essentially the rest of his life.
+
+He never married. He attended Quaker meetings until he died. He refused honorary degrees for years and resisted election to the Royal Society. When he eventually accepted, he showed up in plain Quaker dress and barely spoke. He gave his 1832 audience with King William IV in the same plain coat.
+
+Major works: _Meteorological Observations and Essays_ (1793) -- the weather diary in publishable form -- and _A New System of Chemical Philosophy_ (1808-27), the work that laid out his atomic theory. He also wrote the first scientific paper on color blindness (1798), examining his own.
+
+== How He Thought
+
+Patient, accumulative, quantitative. The opposite of Newton's mystical complexity. Dalton's mind was Quaker-plain: measure things precisely, trust the numbers, don't decorate.
+
+His path to atomic theory ran through gases. The 57-year weather diary forced him to think hard about the atmosphere. From the atmosphere he got to the behavior of gas mixtures, then to the law of partial pressures (each gas in a mixture exerts pressure as if it were alone). The partial-pressure result only made sense if gases were collections of independent particles.
+
+From there, he asked: when elements react, what mass ratios do they take? The answer came back in fixed whole numbers -- 8 grams of oxygen per 1 gram of hydrogen in water, for example. The whole-number rule didn't make sense unless matter was discrete: atoms, with characteristic masses, combining in small integer counts.
+
+Dalton's discipline was to never claim more than the numbers gave him. When something broke his theory, he changed the theory. This is why most of his postulates survive almost intact today.
+
+== What He Did
+
+In 1808 he published the five postulates that became modern atomic theory:
+
+. All matter is composed of tiny, indivisible, indestructible particles called atoms.
+. All atoms of a given element are identical in mass and properties; atoms of different elements differ.
+. Atoms cannot be created, destroyed, or divided in chemical reactions.
+. Atoms combine in simple whole-number ratios to form chemical compounds.
+. Reactions involve only separation, combination, or rearrangement of atoms.
+
+He published the first table of relative atomic weights, taking hydrogen as 1. The numbers were rough by modern standards but the framework was right.
+
+Most of these postulates are still right. The "indivisible" claim is the one the 20th century broke -- Thomson's electron, Rutherford's nucleus, Chadwick's neutron, Gell-Mann's quarks. Strict identity of atoms within an element also fails (isotopes have different masses), and atoms _can_ be transformed in nuclear reactions, just not chemical ones.
+
+Dalton bridged the gap between Newton's particles-as-philosophy and modern measurement-driven atomic physics. He was the first to make atoms _do real work_ in a quantitative theory. After him, there was no going back.
+// end::fullbody[]

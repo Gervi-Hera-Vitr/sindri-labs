@@ -1,0 +1,31 @@
+= Isaac Newton (1643-1727)
+
+The man who made atomism the foundation of physics. Cambridge, Lucasian Professor, Master of the Royal Mint, knight, President of the Royal Society for 24 years. Spent more time on alchemy and biblical chronology than on what we now call physics.
+
+// tag::fullbody[]
+== History
+
+Born to a yeoman family in Lincolnshire; his father died before he was born. Trinity College, Cambridge. Wrote most of the _Principia Mathematica_ in 18 months when forced home by the plague of 1665-66. Lucasian Professor of Mathematics from 1669 -- the same chair Stephen Hawking later held.
+
+Master of the Royal Mint in 1696, where he prosecuted counterfeiters with unusual zeal. Knighted by Queen Anne in 1705 (the first knighthood for scientific work, though formally it was for his Mint service). President of the Royal Society from 1703 until his death.
+
+He never married. He was secretive, suspicious, and prone to bitter feuds -- with Hooke (over optics), with Leibniz (over the invention of calculus), with Flamsteed (over astronomical data). He did most of his deepest work alone.
+
+== How He Thought
+
+The popular image of Newton as the first scientific rationalist is a Victorian retouching. The real Newton was stranger. John Maynard Keynes, who bought a trove of Newton's private papers, called him _"the last of the magicians, not the first of the age of reason."_ Newton spent at least as much time on alchemy and biblical chronology as on physics. For him, particles, alchemy, and theology weren't separate enterprises -- they were all ways of reading God's notes on creation.
+
+His "absolute space" was God's _sensorium_ -- the medium through which God perceived everything at once. Particles obeyed laws because the laws were divine design. Alchemy was the search for the prima materia; physics was the search for the laws governing it. He didn't see two projects there.
+
+He was secretive about the alchemy because alchemy was illegal in England and would have wrecked his reputation. The papers Keynes inherited were mostly burned or hidden after his death.
+
+== What He Did
+
+In _Opticks_ (1704) he endorsed the corpuscular theory of light: light consists of tiny material corpuscles that travel in straight lines, reflect, refract, and bend on entering new media. He wrote it in English (rare for a major scientific work then) so it would reach a wide audience.
+
+In the Queries at the end of _Opticks_ -- especially Query 31 -- he speculated that chemistry, forces, and the structure of matter itself could be explained by attractions and repulsions between these particles. That speculation was the seed: a hundred years later, Dalton turned it into a quantitative theory.
+
+His more famous work -- the _Principia_ (1687), Newton's three laws, universal gravitation -- treats macroscopic objects, but the underlying picture is the same. The universe is a vast collection of "infinitesimal material points" with mass, obeying mechanical laws. After Newton, every European physicist for two centuries took for granted that this is what the world _is_.
+
+The corpuscular theory of light was largely abandoned in the 19th century in favor of Young's wave theory. Then the 20th century brought it partly back as photons. Newton's instinct was less wrong than it looked for a hundred years.
+// end::fullbody[]
