@@ -1,0 +1,25 @@
+= George Zweig (b. 1937)
+
+Russian-American physicist who proposed quarks independently of Gell-Mann in 1964 and was punished for it. Later left physics for neuroscience.
+
+// tag::fullbody[]
+== History
+
+Born in Moscow to a Jewish family that emigrated to the United States via Vienna. Undergraduate at Michigan, PhD at Caltech in 1964 under Feynman. Spent the year of his thesis at CERN as a postdoc, which is where he wrote the quark papers.
+
+He moved between physics, neurobiology, and finance over a long career. Joined Los Alamos as a senior physicist, then turned to the auditory system -- modeling how the cochlea performs frequency analysis -- and produced original work in signal processing. In the 2000s he applied his pattern-recognition tools to financial markets.
+
+== How He Thought
+
+A model-builder. Where Gell-Mann came at hadrons through abstract group theory, Zweig came at them through concrete constituents -- physical building blocks called _aces_ that combined to make every observed particle. Same predictions, different language, more visualizable.
+
+His instinct was that if a model worked, the constituents were probably real. Gell-Mann was more cautious -- he hedged quarks as a "mathematical convenience" for years. Zweig believed his aces from the start.
+
+== What He Did
+
+In 1964, at CERN, he wrote two papers proposing that hadrons are bound states of three fundamental particles he called aces, with fractional electric charge. The framework was equivalent to Gell-Mann's quarks -- same content, same predictions -- and arrived independently within months.
+
+CERN refused to publish his papers in the standard journals; they appeared only as CERN preprints. Senior physicists thought fractional charge was absurd. The reaction Zweig later described: he was treated as a charlatan. A respected physicist told him that quarks were "the work of a madman."
+
+When deep inelastic scattering at SLAC confirmed point-like constituents inside protons, Gell-Mann's name was on the theory and Zweig was a footnote. Feynman lobbied repeatedly for him to share Gell-Mann's recognition; the Nobel never came. The history is generally fair to Zweig now, but the asymmetry stuck during the years it mattered.
+// end::fullbody[]

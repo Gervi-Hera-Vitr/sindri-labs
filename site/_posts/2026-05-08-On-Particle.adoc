@@ -96,9 +96,9 @@ There are two big families:
 
 === The Greek start
 
-The first move was metaphysical, not experimental. link:/sindri-labs/fragments/people/leucippus/[Leucippus] (5th c. BCE) was answering Parmenides, who had argued change was impossible: nothing comes from nothing, nothing becomes nothing. Leucippus's response: reality has two categories, _atoms_ (what is) and _void_ (what is not). Atoms are eternal, indivisible, in motion through empty space. Change is rearrangement, not creation or destruction.
+The idea of the atom first came up to answer a question. link:/sindri-labs/fragments/people/leucippus/[Leucippus] (5th c. BCE) was answering Parmenides, who had argued change was impossible: nothing comes from nothing, nothing becomes nothing. Leucippus's response: reality has two categories, _atoms_ (what is) and _void_ (what is not). Atoms are eternal, indivisible, in motion through empty space. Change is rearrangement, not creation or destruction. This was a considerably accurate guess for the time considering there was no such way to test or measure such statements.
 
-His student link:/sindri-labs/fragments/people/democritus/[Democritus] (c. 460-370 BCE) extended the move across everything. Atoms differ in shape, size, and arrangement -- enough to account for the variety of matter. Even thought, perception, and the soul are atomic interactions. The position was scandalous in its time -- no gods steering, no purpose -- and is now the default mode of physical explanation.
+His student link:/sindri-labs/fragments/people/democritus/[Democritus] (c. 460-370 BCE) extended the move across everything. Atoms differ in shape, size, and arrangement -- enough to account for the variety of matter. Even thought, perception, and the soul are atomic interactions. The position was scandalous in its time -- no gods steering, no purpose -- and is now the default mode of physical explanation. Plato disliked Democritus intensely and reportedly wanted all his books burned, a feat prevented by two Pythagorean philosophers. This was most likely due to the fact that Democritus viewed reality in a materialist sense, while Plato believed reality to be ideal forms and the soul, rejecting pure materialism.
 
 What survived from Democritus, in his own words: _"By convention sweet, by convention bitter, by convention hot, by convention cold, by convention color: but in reality atoms and void."_
 
@@ -106,19 +106,18 @@ What survived from Democritus, in his own words: _"By convention sweet, by conve
 
 After Aristotle, the Epicureans -- Epicurus, then Lucretius -- inherited and refined atomism. Then Christianity tagged it pagan and the texts mostly disappeared. Lucretius's _De Rerum Natura_ survived in a single manuscript not rediscovered until 1417. The line nearly broke.
 
-link:/sindri-labs/fragments/people/gassendi/[Pierre Gassendi] (1592-1655) is the figure who brought atoms back -- and almost nobody outside the history knows his name. French Catholic priest, astronomer (first ever to observe a transit of Mercury, 1631), philosopher. He spent decades reading Epicurus and rebuilt atomism with a careful theological seam: God created the atoms at the beginning of time and gave them their initial motion. Atoms run mechanically after that, but they aren't godless -- they're God's tools.
+link:/sindri-labs/fragments/people/gassendi/[Pierre Gassendi] (1592-1655) is the figure who brought atoms back -- and almost nobody outside the field knows his name. French Catholic priest, astronomer (first ever to observe a transit of Mercury, 1631), philosopher. He spent decades reading Epicurus and rebuilt atomism with a careful theological seam: God created the atoms at the beginning of time and gave them their initial motion. This allowed atoms to be a culturally and scientifically safe idea for Christians and allowed them to enter mainstream science.
 
-Galileo had been condemned by the Inquisition in 1633. Defending atomism in 1640s France was dangerous. Gassendi's framing made it possible for Newton's generation to take atoms seriously without being branded heretics. The path from Democritus to modern physics runs through a Catholic priest in Provence.
+Galileo had been condemned by the Inquisition in 1633. Defending atomism in 1640s France was dangerous. Gassendi's framing made it possible for Newton's generation to take atoms seriously without being branded heretics.
 
 === Newton, the Magus
 
-link:/sindri-labs/fragments/people/newton/[Isaac Newton] (1643-1727) didn't just inherit Gassendi's atomism -- he made it the foundation of physics. In _Opticks_ (1704) he endorsed the corpuscular theory of light: light is made of tiny material corpuscles that travel in straight lines, reflect, and refract. He described the universe as "infinitesimal material points" obeying mechanical laws. In the Queries at the end of _Opticks_ -- especially Query 31 -- he speculated that chemistry, forces, and the structure of matter itself could be explained by attractions and repulsions between these particles.
-
-Worth knowing: Newton spent more time on alchemy and biblical chronology than on what we now call physics. For him, particles, alchemy, and theology weren't separate enterprises -- they were all reading God's notes on creation. Keynes called him "the last of the magicians, not the first of the age of reason." The popular Newton-the-rationalist is a Victorian retouching.
+link:/sindri-labs/fragments/people/newton/[Isaac Newton] (1643-1727) read Gassendi's books and went with the idea of atoms being the first creations of God and proof that there was an intelligent creator, since they were arranged to create something complex such as the world. In _Opticks_ (1704) he endorsed the corpuscular theory of light: light is made of tiny material corpuscles that travel in straight lines, reflect, and refract. He described the universe as "infinitesimal material points" obeying mechanical laws. In the Queries at the end of _Opticks_ -- especially Query 31 -- he speculated that chemistry, forces, and the structure of matter itself could be explained by attractions and repulsions between these particles.
 
 === Bringing Number to Matter
 
-For a century after Newton, atomism was a worldview, not a measurement. link:/sindri-labs/fragments/people/dalton/[John Dalton] (1766-1844) made it quantitative. English Quaker, color-blind (the modern term _Daltonism_ comes from him), kept a daily weather diary for 57 years -- 200,000 entries. Atmospheric gases led him to partial pressures, then to the realization that elements combine in fixed whole-number ratios by weight.
+For a century after Newton, atomism was still an undefined theory until
+link:/sindri-labs/fragments/people/dalton/[John Dalton] (1766-1844) did it himself. His study of atmospheric gases led him to partial pressures, then to the realization that elements combine in fixed whole-number ratios by weight.
 
 In _A New System of Chemical Philosophy_ (1808) he proposed the first quantitative atomic theory:
 
@@ -130,15 +129,13 @@ In _A New System of Chemical Philosophy_ (1808) he proposed the first quantitati
 
 Most of these are still right. The "indivisible" claim is the one that didn't survive the next hundred years.
 
-=== Cracking the Atom
-
-Three discoveries, three decades, three labs -- and Dalton's "indivisible" claim falls apart.
-
 ==== The electron (1897)
 
-link:/sindri-labs/fragments/people/thomson/[J.J. Thomson] at the Cavendish Laboratory in Cambridge studied cathode rays -- streams of glowing matter in evacuated tubes. German physicists thought they were electromagnetic waves; British physicists thought they were charged particles. Thomson built the deciding experiment: he passed cathode rays between charged plates and through magnetic fields, balancing the deflections to measure the charge-to-mass ratio (e/m).
+link:/sindri-labs/fragments/people/thomson/[J.J. Thomson] at the Cavendish Laboratory in Cambridge studied cathode rays (streams of glowing matter in evacuated tubes). German physicists thought they were electromagnetic waves; British physicists thought they were charged particles. Thomson built the deciding experiment: he passed cathode rays between charged plates and through magnetic fields, balancing the deflections to measure the charge-to-mass ratio (e/m).
 
-Results: the rays carried negative charge; the e/m ratio was about 1,000 times that of a hydrogen ion (so the particles were far lighter than any atom); the ratio was the same regardless of cathode material or residual gas (so these particles were universal). Thomson called them "corpuscles." They became electrons. First experimental proof that atoms have internal structure. His plum-pudding model (1904) put electrons in a diffuse positive sphere -- it held until Rutherford broke it.
+Results: the rays carried negative charge; the e/m ratio was about 1,000 times that of a hydrogen ion (so the particles were far lighter than any atom); the ratio was the same regardless of cathode material or residual gas (so these particles were universal). Thomson called them "corpuscles." They became electrons. First experimental proof that atoms have internal structure.
+
+His plum-pudding model (1904) put electrons in a diffuse positive sphere -- it held until Rutherford broke it.
 
 ==== The nucleus (1909-1911)
 
@@ -164,15 +161,15 @@ The model predicted hydrogen's emission spectrum exactly -- Balmer, Lyman, Pasch
 
 Atomic masses were roughly double what they should be if nuclei contained only protons. Helium has atomic number 2 but mass number 4. Rutherford predicted in 1920 that a neutral particle of proton-mass had to exist. Couldn't prove it.
 
-In 1930, link:/sindri-labs/fragments/people/bothe-becker-joliot-curies/[Bothe and Becker] bombarded beryllium with alpha particles and observed a penetrating, uncharged radiation. The Joliot-Curies showed in 1932 it could knock protons out of paraffin -- but they called it gamma rays.
+In 1930, link:/sindri-labs/fragments/people/bothe-becker-joliot-curies/[Bothe and Becker] bombarded beryllium with alpha particles and observed a penetrating, uncharged radiation. The Joliot-Curies showed in 1932 it could knock protons out of paraffin wax -- but they called it gamma rays.
 
 link:/sindri-labs/fragments/people/chadwick/[James Chadwick] saw their data and recognized: gamma rays cannot transfer that much momentum to protons. He repeated and extended the experiments at the Cavendish, measured recoils of hydrogen and nitrogen nuclei, and showed by conservation of energy and momentum that the particles were uncharged with mass ~1.008 amu. The neutron. He had been carrying Rutherford's hypothesis in his head for twelve years; the recognition took days.
 
 The atom's basic parts are now in place: protons, neutrons, electrons.
 
-=== Math Predicts What Nobody Saw
+=== Math Predicting Anti-matter
 
-link:/sindri-labs/fragments/people/dirac/[Paul Dirac] (1928): combine quantum mechanics with special relativity to describe the electron. The resulting equation worked, but produced two sets of solutions -- one with positive energy (electrons) and one with _negative_ energy with no obvious physical meaning. Most physicists would have discarded the negative solutions as artifact.
+link:/sindri-labs/fragments/people/dirac/[Paul Dirac] (1928): combined quantum mechanics with special relativity to describe the electron. The resulting equation worked, but produced two sets of solutions -- one with positive energy (electrons) and one with _negative_ energy with no obvious physical meaning. Most physicists would have discarded the negative solutions.
 
 Dirac trusted the math. By 1931, he proposed: the negative-energy solutions describe a real, undiscovered particle -- identical to the electron, opposite charge. Pure mathematical prediction. Nothing observed. Nothing hinted.
 
@@ -196,6 +193,6 @@ The Standard Model could describe forces and particles but had no mechanism for 
 
 link:/sindri-labs/fragments/people/brout-englert-ghk/[Brout and Englert in Brussels, and Guralnik, Hagen, and Kibble at Imperial College London] published nearly simultaneously with link:/sindri-labs/fragments/people/higgs/[Peter Higgs] in Edinburgh. The mechanism: a field permeates all of space (the Higgs field). Particles that interact strongly with the field acquire mass; particles that don't (photons, gluons) remain massless. The Higgs boson is a quantum excitation of that field -- if you can produce a Higgs boson, the field exists.
 
-49 years later, on 4 July 2012, ATLAS and CMS at CERN's LHC announced they had found it -- 125 GeV/c², matching prediction. Higgs and Englert shared the 2013 Nobel. Brout had died in 2011 (Nobel rules require living recipients). Guralnik, Hagen, and Kibble were passed over (Nobel cap of three).
+49 years later, on 4 July 2012, ATLAS and CMS at CERN's LHC announced they had found it, matching the prediction. Higgs and Englert shared the 2013 Nobel. Brout had died in 2011 (Nobel rules require living recipients).
 
 
