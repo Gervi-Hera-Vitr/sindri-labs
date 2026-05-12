@@ -1,0 +1,22 @@
+name: War Canary
+run-name: "Introspect Runner on ${{ github.repository }} by ${{ github.actor }} with ${{ github.event_name }} (Attempt ${{ github.run_attempt }})"
+
+on:
+  workflow_dispatch:                                                                                                                                                                                                                                                                 
+    inputs:       
+      host-info:
+        description: "Probe hosted infra (OS / kernel / CPU / memory)"
+        type: boolean                                                                                                                                                                                                                                                                
+        required: false
+        default: true                                                                                                                                                                                                                                                                
+  push:           
+    branches-ignore:
+      - 'renovate/**'
+      - 'dependabot/**'
+
+
+jobs:
+  canary:
+    uses: Mimis-Gildi/fluffle/.github/workflows/runner-introspector.yml@main
+    with:
+      host-info: ${{ inputs.host-info || false }}
