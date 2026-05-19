@@ -47,6 +47,19 @@ Prompts:
 
 One tight paragraph. The concept here is *philosophical, not yet mathematical.*
 
+=== Draft v0 (Claude's navigation pass -- rewrite in your own voice)
+
+[NOTE]
+====
+The concept is born answering Parmenides. If nothing can come from nothing and nothing can become nothing, then change itself is impossible -- and yet the world plainly changes. Democritus (c. 460-370 BCE), extending Leucippus, splits reality in two: _atoms_, the irreducible carriers of being, and _void_, the nothing through which they move. Change becomes rearrangement. Nothing is created and nothing destroyed; what differs from one moment to the next is only how the atoms stand to one another. Already the concept carries the attributes it will be remembered by -- indivisibility, eternity, difference by shape and size -- but it carries them as philosophy, not as mathematics. Democritus's own words survive him almost intact: _"By convention sweet, by convention bitter, by convention hot, by convention cold, by convention color: but in reality atoms and void."_ The concept is awake. It will sleep for nearly two thousand years.
+====
+
+Things to push on:
+
+- Is "irreducible carriers of being" already too metaphysical-sounding, or right for a philosophical phase?
+- "Nearly two thousand years" -- foreshadow into Phase 2 or cut and let Phase 2 do its own work?
+- Do you want Leucippus in the spine at all, or is Democritus the only name that earns its keep here?
+
 == Phase 2: Loss -- Aristotle to Lucretius (~1800 years)
 
 Brief. One or two paragraphs. The concept is buried but not killed.
