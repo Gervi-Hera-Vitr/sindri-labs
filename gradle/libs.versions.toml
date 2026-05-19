@@ -12,7 +12,7 @@ asciidoctor = "4.0.5"
 # Libraries
 slf4j = "2.0.18"
 logback = "1.5.32"
-kotlin-logging = "8.0.02"
+kotlin-logging = "8.0.03"
 
 # lab-ux-ktor dependency constraints
 httpcore = "4.4.16"
