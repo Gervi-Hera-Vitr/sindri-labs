@@ -54,6 +54,16 @@ pagination:
   enabled                   : false
 
 
+### Collections -- supporting content (linkable, not in the post feed)
+collections:
+  fragments:
+    output                  : true
+    permalink               : /fragments/:path/
+  references:
+    output                  : true
+    permalink               : /references/:path/
+
+
 ### Defaults for posts (when you start adding them) and pages
 defaults:
   - scope:
@@ -72,6 +82,28 @@ defaults:
       type                  : pages
     values:
       author_profile        : true
+  - scope:
+      path                  : ""
+      type                  : fragments
+    values:
+      layout                : single
+      author_profile        : false
+      read_time             : false
+      comments              : false
+      share                 : false
+      related               : false
+      breadcrumbs           : true
+  - scope:
+      path                  : ""
+      type                  : references
+    values:
+      layout                : single
+      author_profile        : false
+      read_time             : false
+      comments              : false
+      share                 : false
+      related               : false
+      breadcrumbs           : true
 
 
 ### Reading Files

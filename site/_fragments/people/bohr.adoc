@@ -1,0 +1,29 @@
+= Niels Bohr (1885-1962)
+
+Danish physicist who quantized the atom. Worked with Rutherford in Manchester, then ran his own institute in Copenhagen that became the gravitational center of 20th-century physics.
+
+// tag::fullbody[]
+== History
+
+Born in Copenhagen to an academic family. PhD on the electron theory of metals (1911), then to Cambridge to work with J.J. Thomson, then to Manchester with Rutherford in 1912. Returned to Copenhagen and in 1921 founded the Institute for Theoretical Physics (now the Niels Bohr Institute) -- the place every serious physicist of the next generation passed through: Heisenberg, Pauli, Dirac, Gamow.
+
+Won the 1922 Nobel Prize in Physics for his atomic model. In 1943, fleeing the German occupation of Denmark, he was smuggled to Sweden in a fishing boat and then to Britain in the bomb bay of a Mosquito aircraft -- he nearly suffocated because his head was too big for the standard flight helmet. He worked briefly on the Manhattan Project but spent the rest of his life arguing for international control of nuclear weapons.
+
+== How He Thought
+
+Slow, careful, infuriating to listen to. Bohr's spoken sentences tended to die mid-thought as he revised them in real time. He wrote drafts in dozens of versions. But the patience was the method: he would not let an idea go until it was right.
+
+His distinctive move was complementarity -- the willingness to hold contradictory descriptions of nature as both true. Light is a wave _and_ a particle, depending on the experiment. He didn't try to resolve the paradox; he made it the principle.
+
+== What He Did
+
+In 1913 he published three papers in _Philosophical Magazine_ -- "On the Constitution of Atoms and Molecules" -- that fixed Rutherford's broken model. The problem: classical electromagnetism said orbiting electrons should radiate energy and spiral into the nucleus in nanoseconds. Bohr just postulated that they don't.
+
+His three rules:
+
+. Electrons orbit only in specific discrete energy levels (stationary states), without radiating.
+. An electron jumps between levels by absorbing or emitting a photon of energy stem:[E = hf].
+. Angular momentum is quantized in integer multiples of stem:[h/2\pi].
+
+The model predicted hydrogen's emission spectrum exactly -- every line of the Balmer, Lyman, and Paschen series. It only worked for hydrogen and other one-electron systems, but it was the first time quantum ideas and atomic structure were welded together. Everything that came after -- Heisenberg, Schrödinger, the full quantum mechanics of the atom -- started here.
+// end::fullbody[]

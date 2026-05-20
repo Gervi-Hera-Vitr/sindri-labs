@@ -1,0 +1,51 @@
+= Democritus (c. 460-370 BCE)
+
+The man who took Leucippus's atoms and ran with them. Abderan, materialist, polymath. Wrote 70+ books, none survive complete. Lived to ~90 in an era when most made it to 40.
+
+// tag::fullbody[]
+== History
+
+Born in Abdera, Thrace -- a city the rest of Greece used as a punchline ("Abderite jokes" were the era's village-idiot stories). Abdera actually produced two of the sharpest minds of the period: Democritus and Protagoras.
+
+His father had hosted Xerxes' Persian army during the invasion of Greece, and Democritus as a child reportedly studied under Persian _magi_ left behind. He inherited a substantial fortune; spent it all on travel -- Egypt, Persia, possibly India, possibly Ethiopia. Came home broke, was put on trial for wasting the family money.
+
+.His defense at trial
+[%collapsible]
+====
+Diogenes Laertius reports that Democritus defended himself by reading aloud from his book _On the Universe_ (_Megas Diakosmos_). The Abderites were so impressed they acquitted him, paid him five hundred talents, erected statues, and decreed his books be entered as state texts. Probably embellished. But the story stuck for a reason -- it captures the mode of his thinking: knowledge as the only proper return on inherited wealth.
+====
+
+Lived into his nineties. Called "the laughing philosopher" by later writers because he found human folly amusing.
+
+== How He Thought
+
+Radical materialist. Everything is atoms in motion through empty space -- no gods steering, no purpose, no teleology. Even the soul is fine, smooth, fast-moving fire-atoms. Even thought is atomic interaction. The position was scandalous in his time and still feels modern.
+
+He distinguished _primary qualities_ (size, shape, motion -- really in the atoms) from _secondary qualities_ (taste, color, sound -- only how atoms affect our sense organs). The world we experience is the secondary one; the world that exists is the primary one. The fragment that survives:
+
+[quote, Democritus, fragment 9 (via Sextus Empiricus)]
+____
+By convention sweet, by convention bitter, by convention hot, by
+convention cold, by convention color: but in reality atoms and void.
+____
+
+.Primary and secondary qualities -- the long line forward
+[%collapsible]
+====
+Democritus's distinction is the same move John Locke would make 2,000 years later in _An Essay Concerning Human Understanding_ (1689). Locke didn't cite Democritus directly, but Gassendi -- who read both -- clearly bridged them. The chain: Democritus → Epicurus → Lucretius → Gassendi → Locke.
+====
+
+The deeper move was the method: explain phenomena via the smallest units and their arrangements, not via essences or purposes. That mode of explanation is what all of physics now does. He didn't get the details right. He got the way of thinking right.
+
+== What He Did
+
+Wrote more than 70 books across physics, mathematics, ethics, music, and biology. None survive complete. We know him through fragments quoted by Aristotle, Diogenes Laertius, Sextus Empiricus, and others.
+
+He took Leucippus's bare ontology -- atoms and void -- and built an entire worldview on it. Leucippus invented the move; Democritus extended it across every domain. He was the systematizer.
+
+The reception was hostile. Plato never named him in any surviving dialogue, and Diogenes Laertius reports Plato wanted Democritus's books gathered and burned -- talked out of it by Pythagoreans who pointed out the books were already too widely circulated to suppress. Aristotle was the more honest opponent. He wrote a book _On Democritus_ (now lost) and engaged seriously in his physics and metaphysics. He disagreed -- atoms violated his notion of continuous matter -- but he treated Democritus as a real philosophical opponent.
+
+After Aristotle, the Roman Epicureans (Epicurus, Lucretius) inherited and refined atomism. After them, Christianity tagged it as pagan and the texts mostly disappeared. Lucretius's _De Rerum Natura_ survived in a single manuscript that wasn't rediscovered until 1417. The line nearly broke.
+
+The structure of his theory was right: atoms exist, the universe is mostly empty space, what we experience as the qualities of things is secondary to atomic arrangement. The detail was wrong: atoms are divisible (electron, nucleus, quarks), and there is far more in the "void" than nothing (fields, vacuum energy). He was right about the method, even where he was wrong about the matter.
+// end::fullbody[]

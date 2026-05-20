@@ -1,0 +1,35 @@
+= J.J. Thomson (1856-1940)
+
+Cavendish Professor at Cambridge from age 28. Discovered the electron in 1897. Mentored seven future Nobel laureates including Rutherford. Famously absent-minded -- there are stories of him being unable to operate equipment he had designed himself.
+
+// tag::fullbody[]
+== History
+
+Born near Manchester. Trinity College, Cambridge. Cavendish Professor of Experimental Physics from 1884 -- he was 28, the youngest Cavendish Professor ever appointed. He held the post for 35 years.
+
+His son George Paget Thomson later won the Nobel Prize for showing electrons behave as waves -- while his father's Nobel (1906) was for showing they're particles. A perfect family illustration of wave-particle duality.
+
+The Cavendish under Thomson became the most productive physics laboratory in the world. He trained or supervised Rutherford, C.T.R. Wilson (cloud chamber), William Lawrence Bragg, Owen Richardson, and many others. Seven of his research assistants or students went on to win Nobel prizes.
+
+== How He Thought
+
+A careful experimentalist who was also strong at theory -- a rare combination. He built his own apparatus, often improvising glass-blowing on the spot. He was conservative in interpretation: he preferred to extend an old picture than throw it out. That conservatism shows in his plum-pudding model, which was a minimal modification of Dalton's atom.
+
+His real genius was less about a single discovery than about training an army of people who would discover the rest. The Cavendish under Thomson was set up so promising experimentalists could stay long enough to do real work, with equipment they could afford to break.
+
+== What He Did
+
+In 1897, working with cathode rays at the Cavendish, Thomson built the experiment that decided whether the rays were waves (German view) or charged particles (British view). He passed the rays through electric and magnetic fields, balanced the deflections, and measured the charge-to-mass ratio (e/m).
+
+Three findings:
+
+. The rays bent toward the positive plate -- they carried negative charge.
+. The e/m ratio was about 1,000 times larger than that of a hydrogen ion -- so the particles were far lighter than any known atom.
+. The ratio was the same regardless of cathode material or residual gas in the tube -- so these particles were universal constituents of all matter.
+
+These were "corpuscles" -- later renamed electrons. First experimental proof that atoms have internal structure, breaking Dalton's claim of indivisibility.
+
+In 1904 he proposed the _plum-pudding model_: negatively charged corpuscles embedded in a diffuse sphere of positive charge -- "plums in a pudding." It held until Rutherford's gold foil experiment replaced it with the nuclear model in 1911.
+
+Nobel Prize in Physics: 1906.
+// end::fullbody[]

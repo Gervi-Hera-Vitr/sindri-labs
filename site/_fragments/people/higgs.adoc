@@ -1,0 +1,25 @@
+= Peter Higgs (1929-2024)
+
+British theoretical physicist. Predicted the boson now named after him in 1964 and waited 48 years to see it found. Quiet, modest, allergic to the celebrity that eventually came for him.
+
+// tag::fullbody[]
+== History
+
+Born in Newcastle upon Tyne. Asthmatic as a child, often kept out of school, taught himself from books at home. Undergraduate and PhD at King's College London. Joined the University of Edinburgh in 1960 and stayed there for the rest of his career. Retired in 1996; the Higgs boson was still hypothetical.
+
+He had no email, no mobile phone, and didn't enjoy academic celebrity. When the boson was found on 4 July 2012, he was 83 and present at CERN; he wept during the announcement. He shared the 2013 Nobel Prize in Physics with François Englert. He gave most of the prize money away.
+
+== How He Thought
+
+Slowly, alone, on a small number of problems. Higgs was the opposite of the productive theorist who publishes constantly -- he wrote relatively few papers and chose them with care. The two short 1964 papers that made his name are about ten pages of physics altogether.
+
+What separated him from Brout, Englert, Guralnik, Hagen, and Kibble was a single sentence. All six groups had the mass-generation mechanism. Higgs was the only one to write down explicitly that the mechanism implies a new massive scalar particle -- a thing you could in principle build a machine to find. The prediction made the theory testable. It also took 48 years and the largest scientific instrument ever built to test it.
+
+== What He Did
+
+In 1964 he wrote two papers in quick succession. The first was rejected by _Physics Letters_ for not being clearly relevant to physics. He revised it, added the explicit prediction of a massive scalar boson, and submitted to _Physical Review Letters_; it was published in October 1964, weeks after the Brout-Englert paper.
+
+The mechanism: a scalar field fills all of space. Particles that interact strongly with this field acquire mass; particles that don't (photons, gluons) remain massless. The field has a quantum -- a particle, the Higgs boson -- and finding that particle would prove the field exists.
+
+On 4 July 2012, ATLAS and CMS at the LHC announced a 125 GeV boson with the right properties. The Standard Model's last missing piece. Higgs and Englert took the 2013 Nobel; Brout had died the year before.
+// end::fullbody[]

@@ -1,0 +1,29 @@
+= Pierre Gassendi (1592-1655)
+
+French Catholic priest, philosopher, and astronomer. The single most important figure in bringing atomism back to Europe -- and almost nobody outside the history knows his name.
+
+// tag::fullbody[]
+== History
+
+Born in Champtercier, Provence, to a peasant family. Ordained a Catholic priest. Provost of the cathedral at Digne, then professor of mathematics at the Collège Royal in Paris. Friend of Galileo and Hobbes; sharp critic of Descartes.
+
+He was the first astronomer ever to observe a transit of Mercury (7 November 1631), confirming Kepler's prediction. He wrote on optics, sound, the speed of falling bodies, the philosophy of empiricism, and the history of philosophy. He spent decades reading Epicurus carefully -- a project most Catholic clergy of his time wouldn't touch.
+
+His major works on atomism: _Animadversiones in decimum librum Diogenis Laertii_ (1649), a commentary on Diogenes Laertius's biography of Epicurus, and the massive posthumous _Syntagma Philosophicum_ (1658).
+
+== How He Thought
+
+An empiricist before empiricism was a school. He believed observation should beat scholastic deduction, and at age 32 he wrote _Exercitationes Paradoxicae adversus Aristoteleos_ -- a book attacking Aristotle's philosophy. That made him enemies in the Sorbonne but friends among the new astronomers and natural philosophers.
+
+His core project was theological housekeeping with philosophical consequences. Atomism had been rejected for two millennia partly because Epicurus was an atheist materialist -- atoms moving by themselves looked like a universe without God. Gassendi's fix: God created the atoms at the beginning of time, gave them their initial properties and motion, and atoms then run mechanically. Atoms are inert; they don't have minds or souls. But the system as a whole is divine craftsmanship.
+
+This wasn't insincere theology bolted onto secular physics. Gassendi was a working priest who genuinely believed the reframing. The same conviction made it possible for him to defend the system to ecclesiastical authority.
+
+== What He Did
+
+He rescued atomism from the charge of atheism. After him, taking atoms seriously didn't make you a heretic. That single move opened space for Newton's corpuscular physics, Boyle's chemistry, and the entire mechanical worldview of the late 17th century.
+
+Critical context: Galileo had been condemned by the Inquisition in 1633. Defending atomism in 1640s France was politically dangerous. Gassendi's careful theological framing was the cover that made the next century possible. Without him, the Newtonian generation might never have inherited atoms at all.
+
+He did not predict any specific particle. He produced no experiment that would survive in a modern textbook. His contribution was making it _safe to think with atoms_ in Christian Europe -- and that was enough to change physics.
+// end::fullbody[]

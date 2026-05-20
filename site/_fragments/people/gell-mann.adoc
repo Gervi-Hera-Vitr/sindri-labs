@@ -1,0 +1,25 @@
+= Murray Gell-Mann (1929-2019)
+
+American theoretical physicist. Imposed order on the particle zoo of the 1950s and 1960s, predicted the quark, and named most of the things he discovered with words borrowed from literature.
+
+// tag::fullbody[]
+== History
+
+Born in Manhattan to Austrian-Jewish immigrants. Read voraciously from childhood -- linguistics, archaeology, ornithology, ancient history. Entered Yale at 15, PhD from MIT at 21. Faculty at Caltech from 1955, working alongside Feynman -- the two were rivals and intellectual sparring partners for decades. Won the 1969 Nobel Prize in Physics, alone, for the classification of elementary particles.
+
+Outside physics he co-founded the Santa Fe Institute (1984), the seed of modern complexity science.
+
+== How He Thought
+
+Gell-Mann's defining instinct was the search for hidden symmetry. By the late 1950s, accelerators were producing dozens of new particles -- kaons, pions, hyperons, resonances -- with no obvious organizing principle. Most physicists treated this as a mess to be catalogued. Gell-Mann treated it as a code to be cracked.
+
+He was famously erudite and famously prickly. He named his particles with care and bullied others into using the names: _strangeness_ for the conserved quantity behind a class of decays, _the Eightfold Way_ for his classification scheme (after the Buddhist path), _quark_ from a line in Joyce's _Finnegans Wake_ -- "Three quarks for Muster Mark."
+
+== What He Did
+
+In 1961 he applied the group theory of SU(3) to the hadrons and got them to fall into geometric patterns -- octets and decuplets. The Eightfold Way. One slot in the decuplet was empty; he predicted a particle, the Ω⁻, with specific mass, charge, and strangeness. It was found at Brookhaven in 1964 with exactly those properties.
+
+In 1964 he and George Zweig proposed independently that hadrons are built from smaller, fractionally charged particles. Gell-Mann's were _quarks_ -- up, down, strange, with charges +⅔, -⅓, -⅓. Zweig's were _aces_; his version was treated as a charlatan's invention. Gell-Mann's version, hedged at first as a "mathematical convenience," became real when deep inelastic scattering at SLAC (1967-73) showed protons contained point-like objects inside.
+
+A proton is _uud_. A neutron is _udd_. Three more flavors followed -- charm, bottom, top -- but the framework was Gell-Mann's.
+// end::fullbody[]
