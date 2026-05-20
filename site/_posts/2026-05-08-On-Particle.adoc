@@ -19,7 +19,7 @@ lugaru
 :captain: https://github.com/CaptainLugaru[Captain Lugaru,window=_blank]
 
 == Part 1: The Science
-
+// This is Anton here and I just want to say that I dont know how to structure an article or trim it down properly so here is my best attempt.
 === The Idea of particle
 A particle isn't a single physical thing, it's the idea of the smallest unit of matter that can carry attributes: mass, position, momentum, spin.
 
