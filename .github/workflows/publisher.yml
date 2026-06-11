@@ -1,5 +1,5 @@
-name: Publish Site
-run-name: "Publish on ${{ github.repository }} by ${{ github.actor }} with ${{ github.event_name }} (Attempt ${{ github.run_attempt }})"
+name: Publisher
+run-name: "Publish site on ${{ github.repository }} by ${{ github.actor }} with ${{ github.event_name }} (Attempt ${{ github.run_attempt }})"
 
 on:
   push:

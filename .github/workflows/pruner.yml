@@ -1,5 +1,5 @@
-name: Run-Prunner
-run-name: "Pruned Old Runs on ${{ github.repository }} by ${{ github.actor }} with ${{ github.event_name }} (Attempt ${{ github.run_attempt }})"
+name: Pruner
+run-name: "Prune old runs on ${{ github.repository }} by ${{ github.actor }} with ${{ github.event_name }} (Attempt ${{ github.run_attempt }})"
 
 on:
   workflow_dispatch:
