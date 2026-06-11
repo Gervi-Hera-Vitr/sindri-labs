@@ -1,0 +1,19 @@
+name: Publish Site
+run-name: "Publish on ${{ github.repository }} by ${{ github.actor }} with ${{ github.event_name }} (Attempt ${{ github.run_attempt }})"
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'site/**'
+  workflow_dispatch:
+
+jobs:
+  publish:
+    uses: Mimis-Gildi/fluffle/.github/workflows/pages-deploy.yml@main
+    secrets: inherit
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
