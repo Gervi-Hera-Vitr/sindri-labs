@@ -1,0 +1,11 @@
+name: Staler
+run-name: "Stale Labeling ${{ github.repository }} by ${{ github.actor }} with ${{ github.event_name }} (Attempt ${{ github.run_attempt }})"
+
+on:
+  schedule:
+    - cron: '20 10 * * *'
+  workflow_dispatch:
+
+jobs:
+  stales:
+    uses: Mimis-Gildi/fluffle/.github/workflows/stales.yml@main
