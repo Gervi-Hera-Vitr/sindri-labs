@@ -34,6 +34,8 @@ minimal_mistakes_skin       : "sunrise"
 
 sass:
   quiet_deps                : true
+  silence_deprecations      :
+    - import
 safe                        : false
 
 
