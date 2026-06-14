@@ -1,18 +1,18 @@
 [versions]
 java = "21"
 kotlin = "2.4.0"
-ktor = "3.4.3"
+ktor = "3.5.0"
 
 # Gradle plugins (buildscript-level: foojay, develocity live in gradle.properties)
 ben-manes = "0.54.0"
-kotlin-dsl = "6.6.4"
+kotlin-dsl = "6.7.3"
 dokka = "2.2.0"
 asciidoctor = "4.0.5"
 
 # Libraries
-slf4j = "2.0.17"
-logback = "1.5.32"
-kotlin-logging = "8.0.02"
+slf4j = "2.0.18"
+logback = "1.5.34"
+kotlin-logging = "8.0.4"
 
 # lab-ux-ktor dependency constraints
 httpcore = "4.4.16"

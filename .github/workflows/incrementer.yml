@@ -1,0 +1,69 @@
+name: Incrementer
+run-name: "Incremented Version on ${{ github.repository }} by ${{ github.actor }} with ${{ github.event_name }} (Attempt ${{ github.run_attempt }})"
+
+on:
+  push:
+    branches-ignore:
+      - release
+      - 'releases/**'
+      - 'renovate/**'
+      - 'dependabot/**'
+  create:
+  pull_request:
+    branches-ignore:
+      - 'renovate/**'
+      - 'dependabot/**'
+    types:
+      - synchronize
+      - opened
+      - reopened
+  workflow_dispatch:
+    inputs:
+      increment:
+        required: false
+        type: choice
+        options:
+          - skip
+          - patch
+          - minor
+          - major
+          - fail
+        default: patch
+        description: 'Force increment type. Default is patch.'
+  workflow_call:
+    inputs:
+      increment:
+        required: false
+        type: string
+        default: patch
+        description: 'Force increment type (skip/patch/minor/major/fail). Default is patch.'
+    outputs:
+      type:
+        value: ${{ jobs.increment.outputs.type }}
+      old:
+        value: ${{ jobs.increment.outputs.old }}
+      new:
+        value: ${{ jobs.increment.outputs.new }}
+      sha:
+        value: ${{ jobs.increment.outputs.sha }}
+
+permissions:
+  contents: write
+  pull-requests: write
+
+defaults:
+  run:
+    shell: zsh -l {0}
+
+concurrency:
+  group: incrementer-${{ github.head_ref || github.ref }}
+  cancel-in-progress: false
+
+
+jobs:
+  increment:
+    uses: Mimis-Gildi/fluffle/.github/workflows/incrementer.yml@main
+    with:
+      force-action: ${{ inputs.increment }}
+    secrets: inherit
+

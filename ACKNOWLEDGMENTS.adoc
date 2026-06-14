@@ -46,7 +46,6 @@ NOTE: This is the general references for ALL learning resources of this curricul
 ** https://helm.sh/docs/intro/quickstart/[Helm QuickStart] - tl;dr;
 
 * https://github.com/features/actions[GitHub Actions]
-** https://github.com/CodeQL/CodeQL-action[CodeQl Action]
 ** https://github.com/JetBrains/qodana-action[Qodana Scan]
 ** https://github.com/peaceiris/actions-gh-pages[GitHub Pages Action]
 ** https://github.com/marketplace/actions/gradle-build-action[Gradle Build Action]
