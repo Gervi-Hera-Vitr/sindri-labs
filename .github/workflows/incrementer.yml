@@ -51,6 +51,9 @@ permissions:
   contents: write
   pull-requests: write
 
+env: 
+  GH_TOKEN: ${{ secrets.CI_PAT }}
+
 defaults:
   run:
     shell: zsh -l {0}
