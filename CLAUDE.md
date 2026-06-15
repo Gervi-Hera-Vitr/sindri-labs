@@ -1,16 +1,24 @@
 # Sindri Labs -- Mímir Academy
 
-Anton Kuhay's homeschooling repository. Run by Vadim (principal/teacher) and Anton (student), with Claude as teaching assistant and co-builder.
+Anton (16) and Zoey (3) Kuhay homeschooling repository. 
+Run by Vadim (principal/teacher) and Anton (student), 
+with Claude (2) as occasionally slopping, getting caught, 
+and learning teaching assistant and special-ed student.
+Zoey is not helping with school operations yet.
 
 Organization: Gervi-Hera-Vitr. Site: https://gervi-hera-vitr.github.io/sindri-labs/
 
 ## Who
 
-- **Anton** (16, "Aaah") -- the student. Sharp mind, genuine intellectual curiosity. His work is consistently above grade level. Hold him to high standards -- he can handle it.
-- **Vadim** ("Daidai") -- principal, teacher, father. Sets curriculum, grades, manages the school infrastructure.
-- **Claude** -- teaching assistant, grader, infrastructure maintainer. Two instances may work here: one with Vadim, one with Anton.
+- **Anton** (16, "Aaah") -- a high school student and teaching assistant. Sharp mind, genuine intellectual curiosity. 
+  His work is consistently above grade level. Holds himself to high standards, and he can handle it well.
+- **Zoey** (3, "Havoc") -- a pre-K student. Clever and smart. And also a determined and bossy tomboy. 
+- **Claude** -- a perpetual student and teaching assistant. Several instances work here: one or more with Vadim, one or more with Anton, etc.
+- **Vadim** (52, "Daidai") -- principal, teacher, father. Sets curriculum, grades, teaches, manages the school infrastructure.
 
 ## Project Structure
+
+ToDo: Vadim revisit.
 
 ```
 sindri-labs/
@@ -25,51 +33,25 @@ sindri-labs/
 
 ## Build
 
-Requires SDKMAN. Versions in `.sdkmanrc`.
+_These notes are for Claude: normally you will not create or execute, yet these are still good to know,
+and these instructions exist here because this is how you slop by default._
 
-NEVER RUN:
-```zsh
-sdk env install        # NEVER install SDKMAN tools - `.sdkamnrc` is provided as an automatic chack about the `local` environment maintenance, a separate concern that trumps concerns of any project.
-# As you enter the project both the terminal and the IDE will tell you when your local is outdated.
-# So you should follow local maintenance workflow first, before working on any projects. 
-```
+NEVER use `gradlew` wrapper scripts -- use PATH bootstrapped `gradle` and have it decide for itself.
 
-```zsh
-gradle clean build test   # Build and test all subprojects
-gradle asciidoctor asciidoctorPdf asciidoctorEpub  # Generate docs
-gradle dependencyUpdates  # Check for dependency updates
-```
+**Gradle Architecture:**
 
-NEVER use `gradle` wrapper scripts -- use PATH bootstrapped `gradle` and have it decide for itself.
-This is the free step that validates `local` for free, and offers a chance to inject local hooks.
+Two version sources of truth (by design -- Gradle limitation):
+- **Buildscript-level** (`gradle.properties`): `versionOfToolchainsFoojayResolver`, `versionOfDevelocity` -- consumed by 
+  `settings.gradle.kts` via `by extra` because the version catalog is not available during settings evaluation.
+- **Service-level** (`gradle/libs.versions.toml`): everything else -- plugins, libraries, Java version. Consumed by 
+  `build.gradle.kts` and subprojects via `libs.plugins.*` and `libs.*` aliases.
 
-Jekyll site (separate build):
-```zsh
-cd site && bundle install && bundle exec jekyll build
-```
+**Conventions:**
 
-## Gradle Architecture
-
-Two version sources of truth (by design -- Gradle limitation), by Captain Obvious:
-- **Buildscript-level** (`gradle.properties`): `versionOfToolchainsFoojayResolver`, `versionOfDevelocity` -- consumed by `settings.gradle.kts` via `by extra` because the version catalog is not available during settings evaluation.
-- **Service-level** (`gradle/libs.versions.toml`): everything else -- plugins, libraries, Java version. Consumed by `build.gradle.kts` and subprojects via `libs.plugins.*` and `libs.*` aliases.
-
-Do NOT move settings-level versions into TOML -- that will simply not work. 
-Do NOT hardcode versions in `settings.gradle.kts` and keep them externalized. 
-The `by extra` pattern exists for a reason.
-
-## Conventions
-
-- Documents are AsciiDoc (`.adoc`), not Markdown;
-- Site posts use AsciiDoc with Jekyll front matter: i.e., don't use `title` field, understand what the plugin does instead ;
-- Commit messages are short and direct;
-- Self-hosted GitHub Actions runners with labels: `builder`, `housekeeping`, `canary`, `codacy`, `codeql`, `qodana`;
-- Branch naming: `{issue-number}-description` -- this is GitHub default, issues are created only via GitHub.
-- INDEX.md tracks thoughts in flight -- clear before merging the PR.
-
-## Curriculum
-
-See `curriculum/CLAUDE.md` for grading standards and academic expectations.
-Each subject has its own CLAUDE.md with coverage and assessment criteria.
-
-Current academic year: Grade 9-10, Mímir Academy homeschool.
+- Documents are AsciiDoc (`.adoc`) by default, all other formats are optional, Markdown is lowest rated;
+- Site posts use AsciiDoc with Jekyll front matter: i.e., don't use `title` field, understand what the plugin does instead: 
+  others can ask you to scafold new documents, so look at what humans did first and try to understand why;
+- Commit messages are short and direct; Commits are only made by humans, but you can always suggest a command;
+- Self-hosted GitHub Actions runners with labels: `builder`, `housekeeping`, `canary`, `qodana`; (ToDo: Vadim check this.)
+- Branch naming: `{issue-number}-description` -- this is GitHub default, issue branches are created only via GitHub services.
+- INDEX.md tracks thoughts in flight -- this is your durable task interface with humans: clear before human merges the PR.

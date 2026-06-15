@@ -34,6 +34,8 @@ minimal_mistakes_skin       : "sunrise"
 
 sass:
   quiet_deps                : true
+  silence_deprecations:
+    - import
 safe                        : false
 
 
@@ -188,32 +190,32 @@ comments:
 ### School General Footer
 footer:
   links:
-    - label: "Academy Organization"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/Gervi-Hera-Vitr"
-    - label: "Discussions"
-      icon: "fas fa-fw fa-comments"
-      url: "https://github.com/orgs/Gervi-Hera-Vitr/discussions"
-    - label: "Tracker"
-      icon: "fas fa-fw fa-tachometer-alt"
-      url: "https://github.com/orgs/Gervi-Hera-Vitr/projects/1"
-    - label: "Repository"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/Gervi-Hera-Vitr/sindri-labs"
-    - label: "Fingerprint"
-      icon: "fas fa-fw fa-fingerprint"
-      url: "/sindri-labs/assets/images/favicon-gervi-school.png"
+    - label                 : "Academy Organization"
+      icon                  : "fab fa-fw fa-github"
+      url                   : "https://github.com/Gervi-Hera-Vitr"
+    - label                 : "Discussions"
+      icon                  : "fas fa-fw fa-comments"
+      url                   : "https://github.com/orgs/Gervi-Hera-Vitr/discussions"
+    - label                 : "Tracker"
+      icon                  : "fas fa-fw fa-tachometer-alt"
+      url                   : "https://github.com/orgs/Gervi-Hera-Vitr/projects/1"
+    - label                 : "Repository"
+      icon                  : "fab fa-fw fa-github"
+      url                   : "https://github.com/Gervi-Hera-Vitr/sindri-labs"
+    - label                 : "Fingerprint"
+      icon                  : "fas fa-fw fa-fingerprint"
+      url                   : "/sindri-labs/assets/images/favicon-gervi-school.png"
 
 
 ### Archives: Enable taxonomy pages for tags, categories, and year
 jekyll-archives:
-  enabled: all
+  enabled                   : all
   layouts:
-    year: archive-taxonomy
-    month: archive-taxonomy
-    day: archive-taxonomy
-    category: archive-taxonomy
-    tag: archive-taxonomy
+    year                    : archive-taxonomy
+    month                   : archive-taxonomy
+    day                     : archive-taxonomy
+    category                : archive-taxonomy
+    tag                     : archive-taxonomy
   permalinks:
-    category: /categories/:name/
-    tag: /tags/:name/
+    category                : /categories/:name/
+    tag                     : /tags/:name/

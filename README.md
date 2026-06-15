@@ -1,9 +1,5 @@
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/de545692d2054bf7a4a6ccff66783bd1)](https://app.codacy.com/gh/Gervi-Hera-Vitr/sindri-labs/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
-[![Build on Push](https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/build-on-push.yml/badge.svg)](https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/build-on-push.yml)
 [![built with Codeium](https://codeium.com/badges/main)](https://codeium.com)
 
-[![Security Scan by CodeQL](https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/security-scan-by-codeql.yml/badge.svg)](https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/security-scan-by-codeql.yml)
-[![Security Scan by Codacy](https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/security-scan-by-codacy.yml/badge.svg)](https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/security-scan-by-codacy.yml)
 [![Security Scan by Qodana](https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/security-scan-by-qodana.yml/badge.svg)](https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/security-scan-by-qodana.yml)
 ___
 
@@ -51,9 +47,6 @@ See our security policy [here](https://github.com/Gervi-Hera-Vitr/sindri-labs/se
 - [**labs**](./labs) - <span style="color: lightgreen"> The **hands-on** learning **labs**</span> - _the most important part of the school program_;
   - **For teachers**: this is a place to collaborate with your student by pair-programming;
   - **For students**: this is Your Place! To play and to learn by doing.
-- [production](./production) - The most important student deliverables: real world applications;
-  - Consists of Git Modules which are real life application projects linked by students;
-  - Performance of products in production overrides any other scoring criteria at school.
 
 **Supporting materials, modules, and artifacts:**
 
@@ -65,7 +58,6 @@ See our security policy [here](https://github.com/Gervi-Hera-Vitr/sindri-labs/se
   - **Artifact**: inline project-bound documentation.
 - [gradle](./gradle) - Gradle Wrapper files, supporting build.
 - [lab-ux-ktor](./lab-ux-ktor/README.md) - _**future**_ home and demo for shared labs (Gradle and Ktor subproject).
-- [local](./local) - Fluent local setup instructions for IDEs used in labs and production applications.
 - [site](./site) - Public home page for the school published with Jekyll and GitHub Pages.
 - [src](./src) - Source code for the support of the school program operations at the root of the repository.
 - [.github](./.github) - GitHub actions and workflows are actively using these scripts.
@@ -82,8 +74,6 @@ See our security policy [here](https://github.com/Gervi-Hera-Vitr/sindri-labs/se
 - [.gradle](./.gradle) - software project definition tool working folder.
 - [build](./build) - software project build folder - _**always**_ delete it on cleanup.
 
-> See [security](./SECURITY.md) for the factor twelve regular maintenance links.
-
 ## For My Munchkins
 
 - [_**Give Me 23 Minutes And I'll Destroy Your Laziness Forever!**_](https://youtu.be/EkDxsQRbIwo)
@@ -95,3 +85,5 @@ See our security policy [here](https://github.com/Gervi-Hera-Vitr/sindri-labs/se
   5. EAT THAT LOL.
 - [Productivity Game](https://www.youtube.com/@ProductivityGame "Productivity Game")
 - [LITTLE BIT BETTER](https://www.youtube.com/@littlebitbetter7 "LITTLE BIT BETTER")
+
+FixMe: Vadim check for slop.

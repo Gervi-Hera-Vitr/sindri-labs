@@ -1,0 +1,17 @@
+name: Releaser
+run-name: "Published on ${{ github.repository }} by ${{ github.actor }} with ${{ github.event_name }} (Attempt ${{ github.run_attempt }})"
+
+on:
+  pull_request:
+    branches:
+      - main
+    types:
+      - closed
+  workflow_dispatch:
+
+jobs:
+  release:
+    uses: Mimis-Gildi/fluffle/.github/workflows/releaser.yml@main
+    secrets: inherit
+    permissions:
+      contents: write
