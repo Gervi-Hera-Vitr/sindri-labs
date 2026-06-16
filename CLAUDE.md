@@ -58,4 +58,4 @@ Two version sources of truth (by design -- Gradle limitation):
 
 ## A-MUST: Team Norms:
 
-@./TEAM-NORMS.adoc
+@./TEAM_NORMS.adoc

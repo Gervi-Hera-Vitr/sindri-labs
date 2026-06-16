@@ -4,7 +4,7 @@ header:
   overlay_image: assets/images/banner-devops.jpg
   overlay_filter: 0.2
 ---
-= Mímis Academic Year Schedule: Gervi Héra Viskr
+= Mímis Academic Year Schedule: Gervi Héra Viska
 rdd13r
 :page-author_profile: true
 :page-excerpt: 2025 Academic Year Schedule

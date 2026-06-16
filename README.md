@@ -3,25 +3,25 @@
 [![Security Scan by Qodana](https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/security-scan-by-qodana.yml/badge.svg)](https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/security-scan-by-qodana.yml)
 ___
 
-[Vitr`î Labs Site](https://gervi-hera-vitr.github.io/sindri-labs/ "Gervi Hî Vitr Labs") <- **Visit our Website**
+[Gervi Héra Vitr Labs Site](https://gervi-hera-vitr.github.io/sindri-labs/ "Gervi Héra Vitr Labs") <- **Visit our Website**
  
-[![Gervi Héra Viskr](./site/assets/images/site-image.png)](https://gervi-hera-vitr.github.io/sindri-labs/ "Gervi Hî Vitr Labs")
+[![Gervi Héra Viska](./site/assets/images/site-image.png)](https://gervi-hera-vitr.github.io/sindri-labs/ "Gervi Héra Vitr Labs")
 
 ## Welcome, Dear Friend
 
 This [Sindri](https://en.wikipedia.org/wiki/Sindri_(mythology)) Workshop is also our place of posterity. <br/>
-This is a hands-on learning trail by and for our [Munchkins](http://www.catb.org/esr/jargon/html/M/munchkin.html "Munchkins") (CatB HTTP). <br/>
+This is a hands-on learning trail by and for our [Munchkins](http://www.catb.org/esr/jargon/html/M/munchkin.html "Munchkins"). <br/>
 Munchkins experiment with AI in their own [Gervi Héra Vitr](https://github.com/Gervi-Hera-Vitr "Gervi-Hera-Vitr") community, <br/>
-tracked by [Gervi Héra Viskr Learning Trails](https://github.com/orgs/Gervi-Hera-Vitr/projects/1 "Héra gains Viskr") project, and supervised by <br/>
+tracked by [Gervi Héra Viska Learning Trails](https://github.com/orgs/Gervi-Hera-Vitr/projects/1 "Héra gains Viska") project, and supervised by <br/>
 adult hackers of [AGAIN](https://github.com/Gotham-Village "AGAIN as Gotham Village") at [Mímis Gildi](https://github.com/Mimis-Gildi "Mimis-Gildi") tracked by [Mímis Publishing](https://github.com/orgs/Mimis-Gildi/projects/1 "Mimis-Publishing").
 
 ### Everyone learning is Welcome!
 
 **Learning is the sacred core value of [Mímir](https://en.wikipedia.org/wiki/M%C3%ADmir "Mímir, the Norse god of knowledge").**
 
-_Come, have a drink from [Yggdrasil](https://en.wikipedia.org/wiki/Yggdrasil "Yggdrasil, the well of life") with us._ 😀
+_Come, have a drink from [Yggdrasil](https://en.wikipedia.org/wiki/Yggdrasil "Yggdrasil, the World Tree") with us._ 😀
 
--- Captain and R!dd13r<br/>
+-- Captain and DaiDai<br/>
 2024-10-27
 
 See our security policy [here](https://github.com/Gervi-Hera-Vitr/sindri-labs/security/policy "Security Policy").
@@ -38,13 +38,13 @@ See our security policy [here](https://github.com/Gervi-Hera-Vitr/sindri-labs/se
 - [**curriculum**](./curriculum) - _**Planned Learning Materials**_: exact content of the **hands-on** learning;
    - **Core Philosophy** - student must master the skills of discovering facts, building arguments, and drawing conclusions;
    - **Granularity** - learning materials covered here must be exact;
-   - <span style="color: green">**Execution**</span> - <span style="color: yellow"> _there should never be top-down teaching of any kind_</span> - <span style="color: lightgreen"> _**all learning is ALWAYS collaborative!**_</span>
+   - **Execution** - _there should never be top-down teaching of any kind_ - _**all learning is ALWAYS collaborative!**_
 - [**journey**](./journey) - _**Philosophical Foundation**_: high-level governance of the **hands-on** learning **journey**;
-  - <span style="color: orange">**ToDo**</span>: _not fully committed to the learning trail yet - too few iterations_;
+  - **ToDo**: _not fully committed to the learning trail yet - too few iterations_;
   - **For teachers**: a book or a guide encapsulating the educational program;
   - **For students**: a structure of reference on trails within the journey;
   - **Artifact**: a publication built and deployed with Gradle and AsciiDoc.
-- [**labs**](./labs) - <span style="color: lightgreen"> The **hands-on** learning **labs**</span> - _the most important part of the school program_;
+- [**labs**](./labs) - The **hands-on** learning **labs** - _the most important part of the school program_;
   - **For teachers**: this is a place to collaborate with your student by pair-programming;
   - **For students**: this is Your Place! To play and to learn by doing.
 
@@ -52,7 +52,7 @@ See our security policy [here](https://github.com/Gervi-Hera-Vitr/sindri-labs/se
 
 - [.run](./.run) - Shared project run configurations: useful stuff.
 - [**docs**](./docs) - Documentation, Tutorials, and Onboarding Guide for teachers and students;
-  - <span style="color: orange">ToDo</span>: placeholder waiting for consumers, contributors, and maintainers;
+  - ToDo: placeholder waiting for consumers, contributors, and maintainers;
   - **For teachers**: instructions on how to `fork` and set up own school program;
   - **For students**: mechanical and technical instructions such as IDE setup, etc.;
   - **Artifact**: inline project-bound documentation.
@@ -64,10 +64,7 @@ See our security policy [here](https://github.com/Gervi-Hera-Vitr/sindri-labs/se
 
 **Technical and mechanical modules for the school assets:**
 
-- [.github](./.github) - GitHub actions and workflows; this needs to be here.
 - [.idea](./.idea) - JetBrains IDE files, normally excluded, kept as an example for styles, etc.
-- [.kotlin](./.kotlin) - Kotlin files, normally excluded, kept as an example for ML bootstrap, etc.
-- [docs](./docs) - Documentation, Tutorials, and Onboarding Gide; **ToDo**
 
 **Transient folders that should not be committed:** _git-excluded and removed on cleanup_.
 
@@ -85,5 +82,3 @@ See our security policy [here](https://github.com/Gervi-Hera-Vitr/sindri-labs/se
   5. EAT THAT LOL.
 - [Productivity Game](https://www.youtube.com/@ProductivityGame "Productivity Game")
 - [LITTLE BIT BETTER](https://www.youtube.com/@littlebitbetter7 "LITTLE BIT BETTER")
-
-FixMe: Vadim check for slop.
