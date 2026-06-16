@@ -1,15 +1,17 @@
 ---
 header:
-  caption: ...reliving living people, people who thought, people who thus lived.
   overlay_image: assets/images/banner-philosophy.jpg
   overlay_filter: 0.2
+  actions:
+    - label: "Philosophers"
+      url: /philosophers/
 categories: [page]
 tags: [graded]
 ---
-= Applied Stoicism Through Scientific Method
+= Philosophy: Stoicism {amp} Scientific Method
 rdd13r
 :page-author_profile: true
-:page-excerpt: Reliving reason with the people of it.
+:page-excerpt:
 :page-layout: single
 :page-permalink: /philosophy/
 :page-classes: wide

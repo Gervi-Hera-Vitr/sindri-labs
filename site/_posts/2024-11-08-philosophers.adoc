@@ -1,15 +1,19 @@
 ---
 header:
-  caption: ...reliving living people, people who thought, people who thus lived.
   overlay_image: assets/images/banner-mathematics.jpg
   overlay_filter: 0.2
+  actions:
+    - label: "Philosophy"
+      url: /philosophy/
+    - label: "Mathematics"
+      url: /mathematics/
 categories: [page]
 tags: [graded]
 ---
-= Greek and Stoic Philosophers
+= Philosophy: Greek and Stoic Philosophers
 rdd13r
 :page-author_profile: true
-:page-excerpt: Reliving reason with the people of it.
+:page-excerpt:
 :page-layout: single
 :page-permalink: /philosophers/
 :page-classes: wide

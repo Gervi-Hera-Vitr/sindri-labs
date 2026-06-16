@@ -1,15 +1,14 @@
 ---
 header:
-  caption: ...reliving Mathematics with "The Living" of it.
   overlay_image: assets/images/banner-mathematics.jpg
   overlay_filter: 0.2
 categories: [page]
 tags: [graded]
 ---
-= Mímis Academy: Mathematics
+= Mathematics: Roadmap Overview
 rdd13r
 :page-author_profile: true
-:page-excerpt: Reliving Mathematics as Lived Thought.
+:page-excerpt:
 :page-layout: single
 :page-permalink: /mathematics/
 :page-classes: wide
