@@ -3,6 +3,8 @@ header:
   caption: ...reliving living people, people who thought, people who thus lived.
   overlay_image: assets/images/banner-mathematics.jpg
   overlay_filter: 0.2
+categories: [page]
+tags: [graded]
 ---
 = Greek and Stoic Philosophers
 rdd13r

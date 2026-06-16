@@ -3,6 +3,8 @@ header:
   caption: ...reliving living people, people who thought, people who thus lived.
   overlay_image: assets/images/banner-philosophy.jpg
   overlay_filter: 0.2
+categories: [page]
+tags: [graded]
 ---
 = Applied Stoicism Through Scientific Method
 rdd13r
