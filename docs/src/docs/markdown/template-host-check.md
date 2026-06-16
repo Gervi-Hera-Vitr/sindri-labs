@@ -20,4 +20,4 @@
 
 </details>
 
-_Please reach out to the [Gervi Hеrа Vitr](https://github.com/Gervi-Hera-Vitr) organization members for more information._
+_Please reach out to the [Gervi Héra Vitr](https://github.com/Gervi-Hera-Vitr) organization members for more information._
