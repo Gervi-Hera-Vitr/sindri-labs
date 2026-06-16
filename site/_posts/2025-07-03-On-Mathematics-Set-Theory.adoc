@@ -15,7 +15,6 @@ lugaru
 :stem: asciimath
 :page-layout: single
 :page-classes: wide
-:captain: https://github.com/CaptainLugaru[Captain Lugaru,window=_blank]
 :peano-axioms: https://en.wikipedia.org/wiki/Peano_axioms[Peano Axioms,window=_blank]
 :on-sets: link:/sindri-labs/school/2025/07/11/On-Set-Theory.html[On Sets,window=_blank]
 :on-top: link:/sindri-labs/school/2025/07/01/On-Mathematics.html[Mathematics - My Research,window=_blank]
@@ -222,4 +221,4 @@ Set theory is used in:
 
 == Final Grade and Comments
 
-- ✅ Graded assignment https://github.com/rdd13r[by `rdd13r`] on July 12th 2025. *A*
+- ✅ Graded assignment by {rdd13r} on July 12th 2025. *A*

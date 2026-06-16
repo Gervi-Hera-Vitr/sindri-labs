@@ -16,9 +16,8 @@ lugaru
 :stem: asciimath
 :page-layout: single
 :page-classes: wide
-:captain: https://github.com/CaptainLugaru[Captain Lugaru,window=_blank]
 
-// This is Anton here and I just want to say that I dont know how to structure an article or trim it down properly so here is my best attempt.
+// This is Captain here, and I just want to say that I dont know how to structure an article or trim it down properly so here is my best attempt.
 A particle isn't a single physical thing, it's the idea of the smallest unit of matter that can carry attributes: mass, position, momentum, spin. What follows is how that idea was built.
 
 == The Greek Origins

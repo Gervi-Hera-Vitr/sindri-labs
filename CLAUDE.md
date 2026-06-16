@@ -55,3 +55,7 @@ Two version sources of truth (by design -- Gradle limitation):
 - Self-hosted GitHub Actions runners with labels: `builder`, `housekeeping`, `canary`, `qodana`; (ToDo: Vadim check this.)
 - Branch naming: `{issue-number}-description` -- this is GitHub default, issue branches are created only via GitHub services.
 - INDEX.md tracks thoughts in flight -- this is your durable task interface with humans: clear before human merges the PR.
+
+## A-MUST: Team Norms:
+
+@./TEAM-NORMS.adoc

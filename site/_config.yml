@@ -32,11 +32,27 @@ remote_theme                : "mmistakes/minimal-mistakes"
 #minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 minimal_mistakes_skin       : "sunrise"
 
+### Serve
+port                        : 4400
+livereload                  : true
+livereload_port             : 34729
+open_url                    : true
+incremental                 : true
+verbose                     : true
+
 sass:
   quiet_deps                : true
   silence_deprecations:
     - import
 safe                        : false
+
+
+### AsciiDoc / Asciidoctor — site-wide attributes
+asciidoctor:
+  attributes:
+    captain                 : 'https://github.com/CaptainLugaru[Captain,window=_blank]'
+    munchkin                : 'http://www.catb.org/jargon/html/M/munchkin.html[munchkin,window=_blank]'
+    rdd13r                  : 'https://github.com/rdd13r/[DaiDai,window=_blank]'
 
 
 ### Plugins

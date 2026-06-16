@@ -15,7 +15,6 @@ lugaru
 :stem: asciimath
 :page-layout: single
 :page-classes: wide
-:captain: https://github.com/CaptainLugaru[Captain Lugaru,window=_blank]
 :on-top: link:/school/2025/07/01/On-Mathematics.html[Mathematics - My Research,window=_blank]
 
 
@@ -88,4 +87,4 @@ It blends logic, mathematics, and theoretical computer science to explore the ca
 
 == Final Grade and Comments
 
-- ✅ Graded assignment https://github.com/rdd13r[by `rdd13r`] on July 12th 2025. *A*
+- ✅ Graded assignment by {rdd13r} on July 12th 2025. *A*

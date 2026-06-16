@@ -1,6 +1,6 @@
 # School Site -- Jekyll
 
-Anton's school website. Published at https://gervi-hera-vitr.github.io/sindri-labs/
+Captain's school website. Published at https://gervi-hera-vitr.github.io/sindri-labs/
 
 ## Build
 
@@ -12,7 +12,7 @@ See convenience run configs at ${PROJECT_ROOT}/.run/**.xml
 cd site
 bundle install
 bundle exec jekyll build
-bundle exec jekyll serve -wolIVt --port 4400
+bundle exec jekyll serve -t # Note: port, reload, and more comes from the config
 ```
 
 Requires Ruby (3.3.5) and Bundler -- this is inherited Mímis Gildi convention: everything is reusable. 
@@ -90,4 +90,3 @@ GitHub Actions are inherited -- always read the templated workflow.
 **Comments:**
 
 Utterances (GitHub Issues-backed) configured for the repo.
-(ToDo: Vadim please verify if this is still the case.)

@@ -11,7 +11,6 @@ lugaru
 :page-excerpt:
 :page-layout: single
 :page-classes: wide
-:captain: https://github.com/CaptainLugaru[Captain Lugaru,window=_blank]
 
 
 
@@ -77,4 +76,4 @@ to Harper Lee's extraordinary skill as a writer to transcend narrative conventio
 
 == Final Grade and Comments
 
-- ✅ Graded assignment https://github.com/rdd13r[by `rdd13r`] on June 28th 2025. #A#
+- ✅ Graded assignment by {rdd13r} on June 28th 2025. #A#

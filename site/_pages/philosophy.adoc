@@ -31,7 +31,7 @@ ifdef::env-name[:relfilesuffix: .adoc]
 
 *Mímir Academy - Advanced Independent Study* _over school break_ +
 *Student*: Lugaru (Captain) +
-*Instructor*: Vadim (rdd13r) +
+*Instructor*: {rdd13r} +
 *Academic Period*: Fall 2025
 
 '''
@@ -260,4 +260,3 @@ like the @DailyStoic channel, which is *NOT*, strictly speaking,
 scientific Stoicism. +
 Some confusion originated from false statements by these would-be experts. +
 This is a lesson-learned by both the student and the instructor.
-

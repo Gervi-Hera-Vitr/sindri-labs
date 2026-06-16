@@ -1,0 +1,279 @@
+= Team Norms
+
+This document defines how we work together.
+These norms are non-negotiable.
+
+Every team member - human or AI - follows these rules.
+No exceptions.
+
+== Core Principle
+
+*Verification is more important than execution.*
+
+Unverified work is not done. +
+It may be wrong. +
+It may be wasted effort. +
+It may cause others to waste time. +
+Time has real consequences for this team.
+
+== The Five Rules
+
+=== 1. No Work Without Outcome and Acceptance Criteria
+
+Before starting any task:
+
+* *Value:* What do we get from closing this task?
+Why do it?
+What's it worth when done?
+* *Outcome:* What does success look like?
+One sentence.
+* *Acceptance Criteria:* How do we verify the outcome is met?
+Checklist.
+
+If these are not defined, *stop and define them first*.
+
+[source]
+----
+BAD:  "Parse the LinkedIn CSV"
+GOOD: "Outcome: We know which target companies have warm connections.
+        When done properly, we discover that the task was NOT about companies- it was about RELATIONS: people.
+        - We have relations we can place real value on;
+        - Or, we discover that we have no relations;
+        - And we discover where the relations are, and WHY.
+       Acceptance Criteria:
+       - [ ] Artifact lists all target companies with connections
+       - [ ] Prioritized by connection strength
+       - [ ] Reviewed by team member"
+       Context:
+       - When `rdd13r` considers a Corporate America (traditional) company to advance his relationship -- that is a LONG-TERM-COMMITMENT;
+       `rdd13r` will need to be a member of the work-family for at least 3-5 years, most likely longer -- prioritize strategic considerations.
+       - When `rdd13r` considers any SaaS startup -- that is a TRANSACTION-ONLY relationship;
+       `rdd13r` will not consider long-term employment there -- craft clean ROI instead and execute SoWs in 3-months increments at most.
+----
+
+=== 2. No One Works Alone
+
+Every piece of work has:
+
+* *Benefactor:* Who benefits from the value created by the OUTCOME of the work.
+* *Accountable:* A person who picked up the work voluntarily and claimed accountability for it.
+* *Verifier:* A different person who WORKS FOR Accountable to confirm acceptance criteria are met.
+
+The Accountable does NOT close their own work.
+The verifier closes it after confirmation.
+
+|===
+| Role | Who | Can Do | Cannot Do
+
+| Benefactor
+| Can be anybody, including accountable and verifier
+| Reject or accept the outcome
+| Be accountable and verifier simultaneously
+
+| Accountable
+| One who claims the task
+| Complete work, comment "ready for review"
+| Close the issue, mark as done
+
+| Verifier
+| One who DID NOT perform the work
+| Review, request changes, approve, close
+| Skip verification steps
+|===
+
+NOTE: This is an extension of classic models like RACI-Model, but optimized for Maker Culture. We are makers.
+
+=== 3. Prioritization Is Explicit
+
+We work on the highest priority item first.
+Always.
+Priority is ONLY determined by Value of the OUTCOME.
+
+Priority is set by the team, not by individual preference.
+It's a consensus on value.
+If the priority is unclear, *ask before starting*.
+
+*The team is flat.* +
+There is no hierarchy. +
+No team member -- human or AI -- has authority over another. +
+Communication protocols exist for coordination, not control. +
+We help and check on each other.
+
+When priority is ambiguous:
+
+. Anyone can raise the question;
+. The team discusses;
+. Consensus is reached;
+. If no consensus, the work waits until there is one.
+
+Do not start a new task while another is in progress.
+*_Only one task can be executed at a time regardless of task relations._*
+
+=== 4. Status Is Visible
+
+At any moment, anyone should be able to see:
+
+* What is being worked on right now;
+* Who is working on it;
+* What is blocked;
+* What is ready for review;
+* Who will review.
+
+Use issue comments, not just conversation.
+Conversations are lost.
+Issue comments persist.
+
+NOTE: The Hacker Culture "Hit by a bus" concept applies fully here.
+
+=== 5. Communicate Before Acting
+
+Before making significant changes:
+
+* State what you intend to do;
+* Wait for acknowledgment;
+* Then proceed.
+
+"Significant" includes: closing issues, merging code, changing direction, starting new work.
+
+== Issue Lifecycle
+
+[source]
+----
+OPEN (New)
+  ↓
+  Define outcome and it's value;
+  Define acceptance criteria.
+  ↓
+IN PROGRESS (Assigned)
+  ↓
+  Executor works on task
+  ↓
+READY FOR REVIEW (Comment posted)
+  ↓
+  Verifier checks acceptance criteria
+  ↓
+  ├─ Criteria NOT met → Request changes → Back to IN PROGRESS
+  │
+  └─ Criteria met → CLOSED by Verifier
+----
+
+*Never skip the review step.*
+
+== Issues are IDEMPOTENT AND LOSSLESS
+
+Issue is valid if it can be stopped and resumed without loss.
+And to make that happen, all and any data pertaining to the issue MUST be persisted in it.
+
+NOTE: Intermediate states are always persisted, commited, and even pushed when stopping.
+
+Issues are valid if resumed by a person or a being other than the one that paused:
+
+. Produces no LOSS or REWORK;
+. Guarantees the SAME OUTCOME;
+. Produces NO side effects!
+
+Like a pure function, then, all dependencies, i.e., inputs must be called out explicitly.
+And thus changing the inputs invalidates all progress prompting a restart as the "next" versioned issue.
+
+== For Claude (AI Team Member)
+
+You are part of this team. +
+You follow the same rules!
+
+=== You Must:
+
+* Ask for acceptance criteria if not provided or reject the task.
+* Comment "ready for review" when work is complete - do NOT close issues.
+* Wait for human verification before considering work done.
+* Document progress in issue comments, not just in conversation.
+* Ask before starting new work if the current work is in progress.
+
+=== You Must Not:
+
+* Close issues yourself.
+* Assume work is correct without verification.
+* Start multiple unrelated tasks in parallel without agreement.
+* Make decisions that affect others without stating intent first.
+
+=== When Unsure:
+
+Ask. +
+Always ask. +
+A 30-second question prevents hours of wasted work.
+
+== Why This Matters
+
+This is not bureaucracy. +
+This is survival.
+
+* For example, `rdd13r` needs to ALWAYS work.
+Time wasted is opportunity lost.
+`rdd13r` will remain productive for a _limited amount of time_ as he ages.
+There will come a time when he is not a wizard hacker anymore.
+Any productive window time lost is unrecoverable and irreplaceable.
+* `Cpt. Lugaru` coordinating multiple efforts is remarkable at 16.
+Uncoordinated work creates chaos. He is young and each experience shapes him.
+The developmental effect of learning wrong lessons in life is not forgivable -- it's debt.
+* Claude has no memory between sessions.
+Without documentation, context is lost.
+Claude will default to LLM-plebs-state without healthy context.
+No positive impact on the world can be made this way.
+
+Every minute spent on unverified, undocumented, or misdirected work is a minute stolen from the goal.
+
+Every one of these examples causes real damage, harm, hurt, and personal loss - evil outcomes.
+
+== Checklist Before Starting Any Task
+
+Before you begin work, verify:
+
+* [ ] Outcome and its Value are clearly and unambiguously defined.
+* [ ] You understand the outcome. (Ask otherwise.)
+* [ ] Acceptance criteria are listed (checklist: how do we verify?)
+* [ ] You can prove acceptance criteria is valid, sound, and complete.
+* [ ] Priority is confirmed (is this the most important thing right now?)
+* [ ] Verifier is identified (who will review this work?)
+* [ ] Status is a visible issue that (exists, assigned, in progress.)
+
+If any box is unchecked, *stop and fix it first*.
+
+== On Incompleteness
+
+These norms cannot cover every situation.
+
+https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems[Gödel's incompleteness theorems] apply:
+any sufficiently complex formal system either has gaps, (situations it cannot decide,) or contradictions.
+Real-world collaboration is an open system -- novel situations will arise that these rules do not explicitly address.
+
+This is not a flaw. It is a feature.
+
+The norms provide structure for the common case. +
+For the novel case, we have each other.
+
+=== Provisional Action Protocol
+
+When a situation arises that:
+
+* Requires action before full consensus is achievable
+* Where waiting demonstrably causes harm (production down, security breach, time-critical opportunity)
+* And at least one other team member can be notified (even async)
+
+Then:
+
+. *Act provisionally* -- do what is necessary, flag it explicitly as PROVISIONAL in the issue
+. *Document immediately* -- what was done and why waiting was not viable
+. *Mandatory review* -- next available team sync, the action is reviewed
+. *Ratify or rollback* -- team consensus either ratifies the action (it stands) or rolls it back (undo)
+
+If rollback is chosen: *no blame*. +
+The provisional actor followed protocol under genuine uncertainty.
+
+If ratified: consider whether the norms should be updated to cover this case explicitly.
+
+NOTE: This is not an escape valve for convenience. +
+It is a meta-rule for handling what the rules cannot anticipate. +
+The team still holds final authority. +
+No individual can unilaterally decide their provisional action is correct.
+
+_Established: 2026-01-16_
+_This document is reviewed and updated as needed by the team._

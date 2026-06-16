@@ -11,7 +11,6 @@ lugaru
 :page-excerpt:
 :page-layout: single
 :page-classes: wide
-:captain: https://github.com/CaptainLugaru[Captain Lugaru,window=_blank]
 
 The unexpected publication of Harper Lee's Go Set a Watchman in 2015 sparked immediate controversy, initially promoted by its publishers as a long-awaited sequel to the beloved To Kill a Mockingbird.
 However, critical analysis and widespread consensus now point to a different truth: Go Set a Watchman is more accurately understood as the original first draft of Lee's Prize-winning novel, rather than a standalone work or a continuation of the narrative.
@@ -101,6 +100,6 @@ unvarnished window into the genesis of a literary masterpiece.
 
 == Final Grade and Comments
 
-- ✅ Graded assignment https://github.com/rdd13r[by `rdd13r`] on July 8th 2025. #A#
+- ✅ Graded assignment by {rdd13r} on July 8th 2025. #A#
 
 Captain struggled with this a little. Leaving for a review next year.

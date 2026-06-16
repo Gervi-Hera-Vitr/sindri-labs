@@ -13,8 +13,6 @@ lugaru
 :page-classes: wide
 :anton-school: https://github.com/Gervi-Hera-Vitr/[Gervi Hëra Vitr,window=_blank]
 :mimis-publishing: https://github.com/orgs/Mimis-Gildi/[Mímis Publishing,window=_blank]
-:rdd13r: https://github.com/rdd13r/[Mr. R!dd13r,window=_blank]
-:captain: https://github.com/CaptainLugaru[Captain Lugaru,window=_blank]
 
 Dear Munchkin Friends,
 

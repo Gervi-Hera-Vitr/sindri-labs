@@ -10,12 +10,11 @@ zaizai
 :page-layout: single
 :page-permalink: /curriculum/
 :page-classes: wide
-:rdd13r: https://github.com/rdd13r/[R!dd13r,window=_blank]
 :zaia: https://github.com/asei-boss/[Zaia,window=_blank]
 :lugaru: https://github.com/captainlugaru/[Lugaru,window=_blank]
 :daidai: footnote:onedaidai[Daddy {rdd13r} as the principal theory mentor]
 :zaizai: footnote:onezaizai[Mama {zaia} as the principal practice mentor]
-:captain: footnote:cptlugaru[Captain {lugaru} as the first prodigy]
+:captain-fn: footnote:cptlugaru[Captain {lugaru} as the first prodigy]
 
 
 We don’t teach for grades. We don't even have a classroom or a grading system. +
@@ -43,7 +42,7 @@ Each student progresses through high-agency _"learning trails"_ that *tightly co
 
 - *Core Scientific Theory*{daidai} (i.e, math, science, philosophy, etc.) -- the fundamentals of thinking;
 - *Maker Practice*{zaizai} (i.e, projects, experiments, µSaaS production, etc.) -- science in motion;
-- and, *Reflection*{captain} by introspection and retrospection (journals, essays, feedback, etc.).
+- and, *Reflection*{captain-fn} by introspection and retrospection (journals, essays, feedback, etc.).
 
 == Core Domains
 
