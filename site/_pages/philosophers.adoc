@@ -34,12 +34,12 @@ image::philosophers.png[Philosophers,float="right",align="center"]
 
 == Pre-Socratics (Natural Philosophers)
 
-* 624–546 BCE: #*Thales of Miletus*# -- Water as fundamental substance; founder of Greek science; Milesian school.
+* 624–546 BCE: #*Thales of Miletus*# -- Water as a fundamental substance; founder of Greek science; Milesian school.
 * 610–546 BCE: *Anaximander of Miletus* -- Introduced the "apeiron" (infinite or boundless); student of Thales.
-* 586–526 BCE: *Anaximenes of Miletus* -- Air as primary substance; refined Thales’ ideas.
+* 586–526 BCE: *Anaximenes of Miletus* -- Air as the primary substance; refined Thales’ ideas.
 * 570–495 BCE: #*Pythagoras of Samos*# -- Mathematical harmony of cosmos; number theory; early influence on Plato.
 * 570–478 BCE: *Xenophanes of Colophon* -- Critic of anthropomorphic gods; early monotheistic themes.
-* 535–475 BCE: *Heraclitus of Ephesus* -- "Everything flows" (*panta rhei*); *logos*; fire as base element.
+* 535–475 BCE: *Heraclitus of Ephesus* -- "Everything flows" (*panta rhei*); *logos*; fire as a base element.
 * 515–450 BCE: *Parmenides of Elea* -- "Being is"; change is illusion; foundational metaphysics.
 * 490–430 BCE: *Zeno of Elea* -- Paradoxes of motion and plurality; defender of Parmenidean logic.
 * 494–434 BCE: *Empedocles of Akragas* -- Four classical elements; cosmic forces of Love and Strife.
@@ -69,7 +69,7 @@ image::philosophers.png[Philosophers,float="right",align="center"]
 
 * 334–262 BCE: #*Zeno of Citium*# -- Founder of Stoicism; emphasized virtue and rational living.
 * 330–230 BCE: *Cleanthes of Assos* -- Second head of the Stoa; author of _Hymn to Zeus_.
-* 280–206 BCE: *Chrysippus of Soloi* -- Codified Stoic logic, ethics, and physics; most prolific Stoic.
+* 280–206 BCE: *Chrysippus of Soloi* -- Codified Stoic logic, ethics, and physics; the most prolific Stoic.
 * 341–270 BCE: *Epicurus of Samos* -- Founded Epicureanism; pleasure through ataraxia (tranquility).
 * 360–270 BCE: *Pyrrho of Elis* -- Founder of Pyrrhonian Skepticism; suspended judgment (*epoché*).
 * 316–241 BCE: *Arcesilaus of Pitane* -- Turned Plato’s Academy toward Skepticism.
@@ -84,7 +84,7 @@ image::philosophers.png[Philosophers,float="right",align="center"]
 
 == Legacy Summary
 
-* *Pre-Socratics:* Introduced rational inquiry into nature and metaphysical being.
+* *Pre-Socratics:* Introduced rational inquiry into nature and metaphysical beings.
 * *Socratics:* _Ethics and dialectical methods as a foundation for personal and civic virtue._
 * *Plato → Aristotle:* _Core of Western logic, metaphysics, political theory, and natural science._
 * *Hellenistic Science:* _Formal geometry, astronomy, physics, medicine, and geography._

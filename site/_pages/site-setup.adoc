@@ -34,7 +34,7 @@ Traditionally, *_"GitHub Pages"_* support is a strongly locked-down affair.
 This created many conflicts with Jekyll, various Gems, and GitHub Pages plugins.
 The GitHub Pages Actions workflow is meant to partially alleviate the issue.
 
-_I use Linux and Mac OS X. Linux users need no help but I will document the Mac OS X setup._
+_I use Linux and Mac OS X. Linux users need no help, but I will document the Mac OS X setup._
 
 == Mac OS X Setup
 
@@ -56,7 +56,7 @@ brew update && brew upgrade --greedy \
 
 **Explanation 1:**
 
-Please remember that `asdf` delegates to resource managers called plugins::
+Please remember that `asdf` delegates to resource managers called plugs-in::
 `asdf` manages tool artifacts *_via dedicated plugins_* that fully control the lifecycle of SDKs they manage.
 
 - Here is the {asdf-getting-started} for `asdf`;
@@ -101,7 +101,7 @@ asdf current
 
 == Install Jekyll and GitHub Pages dependencies
 
-#Navigate into your project site directory before working on Jekyll site!#
+#Navigate into your project site directory before working on the Jekyll site!#
 
 Follow the {jekyll-quickstart} documentation.
 

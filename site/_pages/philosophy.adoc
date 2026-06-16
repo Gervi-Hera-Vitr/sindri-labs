@@ -29,8 +29,8 @@ ifdef::env-name[:relfilesuffix: .adoc]
 :philosophers: link:/sindri-labs/philosophers/[Foundations Philosophers,window=_blank]
 
 
-*Mímir Academy - Advanced Independent Study* _over school break_ +
-*Student*: Lugaru (Captain) +
+*Mímir Academy -- Advanced Independent Study* _over school break_ +
+*Student*: Captain +
 *Instructor*: {rdd13r} +
 *Academic Period*: Fall 2025
 
@@ -70,7 +70,7 @@ This advanced philosophy course applies Aristotelian scientific method to Stoic 
 - Catalog commonly cited "theorems" and practices;
 - Establish logical relationships between principles.
 
-*Deliverable*: "Axioms &amp; Theorems of Stoicism" - systematic framework.
+*Deliverable*: "Axioms & Theorems of Stoicism" - systematic framework.
 
 === Phase II: Empirical Testing (Week 2)
 
@@ -87,11 +87,11 @@ This advanced philosophy course applies Aristotelian scientific method to Stoic 
 - [line-through]#Voluntary Discomfort# (DISPROVEN)
 - [line-through]#Procrastination# (UNDER ANALYSIS)
 
-=== Phase III: Synthesis &amp; Reconstruction (Week 3-4)
+=== Phase III: Synthesis & Reconstruction (Week 3-4)
 
-*Assignment*: Construct refined philosophical framework:
+*Assignment*: Construct a refined philosophical framework:
 
-- Eliminate disproven elements (leave annotated in appendix);
+- Eliminate disproven elements (left annotated in the appendix);
 - Reorganize remaining principles in *logical order*;
 - Develop personal Stoic philosophy based on evidence.
 
@@ -101,7 +101,7 @@ This advanced philosophy course applies Aristotelian scientific method to Stoic 
 
 * *Logical consistency* in argumentation (may use inductive logic);
 * *Evidence quality* supporting conclusions;
-* *Methodological soundness* in testing approach (may use symbolism);
+* *Methodological soundness* in a testing approach (may use symbolism);
 * *Clear distinction* between axioms and theorems (formalize domain).
 
 === Critical Thinking (35%)
@@ -114,13 +114,13 @@ This advanced philosophy course applies Aristotelian scientific method to Stoic 
 === Communication (25%)
 
 * *Clear expression* of complex ideas (formally and informally);
-* *Proper academic formatting* and documentation (asciidoc);
+* *Proper academic formatting* and documentation (AsciiDoc);
 * *Structured presentation* of arguments (induction, deduction, symbolism);
-* *Effective use* of philosophical terminology (stay clean and expressive).
+* *Effective use* of philosophical terminology (stays clean and expressive).
 
 == Current Academic Standing
 
-_This is a continuous and iterative developmental work!_
+_This is continuous and iterative developmental work!_
 We don't do subjects like state schools -- see school methodology.
 
 *Strengths Already Demonstrated*:
@@ -145,15 +145,15 @@ We don't do subjects like state schools -- see school methodology.
 *_Virtue lies in wise use of time, not specific hours_*.
 
 . *"Treat the Body Rigorously"*
--- Disproven as potentially contrary to Stoic principle of treating health as "indifferent."
+-- Disproven as potentially contrary to the Stoic principle of treating health as "indifferent."
 Excessive focus on physical cultivation can become attachment.
 
 . *"Voluntary Discomfort"*
--- Disproven as artificial creation of suffering contrary to Stoic acceptance of natural conditions.
+-- Disproven as an artificial creation of suffering contrary to Stoic acceptance of natural conditions.
 True Stoicism *accepts what comes* rather than manufacturing hardship.
 
 . *"Procrastination"*
--- Under analysis. Student recognizing need to separate harmful delay from prudent deliberation and natural timing.
+-- Under analysis. The student recognizes the need to separate harmful delay from prudent deliberation and natural timing.
 Additional thinking time is required to properly discover actual theorems here, if any.
 
 == Philosophical Lineage Context
@@ -174,10 +174,10 @@ See relevant philosophers: {philosophers}.
 
 === Stoic Evolution
 
-* *Zeno of Citium*: Foundational principles -- student will have relived and understood.
-* *Chrysippus*: Logical systematization -- student will have understood and critiqued.
+* *Zeno of Citium*: Foundational principles -- the student will have relived and understood.
+* *Chrysippus*: Logical systematization -- the student will have understood and critiqued.
 * *Epictetus*: Practical application -- life-long examination for each human being.
-* *Marcus Aurelius*: Imperial synthesis -- student builds formal model instead.
+* *Marcus Aurelius*: Imperial synthesis -- the student builds a formal model instead.
 
 === Modern Application
 
@@ -187,13 +187,13 @@ See relevant philosophers: {philosophers}.
 
 == Assessment Philosophy
 
-_"In the beginning of our lives we are completely dependent on others.
+_"At the beginning of our lives we are completely dependent on others.
 We need and expect that which we ourselves cannot or will not give to others.
 That is the nature of 'Childhood'.
 Growing into adulthood changes EVERYTHING."_
 
 This course treats the student as an emerging adult philosopher capable of independent reasoning rather than a passive recipient of ancient wisdom.
-Success is measured NOT by memorization of classical texts, but by _**demonstrated** ability to *think* critically_ about fundamental questions of human existence.
+Success is measured NOT by memorization of classical texts, but by _**the demonstrated** ability to *think* critically_ about fundamental questions of human existence.
 
 *The goal is not to create a "Stoic" but to develop a philosopher who can:*
 
@@ -202,19 +202,19 @@ Success is measured NOT by memorization of classical texts, but by _**demonstrat
 - Construct personal philosophy based on evidence and reason.
 - _Distinguish between useful principles and cultural artifacts._
 
-== Resources &amp; References
+== Resources & References
 
 === Primary Sources
 
-* *Epictetus*, _Discourses and Enchiridion_ <- your most important reading;
-* Marcus Aurelius, _Meditations_ <- your scientific rigor applied here;
-* Seneca, _Letters from a Stoic_ <- your exploratory thinking applied here.
+* *Epictetus*, _Discourses and Enchiridion are_ <-your most important reading;
+* Marcus Aurelius, _Meditations_ <-your scientific rigor applied here;
+* Seneca, _Letters from a Stoic_ <-your exploratory thinking applied here.
 
 === Secondary and Extended Analysis
 
 * Hadot, Pierre, _Philosophy as a Way of Life_.
 * Robertson, Donald, _How to Think Like a Roman Emperor_.
-* Pigliucci, Massimo, _How to Be a Stoic_
+* Pigliucci, Massimo, _How to Be a Stoic_.
 
 === Methodological Framework
 
@@ -222,9 +222,9 @@ Success is measured NOT by memorization of classical texts, but by _**demonstrat
 * Euclid, _Elements_ (axiomatic reasoning).
 * Popper, Karl, _The Logic of Scientific Discovery_ (falsifiability).
 
-== Next Steps
+== Final Steps
 
-*Immediate Priority*: Complete analysis of "Procrastination" theorem by distinguishing:
+*Immediate Priority*: Complete analysis of "the Procrastination" theorem by distinguishing:
 
 . *Harmful Procrastination*: Avoiding necessary action due to fear/laziness
 . *Prudent Deliberation*: Waiting for proper timing or additional information
@@ -232,7 +232,7 @@ Success is measured NOT by memorization of classical texts, but by _**demonstrat
 
 *Week 3-4*: Learning Objectives:
 
-- Synthesize remaining valid principles into coherent framework;
+- Synthesize remaining valid principles into a coherent framework;
 - Establish proper logical ordering of accepted theorems;
 - Document personal philosophical development through course.
 
@@ -242,21 +242,27 @@ Success is measured NOT by memorization of classical texts, but by _**demonstrat
 - *Week 6*: Complete philosophical synthesis.
 - *Remainder of Life*: Refinement of Personal Ethics Domain.
 
-_This course represents advanced philosophical education treating ancient wisdom as living tradition to be critically examined rather than dogmatically accepted.
+_This course represents advanced philosophical education treating ancient wisdom as a living tradition to be critically examined rather than dogmatically accepted.
 The student's willingness to challenge popular interpretations and think independently demonstrates exceptional intellectual maturity and genuine philosophical aptitude.
-Methods discovered and learned here are expected to begin shaping the foundations of person's adult life._
+Methods discovered and learned here are expected to begin shaping the foundations of a person's adult life._
 
 == Final Placement
 
-The student completed full course of study with exceptional rigor and interest.
+The student completed the full course of study with exceptional rigor and interest.
 The student produced additional and optional materials regarding limitations of Epictetus axioms and theorems
 -- this work is documented but not graded.
 
-The student successfully entered life-long maintenance phase.
+The student successfully entered the life-long maintenance phase.
 
-_Note: Total curriculum journey culminated in 11 weeks, not 6 as planned._
+_Note: The total curriculum journey culminated in 11 weeks, not 6 as planned._
 Additional confusion arose from some _modern *populist* Stoicism movements_,
 like the @DailyStoic channel, which is *NOT*, strictly speaking,
 scientific Stoicism. +
 Some confusion originated from false statements by these would-be experts. +
-This is a lesson-learned by both the student and the instructor.
+This is a lesson learned by both the student and the instructor.
+
+== Final Grade and Comments
+
+- ✅ Graded assignment by {rdd13r} on March 27th 2026. *A*
+
+_This is now in the quarterly maintenance phase._

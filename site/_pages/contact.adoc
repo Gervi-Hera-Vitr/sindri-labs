@@ -24,7 +24,7 @@ Please note that one of the easiest methods to open an issue is in *_discussions
 
 -> {discussions}
 
-All school organization discussions are linked to the labs repository.
+All school organization discussions are linked to the lab's repository.
 
 [.lead]
 *We love to collaborate by exchanging ideas through assets.*

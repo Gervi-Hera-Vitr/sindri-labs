@@ -29,7 +29,7 @@ _Most importantly, here kids have freedom to learn, to create, to make mistakes,
 
 The Gervi Héra Vitr curriculum is interdisciplinary, iterative, adaptive, and incremental. +
 All learning is contextualized in real work on real _assets_ and is completely self-paced. +
-There are no semesters, quarters, periods, school years or any other superficial timeframes. +
+There are no semesters, quarters, periods, school years, or any other superficial timeframes. +
 As in colonial times, kids learn continuously regardless of "vacations" because life is continuous.
 
 [.text-center]
@@ -43,18 +43,18 @@ Each student progresses through high-agency _"learning trails"_ that *tightly co
 
 - *Core Scientific Theory*{daidai} (i.e., math, science, philosophy, etc.) -- the fundamentals of thinking;
 - *Maker Practice*{zaizai} (i.e., projects, experiments, µSaaS production, etc.) -- science in motion;
-- and, *Reflection*{captain-fn} by introspection and retrospection (journals, essays, feedback, etc.).
+- and, *Reflection*{captain-fn} by introspection and retrospection (journals, essays, feedback, etc.)
 
 == Core Domains
 
-* #**Philosophy**#{daidai} -- logic, ethics, decision theory, Stoicism <- the foundations of science:
+* #**Philosophy**#{daidai} -- logic, ethics, decision theory, Stoicism <-the foundations of science:
 ** **Mathematics** -- from arithmetic to calculus and proof;
 ** **Physics** -- from Newtonian mechanics to quantum mechanics and relativity;
 ** **Chemistry** -- from acids and bases to organic chemistry and biochemistry;
 ** **Biology** -- from microscopic life to macroscopic ecosystems and evolution;
 ** **Astronomy** -- from the Sun to the Universe and beyond;
 ** **Psychology** -- from cognitive psychology to social psychology and neuroscience.
-* #**Applied Sciences**#{daidai}{zaizai} -- software engineering, artificial intelligence, robotics <- civilization:
+* #**Applied Sciences**#{daidai}{zaizai} -- software engineering, artificial intelligence, robotics <-civilization:
 ** **Business** -- entrepreneurship, marketing, commerce, finance, and personal finances;
 ** **Law & Government** -- herding structures, government forms, ethics, justice, lobbying;
 ** **Leadership & Ethics** -- volunteering, supporting democracy and independence fighters;
@@ -77,7 +77,7 @@ image::/sindri-labs/assets/images/image-philosophy.jpg[Preparation is the key to
 * **No lectures. No tests. No busywork.**
 * Lifelong continued learning is not an achievement but a fundamental necessity.
 * There's no such thing as specialization or preferred focus:
-** A real world objective is selected and the asset for it is created;
+** A real-world objective is selected and the asset for it is created;
 ** Both theoretical and practical learning is applied together to create the asset;
 ** Progress is proven through the quality of the assets, not any "assignments."
 * Every day uses the 80/20 rule to learn to optimize running productivity.
@@ -86,13 +86,13 @@ image::/sindri-labs/assets/images/image-philosophy.jpg[Preparation is the key to
 
 - Learning never stops in real life -- no such things as a vacation from thinking.
 - Breadth of knowledge trumps the depth of knowledge, especially for young adults.
-- Social development trumps intellectual development, this is also more difficult for home schooled kids.
+- Social development trumps intellectual development, this is also more challenging for homeschooled kids.
 
-Considering these factors we use a _"learning trail"_ approach to learning:
+Considering these factors, we use a _"learning trail"_ approach to learning:
 
 - Satisfy just the minimum amount of time the state requires for children to learn each week;
 - Prefer immersive learning integrated with social activities over formalized sit-down study;
-- Make all learning activities fun, interesting, and objective based on real world assets.
+- Make all learning activities fun, interesting, and objective based on real-world assets.
 
 == Curriculum Artifacts
 

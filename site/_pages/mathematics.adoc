@@ -22,21 +22,21 @@ rdd13r
 :warning-caption: ⚠️
 :toc: preamble
 :toclevels: 2
-:toc-title: Mímir Academy Mathematics
-:keywords: Mímir Academy Mathematics
+:toc-title: Mímis Academy Mathematics
+:keywords: Mímis Academy Mathematics
 :imagesdir: ./assets/img
 ifdef::env-name[:relfilesuffix: .adoc]
 
 :philosophers: link:/sindri-labs/philosophers/[Foundations Philosophers,window=_blank]
 
-:fiveable-math: https://library.fiveable.me/history-of-mathematics[fivable a brief history of mathematics,window=_blank]
+:fiveable-math: https://library.fiveable.me/history-of-mathematics[Fiveable: A brief history of mathematics,window=_blank]
 :mathigon-trigonometry: https://mathigon.org/course/triangles/introduction[Mathigon: Trigonometry,window=_blank]
 :mathigon-trigonometry-fn: footnote:[Mathigon: {mathigon-trigonometry}]
 
 :thales: https://en.wikipedia.org/wiki/Thales_of_Miletus[Thales of Miletus,window=_blank]
 :thales-fn: footnote:[Wikipedia article on {thales}]
-:tahles-biography: https://mathshistory.st-andrews.ac.uk/Biographies/Thales/[Thales of Miletus,window=_blank]
-:tahles-biography-fn: footnote:[St Andrews University, Scottland, MacTutor article on {tahles-biography}]
+:thales-biography: https://mathshistory.st-andrews.ac.uk/Biographies/Thales/[Thales of Miletus,window=_blank]
+:thales-biography-fn: footnote:[St Andrews University, Scotland, MacTutor article on {thales-biography}]
 
 :thales-theorem: https://en.wikipedia.org/wiki/Thales%27s_theorem[Thales's theorem,window=_blank]
 :thales-theorem-fn: footnote:[Wikipedia article on {thales-theorem}]
@@ -45,8 +45,8 @@ ifdef::env-name[:relfilesuffix: .adoc]
 
 :pythagoras: https://en.wikipedia.org/wiki/Pythagoras[Pythagoras of Samos,window=_blank]
 :pythagoras-fn: footnote:[Wikipedia article on {pythagoras}]
-:pyhthagoras-biography: https://mathshistory.st-andrews.ac.uk/Biographies/Pythagoras/[Pythagoras of Samos,window=_blank]
-:pyhthagoras-biography-fn: footnote:[St Andrews University, Scottland, MacTutor article on {pyhthagoras-biography}]
+:pythagoras-biography: https://mathshistory.st-andrews.ac.uk/Biographies/Pythagoras/[Pythagoras of Samos,window=_blank]
+:pythagoras-biography-fn: footnote:[St Andrews University, Scotland, MacTutor article on {pythagoras-biography}]
 
 :pythagoras-theorem: https://en.wikipedia.org/wiki/Pythagorean_theorem[Pythagorean theorem,window=_blank]
 :pythagoras-theorem-fn: footnote:[Wikipedia article on {pythagoras-theorem}]
@@ -56,7 +56,7 @@ ifdef::env-name[:relfilesuffix: .adoc]
 :euclid: https://en.wikipedia.org/wiki/Euclid[Euclid of Alexandria,window=_blank]
 :euclid-fn: footnote:[Wikipedia article on {euclid}]
 :euclid-biography: https://mathshistory.st-andrews.ac.uk/Biographies/Euclid/[Euclid of Alexandria,window=_blank]
-:euclid-biography-fn: footnote:[St Andrews University, Scottland, MacTutor article on {euclid-biography}]
+:euclid-biography-fn: footnote:[St Andrews University, Scotland, MacTutor article on {euclid-biography}]
 
 :euclidean-geometry: https://en.wikipedia.org/wiki/Euclidean_geometry[Euclidean geometry,window=_blank]
 :euclidean-geometry-fn: footnote:[Wikipedia article on {euclidean-geometry}]
@@ -66,7 +66,7 @@ ifdef::env-name[:relfilesuffix: .adoc]
 :archimedes: https://en.wikipedia.org/wiki/Archimedes[Archimedes of Syracuse,window=_blank]
 :archimedes-fn: footnote:[Wikipedia article on {archimedes}]
 :archimedes-biography: https://mathshistory.st-andrews.ac.uk/Biographies/Archimedes/[Archimedes of Syracuse,window=_blank]
-:archimedes-biography-fn: footnote:[St Andrews University, Scottland, MacTutor article on {archimedes-biography}]
+:archimedes-biography-fn: footnote:[St Andrews University, Scotland, MacTutor article on {archimedes-biography}]
 :archimedes-the-lost-method: https://en.wikipedia.org/wiki/Archimedes_Palimpsest[Archimedes' Palimpsest - The Lost Method,window=_blank]
 :archimedes-the-lost-method-fn: footnote:[Wikipedia article on {archimedes-the-lost-method}]
 
@@ -88,8 +88,8 @@ ifdef::env-name[:relfilesuffix: .adoc]
 :khayyam-biography-fn: footnote:[St Andrews, MacTutor article on {khayyam-biography}]
 :khayyam-treatise: https://en.wikipedia.org/wiki/Binomial_theorem[Binomial theorem,window=_blank]
 :khayyam-treatise-fn: footnote:[Wikipedia article on {khayyam-treatise}]
-:khayyam-liberabaci: https://en.wikipedia.org/wiki/Liber_Abaci[Liber Abaci,window=_blank]
-:khayyam-liberabaci-fn: footnote:[Wikipedia article on {khayyam-liberabaci}]
+:khayyam-algebra: https://en.wikipedia.org/wiki/Omar_Khayyam#Mathematics[Treatise on Demonstration of Problems of Algebra,window=_blank]
+:khayyam-algebra-fn: footnote:[Wikipedia article on Omar Khayyam's {khayyam-algebra}]
 
 :descartes: https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes[René Descartes,window=_blank]
 :descartes-fn: footnote:[Wikipedia article on {descartes}]
@@ -169,14 +169,14 @@ ifdef::env-name[:relfilesuffix: .adoc]
 :chaitin-biography-fn: footnote:[St Andrews, MacTutor article on {chaitin-biography}]
 
 Our approach to Mathematics is as Lived Thought.
-Similarly for how we moved through Philosophy in previous curriculum iteration.
+Similarly, for how we moved through Philosophy in previous curriculum iteration.
 We will relive a series of personal struggles and breakthroughs by flawed,
 brilliant humans chasing patterns of the universe.
 The main difference between the current and the previous curriculum is that the previous followed an independent study and research format.
-And this iteration is more choreographed and curated experience journeyed together with the mentor and the giants of Mathematics.
-We will experience Mathematics as a human being and not as a subject matter.
+And this iteration is a more choreographed and curated experience journeyed together with the mentor and the giants of Mathematics.
+We will experience Mathematics as a human being and not as a subject.
 
-See _{philosophers}_ ,and +
+See _{philosophers}_, and +
 _{fiveable-math}_.
 
 '''
@@ -188,10 +188,10 @@ _{fiveable-math}_.
 
 > The world as space and form.
 
-* **{thales}**{tahles-biography-fn} -- Geometry from first principles{thales-fn}.
-** Tales and Egypt{thales-theorem-fn}{thales-intercept-theorem-fn} -- {thales-theorem}.
+* **{thales}**{thales-biography-fn} -- Geometry from first principles{thales-fn}.
+** Thales and Egypt{thales-theorem-fn}{thales-intercept-theorem-fn} -- {thales-theorem}.
 ** ... optional side-tour of _Trigonometry_{mathigon-trigonometry-fn}.
-* **{pythagoras}**{pyhthagoras-biography-fn} -- Harmony of numbers{pythagoras-fn}.
+* **{pythagoras}**{pythagoras-biography-fn} -- Harmony of numbers{pythagoras-fn}.
 ** {pythagoras-theorem}.
 * **{euclid}**{euclid-biography-fn} -- Elements and axiomatic method.
 ** {euclidean-geometry}, arriving at _foundations of geometry_{foundations-geometry-fn}.
@@ -202,11 +202,9 @@ _{fiveable-math}_.
 {nbsp}
 
 Fun learning discovery assignments::
-* Reconstruct Archimedes’ circle area proof via inscribed polygons;
+* Reconstruct Archimedes' circle area proof via inscribed polygons;
 * Read fragments of The Method, imagine what was lost.
 * _Fun bonus assignment: map philosophers on the timeline._
-
-#WE ARE HERE.#
 
 == Algebra and Algorithm (800 -- 1200 CE)
 
@@ -221,8 +219,8 @@ Fun learning discovery assignments::
 {nbsp}
 
 Fun learning discovery assignments::
-* Solve problems from {khayyam-liberabaci}.
-* _Compare geometric vs. algebraic solutions (Khayyam’s work)_.
+* Solve problems from {khayyam-algebra}.
+* _Compare geometric vs. algebraic solutions (Khayyam's work)_.
 
 '''
 > Now, with some Geometry and Algebra under our belt, we can tackle motion!
@@ -232,7 +230,7 @@ Fun learning discovery assignments::
 
 == Motion, Change, and Infinity (1600 -- 1750)
 
-> The analysis of nature demanded a new mathematics.
+> The analysis of nature demanded new mathematics.
 
 * **{descartes}**{descartes-biography-fn} -- Analytic geometry: merge algebra + geometry{descartes-fn}.
 * **{cavalieri}**{cavalieri-biography-fn} -- Indivisibles, early integral concepts{cavalieri-fn}.
@@ -243,7 +241,7 @@ Fun learning discovery assignments::
 {nbsp}
 
 Fun learning discovery assignments::
-* Compare Newton's fluxions with Leibniz’s differentials.
+* Compare Newton's fluxions with Leibniz's differentials.
 * Derive derivative of x² using both styles.
 * Graph motion with early velocity equations.
 
@@ -251,7 +249,7 @@ Fun learning discovery assignments::
 
 Notes from the mentor ({rdd13r})::
 * Consider livelihood disparities between {leibniz} and {newton}.
-* Compare the depth and quality in scientific contribution of the two men.
+* Compare the depth and quality in the scientific contribution of the two men.
 * Does this remind you of any other prominent figure pairs in history?
 
 '''
@@ -261,10 +259,10 @@ Notes from the mentor ({rdd13r})::
 
 == Rigor and Foundations (1800 -- 1930)
 
->  The need to defend math from paradox.
+> The need to defend math from paradox.
 
 * **{cauchy}**{cauchy-biography-fn} -- The need to defend math from paradox; rigor in limits and calculus{cauchy-fn}.
-** _Too many papers to list, we will touch on  elementary abelian groups._{cauchy-theorem-fn}.
+** _Too many papers to list, we will touch on elementary abelian groups._{cauchy-theorem-fn}.
 * **{weierstrass}**{weierstrass-biography-fn} -- ε-δ formalism; precision in defining limits and continuity{weierstrass-fn}.
 * **{cantor}**{cantor-biography-fn} -- Infinity, cardinality, set theory; the mathematics of the infinite{cantor-fn}.
 * **{dedekind}**{dedekind-biography-fn} -- Cuts, real numbers; taming the continuum{dedekind-fn}.
@@ -275,17 +273,17 @@ Notes from the mentor ({rdd13r})::
 
 Fun learning discovery assignments::
 * Create an ε-δ proof Captain already produced, now formally.
-* Explain Cantor’s diagonal proof from a personal angle.
-* *_Tell the story of Hilbert’s program and Gödel’s bomb._*
+* Explain Cantor's diagonal proof from a personal angle.
+* *_Tell the story of Hilbert's program and Gödel's bomb._*
 
 '''
-> We not have Symbolic Mathematics -- the real math!
+> We now have Symbolic Mathematics -- the real math!
 
 '''
 
 == Computation and Mind (1930 -- Present)
 
->  What is computable? What is meaning? What is mind?
+> What is computable? What is the meaning? What is mind?
 
 * **{turing}**{turing-biography-fn} -- Computability and logic; the birth of the machine mind{turing-fn}.
 * **{church}**{church-biography-fn} -- Lambda calculus; abstraction and functional reasoning{church-fn}.
@@ -302,8 +300,8 @@ Fun learning discovery assignments::
 
 {nbsp}
 
-Notes from the mentor (DaiDai)::
-* What’s the difference between computability and intelligence?
+Notes from the mentor ({rdd13r})::
+* What's the difference between computability and intelligence?
 * Can a machine reason about itself?
 * Where do you think consciousness fits into this arc?
 
@@ -315,26 +313,26 @@ Notes from the mentor (DaiDai)::
 
 == Next Fundamental Construct: Reasoning about Reasoning
 
->  When symbols can act on symbols, thought becomes architecture.
+> When symbols can act on symbols, thought becomes architecture.
 
 * This is the threshold between computation and meaning-making.
 * We will venture into systems that reason *about* reasoning.
-* What happens when the system knows it’s a system?
+* What happens when the system knows it's a system?
 
 {nbsp}
 
 Coming Next Semester::
 
-* **The Mathematics of Complexity** – emergence, attractors, chaos, and the hidden order in the wild.
-* **Category Theory** – the grammar of structure; functors, morphisms, and monads as thought tools.
-* **Phenomenology and Existential Inquiry** – how human consciousness reflects into our models.
-* **Symbolics and Rewriting Systems** – manipulating meaning as a craft.
-* **Constructive Mathematics and Intuitionism** – truth as a process, not a verdict.
-* **AI as a Mirror** – what our models reveal about the modeler.
+* **The Mathematics of Complexity** -- emergence, attractors, chaos, and the hidden order in the wild.
+* **Category Theory** -- the grammar of structure; functors, morphisms, and monads as thought tools.
+* **Phenomenology and Existential Inquiry** -- how human consciousness reflects into our models.
+* **Symbolics and Rewriting Systems** -- manipulating meaning as a craft.
+* **Constructive Mathematics and Intuitionism** -- truth as a process, not a verdict.
+* **AI as a Mirror** -- what our models reveal about the modeler.
 
 {nbsp}
 
-Notes from the mentor (DaiDai)::
+Notes from the mentor ({rdd13r})::
 * At this level, math is no longer "about" numbers -- it becomes a language for _possibility_.
 * Expect to meet rebels, mystics, hackers, and warrior-scientists.
 * You will not be *taught* this tier -- you must begin to shape it yourself.
@@ -343,7 +341,7 @@ Notes from the mentor (DaiDai)::
 > Finally, at Symbolic Reasoning -- begin crafting the tools that craft the mind.
 
 '''
-_Thereafter deeper dive, omitting for now:_
+_Thereafter, deeper dive, omitting for now:_
 
 * **Recursion & Self-Reference**
 - Systems that reflect and build on themselves
@@ -352,7 +350,11 @@ _Thereafter deeper dive, omitting for now:_
 - Simple rules giving rise to surprising patterns
 - *Expansion on*: cellular automata, fractals, chaos
 * **Duality & Symmetry**
-- Opposites and mirrors to shape deeper structure
+- Opposites and mirrors to shape a deeper structure
 - *Expansion on*: linear duals, category duals, group theory
 
 *_This journey repeats annually, but with a new set of topics to acquire solidity and depth._*
+
+== Final Grade and Comments
+
+_This is recurring learning every semester._
