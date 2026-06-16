@@ -15,11 +15,12 @@ zaizai
 :daidai: footnote:onedaidai[Daddy {rdd13r} as the principal theory mentor]
 :zaizai: footnote:onezaizai[Mama {zaia} as the principal practice mentor]
 :captain-fn: footnote:cptlugaru[Captain {lugaru} as the first prodigy]
+:curriculum-folder: https://github.com/Gervi-Hera-Vitr/sindri-labs/tree/main/curriculum[/sindri-labs/tree/main/curriculum,window=_blank,opts=nofollow]
 
 
-We don’t teach for grades. We don't even have a classroom or a grading system. +
+We don't teach for grades. We don't even have a classroom or a grading system. +
 We build mastery through real work, tested in the field at real businesses. +
-State and Federal offer a secondary assessment systems that kids enjoy beating. +
+State and Federal offer secondary assessment systems that kids enjoy beating. +
 Most universities in the world offer a formal entry exam either private or public. +
 Here, at Gervi Héra Vitr, kids have office, shop, and lab space; tools, machines, and toys. +
 _Most importantly, here kids have freedom to learn, to create, to make mistakes, and grow._
@@ -27,9 +28,9 @@ _Most importantly, here kids have freedom to learn, to create, to make mistakes,
 == Overview
 
 The Gervi Héra Vitr curriculum is interdisciplinary, iterative, adaptive, and incremental. +
-All learning is contextualized in real work on real _assets_ and is completely salf-paced. +
+All learning is contextualized in real work on real _assets_ and is completely self-paced. +
 There are no semesters, quarters, periods, school years or any other superficial timeframes. +
-As in colonial times kids learn continuously regardless of "vacations" because life is continuous.
+As in colonial times, kids learn continuously regardless of "vacations" because life is continuous.
 
 [.text-center]
  Our kids keep a diary of their learning activities and reflections.
@@ -40,8 +41,8 @@ image::/sindri-labs/assets/images/image-posts.jpg[Gervi Héra Vitr kids keep a d
 
 Each student progresses through high-agency _"learning trails"_ that *tightly combine*:
 
-- *Core Scientific Theory*{daidai} (i.e, math, science, philosophy, etc.) -- the fundamentals of thinking;
-- *Maker Practice*{zaizai} (i.e, projects, experiments, µSaaS production, etc.) -- science in motion;
+- *Core Scientific Theory*{daidai} (i.e., math, science, philosophy, etc.) -- the fundamentals of thinking;
+- *Maker Practice*{zaizai} (i.e., projects, experiments, µSaaS production, etc.) -- science in motion;
 - and, *Reflection*{captain-fn} by introspection and retrospection (journals, essays, feedback, etc.).
 
 == Core Domains
@@ -54,7 +55,7 @@ Each student progresses through high-agency _"learning trails"_ that *tightly co
 ** **Astronomy** -- from the Sun to the Universe and beyond;
 ** **Psychology** -- from cognitive psychology to social psychology and neuroscience.
 * #**Applied Sciences**#{daidai}{zaizai} -- software engineering, artificial intelligence, robotics <- civilization:
-** **Business** -- entrepreneurship, marketing, commerce && finance and personal finances;
+** **Business** -- entrepreneurship, marketing, commerce, finance, and personal finances;
 ** **Law & Government** -- herding structures, government forms, ethics, justice, lobbying;
 ** **Leadership & Ethics** -- volunteering, supporting democracy and independence fighters;
 ** **Engineering & AI** -- robotics, machine learning, component printing, circuit design.
@@ -62,7 +63,7 @@ Each student progresses through high-agency _"learning trails"_ that *tightly co
 ** **Systems & Society** -- law, civics, leadership, impact of innovation and adoption curve;
 ** **Languages** -- linguistics, language families and language learning, theory and practice;
 ** **Literature** -- poetry, prose, fiction, selected works of American and world authors;
-** **Performing Arts** — composition, improvisation, choreography, comics, and drama.
+** **Performing Arts** -- composition, improvisation, choreography, comics, and drama.
 
 == Methodology and Philosophy of Pedagogy
 
@@ -89,7 +90,7 @@ image::/sindri-labs/assets/images/image-philosophy.jpg[Preparation is the key to
 
 Considering these factors we use a _"learning trail"_ approach to learning:
 
-- Satisfy just the minimum amount of time state required for children to learn each week;
+- Satisfy just the minimum amount of time the state requires for children to learn each week;
 - Prefer immersive learning integrated with social activities over formalized sit-down study;
 - Make all learning activities fun, interesting, and objective based on real world assets.
 
@@ -97,4 +98,4 @@ Considering these factors we use a _"learning trail"_ approach to learning:
 
 All learning trails and work artifacts live in the GitHub curriculum folder:
 
--> https://github.com/Gervi-Hera-Vitr/sindri-labs/tree/main/curriculum[/sindri-labs/tree/main/curriculum,window=_blank,opts=nofollow]
+-> {curriculum-folder}
