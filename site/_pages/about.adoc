@@ -14,7 +14,7 @@ rdd13r
 :socratic-method: https://en.wikipedia.org/wiki/Socratic_method[Socratic method,window=_blank]
 :socratic-method-fn: footnote:[Wikipedia article on {socratic-method}]
 
-Gervi Héra Vitr is a homeschool in Cary, North Carolina.
+Gervi Héra Vitr is a home school in Cary, North Carolina.
 And this site is its classroom and laboratory repository.
 Our curriculum is built by parents, mentors, and students.
 We care deeply about children's development, autonomy, and competence.

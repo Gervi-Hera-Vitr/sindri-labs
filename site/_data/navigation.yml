@@ -14,5 +14,9 @@ main:
     url: /categories/
   - title: "Tags"
     url: /tags/
+  - title: "Fragments"
+    url: /fragments/
+  - title: "References"
+    url: /references/
   - title: "Projects (external)"
     url: https://github.com/orgs/Gervi-Hera-Vitr/projects/1

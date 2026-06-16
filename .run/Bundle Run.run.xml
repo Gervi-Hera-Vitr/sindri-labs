@@ -13,9 +13,9 @@
     <option name="EXECUTE_SCRIPT_FILE" value="false" />
     <envs />
     <method v="2">
+      <option name="RunConfigurationTask" enabled="true" run_configuration_name="Bundle Install" run_configuration_type="ShConfigurationType" />
       <option name="RunConfigurationTask" enabled="true" run_configuration_name="Bundle Clean" run_configuration_type="ShConfigurationType" />
       <option name="RunConfigurationTask" enabled="true" run_configuration_name="Replicate Attributes" run_configuration_type="ShConfigurationType" />
-      <option name="RunConfigurationTask" enabled="true" run_configuration_name="Bundle Install" run_configuration_type="ShConfigurationType" />
     </method>
   </configuration>
 </component>
