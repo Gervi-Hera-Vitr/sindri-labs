@@ -12,6 +12,8 @@ lugaru
 :page-layout: single
 :page-classes: wide
 
+-> _**{american_literature}**_
+
 The unexpected publication of Harper Lee's _Go Set a Watchman_ in 2015 sparked immediate controversy, initially promoted by its publishers as a long-awaited sequel to the beloved _To Kill a Mockingbird_.
 However, critical analysis and widespread consensus now point to a different truth: _Go Set a Watchman_ is more accurately understood as the original first draft of Lee's Prize-winning novel, rather than a standalone work or a continuation of the narrative.
 This perspective is reinforced not only by allegations that the 89-year-old Lee may have been unduly pressured into its publication, but also by the novel's own content.
@@ -21,12 +23,12 @@ Yet, the Maycomb she encounters is far from the idealized place of her childhood
 As an adult, Jean Louise sees past the comforting veneer of Southern life, confronting the starker, more deeply ingrained racial prejudices held by her friends and even her own family.
 Amidst the Civil Rights Movement and the nation's struggle with evolving racial dynamics, Jean Louise discovers her revered father, Atticus, and her Uncle Jack advocating for segregation and resisting the pace of change.
 This jarring revelation shatters her perception of her childhood heroes, forcing her into a painful reckoning with her family's beliefs and her own moral convictions.
-Ultimately, while Atticus attempts to rationalize his views by suggesting Jean Louise now sees him as merely human, the novel's raw, 
+Ultimately, while Atticus attempts to rationalize his views by suggesting Jean Louise now sees him as merely human, the novel's raw,
 unpolished exploration of these themes further supports the argument that _Go Set a Watchman_ offers a unique glimpse into Harper Lee's original vision and serves as the seminal, unrefined blueprint for _To Kill a Mockingbird_.
 
 == The "Draft" Argument
 
-A careful examination of the publishing histories of _Go Set a Watchman_ and _To Kill a Mockingbird_ reveals a crucial truth: _Go Set a Watchman_ is best understood not as a sequel, 
+A careful examination of the publishing histories of _Go Set a Watchman_ and _To Kill a Mockingbird_ reveals a crucial truth: _Go Set a Watchman_ is best understood not as a sequel,
 but as the original first draft from which Harper Lee's renowned masterpiece eventually emerged.
 This becomes strikingly evident when considering the initial rejection of the manuscript and the subsequent editorial guidance that shaped _To Kill a Mockingbird_.
 
@@ -44,7 +46,7 @@ This contrasts sharply with the Atticus presented in _Go Set a Watchman_, who is
 This darker, more complex portrayal in _Watchman_ necessitates Jean Louise's painful arc of disillusionment and her struggle to reconcile her childhood hero with the flawed man she encounters as an adult.
 The decision to refine Atticus into the more unambiguously heroic figure in _To Kill a Mockingbird_ was a deliberate choice that better suited the narrative perspective of a child and the broader moral message the published novel would convey.
 
-These significant revisions -- from narrative structure and contextual setup to the profound re-characterization of central figures like Atticus -- were essential steps taken before the later draft, 
+These significant revisions -- from narrative structure and contextual setup to the profound re-characterization of central figures like Atticus -- were essential steps taken before the later draft,
 eventually renamed _To Kill a Mockingbird_, was finally approved for publication.
 This historical trajectory unequivocally demonstrates that _Go Set a Watchman_ was, in essence, Harper Lee's original, foundational draft.
 

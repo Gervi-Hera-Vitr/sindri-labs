@@ -5,6 +5,12 @@ header:
   actions:
     - label: "Philosophers"
       url: /philosophers/
+    - label: "Literature"
+      url: /literature/
+    - label: "Mathematics"
+      url: /mathematics/
+    - label: "Science"
+      url: /science/
 categories: [page]
 tags: [graded]
 ---

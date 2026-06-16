@@ -4,6 +4,8 @@ header:
   overlay_filter: 0.2
   caption: ...where ancient wisdom meets modern fluffle innovations
   actions:
+    - label: "Literature"
+      url: /literature/
     - label: "Philosophy"
       url: /philosophy/
     - label: "Mathematics"

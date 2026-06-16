@@ -12,6 +12,7 @@ lugaru
 :page-layout: single
 :page-classes: wide
 
+-> _**{american_literature}**_
 
 == Introduction
 

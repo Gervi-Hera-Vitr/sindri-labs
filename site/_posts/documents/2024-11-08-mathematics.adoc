@@ -2,6 +2,13 @@
 header:
   overlay_image: assets/images/banner-mathematics.jpg
   overlay_filter: 0.2
+  actions:
+    - label: "Literature"
+      url: /literature/
+    - label: "Philosophy"
+      url: /philosophy/
+    - label: "Science"
+      url: /science/
 categories: [page]
 tags: [graded]
 ---

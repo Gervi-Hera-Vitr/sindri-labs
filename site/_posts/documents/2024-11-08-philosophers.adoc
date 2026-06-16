@@ -5,8 +5,12 @@ header:
   actions:
     - label: "Philosophy"
       url: /philosophy/
+    - label: "Literature"
+      url: /literature/
     - label: "Mathematics"
       url: /mathematics/
+    - label: "Science"
+      url: /science/
 categories: [page]
 tags: [graded]
 ---

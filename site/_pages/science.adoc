@@ -3,6 +3,16 @@ header:
   caption: ...reliving Science with "The Living" of it.
   overlay_image: assets/images/banner-ai-labs.jpg
   overlay_filter: 0.2
+  actions:
+    - label: "Literature"
+      url: /literature/
+    - label: "Philosophy"
+      url: /philosophy/
+    - label: "Mathematics"
+      url: /mathematics/
+    - label: "Science"
+      url: /science/
+
 ---
 = Mímis Academy: Science
 rdd13r
