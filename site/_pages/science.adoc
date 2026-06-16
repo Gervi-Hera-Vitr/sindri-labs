@@ -1,6 +1,6 @@
 ---
 header:
-  caption: ...reliving Mathematics with "The Living" of it
+  caption: ...reliving Science with "The Living" of it.
   overlay_image: assets/images/banner-ai-labs.jpg
   overlay_filter: 0.2
 ---
@@ -22,8 +22,8 @@ rdd13r
 :warning-caption: ⚠️
 :toc: preamble
 :toclevels: 2
-:toc-title: Mímir Academy Science
-:keywords: Mímir Academy Science
+:toc-title: Mímis Academy Science
+:keywords: Mímis Academy Science
 :imagesdir: ./assets/img
 ifdef::env-name[:relfilesuffix: .adoc]
 

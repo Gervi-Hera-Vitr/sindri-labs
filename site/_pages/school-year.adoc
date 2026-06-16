@@ -44,15 +44,8 @@ The Academy Instruction Year is planned in three stages.
 
 Schedule Iteration 2.0.7 complete on #Week #28# of 2025.
 
-== v3.0.0 (2025) Academic Year Schedule
-
-* Week 28:
-** STEM: LeetCode - {leetcode-programming-skills}[Programming Skills - Basic Implementation] section.
-** Science: Introduction to Analysis, prelude to Newtonian Mechanics.
-** Humanities: Matrix Trilogy.
-
-
-#We're here: pending the rest of the year copied from notes.#
+- v3.x.x (2025) Academic Year Schedule
+- v4.x.x (2026) Academic Year Schedule
 
 
 == Governing Dynamics of Structured Thought
@@ -114,6 +107,6 @@ Schedule Iteration 2.0.7 complete on #Week #28# of 2025.
 
 [NOTE]
 ====
-The first 8 dynamics are covered in the current journey or in parallel arcs (physics, logic, etc.).
-The final 3 (recursion, emergence, duality) are *optional deeper arcs* you may revisit in future years.
+The first 8 dynamics are covered in the current journey or in parallel arcs (physics, logic, etc.)
+The final 3rd (recursion, emergence, duality) are *optional deeper arcs* you may revisit in future years.
 ====
