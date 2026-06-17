@@ -2,7 +2,7 @@
 header:
   overlay_image: assets/images/banner-philosophy.jpg
   overlay_filter: 0.1
-categories: [school]
+categories: [mathematics]
 tags:
   - mathematics
   - theory
@@ -15,8 +15,13 @@ lugaru
 :stem: asciimath
 :page-layout: single
 :page-classes: wide
-:on-top: link:/school/2025/07/01/On-Mathematics.html[Mathematics - My Research,window=_blank]
+:on-top: link:/sindri-labs/on-mathematics/[On Mathematics]
+:on-prev: link:/sindri-labs/mathematics/2025/07/06/On-Godel-Incompleteness-Theorem.html[Part 5: On Godel's Incompleteness Theorem]
+:on-next: link:/sindri-labs/mathematics/2025/07/11/On-Set-Theory.html[Part 7: Russell's Paradox]
 
+← _**{on-prev}**_ +
+_**{on-next}**_ → +
+↑ _**{on_mathematics}**_ | ⇈ _**{mathematics}**_
 
 [.lead]
 The theory of computation is a branch of theoretical computer science and mathematics that explores what problems can be solved using algorithms on computational models and how efficiently these problems can be solved.
@@ -36,7 +41,7 @@ Other notable models include:
 
 - Lambda calculus.
 - Combinatory logic.
-- μ-recursive functions.
+- `μ-recursive` functions.
 - Markov algorithms.
 - Register machines.
 
@@ -72,9 +77,9 @@ It addresses what problems are solvable in principle:
 This field examines the efficiency of algorithms. Major concepts include:
 
 - Time and space complexity.
-- Big O notation.
-- Complexity classes like P and NP.
-- The P vs NP problem: One of the Millennium Prize Problems.
+- Big `O` notation.
+- Complexity classes like `P` and `NP`.
+- The `P` vs `NP` problem: One of the Millennium Prize Problems.
 
 Complexity theory categorizes problems based on the resources required for their solution.
 

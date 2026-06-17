@@ -54,6 +54,8 @@ asciidoctor:
     munchkin                : 'http://www.catb.org/jargon/html/M/munchkin.html[munchkin,window=_blank]'
     rdd13r                  : 'https://github.com/rdd13r/[DaiDai,window=_blank]'
     american_literature     : 'link:/sindri-labs/literature/#american-literature[American Literature,window=_blank]'
+    mathematics             : 'link:/sindri-labs/mathematics/[Mathematics,window=_blank]'
+    on_mathematics          : 'link:/sindri-labs/on-mathematics/[On Mathematics,window=_blank]'
 
 
 ### Plugins

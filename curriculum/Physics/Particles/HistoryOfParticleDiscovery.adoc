@@ -2,15 +2,15 @@
 
 == Origin of the Concept and Democritus and Atomos
 
-The idea that matter consists of tiny, indivisible units — what we now call "particles" — first appeared in Greek atomism:
+The idea that matter consists of tiny, indivisible units -- what we now call "particles" -- first appeared in Greek atomism:
 
 Leucippus was a Pre-Socratic Philosopher(century BCE) is credited with originating the atomic philosophy.
 Known for the principle: "Nothing happens at random; everything occurs for a reason and out of necessity".
 He proposed that atoms are infinite in number, unchangeable, and possess various shapes and sizes, which collide and reorganize to create different things.
-His student Democritus (c. 460–370 BCE) developed and popularized it. He proposed that everything is made of atomos (Greek for "indivisible" or "uncuttable") — small, hard, eternal particles moving through empty space (the void). These atoms differed in shape, size, and arrangement, explaining the variety of matter and its properties (e.g., sharp atoms for sour tastes).
+His student Democritus (c. 460–370 BCE) developed and popularized it. He proposed that everything is made of atomos (Greek for "indivisible" or "uncuttable") -- small, hard, eternal particles moving through empty space (the void). These atoms differed in shape, size, and arrangement, explaining the variety of matter and its properties (e.g., sharp atoms for sour tastes).
 
 == Revival in the Scientific Revolution
-Gassendi — a French Catholic priest, philosopher, and astronomer — was the single most important figure in bringing atoms back.
+Gassendi -- a French Catholic priest, philosopher, and astronomer -- was the single most important figure in bringing atoms back.
 
 He spent decades studying the ancient Epicurean texts (Epicurus had built on Democritus).
 In works like Animadversiones in decimum librum Diogenis Laertii (1649) and his massive posthumous Syntagma Philosophicum (1658), Gassendi revived atomism but carefully removed its pagan/atheistic baggage.
@@ -19,7 +19,7 @@ His clever fix: God created the atoms at the beginning of time and gave them the
 
 Isaac Newton (1643–1727): Particles become the foundation of classical physics
 
-Newton took Gassendi's ideas and ran with them — especially in his book Opticks (published 1704, written in English so it reached a wide audience).
+Newton took Gassendi's ideas and ran with them -- especially in his book Opticks (published 1704, written in English so it reached a wide audience).
 
 In Opticks, Newton explicitly endorsed the corpuscular (particle) theory of light. He argued that light consists of tiny material "corpuscles" (particles) that travel in straight lines, bounce off surfaces (reflection), and bend when entering new media (refraction)
 

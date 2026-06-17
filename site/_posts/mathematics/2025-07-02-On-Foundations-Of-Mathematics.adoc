@@ -2,7 +2,7 @@
 header:
   overlay_image: assets/images/banner-philosophy.jpg
   overlay_filter: 0.1
-categories: [school]
+categories: [mathematics]
 tags:
   - mathematics
   - theory
@@ -16,42 +16,48 @@ lugaru
 :page-layout: single
 :page-classes: wide
 :peano-axioms: https://en.wikipedia.org/wiki/Peano_axioms[Peano Axioms,window=_blank]
-:on-sets: link:/sindri-labs/school/2025/07/11/On-Set-Theory.html[On Sets,window=_blank]
-:on-top: link:/sindri-labs/school/2025/07/01/On-Mathematics.html[Mathematics - My Research,window=_blank]
-:on-next: link:/sindri-labs/school/2025/07/03/On-Mathematics-Set-Theory.html[Mathematics - Part 2: Set Theory,window=_blank]
+:on-sets: link:/sindri-labs/mathematics/2025/07/11/On-Set-Theory.html[On Sets,window=_blank]
+:on-top: link:/sindri-labs/on-mathematics/[On Mathematics]
+:on-next: link:/sindri-labs/mathematics/2025/07/03/On-Mathematics-Set-Theory.html[Mathematics - Part 2: Set Theory]
+
+_**{on-next}**_ → | ↑ _**{on_mathematics}**_ | ⇈ _**{mathematics}**_
 
 _This exploratory research work is graded A on July 10th, 2025._
 
 == What is Mathematical Logic?
 
 Mathematical logic::
-is a subfield of mathematics exploring formal systems in relation to the way we reason. It provides tools to analyze the structure of arguments, statements, and proofs.
+Is a subfield of mathematics exploring formal systems in relation to the way we reason.
+It provides tools to analyze the structure of arguments, statements, and proofs.
 
 Major subareas::
-include model theory, proof theory, set theory, and recursion theory (also known as computability theory).
-Research in mathematical logic commonly addresses the mathematical properties of formal systems of logic such as their expressive or deductive power.
+Include model theory, proof theory, set theory, and recursion theory, (also known as computability theory).
+Research in mathematical logic commonly addresses the mathematical properties of +
+the _Formal Systems of Logic_,  +
+such as their expressive or deductive power.
 However, it can also include uses of logic to characterize correct mathematical reasoning or to establish foundations of mathematics.
 
 == Propositional Logic
 
 .Propositions and Logical Connectives in Mathematical Logic
-[cols="1,1,2,2", options="header"]
+[cols="1,1,2,2",options="header"]
 |===
 | Symbol | Name          | Operation Example | Meaning
 
-| ¬      | Negation      | ¬P                | "not P"
-| ∧      | Conjunction   | P ∧ Q             | "P and Q"
-| ∨      | Disjunction   | P ∨ Q             | "P or Q" (inclusive)
-| →      | Implication   | P → Q             | "Whenever P then Q"
-| ↔      | Biconditional | P ↔ Q             | "P if and only if Q" (iff)
+| ¬      | Negation      | `¬P`              | "not P"
+| ∧      | Conjunction   | `P ∧ Q`           | "P and Q"
+| ∨      | Disjunction   | `P ∨ Q`           | "P or Q" (inclusive)
+| →      | Implication   | `P → Q`           | "Whenever P then Q"
+| ↔      | Biconditional | `P ↔ Q`           | "P if and only if Q" (iff)
 |===
 
 == What is Propositional Calculus?
 
-Propositional calculus:: is a branch of logic. It is also called propositional logic.
+Propositional calculus:: It is a branch of logic. It is also called propositional logic.
 
-
-Mathematical logic is also the study of truths in mathematical statements. These are called propositions — a claim that is either true or false. A mix of these create propositional logic.
+Mathematical logic is also the study of truths in mathematical statements.
+These are called propositions -- a claim that is either true or false.
+A mix of these creates propositional logic.
 
 Example of a proposition: `2 + 2 = 4`
 This can only be either true or false.
@@ -61,39 +67,39 @@ This can only be either true or false.
 These are some standard notations for propositional logic.
 
 .Logical Connectives and Operations
-[cols="1,2,2,5", options="header"]
+[cols="1,2,4,4",options="header"]
 |===
-| Operator | Name | Alternate Symbols | Truth Condition
+| Operator          | Name                  | Alternate Symbols                  | Truth Condition
 
-| AND | Conjunction | A ∧ B, A · B, AB, A & B, A && B | True if both A and B are true.
-| OR | Disjunction | A ∨ B, A + B, A ∣ B, A ∥ B | True if at least one of A or B is true.
-| NOT | Negation | ¬A, −A, Ā, ~A, !A | True if A is false.
-| IMPLIES | Implication | A → B, A ⇒ B, A ⊃ B | False only if A is true and B is false.
-| EQUIVALENT | Biconditional | A ⇔ B, A ≡ B, A ↔ B, A ⟺ B | True if A and B are logically equivalent.
-| XOR | Exclusive OR | A ⊕ B, A ⊻ B, A ⩒̅ B | True if exactly one of A or B is true.
-| XNOR | Exclusive NOR | A ⊙ B, ¬(A ⊕ B), A ≡ B | True if both A and B are equal.
-| NAND | Not AND | ¬(A ∧ B), A ↑ B | True unless both A and B are true.
-| NOR | Not OR | ¬(A ∨ B), A ↓ B | True if neither A nor B is true.
-| NONEQUIVALENT | Negated Biconditional| A ≢ B, A ⇎ B, A ↮ B | True if A and B have different truth values.
+| AND               | Conjunction           | `A ∧ B, A · B, AB, A & B, A && B`  | True if both A and B are true.
+| OR                | Disjunction           | `A ∨ B, A + B, A ∣ B, A ∥ B`       | True if at least one of A or B is true.
+| NOT               | Negation              | `¬A, −A, Ā, ~A, !A`                | True if A is false.
+| IMPLIES           | Implication           | `A → B, A ⇒ B, A ⊃ B`              | False only if A is true and B is false.
+| EQUIVALENT        | Biconditional         | `A ⇔ B, A ≡ B, A ↔ B, A ⟺ B`      | True if A and B are logically equivalent.
+| XOR               | Exclusive OR          | `A ⊕ B, A ⊻ B, A ⩒̅ B`              | True if exactly one of A or B is true.
+| XNOR              | Exclusive NOR         | `A ⊙ B, ¬(A ⊕ B), A ≡ B`           | True if both A and B are equal.
+| NAND              | Not AND               | `¬(A ∧ B), A ↑ B`                  | True unless both A and B are true.
+| NOR               | Not OR                | `¬(A ∨ B), A ↓ B`                  | True if neither A nor B is true.
+| NONEQUIVALENT     | Negated Biconditional | `A ≢ B, A ⇎ B, A ↮ B`              | True if A and B have different truth values.
 |===
 
  The table above in a reference.
  In my actual work I use :stem: notation instead.
 
 .Types of Numbers in Mathematics
-[cols="1,3,4", options="header"]
+[cols="1,3,4",options="header"]
 |===
 | Symbol | Name | Description / Example
 
-| ℕ | Natural Numbers | {0, 1, 2, 3, ...} — Counting numbers.
-| ℤ | Integers | {..., -2, -1, 0, 1, 2, ...} — Whole numbers and their negatives.
-| ℚ | Rational Numbers | Numbers that can be expressed as a/b, where a, b ∈ ℤ, b ≠ 0.
+| ℕ | Natural Numbers | `{0, 1, 2, 3, ...}` -- Counting numbers.
+| ℤ | Integers | `{..., -2, -1, 0, 1, 2, ...}` -- Whole numbers and their negatives.
+| ℚ | Rational Numbers | Numbers that can be expressed as `a/b`, where `a, b ∈ ℤ`, `b ≠ 0`.
 | ℝ | Real Numbers | All rational and irrational numbers.
-| ℂ | Complex Numbers | a + bi, where i = √-1.
-| ℍ | Quaternions | a + bi + cj + dk — Extension of complex numbers.
+| ℂ | Complex Numbers | `a + bi`, where `i = √-1`.
+| ℍ | Quaternions | `a + bi + cj + dk` -- Extension of complex numbers.
 | ℙ | Prime Numbers | Natural numbers greater than 1 with no divisors other than 1 and itself.
 | ℙ* | Probable Primes | Numbers that pass a primality test but not definitively proven prime.
-| 𝕋 | Transcendental Numbers | Numbers not roots of any polynomial with integer coefficients (e.g. π, e).
+| 𝕋 | Transcendental Numbers | Numbers not roots of any polynomial with integer coefficients (e.g. `π`, `e`).
 | 𝔸 | Algebraic Numbers | Solutions to polynomials with integer coefficients (includes rationals, some irrationals).
 | 𝕌 | Unit Circle Numbers | Complex numbers with modulus 1 (roots of unity).
 | 𝕆 | Octonions | 8-dimensional number system generalizing quaternions.
@@ -101,23 +107,23 @@ These are some standard notations for propositional logic.
 |===
 
 .∀ Quantifiers and Set Relations
-[cols="1,2,4", options="header"]
+[cols="1,2,4",options="header"]
 |===
 | Symbol | Name | Mathematical Meaning
 
-| ∃ | Existential Quantifier | "There exists". Example: ∃x ∈ ℝ: x² = 4 ⇒ true.
-| ∃! | Uniqueness Quantifier | "There exists exactly one". Example: ∃!x: x + 1 = 2
-| ∀ | Universal Quantifier | "For all". Example: ∀x ∈ ℕ, x ≥ 0
-| ∈ | Element of | x ∈ A: x is a member of set A.
-| ∉ | Not an Element of | x ∉ A: x is not in A.
-| ⊂ | Proper Subset | A ⊂ B: all A in B, A ≠ B.
-| ⊆ | Subset | A ⊆ B: all A in B, possibly A = B.
-| ⊄ | Not a Subset | A ⊄ B: A is not subset of B.
-| ⊃ | Proper Superset | A ⊃ B: A has all elements of B and more.
-| ⊇ | Superset | A ⊇ B: A contains B, possibly equal.
-| ∪ | Union | A ∪ B: Set of elements in A, B, or both.
-| ∩ | Intersection | A ∩ B: Elements common to A and B.
-| \ | Set Difference | A \ B: Elements in A not in B.
+| ∃ | Existential Quantifier | "There exists". Example: `∃x ∈ ℝ: x² = 4 ⇒ true`.
+| ∃! | Uniqueness Quantifier | "There exists exactly one". Example: `∃!x: x + 1 = 2`
+| ∀ | Universal Quantifier | "For all". Example: `∀x ∈ ℕ, x ≥ 0`
+| ∈ | Element of | `x ∈ A`: x is a member of set A.
+| ∉ | Not an Element of | `x ∉ A`: x is not in A.
+| ⊂ | Proper Subset | `A ⊂ B`: all A in B, `A ≠ B`.
+| ⊆ | Subset | `A ⊆ B`: all A in B, possibly `A = B`.
+| ⊄ | Not a Subset | `A ⊄ B`: A is not subset of B.
+| ⊃ | Proper Superset | `A ⊃ B`: A has all elements of B and more.
+| ⊇ | Superset | `A ⊇ B`: A contains B, possibly equal.
+| ∪ | Union | `A ∪ B`: Set of elements in A, B, or both.
+| ∩ | Intersection | `A ∩ B`: Elements common to A and B.
+| \ | Set Difference | `A \ B`: Elements in A not in B.
 | ∅ | Empty Set | A set containing no elements.
 | ℘ | Power Set | Set of all subsets of a set.
 |===
@@ -139,7 +145,7 @@ In mathematics and logic, axioms are fundamental to building formal systems. The
 
 Logical Axioms::
 are formulas within a formal language that are universally valid.
-These are tautologies—statements that are always true regardless of the truth values of their components.
+These are tautologies--statements that are always true regardless of the truth values of their components.
 They form the backbone of logical systems.
 
 Examples include:

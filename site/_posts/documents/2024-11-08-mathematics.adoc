@@ -3,10 +3,14 @@ header:
   overlay_image: assets/images/banner-mathematics.jpg
   overlay_filter: 0.2
   actions:
-    - label: "Literature"
-      url: /literature/
+    - label: "My Work: On Mathematics"
+      url: /on-mathematics/
+    - label: "Philosophers"
+      url: /philosophers/
     - label: "Philosophy"
       url: /philosophy/
+    - label: "Literature"
+      url: /literature/
     - label: "Science"
       url: /science/
 categories: [page]

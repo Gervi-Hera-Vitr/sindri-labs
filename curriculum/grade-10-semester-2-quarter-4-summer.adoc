@@ -80,7 +80,7 @@ Pronunciation and alphabet, ~2000 highest-frequency words (covers 80%+ of speech
 == Computer Science
 NOTE: Python.
 
-Data structures (arrays, hashmaps, linked lists, stacks, queues, trees, graph basics), algorithms (sorting, searching, recursion, intro to dynamic programming), Big-O notation, object-oriented programming concepts, Git/version control, command line / Linux basics, HTTP and web fundamentals, ideally a second language (Python — different paradigm from JS, useful for data/ML later).
+Data structures (arrays, hashmaps, linked lists, stacks, queues, trees, graph basics), algorithms (sorting, searching, recursion, intro to dynamic programming), Big-O notation, object-oriented programming concepts, Git/version control, command line / Linux basics, HTTP and web fundamentals, ideally a second language (Python -- different paradigm from JS, useful for data/ML later).
 
 == Reasoning & Meta-skills
 

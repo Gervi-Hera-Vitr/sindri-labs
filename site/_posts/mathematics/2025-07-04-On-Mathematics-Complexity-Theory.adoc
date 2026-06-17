@@ -2,7 +2,7 @@
 header:
   overlay_image: assets/images/banner-philosophy.jpg
   overlay_filter: 0.1
-categories: [school]
+categories: [mathematics]
 tags:
   - mathematics
   - theory
@@ -15,9 +15,14 @@ lugaru
 :stem: asciimath
 :page-layout: single
 :page-classes: wide
-:on-sets: link:/sindri-labs/school/2025/07/11/On-Set-Theory.html[On Sets,window=_blank]
-:on-top: link:/sindri-labs/school/2025/07/01/On-Mathematics.html[Mathematics - My Research,window=_blank]
-:on-next: link:/sindri-labs/school/2025/07/05/On-Mathematics-Category-Theory.html[Mathematics - Part 4: Category Theory,window=_blank]
+:on-sets: link:/sindri-labs/mathematics/2025/07/11/On-Set-Theory.html[On Sets,window=_blank]
+:on-top: link:/sindri-labs/on-mathematics/[On Mathematics]
+:on-prev: link:/sindri-labs/mathematics/2025/07/03/On-Mathematics-Set-Theory.html[Mathematics - Part 2: Set Theory]
+:on-next: link:/sindri-labs/mathematics/2025/07/05/On-Mathematics-Category-Theory.html[Mathematics - Part 4: Category Theory]
+
+← _**{on-prev}**_ +
+_**{on-next}**_ → +
+↑ _**{on_mathematics}**_ | ⇈ _**{mathematics}**_
 
 Complexity theory::
 
@@ -35,15 +40,15 @@ Emergence describes how novel structures arise as simple components interact.
 
 This area incorporates:
 
-- Information theory — interpreting organization in terms of entropy.
-- Physics — studies on synchronization and pattern formation.
-- Chemistry — models of dissipative and far-from-equilibrium systems.
+- Information theory -- interpreting organization in terms of entropy.
+- Physics -- studies on synchronization and pattern formation.
+- Chemistry -- models of dissipative and far-from-equilibrium systems.
 - Tools such as agent-based modeling help simulate how local rules give rise to emergent global patterns.
 
 === Nonlinear Systems and Chaos Theory
 
 Nonlinear dynamics:: are inherent to most complex systems.
-Originating in mathematics and physics, this field examines how small changes can produce disproportionately large effects — exemplified by the butterfly effect.
+Originating in mathematics and physics, this field examines how small changes can produce disproportionately large effects -- exemplified by the butterfly effect.
 
 Chaos theory::
 challenged the Newtonian reliance on equilibrium and predictability,
@@ -68,20 +73,20 @@ Examples include fish schools, markets, and international relations.
 
 Key components:
 
-- Cybernetics — theories of regulation and control.
-- Game theory — models of interaction, competition, and cooperation.
-- Evolutionary theory — population-level adaptation over life cycles.
+- Cybernetics -- theories of regulation and control.
+- Game theory -- models of interaction, competition, and cooperation.
+- Evolutionary theory -- population-level adaptation over life cycles.
 - CAS research incorporates tools such as evolutionary game theory, fitness landscapes, and genetic algorithms.
 
 === Context and Significance
 
 Complexity theory:: challenges the Newtonian worldview by addressing systems that are inherently nonlinear and not reducible to parts.
-Scholarpedia describes it as a "post-Newtonian paradigm" — a necessary shift as 21st-century science tackles ecological, economic, and sociopolitical complexity.
+Scholarpedia describes it as a "post-Newtonian paradigm" -- a necessary shift as 21st-century science tackles ecological, economic, and sociopolitical complexity.
 
 === Summary
 
 Complexity theory:: brings together diverse models and methods to understand how order, structure, and change emerge in highly interconnected and dynamic systems.
-Its four major frameworks — self-organization, nonlinear systems, network theory, and adaptive systems — form a foundation for studying complexity across scientific domains.
+Its four major frameworks -- self-organization, nonlinear systems, network theory, and adaptive systems -- form a foundation for studying complexity across scientific domains.
 
 As a post-Newtonian science, it helps extend our understanding of nature and society beyond the limits of classical models.
 

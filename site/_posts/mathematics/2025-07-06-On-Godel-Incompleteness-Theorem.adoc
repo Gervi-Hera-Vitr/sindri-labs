@@ -2,7 +2,7 @@
 header:
   overlay_image: assets/images/banner-philosophy.jpg
   overlay_filter: 0.1
-categories: [school]
+categories: [mathematics]
 tags:
   - mathematics
   - theory
@@ -15,9 +15,6 @@ lugaru
 :stem: asciimath
 :page-layout: single
 :page-classes: wide
-:on-sets: link:/sindri-labs/school/2025/07/11/On-Set-Theory.html[On Sets,window=_blank]
-:on-top: link:/sindri-labs/school/2025/07/01/On-Mathematics.html[Mathematics - My Research,window=_blank]
-:on-next: link:/sindri-labs/school/2025/07/07/On-Computation-Theory.html[Part 6: Computation Theory,window=_blank]
 :godel: https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems[Gödel's Incompleteness Theorems,window=_blank]
 :godel-ff: footnote:[Wikipedia article on {godel}]
 :godel-1: https://en.wikipedia.org/wiki/Proof_sketch_for_G%C3%B6del%27s_first_incompleteness_theorem[Proof sketch for Gödel's first incompleteness theorem,window=_blank]
@@ -28,21 +25,26 @@ lugaru
 :turing-proof-ff: footnote:[Copy of A. M. Turing proof of the Halting Problem, 1936, {turing-proof}]
 :halting-problem: https://en.wikipedia.org/wiki/Halting_problem[Halting problem,window=_blank]
 :halting-problem-ff: footnote:[Wikipedia article on {halting-problem}]
-:on-top: link:/sindri-labs/school/2025/07/01/On-Mathematics.html[Mathematics - My Research,window=_blank]
-:on-next: link:/sindri-labs/school/2025/07/07/On-Computation-Theory.html[Part 6: Computation Theory,window=_blank]
+:on-sets: link:/sindri-labs/mathematics/2025/07/11/On-Set-Theory.html[On Sets,window=_blank]
+:on-top: link:/sindri-labs/on-mathematics/[On Mathematics]
+:on-prev: link:/sindri-labs/mathematics/2025/07/05/On-Mathematics-Category-Theory.html[Part 4: Category Theory]
+:on-next: link:/sindri-labs/mathematics/2025/07/07/On-Computation-Theory.html[Part 6: Computation Theory]
 
+← _**{on-prev}**_ +
+_**{on-next}**_ → +
+↑ _**{on_mathematics}**_ | ⇈ _**{mathematics}**_
 
 [.lead]
-Gödel’s Incompleteness Theorem is one of the most profound discoveries in mathematics. 
-It reveals that in any consistent axiomatic system capable of expressing arithmetic, there exist true statements that are unprovable within that system. 
+Gödel's Incompleteness Theorem is one of the most profound discoveries in mathematics.
+It reveals that in any consistent axiomatic system capable of expressing arithmetic, there exist true statements that are unprovable within that system.
 This challenges the very notion of mathematical certainty.
 
 == From Paradox to Proof
 
 Consider the classic paradox: +
 "This statement is false." +
-If true, then it’s false; +
-{nbsp}if false, then it’s true.
+If true, then it's false; +
+{nbsp}if false, then it's true.
 
 Such self-referential statements create logical loops.
 
@@ -51,7 +53,7 @@ By encoding statements as numbers, he constructed a mathematical version:
 "This statement cannot be proved."
 Unlike linguistic paradoxes, mathematical statements must be either true or false.
 
-== Gödel’s Strategy: Gödel Numbering
+== Gödel's Strategy: Gödel Numbering
 
 Gödel devised a method to assign unique code numbers to mathematical statements and proofs:
 
@@ -62,13 +64,13 @@ This allows mathematics to refer to itself.{godel-ff}
 
 == The Unprovable Truth
 
-*Gödel’s key construction:*
+*Gödel's key construction:*
 
 "This statement cannot be proved from the axioms."
 
 *Analyzing this:*
 
-If false → it’s provable → contradiction → must be true.
+If false → it's provable → contradiction → must be true.
 
 _Therefore, it's a true but unprovable statement within the system._
 
@@ -81,7 +83,7 @@ _Therefore, it's a true but unprovable statement within the system._
 == Philosophical and Historical Context
 
 Mathematicians once believed every truth could be proved. +
-Gödel’s theorem upended this view, revealing fundamental limits.
+Gödel's theorem upended this view, revealing fundamental limits.
 
 Gödel worked at Princeton alongside Einstein, who deeply respected his intellect. +
 His theorems, published in 1931, marked a revolution in logic.
@@ -96,7 +98,7 @@ His theorems, published in 1931, marked a revolution in logic.
 
 _Euclidean and non-Euclidean geometry demonstrate how changing axioms can lead to different, yet consistent, mathematical systems._
 
-== Gödel’s First and Second Incompleteness Theorems
+== Gödel's First and Second Incompleteness Theorems
 
 *First Theorem:*{godel-1-ff} +
 {nbsp} _In any consistent, sufficiently expressive system (e.g., number theory), there are true statements that cannot be proved within that system._
@@ -108,7 +110,7 @@ _These results showed that mathematics cannot be reduced to a complete algorithm
 
 == Impact on Computation and Logic
 
-Alan Turing, working concurrently, proved{turing-proof-ff} the Halting Problem{halting-problem-ff} is unsolvable -- reinforcing Gödel’s insights.
+Alan Turing, working concurrently, proved{turing-proof-ff} the Halting Problem{halting-problem-ff} is unsolvable -- reinforcing Gödel's insights.
 These ideas founded modern computer science and formalized the limitations of algorithmic reasoning.
 
 == Beyond Gödel: Emergence and Perception
@@ -121,14 +123,14 @@ Questions remain about emergence and perception in systems like cellular automat
 
 == Goldbach, Riemann, and Real-World Conjectures
 
-Initially thought to affect only abstract logic, Gödel’s theorem also impacts number theory.
+Initially thought to affect only abstract logic, Gödel's theorem also impacts number theory.
 
-- *Goldbach’s Conjecture:* May be true yet unprovable.
+- *Goldbach's Conjecture:* May be true yet unprovable.
 - *Riemann Hypothesis:* If undecidable, must be true (since its falsehood would be provable).
 
 == Mathematics as an Open-Ended Process
 
-Gödel’s work invites us to view mathematics not as a closed system, but an evolving, creative enterprise.
+Gödel's work invites us to view mathematics not as a closed system, but an evolving, creative enterprise.
 Just as physics evolved from Newton to Einstein, our understanding of computation and proof may shift with future insights.
 
 == Subjectivity and Limits of Knowledge
@@ -140,12 +142,12 @@ Human perception, biases, and unconscious influences affect even formal reasonin
 
 == Summary
 
-- Gödel’s theorems reveal a gap between truth and proof.
+- Gödel's theorems reveal a gap between truth and proof.
 - No consistent, complete system can prove all mathematical truths.
 - Formal systems are limited by their own structure.
 - Mathematics, like reality, may remain partly unknowable.
 
-_Gödel’s legacy reshaped logic, mathematics, and computer science—reminding us that even in structured thought, mystery remains._
+_Gödel's legacy reshaped logic, mathematics, and computer science--reminding us that even in structured thought, mystery remains._
 
 - {on-next}
 - {on-top}

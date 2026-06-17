@@ -4,11 +4,11 @@
 :icons: font
 :stem: latexmath
 
-A reconciliation map between Algebra 1 (the foundation you should already own) and Algebra 2 (where you're actually headed). Use Algebra 1 as a diagnostic — don't re-grind what's already solid.
+A reconciliation map between Algebra 1 (the foundation you should already own) and Algebra 2 (where you're actually headed). Use Algebra 1 as a diagnostic -- don't re-grind what's already solid.
 
-TIP: Each topic has a *Practice* block. Try them before peeking at any solutions — getting stuck is where the learning happens. If a topic feels trivial, skip the drills and move on.
+TIP: Each topic has a *Practice* block. Try them before peeking at any solutions -- getting stuck is where the learning happens. If a topic feels trivial, skip the drills and move on.
 
-== Algebra 1 — Foundation
+== Algebra 1 -- Foundation
 
 Verify with a diagnostic. Anything shaky here will hurt in Algebra 2.
 
@@ -112,10 +112,10 @@ Sometimes tacked on at the end.
 . A bag has 3 red and 5 blue marbles. What is the probability of drawing red?
 . Plot stem:[(1,2), (2,4), (3,5), (4,8)] on a scatter plot. Describe the correlation and estimate a line of best fit.
 
-== Algebra 2 — Where You're Headed
+== Algebra 2 -- Where You're Headed
 
 === Equations & Inequalities Review
-Fast pass — Algebra 1 carryover.
+Fast pass -- Algebra 1 carryover.
 
 .Practice
 . Solve: stem:[5 - 2(3x - 4) = 7].
@@ -234,9 +234,9 @@ Some Algebra 2 courses include the basics; others push it to Pre-Calc.
 . In a 30-60-90 triangle with hypotenuse 10, find the two legs.
 . In a right triangle, one acute angle is stem:[35°] and the opposite side is 12. Find the adjacent side (use a calculator).
 
-== Resources — How To Actually Learn This
+== Resources -- How To Actually Learn This
 
-Picked for depth over polish. Khan Academy is here for gap-checking only — it's procedural and shallow on the _why_. The rest treat you like a mathematician.
+Picked for depth over polish. Khan Academy is here for gap-checking only -- it's procedural and shallow on the _why_. The rest treat you like a mathematician.
 
 === Video Courses
 
@@ -244,21 +244,21 @@ Picked for depth over polish. Khan Academy is here for gap-checking only — it'
 |===
 | Resource | Cost | Why this one
 
-| *Professor Leonard* — Intermediate & College Algebra (YouTube)
+| *Professor Leonard* -- Intermediate & College Algebra (YouTube)
 | Free
 | Full lecture series. Derives everything, no hand-waving. Best single video resource for Algebra 2 end-to-end.
 
-| *3Blue1Brown* — Lockdown Math, Essence of Linear Algebra, complex number videos
+| *3Blue1Brown* -- Lockdown Math, Essence of Linear Algebra, complex number videos
 | Free
 | Geometric intuition behind symbol manipulation. Watch his logarithm and complex number videos when those walls hit.
 
-| *MIT OCW — Highlights of Calculus* (Gilbert Strang)
+| *MIT OCW -- Highlights of Calculus* (Gilbert Strang)
 | Free
 | Strang explains structure, not steps. Shows algebra in service of higher math.
 
-| *Khan Academy* — Algebra 1 & 2
+| *Khan Academy* -- Algebra 1 & 2
 | Free
-| Use as a diagnostic and fluency drill. Not a primary text — it's procedural.
+| Use as a diagnostic and fluency drill. Not a primary text -- it's procedural.
 |===
 
 === Textbooks
@@ -267,19 +267,19 @@ Picked for depth over polish. Khan Academy is here for gap-checking only — it'
 |===
 | Resource | Cost | Why this one
 
-| *Gelfand — Algebra*
+| *Gelfand -- Algebra*
 | ~$25
 | Slim, rigorous, every problem earns its place. Written by a Fields-tier mathematician for serious students. Start here.
 
-| *Gelfand — Functions and Graphs* + *The Method of Coordinates*
+| *Gelfand -- Functions and Graphs* + *The Method of Coordinates*
 | ~$20 each
-| Companions to _Algebra_. Build the geometric half — functional thinking, conics, coordinate geometry — properly.
+| Companions to _Algebra_. Build the geometric half -- functional thinking, conics, coordinate geometry -- properly.
 
-| *Lang — Basic Mathematics*
+| *Lang -- Basic Mathematics*
 | ~$50
 | Algebra 1 through pre-calc as one unified rigorous whole. Lang writes algebra the way he'd write it for future mathematicians.
 
-| *AoPS — Introduction to Algebra* + *Intermediate Algebra* (Rusczyk)
+| *AoPS -- Introduction to Algebra* + *Intermediate Algebra* (Rusczyk)
 | ~$60 each
 | The gold standard for above-grade-level students. Full Algebra 1+2 coverage with problems that force genuine thinking.
 |===
@@ -292,9 +292,9 @@ Picked for depth over polish. Khan Academy is here for gap-checking only — it'
 
 | *AoPS Alcumus*
 | Free (account)
-| Adaptive problem engine. Difficulty scales with you — not a worksheet generator.
+| Adaptive problem engine. Difficulty scales with you -- not a worksheet generator.
 
-| *Brilliant* — Algebra courses
+| *Brilliant* -- Algebra courses
 | ~$120/yr
 | Interactive, problem-first. Good on complex numbers, functions, sequences.
 
@@ -303,7 +303,7 @@ Picked for depth over polish. Khan Academy is here for gap-checking only — it'
 | Terse, accurate reference. Best for clean lookups on logs, conics, partial fractions.
 |===
 
-=== Algebra 2 Walls — Targeted Help
+=== Algebra 2 Walls -- Targeted Help
 
 [cols="1,3a", options="header"]
 |===

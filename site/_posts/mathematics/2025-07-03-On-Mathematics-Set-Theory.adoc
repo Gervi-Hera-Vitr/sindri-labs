@@ -2,7 +2,7 @@
 header:
   overlay_image: assets/images/banner-philosophy.jpg
   overlay_filter: 0.1
-categories: [school]
+categories: [mathematics]
 tags:
   - mathematics
   - theory
@@ -16,9 +16,14 @@ lugaru
 :page-layout: single
 :page-classes: wide
 :peano-axioms: https://en.wikipedia.org/wiki/Peano_axioms[Peano Axioms,window=_blank]
-:on-sets: link:/sindri-labs/school/2025/07/11/On-Set-Theory.html[On Sets,window=_blank]
-:on-top: link:/sindri-labs/school/2025/07/01/On-Mathematics.html[Mathematics - My Research,window=_blank]
-:on-next: link:/sindri-labs/school/2025/07/04/On-Mathematics-Complexity-Theory.html[Mathematics - Part 3: Complexity Theory,window=_blank]
+:on-sets: link:/sindri-labs/mathematics/2025/07/11/On-Set-Theory.html[On Sets,window=_blank]
+:on-top: link:/sindri-labs/on-mathematics/[On Mathematics]
+:on-prev: link:/sindri-labs/mathematics/2025/07/02/On-Foundations-Of-Mathematics.html[Mathematics - Part 1: Foundations & Reason]
+:on-next: link:/sindri-labs/mathematics/2025/07/04/On-Mathematics-Complexity-Theory.html[Mathematics - Part 3: Complexity Theory]
+
+← _**{on-prev}**_ +
+_**{on-next}**_ → +
+↑ _**{on_mathematics}**_ | ⇈ _**{mathematics}**_
 
 Set theory is the branch of mathematical logic that studies sets, which can be informally described as collections of objects.
 
@@ -41,9 +46,9 @@ A set is a well-defined collection of distinct elements.
 .Two `sets` defined:
 ====
 
- A = {1, 2, 3}
+ A = `{1, 2, 3}`
 
- B = {a, b, c}
+ B = `{a, b, c}`
 
 ====
 
@@ -80,7 +85,7 @@ Denoted as `|A|`
 
 .Infinite set example
 ====
- The set of prime numbers has cardinality ∞
+ The set of prime numbers has cardinality `∞`
 ====
 
 == 4. Subsets

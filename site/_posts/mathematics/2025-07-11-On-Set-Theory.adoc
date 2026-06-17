@@ -2,7 +2,7 @@
 header:
   overlay_image: assets/images/banner-philosophy.jpg
   overlay_filter: 0.1
-categories: [school]
+categories: [mathematics]
 tags:
   - mathematics
   - theory
@@ -15,7 +15,10 @@ lugaru
 :stem: asciimath
 :page-layout: single
 :page-classes: wide
-:on-top: link:/sindri-labs/school/2025/07/01/On-Mathematics.html[Mathematics - My Research,window=_blank]
+:on-top: link:/sindri-labs/on-mathematics/[On Mathematics]
+:on-prev: link:/sindri-labs/mathematics/2025/07/07/On-Computation-Theory.html[Part 6: Computation Theory]
+
+← _**{on-prev}**_ | ↑ _**{on_mathematics}**_ | ⇈ _**{mathematics}**_
 
 The Axiomatic Set Theory is an exact discipline, that is a Domain of Mathematics,
 defined by a set of non-logical axioms, like all formal domains are.

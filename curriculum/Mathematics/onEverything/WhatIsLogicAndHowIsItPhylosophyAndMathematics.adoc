@@ -51,7 +51,7 @@ Major subareas::  include model theory, proof theory, set theory, and recursion 
 Propositional calculus:: is a branch of logic. It is also called propositional logic.
 
 
-Mathematical logic is also the study of truths in mathematical statements. These are called propositions — a claim that is either true or false. A mix of these create propositional logic.
+Mathematical logic is also the study of truths in mathematical statements. These are called propositions -- a claim that is either true or false. A mix of these create propositional logic.
 
 Example of a proposition: `2 + 2 = 4`
 This can only be either true or false.
