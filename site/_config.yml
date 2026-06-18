@@ -115,6 +115,11 @@ defaults:
       related               : false
       breadcrumbs           : true
   - scope:
+      path                  : "_fragments/people"
+      type                  : fragments
+    values:
+      classes               : wide
+  - scope:
       path                  : ""
       type                  : references
     values:

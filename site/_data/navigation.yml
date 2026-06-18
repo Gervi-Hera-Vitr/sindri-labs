@@ -8,6 +8,8 @@ main:
     url: /curriculum/
   - title: "Profile"
     url: /captain/
+  - title: "People of Civilization"
+    url: /people/
   - title: "Own Site Setup"
     url: /site-setup/
   - title: "Categories"

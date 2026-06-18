@@ -1,4 +1,26 @@
+---
+name: Ernest Rutherford
+born: 1871
+died: 1937
+era: modern
+nationality: new-zealander
+sciences: [physics, chemistry]
+science: physics
+related: [thomson, geiger-marsden, bohr]
+---
 = Ernest Rutherford (1871-1937)
+ifndef::env-site[:imagesdir: ../../assets/images/people]
+ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
+:page-image: rutherford.jpg
+:page-image-credit: "Portrait by Bain News Service (c. 1920s). Public domain via Wikimedia Commons."
+:all-people: link:/sindri-labs/people/[All People]
+:see-thomson: link:/sindri-labs/fragments/people/thomson/[J.J. Thomson]
+:see-geiger-marsden: link:/sindri-labs/fragments/people/geiger-marsden/[Geiger Marsden]
+:see-bohr: link:/sindri-labs/fragments/people/bohr/[Niels Bohr]
+
+image::{page-image}[{page-image-credit},width="500px",align="left"]
+
+_**↑ {all-people}**_ | _**{see-thomson}**_ · _**{see-geiger-marsden}**_ · _**{see-bohr}**_
 
 New Zealander, Cavendish Professor, Nobel laureate (in chemistry, much to his amusement). Discovered the atomic nucleus. Mentored a chain of Nobel laureates that includes Bohr, Chadwick, Geiger, Marsden, Blackett, Cockcroft, and Walton.
 

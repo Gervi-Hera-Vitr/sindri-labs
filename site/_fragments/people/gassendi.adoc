@@ -1,4 +1,25 @@
+---
+name: Pierre Gassendi
+born: 1592
+died: 1655
+era: early-modern
+nationality: french
+sciences: [philosophy, physics, astronomy]
+science: philosophy
+related: [democritus, newton]
+---
 = Pierre Gassendi (1592-1655)
+ifndef::env-site[:imagesdir: ../../assets/images/people]
+ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
+:page-image: gassendi.jpg
+:page-image-credit: "Portrait by Louis-Édouard Rioult (circa 1846-1847). Public domain via Wikimedia Commons."
+:all-people: link:/sindri-labs/people/[All People]
+:see-democritus: link:/sindri-labs/fragments/people/democritus/[Democritus]
+:see-newton: link:/sindri-labs/fragments/people/newton/[Isaac Newton]
+
+image::{page-image}[{page-image-credit},width="500px",align="left"]
+
+_**↑ {all-people}**_ | _**{see-democritus}**_ · _**{see-newton}**_
 
 French Catholic priest, philosopher, and astronomer. The single most important figure in bringing atomism back to Europe -- and almost nobody outside the history knows his name.
 

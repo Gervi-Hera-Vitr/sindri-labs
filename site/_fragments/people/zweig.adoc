@@ -1,4 +1,23 @@
+---
+name: George Zweig
+born: 1937
+era: contemporary
+nationality: american
+sciences: [physics, neuroscience]
+science: physics
+related: [gell-mann]
+---
 = George Zweig (b. 1937)
+ifndef::env-site[:imagesdir: ../../assets/images/people]
+ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
+:page-image: zweig.jpg
+:page-image-credit: "Photo by Peacearth (2015) at National Taiwan University. CC-BY-SA 4.0 via Wikimedia Commons."
+:all-people: link:/sindri-labs/people/[All People]
+:see-gell-mann: link:/sindri-labs/fragments/people/gell-mann/[Murray Gell-Mann]
+
+image::{page-image}[{page-image-credit},width="500px",align="left"]
+
+_**↑ {all-people}**_ | _**{see-gell-mann}**_
 
 Russian-American physicist who proposed quarks independently of Gell-Mann in 1964 and was punished for it. Later left physics for neuroscience.
 

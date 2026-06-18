@@ -1,4 +1,25 @@
+---
+name: John Dalton
+born: 1766
+died: 1844
+era: early-modern
+nationality: english
+sciences: [chemistry, physics, meteorology]
+science: chemistry
+related: [newton, thomson]
+---
 = John Dalton (1766-1844)
+ifndef::env-site[:imagesdir: ../../assets/images/people]
+ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
+:page-image: dalton.jpg
+:page-image-credit: "Portrait by Thomas Phillips (1835). Public domain via Wikimedia Commons."
+:all-people: link:/sindri-labs/people/[All People]
+:see-newton: link:/sindri-labs/fragments/people/newton/[Isaac Newton]
+:see-thomson: link:/sindri-labs/fragments/people/thomson/[J.J. Thomson]
+
+image::{page-image}[{page-image-credit},width="500px",align="left"]
+
+_**↑ {all-people}**_ | _**{see-newton}**_ · _**{see-thomson}**_
 
 English Quaker schoolteacher who brought number to atomism. Color-blind (the modern term _Daltonism_ comes from him). Kept a daily weather diary for 57 years -- around 200,000 entries.
 

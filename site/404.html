@@ -4,22 +4,25 @@ layout: default
 ---
 
 <style media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
+  .container { margin: 10px auto; max-width: 700px; text-align: center; padding: 0 1rem; }
+  h1 { margin: 30px 0 10px; font-size: 6em; line-height: 1; letter-spacing: -2px; }
+  .subtitle { font-size: 1.25em; margin: 0.5rem 0 2rem; }
+  .quick-links { display: flex; gap: 0.75rem; justify-content: center; flex-wrap: wrap; margin-top: 2rem; }
+  .quick-links a { padding: 0.6rem 1.2rem; border: 1px solid currentColor; border-radius: 4px; text-decoration: none; }
+  .quick-links a:hover { background: rgba(0,0,0,0.06); }
 </style>
 
 <div class="container">
   <h1>404</h1>
+  <p class="subtitle"><strong>Not in the workshop today.</strong></p>
+  <p>This page hasn't been forged yet -- or it slipped out a side door. Either way, here are the well-marked exits:</p>
 
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+  <div class="quick-links">
+    <a href="/sindri-labs/">Home</a>
+    <a href="/sindri-labs/curriculum/">Curriculum</a>
+    <a href="/sindri-labs/fragments/">Fragments</a>
+    <a href="/sindri-labs/people/">People</a>
+    <a href="/sindri-labs/categories/">Categories</a>
+    <a href="/sindri-labs/tags/">Tags</a>
+  </div>
 </div>

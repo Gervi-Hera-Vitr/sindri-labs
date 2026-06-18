@@ -1,0 +1,23 @@
+---
+name: Aristarchus of Samos
+born: -310
+died: -230
+era: antiquity
+nationality: greek
+sciences: [astronomy, mathematics]
+science: astronomy
+---
+= Aristarchus of Samos (310-230 BCE)
+ifndef::env-site[:imagesdir: ../../assets/images/people]
+ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
+:page-image: placeholder.jpg
+:page-image-credit: "change me"
+:all-people: link:/sindri-labs/people/[All People]
+
+image::{page-image}[{page-image-credit},width="500px",align="left"]
+
+_**↑ {all-people}**_
+
+// tag::fullbody[]
+_Stub -- body to be written._
+// end::fullbody[]

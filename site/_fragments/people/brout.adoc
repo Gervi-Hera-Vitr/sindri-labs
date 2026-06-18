@@ -1,0 +1,24 @@
+---
+name: Robert Brout
+born: 1928
+died: 2011
+era: contemporary
+nationality: american
+sciences: [physics]
+science: physics
+related: [englert, higgs]
+---
+= Robert Brout (1928-2011)
+ifndef::env-site[:imagesdir: ../../assets/images/people]
+ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
+:page-image: placeholder.jpg
+:page-image-credit: "change me"
+:all-people: link:/sindri-labs/people/[All People]
+:see-englert: link:/sindri-labs/fragments/people/englert/[François Englert]
+:see-higgs: link:/sindri-labs/fragments/people/higgs/[Peter Higgs]
+
+image::{page-image}[{page-image-credit},width="500px",align="left"]
+
+_**↑ {all-people}**_ | _**{see-englert}**_ · _**{see-higgs}**_
+
+// FixMe: Captain

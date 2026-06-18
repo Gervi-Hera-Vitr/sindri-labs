@@ -1,4 +1,25 @@
+---
+name: Paul Dirac
+born: 1902
+died: 1984
+era: contemporary
+nationality: english
+sciences: [physics, mathematics]
+science: physics
+related: [anderson, bohr]
+---
 = Paul Dirac (1902-1984)
+ifndef::env-site[:imagesdir: ../../assets/images/people]
+ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
+:page-image: dirac.jpg
+:page-image-credit: "Portrait photograph (1933). Public domain via Wikimedia Commons."
+:all-people: link:/sindri-labs/people/[All People]
+:see-anderson: link:/sindri-labs/fragments/people/anderson/[Carl Anderson]
+:see-bohr: link:/sindri-labs/fragments/people/bohr/[Niels Bohr]
+
+image::{page-image}[{page-image-credit},width="500px",align="left"]
+
+_**↑ {all-people}**_ | _**{see-anderson}**_ · _**{see-bohr}**_
 
 English theoretical physicist. One of the founders of quantum mechanics and quantum field theory. Trusted mathematics more than intuition and was right often enough that the field reorganized itself around him.
 

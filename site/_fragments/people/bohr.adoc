@@ -1,4 +1,26 @@
+---
+name: Niels Bohr
+born: 1885
+died: 1962
+era: modern
+nationality: danish
+sciences: [physics]
+science: physics
+related: [thomson, rutherford, dirac]
+---
 = Niels Bohr (1885-1962)
+ifndef::env-site[:imagesdir: ../../assets/images/people]
+ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
+:page-image: bohr.jpg
+:page-image-credit: "Portrait photograph, circa 1922. Public domain via Wikimedia Commons."
+:all-people: link:/sindri-labs/people/[All People]
+:see-thomson: link:/sindri-labs/fragments/people/thomson/[J.J. Thomson]
+:see-rutherford: link:/sindri-labs/fragments/people/rutherford/[Ernest Rutherford]
+:see-dirac: link:/sindri-labs/fragments/people/dirac/[Paul Dirac]
+
+image::{page-image}[{page-image-credit},width="500px",align="left"]
+
+_**↑ {all-people}**_ | _**{see-thomson}**_ · _**{see-rutherford}**_ · _**{see-dirac}**_
 
 Danish physicist who quantized the atom. Worked with Rutherford in Manchester, then ran his own institute in Copenhagen that became the gravitational center of 20th-century physics.
 

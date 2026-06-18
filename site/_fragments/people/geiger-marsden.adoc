@@ -1,4 +1,21 @@
+---
+sciences: [physics]
+related: [geiger, marsden, rutherford, chadwick]
+---
 = Hans Geiger (1882-1945) and Ernest Marsden (1889-1970)
+ifndef::env-site[:imagesdir: ../../assets/images/people]
+ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
+:page-image: geiger-marsden.jpg
+:page-image-credit: "Geiger-Marsden experiment expectation vs. observed result diagram. CC-BY 3.0 via Wikimedia Commons."
+:all-people: link:/sindri-labs/people/[All People]
+:see-geiger: link:/sindri-labs/fragments/people/geiger/[Hans Geiger]
+:see-marsden: link:/sindri-labs/fragments/people/marsden/[Ernest Marsden]
+:see-rutherford: link:/sindri-labs/fragments/people/rutherford/[Ernest Rutherford]
+:see-chadwick: link:/sindri-labs/fragments/people/chadwick/[James Chadwick]
+
+image::{page-image}[{page-image-credit},width="500px",align="left"]
+
+_**↑ {all-people}**_ | _**{see-geiger}**_ · _**{see-marsden}**_ · _**{see-rutherford}**_ · _**{see-chadwick}**_
 
 The hands behind Rutherford's eyes. Geiger was a German physicist who later invented the Geiger counter (1928). Marsden was a 20-year-old undergraduate when Rutherford handed him the gold foil experiment as a project.
 

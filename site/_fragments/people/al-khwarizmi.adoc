@@ -1,0 +1,23 @@
+---
+name: Muhammad ibn Musa al-Khwarizmi
+born: 780
+died: 850
+era: medieval
+nationality: persian
+sciences: [mathematics, astronomy]
+science: mathematics
+---
+= Muhammad ibn Musa al-Khwarizmi (c. 780 - c. 850)
+ifndef::env-site[:imagesdir: ../../assets/images/people]
+ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
+:page-image: placeholder.jpg
+:page-image-credit: "change me"
+:all-people: link:/sindri-labs/people/[All People]
+
+image::{page-image}[{page-image-credit},width="500px",align="left"]
+
+_**↑ {all-people}**_
+
+// tag::fullbody[]
+_Stub -- body to be written._
+// end::fullbody[]

@@ -1,0 +1,23 @@
+---
+name: Plato of Athens
+born: -428
+died: -348
+era: antiquity
+nationality: greek
+sciences: [philosophy, ethics, mathematics]
+science: philosophy
+---
+= Plato of Athens (428-348 BCE)
+ifndef::env-site[:imagesdir: ../../assets/images/people]
+ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
+:page-image: placeholder.jpg
+:page-image-credit: "change me"
+:all-people: link:/sindri-labs/people/[All People]
+
+image::{page-image}[{page-image-credit},width="500px",align="left"]
+
+_**↑ {all-people}**_
+
+// tag::fullbody[]
+_Stub -- body to be written._
+// end::fullbody[]

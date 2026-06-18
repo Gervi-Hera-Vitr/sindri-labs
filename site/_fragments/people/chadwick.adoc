@@ -1,4 +1,26 @@
+---
+name: James Chadwick
+born: 1891
+died: 1974
+era: modern
+nationality: english
+sciences: [physics]
+science: physics
+related: [rutherford, bothe-becker-joliot-curies, geiger-marsden]
+---
 = James Chadwick (1891-1974)
+ifndef::env-site[:imagesdir: ../../assets/images/people]
+ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
+:page-image: chadwick.jpg
+:page-image-credit: "Photograph by Los Alamos National Laboratory (circa 1945). Public domain via Wikimedia Commons."
+:all-people: link:/sindri-labs/people/[All People]
+:see-rutherford: link:/sindri-labs/fragments/people/rutherford/[Ernest Rutherford]
+:see-bothe-becker-joliot-curies: link:/sindri-labs/fragments/people/bothe-becker-joliot-curies/[Bothe Becker Joliot Curies]
+:see-geiger-marsden: link:/sindri-labs/fragments/people/geiger-marsden/[Geiger Marsden]
+
+image::{page-image}[{page-image-credit},width="500px",align="left"]
+
+_**↑ {all-people}**_ | _**{see-rutherford}**_ · _**{see-bothe-becker-joliot-curies}**_ · _**{see-geiger-marsden}**_
 
 English physicist who discovered the neutron. Trained under Rutherford, interned in Germany during World War I, later led the British scientific contribution to the Manhattan Project.
 

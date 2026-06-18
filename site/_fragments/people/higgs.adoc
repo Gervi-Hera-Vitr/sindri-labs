@@ -1,4 +1,24 @@
+---
+name: Peter Higgs
+born: 1929
+died: 2024
+era: contemporary
+nationality: english
+sciences: [physics]
+science: physics
+related: [brout-englert-ghk]
+---
 = Peter Higgs (1929-2024)
+ifndef::env-site[:imagesdir: ../../assets/images/people]
+ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
+:page-image: higgs.jpg
+:page-image-credit: "Peter Higgs at the Nobel Prize press conference, December 2013. Photograph by Bengt Nyman. CC-BY 2.0 via Wikimedia Commons."
+:all-people: link:/sindri-labs/people/[All People]
+:see-brout-englert-ghk: link:/sindri-labs/fragments/people/brout-englert-ghk/[Brout Englert Ghk]
+
+image::{page-image}[{page-image-credit},width="500px",align="left"]
+
+_**↑ {all-people}**_ | _**{see-brout-englert-ghk}**_
 
 British theoretical physicist. Predicted the boson now named after him in 1964 and waited 48 years to see it found. Quiet, modest, allergic to the celebrity that eventually came for him.
 

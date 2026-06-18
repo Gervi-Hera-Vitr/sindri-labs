@@ -1,4 +1,23 @@
+---
+sciences: [physics, chemistry]
+related: [bothe, becker, joliot-curie-irene, joliot-curie-frederic, chadwick, rutherford]
+---
 = Bothe, Becker, and the Joliot-Curies
+ifndef::env-site[:imagesdir: ../../assets/images/people]
+ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
+:page-image: bothe-becker-joliot-curies.jpg
+:page-image-credit: "Chadwick neutron discovery apparatus schematic (polonium alpha-on-beryllium to paraffin proton recoil). CC-BY-SA 4.0 via Wikimedia Commons."
+:all-people: link:/sindri-labs/people/[All People]
+:see-bothe: link:/sindri-labs/fragments/people/bothe/[Walther Bothe]
+:see-becker: link:/sindri-labs/fragments/people/becker/[Herbert Becker]
+:see-joliot-curie-irene: link:/sindri-labs/fragments/people/joliot-curie-irene/[Irène Joliot-Curie]
+:see-joliot-curie-frederic: link:/sindri-labs/fragments/people/joliot-curie-frederic/[Frédéric Joliot-Curie]
+:see-chadwick: link:/sindri-labs/fragments/people/chadwick/[James Chadwick]
+:see-rutherford: link:/sindri-labs/fragments/people/rutherford/[Ernest Rutherford]
+
+image::{page-image}[{page-image-credit},width="500px",align="left"]
+
+_**↑ {all-people}**_ | _**{see-bothe}**_ · _**{see-becker}**_ · _**{see-joliot-curie-irene}**_ · _**{see-joliot-curie-frederic}**_ · _**{see-chadwick}**_ · _**{see-rutherford}**_
 
 The four physicists who produced the neutron data without recognizing what they had. Walther Bothe (1891-1957) and Herbert Becker in Germany; Irène Joliot-Curie (1897-1956) and Frédéric Joliot-Curie (1900-1958) in Paris.
 

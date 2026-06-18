@@ -1,4 +1,23 @@
+---
+sciences: [physics]
+related: [brout, englert, guralnik, hagen, kibble, higgs]
+---
 = Brout, Englert, Guralnik, Hagen, and Kibble
+ifndef::env-site[:imagesdir: ../../assets/images/people]
+ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
+:page-image: brout-englert-ghk.jpg
+:page-image-credit: "Higgs potential Mexican-hat diagram. CC-BY-SA 3.0 via Wikimedia Commons."
+:all-people: link:/sindri-labs/people/[All People]
+:see-brout: link:/sindri-labs/fragments/people/brout/[Robert Brout]
+:see-englert: link:/sindri-labs/fragments/people/englert/[François Englert]
+:see-guralnik: link:/sindri-labs/fragments/people/guralnik/[Gerald Guralnik]
+:see-hagen: link:/sindri-labs/fragments/people/hagen/[C.R. Hagen]
+:see-kibble: link:/sindri-labs/fragments/people/kibble/[Tom Kibble]
+:see-higgs: link:/sindri-labs/fragments/people/higgs/[Peter Higgs]
+
+image::{page-image}[{page-image-credit},width="500px",align="left"]
+
+_**↑ {all-people}**_ | _**{see-brout}**_ · _**{see-englert}**_ · _**{see-guralnik}**_ · _**{see-hagen}**_ · _**{see-kibble}**_ · _**{see-higgs}**_
 
 Five physicists who, with Peter Higgs, worked out the mass-generation mechanism in 1964 -- two papers from Brussels and Imperial College published within weeks of Higgs's. Robert Brout (1928-2011) and François Englert (b. 1932) at the Université libre de Bruxelles; Gerald Guralnik (1936-2014), C.R. Hagen (b. 1937), and Tom Kibble (1932-2016) at Imperial College London.
 

@@ -12,7 +12,6 @@ header:
       url: /mathematics/
     - label: "Science"
       url: /science/
-
 ---
 = Mímis Academy: Science
 rdd13r

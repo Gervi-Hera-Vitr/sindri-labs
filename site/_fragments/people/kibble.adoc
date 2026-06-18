@@ -1,0 +1,25 @@
+---
+name: Tom Kibble
+born: 1932
+died: 2016
+era: contemporary
+nationality: british
+sciences: [physics]
+science: physics
+related: [guralnik, hagen, higgs]
+---
+= Tom Kibble (1932-2016)
+ifndef::env-site[:imagesdir: ../../assets/images/people]
+ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
+:page-image: placeholder.jpg
+:page-image-credit: "change me"
+:all-people: link:/sindri-labs/people/[All People]
+:see-guralnik: link:/sindri-labs/fragments/people/guralnik/[Gerald Guralnik]
+:see-hagen: link:/sindri-labs/fragments/people/hagen/[C.R. Hagen]
+:see-higgs: link:/sindri-labs/fragments/people/higgs/[Peter Higgs]
+
+image::{page-image}[{page-image-credit},width="500px",align="left"]
+
+_**↑ {all-people}**_ | _**{see-guralnik}**_ · _**{see-hagen}**_ · _**{see-higgs}**_
+
+// FixMe: Captain

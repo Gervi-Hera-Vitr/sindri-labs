@@ -1,4 +1,25 @@
+---
+name: Democritus
+born: -460
+died: -370
+era: antiquity
+nationality: greek
+sciences: [philosophy, physics, mathematics, ethics]
+science: philosophy
+related: [leucippus, gassendi]
+---
 = Democritus (c. 460-370 BCE)
+ifndef::env-site[:imagesdir: ../../assets/images/people]
+ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
+:page-image: democritus.jpg
+:page-image-credit: "Bust tentatively identified as Democritus, cast of Roman artifact from Villa dei Papiri. CC BY-SA 3.0 via Wikimedia Commons."
+:all-people: link:/sindri-labs/people/[All People]
+:see-leucippus: link:/sindri-labs/fragments/people/leucippus/[Leucippus]
+:see-gassendi: link:/sindri-labs/fragments/people/gassendi/[Pierre Gassendi]
+
+image::{page-image}[{page-image-credit},width="500px",align="left"]
+
+_**↑ {all-people}**_ | _**{see-leucippus}**_ · _**{see-gassendi}**_
 
 The man who took Leucippus's atoms and ran with them. Abderan, materialist, polymath. Wrote 70+ books, none survive complete. Lived to ~90 in an era when most made it to 40.
 

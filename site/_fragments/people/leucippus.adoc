@@ -1,4 +1,23 @@
+---
+name: Leucippus
+born: -480
+era: antiquity
+nationality: greek
+sciences: [philosophy, physics]
+science: philosophy
+related: [democritus]
+---
 = Leucippus (5th century BCE)
+ifndef::env-site[:imagesdir: ../../assets/images/people]
+ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
+:page-image: leucippus.jpg
+:page-image-credit: "Leucippus, as imagined by Luca Giordano (1652-1653). Public domain via Wikimedia Commons."
+:all-people: link:/sindri-labs/people/[All People]
+:see-democritus: link:/sindri-labs/fragments/people/democritus/[Democritus]
+
+image::{page-image}[{page-image-credit},width="500px",align="left"]
+
+_**↑ {all-people}**_ | _**{see-democritus}**_
 
 The originator of atomism. So thinly attested that Epicurus once denied he had ever existed -- but most modern scholars accept him as real. Probably from Miletus, Elea, or Abdera. We know him almost entirely through his student Democritus.
 

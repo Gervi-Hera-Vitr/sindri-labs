@@ -4,6 +4,8 @@ header:
   overlay_filter: 0.2
   caption: ...where ancient wisdom meets modern fluffle innovations
   actions:
+    - label: "People of Science"
+      url: /people/
     - label: "Literature"
       url: /literature/
     - label: "Philosophy"
@@ -12,10 +14,6 @@ header:
       url: /mathematics/
     - label: "Science"
       url: /science/
-    - label: "Academic Year"
-      url: /academic-year/
-    - label: "Curriculum"
-      url: /curriculum/
     - label: "Project"
       url: https://github.com/orgs/Gervi-Hera-Vitr/projects/1/views/1
 ---

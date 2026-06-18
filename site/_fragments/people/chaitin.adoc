@@ -1,0 +1,22 @@
+---
+name: Gregory Chaitin
+born: 1947
+era: contemporary
+nationality: argentine-american
+sciences: [mathematics, computer-science]
+science: mathematics
+---
+= Gregory Chaitin (b. 1947)
+ifndef::env-site[:imagesdir: ../../assets/images/people]
+ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
+:page-image: placeholder.jpg
+:page-image-credit: "change me"
+:all-people: link:/sindri-labs/people/[All People]
+
+image::{page-image}[{page-image-credit},width="500px",align="left"]
+
+_**↑ {all-people}**_
+
+// tag::fullbody[]
+_Stub -- body to be written._
+// end::fullbody[]
