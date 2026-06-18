@@ -11,7 +11,7 @@ lugaru
 :page-excerpt:
 :page-layout: single
 :page-classes: wide
-:anton-school: https://github.com/Gervi-Hera-Vitr/[Gervi Héra Vitr,window=_blank]
+:cappy-school: https://github.com/Gervi-Hera-Vitr/[Gervi Héra Vitr,window=_blank]
 :mimis-publishing: https://github.com/orgs/Mimis-Gildi/[Mímis Publishing,window=_blank]
 
 Dear Munchkin Friends,
@@ -19,7 +19,7 @@ Dear Munchkin Friends,
 This is _the beginning of our journey_ through the wonderful world of AI, science, engineering, and coding.
 My mother finally said "Okay, let's do this."
 And my father created my School, where my sister and I are principal students.
-My School organization is {anton-school} from *Mímis Gildi* that my parents have registered with the state.
+My School organization is {cappy-school} from *Mímis Gildi* that my parents have registered with the state.
 Best of all it is managed by my parents' organization {mimis-publishing} where I access massive amounts of engineering and AI knowledge.
 
 My principal instructor is {rdd13r}, my father.

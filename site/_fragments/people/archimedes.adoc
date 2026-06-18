@@ -10,8 +10,8 @@ science: mathematics
 = Archimedes of Syracuse (287-212 BCE)
 ifndef::env-site[:imagesdir: ../../assets/images/people]
 ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
-:page-image: placeholder.jpg
-:page-image-credit: "change me"
+:page-image: archimedes.jpg
+:page-image-credit: "Archimedes Thoughtful, painting by Domenico Fetti (1620). Public domain via Wikimedia Commons."
 :all-people: link:/sindri-labs/people/[All People]
 
 image::{page-image}[{page-image-credit},width="500px",align="left"]

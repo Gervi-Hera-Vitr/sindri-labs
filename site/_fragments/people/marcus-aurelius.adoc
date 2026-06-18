@@ -10,8 +10,8 @@ science: philosophy
 = Marcus Aurelius of Rome (121-180 CE)
 ifndef::env-site[:imagesdir: ../../assets/images/people]
 ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
-:page-image: placeholder.jpg
-:page-image-credit: "change me"
+:page-image: marcus-aurelius.jpg
+:page-image-credit: "Marble bust of Marcus Aurelius, 170s CE, Musée Saint-Raymond, Toulouse. CC-BY-SA 4.0 via Wikimedia Commons."
 :all-people: link:/sindri-labs/people/[All People]
 
 image::{page-image}[{page-image-credit},width="500px",align="left"]

@@ -10,8 +10,8 @@ science: philosophy
 = Pythagoras of Samos (570-495 BCE)
 ifndef::env-site[:imagesdir: ../../assets/images/people]
 ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
-:page-image: placeholder.jpg
-:page-image-credit: "change me"
+:page-image: pythagoras.jpg
+:page-image-credit: "Roman marble bust of Pythagoras, 2nd-1st century BCE Roman copy of Greek original. Public domain via Wikimedia Commons."
 :all-people: link:/sindri-labs/people/[All People]
 
 image::{page-image}[{page-image-credit},width="500px",align="left"]

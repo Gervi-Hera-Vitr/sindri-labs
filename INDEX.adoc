@@ -1,16 +1,1 @@
 = Thoughts in Flight
-
-. [x] Review school content for slop;
-. [x] Remove all the slop;
-. [x] Grade particle;
-. [x] Merge.
-
-== Left to do
-
-Mine, on your go:
-
-* *Inline figure links on the moved ImportantPeople post* (`site/_posts/science/2026-05-08-Important-People-In-Particle-Discovery.adoc`) — define `:leucippus:`/`:democritus:`/… attrs and substitute inline names with `+{slug}+` tokens. The post still names every figure as plain text. Part of your grading pass.
-
-* *Tag enrichment for literary essays.* Apply `+[essay]+` → `+[literature, analysis, <work>, essay]+` across the literary essay posts.
-
-* *Tier 4 image filename renames.* `image-anton.jpg` → `image-captain.jpg`; `banner-anton.jpg` → `banner-captain.jpg`; `avatar-anton.jpg` → `avatar-captain.jpg`. Sweep all references after rename.

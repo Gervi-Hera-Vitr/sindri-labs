@@ -10,8 +10,8 @@ science: philosophy
 = Aristotle of Stagira (384-322 BCE)
 ifndef::env-site[:imagesdir: ../../assets/images/people]
 ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
-:page-image: placeholder.jpg
-:page-image-credit: "change me"
+:page-image: aristotle.jpg
+:page-image-credit: "Roman marble bust, 2nd century copy of Greek bronze original by Lysippos, circa 330 BCE. Public domain via Wikimedia Commons."
 :all-people: link:/sindri-labs/people/[All People]
 
 image::{page-image}[{page-image-credit},width="500px",align="left"]

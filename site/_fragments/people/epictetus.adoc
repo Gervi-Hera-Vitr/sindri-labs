@@ -10,8 +10,8 @@ science: philosophy
 = Epictetus of Hierapolis (50-135 CE)
 ifndef::env-site[:imagesdir: ../../assets/images/people]
 ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
-:page-image: placeholder.jpg
-:page-image-credit: "change me"
+:page-image: epictetus.jpg
+:page-image-credit: "Engraving by Michael Burghers after William Sonmans, Oxford 1715 frontispiece. Public domain via Wikimedia Commons."
 :all-people: link:/sindri-labs/people/[All People]
 
 image::{page-image}[{page-image-credit},width="500px",align="left"]

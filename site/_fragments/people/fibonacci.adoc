@@ -10,8 +10,8 @@ science: mathematics
 = Leonardo of Pisa, "Fibonacci" (c. 1170 - c. 1250)
 ifndef::env-site[:imagesdir: ../../assets/images/people]
 ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
-:page-image: placeholder.jpg
-:page-image-credit: "change me"
+:page-image: fibonacci.jpg
+:page-image-credit: "Statue of Leonardo Fibonacci (1863) by Giovanni Paganucci, Camposanto Monumentale, Pisa. CC-BY-SA via Wikimedia Commons."
 :all-people: link:/sindri-labs/people/[All People]
 
 image::{page-image}[{page-image-credit},width="500px",align="left"]

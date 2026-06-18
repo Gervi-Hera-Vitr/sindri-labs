@@ -10,8 +10,8 @@ science: philosophy
 = Socrates of Athens (470-399 BCE)
 ifndef::env-site[:imagesdir: ../../assets/images/people]
 ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
-:page-image: placeholder.jpg
-:page-image-credit: "change me"
+:page-image: socrates.jpg
+:page-image-credit: "Roman marble bust, possibly a copy of a lost bronze original by Lysippos. Public domain via Wikimedia Commons."
 :all-people: link:/sindri-labs/people/[All People]
 
 image::{page-image}[{page-image-credit},width="500px",align="left"]

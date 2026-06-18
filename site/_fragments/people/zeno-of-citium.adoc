@@ -10,8 +10,8 @@ science: philosophy
 = Zeno of Citium (334-262 BCE)
 ifndef::env-site[:imagesdir: ../../assets/images/people]
 ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
-:page-image: placeholder.jpg
-:page-image-credit: "change me"
+:page-image: zeno-of-citium.jpg
+:page-image-credit: "Roman marble bust (Augustan period copy of Greek Hellenistic original), photographed by Paolo Monti. CC-BY-SA 4.0 via Wikimedia Commons."
 :all-people: link:/sindri-labs/people/[All People]
 
 image::{page-image}[{page-image-credit},width="500px",align="left"]
