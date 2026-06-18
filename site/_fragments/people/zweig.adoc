@@ -21,7 +21,6 @@ _**↑ {all-people}**_ | _**{see-gell-mann}**_
 
 Russian-American physicist who proposed quarks independently of Gell-Mann in 1964 and was punished for it. Later left physics for neuroscience.
 
-// tag::fullbody[]
 == History
 
 Born in Moscow to a Jewish family that emigrated to the United States via Vienna. Undergraduate at Michigan, PhD at Caltech in 1964 under Feynman. Spent the year of his thesis at CERN as a postdoc, which is where he wrote the quark papers.
@@ -41,4 +40,3 @@ In 1964, at CERN, he wrote two papers proposing that hadrons are bound states of
 CERN refused to publish his papers in the standard journals; they appeared only as CERN preprints. Senior physicists thought fractional charge was absurd. The reaction Zweig later described: he was treated as a charlatan. A respected physicist told him that quarks were "the work of a madman."
 
 When deep inelastic scattering at SLAC confirmed point-like constituents inside protons, Gell-Mann's name was on the theory and Zweig was a footnote. Feynman lobbied repeatedly for him to share Gell-Mann's recognition; the Nobel never came. The history is generally fair to Zweig now, but the asymmetry stuck during the years it mattered.
-// end::fullbody[]

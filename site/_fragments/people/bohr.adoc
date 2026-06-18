@@ -24,7 +24,6 @@ _**↑ {all-people}**_ | _**{see-thomson}**_ · _**{see-rutherford}**_ · _**{se
 
 Danish physicist who quantized the atom. Worked with Rutherford in Manchester, then ran his own institute in Copenhagen that became the gravitational center of 20th-century physics.
 
-// tag::fullbody[]
 == History
 
 Born in Copenhagen to an academic family. PhD on the electron theory of metals (1911), then to Cambridge to work with J.J. Thomson, then to Manchester with Rutherford in 1912. Returned to Copenhagen and in 1921 founded the Institute for Theoretical Physics (now the Niels Bohr Institute) -- the place every serious physicist of the next generation passed through: Heisenberg, Pauli, Dirac, Gamow.
@@ -48,4 +47,3 @@ His three rules:
 . Angular momentum is quantized in integer multiples of stem:[h/2\pi].
 
 The model predicted hydrogen's emission spectrum exactly -- every line of the Balmer, Lyman, and Paschen series. It only worked for hydrogen and other one-electron systems, but it was the first time quantum ideas and atomic structure were welded together. Everything that came after -- Heisenberg, Schrödinger, the full quantum mechanics of the atom -- started here.
-// end::fullbody[]

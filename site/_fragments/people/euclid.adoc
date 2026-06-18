@@ -18,7 +18,6 @@ image::{page-image}[{page-image-credit},width="500px",align="left"]
 
 _**↑ {all-people}**_
 
-// tag::fullbody[]
 == An Autographical Review
 Very little is known of Euclid's life, and most information comes from the scholars Proclus and Pappus of Alexandria many centuries later. Medieval Islamic mathematicians invented a fanciful biography, and medieval Byzantine and early Renaissance scholars mistook him for the earlier philosopher Euclid of Megara. It is now generally accepted that he spent his career in Alexandria and lived around 300 BC, after Plato's students and before Archimedes. There is some speculation that Euclid studied at the Platonic Academy and later taught at the Musaeum; he is regarded as bridging the earlier Platonic tradition in Athens with the later tradition of Alexandria.
 
@@ -73,4 +72,3 @@ Beyond The Elements, at least five of Euclid's other works survive, all sharing 
 - The Porisms ('Corollaries'): Likely a three-book treatise with about 200 propositions, describing a type of proposition for discovering features of existing geometrical entities.
 
 - The Surface Loci: Of virtually unknown contents, speculated to discuss cones and cylinders.
-// end::fullbody[]

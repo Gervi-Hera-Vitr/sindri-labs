@@ -1,0 +1,242 @@
+---
+header:
+  overlay_image: assets/images/banner-philosophy.jpg
+  overlay_filter: 0.1
+categories: [school]
+tags:
+  - science
+  - history
+  - particle
+  - people
+---
+= On Particle: Important People
+lugaru
+:page-author_profile: true
+:page-excerpt:
+:page-layout: single
+:page-classes: wide
+
+The story above is really a story of minds. Each person here didn't just produce a result -- they had a way of seeing the world that made the result possible.
+Below are short biographies and, more importantly, how each of them was actually thinking.
+
+== Leucippus (5th century BCE)
+
+The originator of atomism. Sources are so thin that Epicurus himself once denied Leucippus had ever existed -- but most modern scholars accept him as a real figure,
+probably from Miletus, Elea, or Abdera. He left almost no surviving text. We know him through later writers quoting his student Democritus.
+
+*How he was thinking:* Leucippus was answering Parmenides, who had argued (a generation earlier) that change is impossible -- because nothing can come from nothing,
+and nothing can become nothing. So how does anything happen? Leucippus's answer was a metaphysical invention: reality is *atoms* (what is) plus *void* (what is not).
+The void is real even though it's empty. Atoms move through it, collide, recombine. Change is rearrangement, not creation or destruction.
+
+This is huge. He didn't disprove Parmenides experimentally -- he gave the world a new ontology that let physics happen. Every later atomist inherits this move.
+
+== Democritus (c. 460-370 BCE)
+
+From Abdera in Thrace. Wealthy enough to travel widely -- Egypt, Persia, possibly India. Wrote more than 70 books on physics, math, ethics, music; none survive complete.
+We know him through fragments quoted by Aristotle, Diogenes Laertius, and others. Called "the laughing philosopher" because he found human folly amusing.
+
+*How he was thinking:* Radically materialist, in a way that was scandalous in his time and still feels modern. Everything is atoms in motion. No gods directing things.
+No purpose, no goal, no teleology. Even the soul is made of fine, smooth, fast-moving fire-atoms. Even thought and perception are atomic interactions.
+He distinguished *primary qualities* (size, shape, motion -- really in the atoms) from *secondary qualities* (taste, color, sound -- only how atoms affect our sense organs).
+This distinction survives all the way to John Locke 2,000 years later.
+
+Plato hated him so much he wanted his books burned. Aristotle disagreed but engaged seriously. Democritus's universe ran on mechanism,
+not intention -- which is why atomism kept getting suppressed by religious authorities for the next two millennia.
+
+== Pierre Gassendi (1592-1655)
+
+French Catholic priest, philosopher, and astronomer. Provost of the cathedral at Digne, then a professor at the Collège Royal in Paris.
+Friend of Galileo and Hobbes; sharp critic of Descartes. First astronomer ever to observe a transit of Mercury (1631), confirming Kepler's prediction.
+
+*How he was thinking:* Gassendi was an empiricist before empiricism was a school. He believed observation should beat scholastic deduction,
+and he wrote a book attacking Aristotle's philosophy at age 32. But his most important project was rescuing atomism from the charge of atheism.
+He read Epicurus carefully for decades and argued that atoms are not inherently godless -- God created them at the beginning of time, gave them their initial motion,
+and atoms then run mechanically. Atoms are God's tools.
+
+Critical context: Galileo was condemned by the Inquisition in 1633. Defending atomism in the 1640s France was dangerous.
+Gassendi's careful theological framing made it possible for Newton's generation to take atoms seriously without being branded heretics.
+Without him, Newton's particle physics may not have happened at all.
+
+== Isaac Newton (1643-1727)
+
+Born to a yeoman family in Lincolnshire; his father died before he was born. Cambridge, then Lucasian Professor (the chair Stephen Hawking later held).
+Wrote most of the _Principia_ in 18 months when forced home by the plague of 1665-66. Master of the Royal Mint, knighted, President of the Royal Society for 24 years.
+
+*How he was thinking:* Newton spent more time on alchemy and biblical chronology than on what we now call physics. John Maynard Keynes, who bought a trove of Newton's private papers,
+called him "the last of the magicians, not the first of the age of reason." For Newton, nature was a mathematical structure imposed by God;
+"absolute space" was God's _sensorium_ -- the medium through which God perceived everything at once. Particles obeyed laws because the laws were divine design.
+Alchemy and physics weren't separate enterprises in his mind; both were ways of reading God's notes on creation.
+
+He was secretive, suspicious, prone to bitter feuds (Hooke, Leibniz, Flamsteed). Did most of his deepest work alone.
+The popular image of Newton-the-rationalist is a Victorian retouching -- the real man was stranger and more interesting.
+
+== John Dalton (1766-1844)
+
+English Quaker, color-blind (the modern term *Daltonism* comes from him -- he wrote the first scientific paper on color blindness, examining his own).
+Born poor, son of a weaver. Self-taught; teaching school from age 12. Lived modestly his entire adult life in Manchester, never married,
+attended Quaker meetings until he died.
+
+*How he was thinking:* Patient, accumulative, quantitative. He kept a daily weather diary for 57 years -- around 200 thousand entries.
+His interest in the atmosphere led him to gases, then to partial pressures, then to the realization that elements combine in fixed whole-number ratios by weight.
+From there: atoms must exist and have characteristic weights. He was bringing number to chemistry the way Newton had brought number to physics.
+
+Dalton's mind was Quaker-plain: measure things precisely, trust the numbers, don't decorate. He refused honorary degrees for years and resisted the Royal Society.
+When he finally accepted, he showed up in Quaker dress and barely spoke. The opposite of Newton's mystical complexity -- and exactly what chemistry needed.
+
+== J.J. Thomson (1856-1940)
+
+Born near Manchester. Cavendish Professor at Cambridge from 1884 -- he was 28. Mentored seven future Nobel laureates, including Rutherford.
+(His own son George later won the Nobel for showing electrons are waves, while his father's Nobel was for showing that they're
+particles -- a perfect family illustration of wave-particle duality.)
+
+*How he was thinking:* A careful experimentalist who was also strong at theory -- a rare combination. He built his apparatus himself,
+often improvising glassblowing on the spot. The plum pudding model was conservative: he kept the atom mostly as Dalton had imagined it,
+just with little electrons stuck inside. He was a gradualist, not a revolutionary. He'd rather extend an old picture than throw it out.
+
+Famously absent-minded -- there are stories of him being unable to operate the same lab equipment he'd designed.
+The Cavendish under Thomson became the most productive physics lab in the world. His real genius was less about a single discovery than about training
+an army of people who would discover the rest.
+
+== Ernest Rutherford (1871-1937)
+
+Born in rural New Zealand, the fourth of twelve children, on a flax farm. Won a scholarship to Cambridge, worked under Thomson, then McGill in Montréal,
+then Manchester, finally back to Cambridge as Cavendish Professor. Loud, gregarious, swore freely, ran his lab like a workshop. Sang "Onward,
+Christian Soldiers" off-key when experiments worked.
+
+*How he was thinking:* Physical intuition first, math second -- often a distant second. He hated complicated theory. "If you can't explain your physics to a barmaid,
+it is probably not very good physics." Famous (before his Nobel) for: "All science is either physics or stamp collecting." When he then won the Nobel in *Chemistry* (1908),
+he found the joke at his expense delicious.
+
+The gold foil reasoning is pure Rutherford: when Geiger and Marsden told him alpha particles were bouncing back, he didn't reach for equations.
+He reached for an image -- a 15-inch shell hitting tissue paper -- and immediately knew it meant a tiny, dense, hard center.
+He trusted his eyes and his sense of how matter felt. He mentored Bohr, Chadwick, Geiger, Marsden, Blackett, Cockcroft,
+Walton -- a stunning chain of Nobel laureates.
+
+== Hans Geiger (1882-1945) and Ernest Marsden (1889-1970)
+
+The hands behind Rutherford's eyes. Geiger was a German physicist who joined Rutherford in Manchester; he later invented the *Geiger counter* in 1928
+that became the standard radiation detector. Marsden was a 20-year-old undergraduate when Rutherford gave him the gold foil experiment as a project.
+
+*How they were thinking:* Geiger was a meticulous experimentalist who could sit in a darkened room counting scintillations for hours. Marsden, the student,
+was the one who actually first noticed an alpha particle bouncing back -- when nobody expected it. He later moved to New Zealand and became a major
+scientific administrator there. Rutherford got the credit and the fame, but the data came from Geiger's patience and Marsden's young eyes.
+
+== Niels Bohr (1885-1962)
+
+Danish, son of a physiology professor at Copenhagen. Worked briefly under Thomson, then Rutherford. Founded the Institute for Theoretical Physics in
+Copenhagen in 1921 -- it became the world center for quantum theory. Heisenberg, Pauli, Dirac, Schrödinger all came through.
+
+*How he was thinking:* Deeply philosophical, almost religious about paradox. His core conviction: nature itself is genuinely strange at the small scale,
+and we have to invent new concepts to describe it (complementarity, correspondence). He famously said: "The opposite of a correct statement is a false statement.
+But the opposite of a profound truth may well be another profound truth." He loved Kierkegaard and would argue about meaning for hours.
+His friend and rival Einstein never accepted Bohr's interpretation of quantum mechanics; their decades-long debate is one of the great intellectual exchanges in science.
+
+In 1943, he was smuggled out of Nazi-occupied Denmark in the bomb bay of a Mosquito aircraft (he passed out from lack of oxygen on the way).
+Worked on the Manhattan Project, then spent years arguing -- unsuccessfully -- that nuclear secrets should be shared with the Soviets to prevent an arms race.
+
+== James Chadwick (1891-1974)
+
+Born in Cheshire, England, working class. Studied under Rutherford in Manchester, then went to Berlin to work with Geiger.
+WW1 broke out while he was there -- he was interned for the duration in Ruhleben, a former racetrack stable converted into a civilian prison camp.
+He spent four years cold and hungry, doing physics with whatever scraps of equipment he could improvise. Came home thin, sick, and unstoppable.
+
+*How he was thinking:* Quiet, methodical, painfully patient. Rutherford predicted a neutral particle in 1920. Chadwick spent the next twelve years looking for it.
+When the Joliot-Curies announced their puzzling beryllium radiation in 1932, Chadwick recognized the pattern within days -- because he'd been carrying
+the hypothesis around in his head for over a decade. The discovery looks fast in textbooks; it was actually very slowly followed by a sudden recognition.
+
+Hated publicity. Refused to be called "Sir James" in casual settings. Led the British "Tube Alloys" team on the Manhattan Project;
+came back from Los Alamos quietly haunted.
+
+== Walther Bothe, Herbert Becker, and the Joliot-Curies
+
+The supporting cast on the neutron story. *Bothe* (1891-1957) and *Becker* won the Nobel later (Bothe in 1954) for the coincidence method that produced
+the original beryllium radiation in 1930. *Irène Joliot-Curie* (1897-1956) -- daughter of Marie and Pierre Curie -- and her husband
+*Frédéric Joliot-Curie* (1900-1958) showed the radiation could knock protons out of paraffin, but they assumed it was gamma rays.
+They were the closest to discovering the neutron and missed it. They got their own Nobel in 1935 for discovering artificial radioactivity.
+Irène raised the second generation of Curie women in physics; she died of leukemia from her own experiments, like her mother.
+
+== Paul Dirac (1902-1984)
+
+Born in Bristol; Swiss father, English mother. His father was a strict French teacher who insisted Paul speak only French at meals.
+Paul's response was to barely speak at all -- a habit that lasted his whole life. Trained first as an electrical engineer, then as a mathematician,
+before quantum mechanics found him. Cambridge, Lucasian Professor like Newton.
+
+*How he was thinking:* "Physical laws should have mathematical beauty." This was his actual criterion for truth. If the equation was ugly, it was probably wrong;
+if it was beautiful, follow it even when the predictions seemed crazy. Most physicists facing the negative-energy solutions of his equation would have waved them off as artifacts.
+Dirac trusted the math and predicted antimatter from pure equations. The experiment caught up four years later.
+
+He spoke as little as possible. The unit "one dirac" was jokingly defined as one word per hour. His autobiography is one paragraph. A famous lecture story:
+someone said "Professor Dirac, I don't understand the equation in the upper right." Long silence. Dirac: "That is not a question, that is a statement.
+Next question, please." Colleagues who initially found him cold mostly came to love him -- the precision was the affection.
+
+=== Carl Anderson (1905-1991)
+
+American, Caltech, son of Swedish immigrants. Got his PhD under Robert Millikan and stayed at Caltech essentially his whole career.
+Won the Nobel at 31, one of the youngest ever.
+
+*How he was thinking:* Trust the cloud chamber. He saw a track that curved the wrong way for an electron -- and rather than assume his apparatus was misbehaving,
+he believed the photograph. The lead plate across the chamber was the key piece of craft: it slowed the particle so he could see the curvature change,
+ruling out an electron coming from the other direction. Methodical experimentalist, less philosophical than the Europeans,
+more comfortable with "the data says X so X is true."
+
+He also discovered the *muon* in 1936, which was so unexpected that I. I. Rabi famously asked, "Who ordered that?"
+Anderson didn't theorize -- he found particles. That was his gift.
+
+== Murray Gell-Mann (1929-2019)
+
+Born in Manhattan, son of Jewish immigrants from Austria-Hungary. Entered Yale at 15. PhD from MIT at 22. Caltech for most of his career.
+A polymath: spoke 13 languages, was a serious birder, an amateur archaeologist, a linguist who helped found the Santa Fe Institute for complexity studies.
+
+*How he was thinking:* Mathematical pattern recognition at superhuman level. Faced with the chaotic "particle zoo" of the 1950s,
+he applied the group theory of SU(3) -- the *Eightfold Way* (1961) -- to organize hadrons into geometric patterns. Once the pattern was visible,
+the constituent (quarks) almost predicted themselves. He pulled the name from a James Joyce line ("Three quarks for Muster Mark") -- he insisted on the
+spelling before the pronunciation, which is why physicists say "kwork" against Joyce's "kwark."
+
+Famously vain and condescending. Could be cruel to colleagues. But also brilliantly social when he chose -- he genuinely loved knowing things, in any field.
+Hedged for years on whether quarks were "real" particles or mathematical conveniences; only conceded reality after deep inelastic scattering experiments
+at SLAC made it impossible to deny.
+
+== George Zweig (born 1937)
+
+Russian-American, born in Moscow; family fled Nazi-occupied Vienna when he was a child. Caltech PhD under Feynman. While at CERN,
+he proposed essentially the same model as Gell-Mann -- independently -- and called the constituents *aces*. Where Gell-Mann hedged on whether quarks were real,
+Zweig insisted from day one that they had to be physical particles.
+
+*How he was thinking:* Concrete, physical, willing to take ridicule. Established physicists called his idea "charlatanism,"
+and he couldn't get a faculty job for years. Eventually left particle physics for neurobiology (cochlear modeling), then for quantitative finance.
+A brilliant career path that bears no resemblance to anyone else's. He never won a Nobel; many feel he should have shared Gell-Mann's.
+
+== Peter Higgs (1929-2024)
+
+Born in Newcastle, England. Quiet, modest, lifelong academic at the University of Edinburgh. Did the Higgs mechanism work in 1964 and
+then waited 49 years for confirmation -- experiment caught up in 2012, Nobel followed in 2013.
+
+*How he was thinking:* Slow, careful, willing to hold an unfashionable idea for decades. He didn't follow trends. He read papers slowly,
+thought longer than most physicists are willing to. He hated the field being called "the Higgs field" -- he always credited Brout, Englert, Guralnik,
+Hagen, and Kibble, who got there at essentially the same time.
+
+Lived simply, no email, no internet, no mobile phone. Embarrassed by celebrity. He once said in an interview: "It's very difficult to imagine
+how it would be if I'd been somebody who actively pursued attention." When the Nobel was announced,
+he was on a walk and didn't find out for hours. Died in April 2024.
+
+== Brout, Englert, Guralnik, Hagen, Kibble
+
+Six physicists, three independent papers, one mechanism, all in 1964. *Robert Brout* (1928-2011) and *François Englert* (b. 1932) at
+the Université Libre de Bruxelles published first by a few weeks. Higgs followed. Then *Gerald Guralnik* (1936-2014),
+*C. R. Hagen* (b. 1937), and *Tom Kibble* (1932-2016) at Imperial College London.
+
+The Nobel rules cap a prize at three recipients. Brout had died by 2013 and was therefore ineligible. Higgs and Englert shared the 2013 prize;
+the Imperial College trio did not. This is a recurring problem in modern physics -- big ideas come from collaborations larger than the prize allows.
+The "Higgs boson" is partly a labeling accident.
+
+== Sources and Further Reading
+
+* Abraham Pais, _Inward Bound: Of Matter and Forces in the Physical World_ (1986). Pais was a physicist; this is the standard scholarly history.
+* Richard Rhodes, _The Making of the Atomic Bomb_ (1986). The best general account of Rutherford, Bohr, Chadwick, and their world.
+* Graham Farmelo, _The Strangest Man: The Hidden Life of Paul Dirac_ (2009). The definitive Dirac biography.
+* Frank Close, _Elusive: How Peter Higgs Solved the Mystery of Mass_ (2022).
+* Diogenes Laertius, _Lives of Eminent Philosophers_, Book IX -- the main ancient source for Leucippus and Democritus.
+
+== Final Grade and Comments
+
+- ✅ Graded assignment by {rdd13r} on July 18th 2026. *A*

@@ -18,7 +18,6 @@ image::{page-image}[{page-image-credit},width="500px",align="left"]
 
 _**↑ {all-people}**_
 
-// tag::fullbody[]
 == Life Summary
 
 === Synopsis
@@ -128,4 +127,3 @@ ____
 ____
 
 - Sources: https://en.wikipedia.org/wiki/Epictetus[Wikipedia]  & https://www.youtube.com/watch?v=ux9i4qIDpI4&t=451s[Daily Stoic]
-// end::fullbody[]

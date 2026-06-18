@@ -18,7 +18,6 @@ image::{page-image}[{page-image-credit},width="500px",align="left"]
 
 _**↑ {all-people}**_
 
-// tag::fullbody[]
 == An Autographical Review
 There is not a single detail in the life of Pythagoras that stands uncontradicted. But it is possible, from a more or less critical selection of the data, to construct a plausible account.
 
@@ -97,4 +96,3 @@ The Pythagoreans also had strict dietary rules. It's generally agreed they avoid
 Even during his lifetime, many legends grew around Pythagoras, portraying him as a supernatural figure and "wonder-worker." Stories claimed he had a golden thigh, which he supposedly showed at the Olympic Games. He was said to be able to be in two places at once and that a river once greeted him by name. Later Roman legends even called him the son of Apollo.
 
 He was also known for his unusual appearance, dressing all in white with a golden wreath and Thracian-style trousers. Legends describe his remarkable ability to interact with animals, like biting a snake that bit him, or convincing a bull not to eat fava beans and a bear to stop harming living things. While these stories may seem fanciful, some scholars believe Pythagoras might have encouraged them himself to enhance his mystical image.
-// end::fullbody[]

@@ -18,7 +18,6 @@ image::{page-image}[{page-image-credit},width="500px",align="left"]
 
 _**↑ {all-people}**_
 
-// tag::fullbody[]
 == Summary
 *Leonardo Bonacci* (c. 1170 – c. 1240–50), commonly known as Fibonacci, was an Italian mathematician from the Republic of Pisa, considered to be "the most talented Western mathematician of the Middle Ages."
 
@@ -63,4 +62,3 @@ Fibonacci's known works include:
 - Di minor guisa (lost): A treatise on commercial arithmetic.
 
 - Commentary on Book X of Euclid's Elements (lost).
-// end::fullbody[]

@@ -18,7 +18,6 @@ image::{page-image}[{page-image-credit},width="500px",align="left"]
 
 _**↑ {all-people}**_
 
-// tag::fullbody[]
 == Biography
 
 === Synopsis
@@ -71,7 +70,27 @@ His philosophical letters, particularly the Letters to Lucilius, offer a blend o
 - The importance of benefiting others.
 
 - The acceptance of adversity and the belief that the universe is governed by a rational providence for the best.
-// end::fullbody[]
+
+== Beliefs (from Anton's Stoics of Greece research)
+
+
+1. **Habits and Routines** +
+_“Life without design is erratic.”_ -- Seneca
+
+2. **Treat the Body Rigorously** +
+_“We treat the body rigorously so that it is not disobedient to the mind.”_ -- Seneca
+
+3. **Work on Yourself a Little Each Day** +
+_“Each day, acquire something that will fortify you against poverty, death, or misfortune.”_ -- Seneca, *Letters to Lucilius*
+**
+4. **Go to Sleep and Get Good Rest** +
+_“Eventually, the mind will break as surely as the anvil breaks the hammer.”_ -- Seneca
+
+5. **Premeditatio Malorum (Negative Visualization)** +
+_“The unexpected blow lands heaviest.”_ -- Seneca
+
+6. **Memento Mori (Remember Death)** +
+_“You will not live forever. Remember death.”_ -- A core Stoic theme
 
 == Beliefs (from Anton's Stoics of Greece research)
 

@@ -23,7 +23,6 @@ _**↑ {all-people}**_ | _**{see-newton}**_ · _**{see-thomson}**_
 
 English Quaker schoolteacher who brought number to atomism. Color-blind (the modern term _Daltonism_ comes from him). Kept a daily weather diary for 57 years -- around 200,000 entries.
 
-// tag::fullbody[]
 == History
 
 Born in Eaglesfield, Cumbria. Quaker, son of a weaver. Self-taught after a basic Quaker school education. Began teaching at age 12 in his home village. Moved to Manchester in 1793 to teach mathematics and natural philosophy at the New College there, and stayed in Manchester essentially the rest of his life.
@@ -57,4 +56,3 @@ He published the first table of relative atomic weights, taking hydrogen as 1. T
 Most of these postulates are still right. The "indivisible" claim is the one the 20th century broke -- Thomson's electron, Rutherford's nucleus, Chadwick's neutron, Gell-Mann's quarks. Strict identity of atoms within an element also fails (isotopes have different masses), and atoms _can_ be transformed in nuclear reactions, just not chemical ones.
 
 Dalton bridged the gap between Newton's particles-as-philosophy and modern measurement-driven atomic physics. He was the first to make atoms _do real work_ in a quantitative theory. After him, there was no going back.
-// end::fullbody[]

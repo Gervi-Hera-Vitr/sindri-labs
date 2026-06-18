@@ -18,7 +18,6 @@ image::{page-image}[{page-image-credit},width="500px",align="left"]
 
 _**↑ {all-people}**_
 
-// tag::fullbody[]
 == Summary
 Archimedes of Syracuse (c. 287 – c. 212 BC) was an Ancient Greek polymath from Sicily, renowned as one of the greatest mathematicians and scientists of classical antiquity.
 
@@ -116,4 +115,3 @@ Lost Works:
 
 Archimedes Palimpsest:
 Discovered in 1906, this 13th-century prayer book is a palimpsest, meaning it was written over erased 10th-century copies of previously lost treatises by Archimedes. It contains the only surviving Greek copy of On Floating Bodies and the only known copy of The Method of Mechanical Theorems. It also provided a more complete version of Ostomachion. The treatises within the palimpsest include: On the Equilibrium of Planes, On Spirals, Measurement of a Circle, On the Sphere and Cylinder, On Floating Bodies, The Method of Mechanical Theorems, and Stomachion. The palimpsest was sold in 1998 for $2.2 million and has since been extensively studied using modern imaging techniques.
-// end::fullbody[]

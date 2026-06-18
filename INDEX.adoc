@@ -1,9 +1,9 @@
 = Thoughts in Flight
 
-. [ ] Review school content for slop;
-. [ ] Remove all the slop;
-. [ ] Grade particle;
-. [ ] Merge.
+. [x] Review school content for slop;
+. [x] Remove all the slop;
+. [x] Grade particle;
+. [x] Merge.
 
 == In-flight (this branch, pre-compact 2026-06-16)
 
@@ -17,11 +17,6 @@
 - Reason: they want to participate in tag archives. `jekyll-archives` (2.3.0) is already wired in `site/Gemfile` and `site/_config.yml:227–234`. New `_documents` collection added to archive config = tag archive includes them.
 - Permalinks preserved per-item via front matter (`/philosophy/`, `/philosophers/`, `/mathematics/`).
 - Migration not yet started.
-
-*Remaining `_posts/` to scan for slop:*
-- Essay-On-How-To-Kill-A-Mocking-Bird, Essay-On-Go-Set-A-Watchman (literary, expected clean)
-- On-Mathematics, On-Foundations-Of-Mathematics, On-Mathematics-Set-Theory, On-Mathematics-Complexity-Theory, On-Mathematics-Category-Theory, On-Godel-Incompleteness-Theorem, On-Computation-Theory, On-Set-Theory (math series — survey flagged em-dashes + curly apos in some)
-- 2026-05-08-On-Particle (already scanned earlier this session — clean modulo "Captain here" comment)
 
 *Tag enrichment open question:* literary essays currently `[essay]`; math posts use richer `[mathematics, theory, <topic>]`. Proposed parallel `[literature, analysis, <work>, essay]` for literary essays — pending Vadim's decision and possibly a documented tagging convention.
 
@@ -106,13 +101,13 @@ synopsis_of: democritus
 |Synopsis variant |1 |democritus-synopsis
 |===
 
-*Bodies migrated 2026-06-18*: 13 fragments received full biography bodies from `curriculum/History/Greece/ImportantPeople/` masterfiles — al-khwarizmi, archimedes, aristotle, epictetus, euclid, fibonacci, marcus-aurelius, khayyam, plato, pythagoras, seneca, socrates, zeno-of-citium. Two of them (marcus-aurelius, seneca) additionally absorbed `=== Beliefs` subsections from `StoicsOfGreece.adoc`.
+*Bodies migrated 2026-06-18*: 14 fragments received full biography bodies from `curriculum/History/Greece/ImportantPeople/` masterfiles — al-khwarizmi, archimedes, aristotle, epictetus, euclid, fibonacci, marcus-aurelius, khayyam, plato, pythagoras, seneca, socrates, thales, zeno-of-citium. Two of them (marcus-aurelius, seneca) additionally absorbed `=== Beliefs` subsections from `StoicsOfGreece.adoc`.
 
 === Image system installed (this session)
 
 * `site/assets/images/people/placeholder.jpg` — 500×600 "change me" placeholder.
-* All 82 fragments carry `:page-image:` + the conditional `:imagesdir:` block, so the image renders in both IDE preview AND Jekyll-built site contexts.
-* *17 fragments now point at real images*; 65 still point at `placeholder.jpg` (stubs awaiting bodies).
+* All 96 fragments carry `:page-image:` + the conditional `:imagesdir:` block, so the image renders in both IDE preview AND Jekyll-built site contexts.
+* *17 fragments now point at real images*; 79 still point at `placeholder.jpg` (stubs awaiting bodies, including the 14 new pillars).
 ** *14 single-person portraits* (cover-cropped 500×600): newton, anderson, bohr, chadwick, dalton, democritus, dirac, gassendi, gell-mann, higgs, leucippus, rutherford, thomson, zweig.
 ** *3 group discovery diagrams* (fit-padded 500×600 on white): geiger-marsden (scattering diagram), bothe-becker-joliot-curies (Chadwick apparatus schematic), brout-englert-ghk (Mexican-hat potential).
 * Two crop modes by content type:
@@ -182,7 +177,7 @@ done
 * `site/_pages/people.md` — created to fix the breadcrumb 404 at `/people/`. MM theme breadcrumbs build flat segment URLs (not cumulative), so each collection-subfolder name appearing in a URL needs its own `_pages/` entry. Vadim then added overlay header, wide layout, and title.
 * `site/_pages/fragments.md` — same treatment (overlay, wide, title).
 * `site/404.html` — rewritten with workshop-voice copy (_"Not in the workshop today"_) and a quick-links grid (Home, Curriculum, Fragments, People, Categories, Tags) so the page is no longer a dead end.
-* `site/_config.yml` — added path-scoped default `classes: wide` for `_fragments/people` (applies to all 82 fragment pages; requires Jekyll restart to take effect).
+* `site/_config.yml` — added path-scoped default `classes: wide` for `_fragments/people` (applies to all 96 fragment pages; requires Jekyll restart to take effect).
 
 === Tooling notes
 
@@ -195,12 +190,12 @@ done
 ** [x] Real portraits installed for 13 single-body people (workflow: `.tmp/people-portraits.workflow.js`).
 ** [x] Discovery diagrams installed for 3 group fragments (workflow: `.tmp/group-discovery-images.workflow.js`).
 ** [x] In-body lateral nav line ("see also" strip) installed on all 96 fragments (script: `.tmp/add-see-also.py`).
-** [x] 13 masterfile bodies migrated from `curriculum/History/Greece/ImportantPeople/` + StoicsOfGreece absorbed (script: `.tmp/migrate-masterfiles.py`).
+** [x] 14 masterfile bodies migrated from `curriculum/History/Greece/ImportantPeople/` + StoicsOfGreece absorbed (script: `.tmp/migrate-masterfiles.py`).
 ** [x] 14 pillars-of-civilization stubs seeded (script: `.tmp/seed-pillars.py`).
 
-* [ ] *3 — Directory post.* Read `curriculum/Physics/Particles/ImportantPeople.adoc` first.
+* [ ] *3 — Directory post.* Awaiting Vadim's grading of `curriculum/Physics/Particles/ImportantPeople.adoc` (links + conversion to `_posts/` + movement). Once that lands as a graded post, decide whether it serves as the directory or whether a separate aggregator is needed.
 * [x] *4 — Backlink sweep.* Footer "Legends mentioned" block + attribute defs added to 12 graded files (script: `.tmp/footer-backlinks.py`). Anton's prose untouched. Internal links, same-tab.
-* [ ] *5 — Structure review.* Flat vs subfolders vs tags.
+* [x] *5 — Structure review.* Decision: flat structure stands. Per-fragment `related[]` + see-also nav strip + footer crumbs in graded files give enough lateral navigation; subfolders not needed.
 
 === Curriculum source files awaiting Vadim's cleanup
 
@@ -218,11 +213,23 @@ These are migrated into fragments; safe to `git rm` once Vadim confirms:
 * `curriculum/History/Greece/ImportantPeople/Pythagoras-of-Samos.adoc`
 * `curriculum/History/Greece/ImportantPeople/SenecaTheYounger.adoc`
 * `curriculum/History/Greece/ImportantPeople/SocratesOfAthens.adoc`
+* `curriculum/History/Greece/ImportantPeople/ThalesOfMiletus.adoc`
 * `curriculum/History/Greece/ImportantPeople/ZenoOfCitium.adoc`
 * `curriculum/History/Greece/ImportantPeople/StoicsOfGreece.adoc` (struck-through by Anton; absorbed into marcus-aurelius + seneca)
 
 === Decisions deferred until after directory exists
 
-* Anchor structure for science (era-based vs person-as-node).
-* Subfolder strategy.
-* Backlink scope (site/ only vs all subprojects).
+* Anchor structure for science (era-based vs person-as-node) — depends on what `ImportantPeople.adoc` becomes after Vadim's grading.
+* Backlink scope (site/ only vs all subprojects) — currently `site/` only.
+
+
+== SLOP
+
+  Yours:
+  1. Grade curriculum/Physics/Particles/ImportantPeople.adoc — add links, convert to AsciiDoc post, move into site/_posts/.
+  2. git rm the 15 migrated curriculum source files in curriculum/History/Greece/ImportantPeople/.
+
+  Open (decision):
+  3. Tag enrichment convention for literary essays.
+  4. Migrate 3 anchor pages into _documents/ collection.
+  5. Tier 4 file renames (anton → captain).

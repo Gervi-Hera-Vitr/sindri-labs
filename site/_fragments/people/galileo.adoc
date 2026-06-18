@@ -21,6 +21,4 @@ image::{page-image}[{page-image-credit},width="500px",align="left"]
 
 _**↑ {all-people}**_ | _**{see-newton}**_ · _**{see-gassendi}**_
 
-// tag::fullbody[]
 _Stub -- body to be written._
-// end::fullbody[]

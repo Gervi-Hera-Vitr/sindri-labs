@@ -23,7 +23,6 @@ _**↑ {all-people}**_ | _**{see-dirac}**_ · _**{see-gell-mann}**_
 
 American experimental physicist. Found the positron in cosmic ray photographs at age 27 and the muon a few years later. Spent his entire career at Caltech.
 
-// tag::fullbody[]
 == History
 
 Born in New York City to Swedish immigrant parents, raised in Los Angeles. Undergraduate and PhD at Caltech, working under Robert Millikan on cosmic rays. Stayed at Caltech as faculty for the rest of his life. Won the 1936 Nobel Prize in Physics at age 31, jointly with Victor Hess (who discovered cosmic rays). One of the youngest Nobel laureates of the 20th century.
@@ -41,4 +40,3 @@ In August 1932 he photographed a track in his cloud chamber that curved the wron
 He published "The Positive Electron" in _Physical Review_ in 1933. First antimatter particle ever observed -- and exactly what Dirac's equation had demanded four years earlier.
 
 In 1936, with his student Seth Neddermeyer, he discovered the muon in cosmic rays -- a particle 200 times heavier than the electron with otherwise identical properties. I.I. Rabi reportedly reacted with: "Who ordered that?" The muon turned out to be the first hint of the second generation of leptons.
-// end::fullbody[]

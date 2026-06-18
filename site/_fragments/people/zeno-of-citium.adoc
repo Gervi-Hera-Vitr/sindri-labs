@@ -18,7 +18,6 @@ image::{page-image}[{page-image-credit},width="500px",align="left"]
 
 _**↑ {all-people}**_
 
-// tag::fullbody[]
 == Biography
 
 === Synopsis
@@ -68,4 +67,3 @@ Zeno's physics was pantheistic, viewing the universe as a divine, reasoning enti
 
 ==== Ethics
 Like the Cynics, Zeno believed in a single, simple good, which is virtue. He defined happiness as a "good flow of life" achieved by using reason in accordance with the universal reason, or Logos. For Zeno, negative emotions like desire, fear, pleasure, and sorrow are "disturbances of the mind repugnant to reason." He argued that all actions are either good or bad, as they are based on free consent. Virtue and vice cannot be increased or decreased; an action is either virtuous or not. However, Zeno did differ from the Cynics by saying that some things, though not virtuous in themselves, could have a relative value if they aid in self-preservation.
-// end::fullbody[]

@@ -21,7 +21,6 @@ _**↑ {all-people}**_ | _**{see-democritus}**_
 
 The originator of atomism. So thinly attested that Epicurus once denied he had ever existed -- but most modern scholars accept him as real. Probably from Miletus, Elea, or Abdera. We know him almost entirely through his student Democritus.
 
-// tag::fullbody[]
 == History
 
 The hard facts are few. Surviving fragments and references point to a Greek philosopher of the 5th century BCE, possibly trained in the Eleatic school. He is traditionally credited with the lost works _The Great World System_ (_Megas Diakosmos_) and _On the Mind_, but later authors sometimes attributed the same texts to Democritus.
@@ -43,4 +42,3 @@ His one surviving direct quote captures the determinism that came with the syste
 He invented the atomic ontology. Atoms are infinite in number, eternal, indivisible, varying in shape and size; they move and collide in empty space; their arrangements account for the variety of things. Every later atomist -- Democritus, Epicurus, Lucretius, Gassendi, Dalton -- inherits this skeleton.
 
 He left almost no surviving text. The system he built was carried forward by Democritus, who extended it across physics, ethics, perception, and thought. Without Democritus, Leucippus would be a footnote. Without Leucippus, Democritus would have nothing to extend.
-// end::fullbody[]

@@ -23,7 +23,6 @@ _**↑ {all-people}**_ | _**{see-dalton}**_ · _**{see-rutherford}**_
 
 Cavendish Professor at Cambridge from age 28. Discovered the electron in 1897. Mentored seven future Nobel laureates including Rutherford. Famously absent-minded -- there are stories of him being unable to operate equipment he had designed himself.
 
-// tag::fullbody[]
 == History
 
 Born near Manchester. Trinity College, Cambridge. Cavendish Professor of Experimental Physics from 1884 -- he was 28, the youngest Cavendish Professor ever appointed. He held the post for 35 years.
@@ -53,4 +52,3 @@ These were "corpuscles" -- later renamed electrons. First experimental proof tha
 In 1904 he proposed the _plum-pudding model_: negatively charged corpuscles embedded in a diffuse sphere of positive charge -- "plums in a pudding." It held until Rutherford's gold foil experiment replaced it with the nuclear model in 1911.
 
 Nobel Prize in Physics: 1906.
-// end::fullbody[]

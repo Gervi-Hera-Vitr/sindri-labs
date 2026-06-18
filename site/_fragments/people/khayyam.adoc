@@ -18,7 +18,6 @@ image::{page-image}[{page-image-credit},width="500px",align="left"]
 
 _**↑ {all-people}**_
 
-// tag::fullbody[]
 == Summary
 Omar Khayyam (May 18, 1048 – December 4, 1131) was a Persian polymath born in Nishapur, Iran, during the Seljuk era. He made significant contributions to mathematics, astronomy, philosophy, and Persian literature.
 
@@ -111,4 +110,3 @@ Conversely, some interpret Khayyam's quatrains as mystical Sufi poetry, where re
 Evidence from his biographical accounts and prose works often points to his conformity with Islamic customs, with religious honorifics used to describe him and prayers included in his treatises. This suggests a more orthodox stance, or at least a public adherence to religious norms.
 
 Ultimately, given the conflicting textual and biographical evidence, Khayyam's precise religious beliefs remain an open question, leading to diverse and often contradictory interpretations of his legacy.
-// end::fullbody[]

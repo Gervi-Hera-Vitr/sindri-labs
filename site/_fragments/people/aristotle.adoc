@@ -18,7 +18,6 @@ image::{page-image}[{page-image-credit},width="500px",align="left"]
 
 _**↑ {all-people}**_
 
-// tag::fullbody[]
 == Biography
 
 === Synopsis
@@ -108,4 +107,3 @@ He believed the soul is the "form" of a living being and that it cannot be separ
 === Practical Philosophy
 ==== Ethics
 Aristotle's ethics are a form of virtue ethics, which focuses on developing a good character rather than on rules of conduct. He argued that the proper function (ergon) of a human is an activity of the soul in accordance with reason. The goal of human life is to achieve eudaimonia, which is often translated as "happiness" or "well-being." To achieve this, a person must cultivate moral virtues, which he defined as a golden mean between two extremes of vice (excess and deficiency). For example, courage is the mean between the vice of cowardice (deficiency) and the vice of rashness (excess)
-// end::fullbody[]

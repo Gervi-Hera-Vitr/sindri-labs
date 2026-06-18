@@ -23,7 +23,6 @@ _**↑ {all-people}**_ | _**{see-leucippus}**_ · _**{see-gassendi}**_
 
 The man who took Leucippus's atoms and ran with them. Abderan, materialist, polymath. Wrote 70+ books, none survive complete. Lived to ~90 in an era when most made it to 40.
 
-// tag::fullbody[]
 == History
 
 Born in Abdera, Thrace -- a city the rest of Greece used as a punchline ("Abderite jokes" were the era's village-idiot stories). Abdera actually produced two of the sharpest minds of the period: Democritus and Protagoras.
@@ -69,4 +68,3 @@ The reception was hostile. Plato never named him in any surviving dialogue, and 
 After Aristotle, the Roman Epicureans (Epicurus, Lucretius) inherited and refined atomism. After them, Christianity tagged it as pagan and the texts mostly disappeared. Lucretius's _De Rerum Natura_ survived in a single manuscript that wasn't rediscovered until 1417. The line nearly broke.
 
 The structure of his theory was right: atoms exist, the universe is mostly empty space, what we experience as the qualities of things is secondary to atomic arrangement. The detail was wrong: atoms are divisible (electron, nucleus, quarks), and there is far more in the "void" than nothing (fields, vacuum energy). He was right about the method, even where he was wrong about the matter.
-// end::fullbody[]

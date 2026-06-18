@@ -23,7 +23,6 @@ _**↑ {all-people}**_ | _**{see-democritus}**_ · _**{see-newton}**_
 
 French Catholic priest, philosopher, and astronomer. The single most important figure in bringing atomism back to Europe -- and almost nobody outside the history knows his name.
 
-// tag::fullbody[]
 == History
 
 Born in Champtercier, Provence, to a peasant family. Ordained a Catholic priest. Provost of the cathedral at Digne, then professor of mathematics at the Collège Royal in Paris. Friend of Galileo and Hobbes; sharp critic of Descartes.
@@ -47,4 +46,3 @@ He rescued atomism from the charge of atheism. After him, taking atoms seriously
 Critical context: Galileo had been condemned by the Inquisition in 1633. Defending atomism in 1640s France was politically dangerous. Gassendi's careful theological framing was the cover that made the next century possible. Without him, the Newtonian generation might never have inherited atoms at all.
 
 He did not predict any specific particle. He produced no experiment that would survive in a modern textbook. His contribution was making it _safe to think with atoms_ in Christian Europe -- and that was enough to change physics.
-// end::fullbody[]

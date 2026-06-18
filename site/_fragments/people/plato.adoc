@@ -18,7 +18,6 @@ image::{page-image}[{page-image-credit},width="500px",align="left"]
 
 _**↑ {all-people}**_
 
-// tag::fullbody[]
 == Biography & Philosophy
 
 === Synopsis
@@ -100,4 +99,3 @@ He believed a state would decline through different forms of government, startin
 
 === Rhetoric and Poetry
 Plato had a complex view of art. While he acknowledged that poetry can be divinely inspired, he also famously suggested in the Republic that it should be outlawed because it imitates the material world, which is itself an imitation of the true Forms. He was critical of rhetoric but also used it skillfully in his own writings, often employing myths and allegorical narratives to make philosophical concepts more accessible to a wider audience. Notable examples include the Allegory of the Cave and the Myth of Er.
-// end::fullbody[]

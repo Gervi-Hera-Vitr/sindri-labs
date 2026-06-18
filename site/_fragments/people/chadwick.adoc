@@ -24,7 +24,6 @@ _**↑ {all-people}**_ | _**{see-rutherford}**_ · _**{see-bothe-becker-joliot-c
 
 English physicist who discovered the neutron. Trained under Rutherford, interned in Germany during World War I, later led the British scientific contribution to the Manhattan Project.
 
-// tag::fullbody[]
 == History
 
 Born in Bollington, Cheshire. Studied at Manchester under Rutherford, then moved to Berlin in 1914 to work with Hans Geiger. He was caught in Germany when war broke out and spent four years interned at Ruhleben, a converted racetrack outside Berlin. He set up a small lab in the camp using makeshift equipment and kept doing physics.
@@ -42,4 +41,3 @@ When the Joliot-Curies published their paraffin-recoil data in early 1932, Chadw
 Within weeks he repeated the beryllium experiments at the Cavendish, but with a critical addition: he measured the recoil energies of multiple target nuclei -- hydrogen, nitrogen, others -- and applied conservation of energy and momentum to back out the mass of the incoming particle. The math gave a neutral particle of mass close to that of the proton (~1.008 amu).
 
 He published "Possible Existence of a Neutron" in _Nature_ in February 1932 and the full paper "The Existence of a Neutron" in _Proceedings of the Royal Society A_ in May. The atom's third basic part. Without the neutron there is no nuclear physics, no fission, no Manhattan Project, no understanding of isotopes.
-// end::fullbody[]

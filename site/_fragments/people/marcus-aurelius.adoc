@@ -18,7 +18,6 @@ image::{page-image}[{page-image-credit},width="500px",align="left"]
 
 _**↑ {all-people}**_
 
-// tag::fullbody[]
 == Biography
 
 === Synopsis
@@ -108,7 +107,18 @@ It is unknown how widely the work circulated after Marcus's death, but it surviv
 During his lifetime and after his death, Marcus Aurelius was widely regarded as a philosopher king. The historian Herodian noted that Marcus proved his philosophical principles not just with words but with his "blameless character and temperate way of life." The historian Cassius Dio and Christian writers also gave him the title of "the philosopher."
 
 Some historians consider his legacy tragic because his son and successor, Commodus, completely abandoned the Stoic values of self-restraint and duty that Marcus embodied.
-// end::fullbody[]
+
+== Beliefs (from Anton's Stoics of Greece research)
+
+
+1. **Don't Procrastinate** +
+_“You could be good today. But instead, you choose tomorrow.”_ – Marcus Aurelius
+
+2. **Wake Up Early** +
+_"At dawn, when you have trouble getting out of bed, tell yourself: I have to go to work as a human being."_ – Marcus Aurelius, *Meditations* Book 5
+
+3. **Don't Overthink It** +
+_“Waste no more time arguing what a good man should be. Be one.”_ – Marcus Aurelius
 
 == Beliefs (from Anton's Stoics of Greece research)
 

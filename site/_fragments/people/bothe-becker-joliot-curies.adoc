@@ -21,7 +21,6 @@ _**↑ {all-people}**_ | _**{see-bothe}**_ · _**{see-becker}**_ · _**{see-joli
 
 The four physicists who produced the neutron data without recognizing what they had. Walther Bothe (1891-1957) and Herbert Becker in Germany; Irène Joliot-Curie (1897-1956) and Frédéric Joliot-Curie (1900-1958) in Paris.
 
-// tag::fullbody[]
 == History
 
 Bothe was a German experimentalist at the Physikalisch-Technische Reichsanstalt in Berlin, later director of the Max Planck Institute in Heidelberg. He shared the 1954 Nobel Prize for the coincidence method of detecting particles. Becker was his student and co-author.
@@ -39,4 +38,3 @@ The Joliot-Curies repeated the experiment in 1932 and showed that this "radiatio
 They produced the experimental signature of the neutron -- twice, across two countries, over two years -- and missed it. When Chadwick read the Joliot-Curie paper in early 1932, he recognized immediately that gamma rays could not transfer that much momentum to a proton. He repeated their experiment at the Cavendish, measured the recoils, and announced the neutron within weeks.
 
 The lesson is in the gap between data and interpretation. Bothe-Becker had the rays. The Joliot-Curies had the proton recoils. Chadwick had Rutherford's twelve-year-old hypothesis ready in his head. The neutron belonged to whoever was looking for it.
-// end::fullbody[]

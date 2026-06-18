@@ -19,7 +19,6 @@ _**↑ {all-people}**_ | _**{see-geiger}**_ · _**{see-marsden}**_ · _**{see-ru
 
 The hands behind Rutherford's eyes. Geiger was a German physicist who later invented the Geiger counter (1928). Marsden was a 20-year-old undergraduate when Rutherford handed him the gold foil experiment as a project.
 
-// tag::fullbody[]
 == History
 
 Geiger came to Manchester from Germany after a PhD in Erlangen. He worked with Rutherford on counting alpha particles -- tedious, eye-straining work in a darkened room. After leaving Manchester he went back to Germany and developed the Geiger-Müller counter, which became the standard radiation detector and is still in use a century later. He stayed in Germany through both world wars; his lab was destroyed in WWII bombing.
@@ -43,4 +42,3 @@ The plum-pudding prediction: tiny deflections only. The result: most particles p
 They published this as "On a Diffuse Reflection of the α-Particles" in _Proceedings of the Royal Society A_ (1909). Rutherford's interpretation -- the nucleus -- followed in 1911. Without their data, no nucleus.
 
 Geiger's later invention of the Geiger counter (with Walther Müller) made every subsequent nuclear and particle experiment easier; it's the workhorse instrument that turned counting individual particles from hours of eyestrain into an audible click.
-// end::fullbody[]

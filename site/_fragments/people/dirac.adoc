@@ -23,7 +23,6 @@ _**↑ {all-people}**_ | _**{see-anderson}**_ · _**{see-bohr}**_
 
 English theoretical physicist. One of the founders of quantum mechanics and quantum field theory. Trusted mathematics more than intuition and was right often enough that the field reorganized itself around him.
 
-// tag::fullbody[]
 == History
 
 Born in Bristol to a Swiss-French father and English mother. His childhood was bleak by all accounts -- his father enforced French at the dinner table and Paul, unable to express himself adequately, simply went silent. The silence stuck. Colleagues at Cambridge invented the unit "the Dirac" for one word per hour.
@@ -45,4 +44,3 @@ The equation produced two sets of solutions: positive-energy states (electrons) 
 Carl Anderson found it four years later in cosmic ray photographs. The Dirac → Anderson sequence remains the cleanest case in physics of math leading experiment.
 
 Dirac also wrote _The Principles of Quantum Mechanics_ (1930), the textbook that taught the next two generations, and laid the foundation of quantum electrodynamics. The bra-ket notation is his.
-// end::fullbody[]

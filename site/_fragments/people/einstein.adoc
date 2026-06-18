@@ -23,6 +23,4 @@ image::{page-image}[{page-image-credit},width="500px",align="left"]
 
 _**↑ {all-people}**_ | _**{see-bohr}**_ · _**{see-dirac}**_ · _**{see-riemann}**_ · _**{see-maxwell}**_
 
-// tag::fullbody[]
 _Stub -- body to be written._
-// end::fullbody[]

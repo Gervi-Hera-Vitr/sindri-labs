@@ -23,7 +23,6 @@ _**↑ {all-people}**_ | _**{see-zweig}**_ · _**{see-dalton}**_
 
 American theoretical physicist. Imposed order on the particle zoo of the 1950s and 1960s, predicted the quark, and named most of the things he discovered with words borrowed from literature.
 
-// tag::fullbody[]
 == History
 
 Born in Manhattan to Austrian-Jewish immigrants. Read voraciously from childhood -- linguistics, archaeology, ornithology, ancient history. Entered Yale at 15, PhD from MIT at 21. Faculty at Caltech from 1955, working alongside Feynman -- the two were rivals and intellectual sparring partners for decades. Won the 1969 Nobel Prize in Physics, alone, for the classification of elementary particles.
@@ -43,4 +42,3 @@ In 1961 he applied the group theory of SU(3) to the hadrons and got them to fall
 In 1964 he and George Zweig proposed independently that hadrons are built from smaller, fractionally charged particles. Gell-Mann's were _quarks_ -- up, down, strange, with charges +⅔, -⅓, -⅓. Zweig's were _aces_; his version was treated as a charlatan's invention. Gell-Mann's version, hedged at first as a "mathematical convenience," became real when deep inelastic scattering at SLAC (1967-73) showed protons contained point-like objects inside.
 
 A proton is _uud_. A neutron is _udd_. Three more flavors followed -- charm, bottom, top -- but the framework was Gell-Mann's.
-// end::fullbody[]

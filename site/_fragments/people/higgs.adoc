@@ -22,7 +22,6 @@ _**↑ {all-people}**_ | _**{see-brout-englert-ghk}**_
 
 British theoretical physicist. Predicted the boson now named after him in 1964 and waited 48 years to see it found. Quiet, modest, allergic to the celebrity that eventually came for him.
 
-// tag::fullbody[]
 == History
 
 Born in Newcastle upon Tyne. Asthmatic as a child, often kept out of school, taught himself from books at home. Undergraduate and PhD at King's College London. Joined the University of Edinburgh in 1960 and stayed there for the rest of his career. Retired in 1996; the Higgs boson was still hypothetical.
@@ -42,4 +41,3 @@ In 1964 he wrote two papers in quick succession. The first was rejected by _Phys
 The mechanism: a scalar field fills all of space. Particles that interact strongly with this field acquire mass; particles that don't (photons, gluons) remain massless. The field has a quantum -- a particle, the Higgs boson -- and finding that particle would prove the field exists.
 
 On 4 July 2012, ATLAS and CMS at the LHC announced a 125 GeV boson with the right properties. The Standard Model's last missing piece. Higgs and Englert took the 2013 Nobel; Brout had died the year before.
-// end::fullbody[]

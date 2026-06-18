@@ -34,42 +34,21 @@ Minimal Mistakes (`mmistakes/minimal-mistakes`) with `sunrise` skin. Remote them
 - Workups can emerge for weeks and live in topic folders such as `curriculum/Engineering/onCoreWizardry/onCompetitiveProgramming/onCodeForces`;
 - Workups are not graded, they're reviewed, collaborated on, and curated; the published work based on workups is graded instead.
 
-**Collections -- Fragments and References:**
+**Collections -- Fragments:**
 
-Two custom collections live alongside `_posts` and `_pages`:
+`_fragments/` lives alongside `_posts` and `_pages` -- small reusable pieces (paragraph or two), one per topic, linked to from posts and pages. Renders as its own pages but does NOT appear in the main post feed. Subdirectories work: `_fragments/people/foo.adoc` becomes `/fragments/people/foo/`. The collection's permalink template (`/fragments/:path/`) generates the URL automatically -- no need to set `permalink:` in front matter.
 
-- **`_fragments/`** -- small reusable pieces (paragraph or two), one per topic. Used for drilldowns from posts and as inline includes.
-- **`_references/`** -- bibliographic entries, one per source. Used as footnote text and as bibliography includes.
+**Pattern:** Fragment as link -- `link:{{ '/fragments/foo/' | relative_url }}[Title]`. Example: `_fragments/people/democritus.adoc`.
 
-Both render as their own pages, but do NOT appear in the main post feed. Subdirectories work: `_fragments/people/foo.adoc` becomes `/fragments/people/foo/`. The collection's permalink template (`/fragments/:path/`, `/references/:path/`) generates the URL automatically -- no need to set `permalink:` in front matter.
+**Footnotes:**
 
-**The four working patterns:**
-
-1. **Fragment as inline include** -- `include::../_fragments/foo.adoc[tag=body]` pastes the fragment body into the host document (post-time, before parse).
-2. **Fragment as link** -- `link:{{ '/fragments/foo/' | relative_url }}[Title]` to link to the standalone page.
-3. **Reference as footnote** -- `footnote:id[short text + link to the reference page]` defines the footnote once, then `footnote:id[]` (empty brackets) reuses it anywhere later in the same document.
-4. **Reference as bibliography** -- `include::../_references/foo.adoc[tag=citation]` pulls the bibliographic line. `[tag=annotation]` pulls the descriptive note.
-
-**Tagged regions:**
-
-Mark content for include with:
+Hoist the whole footnote into a doc-header attribute and call it inline. See `_posts/mathematics/2025-07-06-On-Godel-Incompleteness-Theorem.adoc` and `_posts/documents/2024-11-08-mathematics.adoc` for the actual pattern in use:
 
 ```
-// tag::body[]
-...content...
-// end::body[]
+:godel-ff: footnote:[Wikipedia article on {godel}]
 ```
 
-Standard tags: `body` for fragments, `citation` and `annotation` for references. Front matter is automatically excluded from any tagged include. Content outside the tags appears only on the standalone collection page.
-
-**Constraint:**
-
-`include::` is an AsciiDoc preprocessor directive and does NOT work inside `footnote:[]` brackets. So footnotes either inline their text or link out to a reference page. Define-once-then-reuse via `footnote:id[]` does work and is the right pattern for repeated citations.
-
-Examples:
-
-- `_fragments/people/democritus.adoc` -- demo fragment
-- `_references/dirac-1928.adoc` -- demo reference
+Then the prose just says `{godel-ff}` -- short token, no wrap pollution, define-once-reuse-anywhere.
 
 **Existing Content:**
 

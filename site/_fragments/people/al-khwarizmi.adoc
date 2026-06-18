@@ -18,7 +18,6 @@ image::{page-image}[{page-image-credit},width="500px",align="left"]
 
 _**↑ {all-people}**_
 
-// tag::fullbody[]
 == Summary
 Muḥammad ibn Mūsā al-Khwārizmī
 
@@ -84,4 +83,3 @@ Al-Khwarizmi corrected Ptolemy's overestimation of the Mediterranean Sea's lengt
 In the 12th century, Latin translations of al-Khwarizmi's textbook on Indian arithmetic (Algorithmo de Numero Indorum), which codified the various Indian numerals, introduced the decimal-based positional number system to the Western world. Likewise, Al-Jabr, translated into Latin by the English scholar Robert of Chester in 1145, was used until the 16th century as the principal mathematical textbook of European universities.
 
 Al-Khwarizmi revised Geography, the 2nd-century Greek-language treatise by Ptolemy, listing the longitudes and latitudes of cities and localities. He further produced a set of astronomical tables and wrote about calendric works, as well as the astrolabe and the sundial. Al-Khwarizmi made important contributions to trigonometry, producing accurate sine and cosine tables.
-// end::fullbody[]
