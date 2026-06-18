@@ -36,6 +36,44 @@ rdd13r
 :keywords: Mímir Academy Philosophers
 :imagesdir: /sindri-labs/assets/images
 ifdef::env-name[:relfilesuffix: .adoc]
+:see-anaxagoras: link:/sindri-labs/fragments/people/anaxagoras/[Anaxagoras of Clazomenae]
+:see-anaximander: link:/sindri-labs/fragments/people/anaximander/[Anaximander of Miletus]
+:see-anaximenes: link:/sindri-labs/fragments/people/anaximenes/[Anaximenes of Miletus]
+:see-apollonius: link:/sindri-labs/fragments/people/apollonius/[Apollonius of Perga]
+:see-arcesilaus: link:/sindri-labs/fragments/people/arcesilaus/[Arcesilaus of Pitane]
+:see-archimedes: link:/sindri-labs/fragments/people/archimedes/[Archimedes of Syracuse]
+:see-aristarchus: link:/sindri-labs/fragments/people/aristarchus/[Aristarchus of Samos]
+:see-aristotle: link:/sindri-labs/fragments/people/aristotle/[Aristotle of Stagira]
+:see-carneades: link:/sindri-labs/fragments/people/carneades/[Carneades of Cyrene]
+:see-chrysippus: link:/sindri-labs/fragments/people/chrysippus/[Chrysippus of Soloi]
+:see-cleanthes: link:/sindri-labs/fragments/people/cleanthes/[Cleanthes of Assos]
+:see-democritus: link:/sindri-labs/fragments/people/democritus/[Democritus]
+:see-dicaearchus: link:/sindri-labs/fragments/people/dicaearchus/[Dicaearchus of Messana]
+:see-empedocles: link:/sindri-labs/fragments/people/empedocles/[Empedocles of Akragas]
+:see-epictetus: link:/sindri-labs/fragments/people/epictetus/[Epictetus of Hierapolis]
+:see-epicurus: link:/sindri-labs/fragments/people/epicurus/[Epicurus of Samos]
+:see-eratosthenes: link:/sindri-labs/fragments/people/eratosthenes/[Eratosthenes of Cyrene]
+:see-euclid: link:/sindri-labs/fragments/people/euclid/[Euclid of Alexandria]
+:see-eudoxus: link:/sindri-labs/fragments/people/eudoxus/[Eudoxus of Cnidus]
+:see-heraclitus: link:/sindri-labs/fragments/people/heraclitus/[Heraclitus of Ephesus]
+:see-hipparchus: link:/sindri-labs/fragments/people/hipparchus/[Hipparchus of Nicaea]
+:see-isocrates: link:/sindri-labs/fragments/people/isocrates/[Isocrates of Athens]
+:see-leucippus: link:/sindri-labs/fragments/people/leucippus/[Leucippus]
+:see-marcus-aurelius: link:/sindri-labs/fragments/people/marcus-aurelius/[Marcus Aurelius of Rome]
+:see-menaechmus: link:/sindri-labs/fragments/people/menaechmus/[Menaechmus of Alopeconnesus]
+:see-musonius-rufus: link:/sindri-labs/fragments/people/musonius-rufus/[Musonius Rufus of Volsinii]
+:see-parmenides: link:/sindri-labs/fragments/people/parmenides/[Parmenides of Elea]
+:see-plato: link:/sindri-labs/fragments/people/plato/[Plato of Athens]
+:see-pyrrho: link:/sindri-labs/fragments/people/pyrrho/[Pyrrho of Elis]
+:see-pythagoras: link:/sindri-labs/fragments/people/pythagoras/[Pythagoras of Samos]
+:see-seneca: link:/sindri-labs/fragments/people/seneca/[Seneca of Corduba]
+:see-socrates: link:/sindri-labs/fragments/people/socrates/[Socrates of Athens]
+:see-thales: link:/sindri-labs/fragments/people/thales/[Thales of Miletus]
+:see-theophrastus: link:/sindri-labs/fragments/people/theophrastus/[Theophrastus of Eresos]
+:see-xenophanes: link:/sindri-labs/fragments/people/xenophanes/[Xenophanes of Colophon]
+:see-xenophon: link:/sindri-labs/fragments/people/xenophon/[Xenophon of Athens]
+:see-zeno-of-citium: link:/sindri-labs/fragments/people/zeno-of-citium/[Zeno of Citium]
+:see-zeno-of-elea: link:/sindri-labs/fragments/people/zeno-of-elea/[Zeno of Elea]
 
 [#philosophers]
 image::philosophers.png[Philosophers,float="right",align="center"]
@@ -100,3 +138,45 @@ image::philosophers.png[Philosophers,float="right",align="center"]
 * *Hellenistic Science:* _Formal geometry, astronomy, physics, medicine, and geography._
 * *Stoics:* _Lasting influence on ethics, modern CBT, self-mastery, and resilience philosophy._
 * *Skeptics & Epicureans:* _Alternative Hellenistic schools emphasizing doubt, tranquility, and pleasure._
+
+// Legends-mentioned backlink section -- managed by .tmp/footer-backlinks.py
+== Legends mentioned
+
+- {see-anaxagoras}
+- {see-anaximander}
+- {see-anaximenes}
+- {see-apollonius}
+- {see-arcesilaus}
+- {see-archimedes}
+- {see-aristarchus}
+- {see-aristotle}
+- {see-carneades}
+- {see-chrysippus}
+- {see-cleanthes}
+- {see-democritus}
+- {see-dicaearchus}
+- {see-empedocles}
+- {see-epictetus}
+- {see-epicurus}
+- {see-eratosthenes}
+- {see-euclid}
+- {see-eudoxus}
+- {see-heraclitus}
+- {see-hipparchus}
+- {see-isocrates}
+- {see-leucippus}
+- {see-marcus-aurelius}
+- {see-menaechmus}
+- {see-musonius-rufus}
+- {see-parmenides}
+- {see-plato}
+- {see-pyrrho}
+- {see-pythagoras}
+- {see-seneca}
+- {see-socrates}
+- {see-thales}
+- {see-theophrastus}
+- {see-xenophanes}
+- {see-xenophon}
+- {see-zeno-of-citium}
+- {see-zeno-of-elea}

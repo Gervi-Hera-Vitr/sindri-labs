@@ -20,6 +20,8 @@ lugaru
 :on-top: link:/sindri-labs/on-mathematics/[On Mathematics]
 :on-prev: link:/sindri-labs/mathematics/2025/07/02/On-Foundations-Of-Mathematics.html[Mathematics - Part 1: Foundations & Reason]
 :on-next: link:/sindri-labs/mathematics/2025/07/04/On-Mathematics-Complexity-Theory.html[Mathematics - Part 3: Complexity Theory]
+:see-peano: link:/sindri-labs/fragments/people/peano/[Giuseppe Peano]
+:see-russell: link:/sindri-labs/fragments/people/russell/[Bertrand Russell]
 
 ← _**{on-prev}**_ +
 _**{on-next}**_ → +
@@ -227,3 +229,9 @@ Set theory is used in:
 == Final Grade and Comments
 
 - ✅ Graded assignment by {rdd13r} on July 12th 2025. *A*
+
+// Legends-mentioned backlink section -- managed by .tmp/footer-backlinks.py
+== Legends mentioned
+
+- {see-peano}
+- {see-russell}

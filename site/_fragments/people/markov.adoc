@@ -1,0 +1,26 @@
+---
+name: Andrey Markov
+born: 1856
+died: 1922
+era: modern
+nationality: russian
+sciences: [mathematics, probability]
+science: mathematics
+related: [kolmogorov, bayes]
+---
+= Andrey Markov (1856-1922)
+ifndef::env-site[:imagesdir: ../../assets/images/people]
+ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
+:page-image: placeholder.jpg
+:page-image-credit: "change me"
+:all-people: link:/sindri-labs/people/[All People]
+:see-kolmogorov: link:/sindri-labs/fragments/people/kolmogorov/[Andrey Kolmogorov]
+:see-bayes: link:/sindri-labs/fragments/people/bayes/[Thomas Bayes]
+
+image::{page-image}[{page-image-credit},width="500px",align="left"]
+
+_**↑ {all-people}**_ | _**{see-kolmogorov}**_ · _**{see-bayes}**_
+
+// tag::fullbody[]
+_Stub -- body to be written._
+// end::fullbody[]

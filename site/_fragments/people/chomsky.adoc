@@ -1,0 +1,26 @@
+---
+name: Noam Chomsky
+born: 1928
+era: contemporary
+nationality: american
+sciences: [computer-science, philosophy]
+science: computer-science
+related: [turing, church, markov]
+---
+= Noam Chomsky (b. 1928)
+ifndef::env-site[:imagesdir: ../../assets/images/people]
+ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
+:page-image: placeholder.jpg
+:page-image-credit: "change me"
+:all-people: link:/sindri-labs/people/[All People]
+:see-turing: link:/sindri-labs/fragments/people/turing/[Alan Turing]
+:see-church: link:/sindri-labs/fragments/people/church/[Alonzo Church]
+:see-markov: link:/sindri-labs/fragments/people/markov/[Andrey Markov]
+
+image::{page-image}[{page-image-credit},width="500px",align="left"]
+
+_**↑ {all-people}**_ | _**{see-turing}**_ · _**{see-church}**_ · _**{see-markov}**_
+
+// tag::fullbody[]
+_Stub -- body to be written._
+// end::fullbody[]

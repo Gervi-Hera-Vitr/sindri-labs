@@ -1,0 +1,28 @@
+---
+name: Bertrand Russell
+born: 1872
+died: 1970
+era: modern
+nationality: british
+sciences: [mathematics, logic, philosophy]
+science: logic
+related: [frege, peano, godel, hilbert]
+---
+= Bertrand Russell (1872-1970)
+ifndef::env-site[:imagesdir: ../../assets/images/people]
+ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
+:page-image: placeholder.jpg
+:page-image-credit: "change me"
+:all-people: link:/sindri-labs/people/[All People]
+:see-frege: link:/sindri-labs/fragments/people/frege/[Gottlob Frege]
+:see-peano: link:/sindri-labs/fragments/people/peano/[Giuseppe Peano]
+:see-godel: link:/sindri-labs/fragments/people/godel/[Kurt Gödel]
+:see-hilbert: link:/sindri-labs/fragments/people/hilbert/[David Hilbert]
+
+image::{page-image}[{page-image-credit},width="500px",align="left"]
+
+_**↑ {all-people}**_ | _**{see-frege}**_ · _**{see-peano}**_ · _**{see-godel}**_ · _**{see-hilbert}**_
+
+// tag::fullbody[]
+_Stub -- body to be written._
+// end::fullbody[]

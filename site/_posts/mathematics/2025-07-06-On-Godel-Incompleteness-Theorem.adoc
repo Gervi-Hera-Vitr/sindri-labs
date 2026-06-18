@@ -29,6 +29,13 @@ lugaru
 :on-top: link:/sindri-labs/on-mathematics/[On Mathematics]
 :on-prev: link:/sindri-labs/mathematics/2025/07/05/On-Mathematics-Category-Theory.html[Part 4: Category Theory]
 :on-next: link:/sindri-labs/mathematics/2025/07/07/On-Computation-Theory.html[Part 6: Computation Theory]
+:see-bernays: link:/sindri-labs/fragments/people/bernays/[Paul Bernays]
+:see-einstein: link:/sindri-labs/fragments/people/einstein/[Albert Einstein]
+:see-godel: link:/sindri-labs/fragments/people/godel/[Kurt Gödel]
+:see-hilbert: link:/sindri-labs/fragments/people/hilbert/[David Hilbert]
+:see-newton: link:/sindri-labs/fragments/people/newton/[Isaac Newton]
+:see-riemann: link:/sindri-labs/fragments/people/riemann/[Bernhard Riemann]
+:see-turing: link:/sindri-labs/fragments/people/turing/[Alan Turing]
 
 ← _**{on-prev}**_ +
 _**{on-next}**_ → +
@@ -155,3 +162,14 @@ _Gödel's legacy reshaped logic, mathematics, and computer science--reminding us
 == Final Grade and Comments
 
 - ✅ Graded assignment by {rdd13r} on July 12th 2025. *A*
+
+// Legends-mentioned backlink section -- managed by .tmp/footer-backlinks.py
+== Legends mentioned
+
+- {see-bernays}
+- {see-einstein}
+- {see-godel}
+- {see-hilbert}
+- {see-newton}
+- {see-riemann}
+- {see-turing}

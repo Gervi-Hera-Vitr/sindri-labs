@@ -19,6 +19,7 @@ lugaru
 :on-top: link:/sindri-labs/on-mathematics/[On Mathematics]
 :on-prev: link:/sindri-labs/mathematics/2025/07/04/On-Mathematics-Complexity-Theory.html[Part 3: Complexity Theory]
 :on-next: link:/sindri-labs/mathematics/2025/07/06/On-Godel-Incompleteness-Theorem.html[Part 5: On Godel's Incompleteness Theorem]
+:see-godel: link:/sindri-labs/fragments/people/godel/[Kurt Gödel]
 
 ← _**{on-prev}**_ +
 _**{on-next}**_ → +
@@ -122,3 +123,8 @@ algebra, topology, and computer science.
 == Final Grade and Comments
 
 - ✅ Graded assignment by {rdd13r} on July 12th 2025. *A*
+
+// Legends-mentioned backlink section -- managed by .tmp/footer-backlinks.py
+== Legends mentioned
+
+- {see-godel}

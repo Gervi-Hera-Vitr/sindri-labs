@@ -24,6 +24,8 @@ lugaru
 :part-5: link:/sindri-labs/mathematics/2025/07/06/On-Godel-Incompleteness-Theorem.html[Part 5: On Godel's Incompleteness Theorem]
 :part-6: link:/sindri-labs/mathematics/2025/07/07/On-Computation-Theory.html[Part 6: Computation Theory]
 :part-7: link:/sindri-labs/mathematics/2025/07/11/On-Set-Theory.html[Part 7: Russell's Paradox]
+:see-godel: link:/sindri-labs/fragments/people/godel/[Kurt Gödel]
+:see-russell: link:/sindri-labs/fragments/people/russell/[Bertrand Russell]
 
 -> _**{mathematics}**_
 
@@ -89,3 +91,9 @@ Oh yeah, *_dad approved_*. Not only approved, my father was ecstatic and reviewe
 "Cleanly delineated Domains of Science combine academic rigor and visual storytelling, offering engaging, map-based overviews of scientific topics."
 Built on Dominic Walliman's expertise and creativity, it's a standout among science education channels,
 with over 1.5 million subscribers and strong community recognition, "something one would not expect from plebs."
+
+// Legends-mentioned backlink section -- managed by .tmp/footer-backlinks.py
+== Legends mentioned
+
+- {see-godel}
+- {see-russell}

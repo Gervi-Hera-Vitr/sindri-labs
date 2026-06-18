@@ -17,6 +17,7 @@ lugaru
 :page-classes: wide
 :on-top: link:/sindri-labs/on-mathematics/[On Mathematics]
 :on-prev: link:/sindri-labs/mathematics/2025/07/07/On-Computation-Theory.html[Part 6: Computation Theory]
+:see-russell: link:/sindri-labs/fragments/people/russell/[Bertrand Russell]
 
 ← _**{on-prev}**_ | ↑ _**{on_mathematics}**_ | ⇈ _**{mathematics}**_
 
@@ -53,3 +54,8 @@ And demonstrated in Linguistics using predicates.
 == Final Grade and Comments
 
 - ✅ Graded assignment by {rdd13r} on July 12th 2025. *A*
+
+// Legends-mentioned backlink section -- managed by .tmp/footer-backlinks.py
+== Legends mentioned
+
+- {see-russell}

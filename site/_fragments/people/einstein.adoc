@@ -1,0 +1,28 @@
+---
+name: Albert Einstein
+born: 1879
+died: 1955
+era: modern
+nationality: german
+sciences: [physics]
+science: physics
+related: [bohr, dirac, riemann, maxwell]
+---
+= Albert Einstein (1879-1955)
+ifndef::env-site[:imagesdir: ../../assets/images/people]
+ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
+:page-image: placeholder.jpg
+:page-image-credit: "change me"
+:all-people: link:/sindri-labs/people/[All People]
+:see-bohr: link:/sindri-labs/fragments/people/bohr/[Niels Bohr]
+:see-dirac: link:/sindri-labs/fragments/people/dirac/[Paul Dirac]
+:see-riemann: link:/sindri-labs/fragments/people/riemann/[Bernhard Riemann]
+:see-maxwell: link:/sindri-labs/fragments/people/maxwell/[James Clerk Maxwell]
+
+image::{page-image}[{page-image-credit},width="500px",align="left"]
+
+_**↑ {all-people}**_ | _**{see-bohr}**_ · _**{see-dirac}**_ · _**{see-riemann}**_ · _**{see-maxwell}**_
+
+// tag::fullbody[]
+_Stub -- body to be written._
+// end::fullbody[]

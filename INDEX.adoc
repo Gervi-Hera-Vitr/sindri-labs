@@ -93,7 +93,7 @@ synopsis_of: democritus
 * `sciences` — philosophy, mathematics, physics, chemistry, astronomy, biology, logic, ethics, computer-science, alchemy, optics, meteorology, neuroscience, probability, engineering, rhetoric, history, geography, economics
 * `nationality` — free-form short tag
 
-=== Fragment inventory (82 total)
+=== Fragment inventory (96 total)
 
 |===
 |Kind |Count |Notes
@@ -101,9 +101,12 @@ synopsis_of: democritus
 |Single-person with body |14 |Atomic/particle arc: anderson, bohr, chadwick, dalton, democritus, dirac, gassendi, gell-mann, higgs, leucippus, newton, rutherford, thomson, zweig
 |Group fragment with body |3 |Discovery/work pages: geiger-marsden, bothe-becker-joliot-curies, brout-englert-ghk
 |Group-member stub (// FixMe: Captain) |11 |Individuals split from the 3 groups: geiger, marsden, bothe, becker, joliot-curie-irene, joliot-curie-frederic, brout, englert, guralnik, hagen, kibble
-|Stub from anchor docs |53 |36 philosophers (from `philosophers.adoc`) + 17 mathematicians (from `mathematics.adoc`)
+|Stub from anchor docs |53 |36 stubs from `philosophers.adoc` + 17 from `mathematics.adoc`
+|Pillars-of-civilization stubs |14 |Seeded 2026-06-18 from graded-work figure sweep: russell, peano, riemann, markov, bernays, chomsky, einstein, frege, galileo, laplace, maxwell, popper, tarski, bayes
 |Synopsis variant |1 |democritus-synopsis
 |===
+
+*Bodies migrated 2026-06-18*: 13 fragments received full biography bodies from `curriculum/History/Greece/ImportantPeople/` masterfiles — al-khwarizmi, archimedes, aristotle, epictetus, euclid, fibonacci, marcus-aurelius, khayyam, plato, pythagoras, seneca, socrates, zeno-of-citium. Two of them (marcus-aurelius, seneca) additionally absorbed `=== Beliefs` subsections from `StoicsOfGreece.adoc`.
 
 === Image system installed (this session)
 
@@ -187,14 +190,36 @@ done
 
 === Task checklist
 
-* [x] *1 — Inventory.* 82 person entries seeded; lean YAML schema; image system installed (placeholder + conditional `:imagesdir:`).
+* [x] *1 — Inventory.* 96 person entries seeded; lean YAML schema; image system installed (placeholder + conditional `:imagesdir:`).
 * [x] *2 — Per-fragment edits.*
 ** [x] Real portraits installed for 13 single-body people (workflow: `.tmp/people-portraits.workflow.js`).
 ** [x] Discovery diagrams installed for 3 group fragments (workflow: `.tmp/group-discovery-images.workflow.js`).
-** [x] In-body lateral nav line ("see also" strip) installed on all 82 fragments (script: `.tmp/add-see-also.py`).
+** [x] In-body lateral nav line ("see also" strip) installed on all 96 fragments (script: `.tmp/add-see-also.py`).
+** [x] 13 masterfile bodies migrated from `curriculum/History/Greece/ImportantPeople/` + StoicsOfGreece absorbed (script: `.tmp/migrate-masterfiles.py`).
+** [x] 14 pillars-of-civilization stubs seeded (script: `.tmp/seed-pillars.py`).
+
 * [ ] *3 — Directory post.* Read `curriculum/Physics/Particles/ImportantPeople.adoc` first.
-* [ ] *4 — Backlink sweep.* Raw mentions in curriculum pages → `+{name}+` attr refs; surface incoming references on each fragment.
+* [x] *4 — Backlink sweep.* Footer "Legends mentioned" block + attribute defs added to 12 graded files (script: `.tmp/footer-backlinks.py`). Anton's prose untouched. Internal links, same-tab.
 * [ ] *5 — Structure review.* Flat vs subfolders vs tags.
+
+=== Curriculum source files awaiting Vadim's cleanup
+
+These are migrated into fragments; safe to `git rm` once Vadim confirms:
+
+* `curriculum/History/Greece/ImportantPeople/Al-Khwarizmi.adoc`
+* `curriculum/History/Greece/ImportantPeople/ArchimedesofSyracuse.adoc`
+* `curriculum/History/Greece/ImportantPeople/AristotleOfStagira.adoc`
+* `curriculum/History/Greece/ImportantPeople/Epictetus.adoc`
+* `curriculum/History/Greece/ImportantPeople/EuclidofAlexandria.adoc`
+* `curriculum/History/Greece/ImportantPeople/Fibonacci.adoc`
+* `curriculum/History/Greece/ImportantPeople/MarcusAurelius.adoc`
+* `curriculum/History/Greece/ImportantPeople/Omar-Khayyam.adoc`
+* `curriculum/History/Greece/ImportantPeople/PlatoOfAthens.adoc`
+* `curriculum/History/Greece/ImportantPeople/Pythagoras-of-Samos.adoc`
+* `curriculum/History/Greece/ImportantPeople/SenecaTheYounger.adoc`
+* `curriculum/History/Greece/ImportantPeople/SocratesOfAthens.adoc`
+* `curriculum/History/Greece/ImportantPeople/ZenoOfCitium.adoc`
+* `curriculum/History/Greece/ImportantPeople/StoicsOfGreece.adoc` (struck-through by Anton; absorbed into marcus-aurelius + seneca)
 
 === Decisions deferred until after directory exists
 

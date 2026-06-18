@@ -1,0 +1,26 @@
+---
+name: James Clerk Maxwell
+born: 1831
+died: 1879
+era: modern
+nationality: scottish
+sciences: [physics]
+science: physics
+related: [einstein, faraday]
+---
+= James Clerk Maxwell (1831-1879)
+ifndef::env-site[:imagesdir: ../../assets/images/people]
+ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
+:page-image: placeholder.jpg
+:page-image-credit: "change me"
+:all-people: link:/sindri-labs/people/[All People]
+:see-einstein: link:/sindri-labs/fragments/people/einstein/[Albert Einstein]
+:see-faraday: link:/sindri-labs/fragments/people/faraday/[Faraday]
+
+image::{page-image}[{page-image-credit},width="500px",align="left"]
+
+_**↑ {all-people}**_ | _**{see-einstein}**_ · _**{see-faraday}**_
+
+// tag::fullbody[]
+_Stub -- body to be written._
+// end::fullbody[]

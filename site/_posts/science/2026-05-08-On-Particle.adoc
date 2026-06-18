@@ -22,6 +22,17 @@ lugaru
 :newton: link:/sindri-labs/fragments/people/newton/[Isaac Newton]
 :dalton: link:/sindri-labs/fragments/people/dalton/[John Dalton]
 :thomson: link:/sindri-labs/fragments/people/thomson/[J.J. Thomson]
+:see-aristotle: link:/sindri-labs/fragments/people/aristotle/[Aristotle of Stagira]
+:see-dalton: link:/sindri-labs/fragments/people/dalton/[John Dalton]
+:see-democritus: link:/sindri-labs/fragments/people/democritus/[Democritus]
+:see-epicurus: link:/sindri-labs/fragments/people/epicurus/[Epicurus of Samos]
+:see-galileo: link:/sindri-labs/fragments/people/galileo/[Galileo Galilei]
+:see-gassendi: link:/sindri-labs/fragments/people/gassendi/[Pierre Gassendi]
+:see-leucippus: link:/sindri-labs/fragments/people/leucippus/[Leucippus]
+:see-newton: link:/sindri-labs/fragments/people/newton/[Isaac Newton]
+:see-parmenides: link:/sindri-labs/fragments/people/parmenides/[Parmenides of Elea]
+:see-plato: link:/sindri-labs/fragments/people/plato/[Plato of Athens]
+:see-thomson: link:/sindri-labs/fragments/people/thomson/[J.J. Thomson]
 
 // This is Captain here, and I just want to say that
 // I don't know how to structure an article or
@@ -74,3 +85,18 @@ Most of these are still right. The "indivisible" claim is the one that didn't su
 {thomson} at the Cavendish Laboratory in Cambridge studied cathode rays (streams of glowing matter in evacuated tubes). German physicists thought they were electromagnetic waves; British physicists thought they were charged particles. Thomson built the deciding experiment: he passed cathode rays between charged plates and through magnetic fields, balancing the deflections to measure the charge-to-mass ratio (e/m).
 
 Results: the rays carried negative charge; the e/m ratio was about 1,000 times that of a hydrogen ion (so the particles were far lighter than any atom); the ratio was the same regardless of cathode material or residual gas (so these particles were universal).footnote:[J.J. Thomson, "Cathode Rays," _Philosophical Magazine_ Series 5, vol. 44, p. 293 (1897).] Thomson called them "corpuscles." They became electrons. The experiment also broke the rule that atoms cannot be divided, by stripping electrons out of atoms. This proved that atoms have an inside, and pieces of that inside can be peeled off. The defining attribute of the concept dies here: _indivisibility_. But _atomos_ was not wrong about the *attributes*. The idea of an irreducible carrier of conserved attributes at the bottom of matter still holds. What was wrong was the *name*: 19th-century scientists had attached "atom" to an object they could not yet see inside, assuming it carried those attributes. It did not. Other, smaller things do. The concept survives; the label simply belongs further down.
+
+// Legends-mentioned backlink section -- managed by .tmp/footer-backlinks.py
+== Legends mentioned
+
+- {see-aristotle}
+- {see-dalton}
+- {see-democritus}
+- {see-epicurus}
+- {see-galileo}
+- {see-gassendi}
+- {see-leucippus}
+- {see-newton}
+- {see-parmenides}
+- {see-plato}
+- {see-thomson}

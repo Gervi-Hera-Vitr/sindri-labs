@@ -37,6 +37,17 @@ rdd13r
 :imagesdir: /sindri-labs/assets/images
 ifdef::env-name[:relfilesuffix: .adoc]
 :philosophers: link:/sindri-labs/philosophers/[Foundations Philosophers,window=_blank]
+:see-aristotle: link:/sindri-labs/fragments/people/aristotle/[Aristotle of Stagira]
+:see-chrysippus: link:/sindri-labs/fragments/people/chrysippus/[Chrysippus of Soloi]
+:see-democritus: link:/sindri-labs/fragments/people/democritus/[Democritus]
+:see-epictetus: link:/sindri-labs/fragments/people/epictetus/[Epictetus of Hierapolis]
+:see-euclid: link:/sindri-labs/fragments/people/euclid/[Euclid of Alexandria]
+:see-heraclitus: link:/sindri-labs/fragments/people/heraclitus/[Heraclitus of Ephesus]
+:see-marcus-aurelius: link:/sindri-labs/fragments/people/marcus-aurelius/[Marcus Aurelius of Rome]
+:see-popper: link:/sindri-labs/fragments/people/popper/[Karl Popper]
+:see-seneca: link:/sindri-labs/fragments/people/seneca/[Seneca of Corduba]
+:see-socrates: link:/sindri-labs/fragments/people/socrates/[Socrates of Athens]
+:see-zeno-of-citium: link:/sindri-labs/fragments/people/zeno-of-citium/[Zeno of Citium]
 
 
 *Mímir Academy -- Advanced Independent Study* _over school break_ +
@@ -276,3 +287,18 @@ This is a lesson learned by both the student and the instructor.
 - ✅ Graded assignment by {rdd13r} on March 27th 2026. *A*
 
 _This is now in the quarterly maintenance phase._
+
+// Legends-mentioned backlink section -- managed by .tmp/footer-backlinks.py
+== Legends mentioned
+
+- {see-aristotle}
+- {see-chrysippus}
+- {see-democritus}
+- {see-epictetus}
+- {see-euclid}
+- {see-heraclitus}
+- {see-marcus-aurelius}
+- {see-popper}
+- {see-seneca}
+- {see-socrates}
+- {see-zeno-of-citium}

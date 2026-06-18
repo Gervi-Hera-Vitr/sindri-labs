@@ -19,6 +19,7 @@ lugaru
 :on-sets: link:/sindri-labs/mathematics/2025/07/11/On-Set-Theory.html[On Sets,window=_blank]
 :on-top: link:/sindri-labs/on-mathematics/[On Mathematics]
 :on-next: link:/sindri-labs/mathematics/2025/07/03/On-Mathematics-Set-Theory.html[Mathematics - Part 2: Set Theory]
+:see-peano: link:/sindri-labs/fragments/people/peano/[Giuseppe Peano]
 
 _**{on-next}**_ → | ↑ _**{on_mathematics}**_ | ⇈ _**{mathematics}**_
 
@@ -208,3 +209,8 @@ and useful framework for exploring mathematical truths.
 == Final Grade and Comments
 
 - ✅ Graded assignment by {rdd13r} on July 12th 2025. *A*
+
+// Legends-mentioned backlink section -- managed by .tmp/footer-backlinks.py
+== Legends mentioned
+
+- {see-peano}

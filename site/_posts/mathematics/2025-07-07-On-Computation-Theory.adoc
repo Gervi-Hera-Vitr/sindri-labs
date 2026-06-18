@@ -18,6 +18,12 @@ lugaru
 :on-top: link:/sindri-labs/on-mathematics/[On Mathematics]
 :on-prev: link:/sindri-labs/mathematics/2025/07/06/On-Godel-Incompleteness-Theorem.html[Part 5: On Godel's Incompleteness Theorem]
 :on-next: link:/sindri-labs/mathematics/2025/07/11/On-Set-Theory.html[Part 7: Russell's Paradox]
+:see-chomsky: link:/sindri-labs/fragments/people/chomsky/[Noam Chomsky]
+:see-church: link:/sindri-labs/fragments/people/church/[Alonzo Church]
+:see-godel: link:/sindri-labs/fragments/people/godel/[Kurt Gödel]
+:see-markov: link:/sindri-labs/fragments/people/markov/[Andrey Markov]
+:see-russell: link:/sindri-labs/fragments/people/russell/[Bertrand Russell]
+:see-turing: link:/sindri-labs/fragments/people/turing/[Alan Turing]
 
 ← _**{on-prev}**_ +
 _**{on-next}**_ → +
@@ -93,3 +99,13 @@ It blends logic, mathematics, and theoretical computer science to explore the ca
 == Final Grade and Comments
 
 - ✅ Graded assignment by {rdd13r} on July 12th 2025. *A*
+
+// Legends-mentioned backlink section -- managed by .tmp/footer-backlinks.py
+== Legends mentioned
+
+- {see-chomsky}
+- {see-church}
+- {see-godel}
+- {see-markov}
+- {see-russell}
+- {see-turing}
