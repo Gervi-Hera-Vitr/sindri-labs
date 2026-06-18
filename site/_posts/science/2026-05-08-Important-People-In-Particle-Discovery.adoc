@@ -15,16 +15,49 @@ lugaru
 :page-excerpt:
 :page-layout: single
 :page-classes: wide
+:leucippus: link:/sindri-labs/fragments/people/leucippus/[Leucippus]
+:democritus: link:/sindri-labs/fragments/people/democritus/[Democritus]
+:epicurus: link:/sindri-labs/fragments/people/epicurus/[Epicurus of Samos]
+:parmenides: link:/sindri-labs/fragments/people/parmenides/[Parmenides of Elea]
+:aristotle: link:/sindri-labs/fragments/people/aristotle/[Aristotle of Stagira]
+:plato: link:/sindri-labs/fragments/people/plato/[Plato of Athens]
+:gassendi: link:/sindri-labs/fragments/people/gassendi/[Pierre Gassendi]
+:galileo: link:/sindri-labs/fragments/people/galileo/[Galileo Galilei]
+:descartes: link:/sindri-labs/fragments/people/descartes/[Rene Descartes]
+:newton: link:/sindri-labs/fragments/people/newton/[Isaac Newton]
+:leibniz: link:/sindri-labs/fragments/people/leibniz/[Gottfried Leibniz]
+:dalton: link:/sindri-labs/fragments/people/dalton/[John Dalton]
+:thomson: link:/sindri-labs/fragments/people/thomson/[J.J. Thomson]
+:rutherford: link:/sindri-labs/fragments/people/rutherford/[Ernest Rutherford]
+:geiger: link:/sindri-labs/fragments/people/geiger/[Hans Geiger]
+:marsden: link:/sindri-labs/fragments/people/marsden/[Ernest Marsden]
+:bohr: link:/sindri-labs/fragments/people/bohr/[Niels Bohr]
+:einstein: link:/sindri-labs/fragments/people/einstein/[Albert Einstein]
+:dirac: link:/sindri-labs/fragments/people/dirac/[Paul Dirac]
+:chadwick: link:/sindri-labs/fragments/people/chadwick/[James Chadwick]
+:bothe: link:/sindri-labs/fragments/people/bothe/[Walther Bothe]
+:becker: link:/sindri-labs/fragments/people/becker/[Herbert Becker]
+:joliot-curie-irene: link:/sindri-labs/fragments/people/joliot-curie-irene/[Irene Joliot-Curie]
+:joliot-curie-frederic: link:/sindri-labs/fragments/people/joliot-curie-frederic/[Frederic Joliot-Curie]
+:anderson: link:/sindri-labs/fragments/people/anderson/[Carl Anderson]
+:gell-mann: link:/sindri-labs/fragments/people/gell-mann/[Murray Gell-Mann]
+:zweig: link:/sindri-labs/fragments/people/zweig/[George Zweig]
+:higgs: link:/sindri-labs/fragments/people/higgs/[Peter Higgs]
+:brout: link:/sindri-labs/fragments/people/brout/[Robert Brout]
+:englert: link:/sindri-labs/fragments/people/englert/[Francois Englert]
+:guralnik: link:/sindri-labs/fragments/people/guralnik/[Gerald Guralnik]
+:hagen: link:/sindri-labs/fragments/people/hagen/[C. R. Hagen]
+:kibble: link:/sindri-labs/fragments/people/kibble/[Tom Kibble]
 
 The story above is really a story of minds. Each person here didn't just produce a result -- they had a way of seeing the world that made the result possible.
 Below are short biographies and, more importantly, how each of them was actually thinking.
 
 == Leucippus (5th century BCE)
 
-The originator of atomism. Sources are so thin that Epicurus himself once denied Leucippus had ever existed -- but most modern scholars accept him as a real figure,
-probably from Miletus, Elea, or Abdera. He left almost no surviving text. We know him through later writers quoting his student Democritus.
+The originator of atomism. Sources are so thin that {epicurus} himself once denied {leucippus} had ever existed -- but most modern scholars accept him as a real figure,
+probably from Miletus, Elea, or Abdera. He left almost no surviving text. We know him through later writers quoting his student {democritus}.
 
-*How he was thinking:* Leucippus was answering Parmenides, who had argued (a generation earlier) that change is impossible -- because nothing can come from nothing,
+*How he was thinking:* Leucippus was answering {parmenides}, who had argued (a generation earlier) that change is impossible -- because nothing can come from nothing,
 and nothing can become nothing. So how does anything happen? Leucippus's answer was a metaphysical invention: reality is *atoms* (what is) plus *void* (what is not).
 The void is real even though it's empty. Atoms move through it, collide, recombine. Change is rearrangement, not creation or destruction.
 
@@ -33,28 +66,28 @@ This is huge. He didn't disprove Parmenides experimentally -- he gave the world 
 == Democritus (c. 460-370 BCE)
 
 From Abdera in Thrace. Wealthy enough to travel widely -- Egypt, Persia, possibly India. Wrote more than 70 books on physics, math, ethics, music; none survive complete.
-We know him through fragments quoted by Aristotle, Diogenes Laertius, and others. Called "the laughing philosopher" because he found human folly amusing.
+We know him through fragments quoted by {aristotle}, Diogenes Laertius, and others. Called "the laughing philosopher" because he found human folly amusing.
 
 *How he was thinking:* Radically materialist, in a way that was scandalous in his time and still feels modern. Everything is atoms in motion. No gods directing things.
 No purpose, no goal, no teleology. Even the soul is made of fine, smooth, fast-moving fire-atoms. Even thought and perception are atomic interactions.
 He distinguished *primary qualities* (size, shape, motion -- really in the atoms) from *secondary qualities* (taste, color, sound -- only how atoms affect our sense organs).
 This distinction survives all the way to John Locke 2,000 years later.
 
-Plato hated him so much he wanted his books burned. Aristotle disagreed but engaged seriously. Democritus's universe ran on mechanism,
+{plato} hated him so much he wanted his books burned. Aristotle disagreed but engaged seriously. Democritus's universe ran on mechanism,
 not intention -- which is why atomism kept getting suppressed by religious authorities for the next two millennia.
 
 == Pierre Gassendi (1592-1655)
 
 French Catholic priest, philosopher, and astronomer. Provost of the cathedral at Digne, then a professor at the Collège Royal in Paris.
-Friend of Galileo and Hobbes; sharp critic of Descartes. First astronomer ever to observe a transit of Mercury (1631), confirming Kepler's prediction.
+Friend of {galileo} and Hobbes; sharp critic of {descartes}. First astronomer ever to observe a transit of Mercury (1631), confirming Kepler's prediction.
 
-*How he was thinking:* Gassendi was an empiricist before empiricism was a school. He believed observation should beat scholastic deduction,
+*How he was thinking:* {gassendi} was an empiricist before empiricism was a school. He believed observation should beat scholastic deduction,
 and he wrote a book attacking Aristotle's philosophy at age 32. But his most important project was rescuing atomism from the charge of atheism.
 He read Epicurus carefully for decades and argued that atoms are not inherently godless -- God created them at the beginning of time, gave them their initial motion,
 and atoms then run mechanically. Atoms are God's tools.
 
 Critical context: Galileo was condemned by the Inquisition in 1633. Defending atomism in the 1640s France was dangerous.
-Gassendi's careful theological framing made it possible for Newton's generation to take atoms seriously without being branded heretics.
+Gassendi's careful theological framing made it possible for {newton}'s generation to take atoms seriously without being branded heretics.
 Without him, Newton's particle physics may not have happened at all.
 
 == Isaac Newton (1643-1727)
@@ -67,7 +100,7 @@ called him "the last of the magicians, not the first of the age of reason." For 
 "absolute space" was God's _sensorium_ -- the medium through which God perceived everything at once. Particles obeyed laws because the laws were divine design.
 Alchemy and physics weren't separate enterprises in his mind; both were ways of reading God's notes on creation.
 
-He was secretive, suspicious, prone to bitter feuds (Hooke, Leibniz, Flamsteed). Did most of his deepest work alone.
+He was secretive, suspicious, prone to bitter feuds (Hooke, {leibniz}, Flamsteed). Did most of his deepest work alone.
 The popular image of Newton-the-rationalist is a Victorian retouching -- the real man was stranger and more interesting.
 
 == John Dalton (1766-1844)
@@ -80,12 +113,12 @@ attended Quaker meetings until he died.
 His interest in the atmosphere led him to gases, then to partial pressures, then to the realization that elements combine in fixed whole-number ratios by weight.
 From there: atoms must exist and have characteristic weights. He was bringing number to chemistry the way Newton had brought number to physics.
 
-Dalton's mind was Quaker-plain: measure things precisely, trust the numbers, don't decorate. He refused honorary degrees for years and resisted the Royal Society.
+{dalton}'s mind was Quaker-plain: measure things precisely, trust the numbers, don't decorate. He refused honorary degrees for years and resisted the Royal Society.
 When he finally accepted, he showed up in Quaker dress and barely spoke. The opposite of Newton's mystical complexity -- and exactly what chemistry needed.
 
 == J.J. Thomson (1856-1940)
 
-Born near Manchester. Cavendish Professor at Cambridge from 1884 -- he was 28. Mentored seven future Nobel laureates, including Rutherford.
+Born near Manchester. Cavendish Professor at Cambridge from 1884 -- he was 28. Mentored seven future Nobel laureates, including {rutherford}.
 (His own son George later won the Nobel for showing electrons are waves, while his father's Nobel was for showing that they're
 particles -- a perfect family illustration of wave-particle duality.)
 
@@ -94,7 +127,7 @@ often improvising glassblowing on the spot. The plum pudding model was conservat
 just with little electrons stuck inside. He was a gradualist, not a revolutionary. He'd rather extend an old picture than throw it out.
 
 Famously absent-minded -- there are stories of him being unable to operate the same lab equipment he'd designed.
-The Cavendish under Thomson became the most productive physics lab in the world. His real genius was less about a single discovery than about training
+The Cavendish under {thomson} became the most productive physics lab in the world. His real genius was less about a single discovery than about training
 an army of people who would discover the rest.
 
 == Ernest Rutherford (1871-1937)
@@ -107,9 +140,9 @@ Christian Soldiers" off-key when experiments worked.
 it is probably not very good physics." Famous (before his Nobel) for: "All science is either physics or stamp collecting." When he then won the Nobel in *Chemistry* (1908),
 he found the joke at his expense delicious.
 
-The gold foil reasoning is pure Rutherford: when Geiger and Marsden told him alpha particles were bouncing back, he didn't reach for equations.
+The gold foil reasoning is pure Rutherford: when {geiger} and {marsden} told him alpha particles were bouncing back, he didn't reach for equations.
 He reached for an image -- a 15-inch shell hitting tissue paper -- and immediately knew it meant a tiny, dense, hard center.
-He trusted his eyes and his sense of how matter felt. He mentored Bohr, Chadwick, Geiger, Marsden, Blackett, Cockcroft,
+He trusted his eyes and his sense of how matter felt. He mentored {bohr}, {chadwick}, Geiger, Marsden, Blackett, Cockcroft,
 Walton -- a stunning chain of Nobel laureates.
 
 == Hans Geiger (1882-1945) and Ernest Marsden (1889-1970)
@@ -124,12 +157,12 @@ scientific administrator there. Rutherford got the credit and the fame, but the 
 == Niels Bohr (1885-1962)
 
 Danish, son of a physiology professor at Copenhagen. Worked briefly under Thomson, then Rutherford. Founded the Institute for Theoretical Physics in
-Copenhagen in 1921 -- it became the world center for quantum theory. Heisenberg, Pauli, Dirac, Schrödinger all came through.
+Copenhagen in 1921 -- it became the world center for quantum theory. Heisenberg, Pauli, {dirac}, Schrödinger all came through.
 
 *How he was thinking:* Deeply philosophical, almost religious about paradox. His core conviction: nature itself is genuinely strange at the small scale,
 and we have to invent new concepts to describe it (complementarity, correspondence). He famously said: "The opposite of a correct statement is a false statement.
 But the opposite of a profound truth may well be another profound truth." He loved Kierkegaard and would argue about meaning for hours.
-His friend and rival Einstein never accepted Bohr's interpretation of quantum mechanics; their decades-long debate is one of the great intellectual exchanges in science.
+His friend and rival {einstein} never accepted Bohr's interpretation of quantum mechanics; their decades-long debate is one of the great intellectual exchanges in science.
 
 In 1943, he was smuggled out of Nazi-occupied Denmark in the bomb bay of a Mosquito aircraft (he passed out from lack of oxygen on the way).
 Worked on the Manhattan Project, then spent years arguing -- unsuccessfully -- that nuclear secrets should be shared with the Soviets to prevent an arms race.
@@ -149,9 +182,9 @@ came back from Los Alamos quietly haunted.
 
 == Walther Bothe, Herbert Becker, and the Joliot-Curies
 
-The supporting cast on the neutron story. *Bothe* (1891-1957) and *Becker* won the Nobel later (Bothe in 1954) for the coincidence method that produced
-the original beryllium radiation in 1930. *Irène Joliot-Curie* (1897-1956) -- daughter of Marie and Pierre Curie -- and her husband
-*Frédéric Joliot-Curie* (1900-1958) showed the radiation could knock protons out of paraffin, but they assumed it was gamma rays.
+The supporting cast on the neutron story. *{bothe}* (1891-1957) and *{becker}* won the Nobel later (Bothe in 1954) for the coincidence method that produced
+the original beryllium radiation in 1930. *{joliot-curie-irene}* (1897-1956) -- daughter of Marie and Pierre Curie -- and her husband
+*{joliot-curie-frederic}* (1900-1958) showed the radiation could knock protons out of paraffin, but they assumed it was gamma rays.
 They were the closest to discovering the neutron and missed it. They got their own Nobel in 1935 for discovering artificial radioactivity.
 Irène raised the second generation of Curie women in physics; she died of leukemia from her own experiments, like her mother.
 
@@ -180,7 +213,7 @@ ruling out an electron coming from the other direction. Methodical experimentali
 more comfortable with "the data says X so X is true."
 
 He also discovered the *muon* in 1936, which was so unexpected that I. I. Rabi famously asked, "Who ordered that?"
-Anderson didn't theorize -- he found particles. That was his gift.
+{anderson} didn't theorize -- he found particles. That was his gift.
 
 == Murray Gell-Mann (1929-2019)
 
@@ -199,8 +232,8 @@ at SLAC made it impossible to deny.
 == George Zweig (born 1937)
 
 Russian-American, born in Moscow; family fled Nazi-occupied Vienna when he was a child. Caltech PhD under Feynman. While at CERN,
-he proposed essentially the same model as Gell-Mann -- independently -- and called the constituents *aces*. Where Gell-Mann hedged on whether quarks were real,
-Zweig insisted from day one that they had to be physical particles.
+he proposed essentially the same model as {gell-mann} -- independently -- and called the constituents *aces*. Where Gell-Mann hedged on whether quarks were real,
+{zweig} insisted from day one that they had to be physical particles.
 
 *How he was thinking:* Concrete, physical, willing to take ridicule. Established physicists called his idea "charlatanism,"
 and he couldn't get a faculty job for years. Eventually left particle physics for neurobiology (cochlear modeling), then for quantitative finance.
@@ -208,12 +241,12 @@ A brilliant career path that bears no resemblance to anyone else's. He never won
 
 == Peter Higgs (1929-2024)
 
-Born in Newcastle, England. Quiet, modest, lifelong academic at the University of Edinburgh. Did the Higgs mechanism work in 1964 and
+Born in Newcastle, England. Quiet, modest, lifelong academic at the University of Edinburgh. Did the {higgs} mechanism work in 1964 and
 then waited 49 years for confirmation -- experiment caught up in 2012, Nobel followed in 2013.
 
 *How he was thinking:* Slow, careful, willing to hold an unfashionable idea for decades. He didn't follow trends. He read papers slowly,
-thought longer than most physicists are willing to. He hated the field being called "the Higgs field" -- he always credited Brout, Englert, Guralnik,
-Hagen, and Kibble, who got there at essentially the same time.
+thought longer than most physicists are willing to. He hated the field being called "the Higgs field" -- he always credited {brout}, {englert}, {guralnik},
+{hagen}, and {kibble}, who got there at essentially the same time.
 
 Lived simply, no email, no internet, no mobile phone. Embarrassed by celebrity. He once said in an interview: "It's very difficult to imagine
 how it would be if I'd been somebody who actively pursued attention." When the Nobel was announced,

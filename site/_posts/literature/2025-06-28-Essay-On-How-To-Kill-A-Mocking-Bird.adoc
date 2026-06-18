@@ -3,7 +3,7 @@ header:
   overlay_image: assets/images/banner-philosophy.jpg
   overlay_filter: 0.1
 categories: [literature]
-tags: [essay,graded,analysis,To Kill a Mockingbird]
+tags: [literature,essay,graded,analysis,To Kill a Mockingbird]
 ---
 = How _To Kill a Mockingbird_'s -- Unconventional Structure
 lugaru

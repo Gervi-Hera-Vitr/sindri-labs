@@ -3,7 +3,7 @@ header:
   overlay_image: assets/images/banner-philosophy.jpg
   overlay_filter: 0.1
 categories: [literature]
-tags: [essay,graded,analysis,Go Set a Watchman,To Kill a Mockingbird]
+tags: [literature,essay,graded,analysis,Go Set a Watchman,To Kill a Mockingbird]
 ---
 = A Controversial Return: _Go Set a Watchman_'s Place in Literature
 lugaru

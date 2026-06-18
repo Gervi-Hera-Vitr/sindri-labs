@@ -1,6 +1,6 @@
 ---
 header:
-  overlay_image: assets/images/banner-anton.jpg
+  overlay_image: assets/images/banner-captain.jpg
   overlay_filter: 0.2
   caption: ...where ancient wisdom meets modern fluffle innovations
   actions:

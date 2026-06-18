@@ -22,7 +22,7 @@ I am the eldest munchkin in my clan +
 expectations, and responsibilities.
 
 .Eldest Munchkin of my Fluffle.
-image::/sindri-labs/assets/images/image-anton.jpg[Captain,width="55%",align="right",link=https://github.com/CaptainLugaru]
+image::/sindri-labs/assets/images/image-captain.jpg[Captain,width="55%",align="right",link=https://github.com/CaptainLugaru]
 
 == Current Focus
 

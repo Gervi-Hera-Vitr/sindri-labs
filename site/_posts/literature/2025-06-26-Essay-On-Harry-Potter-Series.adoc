@@ -3,7 +3,7 @@ header:
   overlay_image: assets/images/banner-philosophy.jpg
   overlay_filter: 0.1
 categories: [literature]
-tags: [essay,graded,analysis,Harry Potter]
+tags: [literature,essay,graded,analysis,Harry Potter]
 ---
 = A Critical Look at the Harry Potter Series
 lugaru
