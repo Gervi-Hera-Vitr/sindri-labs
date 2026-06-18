@@ -1,0 +1,25 @@
+---
+name: Frédéric Joliot-Curie
+born: 1900
+died: 1958
+era: modern
+nationality: french
+sciences: [physics, chemistry]
+science: physics
+related: [joliot-curie-irene, bothe, chadwick]
+---
+= Frédéric Joliot-Curie (1900-1958)
+ifndef::env-site[:imagesdir: ../../assets/images/people]
+ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
+:page-image: placeholder.jpg
+:page-image-credit: "change me"
+:all-people: link:/sindri-labs/people/[All People]
+:see-joliot-curie-irene: link:/sindri-labs/fragments/people/joliot-curie-irene/[Irène Joliot-Curie]
+:see-bothe: link:/sindri-labs/fragments/people/bothe/[Walther Bothe]
+:see-chadwick: link:/sindri-labs/fragments/people/chadwick/[James Chadwick]
+
+image::{page-image}[{page-image-credit},width="500px",align="left"]
+
+_**↑ {all-people}**_ | _**{see-joliot-curie-irene}**_ · _**{see-bothe}**_ · _**{see-chadwick}**_
+
+// FixMe: Captain

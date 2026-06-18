@@ -1,0 +1,153 @@
+= Step 1: On Particle -- The First Cycle
+:stem: latexmath
+
+// Working draft. Not for publication. Q4 deliverable for the particle concept.
+// Step 1 of Vadim's four-step flow: (1) grasp concept [HERE]; (2) play with examples; (3) extract proof; (4) challenge.
+
+== What Step 1 Captures
+
+The first heartbeat of the particle concept: *discovered, lost, rediscovered, lost again at the first crisis.* One complete cycle.
+
+Everything after Thomson (1897) -- Rutherford, Bohr, Chadwick, Dirac, Wigner, quarks, Higgs -- is post-crisis work. Not in this document. Steps 2-4.
+
+The deliverable is the *concept* of particle, traced through the minds that built it, ending at the wound. Biographies are how the concept grew. The concept is the protagonist.
+
+== North Stars
+
+Things Dad already signaled:
+
+- LIKED: "particle was separated from divinity and concept took off with Newton." -- Newton is the hinge.
+- LIKED: reasoning from attributes -- "how would spin and vector make a wave?"
+- DISLIKED: quark detours, Higgs talk, modern particle zoo. Wrong step.
+- RULE: short with understanding > long with slop.
+
+Match the tightness of your Gödel piece. Aim ~3-4 pages of prose. Every paragraph either advances the concept or it doesn't belong.
+
+== Thesis (write last, state first)
+
+State in 2-3 sentences what the concept of particle *was* at the moment Thomson cracked it. The pre-crisis spine. Stub for you to rewrite in your own words:
+
+[NOTE]
+====
+A particle is an irreducible, indivisible carrier of identity, with quantitative attributes (mass, position, weight), conserved through interactions, that combines with others in fixed proportions to constitute all matter.
+====
+
+Drop this in once the body is written. It will probably sharpen as you go.
+
+== Phase 1: Discovery -- Democritus (5th c BCE)
+
+One question for each thinker: *what was the concept doing in their head, and what did they add to it?*
+
+Prompts:
+
+- What problem was Democritus answering? (Parmenides: change is impossible.)
+- What did the concept let him do that Parmenides couldn't? (Change as rearrangement.)
+- What two things did he introduce? (Atoms + void.)
+- Which of his own words still survives? ("By convention sweet, by convention bitter... in reality, atoms and void.")
+
+One tight paragraph. The concept here is *philosophical, not yet mathematical.*
+
+=== Draft v0 (Claude's navigation pass -- rewrite in your own voice)
+
+[NOTE]
+====
+The concept is born answering Parmenides. If nothing can come from nothing and nothing can become nothing, then change itself is impossible -- and yet the world plainly changes. Democritus (c. 460-370 BCE), extending Leucippus, splits reality in two: _atoms_, the irreducible carriers of being, and _void_, the nothing through which they move. Change becomes rearrangement. Nothing is created and nothing destroyed; what differs from one moment to the next is only how the atoms stand to one another. Already the concept carries the attributes it will be remembered by -- indivisibility, eternity, difference by shape and size -- but it carries them as philosophy, not as mathematics. Democritus's own words survive him almost intact: _"By convention sweet, by convention bitter, by convention hot, by convention cold, by convention color: but in reality atoms and void."_ The concept is awake. It will sleep for nearly two thousand years.
+====
+
+Things to push on:
+
+- Is "irreducible carriers of being" already too metaphysical-sounding, or right for a philosophical phase?
+- "Nearly two thousand years" -- foreshadow into Phase 2 or cut and let Phase 2 do its own work?
+- Do you want Leucippus in the spine at all, or is Democritus the only name that earns its keep here?
+
+== Phase 2: Loss -- Aristotle to Lucretius (~1800 years)
+
+Brief. One or two paragraphs. The concept is buried but not killed.
+
+Prompts:
+
+- Why did Aristotle's continuum view win? (Teleological, purposive, fit Christianity later.)
+- How did the concept survive? (Epicurus → Lucretius → _De Rerum Natura_, surviving in *one manuscript*, rediscovered 1417.)
+- What does this long silence teach about abstractions? (They can sleep for centuries and still be true.)
+
+Don't dwell. The point: alive, then quiet, then revived.
+
+== Phase 3: Rediscovery -- Gassendi → Newton → Dalton
+
+The meat of step 1. Three thinkers, same concept, different work.
+
+=== Gassendi (1592-1655)
+
+Prompts:
+
+- What did he solve? (Theological -- atoms after Galileo's trial.)
+- What did he add? (Atoms safe for Christians.)
+- Why does he matter even though he wasn't a physicist? (Without him, no Newton.)
+
+One paragraph.
+
+=== Newton (1643-1727) -- the hinge
+
+This is the most important section of step 1. Give it weight.
+
+Prompts:
+
+- What did Newton *strip* from the concept? (Metaphysics, purpose, divine cause.)
+- What did he replace it with? (Math -- point mass, position vector, force law.)
+- Why does math make the concept eternal? (Computable, predictive, no longer dependent on philosophy.)
+- What does stem:[F = ma] *do* to the concept? (Particles become variables in equations. The world becomes calculable.)
+
+This is where Dad's line lives: *"particle was separated from divinity, and the concept took off."* Say it in your own words. Anchor the section here.
+
+One to two paragraphs.
+
+=== Dalton (1766-1844)
+
+Prompts:
+
+- What problem was he solving? (Why elements combine in fixed proportions.)
+- What did he add? (Each kind of atom has a *number* -- atomic weight.)
+- How does this change the concept? (Chemistry becomes counting. Atoms have measurable, distinguishing attributes.)
+- What did NOT survive him? (His "indivisible" claim -- though he still asserted it.)
+
+One paragraph.
+
+== Phase 4: First Crisis -- Thomson (1897)
+
+Prompts:
+
+- What did Thomson do? (Cathode rays. Measured stem:[e/m]. 1000× lighter than hydrogen. Universal across cathode materials.)
+- What did the result mean? (Atoms have internal structure. There's something inside.)
+- Which defining attribute of the concept dies here? (*Indivisibility.* The word _atomos_ -- "uncuttable" -- is falsified by name.)
+- What does NOT die? (The deeper structure: irreducible carrier of attributes, conserved, combining in fixed ways. Just at a smaller scale now.)
+
+One or two paragraphs. Stop at the moment of the wound. *Do not* mention Rutherford, Bohr, plum pudding's fall, or anything after. This is where step 1 ends.
+
+== Closing: The Concept at the End of the First Cycle
+
+Two moves:
+
+1. State what the concept *is* at this moment -- wounded but not dead. The surface attribute (indivisibility) is gone. The deeper structure survives.
+2. Foreshadow without explaining: the concept will be rediscovered more deeply in the next cycle. The first crisis ends the surface form, not the abstraction. *One sentence.* No QM, no Wigner, no rep theory. Save it for step 3.
+
+== Drafting Rules
+
+- Tightness of the Gödel piece. ~3-4 pages. No more.
+- Each thinker = one paragraph. Newton gets two.
+- Cut every name and date that isn't load-bearing. If removing a fact doesn't weaken the spine, the fact doesn't belong.
+- The biographies are not the goal. The concept's life *through* those minds is the goal.
+- End at Thomson. Not one paragraph past.
+
+== Source Materials
+
+In this directory (raw notes -- mine for facts, NOT for structure):
+
+- `WhatIsAParticle.adoc`
+- `HistoryOfParticleDiscovery.adoc`
+- `ImportantPeople.adoc`
+
+And the previously-graded site article (for cross-reference, not as model):
+
+- `site/_posts/2026-05-08-On-Particle.adoc`
+
+Compare structure: that article goes all the way to Higgs. This one stops at Thomson. That is the whole difference.

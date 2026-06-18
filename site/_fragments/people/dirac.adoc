@@ -1,0 +1,46 @@
+---
+name: Paul Dirac
+born: 1902
+died: 1984
+era: contemporary
+nationality: english
+sciences: [physics, mathematics]
+science: physics
+related: [anderson, bohr]
+---
+= Paul Dirac (1902-1984)
+ifndef::env-site[:imagesdir: ../../assets/images/people]
+ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
+:page-image: dirac.jpg
+:page-image-credit: "Portrait photograph (1933). Public domain via Wikimedia Commons."
+:all-people: link:/sindri-labs/people/[All People]
+:see-anderson: link:/sindri-labs/fragments/people/anderson/[Carl Anderson]
+:see-bohr: link:/sindri-labs/fragments/people/bohr/[Niels Bohr]
+
+image::{page-image}[{page-image-credit},width="500px",align="left"]
+
+_**↑ {all-people}**_ | _**{see-anderson}**_ · _**{see-bohr}**_
+
+English theoretical physicist. One of the founders of quantum mechanics and quantum field theory. Trusted mathematics more than intuition and was right often enough that the field reorganized itself around him.
+
+== History
+
+Born in Bristol to a Swiss-French father and English mother. His childhood was bleak by all accounts -- his father enforced French at the dinner table and Paul, unable to express himself adequately, simply went silent. The silence stuck. Colleagues at Cambridge invented the unit "the Dirac" for one word per hour.
+
+Studied electrical engineering at Bristol, then mathematics, then went to Cambridge in 1923 for a PhD under Ralph Fowler. Lucasian Professor of Mathematics at Cambridge from 1932 -- Newton's chair. Shared the 1933 Nobel Prize in Physics with Schrödinger. Spent his last years at Florida State University.
+
+== How He Thought
+
+Mathematics first. If a beautiful equation produced a strange consequence, the consequence was probably real and the universe just hadn't shown it yet. He once said: "It is more important to have beauty in one's equations than to have them fit experiment."
+
+He was famously literal. Asked after a lecture "Professor Dirac, I do not understand the equation on the top right of the blackboard," he stared and said nothing. After a long silence the chair prompted him; Dirac replied, "That was not a question, it was a comment."
+
+== What He Did
+
+In 1928 he wrote down the Dirac equation -- a relativistic wave equation for the electron. It combined quantum mechanics with special relativity in a way that no one had managed before, and it predicted electron spin as a built-in feature of the math rather than an extra postulate.
+
+The equation produced two sets of solutions: positive-energy states (electrons) and negative-energy states with no obvious physical meaning. The standard move would have been to throw out the negative solutions as mathematical artifacts. Dirac refused. By 1931 he proposed they described a real, undiscovered particle -- identical to the electron but with opposite charge. The positron. Pure mathematical prediction.
+
+Carl Anderson found it four years later in cosmic ray photographs. The Dirac → Anderson sequence remains the cleanest case in physics of math leading experiment.
+
+Dirac also wrote _The Principles of Quantum Mechanics_ (1930), the textbook that taught the next two generations, and laid the foundation of quantum electrodynamics. The bra-ket notation is his.

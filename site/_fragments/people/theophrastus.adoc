@@ -1,0 +1,21 @@
+---
+name: Theophrastus of Eresos
+born: -371
+died: -287
+era: antiquity
+nationality: greek
+sciences: [philosophy, biology, logic]
+science: philosophy
+---
+= Theophrastus of Eresos (371-287 BCE)
+ifndef::env-site[:imagesdir: ../../assets/images/people]
+ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
+:page-image: placeholder.jpg
+:page-image-credit: "change me"
+:all-people: link:/sindri-labs/people/[All People]
+
+image::{page-image}[{page-image-credit},width="500px",align="left"]
+
+_**↑ {all-people}**_
+
+_Stub -- body to be written._

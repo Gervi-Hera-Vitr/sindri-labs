@@ -1,0 +1,44 @@
+---
+name: Leucippus
+born: -480
+era: antiquity
+nationality: greek
+sciences: [philosophy, physics]
+science: philosophy
+related: [democritus]
+---
+= Leucippus (5th century BCE)
+ifndef::env-site[:imagesdir: ../../assets/images/people]
+ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
+:page-image: leucippus.jpg
+:page-image-credit: "Leucippus, as imagined by Luca Giordano (1652-1653). Public domain via Wikimedia Commons."
+:all-people: link:/sindri-labs/people/[All People]
+:see-democritus: link:/sindri-labs/fragments/people/democritus/[Democritus]
+
+image::{page-image}[{page-image-credit},width="500px",align="left"]
+
+_**↑ {all-people}**_ | _**{see-democritus}**_
+
+The originator of atomism. So thinly attested that Epicurus once denied he had ever existed -- but most modern scholars accept him as real. Probably from Miletus, Elea, or Abdera. We know him almost entirely through his student Democritus.
+
+== History
+
+The hard facts are few. Surviving fragments and references point to a Greek philosopher of the 5th century BCE, possibly trained in the Eleatic school. He is traditionally credited with the lost works _The Great World System_ (_Megas Diakosmos_) and _On the Mind_, but later authors sometimes attributed the same texts to Democritus.
+
+He is associated with the city of Abdera in Thrace, where he taught Democritus -- though some sources place him in Elea or Miletus. Almost everything we have of his thought reaches us through later writers (Aristotle, Theophrastus, Diogenes Laertius) and through Democritus's elaboration of his system.
+
+== How He Thought
+
+Leucippus was answering Parmenides. A generation earlier, Parmenides had argued from pure logic that change is impossible: nothing comes from nothing, and nothing becomes nothing, so what _is_ must always be and cannot truly change. Greek physics was stuck.
+
+Leucippus's response was a metaphysical invention. He didn't experiment. He didn't measure. He reframed reality: there are two categories, _atoms_ (what is) and _void_ (what is not). Atoms are eternal and unchangeable; the void is real even though it's empty. Atoms move through the void, collide, recombine. Change is not creation or destruction but rearrangement.
+
+This is the move that lets physics happen. It costs you Parmenides's strict monism, but you get a world where things can move and combine.
+
+His one surviving direct quote captures the determinism that came with the system: _"Nothing happens at random; everything occurs for a reason and out of necessity."_
+
+== What He Did
+
+He invented the atomic ontology. Atoms are infinite in number, eternal, indivisible, varying in shape and size; they move and collide in empty space; their arrangements account for the variety of things. Every later atomist -- Democritus, Epicurus, Lucretius, Gassendi, Dalton -- inherits this skeleton.
+
+He left almost no surviving text. The system he built was carried forward by Democritus, who extended it across physics, ethics, perception, and thought. Without Democritus, Leucippus would be a footnote. Without Leucippus, Democritus would have nothing to extend.

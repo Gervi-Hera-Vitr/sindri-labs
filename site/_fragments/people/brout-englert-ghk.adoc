@@ -1,0 +1,44 @@
+---
+sciences: [physics]
+related: [brout, englert, guralnik, hagen, kibble, higgs]
+---
+= Brout, Englert, Guralnik, Hagen, and Kibble
+ifndef::env-site[:imagesdir: ../../assets/images/people]
+ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
+:page-image: brout-englert-ghk.jpg
+:page-image-credit: "Higgs potential Mexican-hat diagram. CC-BY-SA 3.0 via Wikimedia Commons."
+:all-people: link:/sindri-labs/people/[All People]
+:see-brout: link:/sindri-labs/fragments/people/brout/[Robert Brout]
+:see-englert: link:/sindri-labs/fragments/people/englert/[François Englert]
+:see-guralnik: link:/sindri-labs/fragments/people/guralnik/[Gerald Guralnik]
+:see-hagen: link:/sindri-labs/fragments/people/hagen/[C.R. Hagen]
+:see-kibble: link:/sindri-labs/fragments/people/kibble/[Tom Kibble]
+:see-higgs: link:/sindri-labs/fragments/people/higgs/[Peter Higgs]
+
+image::{page-image}[{page-image-credit},width="500px",align="left"]
+
+_**↑ {all-people}**_ | _**{see-brout}**_ · _**{see-englert}**_ · _**{see-guralnik}**_ · _**{see-hagen}**_ · _**{see-kibble}**_ · _**{see-higgs}**_
+
+Five physicists who, with Peter Higgs, worked out the mass-generation mechanism in 1964 -- two papers from Brussels and Imperial College published within weeks of Higgs's. Robert Brout (1928-2011) and François Englert (b. 1932) at the Université libre de Bruxelles; Gerald Guralnik (1936-2014), C.R. Hagen (b. 1937), and Tom Kibble (1932-2016) at Imperial College London.
+
+== History
+
+Brout was American, born in New York; Englert was Belgian, a child survivor of the Holocaust who spent the war hidden in Catholic orphanages and homes. They met at Cornell in the late 1950s and became lifelong collaborators -- Brout moved to Brussels in 1961 to work with Englert and stayed for the rest of his life. Their partnership was unusually close; physicists who knew them said they thought as one mind.
+
+The Imperial College trio -- Guralnik, Hagen, Kibble -- arrived at the same answer along an independent path. Guralnik was American, Hagen American, Kibble Indian-born British. They published as a group of three; their paper went to _Physical Review Letters_ a few weeks after Higgs's, and weeks after Brout-Englert's.
+
+Englert and Higgs shared the 2013 Nobel Prize in Physics. Brout had died in 2011 -- Nobel rules require living recipients. The Imperial College authors were not included; this was controversial and remains so. Guralnik and Kibble both wrote pointed historical essays about the omission.
+
+== How They Thought
+
+All three groups were doing field theory, and all three were trying to solve the same technical problem: how to give mass to gauge bosons without breaking the gauge symmetries that made the theory consistent.
+
+Brout and Englert came at it through analogy with superconductivity. Guralnik, Hagen, and Kibble were the most rigorous about the role of Goldstone bosons -- their paper made the cleanest mathematical statement of why no massless Goldstone particle appears when a gauge symmetry is spontaneously broken. Higgs, working alone, was the only one to write down the existence of a new massive scalar particle as an explicit, testable prediction.
+
+Three roads to the same intersection in the same season.
+
+== What They Did
+
+Brout and Englert's paper "Broken Symmetry and the Mass of Gauge Vector Mesons" appeared in _Physical Review Letters_ in August 1964, just before Higgs's first paper. The Imperial College paper "Global Conservation Laws and Massless Particles" followed in November. Together with Higgs, they established what's now called the Brout-Englert-Higgs (BEH) mechanism: a scalar field permeates space, particles that interact with it acquire mass, particles that don't (photons, gluons) remain massless.
+
+When the LHC found the Higgs boson on 4 July 2012, all six names were vindicated. The particle is named after one of them; the mechanism, increasingly, is named after all of them.

@@ -1,0 +1,24 @@
+---
+name: Paul Bernays
+born: 1888
+died: 1977
+era: modern
+nationality: swiss
+sciences: [mathematics, logic]
+science: logic
+related: [hilbert, godel]
+---
+= Paul Bernays (1888-1977)
+ifndef::env-site[:imagesdir: ../../assets/images/people]
+ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
+:page-image: placeholder.jpg
+:page-image-credit: "change me"
+:all-people: link:/sindri-labs/people/[All People]
+:see-hilbert: link:/sindri-labs/fragments/people/hilbert/[David Hilbert]
+:see-godel: link:/sindri-labs/fragments/people/godel/[Kurt Gödel]
+
+image::{page-image}[{page-image-credit},width="500px",align="left"]
+
+_**↑ {all-people}**_ | _**{see-hilbert}**_ · _**{see-godel}**_
+
+_Stub -- body to be written._

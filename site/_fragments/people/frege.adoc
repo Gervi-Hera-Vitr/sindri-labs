@@ -1,0 +1,25 @@
+---
+name: Gottlob Frege
+born: 1848
+died: 1925
+era: modern
+nationality: german
+sciences: [logic, mathematics, philosophy]
+science: logic
+related: [russell, peano, godel]
+---
+= Gottlob Frege (1848-1925)
+ifndef::env-site[:imagesdir: ../../assets/images/people]
+ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
+:page-image: placeholder.jpg
+:page-image-credit: "change me"
+:all-people: link:/sindri-labs/people/[All People]
+:see-russell: link:/sindri-labs/fragments/people/russell/[Bertrand Russell]
+:see-peano: link:/sindri-labs/fragments/people/peano/[Giuseppe Peano]
+:see-godel: link:/sindri-labs/fragments/people/godel/[Kurt Gödel]
+
+image::{page-image}[{page-image-credit},width="500px",align="left"]
+
+_**↑ {all-people}**_ | _**{see-russell}**_ · _**{see-peano}**_ · _**{see-godel}**_
+
+_Stub -- body to be written._

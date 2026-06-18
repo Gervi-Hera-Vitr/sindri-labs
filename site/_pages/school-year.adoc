@@ -4,7 +4,7 @@ header:
   overlay_image: assets/images/banner-devops.jpg
   overlay_filter: 0.2
 ---
-= Mímis Academic Year Schedule: Gervi Héra Viskr
+= Mímis Academic Year Schedule: Gervi Héra Viska
 rdd13r
 :page-author_profile: true
 :page-excerpt: 2025 Academic Year Schedule
@@ -27,6 +27,21 @@ rdd13r
 :imagesdir: ./assets/img
 ifdef::env-name[:relfilesuffix: .adoc]
 :leetcode-programming-skills: https://leetcode.com/studyplan/programming-skills/
+:see-bayes: link:/sindri-labs/fragments/people/bayes/[Thomas Bayes]
+:see-cantor: link:/sindri-labs/fragments/people/cantor/[Georg Cantor]
+:see-chaitin: link:/sindri-labs/fragments/people/chaitin/[Gregory Chaitin]
+:see-church: link:/sindri-labs/fragments/people/church/[Alonzo Church]
+:see-dedekind: link:/sindri-labs/fragments/people/dedekind/[Richard Dedekind]
+:see-frege: link:/sindri-labs/fragments/people/frege/[Gottlob Frege]
+:see-galileo: link:/sindri-labs/fragments/people/galileo/[Galileo Galilei]
+:see-godel: link:/sindri-labs/fragments/people/godel/[Kurt Gödel]
+:see-hilbert: link:/sindri-labs/fragments/people/hilbert/[David Hilbert]
+:see-kolmogorov: link:/sindri-labs/fragments/people/kolmogorov/[Andrey Kolmogorov]
+:see-laplace: link:/sindri-labs/fragments/people/laplace/[Pierre-Simon Laplace]
+:see-maxwell: link:/sindri-labs/fragments/people/maxwell/[James Clerk Maxwell]
+:see-russell: link:/sindri-labs/fragments/people/russell/[Bertrand Russell]
+:see-tarski: link:/sindri-labs/fragments/people/tarski/[Alfred Tarski]
+:see-turing: link:/sindri-labs/fragments/people/turing/[Alan Turing]
 
 Mímis academic year is *_planned by week numbers_* -- not calendar months.
 _This *Ancient Norse School* follows a seasonal theme similar to year-around schools._
@@ -44,15 +59,8 @@ The Academy Instruction Year is planned in three stages.
 
 Schedule Iteration 2.0.7 complete on #Week #28# of 2025.
 
-== v3.0.0 (2025) Academic Year Schedule
-
-* Week 28:
-** STEM: LeetCode - {leetcode-programming-skills}[Programming Skills - Basic Implementation] section.
-** Science: Introduction to Analysis, prelude to Newtonian Mechanics.
-** Humanities: Matrix Trilogy.
-
-
-#We're here: pending the rest of the year copied from notes.#
+- v3.x.x (2025) Academic Year Schedule
+- v4.x.x (2026) Academic Year Schedule
 
 
 == Governing Dynamics of Structured Thought
@@ -114,6 +122,25 @@ Schedule Iteration 2.0.7 complete on #Week #28# of 2025.
 
 [NOTE]
 ====
-The first 8 dynamics are covered in the current journey or in parallel arcs (physics, logic, etc.).
-The final 3 (recursion, emergence, duality) are *optional deeper arcs* you may revisit in future years.
+The first 8 dynamics are covered in the current journey or in parallel arcs (physics, logic, etc.)
+The final 3rd (recursion, emergence, duality) are *optional deeper arcs* you may revisit in future years.
 ====
+
+// Legends-mentioned backlink section -- managed by .tmp/footer-backlinks.py
+== Legends mentioned
+
+- {see-bayes}
+- {see-cantor}
+- {see-chaitin}
+- {see-church}
+- {see-dedekind}
+- {see-frege}
+- {see-galileo}
+- {see-godel}
+- {see-hilbert}
+- {see-kolmogorov}
+- {see-laplace}
+- {see-maxwell}
+- {see-russell}
+- {see-tarski}
+- {see-turing}

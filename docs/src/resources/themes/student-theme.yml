@@ -21,6 +21,6 @@ footer:
       content: 'v{revnumber}'
   verso:
     left:
-      content: '_Gervi Héra Viskr Learning Trails_'
+      content: '_Gervi Héra Viska Learning Trails_'
     right:
       content: '{revision-date}'

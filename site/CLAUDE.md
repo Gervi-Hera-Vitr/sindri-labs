@@ -1,6 +1,6 @@
 # School Site -- Jekyll
 
-Anton's school website. Published at https://gervi-hera-vitr.github.io/sindri-labs/
+Captain's school website. Published at https://gervi-hera-vitr.github.io/sindri-labs/
 
 ## Build
 
@@ -12,7 +12,7 @@ See convenience run configs at ${PROJECT_ROOT}/.run/**.xml
 cd site
 bundle install
 bundle exec jekyll build
-bundle exec jekyll serve -wolIVt --port 4400
+bundle exec jekyll serve -t # Note: port, reload, and more comes from the config
 ```
 
 Requires Ruby (3.3.5) and Bundler -- this is inherited Mímis Gildi convention: everything is reusable. 
@@ -34,6 +34,22 @@ Minimal Mistakes (`mmistakes/minimal-mistakes`) with `sunrise` skin. Remote them
 - Workups can emerge for weeks and live in topic folders such as `curriculum/Engineering/onCoreWizardry/onCompetitiveProgramming/onCodeForces`;
 - Workups are not graded, they're reviewed, collaborated on, and curated; the published work based on workups is graded instead.
 
+**Collections -- Fragments:**
+
+`_fragments/` lives alongside `_posts` and `_pages` -- small reusable pieces (paragraph or two), one per topic, linked to from posts and pages. Renders as its own pages but does NOT appear in the main post feed. Subdirectories work: `_fragments/people/foo.adoc` becomes `/fragments/people/foo/`. The collection's permalink template (`/fragments/:path/`) generates the URL automatically -- no need to set `permalink:` in front matter.
+
+**Pattern:** Fragment as link -- `link:{{ '/fragments/foo/' | relative_url }}[Title]`. Example: `_fragments/people/democritus.adoc`.
+
+**Footnotes:**
+
+Hoist the whole footnote into a doc-header attribute and call it inline. See `_posts/mathematics/2025-07-06-On-Godel-Incompleteness-Theorem.adoc` and `_posts/documents/2024-11-08-mathematics.adoc` for the actual pattern in use:
+
+```
+:godel-ff: footnote:[Wikipedia article on {godel}]
+```
+
+Then the prose just says `{godel-ff}` -- short token, no wrap pollution, define-once-reuse-anywhere.
+
 **Existing Content:**
 
 This can always be changing, but you keep wanting to have a static list that WILL get outdated. You can have your list here.
@@ -53,4 +69,3 @@ GitHub Actions are inherited -- always read the templated workflow.
 **Comments:**
 
 Utterances (GitHub Issues-backed) configured for the repo.
-(ToDo: Vadim please verify if this is still the case.)

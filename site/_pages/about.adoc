@@ -11,11 +11,13 @@ rdd13r
 :page-layout: single
 :page-permalink: /about/
 :page-classes: wide
+:socratic-method: https://en.wikipedia.org/wiki/Socratic_method[Socratic method,window=_blank]
+:socratic-method-fn: footnote:[Wikipedia article on {socratic-method}]
 
-Gervi Héra Vitr is a homeschool in Cary North Carolina.
+Gervi Héra Vitr is a home school in Cary, North Carolina.
 And this site is its classroom and laboratory repository.
 Our curriculum is built by parents, mentors, and students.
-We care deeply about children’s development, autonomy, and competence.
+We care deeply about children's development, autonomy, and competence.
 This site is backed by a GitHub repository and hosted on GitHub Pages.
 
 [.lead]
@@ -37,7 +39,7 @@ Gervi Héra Vitr combines foundational theory with relentless application.
 All learning culminates in a tangible result.
 Acceptable outcomes are consequential to the learner.
 Possible assets are an artifact, a product contribution, a business transaction.
-The learning environment is a Socratic classroom. +
+The learning environment is a Socratic{socratic-method-fn} classroom. +
 *_A completely flat hierarchy_*: +
 _parents are equal learners to their children_.
 

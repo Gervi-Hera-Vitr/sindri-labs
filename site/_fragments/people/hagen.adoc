@@ -1,0 +1,24 @@
+---
+name: C.R. Hagen
+born: 1937
+era: contemporary
+nationality: american
+sciences: [physics]
+science: physics
+related: [guralnik, kibble, higgs]
+---
+= C.R. Hagen (b. 1937)
+ifndef::env-site[:imagesdir: ../../assets/images/people]
+ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
+:page-image: placeholder.jpg
+:page-image-credit: "change me"
+:all-people: link:/sindri-labs/people/[All People]
+:see-guralnik: link:/sindri-labs/fragments/people/guralnik/[Gerald Guralnik]
+:see-kibble: link:/sindri-labs/fragments/people/kibble/[Tom Kibble]
+:see-higgs: link:/sindri-labs/fragments/people/higgs/[Peter Higgs]
+
+image::{page-image}[{page-image-credit},width="500px",align="left"]
+
+_**↑ {all-people}**_ | _**{see-guralnik}**_ · _**{see-kibble}**_ · _**{see-higgs}**_
+
+// FixMe: Captain

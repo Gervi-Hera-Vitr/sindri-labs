@@ -21,6 +21,6 @@ footer:
       content: 'v{revnumber}'
   verso:
     left:
-      content: 'Project - https://github.com/orgs/Gervi-Hera-Vitr/projects/1/[Gervi Héra Viskr Learning Trails]'
+      content: 'Project - https://github.com/orgs/Gervi-Hera-Vitr/projects/1/[Gervi Héra Viska Learning Trails]'
     right:
       content: '{revision-date}'

@@ -1,0 +1,60 @@
+= Antimatter
+:stem: latexmath
+
+== What Is Antimatter
+Antimatter is the "mirror-image" version of ordinary matter.
+Every known particle in the universe has an antiparticle counterpart that is identical in mass but has the opposite values for electric charge, and certain other quantum properties (like baryon number or lepton number).
+
+=== Every Particle Has an Antimatter Partner
+
+.Antiparticle Examples
+[cols="1,1,1,1,1", options="header"]
+|===
+| Particle
+| Charge
+| Antiparticle
+| Charge
+| What happens on contact
+
+| Electron stem:[e^-]
+| –1
+| Positron stem:[e^+]
+| +1
+| Annihilate → 2 gamma-ray photons stem:[2\gamma]
+
+| Proton stem:[p]
+| +1
+| Antiproton stem:[\bar{p}]
+| –1
+| Annihilate → energy + pions
+
+| Neutron stem:[n]
+| 0
+| Antineutron stem:[\bar{n}]
+| 0
+| Annihilate → energy + pions
+
+| Up quark
+| +⅔
+| Anti-up quark
+| –⅔
+| Used to build anti-protons, anti-neutrons, etc.
+|===
+
+== Matter-Antimatter Annihilation
+When a particle and its antiparticle meet, they annihilate each other and convert their entire mass into pure energy (usually photons of light), following Einstein's famous equation:
+
+[stem]
+++++
+E = mc^2
+++++
+
+== Sources
+
+* P.A.M. Dirac, "The Quantum Theory of the Electron," _Proceedings of the Royal Society A_ 117, 610 (1928). The paper that predicted antimatter from pure mathematics, four years before any experiment hinted at it.
+* C.D. Anderson, "The Positive Electron," _Physical Review_ 43, 491 (1933). The discovery paper for the positron.
+* Frank Close, _Antimatter_ (Oxford University Press, 2009). Book-length treatment, accessible at high-school to early-undergrad level.
+* David Griffiths, _Introduction to Elementary Particles_, 2nd ed. (Wiley-VCH, 2008). Standard undergraduate textbook; chapter 1 covers antimatter basics, chapter 7 derives the Dirac equation.
+* Particle Data Group, _Review of Particle Physics_, https://pdg.lbl.gov. Current values for every particle and antiparticle: masses, charges, lifetimes, decay channels.
+* CERN, "The Matter-Antimatter Asymmetry Problem," https://home.cern/science/physics/matter-antimatter-asymmetry-problem. Why the universe ended up made of matter and not equal parts of both -- still open.
+* ALPHA Collaboration, "Observation of the 1S-2S transition in trapped antihydrogen," _Nature_ 541, 506 (2017). The current state of antimatter experiment -- antihydrogen atoms held in magnetic traps long enough to do spectroscopy.

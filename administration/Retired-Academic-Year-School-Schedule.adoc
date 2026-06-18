@@ -1,4 +1,4 @@
-= Mímis Academic Year Schedule: Gervi Héra Viskr
+= Mímis Academic Year Schedule: Gervi Héra Viska
 R!dd13r rdd13r <12781006+rdd13r@users.noreply.github.com>
 v2.0, Tuesday May 6th 2025
 :description: Academy instruction and curriculum schedule by week number.
@@ -31,7 +31,7 @@ _This *Ancient Norse School* follows a seasonal theme similar to year-around sch
 
 <<<
 
-== Academic Year Notes: Gervi Héra Viskr
+== Academic Year Notes: Gervi Héra Viska
 
 . The Academy Instruction Year is planned and scheduled one week at a time, by week number.
 . Use this place for your note.

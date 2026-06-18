@@ -1,0 +1,24 @@
+---
+name: Thomas Bayes
+born: 1701
+died: 1761
+era: early-modern
+nationality: english
+sciences: [mathematics, probability]
+science: mathematics
+related: [laplace, markov]
+---
+= Thomas Bayes (1701-1761)
+ifndef::env-site[:imagesdir: ../../assets/images/people]
+ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
+:page-image: placeholder.jpg
+:page-image-credit: "change me"
+:all-people: link:/sindri-labs/people/[All People]
+:see-laplace: link:/sindri-labs/fragments/people/laplace/[Pierre-Simon Laplace]
+:see-markov: link:/sindri-labs/fragments/people/markov/[Andrey Markov]
+
+image::{page-image}[{page-image-credit},width="500px",align="left"]
+
+_**↑ {all-people}**_ | _**{see-laplace}**_ · _**{see-markov}**_
+
+_Stub -- body to be written._

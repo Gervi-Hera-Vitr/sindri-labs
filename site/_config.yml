@@ -32,9 +32,30 @@ remote_theme                : "mmistakes/minimal-mistakes"
 #minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 minimal_mistakes_skin       : "sunrise"
 
+### Serve
+port                        : 4400
+livereload                  : true
+livereload_port             : 34729
+open_url                    : true
+incremental                 : true
+verbose                     : true
+
 sass:
   quiet_deps                : true
+  silence_deprecations:
+    - import
 safe                        : false
+
+
+### AsciiDoc / Asciidoctor — site-wide attributes
+asciidoctor:
+  attributes:
+    captain                 : 'https://github.com/CaptainLugaru[Captain,window=_blank]'
+    munchkin                : 'http://www.catb.org/jargon/html/M/munchkin.html[munchkin,window=_blank]'
+    rdd13r                  : 'https://github.com/rdd13r/[DaiDai,window=_blank]'
+    american_literature     : 'link:/sindri-labs/literature/#american-literature[American Literature,window=_blank]'
+    mathematics             : 'link:/sindri-labs/mathematics/[Mathematics,window=_blank]'
+    on_mathematics          : 'link:/sindri-labs/on-mathematics/[On Mathematics,window=_blank]'
 
 
 ### Plugins
@@ -52,6 +73,16 @@ plugins:
 ### Pagination defaults
 pagination:
   enabled                   : false
+
+
+### Collections -- supporting content (linkable, not in the post feed)
+collections:
+  fragments:
+    output                  : true
+    permalink               : /fragments/:path/
+  references:
+    output                  : true
+    permalink               : /references/:path/
 
 
 ### Defaults for posts (when you start adding them) and pages
@@ -72,6 +103,33 @@ defaults:
       type                  : pages
     values:
       author_profile        : true
+  - scope:
+      path                  : ""
+      type                  : fragments
+    values:
+      layout                : single
+      author_profile        : false
+      read_time             : false
+      comments              : false
+      share                 : false
+      related               : false
+      breadcrumbs           : true
+  - scope:
+      path                  : "_fragments/people"
+      type                  : fragments
+    values:
+      classes               : wide
+  - scope:
+      path                  : ""
+      type                  : references
+    values:
+      layout                : single
+      author_profile        : false
+      read_time             : false
+      comments              : false
+      share                 : false
+      related               : false
+      breadcrumbs           : true
 
 
 ### Reading Files
@@ -156,32 +214,32 @@ comments:
 ### School General Footer
 footer:
   links:
-    - label: "Academy Organization"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/Gervi-Hera-Vitr"
-    - label: "Discussions"
-      icon: "fas fa-fw fa-comments"
-      url: "https://github.com/orgs/Gervi-Hera-Vitr/discussions"
-    - label: "Tracker"
-      icon: "fas fa-fw fa-tachometer-alt"
-      url: "https://github.com/orgs/Gervi-Hera-Vitr/projects/1"
-    - label: "Repository"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/Gervi-Hera-Vitr/sindri-labs"
-    - label: "Fingerprint"
-      icon: "fas fa-fw fa-fingerprint"
-      url: "/sindri-labs/assets/images/favicon-gervi-school.png"
+    - label                 : "Academy Organization"
+      icon                  : "fab fa-fw fa-github"
+      url                   : "https://github.com/Gervi-Hera-Vitr"
+    - label                 : "Discussions"
+      icon                  : "fas fa-fw fa-comments"
+      url                   : "https://github.com/orgs/Gervi-Hera-Vitr/discussions"
+    - label                 : "Tracker"
+      icon                  : "fas fa-fw fa-tachometer-alt"
+      url                   : "https://github.com/orgs/Gervi-Hera-Vitr/projects/1"
+    - label                 : "Repository"
+      icon                  : "fab fa-fw fa-github"
+      url                   : "https://github.com/Gervi-Hera-Vitr/sindri-labs"
+    - label                 : "Fingerprint"
+      icon                  : "fas fa-fw fa-fingerprint"
+      url                   : "/sindri-labs/assets/images/favicon-gervi-school.png"
 
 
 ### Archives: Enable taxonomy pages for tags, categories, and year
 jekyll-archives:
-  enabled: all
+  enabled                   : all
   layouts:
-    year: archive-taxonomy
-    month: archive-taxonomy
-    day: archive-taxonomy
-    category: archive-taxonomy
-    tag: archive-taxonomy
+    year                    : archive-taxonomy
+    month                   : archive-taxonomy
+    day                     : archive-taxonomy
+    category                : archive-taxonomy
+    tag                     : archive-taxonomy
   permalinks:
-    category: /categories/:name/
-    tag: /tags/:name/
+    category                : /categories/:name/
+    tag                     : /tags/:name/

@@ -10,14 +10,23 @@ lugaru
 :page-layout: single
 :page-permalink: /site-setup/
 :page-classes: wide
+:jekyll-quickstart: https://jekyllrb.com/docs/[Jekyll Quickstart]
+:gh-pages-versions: https://pages.github.com/versions/[GitHub Pages dependencies]
+:jekyll-gh-actions: https://jekyllrb.com/docs/continuous-integration/github-actions[GitHub Actions: Jekyll]
+:asdf-getting-started: https://asdf-vm.com/guide/getting-started.html['Getting Started' guide]
+:asdf-core: https://asdf-vm.com/manage/core.html[core]
+:asdf-plugins: https://asdf-vm.com/manage/plugins.html[plugins]
+:asdf-versions: https://asdf-vm.com/manage/versions.html[version]
+:asdf-ruby: https://github.com/asdf-vm/asdf-ruby[the `ruby` home repository]
+:minimal-mistakes: https://github.com/mmistakes/minimal-mistakes[Minimal Mistakes]
 
 Last updated Tuesday 29 October 2024.
 
 Most relevant documentation links::
 
-- https://jekyllrb.com/docs/[Jekyll Quickstart]
-- https://pages.github.com/versions/[GitHub Pages dependencies]
-- https://jekyllrb.com/docs/continuous-integration/github-actions[GitHub Actions: Jekyll]
+- {jekyll-quickstart}
+- {gh-pages-versions}
+- {jekyll-gh-actions}
 
 Important tribal knowledge::
 
@@ -25,7 +34,7 @@ Traditionally, *_"GitHub Pages"_* support is a strongly locked-down affair.
 This created many conflicts with Jekyll, various Gems, and GitHub Pages plugins.
 The GitHub Pages Actions workflow is meant to partially alleviate the issue.
 
-_I use Linux and Mac OS X. Linux users need no help but I will document the Mac OS X setup._
+_I use Linux and Mac OS X. Linux users need no help, but I will document the Mac OS X setup._
 
 == Mac OS X Setup
 
@@ -45,14 +54,14 @@ brew update && brew upgrade --greedy \
 
 '''
 
-**Explanation 1: **
+**Explanation 1:**
 
-Please remember that `asdf` delegates to resource managers called plugins::
-`asdf` manage tool artifacts *_via dedicated plugins_* that fully control the lifecycle or SDKs they manage.
+Please remember that `asdf` delegates to resource managers called plugs-in::
+`asdf` manages tool artifacts *_via dedicated plugins_* that fully control the lifecycle of SDKs they manage.
 
-- Here is the https://asdf-vm.com/guide/getting-started.html['Getting Started' guide] for `asdf`;
-- documentation on https://asdf-vm.com/manage/core.html[core] functionality;
-- and, TL;DR on https://asdf-vm.com/manage/plugins.html[plugins] and https://asdf-vm.com/manage/versions.html[version] management.
+- Here is the {asdf-getting-started} for `asdf`;
+- documentation on {asdf-core} functionality;
+- and, TL;DR on {asdf-plugins} and {asdf-versions} management.
 
 
 - *Example:* To #list# all plugins, use:
@@ -69,7 +78,7 @@ asdf plugin update --all
 
 '''
 
-*Step 1:* Install `ruby` plugin (see https://github.com/asdf-vm/asdf-ruby[the `ruby` home repository] to get the sense of plugins):
+*Step 1:* Install `ruby` plugin (see {asdf-ruby} to get the sense of plugins):
 
 [source,shell]
 ----
@@ -80,7 +89,7 @@ asdf plugin add ruby
 
 [source,shell]
 ----
-asdf install ruby latest
+asdf install ruby 3.3.5
 ----
 
 *Step 3:* Verify:
@@ -92,19 +101,19 @@ asdf current
 
 == Install Jekyll and GitHub Pages dependencies
 
-#Navigate into your project docs directory before working on Jekyll site!#
+#Navigate into your project site directory before working on the Jekyll site!#
 
-Follow the https://jekyllrb.com/docs/[Jekyll Quickstart] documentation.
+Follow the {jekyll-quickstart} documentation.
 
 [source,shell]
 ----
 cd site
 gem install jekyll bundler
 jekyll new site --force
-bundle install && bundle exec jekyll serve -wolIVt
+bundle install && bundle exec jekyll serve -t
 
 ----
 
 == That's it!
 
-We have then modified our site to apply https://github.com/mmistakes/minimal-mistakes[Minimal Mistakes] Jekyll theme.
+We have then modified our site to apply {minimal-mistakes} Jekyll theme.

@@ -1,0 +1,107 @@
+---
+header:
+  overlay_image: assets/images/banner-philosophy.jpg
+  overlay_filter: 0.1
+categories: [literature]
+tags: [literature,essay,graded,analysis,Go Set a Watchman,To Kill a Mockingbird]
+---
+= A Controversial Return: _Go Set a Watchman_'s Place in Literature
+lugaru
+:page-author_profile: true
+:page-excerpt:
+:page-layout: single
+:page-classes: wide
+
+-> _**{american_literature}**_
+
+The unexpected publication of Harper Lee's _Go Set a Watchman_ in 2015 sparked immediate controversy, initially promoted by its publishers as a long-awaited sequel to the beloved _To Kill a Mockingbird_.
+However, critical analysis and widespread consensus now point to a different truth: _Go Set a Watchman_ is more accurately understood as the original first draft of Lee's Prize-winning novel, rather than a standalone work or a continuation of the narrative.
+This perspective is reinforced not only by allegations that the 89-year-old Lee may have been unduly pressured into its publication, but also by the novel's own content.
+
+_Go Set a Watchman_ revisits Maycomb, Alabama, through the eyes of a grown-up Jean Louise "Scout" Finch, returning home to her familiar Southern town from her life in New York City.
+Yet, the Maycomb she encounters is far from the idealized place of her childhood memories.
+As an adult, Jean Louise sees past the comforting veneer of Southern life, confronting the starker, more deeply ingrained racial prejudices held by her friends and even her own family.
+Amidst the Civil Rights Movement and the nation's struggle with evolving racial dynamics, Jean Louise discovers her revered father, Atticus, and her Uncle Jack advocating for segregation and resisting the pace of change.
+This jarring revelation shatters her perception of her childhood heroes, forcing her into a painful reckoning with her family's beliefs and her own moral convictions.
+Ultimately, while Atticus attempts to rationalize his views by suggesting Jean Louise now sees him as merely human, the novel's raw,
+unpolished exploration of these themes further supports the argument that _Go Set a Watchman_ offers a unique glimpse into Harper Lee's original vision and serves as the seminal, unrefined blueprint for _To Kill a Mockingbird_.
+
+== The "Draft" Argument
+
+A careful examination of the publishing histories of _Go Set a Watchman_ and _To Kill a Mockingbird_ reveals a crucial truth: _Go Set a Watchman_ is best understood not as a sequel,
+but as the original first draft from which Harper Lee's renowned masterpiece eventually emerged.
+This becomes strikingly evident when considering the initial rejection of the manuscript and the subsequent editorial guidance that shaped _To Kill a Mockingbird_.
+
+When Harper Lee first submitted her manuscript for _Go Set a Watchman_, it was deemed flawed and not ready for publication.
+Her editor, recognizing the potential within the book, encouraged Lee to significantly rewrite and rework the story.
+This pivotal decision led to the fundamental structural and thematic differences between the two novels.
+
+This editorial influence is manifested in several key aspects.
+_To Kill a Mockingbird_, for instance, provides a much more comprehensive and natural introduction to its world and characters, building context gradually through a child's perspective.
+In contrast, _Go Set a Watchman_ often plunges directly into complex adult themes and relationships, sometimes relying on less organic explanations that betray its earlier, less refined state.
+
+Furthermore, the evolution of Atticus Finch's character serves as compelling evidence of this drafting process.
+In _To Kill a Mockingbird_, Atticus, while not portrayed as flawless, largely embodies an unwavering moral compass, fitting the idealized perception a child like Scout would have of her father.
+This contrasts sharply with the Atticus presented in _Go Set a Watchman_, who is depicted with more pronounced and unsettling racial views.
+This darker, more complex portrayal in _Watchman_ necessitates Jean Louise's painful arc of disillusionment and her struggle to reconcile her childhood hero with the flawed man she encounters as an adult.
+The decision to refine Atticus into the more unambiguously heroic figure in _To Kill a Mockingbird_ was a deliberate choice that better suited the narrative perspective of a child and the broader moral message the published novel would convey.
+
+These significant revisions -- from narrative structure and contextual setup to the profound re-characterization of central figures like Atticus -- were essential steps taken before the later draft,
+eventually renamed _To Kill a Mockingbird_, was finally approved for publication.
+This historical trajectory unequivocally demonstrates that _Go Set a Watchman_ was, in essence, Harper Lee's original, foundational draft.
+
+== Not a Sequel or an Equal
+
+When comparing _Go Set a Watchman_ to _To Kill a Mockingbird_, it becomes clear that the former is not an equally polished novel.
+This relationship is evident through significant textual similarities and key character omissions.
+
+For example, consider the nearly identical Old Sarum passage found in both books.
+_Go Set a Watchman_ (Chapter 4) describes:
+
+"...there was a community called Old Sarum populated by two families, separate and apart in the beginning, but unfortunately bearing the same name.
+The Cunninghams and the Coninghams married each other until the spelling of the names was academic -- academic unless a Cunningham wished to jape with a Coningham over land titles and took to the law.
+During a controversy of this character, Jeems Cunningham testified that his mother spelled it Cunningham occasionally on deeds and things but she was really a Coningham, she was an uncertain speller,
+and she was given to looking far away sometimes when she sat on the front porch.
+After nine hours of listening to the vagaries of Old Sarum's inhabitants, Judge Taylor threw the case out of court on grounds of frivolous pleading and declared he hoped to God the litigants were satisfied by each having had his public say.
+They were.
+That was all they had wanted in the first place."
+
+This description is mirrored almost verbatim in _To Kill a Mockingbird_ (Chapter 16):
+
+"Old Sarum, their stamping grounds, was populated by two families separate and apart in the beginning, but unfortunately bearing the same name.
+The Cunninghams married the Coninghams until the spelling of the names was academic -- academic until a Cunningham disputed a Coningham over land titles and took to the law.
+The only time Jean Louise ever saw Judge Taylor at a dead standstill in open court was during a dispute of this kind.
+Jeems Cunningham testified that his mother spelled it Cunningham on deeds and things, but she was really a Coningham, she was an uncertain speller, a seldom reader,
+and was given to looking far away sometimes when she sat on the front gallery in the evening.
+After nine hours of listening to the eccentricities of Old Sarum's inhabitants, Judge Taylor threw the case out of court.
+When asked upon what grounds, Judge Taylor said, "Champertous connivance," and declared he hoped to God the litigants were satisfied by each having had their public say.
+They were.
+That was all they had wanted in the first place."
+
+The striking overlap, with only minor refinements in _To Kill a Mockingbird_, strongly suggests that _Go Set a Watchman_ contained the initial descriptive material from which the more famous novel was crafted.
+Authors often reuse well-honed passages from earlier drafts, a common practice in the writing process.
+
+Furthermore, the absence of Boo Radley in _Go Set a Watchman_ provides additional evidence.
+Despite his monumental role in Scout's childhood and his pivotal act of saving her and Jem from Bob Ewell in _To Kill a Mockingbird_, Boo is never mentioned, or is at best a fleeting reference, in _Go Set a Watchman_.
+This stark omission of one of _To Kill a Mockingbird_'s most iconic characters indicates that _Go Set a Watchman_ was not a continuation,
+but rather an earlier stage where certain characters and narrative threads had yet to be fully developed or deemed central to the story.
+
+These textual inconsistencies and character omissions demonstrate that _Go Set a Watchman_ was an incomplete work that underwent significant iteration and refinement to become the beloved classic, _To Kill a Mockingbird_.
+
+== Conclusion
+
+Ultimately, the true nature of _Go Set a Watchman_ is best understood as Harper Lee's original first draft, offering a compelling glimpse into the foundational ideas that would eventually evolve into _To Kill a Mockingbird_.
+This relationship is unequivocally supported by the historical record: _Go Set a Watchman_ was the initial manuscript submitted for publication, but it was Harper Lee's discerning editor who recognized its raw potential and,
+through vital guidance, encouraged the significant improvements and changes that transformed it into something truly special.
+It was from this intensive process of revision and refinement that _To Kill a Mockingbird_ was born and subsequently approved for publication.
+
+Recognizing _Go Set a Watchman_ as a draft is crucial for a deeper engagement with both novels.
+It allows readers to effectively separate the two works, providing invaluable insight into Harper Lee's initial creative thought process and the deliberate choices made to shape the narrative.
+This understanding enriches our perception of the refined moral complexities and profound social commentary within _To Kill a Mockingbird_, while also appreciating _Go Set a Watchman_ as a unique,
+unvarnished window into the genesis of a literary masterpiece.
+
+== Final Grade and Comments
+
+- ✅ Graded assignment by {rdd13r} on July 8th 2025. #A#
+
+Captain struggled with this a little. Leaving for a review next year.

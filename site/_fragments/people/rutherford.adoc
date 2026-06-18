@@ -1,0 +1,55 @@
+---
+name: Ernest Rutherford
+born: 1871
+died: 1937
+era: modern
+nationality: new-zealander
+sciences: [physics, chemistry]
+science: physics
+related: [thomson, geiger-marsden, bohr]
+---
+= Ernest Rutherford (1871-1937)
+ifndef::env-site[:imagesdir: ../../assets/images/people]
+ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
+:page-image: rutherford.jpg
+:page-image-credit: "Portrait by Bain News Service (c. 1920s). Public domain via Wikimedia Commons."
+:all-people: link:/sindri-labs/people/[All People]
+:see-thomson: link:/sindri-labs/fragments/people/thomson/[J.J. Thomson]
+:see-geiger-marsden: link:/sindri-labs/fragments/people/geiger-marsden/[Geiger Marsden]
+:see-bohr: link:/sindri-labs/fragments/people/bohr/[Niels Bohr]
+
+image::{page-image}[{page-image-credit},width="500px",align="left"]
+
+_**↑ {all-people}**_ | _**{see-thomson}**_ · _**{see-geiger-marsden}**_ · _**{see-bohr}**_
+
+New Zealander, Cavendish Professor, Nobel laureate (in chemistry, much to his amusement). Discovered the atomic nucleus. Mentored a chain of Nobel laureates that includes Bohr, Chadwick, Geiger, Marsden, Blackett, Cockcroft, and Walton.
+
+== History
+
+Born in rural New Zealand, fourth of twelve children, on a flax farm. Won a scholarship to Cambridge and worked under J.J. Thomson at the Cavendish. Then McGill in Montreal (where he did the work that won him the 1908 Nobel in _Chemistry_ for radioactive decay), then Manchester (where he discovered the nucleus), and finally back to Cambridge as Cavendish Professor.
+
+Loud, gregarious, swore freely, ran his lab like a workshop. Sang "Onward, Christian Soldiers" off-key when experiments worked. He found it permanently funny that he -- a self-described physicist -- had won a chemistry prize. He liked to say all science was either physics or stamp collecting; the joke at his own expense was even better.
+
+== How He Thought
+
+Physical intuition first, math second -- often a distant second. He hated complicated theory. _"If you can't explain your physics to a barmaid it is probably not very good physics."_
+
+The gold foil reasoning is pure Rutherford: when Geiger and Marsden told him alpha particles were bouncing back, he didn't reach for equations. He reached for an image -- a 15-inch shell hitting tissue paper -- and immediately knew it meant a tiny, dense, hard center. He trusted his eyes and his sense of how matter felt.
+
+His real second talent was the lab itself. He picked good people, gave them real problems, and let them work. The Manchester and Cavendish groups under him were factories of Nobel-level discovery.
+
+== What He Did
+
+In 1909-1911 at Manchester, working with Geiger and Marsden, Rutherford directed the gold foil experiment. Alpha particles were fired at a foil ~1000 atoms thick. Most went through with little deflection -- but roughly 1 in 8,000 bounced back at angles greater than 90 degrees.
+
+Under Thomson's plum pudding model this was impossible: a diffuse positive sphere couldn't deflect a fast, heavy alpha particle that hard. Rutherford concluded:
+
+* The atom is mostly empty space.
+* Nearly all the mass and all the positive charge are concentrated in a tiny dense center -- the _nucleus_.
+* Electrons orbit at a distance.
+
+This replaced Thomson's model with the _nuclear model of the atom_ in 1911. It was the foundation everything later -- Bohr's quantized orbits, Chadwick's neutron, the entire field of nuclear physics -- was built on.
+
+In 1920 he predicted a neutral particle of similar mass to the proton must exist in the nucleus. He could not prove it. His student Chadwick spent the next twelve years finding it.
+
+Nobel Prize in Chemistry: 1908. The gold foil work came _after_ his Nobel -- a rare case of a scientist's most famous contribution postdating their prize.

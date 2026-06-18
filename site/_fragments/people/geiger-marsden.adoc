@@ -1,0 +1,44 @@
+---
+sciences: [physics]
+related: [geiger, marsden, rutherford, chadwick]
+---
+= Hans Geiger (1882-1945) and Ernest Marsden (1889-1970)
+ifndef::env-site[:imagesdir: ../../assets/images/people]
+ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
+:page-image: geiger-marsden.jpg
+:page-image-credit: "Geiger-Marsden experiment expectation vs. observed result diagram. CC-BY 3.0 via Wikimedia Commons."
+:all-people: link:/sindri-labs/people/[All People]
+:see-geiger: link:/sindri-labs/fragments/people/geiger/[Hans Geiger]
+:see-marsden: link:/sindri-labs/fragments/people/marsden/[Ernest Marsden]
+:see-rutherford: link:/sindri-labs/fragments/people/rutherford/[Ernest Rutherford]
+:see-chadwick: link:/sindri-labs/fragments/people/chadwick/[James Chadwick]
+
+image::{page-image}[{page-image-credit},width="500px",align="left"]
+
+_**↑ {all-people}**_ | _**{see-geiger}**_ · _**{see-marsden}**_ · _**{see-rutherford}**_ · _**{see-chadwick}**_
+
+The hands behind Rutherford's eyes. Geiger was a German physicist who later invented the Geiger counter (1928). Marsden was a 20-year-old undergraduate when Rutherford handed him the gold foil experiment as a project.
+
+== History
+
+Geiger came to Manchester from Germany after a PhD in Erlangen. He worked with Rutherford on counting alpha particles -- tedious, eye-straining work in a darkened room. After leaving Manchester he went back to Germany and developed the Geiger-Müller counter, which became the standard radiation detector and is still in use a century later. He stayed in Germany through both world wars; his lab was destroyed in WWII bombing.
+
+Marsden was a New Zealander like Rutherford -- this mattered, Rutherford liked his fellow countrymen. He arrived at Manchester as an undergraduate in 1909 and got handed the deflection-counting job almost immediately. After WWI he moved back to New Zealand and became one of the country's most important scientific administrators, knighted in 1958.
+
+== How They Thought
+
+Geiger had the patience of a clock. He could sit for hours in pitch-darkness, eye to a microscope, counting individual flashes on a zinc sulfide screen as alpha particles hit it. The discovery depended on this -- the bounce-back was a 1-in-8,000 event, easy to miss if you weren't watching every flash.
+
+Marsden was young, fresh, didn't yet know what was supposed to be impossible. When Rutherford suggested checking for back-scattered alpha particles -- not because he expected anything, just to be thorough -- Marsden actually looked. He saw flashes on the wrong side of the foil. A more experienced experimenter might have decided the apparatus was leaking.
+
+The combination matters: Geiger's patience plus Marsden's willingness to believe an unexpected result.
+
+== What They Did
+
+In 1909 they ran the experiment that would become known as Rutherford's gold foil experiment. They aimed alpha particles from a radium source at a thin gold foil and counted scintillations on a zinc sulfide screen positioned at various angles around the foil.
+
+The plum-pudding prediction: tiny deflections only. The result: most particles passed through, but ~1 in 8,000 deflected by more than 90 degrees. Some came almost straight back at the source.
+
+They published this as "On a Diffuse Reflection of the α-Particles" in _Proceedings of the Royal Society A_ (1909). Rutherford's interpretation -- the nucleus -- followed in 1911. Without their data, no nucleus.
+
+Geiger's later invention of the Geiger counter (with Walther Müller) made every subsequent nuclear and particle experiment easier; it's the workhorse instrument that turned counting individual particles from hours of eyestrain into an audible click.

@@ -1,0 +1,40 @@
+---
+sciences: [physics, chemistry]
+related: [bothe, becker, joliot-curie-irene, joliot-curie-frederic, chadwick, rutherford]
+---
+= Bothe, Becker, and the Joliot-Curies
+ifndef::env-site[:imagesdir: ../../assets/images/people]
+ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
+:page-image: bothe-becker-joliot-curies.jpg
+:page-image-credit: "Chadwick neutron discovery apparatus schematic (polonium alpha-on-beryllium to paraffin proton recoil). CC-BY-SA 4.0 via Wikimedia Commons."
+:all-people: link:/sindri-labs/people/[All People]
+:see-bothe: link:/sindri-labs/fragments/people/bothe/[Walther Bothe]
+:see-becker: link:/sindri-labs/fragments/people/becker/[Herbert Becker]
+:see-joliot-curie-irene: link:/sindri-labs/fragments/people/joliot-curie-irene/[Irène Joliot-Curie]
+:see-joliot-curie-frederic: link:/sindri-labs/fragments/people/joliot-curie-frederic/[Frédéric Joliot-Curie]
+:see-chadwick: link:/sindri-labs/fragments/people/chadwick/[James Chadwick]
+:see-rutherford: link:/sindri-labs/fragments/people/rutherford/[Ernest Rutherford]
+
+image::{page-image}[{page-image-credit},width="500px",align="left"]
+
+_**↑ {all-people}**_ | _**{see-bothe}**_ · _**{see-becker}**_ · _**{see-joliot-curie-irene}**_ · _**{see-joliot-curie-frederic}**_ · _**{see-chadwick}**_ · _**{see-rutherford}**_
+
+The four physicists who produced the neutron data without recognizing what they had. Walther Bothe (1891-1957) and Herbert Becker in Germany; Irène Joliot-Curie (1897-1956) and Frédéric Joliot-Curie (1900-1958) in Paris.
+
+== History
+
+Bothe was a German experimentalist at the Physikalisch-Technische Reichsanstalt in Berlin, later director of the Max Planck Institute in Heidelberg. He shared the 1954 Nobel Prize for the coincidence method of detecting particles. Becker was his student and co-author.
+
+Irène was the daughter of Marie and Pierre Curie -- raised in the lab. Frédéric was Marie's assistant; he and Irène married in 1926 and worked as a single scientific unit, signing papers Joliot-Curie. They shared the 1935 Nobel Prize in Chemistry for the discovery of artificial radioactivity -- a separate achievement, the year after they missed the neutron.
+
+== How They Thought
+
+All four were excellent experimenters and conventional theorists. They saw what they expected to see. Bothe and Becker bombarded beryllium with alpha particles and detected an unusually penetrating, uncharged radiation. They called it gamma rays -- the only neutral radiation anyone had a name for at the time.
+
+The Joliot-Curies repeated the experiment in 1932 and showed that this "radiation" could knock protons out of paraffin wax with surprising energy. They published it as gamma rays anyway. The data was right; the interpretation locked them into the wrong particle.
+
+== What They Did
+
+They produced the experimental signature of the neutron -- twice, across two countries, over two years -- and missed it. When Chadwick read the Joliot-Curie paper in early 1932, he recognized immediately that gamma rays could not transfer that much momentum to a proton. He repeated their experiment at the Cavendish, measured the recoils, and announced the neutron within weeks.
+
+The lesson is in the gap between data and interpretation. Bothe-Becker had the rays. The Joliot-Curies had the proton recoils. Chadwick had Rutherford's twelve-year-old hypothesis ready in his head. The neutron belonged to whoever was looking for it.

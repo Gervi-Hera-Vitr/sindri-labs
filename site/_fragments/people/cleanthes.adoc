@@ -1,0 +1,21 @@
+---
+name: Cleanthes of Assos
+born: -330
+died: -230
+era: antiquity
+nationality: greek
+sciences: [philosophy, ethics]
+science: philosophy
+---
+= Cleanthes of Assos (330-230 BCE)
+ifndef::env-site[:imagesdir: ../../assets/images/people]
+ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
+:page-image: placeholder.jpg
+:page-image-credit: "change me"
+:all-people: link:/sindri-labs/people/[All People]
+
+image::{page-image}[{page-image-credit},width="500px",align="left"]
+
+_**↑ {all-people}**_
+
+_Stub -- body to be written._

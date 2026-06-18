@@ -1,0 +1,52 @@
+---
+header:
+  overlay_image: assets/images/banner-philosophy.jpg
+  overlay_filter: 0.2
+  actions:
+    - label: "American Literature"
+      url: /literature/#american-literature
+    - label: "Philosophy"
+      url: /philosophy/
+    - label: "Mathematics"
+      url: /mathematics/
+    - label: "Science"
+      url: /science/
+categories: [page]
+tags: [graded]
+---
+= Literature: Critical Reading {amp} Essay Craft
+rdd13r
+:page-author_profile: true
+:page-excerpt:
+:page-layout: single
+:page-permalink: /literature/
+:page-classes: wide
+:sectnums:
+:sectanchors:
+:sectlinks:
+:icons: font
+:tip-caption: 💡️
+:note-caption: ℹ️
+:important-caption: ❗
+:caution-caption: 🔥
+:warning-caption: ⚠️
+:toc: preamble
+:toclevels: 2
+:toc-title: Mímir Academy Literature
+:keywords: Mímir Academy Literature
+:imagesdir: /sindri-labs/assets/images
+ifdef::env-name[:relfilesuffix: .adoc]
+:essays: link:/sindri-labs/categories/literature/[Literature Essays,window=_blank]
+
+
+*Mímir Academy -- Independent Study* +
+*Student*: Captain +
+*Instructor*: {rdd13r}
+
+'''
+
+== American Literature
+
+* link:/sindri-labs/literature/2025/06/26/Essay-On-Harry-Potter-Series.html[A Critical Look at the _Harry Potter_ Series,window=_blank] -- J. K. Rowling
+* link:/sindri-labs/literature/2025/06/28/Essay-On-How-To-Kill-A-Mocking-Bird.html[An Essay on _To Kill a Mockingbird_,window=_blank] -- Harper Lee
+* link:/sindri-labs/literature/2025/07/01/Essay-On-Go-Set-A-Watchman.html[An Essay on _Go Set a Watchman_,window=_blank] -- Harper Lee

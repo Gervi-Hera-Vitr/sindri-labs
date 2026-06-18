@@ -1,0 +1,25 @@
+---
+name: Bernhard Riemann
+born: 1826
+died: 1866
+era: modern
+nationality: german
+sciences: [mathematics]
+science: mathematics
+related: [dedekind, hilbert, einstein]
+---
+= Bernhard Riemann (1826-1866)
+ifndef::env-site[:imagesdir: ../../assets/images/people]
+ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
+:page-image: placeholder.jpg
+:page-image-credit: "change me"
+:all-people: link:/sindri-labs/people/[All People]
+:see-dedekind: link:/sindri-labs/fragments/people/dedekind/[Richard Dedekind]
+:see-hilbert: link:/sindri-labs/fragments/people/hilbert/[David Hilbert]
+:see-einstein: link:/sindri-labs/fragments/people/einstein/[Albert Einstein]
+
+image::{page-image}[{page-image-credit},width="500px",align="left"]
+
+_**↑ {all-people}**_ | _**{see-dedekind}**_ · _**{see-hilbert}**_ · _**{see-einstein}**_
+
+_Stub -- body to be written._

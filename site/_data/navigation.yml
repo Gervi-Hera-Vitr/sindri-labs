@@ -8,11 +8,17 @@ main:
     url: /curriculum/
   - title: "Profile"
     url: /captain/
+  - title: "People of Civilization"
+    url: /people/
   - title: "Own Site Setup"
     url: /site-setup/
   - title: "Categories"
     url: /categories/
   - title: "Tags"
     url: /tags/
+  - title: "Fragments"
+    url: /fragments/
+  - title: "References"
+    url: /references/
   - title: "Projects (external)"
-    url: https://github.com/Gervi-Hera-Vitr/sindri-labs
+    url: https://github.com/orgs/Gervi-Hera-Vitr/projects/1

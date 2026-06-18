@@ -1,0 +1,22 @@
+---
+synopsis_of: democritus
+---
+= Democritus (c. 460-370 BCE) -- synopsis
+ifndef::env-site[:imagesdir: ../../assets/images/people]
+ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
+:page-image: placeholder.jpg
+:page-image-credit: "change me"
+:all-people: link:/sindri-labs/people/[All People]
+:see-democritus: link:/sindri-labs/fragments/people/democritus/[Democritus]
+
+image::{page-image}[{page-image-credit},width="500px",align="left"]
+
+_**↑ {all-people}**_ | _**{see-democritus}**_
+
+.This dude, like rocked!
+[%collapsible]
+====
+Leucippus's student. Abderan polymath, 70+ books (none survive complete), lived to ~90. Took atomism and made it a complete materialist worldview: atoms and void are the only real things; everything else -- color, taste, even thought -- is secondary, the effect of atoms colliding. Plato wanted his books burned. Aristotle disagreed, seriously. Two thousand years later we know he was right about the ontology and wrong about the indivisibility.
+====
+
+→ link:/sindri-labs/fragments/people/democritus/[Full life and thinking]

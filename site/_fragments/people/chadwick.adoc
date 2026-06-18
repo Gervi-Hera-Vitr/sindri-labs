@@ -1,0 +1,43 @@
+---
+name: James Chadwick
+born: 1891
+died: 1974
+era: modern
+nationality: english
+sciences: [physics]
+science: physics
+related: [rutherford, bothe-becker-joliot-curies, geiger-marsden]
+---
+= James Chadwick (1891-1974)
+ifndef::env-site[:imagesdir: ../../assets/images/people]
+ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
+:page-image: chadwick.jpg
+:page-image-credit: "Photograph by Los Alamos National Laboratory (circa 1945). Public domain via Wikimedia Commons."
+:all-people: link:/sindri-labs/people/[All People]
+:see-rutherford: link:/sindri-labs/fragments/people/rutherford/[Ernest Rutherford]
+:see-bothe-becker-joliot-curies: link:/sindri-labs/fragments/people/bothe-becker-joliot-curies/[Bothe Becker Joliot Curies]
+:see-geiger-marsden: link:/sindri-labs/fragments/people/geiger-marsden/[Geiger Marsden]
+
+image::{page-image}[{page-image-credit},width="500px",align="left"]
+
+_**↑ {all-people}**_ | _**{see-rutherford}**_ · _**{see-bothe-becker-joliot-curies}**_ · _**{see-geiger-marsden}**_
+
+English physicist who discovered the neutron. Trained under Rutherford, interned in Germany during World War I, later led the British scientific contribution to the Manhattan Project.
+
+== History
+
+Born in Bollington, Cheshire. Studied at Manchester under Rutherford, then moved to Berlin in 1914 to work with Hans Geiger. He was caught in Germany when war broke out and spent four years interned at Ruhleben, a converted racetrack outside Berlin. He set up a small lab in the camp using makeshift equipment and kept doing physics.
+
+After the war he followed Rutherford to the Cavendish Laboratory in Cambridge as assistant director. He was there when Rutherford predicted the neutron in 1920, and he carried the hypothesis with him for the next twelve years. Won the 1935 Nobel Prize in Physics. Headed the British mission to the Manhattan Project from 1943; knighted in 1945.
+
+== How He Thought
+
+Patient, exact, unflashy. Chadwick was the kind of experimentalist who gets the answer because he refuses to accept a fuzzy one. The neutron eluded other groups not because the apparatus was inadequate but because the question wasn't being asked.
+
+When the Joliot-Curies published their paraffin-recoil data in early 1932, Chadwick read it in a single morning and knew. Gamma rays cannot transfer that much momentum to a proton -- the kinematics simply doesn't allow it. The radiation had to be a massive neutral particle. Rutherford's prediction.
+
+== What He Did
+
+Within weeks he repeated the beryllium experiments at the Cavendish, but with a critical addition: he measured the recoil energies of multiple target nuclei -- hydrogen, nitrogen, others -- and applied conservation of energy and momentum to back out the mass of the incoming particle. The math gave a neutral particle of mass close to that of the proton (~1.008 amu).
+
+He published "Possible Existence of a Neutron" in _Nature_ in February 1932 and the full paper "The Existence of a Neutron" in _Proceedings of the Royal Society A_ in May. The atom's third basic part. Without the neutron there is no nuclear physics, no fission, no Manhattan Project, no understanding of isotopes.

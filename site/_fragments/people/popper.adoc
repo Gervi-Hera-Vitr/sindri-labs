@@ -1,0 +1,25 @@
+---
+name: Karl Popper
+born: 1902
+died: 1994
+era: contemporary
+nationality: austrian-british
+sciences: [philosophy]
+science: philosophy
+related: [russell, godel, tarski]
+---
+= Karl Popper (1902-1994)
+ifndef::env-site[:imagesdir: ../../assets/images/people]
+ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
+:page-image: placeholder.jpg
+:page-image-credit: "change me"
+:all-people: link:/sindri-labs/people/[All People]
+:see-russell: link:/sindri-labs/fragments/people/russell/[Bertrand Russell]
+:see-godel: link:/sindri-labs/fragments/people/godel/[Kurt Gödel]
+:see-tarski: link:/sindri-labs/fragments/people/tarski/[Alfred Tarski]
+
+image::{page-image}[{page-image-credit},width="500px",align="left"]
+
+_**↑ {all-people}**_ | _**{see-russell}**_ · _**{see-godel}**_ · _**{see-tarski}**_
+
+_Stub -- body to be written._

@@ -58,7 +58,7 @@ But he *could not* doubt:
 *He was thinking.*
 
 *Conclusion:*
-Cogito ergo sum — “I think, therefore I am.”
+Cogito ergo sum -- “I think, therefore I am.”
 Thus the mind (thinking substance) is separate from the physical body.
 
 == 4. Evidence of Dualism in Common Sense
@@ -91,7 +91,7 @@ Widespread beliefs:
 
 Nearly all cultures believe the self survives bodily death.
 Survey results:
-96% of Christians — “I’m going to Heaven.”
+96% of Christians -- “I’m going to Heaven.”
 Even many non-religious people believe the same.
 
 == 5. Scientific Consensus Against Dualism
@@ -129,7 +129,7 @@ No self independent of the brain.
 
 === All-or-Nothing Firing
 
-* Neurons fire or they don’t — no halfway.
+* Neurons fire or they don’t -- no halfway.
 * Intensity encoded by:
 ** Number of neurons firing
 ** Firing frequency
@@ -221,7 +221,7 @@ Electrical stimulation of cortex produced movements, sensations, colors, sounds.
 
 1. Topographical
 2. Size reflects control/precision, not body size
-3. Only a fraction of cortex — rest supports higher reasoning
+3. Only a fraction of cortex -- rest supports higher reasoning
 
 == 14. Methods for Studying the Brain
 

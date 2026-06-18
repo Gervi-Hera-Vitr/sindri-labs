@@ -1,0 +1,21 @@
+---
+name: Apollonius of Perga
+born: -240
+died: -190
+era: antiquity
+nationality: greek
+sciences: [mathematics]
+science: mathematics
+---
+= Apollonius of Perga (240-190 BCE)
+ifndef::env-site[:imagesdir: ../../assets/images/people]
+ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
+:page-image: placeholder.jpg
+:page-image-credit: "change me"
+:all-people: link:/sindri-labs/people/[All People]
+
+image::{page-image}[{page-image-credit},width="500px",align="left"]
+
+_**↑ {all-people}**_
+
+_Stub -- body to be written._

@@ -9,7 +9,7 @@ rdd13r
 :page-author_profile: false
 :page-excerpt: This bulletin contains all classes currently selected for the course of study. The scope in this manifest is a single semester currently active. Relation to the review workload, which is present in every semester, is included at the end of the manifest. Acceptance criteria for each field of study is listed with its entry. This page is updated to contains the current workload with each new semester and removed when not in an active semester. Active semesters includes interim and hiatus semesters. Internship semesters are considered inactive semesters.
 :page-layout: single
-:page-permalink: /semester/
+:page-permalink: /semester-4-2025/
 :page-classes: wide
 :sectnums:
 :sectanchors:
@@ -66,7 +66,7 @@ Neuroscience: {neuro-1}.
 
 
 _Note: This ties into a heritability of IQ, a controversial genetic study we'd extensively covered in the past,
-that explains genetic reshuffle and why two brightest people will have the most average and unremarkable brood.
+that explains genetic reshuffle and why the two brightest people will have the most average and unremarkable brood.
 Datasets are available to you at Duke University Research Datalake.
 More importantly, why one gifted parent and one average parent produce the best genius offspring 25% of the time.
 Especially prominent in humans when the gifted parent is the mother. Semesters 5-8 cover genetic regression in
@@ -92,12 +92,12 @@ produced by your homeschool instructor.
 - Mathematics: M Skanavi pre-calculus problems;
 - Mathematics: Fundamentals of Analysis review (3 fundamental theorems problems);
 - Physics: Newtonian applications to Analysis problems;
-- Chemistry: Periodic table elemental properties review (element class per week).
+- Chemistry: Periodic table elemental properties review (an element class per week).
 
 == Internship
 
-Previous semester was real business sales and marketing. No internship this semester.
+The previous semester was real business sales and marketing. No internship this semester.
 
 == Fine Motor Skills and Creativity, Saturday; Load 5-10%
 
-Fine woodworking. New project for Zoey's 3D puzzle toys.
+Fine woodworking. New project for ZueZue's 3D puzzle toys.

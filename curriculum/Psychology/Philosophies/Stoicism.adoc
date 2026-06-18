@@ -22,29 +22,29 @@ ifdef::env-name[:relfilesuffix: .adoc]
 
 == What is Stoicism?
 
-Stoicism is a school of Hellenistic philosophy that flourished in ancient Greece and Rome. The Stoics believed that the practice of virtue alone is enough to achieve *eudaimonia* — a well-lived and fulfilled life.
+Stoicism is a school of Hellenistic philosophy that flourished in ancient Greece and Rome. The Stoics believed that the practice of virtue alone is enough to achieve *eudaimonia* -- a well-lived and fulfilled life.
 
 At its core, Stoicism teaches the development of self-control and inner strength as a means of overcoming destructive emotions. According to this philosophy, becoming a clear and unbiased thinker allows one to understand and align with the rational structure of the universe, called the *logos*.
 
 The Stoics identified the path to *eudaimonia* with the daily practice of four cardinal virtues:
 
-* *Wisdom* — the ability to differentiate between what is within our control and what is not, and to choose our response accordingly. This Can Also be Seen as being able to Have Awareness and how to move through situations with clarity.
-* *Courage* — summed up by two words: “persist and resist.”
-* *Temperance* — exercising moderation, doing more with less, and avoiding excess.
-* *Justice* — treating all people fairly because we were born for one another.
+* *Wisdom* -- the ability to differentiate between what is within our control and what is not, and to choose our response accordingly. This Can Also be Seen as being able to Have Awareness and how to move through situations with clarity.
+* *Courage* -- summed up by two words: “persist and resist.”
+* *Temperance* -- exercising moderation, doing more with less, and avoiding excess.
+* *Justice* -- treating all people fairly because we were born for one another.
 
 == How Stoicism Came to Be
 
-Stoicism was founded in the Agora of Athens by Zeno of Citium around 300 BC. According to tradition, Zeno was a wealthy trader whose ship sank on a voyage, taking all of his cargo with it. In a moment of total loss — one beyond his control — Zeno refused to collapse into despair. Instead, he went to a library in Athens, read the works of Socrates and other philosophers, and began developing what would become *Stoicism*.
+Stoicism was founded in the Agora of Athens by Zeno of Citium around 300 BC. According to tradition, Zeno was a wealthy trader whose ship sank on a voyage, taking all of his cargo with it. In a moment of total loss -- one beyond his control -- Zeno refused to collapse into despair. Instead, he went to a library in Athens, read the works of Socrates and other philosophers, and began developing what would become *Stoicism*.
 
 TIP: *"One small change lasts an eternity, and one small reframing of your mindset can cascade into larger and more impactful changes later down the line."*
 
 == The Principles of Stoicism
 
-Stoicism is more than an ancient philosophy — it’s a timeless mindset for navigating life. It teaches:
+Stoicism is more than an ancient philosophy -- it’s a timeless mindset for navigating life. It teaches:
 
 - Accepting reality without complaint.
-- Focusing only on what we can control — our thoughts, emotions, and actions.
+- Focusing only on what we can control -- our thoughts, emotions, and actions.
 - Preparing for adversity with practices like *voluntary discomfort* (e.g., taking cold showers or eating simply to build gratitude and mental resilience).
 - Reframing misfortune as opportunity to practice virtue and grow stronger.
 
@@ -69,7 +69,7 @@ Seneca wrote: _“When the light has been removed and my wife has fallen silent.
 
 . *Negative Visualization (Premeditatio Malorum)* +
 Purpose: Strengthen resilience by imagining worst-case scenarios. +
-Practice: Briefly imagine loss, failure, or pain — not to fear them, but to reduce their emotional power. +
+Practice: Briefly imagine loss, failure, or pain -- not to fear them, but to reduce their emotional power. +
 Benefits: Lowers anxiety and increases gratitude.
 
 . *Practicing Silence and Restraint* +
@@ -123,7 +123,7 @@ Marcus Aurelius said: _“Waste no more time arguing what a good man should be. 
 
 Stoicism offers a practical response to suffering and uncertainty in life. It teaches us that it’s not events that disturb us, but our judgments about them. For example, we don’t get sad just because bad things happen, but because *unexpected* bad things happen. Expecting misfortune makes it easier to endure.
 
-TIP: *Stoicism teaches us to imagine the worst-case scenario — and be okay with it.*
+TIP: *Stoicism teaches us to imagine the worst-case scenario -- and be okay with it.*
 
 This mindset doesn’t make you cold or emotionless. On the contrary, it helps you manage emotions with clarity and calm. That’s why even today, leaders and everyday people turn to Stoicism during crisis, hardship, or anxiety.
 
@@ -131,7 +131,7 @@ This mindset doesn’t make you cold or emotionless. On the contrary, it helps y
 
 Unlike many ancient philosophies, Stoicism was inclusive. Its teachings were shared openly, not locked in elite schools. Everyone from slaves (Epictetus) to emperors (Marcus Aurelius) practiced Stoicism.
 
-The Stoics even coined the word *cosmopolitan* — “citizen of the world” — and advocated for unity and fairness beyond class or gender.
+The Stoics even coined the word *cosmopolitan* -- “citizen of the world” -- and advocated for unity and fairness beyond class or gender.
 
 NOTE: Musonius Rufus, a Stoic teacher, wrote: +
 *“It is not men alone who possess eagerness and a natural inclination towards virtue, but women also.”*
@@ -144,14 +144,14 @@ Stoicism's relevance today is stronger than ever:
 - *Mental resilience*: Exercises like *voluntary discomfort* help build grit.
 - *Self-worth*: Stoicism warns against chasing happiness through material success or external validation.
 
-WARNING: *If your happiness depends on things outside your control — money, status, relationships — you're setting yourself up for disappointment.*
+WARNING: *If your happiness depends on things outside your control -- money, status, relationships -- you're setting yourself up for disappointment.*
 
 Instead, Stoicism urges you to root your identity and joy in what you *do*, not what you *get*.
 
 == Final Thought: Reframing Your Life
 
-Think of a man denied a promotion. A Stoic doesn’t judge himself by the decision of his boss, but by the quality of the work he delivered. His value remains intact — the outcome was out of his control. As long as he did his best, he has succeeded.
+Think of a man denied a promotion. A Stoic doesn’t judge himself by the decision of his boss, but by the quality of the work he delivered. His value remains intact -- the outcome was out of his control. As long as he did his best, he has succeeded.
 
-TIP: *“Between stimulus and response, there is a space. In that space is our power to choose our response.”* — Viktor Frankl
+TIP: *“Between stimulus and response, there is a space. In that space is our power to choose our response.”* -- Viktor Frankl
 
-Just as Zeno did when his ship sank, we can learn to accept life’s storms and sail through them with dignity. Even if the ship sinks, we can take comfort in having lived well — that is the way of the Stoic.
+Just as Zeno did when his ship sank, we can learn to accept life’s storms and sail through them with dignity. Even if the ship sinks, we can take comfort in having lived well -- that is the way of the Stoic.

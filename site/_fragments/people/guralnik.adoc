@@ -1,0 +1,25 @@
+---
+name: Gerald Guralnik
+born: 1936
+died: 2014
+era: contemporary
+nationality: american
+sciences: [physics]
+science: physics
+related: [hagen, kibble, higgs]
+---
+= Gerald Guralnik (1936-2014)
+ifndef::env-site[:imagesdir: ../../assets/images/people]
+ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
+:page-image: placeholder.jpg
+:page-image-credit: "change me"
+:all-people: link:/sindri-labs/people/[All People]
+:see-hagen: link:/sindri-labs/fragments/people/hagen/[C.R. Hagen]
+:see-kibble: link:/sindri-labs/fragments/people/kibble/[Tom Kibble]
+:see-higgs: link:/sindri-labs/fragments/people/higgs/[Peter Higgs]
+
+image::{page-image}[{page-image-credit},width="500px",align="left"]
+
+_**↑ {all-people}**_ | _**{see-hagen}**_ · _**{see-kibble}**_ · _**{see-higgs}**_
+
+// FixMe: Captain

@@ -1,0 +1,182 @@
+---
+header:
+  overlay_image: assets/images/banner-mathematics.jpg
+  overlay_filter: 0.2
+  actions:
+    - label: "Philosophy"
+      url: /philosophy/
+    - label: "Literature"
+      url: /literature/
+    - label: "Mathematics"
+      url: /mathematics/
+    - label: "Science"
+      url: /science/
+categories: [page]
+tags: [graded]
+---
+= Philosophy: Greek and Stoic Philosophers
+rdd13r
+:page-author_profile: true
+:page-excerpt:
+:page-layout: single
+:page-permalink: /philosophers/
+:page-classes: wide
+:sectnums:
+:sectanchors:
+:sectlinks:
+:icons: font
+:tip-caption: 💡️
+:note-caption: ℹ️
+:important-caption: ❗
+:caution-caption: 🔥
+:warning-caption: ⚠️
+:toc: preamble
+:toclevels: 2
+:toc-title: Mímir Academy Giants
+:keywords: Mímir Academy Philosophers
+:imagesdir: /sindri-labs/assets/images
+ifdef::env-name[:relfilesuffix: .adoc]
+:see-anaxagoras: link:/sindri-labs/fragments/people/anaxagoras/[Anaxagoras of Clazomenae]
+:see-anaximander: link:/sindri-labs/fragments/people/anaximander/[Anaximander of Miletus]
+:see-anaximenes: link:/sindri-labs/fragments/people/anaximenes/[Anaximenes of Miletus]
+:see-apollonius: link:/sindri-labs/fragments/people/apollonius/[Apollonius of Perga]
+:see-arcesilaus: link:/sindri-labs/fragments/people/arcesilaus/[Arcesilaus of Pitane]
+:see-archimedes: link:/sindri-labs/fragments/people/archimedes/[Archimedes of Syracuse]
+:see-aristarchus: link:/sindri-labs/fragments/people/aristarchus/[Aristarchus of Samos]
+:see-aristotle: link:/sindri-labs/fragments/people/aristotle/[Aristotle of Stagira]
+:see-carneades: link:/sindri-labs/fragments/people/carneades/[Carneades of Cyrene]
+:see-chrysippus: link:/sindri-labs/fragments/people/chrysippus/[Chrysippus of Soloi]
+:see-cleanthes: link:/sindri-labs/fragments/people/cleanthes/[Cleanthes of Assos]
+:see-democritus: link:/sindri-labs/fragments/people/democritus/[Democritus]
+:see-dicaearchus: link:/sindri-labs/fragments/people/dicaearchus/[Dicaearchus of Messana]
+:see-empedocles: link:/sindri-labs/fragments/people/empedocles/[Empedocles of Akragas]
+:see-epictetus: link:/sindri-labs/fragments/people/epictetus/[Epictetus of Hierapolis]
+:see-epicurus: link:/sindri-labs/fragments/people/epicurus/[Epicurus of Samos]
+:see-eratosthenes: link:/sindri-labs/fragments/people/eratosthenes/[Eratosthenes of Cyrene]
+:see-euclid: link:/sindri-labs/fragments/people/euclid/[Euclid of Alexandria]
+:see-eudoxus: link:/sindri-labs/fragments/people/eudoxus/[Eudoxus of Cnidus]
+:see-heraclitus: link:/sindri-labs/fragments/people/heraclitus/[Heraclitus of Ephesus]
+:see-hipparchus: link:/sindri-labs/fragments/people/hipparchus/[Hipparchus of Nicaea]
+:see-isocrates: link:/sindri-labs/fragments/people/isocrates/[Isocrates of Athens]
+:see-leucippus: link:/sindri-labs/fragments/people/leucippus/[Leucippus]
+:see-marcus-aurelius: link:/sindri-labs/fragments/people/marcus-aurelius/[Marcus Aurelius of Rome]
+:see-menaechmus: link:/sindri-labs/fragments/people/menaechmus/[Menaechmus of Alopeconnesus]
+:see-musonius-rufus: link:/sindri-labs/fragments/people/musonius-rufus/[Musonius Rufus of Volsinii]
+:see-parmenides: link:/sindri-labs/fragments/people/parmenides/[Parmenides of Elea]
+:see-plato: link:/sindri-labs/fragments/people/plato/[Plato of Athens]
+:see-pyrrho: link:/sindri-labs/fragments/people/pyrrho/[Pyrrho of Elis]
+:see-pythagoras: link:/sindri-labs/fragments/people/pythagoras/[Pythagoras of Samos]
+:see-seneca: link:/sindri-labs/fragments/people/seneca/[Seneca of Corduba]
+:see-socrates: link:/sindri-labs/fragments/people/socrates/[Socrates of Athens]
+:see-thales: link:/sindri-labs/fragments/people/thales/[Thales of Miletus]
+:see-theophrastus: link:/sindri-labs/fragments/people/theophrastus/[Theophrastus of Eresos]
+:see-xenophanes: link:/sindri-labs/fragments/people/xenophanes/[Xenophanes of Colophon]
+:see-xenophon: link:/sindri-labs/fragments/people/xenophon/[Xenophon of Athens]
+:see-zeno-of-citium: link:/sindri-labs/fragments/people/zeno-of-citium/[Zeno of Citium]
+:see-zeno-of-elea: link:/sindri-labs/fragments/people/zeno-of-elea/[Zeno of Elea]
+
+[#philosophers]
+image::philosophers.png[Philosophers,float="right",align="center"]
+
+{nbsp}
+
+== Pre-Socratics (Natural Philosophers)
+
+* 624–546 BCE: #*Thales of Miletus*# -- Water as a fundamental substance; founder of Greek science; Milesian school.
+* 610–546 BCE: *Anaximander of Miletus* -- Introduced the "apeiron" (infinite or boundless); student of Thales.
+* 586–526 BCE: *Anaximenes of Miletus* -- Air as the primary substance; refined Thales’ ideas.
+* 570–495 BCE: #*Pythagoras of Samos*# -- Mathematical harmony of cosmos; number theory; early influence on Plato.
+* 570–478 BCE: *Xenophanes of Colophon* -- Critic of anthropomorphic gods; early monotheistic themes.
+* 535–475 BCE: *Heraclitus of Ephesus* -- "Everything flows" (*panta rhei*); *logos*; fire as a base element.
+* 515–450 BCE: *Parmenides of Elea* -- "Being is"; change is illusion; foundational metaphysics.
+* 490–430 BCE: *Zeno of Elea* -- Paradoxes of motion and plurality; defender of Parmenidean logic.
+* 494–434 BCE: *Empedocles of Akragas* -- Four classical elements; cosmic forces of Love and Strife.
+* 500–428 BCE: *Anaxagoras of Clazomenae* -- *Nous* (Mind) as organizing principle of cosmos; mentor to Pericles.
+* 5th c. BCE: *Leucippus of Miletus* -- Co-founder of atomism with Democritus.
+* 460–370 BCE: *Democritus of Abdera* -- Atomic theory; matter as indivisible particles in the void.
+
+== Classical Period (Socratic and Scientific)
+
+* 470–399 BCE: #*Socrates of Athens*# -- Dialogical method; ethics and virtue; “Know thyself”; left no writings.
+* 430–354 BCE: *Xenophon of Athens* -- Student of Socrates; practical Socratic accounts in _Memorabilia_.
+* 428–348 BCE: #*Plato of Athens*# -- Theory of Forms; _The Republic_; founded the Academy.
+* 436–338 BCE: *Isocrates of Athens* -- Orator and educator; rival educational vision to Plato’s.
+* 384–322 BCE: #*Aristotle of Stagira*# -- Logic, biology, metaphysics; founded the Lyceum.
+* 371–287 BCE: *Theophrastus of Eresos* -- Aristotle’s successor; work in botany and logic.
+* 387–312 BCE: *Menaechmus of Alopeconnesus* -- Conic sections; influence on Apollonius.
+* 370–285 BCE: *Eudoxus of Cnidus* -- Theory of proportion; model of planetary motion.
+* 360–290 BCE: *Dicaearchus of Messana* -- Geographer and student of Aristotle.
+* 330–275 BCE: #*Euclid of Alexandria*# -- Father of geometry; _Elements_ as foundation of axiomatic method.
+* 310–230 BCE: *Aristarchus of Samos* -- Heliocentric theory; early astronomical model.
+* 287–212 BCE: #*Archimedes of Syracuse*# -- Mechanics, hydrostatics, geometry; inventor and physicist.
+* 276–194 BCE: *Eratosthenes of Cyrene* -- Calculated Earth's circumference; geography and chronology.
+* 240–190 BCE: *Apollonius of Perga* -- Formalized conics; advanced Greek geometry.
+* 190–120 BCE: *Hipparchus of Nicaea* -- Trigonometry; star catalog; precession of equinoxes.
+
+== Hellenistic Period (Stoic and Skeptical Schools)
+
+* 334–262 BCE: #*Zeno of Citium*# -- Founder of Stoicism; emphasized virtue and rational living.
+* 330–230 BCE: *Cleanthes of Assos* -- Second head of the Stoa; author of _Hymn to Zeus_.
+* 280–206 BCE: *Chrysippus of Soloi* -- Codified Stoic logic, ethics, and physics; the most prolific Stoic.
+* 341–270 BCE: *Epicurus of Samos* -- Founded Epicureanism; pleasure through ataraxia (tranquility).
+* 360–270 BCE: *Pyrrho of Elis* -- Founder of Pyrrhonian Skepticism; suspended judgment (*epoché*).
+* 316–241 BCE: *Arcesilaus of Pitane* -- Turned Plato’s Academy toward Skepticism.
+* 214–129 BCE: *Carneades of Cyrene* -- Argued both sides of issues; Academic Skeptic.
+
+== Roman Stoics
+
+* 4 BCE – 65 CE: #*Seneca of Corduba*# -- Statesman and dramatist; applied Stoicism to practical life.
+* 30–100 CE: *Musonius Rufus of Volsinii* -- Teacher of Epictetus; emphasized equality and endurance.
+* 50–135 CE: #*Epictetus of Hierapolis*# -- Former slave; taught inner freedom through reason.
+* 121–180 CE: #*Marcus Aurelius of Rome*# -- Roman emperor; _Meditations_ on duty, virtue, and resilience.
+
+== Legacy Summary
+
+* *Pre-Socratics:* Introduced rational inquiry into nature and metaphysical beings.
+* *Socratics:* _Ethics and dialectical methods as a foundation for personal and civic virtue._
+* *Plato → Aristotle:* _Core of Western logic, metaphysics, political theory, and natural science._
+* *Hellenistic Science:* _Formal geometry, astronomy, physics, medicine, and geography._
+* *Stoics:* _Lasting influence on ethics, modern CBT, self-mastery, and resilience philosophy._
+* *Skeptics & Epicureans:* _Alternative Hellenistic schools emphasizing doubt, tranquility, and pleasure._
+
+// Legends-mentioned backlink section -- managed by .tmp/footer-backlinks.py
+== Legends mentioned
+
+- {see-anaxagoras}
+- {see-anaximander}
+- {see-anaximenes}
+- {see-apollonius}
+- {see-arcesilaus}
+- {see-archimedes}
+- {see-aristarchus}
+- {see-aristotle}
+- {see-carneades}
+- {see-chrysippus}
+- {see-cleanthes}
+- {see-democritus}
+- {see-dicaearchus}
+- {see-empedocles}
+- {see-epictetus}
+- {see-epicurus}
+- {see-eratosthenes}
+- {see-euclid}
+- {see-eudoxus}
+- {see-heraclitus}
+- {see-hipparchus}
+- {see-isocrates}
+- {see-leucippus}
+- {see-marcus-aurelius}
+- {see-menaechmus}
+- {see-musonius-rufus}
+- {see-parmenides}
+- {see-plato}
+- {see-pyrrho}
+- {see-pythagoras}
+- {see-seneca}
+- {see-socrates}
+- {see-thales}
+- {see-theophrastus}
+- {see-xenophanes}
+- {see-xenophon}
+- {see-zeno-of-citium}
+- {see-zeno-of-elea}

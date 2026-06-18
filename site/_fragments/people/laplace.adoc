@@ -1,0 +1,24 @@
+---
+name: Pierre-Simon Laplace
+born: 1749
+died: 1827
+era: early-modern
+nationality: french
+sciences: [mathematics, astronomy, probability]
+science: mathematics
+related: [newton, bayes]
+---
+= Pierre-Simon Laplace (1749-1827)
+ifndef::env-site[:imagesdir: ../../assets/images/people]
+ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
+:page-image: placeholder.jpg
+:page-image-credit: "change me"
+:all-people: link:/sindri-labs/people/[All People]
+:see-newton: link:/sindri-labs/fragments/people/newton/[Isaac Newton]
+:see-bayes: link:/sindri-labs/fragments/people/bayes/[Thomas Bayes]
+
+image::{page-image}[{page-image-credit},width="500px",align="left"]
+
+_**↑ {all-people}**_ | _**{see-newton}**_ · _**{see-bayes}**_
+
+_Stub -- body to be written._

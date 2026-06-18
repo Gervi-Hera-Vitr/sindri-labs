@@ -737,7 +737,7 @@ Why Trunk-Based Development or Forever Branches? -- ALL of the above::
 == Final Grade
 
 - ✅ Graded assignment https://github.com/rdd13r[by `rdd13r`] on March 7th 2025.
-- ✅ Final grade is 100%. (A+) at Mimir Academy.
+- ✅ Final grade is 100%. (A+) at Mímir Academy.
 
 == References
 

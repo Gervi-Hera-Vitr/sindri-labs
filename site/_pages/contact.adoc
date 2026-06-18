@@ -11,21 +11,23 @@ zuezue
 :page-layout: single
 :page-permalink: /contact/
 :page-classes: wide
+:issues: https://github.com/Gervi-Hera-Vitr/sindri-labs/issues[Issues,window=_blank]
+:discussions: https://github.com/orgs/Gervi-Hera-Vitr/discussions[Discussions,window=_blank]
 
 To get in touch, please open an issue in our repository:
 
--> https://github.com/Gervi-Hera-Vitr/sindri-labs/issues
+-> {issues}
 
 We welcome questions, dialogue, and collaboration.
 
-Please note, that one of the easiest methods to open an issue is in *_discussions_*:
+Please note that one of the easiest methods to open an issue is in *_discussions_*:
 
--> https://github.com/orgs/Gervi-Hera-Vitr/discussions
+-> {discussions}
 
-All school organization discussions are linked to the labs repository.
+All school organization discussions are linked to the lab's repository.
 
 [.lead]
 *We love to collaborate by exchanging ideas through assets.*
 
 .Our door is always open on GitHub Discussions.
-image::/sindri-labs/assets/images/contact-image.jpg[Dorway to collaboration on gitHub,width="80%"]
+image::/sindri-labs/assets/images/contact-image.jpg[Doorway to collaboration on GitHub,width="80%"]
