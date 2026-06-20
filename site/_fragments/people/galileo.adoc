@@ -11,14 +11,35 @@ related: [newton, gassendi]
 = Galileo Galilei (1564-1642)
 ifndef::env-site[:imagesdir: ../../assets/images/people]
 ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
-:page-image: placeholder.jpg
-:page-image-credit: "change me"
+:page-image: galileo.jpg
+:page-image-credit: "Portrait of Galileo Galilei (1636) by Justus Sustermans; National Maritime Museum, Greenwich (BHC2700). Public domain via Wikimedia Commons."
 :all-people: link:/sindri-labs/people/[All People]
+:featured-essay: link:/sindri-labs/school/2026/05/08/On-Particle.html[On Particle]
+:featured-companion: link:/sindri-labs/school/2026/05/08/Important-People-In-Particle-Discovery.html[Important People]
 :see-newton: link:/sindri-labs/fragments/people/newton/[Isaac Newton]
 :see-gassendi: link:/sindri-labs/fragments/people/gassendi/[Pierre Gassendi]
 
 image::{page-image}[{page-image-credit},width="500px",align="left"]
 
-_**↑ {all-people}**_ | _**{see-newton}**_ · _**{see-gassendi}**_
+_**↑ {all-people}**_ | _**Featured in:**_ _**{featured-essay}**_ · _**{featured-companion}**_ | _**{see-newton}**_ · _**{see-gassendi}**_
 
-_Stub -- body to be written._
+== Slop
+
+The man who made matter mathematical -- and whose trial made atoms dangerous. Galileo held that the book of nature "is written in the language of mathematics,"
+and in _The Assayer_ (1623) he treated matter as tiny corpuscles, arguing that tastes, odors, and colors live in the senses of the observer, not in the particles themselves.
+His condemnation by the Inquisition in 1633 is the political backdrop of this whole story: afterward, defending atomism in Catholic Europe was dangerous,
+and it took Gassendi's careful theological framing to make particles safe again for Newton's generation.
+
+.Primary and secondary qualities:
+[%collapsible]
+====
+Galileo separated the qualities that are really in the corpuscles -- size, shape, position, motion -- from the ones that exist only in the perceiver -- taste, color, smell, heat.
+Heat, he argued, is not in the fire; it is what fast, fine particles do to our bodies. That is the same cut Democritus had made "by convention" two thousand years earlier,
+and the same one John Locke would formalize sixty years later. Galileo put it in the language of mathematics and experiment, which is part of why it carried.
+====
+
+{nbsp}
+
+== ToDo: Captain:
+
+https://github.com/Gervi-Hera-Vitr/sindri-labs/issues/614[#614 Galileo Galilei,window=_blank].

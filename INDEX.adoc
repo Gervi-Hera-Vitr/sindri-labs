@@ -11,3 +11,17 @@ hero line, one paragraph (the swerve {plus} the Lucretius->Gassendi line), `*Ass
 *Verified* -- `jekyll build` clean, all links resolve, image asset copied, no leaked tokens. NOT committed -- yours.
 
 Clear this section at merge.
+
+== Galileo Galilei (child of Epic #611) -- DONE, ready for your review
+
+*Issue #614* -- "Galileo Galilei": labels `documentation`+`enhancement`, native sub-issue of #611, project "Learning Trails" / Backlog. Verified by read-back, not mutation echoes.
+Body is my short draft -- and it *leads with the open question you asked for*: why was a monumental figure left out of the companion (he's only Gassendi's friend at L87)? The done-when gates on the team answering that first.
+
+*`galileo.adoc` seeded* -- Sustermans 1636 portrait (public domain, NMM Greenwich, 500x600), `Featured in:` breadcrumb (both Particle posts) {plus} see-newton/gassendi,
+hero line, one paragraph (corpuscular matter + the 1633-trial backdrop), `[%collapsible]` primary/secondary qualities, `== ToDo: Captain` linking #614.
+
+*Where Galileo is named but not yet linked* (grep, for the issue / your call): `On-Particle.adoc:80`, `Important-People...:94`, `gassendi.adoc:30,:48`, `archimedes.adoc:38`. Not wired by me -- awaiting your word.
+
+*Verified* -- live server (PID 38480) regenerated on save; image, collapsible, #614 link present; no leaked `+{attrs}+`. NOT committed -- yours.
+
+Clear this section at merge.
