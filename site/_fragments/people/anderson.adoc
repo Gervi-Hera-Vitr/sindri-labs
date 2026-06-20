@@ -14,12 +14,13 @@ ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
 :page-image: anderson.jpg
 :page-image-credit: "Portrait of Carl David Anderson. Public domain via Wikimedia Commons."
 :all-people: link:/sindri-labs/people/[All People]
+:featured-companion: link:/sindri-labs/school/2026/05/08/Important-People-In-Particle-Discovery.html[Important People]
 :see-dirac: link:/sindri-labs/fragments/people/dirac/[Paul Dirac]
 :see-gell-mann: link:/sindri-labs/fragments/people/gell-mann/[Murray Gell-Mann]
 
 image::{page-image}[{page-image-credit},width="500px",align="left"]
 
-_**↑ {all-people}**_ | _**{see-dirac}**_ · _**{see-gell-mann}**_
+_**↑ {all-people}**_ | _**Featured in:**_ _**{featured-companion}**_ | _**{see-dirac}**_ · _**{see-gell-mann}**_
 
 American experimental physicist. Found the positron in cosmic ray photographs at age 27 and the muon a few years later. Spent his entire career at Caltech.
 

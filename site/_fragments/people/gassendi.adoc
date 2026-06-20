@@ -14,12 +14,14 @@ ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
 :page-image: gassendi.jpg
 :page-image-credit: "Portrait by Louis-Édouard Rioult (circa 1846-1847). Public domain via Wikimedia Commons."
 :all-people: link:/sindri-labs/people/[All People]
+:featured-essay: link:/sindri-labs/school/2026/05/08/On-Particle.html[On Particle]
+:featured-companion: link:/sindri-labs/school/2026/05/08/Important-People-In-Particle-Discovery.html[Important People]
 :see-democritus: link:/sindri-labs/fragments/people/democritus/[Democritus]
 :see-newton: link:/sindri-labs/fragments/people/newton/[Isaac Newton]
 
 image::{page-image}[{page-image-credit},width="500px",align="left"]
 
-_**↑ {all-people}**_ | _**{see-democritus}**_ · _**{see-newton}**_
+_**↑ {all-people}**_ | _**Featured in:**_ _**{featured-essay}**_ · _**{featured-companion}**_ | _**{see-democritus}**_ · _**{see-newton}**_
 
 French Catholic priest, philosopher, and astronomer. The single most important figure in bringing atomism back to Europe -- and almost nobody outside the history knows his name.
 

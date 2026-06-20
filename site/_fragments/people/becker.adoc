@@ -12,11 +12,12 @@ ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
 :page-image: placeholder.jpg
 :page-image-credit: "change me"
 :all-people: link:/sindri-labs/people/[All People]
+:featured-companion: link:/sindri-labs/school/2026/05/08/Important-People-In-Particle-Discovery.html[Important People]
 :see-bothe: link:/sindri-labs/fragments/people/bothe/[Walther Bothe]
 :see-joliot-curie-irene: link:/sindri-labs/fragments/people/joliot-curie-irene/[Irène Joliot-Curie]
 
 image::{page-image}[{page-image-credit},width="500px",align="left"]
 
-_**↑ {all-people}**_ | _**{see-bothe}**_ · _**{see-joliot-curie-irene}**_
+_**↑ {all-people}**_ | _**Featured in:**_ _**{featured-companion}**_ | _**{see-bothe}**_ · _**{see-joliot-curie-irene}**_
 
 // FixMe: Captain

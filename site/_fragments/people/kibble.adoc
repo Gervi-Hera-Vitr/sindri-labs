@@ -14,12 +14,13 @@ ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
 :page-image: placeholder.jpg
 :page-image-credit: "change me"
 :all-people: link:/sindri-labs/people/[All People]
+:featured-companion: link:/sindri-labs/school/2026/05/08/Important-People-In-Particle-Discovery.html[Important People]
 :see-guralnik: link:/sindri-labs/fragments/people/guralnik/[Gerald Guralnik]
 :see-hagen: link:/sindri-labs/fragments/people/hagen/[C.R. Hagen]
 :see-higgs: link:/sindri-labs/fragments/people/higgs/[Peter Higgs]
 
 image::{page-image}[{page-image-credit},width="500px",align="left"]
 
-_**↑ {all-people}**_ | _**{see-guralnik}**_ · _**{see-hagen}**_ · _**{see-higgs}**_
+_**↑ {all-people}**_ | _**Featured in:**_ _**{featured-companion}**_ | _**{see-guralnik}**_ · _**{see-hagen}**_ · _**{see-higgs}**_
 
 // FixMe: Captain

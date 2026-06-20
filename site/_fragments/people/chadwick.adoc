@@ -14,13 +14,14 @@ ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
 :page-image: chadwick.jpg
 :page-image-credit: "Photograph by Los Alamos National Laboratory (circa 1945). Public domain via Wikimedia Commons."
 :all-people: link:/sindri-labs/people/[All People]
+:featured-companion: link:/sindri-labs/school/2026/05/08/Important-People-In-Particle-Discovery.html[Important People]
 :see-rutherford: link:/sindri-labs/fragments/people/rutherford/[Ernest Rutherford]
 :see-bothe-becker-joliot-curies: link:/sindri-labs/fragments/people/bothe-becker-joliot-curies/[Bothe Becker Joliot Curies]
 :see-geiger-marsden: link:/sindri-labs/fragments/people/geiger-marsden/[Geiger Marsden]
 
 image::{page-image}[{page-image-credit},width="500px",align="left"]
 
-_**↑ {all-people}**_ | _**{see-rutherford}**_ · _**{see-bothe-becker-joliot-curies}**_ · _**{see-geiger-marsden}**_
+_**↑ {all-people}**_ | _**Featured in:**_ _**{featured-companion}**_ | _**{see-rutherford}**_ · _**{see-bothe-becker-joliot-curies}**_ · _**{see-geiger-marsden}**_
 
 English physicist who discovered the neutron. Trained under Rutherford, interned in Germany during World War I, later led the British scientific contribution to the Manhattan Project.
 

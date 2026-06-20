@@ -6,16 +6,39 @@ era: antiquity
 nationality: greek
 sciences: [philosophy]
 science: philosophy
+related: [leucippus]
 ---
 = Parmenides of Elea (515-450 BCE)
+
 ifndef::env-site[:imagesdir: ../../assets/images/people]
 ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
-:page-image: placeholder.jpg
-:page-image-credit: "change me"
+:page-image: parmenides.jpg
+:page-image-credit: "Bust of Parmenides, Roman-era herm from the archaeological park of Velia, Campania. Photo by Sergio Spolti, CC BY-SA 4.0 via Wikimedia Commons."
 :all-people: link:/sindri-labs/people/[All People]
+:featured-essay: link:/sindri-labs/school/2026/05/08/On-Particle.html[On Particle]
+:featured-companion: link:/sindri-labs/school/2026/05/08/Important-People-In-Particle-Discovery.html[Important People]
+:see-leucippus: link:/sindri-labs/fragments/people/leucippus/[Leucippus]
 
 image::{page-image}[{page-image-credit},width="500px",align="left"]
 
-_**↑ {all-people}**_
+_**↑ {all-people}**_ | _**Featured in:**_ _**{featured-essay}**_ · _**{featured-companion}**_ | _**{see-leucippus}**_
 
-_Stub -- body to be written._
+== Slop
+
+The man who argued that change is impossible -- and forced physics to answer him. Being is one, ungenerated,
+and unchanging; what looks like change is only appearance. Atomism was built to get around the problem he set.
+
+.The argument that forced atomism:
+[%collapsible]
+====
+Parmenides argued that nothing comes from nothing and nothing passes into nothing -- so coming-to-be and passing-away cannot be real,
+and reality is one changeless Being; the world of change our senses report is mere appearance. To save those appearances without breaking his rule,
+Leucippus and Democritus split reality into atoms (what is) and void (what is not): nothing is created or destroyed, things only rearrange.
+Parmenides is the problem; atomism is the response.
+====
+
+{nbsp}
+
+== ToDo: Captain:
+
+https://github.com/Gervi-Hera-Vitr/sindri-labs/issues/613[#613 Parmenides of Elea,window=_blank].

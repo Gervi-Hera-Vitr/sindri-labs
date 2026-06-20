@@ -1,1 +1,13 @@
 = Thoughts in Flight
+
+== Epicurus of Samos (child of Epic #611) -- DONE, ready for your review
+
+*Issue #612* -- "Epicurus of Samos": labels `documentation`+`enhancement`, native sub-issue of #611, project "Learning Trails" / Backlog.
+Body is my short draft (read it, reshape if needed).
+
+*`epicurus.adoc` filled* -- British Museum bust (public domain, 500x600), `Featured in:` breadcrumb (both Particle posts) {plus} see-democritus/gassendi,
+hero line, one paragraph (the swerve {plus} the Lucretius->Gassendi line), `*Assignment -- Captain*` linking #612.
+
+*Verified* -- `jekyll build` clean, all links resolve, image asset copied, no leaked tokens. NOT committed -- yours.
+
+Clear this section at merge.
