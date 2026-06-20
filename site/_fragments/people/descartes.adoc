@@ -10,12 +10,34 @@ science: mathematics
 = René Descartes (1596-1650)
 ifndef::env-site[:imagesdir: ../../assets/images/people]
 ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
-:page-image: placeholder.jpg
-:page-image-credit: "change me"
+:page-image: descartes.jpg
+:page-image-credit: "Portrait of René Descartes (1649) by Frans Hals; Louvre, Paris (INV. 1317). Public domain via Wikimedia Commons."
 :all-people: link:/sindri-labs/people/[All People]
+:featured-companion: link:/sindri-labs/school/2026/05/08/Important-People-In-Particle-Discovery.html[Important People]
+:see-gassendi: link:/sindri-labs/fragments/people/gassendi/[Pierre Gassendi]
 
 image::{page-image}[{page-image-credit},width="500px",align="left"]
 
-_**↑ {all-people}**_
+_**↑ {all-people}**_ | _**Featured in:**_ _**{featured-companion}**_ | _**{see-gassendi}**_
 
-_Stub -- body to be written._
+== Slop
+
+The one who said no to the void. Where the atomists split the world into atoms and empty space, Descartes denied that empty space could exist at all:
+matter went all the way down, packed without gaps, and motion happened as swirling vortices in a completely full universe -- a _plenum_.
+He is the great opponent in this story, the mechanical philosophy without the void. He also handed mathematics a tool it still uses every day:
+analytic geometry, algebra and geometry fused onto a coordinate grid -- the "Cartesian" plane.
+
+.Plenum versus void:
+[%collapsible]
+====
+Leucippus invented atoms-plus-void to let change happen: things move because there is empty space to move into. Descartes refused the empty space.
+For him extension just *is* matter, so a truly empty space is a contradiction -- the cosmos is packed solid, and motion is matter shoving matter in great whirlpools (vortices),
+which is how he explained the orbits of the planets. The void-versus-plenum argument ran for a century; Torricelli's barometer and Newton's mechanics eventually decided it for the void --
+but Descartes forced the atomists to actually defend the emptiness their whole picture depended on.
+====
+
+{nbsp}
+
+== ToDo: Captain:
+
+https://github.com/Gervi-Hera-Vitr/sindri-labs/issues/615[#615 Rene Descartes,window=_blank].
