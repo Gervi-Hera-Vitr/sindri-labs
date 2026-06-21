@@ -6,20 +6,53 @@ era: modern
 nationality: new-zealander
 sciences: [physics]
 science: physics
-related: [geiger, rutherford]
+related: [geiger, rutherford, geiger-marsden]
 ---
 = Ernest Marsden (1889-1970)
 ifndef::env-site[:imagesdir: ../../assets/images/people]
 ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
-:page-image: placeholder.jpg
-:page-image-credit: "change me"
+:page-image: marsden.jpg
+:page-image-credit: "Ernest Marsden, 1921 by S P Andrew Ltd. Public domain via Wikimedia Commons."
 :all-people: link:/sindri-labs/people/[All People]
 :featured-companion: link:/sindri-labs/school/2026/05/08/Important-People-In-Particle-Discovery.html[Important People]
 :see-geiger: link:/sindri-labs/fragments/people/geiger/[Hans Geiger]
 :see-rutherford: link:/sindri-labs/fragments/people/rutherford/[Ernest Rutherford]
+:see-geiger-marsden: link:/sindri-labs/fragments/people/geiger-marsden/[the gold-foil experiment]
 
 image::{page-image}[{page-image-credit},width="500px",align="left"]
 
-_**↑ {all-people}**_ | _**Featured in:**_ _**{featured-companion}**_ | _**{see-geiger}**_ · _**{see-rutherford}**_
+_**↑ {all-people}**_ | _**Featured in:**_ _**{featured-companion}**_ | _**{see-geiger}**_ · _**{see-rutherford}**_ · _**{see-geiger-marsden}**_
 
-// FixMe: Captain
+The undergraduate who saw the impossible. A Lancashire cotton-weaver's son, barely twenty, who was asked to look for something nobody expected -- alpha particles bouncing backward off a sheet of gold -- and found it, handing Rutherford the single clue that led to the nucleus. Then he spent the rest of his life on the far side of the world, building New Zealand's science from almost nothing.
+
+== History
+
+Born in 1889 in Rishton, Lancashire, the son of a cotton weaver. He was clearly gifted early and climbed the only ladder open to a working-class boy of real ability: scholarships, to grammar school in Blackburn and then to the University of Manchester. There, as an undergraduate, he walked into {see-rutherford}'s orbit just as Rutherford arrived, and was handed a research project most students would never get near.
+
+That project, with {see-geiger}, was the gold-foil experiment of 1909 -- the moment described in {see-geiger-marsden}. Manchester gave him a doctorate for the work in 1914. In the First World War he served with the Royal Engineers in _sound-ranging_, using arrays of microphones and the physics of sound to locate enemy guns by their report -- and was awarded the Military Cross.
+
+.An ocean away -- the New Zealand half of his life
+[%collapsible]
+====
+In 1915, on Rutherford's recommendation, Marsden was appointed professor of physics at Victoria University College in Wellington, New Zealand -- a country with almost no scientific infrastructure of its own. He never really came back. In 1926 he became Secretary of the new Department of Scientific and Industrial Research (DSIR) and effectively built New Zealand's research system: agriculture, geophysics, standards, the lot. In the Second World War he set up the team that developed New Zealand's radar for the Pacific. He was knighted in 1958, served as president of the Royal Society of New Zealand, and was still researching environmental radioactivity in his old age. He died at Lowry Bay, on Wellington Harbour, in 1970.
+====
+
+== How He Thought
+
+There are two minds in Marsden's life, and the second grew out of the first.
+
+The young experimenter's gift was simple and rare: he _looked_. Rutherford suggested checking whether any alpha particles scattered backward off the foil -- not because he expected it, but to be thorough -- and Marsden, too junior to know it was supposed to be impossible, actually did the tedious check and watched carefully enough to see the faint flashes appearing on the wrong side of the foil. The harder, more important part was what he did next: he believed the result. A more seasoned hand might have assumed the apparatus was leaking and "corrected" the anomaly away. Marsden trusted his eyes over his expectations, and that trust is what made the nucleus findable.
+
+The older Marsden thought at a completely different scale. Having helped crack the atom, he chose not to spend his life chasing more discoveries; he went to a small, distant country and asked what its science needed -- institutions, trained people, research tied to farming and defense -- and then built those things for forty years. The same instinct runs through both halves: pay attention to the thing actually in front of you, take it seriously, and act on it. As a student that meant believing a flash on the wrong side of a foil. As an administrator it meant believing a young country could do real science, and making it so.
+
+== What He Did
+
+In 1909, as an undergraduate, he made the observation that broke Thomson's atom: roughly 1 in 8,000 alpha particles fired at a thin gold foil bounced back through more than 90 degrees, some almost straight at the source. Under the prevailing "plum-pudding" model that was impossible. The result, published with {see-geiger}, gave {see-rutherford} the evidence for a tiny, dense, positively charged nucleus in 1911 -- the foundation of all later nuclear and particle physics. The experiment's mechanics live in {see-geiger-marsden}.
+
+Everything after that was New Zealand. As Secretary of the DSIR he became the chief architect of the country's scientific establishment; in wartime he led its radar development; in peacetime he championed research across agriculture, industry, and public health, and trained or backed a generation of New Zealand scientists.
+
+The shape of his career is its own kind of lesson. The person who catches a pivotal result is not always the famous theorist -- sometimes it is a twenty-year-old willing to do the dull experiment and believe what he sees. And the most useful thing a scientist does need not be another discovery; for Marsden it was building the soil that lets other discoveries grow. The gold foil was the seed. The institutions were the harvest.
+
+== ToDo: Captain:
+
+https://github.com/Gervi-Hera-Vitr/sindri-labs/issues/618[#618 Hans Geiger & Ernest Marsden,window=_blank].

@@ -6,20 +6,55 @@ era: modern
 nationality: german
 sciences: [physics]
 science: physics
-related: [marsden, rutherford]
+related: [marsden, rutherford, geiger-marsden]
 ---
 = Hans Geiger (1882-1945)
 ifndef::env-site[:imagesdir: ../../assets/images/people]
 ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
-:page-image: placeholder.jpg
-:page-image-credit: "change me"
+:page-image: geiger.jpg
+:page-image-credit: "Hans Geiger in 1928 by Unknown author. Public domain via Wikimedia Commons."
 :all-people: link:/sindri-labs/people/[All People]
 :featured-companion: link:/sindri-labs/school/2026/05/08/Important-People-In-Particle-Discovery.html[Important People]
 :see-marsden: link:/sindri-labs/fragments/people/marsden/[Ernest Marsden]
 :see-rutherford: link:/sindri-labs/fragments/people/rutherford/[Ernest Rutherford]
+:see-geiger-marsden: link:/sindri-labs/fragments/people/geiger-marsden/[the gold-foil experiment]
 
 image::{page-image}[{page-image-credit},width="500px",align="left"]
 
-_**↑ {all-people}**_ | _**Featured in:**_ _**{featured-companion}**_ | _**{see-marsden}**_ · _**{see-rutherford}**_
+_**↑ {all-people}**_ | _**Featured in:**_ _**{featured-companion}**_ | _**{see-marsden}**_ · _**{see-rutherford}**_ · _**{see-geiger-marsden}**_
 
-// FixMe: Captain
+The man who made single particles countable -- and then audible. A German experimentalist, Rutherford's most patient pair of hands at Manchester, and the inventor of the device that still bears half his name. His whole working life was one problem turned over and over: how do you know that a single, invisible atomic particle just went by? His answer started as a flash counted by eye in a darkened room and ended as a click anyone could hear.
+
+== History
+
+Born in 1882 in Neustadt, in the German Rhineland, the son of a university professor. He studied physics at Munich and Erlangen and took his doctorate at Erlangen in 1906 for work on electrical discharges through gases -- already, at the start, the physics of how charged particles move and how you register them.
+
+In 1907 he went to Manchester to work with {see-rutherford}, and the partnership made him. Together they built the first electrical counters for alpha particles, and it was Geiger, with the young {see-marsden}, who ran the scattering experiments that handed Rutherford the nucleus (the full bench story is {see-geiger-marsden}). He returned to Germany in 1912, served in the artillery through the First World War, and then climbed the academic ladder -- professor at Kiel in 1925, Tübingen in 1929, and the Technische Hochschule in Berlin in 1936.
+
+.From eyestrain to the click -- why he built the counter
+[%collapsible]
+====
+The early method was brutal. To detect alpha particles you darkened the room, let your eyes adjust for half an hour, then stared through a microscope at a zinc-sulfide screen and counted the faint individual flashes by hand -- for hours, taking turns so no one's eyes gave out. Geiger spent years doing exactly this. The Geiger-Müller counter (1928), built with his student Walther Müller, was the escape: a tube of gas and a wire at high voltage, so that a single particle entering triggers a measurable electrical pulse -- and, wired to a speaker, an audible click. The drudgery of the eye became a sound. That move, from a thing you strain to see to a thing you cannot miss hearing, is the whole shape of his career.
+====
+
+His last decade ran through Germany's darkest years. After the discovery of nuclear fission he was drawn into the wartime _Uranverein_, the German nuclear-research effort. His Berlin laboratory was wrecked in the war, and he died in 1945, just as it ended, having fled the advancing front.
+
+== How He Thought
+
+Geiger was not a theorist and never pretended to be. He thought like an instrument-builder, and the question that drove him was not _what is the atom?_ but _how do you catch one in the act?_ Everyone in the field wanted to study particles too small and too fast to see; Geiger's gift was inventing the apparatus that turned a single such particle into a signal a human being could actually register.
+
+That is a particular kind of mind. It is patient to the point of monkish -- he could sit in total darkness for hours, eye to a lens, counting flashes one at a time, never losing the thread. And it is mechanically ingenious in a very concrete way: every step of his life's work pushes the same signal up the ladder of perceptibility -- from a flash you have to train your eyes to see, to an electrical pulse a meter can read, to a click that fills the room.
+
+There is a quiet lesson in this for how science actually advances. The famous interpretations -- Rutherford's nucleus, Bohr's orbits -- are impossible without someone first making the invisible reliably _detectable_. Geiger built the senses the theorists then reasoned from. He gave physics its eyes, and then its ears.
+
+== What He Did
+
+With Rutherford he developed the first electrical method for counting alpha particles (1908), proving you could register individual subatomic events one by one. In 1909, with {see-marsden}, he ran the gold-foil scattering experiment whose 1-in-8,000 back-scattered particles forced Rutherford to the nuclear atom in 1911 -- the hinge of the whole story; the mechanics are in {see-geiger-marsden}.
+
+His most far-reaching invention came later: the *Geiger-Müller counter* (1928), the gas-tube detector that clicks once per particle. It became, and remains a century later, the standard instrument for detecting radiation -- in physics labs, in medicine, in every radiation-safety badge and survey meter. He spent his final years studying cosmic rays and nuclear fission.
+
+The assessment is simple. Geiger discovered no law and proposed no model, yet almost every nuclear and particle experiment that came after him runs on detectors descended from his. The click that means _a particle just passed_ -- the most basic sentence in experimental particle physics -- is, in the end, his sentence.
+
+== ToDo: Captain:
+
+https://github.com/Gervi-Hera-Vitr/sindri-labs/issues/618[#618 Hans Geiger & Ernest Marsden,window=_blank].

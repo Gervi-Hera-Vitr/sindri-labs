@@ -11,16 +11,62 @@ related: [guralnik, hagen, higgs]
 = Tom Kibble (1932-2016)
 ifndef::env-site[:imagesdir: ../../assets/images/people]
 ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
-:page-image: placeholder.jpg
-:page-image-credit: "change me"
+:page-image: kibble.jpg
+:page-image-credit: "Detail (Tom Kibble, far left) from a photograph of the 2010 J.J. Sakurai Prize winners by Jason Socrates Bardi. Public domain via Wikimedia Commons."
 :all-people: link:/sindri-labs/people/[All People]
 :featured-companion: link:/sindri-labs/school/2026/05/08/Important-People-In-Particle-Discovery.html[Important People]
 :see-guralnik: link:/sindri-labs/fragments/people/guralnik/[Gerald Guralnik]
 :see-hagen: link:/sindri-labs/fragments/people/hagen/[C.R. Hagen]
 :see-higgs: link:/sindri-labs/fragments/people/higgs/[Peter Higgs]
+:see-mass-mechanism: link:/sindri-labs/fragments/people/brout-englert-ghk/[the 1964 mass mechanism]
 
 image::{page-image}[{page-image-credit},width="500px",align="left"]
 
-_**↑ {all-people}**_ | _**Featured in:**_ _**{featured-companion}**_ | _**{see-guralnik}**_ · _**{see-hagen}**_ · _**{see-higgs}**_
+_**↑ {all-people}**_ | _**Featured in:**_ _**{featured-companion}**_ | _**{see-guralnik}**_ · _**{see-hagen}**_ · _**{see-higgs}**_ · _**{see-mass-mechanism}**_
 
-// FixMe: Captain
+The one who went deeper, and gave the credit away. With {see-guralnik} and {see-hagen}, Tom Kibble co-wrote one of the 1964 papers on how particles get mass -- then, alone, did the harder work that the real universe actually needs, and later carried the same idea all the way out to the birth of the cosmos. He may have understood the mass mechanism more completely than anyone. He was also, by every account, the kindest and most modest of the six -- a man who spent his life insisting the honor belonged to the others.
+
+== History
+
+Born Thomas Walter Bannerman Kibble in 1932 in Madras -- now Chennai -- in British India, where his father was a professor of mathematics. He grew up on the grounds of the college where his father taught, and the single most telling detail of his childhood is also the simplest: his father gave him mathematics puzzles to solve for fun. The boy who would one day work out the deep structure of the universe learned, first, that hard problems were a game you played with someone you loved.
+
+The family moved to Scotland; Kibble studied at the University of Edinburgh, earned his doctorate there, and in 1959 joined Imperial College London, where he stayed for essentially his entire career, working in the orbit of the great theorist Abdus Salam. It was at Imperial, in 1964, that he fell in with two visiting Americans, Gerald Guralnik and Carl Hagen, and the three of them -- GHK -- wrote their paper on mass. Kibble went on to a long and garlanded life in physics: Fellow of the Royal Society, a shelf of medals, a knighthood in 2014. He died, suddenly, in 2016, mourned across the whole of physics not only as a great scientist but as a deeply good man.
+
+== How He Thought
+
+Kibble's defining habit of mind was to go _one level deeper and one field wider_ than the problem in front of him.
+
+The 1964 GHK paper showed how mass could arise in the _simplest_ kind of force-field. But the real universe runs on more intricate machinery -- "non-abelian" forces, where the mathematics is far harder. In 1967, working alone, Kibble did that harder case. His paper worked out exactly _which_ force-carriers come out heavy and which stay massless -- and so explained, in advance, both why the carriers of the weak force (the W and Z particles) are enormously heavy _and_ why the photon stays perfectly massless. When the Standard Model of particle physics arrived, it stood on exactly that result. It is arguably the deepest single contribution any of the six made.
+
+Then he did the thing that truly marks his mind: he took the same idea and aimed it at the entire cosmos. In 1976 he asked what happens when the whole universe cools through one of these "symmetry-breaking" moments shortly after the Big Bang -- and showed that distant regions, unable to coordinate, would freeze into mismatched states, trapping flaws in the fabric of space called _cosmic strings_ and other "topological defects." This is the **Kibble mechanism**, and it founded a whole field linking the physics of the very small to the structure of the very large. (Cosmic strings remain a real and respected prediction, though none has yet been seen.) Only a mind that refused to stay in one box would have carried a particle-physics trick all the way up to the shape of the early universe.
+
+And the deeper Kibble's work went, the more insistently he handed the credit to others. Colleagues remembered him with the same word over and over.
+
+[quote, Imperial College tribute to Kibble]
+____
+A mensch in the widest sense: serious, modest, kind, always helpful.
+____
+
+== What He Did
+
+GHK's paper, "Global Conservation Laws and Massless Particles," was the last of the three 1964 papers to be published, and -- by the team's own honest reckoning -- the most thorough; the way all three fit together is told in {see-mass-mechanism}. Kibble's 1967 non-abelian paper and his 1976 work on cosmic strings then made him far more than a co-author of one famous result: he was one of the people who built the bridge from the mechanism to the Standard Model, and from the Standard Model to cosmology.
+
+When the 2013 Nobel Prize went to {see-higgs} and Englert alone -- and left Kibble and his two partners out -- he had every reason of his own to feel slighted. Instead, characteristically, he congratulated the winners and pointed at someone _else's_ omission, not his own.
+
+[quote, Tom Kibble, on the 2013 Nobel Prize]
+____
+My sincere congratulations go to the two Prize winners. A sad omission from the list was Englert's collaborator Robert Brout, now deceased.
+____
+
+He went further than any of the others in refusing the credit. When people proposed renaming the Higgs boson to include all six, Kibble said no -- the name was fine, and the honor was rightly Higgs's.
+
+[quote, Tom Kibble, on renaming the Higgs boson]
+____
+Peter Higgs was undeniably the one who first pointed it out explicitly.
+____
+
+That is the shape of Tom Kibble: the one who understood the thing most completely, and claimed it least. He spent his gift going deeper than anyone into how the universe is built -- and spent his character making sure other people got the praise for it.
+
+== ToDo: Captain:
+
+https://github.com/Gervi-Hera-Vitr/sindri-labs/issues/620[#620 Brout, Englert, Guralnik, Hagen & Kibble,window=_blank].

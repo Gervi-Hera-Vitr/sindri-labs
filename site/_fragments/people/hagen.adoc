@@ -10,16 +10,58 @@ related: [guralnik, kibble, higgs]
 = C.R. Hagen (b. 1937)
 ifndef::env-site[:imagesdir: ../../assets/images/people]
 ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
-:page-image: placeholder.jpg
-:page-image-credit: "change me"
+:page-image: hagen.jpg
+:page-image-credit: "Carl Richard Hagen in his office at the University of Rochester (2010) by J. Adam Fenster/University of Rochester. CC BY-SA 4.0 via Wikimedia Commons."
 :all-people: link:/sindri-labs/people/[All People]
 :featured-companion: link:/sindri-labs/school/2026/05/08/Important-People-In-Particle-Discovery.html[Important People]
 :see-guralnik: link:/sindri-labs/fragments/people/guralnik/[Gerald Guralnik]
 :see-kibble: link:/sindri-labs/fragments/people/kibble/[Tom Kibble]
 :see-higgs: link:/sindri-labs/fragments/people/higgs/[Peter Higgs]
+:see-mass-mechanism: link:/sindri-labs/fragments/people/brout-englert-ghk/[the 1964 mass mechanism]
 
 image::{page-image}[{page-image-credit},width="500px",align="left"]
 
-_**↑ {all-people}**_ | _**Featured in:**_ _**{featured-companion}**_ | _**{see-guralnik}**_ · _**{see-kibble}**_ · _**{see-higgs}**_
+_**↑ {all-people}**_ | _**Featured in:**_ _**{featured-companion}**_ | _**{see-guralnik}**_ · _**{see-kibble}**_ · _**{see-higgs}**_ · _**{see-mass-mechanism}**_
 
-// FixMe: Captain
+The one who would not let it go. Carl Richard Hagen co-wrote, with {see-guralnik} and {see-kibble}, one of the three 1964 papers that explained how particles get their mass. When history handed most of the credit to other people, Hagen did the opposite of his friend Kibble: he fought, in public, for decades, with exactly the same fierce precision he brought to physics. Kibble's grace and Hagen's combativeness are two honest answers to the same injustice -- and the contrast between them is the most human thing in this whole story.
+
+== History
+
+Born in Chicago in 1937. He did all of his training at MIT -- bachelor's, master's, and a 1963 doctorate in the quantum theory of light -- and it was there, as an undergraduate, that he met Gerald Guralnik; the two midwesterners became lifelong friends and collaborators. In 1964 Hagen was a young researcher at the University of Rochester in New York, where he would spend his entire career and still works as an emeritus professor.
+
+That year he was visiting Imperial College London, where Guralnik had a fellowship and Tom Kibble was on the faculty. (This is worth getting right: of the trio, only Kibble actually worked at Imperial; Guralnik was a postdoc there, and Hagen was the visitor from America.) The three came together over the problem of mass and wrote the paper that made their initials -- GHK -- famous.
+
+== How He Thought
+
+Hagen's mind had one unmistakable signature: a demand for the _exact_ answer, never the approximate one, and a willingness to catch the detail that everyone else had dropped. In paper after paper across his career he went back to results other physicists thought were settled and insisted on the missing term, the precise statement, the loophole no one had closed. He once built an entire undergraduate course around making students compute the hydrogen atom the hard, old-fashioned way -- and out of that stubborn exactness he and a colleague pulled a genuine surprise: a famous 350-year-old formula for the number pi, falling out of pure quantum mechanics. He took visible joy in an exact thing arising cleanly from first principles.
+
+That same trait -- catch what others dropped, demand the precise statement, contest even the most famous names when the rigor is not there -- is exactly what he turned on the question of who deserved credit for the mass mechanism. His combativeness was not a personality flaw bolted onto a physicist. It was the _same_ fairness-and-exactness obsession, pointed at the sociology of science instead of at an equation. And he could be very funny about it.
+
+[quote, C.R. Hagen, NPR interview (2013)]
+____
+I would rather give credit to the deity than to one of my competitors.
+____
+
+== What He Did
+
+In the GHK paper, "Global Conservation Laws and Massless Particles," Hagen and his partners did not just show how force-carriers gain mass -- they were the most rigorous of the three groups about _why_ the leftover massless particle the mathematics seemed to require does not actually show up. It was the last of the three papers published, in November 1964, and in the team's own view the most complete. How all three fit together is told in {see-mass-mechanism}.
+
+Then came the long argument. When the work was finally celebrated, Hagen felt the others were treated as stars while his team was waved off as a footnote.
+
+[quote, C.R. Hagen, BBC interview (2013)]
+____
+Peter Higgs was treated as something of a rock star and the rest of us were barely recognised by most of the audience.
+____
+
+So he pushed back -- against naming the particle after Higgs alone, against the way the 2013 Nobel Prize singled out two of the six, arguing it should honor all of them or none. He even invoked one of physics' great iconoclasts to question the whole business of prizes.
+
+[quote, C.R. Hagen, NPR interview (2013), recalling Richard Feynman]
+____
+Nobel did two bad things in his life. He invented dynamite, and he invented the Nobel Prize.
+____
+
+It would be easy to read Hagen as merely the sore loser of the group. That misses him. He was making a real argument that matters far beyond himself: that modern science is done by _many_ people at once -- three separate groups reached this same answer in a single year -- and that a prize built to honor a lone genius fits that reality badly. Set his page beside {see-kibble}'s and you see the deepest lesson of the whole episode. The same unfairness produced two honorable responses: one man let it go with grace, and the other refused to, on principle. Both were right. Both are worth understanding.
+
+== ToDo: Captain:
+
+https://github.com/Gervi-Hera-Vitr/sindri-labs/issues/620[#620 Brout, Englert, Guralnik, Hagen & Kibble,window=_blank].

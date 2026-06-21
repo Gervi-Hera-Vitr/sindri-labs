@@ -10,12 +10,27 @@ science: mathematics
 = Gottfried Wilhelm Leibniz (1646-1716)
 ifndef::env-site[:imagesdir: ../../assets/images/people]
 ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
-:page-image: placeholder.jpg
-:page-image-credit: "change me"
+:page-image: leibniz.jpg
+:page-image-credit: "Portrait of Gottfried Wilhelm Leibniz (c. 1695) by Christoph Bernhard Francke; Herzog Anton Ulrich Museum, Braunschweig (GG 558). Public domain via Wikimedia Commons."
 :all-people: link:/sindri-labs/people/[All People]
+:featured-companion: link:/sindri-labs/school/2026/05/08/Important-People-In-Particle-Discovery.html[Important People]
 
 image::{page-image}[{page-image-credit},width="500px",align="left"]
 
-_**↑ {all-people}**_
+_**↑ {all-people}**_ | _**Featured in:**_ _**{featured-companion}**_
 
-_Stub -- body to be written._
+== Slop
+
+The one who kept the indivisible and threw out the matter. Where the atomists put tiny grains of stuff at the bottom of the world, Leibniz argued that anything taking up space can always be halved again -- so no material thing can ever be the true bottom. What is fundamental, he said, must be simple, indivisible, and immaterial: the _monad_, which he called "the true atom of nature." He also stood with Descartes against the void -- space, for him, was a web of relations, not Newton's empty absolute stage -- and he put _force_ beneath inert matter. And, almost in passing, he co-invented the calculus.
+
+.The monad -- an atom not made of stuff:
+[%collapsible]
+====
+Leibniz's argument runs: extension (taking up room) is always further divisible -- there is always a smaller half -- so an extended body can never be a genuine unit. The real building blocks must therefore have no parts and no size at all: monads, simple immaterial points of force and perception. It is a strange idea, and it is also the shape of the modern answer -- a fundamental particle is a point-like excitation of a field, not a little hard ball. The graded essay arrives at the same place in its last lines: "indivisibility dies here... the label simply belongs further down." Leibniz got there in 1714, in the _Monadology_.
+====
+
+{nbsp}
+
+== ToDo: Captain:
+
+https://github.com/Gervi-Hera-Vitr/sindri-labs/issues/616[#616 Gottfried Wilhelm Leibniz,window=_blank].

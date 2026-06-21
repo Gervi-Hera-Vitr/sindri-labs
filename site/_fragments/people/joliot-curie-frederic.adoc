@@ -11,16 +11,61 @@ related: [joliot-curie-irene, bothe, chadwick]
 = Frédéric Joliot-Curie (1900-1958)
 ifndef::env-site[:imagesdir: ../../assets/images/people]
 ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
-:page-image: placeholder.jpg
-:page-image-credit: "change me"
+:page-image: joliot-curie-frederic.jpg
+:page-image-credit: "Photograph (1935) by Nobel Foundation. Public domain via Wikimedia Commons."
 :all-people: link:/sindri-labs/people/[All People]
 :featured-companion: link:/sindri-labs/school/2026/05/08/Important-People-In-Particle-Discovery.html[Important People]
 :see-joliot-curie-irene: link:/sindri-labs/fragments/people/joliot-curie-irene/[Irène Joliot-Curie]
 :see-bothe: link:/sindri-labs/fragments/people/bothe/[Walther Bothe]
 :see-chadwick: link:/sindri-labs/fragments/people/chadwick/[James Chadwick]
+:see-neutron-miss: link:/sindri-labs/fragments/people/bothe-becker-joliot-curies/[the neutron near-miss]
 
 image::{page-image}[{page-image-credit},width="500px",align="left"]
 
-_**↑ {all-people}**_ | _**Featured in:**_ _**{featured-companion}**_ | _**{see-joliot-curie-irene}**_ · _**{see-bothe}**_ · _**{see-chadwick}**_
+_**↑ {all-people}**_ | _**Featured in:**_ _**{featured-companion}**_ | _**{see-joliot-curie-irene}**_ · _**{see-bothe}**_ · _**{see-chadwick}**_ · _**{see-neutron-miss}**_
 
-// FixMe: Captain
+The imagination to Irène's precision. A charismatic young engineer who married into the most famous scientific family in the world, fused his daring to his wife's rigor, and with her created artificial radioactivity -- the power to _make_ matter radioactive at will. He was also the rarest kind of scientist: one who, in 1935, stood up at the Nobel ceremony and warned the world, in plain words, that this same physics could one day be used to build a weapon of unimaginable force. Ten years later, it was.
+
+== History
+
+Born Jean Frédéric Joliot in Paris in 1900, into a modest middle-class family -- a world away from the scientific aristocracy he would marry into. He was an athlete, a charmer, a brilliant talker; he was also, from the start, drawn to ideas larger than himself. At the École de Physique et de Chimie, a hands-on engineering school, he graduated first in his class, and there he met the man who would shape his whole life: the physicist Paul Langevin.
+
+Langevin pointed him in two directions at once -- toward research, and toward a pacifist, socially committed view of what a scientist owes the world. On Langevin's recommendation, in 1925 Joliot became Marie Curie's laboratory assistant. There he met her daughter {see-joliot-curie-irene}; they married in 1926, joined their names, and within a few years had welded two very different minds into one of the great experimental partnerships in history.
+
+What followed was a life lived at full tilt. After Irène's death and his own Nobel work, Frédéric became the chief builder of French nuclear science: he persuaded de Gaulle's government to create the atomic energy commission (the CEA) in 1945, and in 1948 his team switched on _Zoé_, the first nuclear reactor in France. But he was an open Communist, and in the depths of the Cold War that cost him: he was dismissed from the CEA in 1950 after declaring he would never help build a bomb to use against the Soviet Union. He spent his last years leading the world peace movement, and died in 1958 of an illness brought on, like his wife's, by a lifetime of radiation.
+
+.The war years -- a laboratory turned to resistance
+[%collapsible]
+====
+When France fell in 1940, Joliot was holding the most strategically valuable material in physics: a stock of uranium and nearly the entire world supply of "heavy water," essential to a nuclear reactor. He arranged for the heavy water and his cyclotron plans to be smuggled to England -- his colleagues Hans von Halban and Lew Kowarski physically carried it out -- while he himself stayed behind in occupied Paris to keep the laboratory out of German hands and his most dangerous notes hidden. He joined the clandestine Resistance, helped found and lead a major network, and turned his Collège de France lab into a workshop making explosives and radio sets for the fight, right under the occupiers' noses. The same hands that built delicate detectors built Molotov cocktails. For Joliot there was never a wall between the physics and the convictions; they were one life.
+====
+
+== How He Thought
+
+If Irène thought with her hands, Frédéric thought with his imagination. He was an inspired, fast, inventive experimenter -- he designed and built better apparatus than he was given, and then pointed it at exactly the question most likely to surprise him. Colleagues marveled that his experiments looked simple and obvious _after_ he had done them, which is the surest sign of a deep idea. He himself described his method, and it is a small masterpiece of how to do science.
+
+[quote, Frédéric Joliot-Curie, Dictionary of Scientific Biography]
+____
+It is, of course, necessary to start from a preconceived idea; but whenever it is possible, the experiment should be set up to open as many windows as possible on the unforeseen.
+____
+
+That is the whole man in one sentence. Most people design an experiment to confirm what they already expect. Joliot designed his to catch what he did _not_ expect -- to leave doors open for nature to walk through with something new. It is the opposite habit from the one that cost him the neutron: there, he and Irène had a genuinely unforeseen result and, for once, reached for the familiar explanation instead of the open window.
+
+His other gift was that he never separated the science from its consequences. Langevin had taught him that a scientist is a citizen, responsible for what knowledge does in the world. That is why, almost alone among the physicists of his time, he saw where his own discovery pointed -- and said so, out loud, at the worst possible moment for his own glory.
+
+== What He Did
+
+The first great act came in January 1932, and it was a defeat. He and Irène found that the mysterious radiation from beryllium could fling protons out of paraffin at tremendous speed -- and they called it gamma rays, missing the neutron that {see-chadwick} would catch weeks later. The whole story is in {see-neutron-miss}. Joliot took the lesson generously; he later said the idea of a neutral particle had been "in the atmosphere of the Cavendish" where Chadwick worked, and not in theirs, so the discovery was rightly Chadwick's.
+
+The second great act, in 1934, was the answer. Bombarding aluminum with alpha particles, the Joliot-Curies created radioactive phosphorus that does not exist in nature -- the first time anyone had _made_ an element radioactive. It won them the 1935 Nobel Prize in Chemistry and opened the age of artificial isotopes that medicine still runs on. And then Frédéric did the thing almost no one else would have. In his Nobel lecture, at the height of his triumph, he looked ahead and warned the world.
+
+[quote, Frédéric Joliot-Curie, Nobel lecture (1935)]
+____
+We are entitled to think that scientists, building up or shattering elements at will, will be able to bring about transmutations of an explosive type... the enormous liberation of usable energy can be imagined.
+____
+
+He was describing the chain reaction, and the bomb, a decade before Hiroshima -- and he asked his fellow scientists to proceed with care. That is the measure of Frédéric Joliot-Curie. He had the imagination to make matter do something new, and the conscience to see, before anyone else, what that new power might cost.
+
+== ToDo: Captain:
+
+https://github.com/Gervi-Hera-Vitr/sindri-labs/issues/619[#619 Bothe, Becker & the Joliot-Curies,window=_blank].
