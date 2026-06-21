@@ -22,7 +22,8 @@ ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
 
 image::{page-image}[{page-image-credit},width="500px",align="left"]
 
-_**↑ {all-people}**_ | _**Featured in:**_ _**{featured-companion}**_ | _**{see-joliot-curie-irene}**_ · _**{see-bothe}**_ · _**{see-chadwick}**_ · _**{see-neutron-miss}**_
+_**↑ {all-people}**_ | _**Featured in:**_ _**{featured-companion}**_ +
+_**{see-joliot-curie-irene}**_ · _**{see-bothe}**_ · _**{see-chadwick}**_ · _**{see-neutron-miss}**_
 
 The imagination to Irène's precision. A charismatic young engineer who married into the most famous scientific family in the world, fused his daring to his wife's rigor, and with her created artificial radioactivity -- the power to _make_ matter radioactive at will. He was also the rarest kind of scientist: one who, in 1935, stood up at the Nobel ceremony and warned the world, in plain words, that this same physics could one day be used to build a weapon of unimaginable force. Ten years later, it was.
 

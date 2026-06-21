@@ -22,7 +22,8 @@ ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
 
 image::{page-image}[{page-image-credit},width="500px",align="left"]
 
-_**↑ {all-people}**_ | _**Featured in:**_ _**{featured-companion}**_ | _**{see-guralnik}**_ · _**{see-hagen}**_ · _**{see-higgs}**_ · _**{see-mass-mechanism}**_
+_**↑ {all-people}**_ | _**Featured in:**_ _**{featured-companion}**_ +
+_**{see-guralnik}**_ · _**{see-hagen}**_ · _**{see-higgs}**_ · _**{see-mass-mechanism}**_
 
 The one who went deeper, and gave the credit away. With {see-guralnik} and {see-hagen}, Tom Kibble co-wrote one of the 1964 papers on how particles get mass -- then, alone, did the harder work that the real universe actually needs, and later carried the same idea all the way out to the birth of the cosmos. He may have understood the mass mechanism more completely than anyone. He was also, by every account, the kindest and most modest of the six -- a man who spent his life insisting the honor belonged to the others.
 

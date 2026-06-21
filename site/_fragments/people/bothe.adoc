@@ -23,7 +23,8 @@ ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
 
 image::{page-image}[{page-image-credit},width="500px",align="left"]
 
-_**↑ {all-people}**_ | _**Featured in:**_ _**{featured-companion}**_ | _**{see-becker}**_ · _**{see-joliot-curie-irene}**_ · _**{see-chadwick}**_ · _**{see-neutron-miss}**_
+_**↑ {all-people}**_ | _**Featured in:**_ _**{featured-companion}**_ +
+_**{see-becker}**_ · _**{see-joliot-curie-irene}**_ · _**{see-chadwick}**_ · _**{see-neutron-miss}**_
 
 The man who could measure a particle to exquisite precision and still call it by the wrong name. A German experimentalist of austere, almost monkish discipline -- Max Planck's student, {see-geiger}'s apprentice -- who invented the _coincidence method_, a way of pulling real events out of a storm of noise by demanding that two detectors fire at the very same instant. It won him a Nobel Prize and settled one of the deepest arguments in early quantum theory. And in 1930 it carried him to within one careful step of the neutron -- a step he did not take.
 

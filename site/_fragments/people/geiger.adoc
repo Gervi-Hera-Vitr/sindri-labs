@@ -21,7 +21,8 @@ ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
 
 image::{page-image}[{page-image-credit},width="500px",align="left"]
 
-_**↑ {all-people}**_ | _**Featured in:**_ _**{featured-companion}**_ | _**{see-marsden}**_ · _**{see-rutherford}**_ · _**{see-geiger-marsden}**_
+_**↑ {all-people}**_ | _**Featured in:**_ _**{featured-companion}**_ +
+_**{see-marsden}**_ · _**{see-rutherford}**_ · _**{see-geiger-marsden}**_
 
 The man who made single particles countable -- and then audible. A German experimentalist, Rutherford's most patient pair of hands at Manchester, and the inventor of the device that still bears half his name. His whole working life was one problem turned over and over: how do you know that a single, invisible atomic particle just went by? His answer started as a flash counted by eye in a darkened room and ended as a click anyone could hear.
 

@@ -23,7 +23,8 @@ ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
 
 image::{page-image}[{page-image-credit},width="500px",align="left"]
 
-_**↑ {all-people}**_ | _**Featured in:**_ _**{featured-companion}**_ | _**{see-bohr}**_ · _**{see-dirac}**_ · _**{see-riemann}**_ · _**{see-maxwell}**_
+_**↑ {all-people}**_ | _**Featured in:**_ _**{featured-companion}**_ +
+_**{see-bohr}**_ · _**{see-dirac}**_ · _**{see-riemann}**_ · _**{see-maxwell}**_
 
 The man who proved the atom is real -- and then showed that light, too, is made of particles. German-born, a clerk in a patent office when he did his greatest work, and for the last thirty years of his life the most famous scientist on Earth. In a single year, 1905, he ended a 2,400-year-old argument over whether atoms exist, opened the door to quantum theory almost by accident, tore up Newton's space and time, and wrote down E = mc². Then he spent the rest of his life refusing to walk back through the quantum door he had opened.
 

@@ -21,7 +21,8 @@ ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
 
 image::{page-image}[{page-image-credit},width="500px",align="left"]
 
-_**↑ {all-people}**_ | _**Featured in:**_ _**{featured-companion}**_ | _**{see-englert}**_ · _**{see-higgs}**_ · _**{see-mass-mechanism}**_
+_**↑ {all-people}**_ | _**Featured in:**_ _**{featured-companion}**_ +
+_**{see-englert}**_ · _**{see-higgs}**_ · _**{see-mass-mechanism}**_
 
 The man who saw that the vacuum could behave like a superconductor. An American physicist who crossed an ocean for a friendship, Robert Brout brought the way of thinking used for magnets and metals into the heart of particle physics -- and with {see-englert} worked out, in 1964, how particles get their mass. He is the "B" in the BEH mechanism, the first letter of the discovery. He died in 2011, one year before the great machine at CERN proved them right, and two years before the Nobel Prize that he, alone of the pair, could not be given.
 

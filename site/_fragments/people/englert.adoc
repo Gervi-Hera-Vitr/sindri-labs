@@ -21,7 +21,8 @@ ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
 
 image::{page-image}[{page-image-credit},width="500px",align="left"]
 
-_**↑ {all-people}**_ | _**Featured in:**_ _**{featured-companion}**_ | _**{see-brout}**_ · _**{see-higgs}**_ · _**{see-mass-mechanism}**_
+_**↑ {all-people}**_ | _**Featured in:**_ _**{featured-companion}**_ +
+_**{see-brout}**_ · _**{see-higgs}**_ · _**{see-mass-mechanism}**_
 
 A child who survived the Holocaust in hiding, an engineer who fell in love with the deep questions, and -- with his lifelong friend {see-brout} -- one of the minds who explained how everything in the universe gets its mass. François Englert is the "E" in the BEH mechanism. In 2013 he shared the Nobel Prize in Physics with {see-higgs}. He died on 18 June 2026, aged ninety-three -- the last living member of the small group of physicists who, in a single season of 1964, answered one of the oldest questions there is: why does matter weigh anything at all?
 

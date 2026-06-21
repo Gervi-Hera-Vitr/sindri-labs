@@ -21,7 +21,8 @@ ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
 
 image::{page-image}[{page-image-credit},width="500px",align="left"]
 
-_**↑ {all-people}**_ | _**Featured in:**_ _**{featured-companion}**_ | _**{see-geiger}**_ · _**{see-rutherford}**_ · _**{see-geiger-marsden}**_
+_**↑ {all-people}**_ | _**Featured in:**_ _**{featured-companion}**_ +
+_**{see-geiger}**_ · _**{see-rutherford}**_ · _**{see-geiger-marsden}**_
 
 The undergraduate who saw the impossible. A Lancashire cotton-weaver's son, barely twenty, who was asked to look for something nobody expected -- alpha particles bouncing backward off a sheet of gold -- and found it, handing Rutherford the single clue that led to the nucleus. Then he spent the rest of his life on the far side of the world, building New Zealand's science from almost nothing.
 

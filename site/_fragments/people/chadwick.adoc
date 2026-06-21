@@ -21,7 +21,8 @@ ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
 
 image::{page-image}[{page-image-credit},width="500px",align="left"]
 
-_**↑ {all-people}**_ | _**Featured in:**_ _**{featured-companion}**_ | _**{see-rutherford}**_ · _**{see-bothe-becker-joliot-curies}**_ · _**{see-geiger-marsden}**_
+_**↑ {all-people}**_ | _**Featured in:**_ _**{featured-companion}**_ +
+_**{see-rutherford}**_ · _**{see-bothe-becker-joliot-curies}**_ · _**{see-geiger-marsden}**_
 
 English physicist who discovered the neutron. Trained under Rutherford, interned in Germany during World War I, later led the British scientific contribution to the Manhattan Project.
 

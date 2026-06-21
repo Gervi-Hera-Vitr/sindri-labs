@@ -23,7 +23,8 @@ ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
 
 image::{page-image}[{page-image-credit},width="500px",align="left"]
 
-_**↑ {all-people}**_ | _**Featured in:**_ _**{featured-companion}**_ | _**{see-joliot-curie-frederic}**_ · _**{see-bothe}**_ · _**{see-chadwick}**_ · _**{see-neutron-miss}**_
+_**↑ {all-people}**_ | _**Featured in:**_ _**{featured-companion}**_ +
+_**{see-joliot-curie-frederic}**_ · _**{see-bothe}**_ · _**{see-chadwick}**_ · _**{see-neutron-miss}**_
 
 The daughter who was raised inside the laboratory and never really left it. Marie and Pierre Curie's elder child, taught science as a small girl by a circle of Nobel-class friends, hardened at seventeen by running X-ray units at the front in the First World War, and grown into the most exacting experimenter of her generation. With her husband {see-joliot-curie-frederic} she discovered how to _make_ matter radioactive -- and won a Nobel Prize for it -- two years after the two of them held the neutron in their hands and called it by the wrong name.
 
