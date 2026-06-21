@@ -51,8 +51,8 @@ permissions:
   contents: write
   pull-requests: write
 
-env: 
-  GH_TOKEN: ${{ secrets.CI_PAT }}
+#env:
+#  GH_TOKEN: ${{ secrets.CI_PAT }}
 
 defaults:
   run:
@@ -69,4 +69,3 @@ jobs:
     with:
       force-action: ${{ inputs.increment }}
     secrets: inherit
-
