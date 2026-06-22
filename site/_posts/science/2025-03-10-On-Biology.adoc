@@ -1,6 +1,6 @@
 ---
 header:
-  overlay_image: assets/images/banner-philosophy.jpg
+  overlay_image: assets/images/banner-biology.jpg
   overlay_filter: 0.1
 categories: [school]
 tags:
