@@ -1,5 +1,27 @@
-= Science: Workups on Antimatter
+---
+header:
+  overlay_image: assets/images/banner-philosophy.jpg
+  overlay_filter: 0.1
+categories: [school]
+tags:
+  - antimatter
+  - particle
+  - physics
+  - stem
+  - to-grade
+---
+= On Antimatter: The Mirror of Matter
+lugaru
+:page-author_profile: true
+:page-excerpt:
 :stem: latexmath
+:page-layout: single
+:page-classes: wide
+:on-science: link:/sindri-labs/science/[Science]
+
+↑ _**{on-science}**_
+
+NOTE: This is a *workup* -- unfinished study submitted for grading. Not a finished Science Work yet.
 
 == What Is Antimatter
 Antimatter is the "mirror-image" version of ordinary matter.
@@ -58,3 +80,7 @@ E = mc^2
 * Particle Data Group, _Review of Particle Physics_, https://pdg.lbl.gov. Current values for every particle and antiparticle: masses, charges, lifetimes, decay channels.
 * CERN, "The Matter-Antimatter Asymmetry Problem," https://home.cern/science/physics/matter-antimatter-asymmetry-problem. Why the universe ended up made of matter and not equal parts of both -- still open.
 * ALPHA Collaboration, "Observation of the 1S-2S transition in trapped antihydrogen," _Nature_ 541, 506 (2017). The current state of antimatter experiment -- antihydrogen atoms held in magnetic traps long enough to do spectroscopy.
+
+== Final Grade and Comments
+
+- ⏳ Submitted as a workup. _Awaiting review by {rdd13r}._
