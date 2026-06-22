@@ -41,11 +41,11 @@ ifdef::env-name[:relfilesuffix: .adoc]
 :on-biology: link:/sindri-labs/school/2025/03/10/On-Biology.html[On Biology: The Science of Life]
 :on-particle: link:/sindri-labs/school/2026/05/08/On-Particle.html[On Particle: The Atomic Science]
 :on-particle-people: link:/sindri-labs/school/2026/05/08/Important-People-In-Particle-Discovery.html[On Particle: Important People]
-:on-antimatter: link:/sindri-labs/school/2026/06/22/On-Antimatter.html[On Antimatter: The Mirror of Matter]
-:on-what-is-particle: link:/sindri-labs/school/2026/06/22/What-Is-A-Particle.html[What Is a Particle?]
-:on-subatomic: link:/sindri-labs/school/2026/06/22/Subatomic-Particles.html[Subatomic Particles]
-:on-fundamental: link:/sindri-labs/school/2026/06/22/Fundamental-Particles.html[Fundamental Particles]
-:on-history: link:/sindri-labs/school/2026/06/22/History-Of-Particle-Discovery.html[History of Particle Discovery]
+:on-antimatter: link:/sindri-labs/school/2026/04/18/On-Antimatter.html[On Antimatter: The Mirror of Matter]
+:on-what-is-particle: link:/sindri-labs/school/2026/04/18/What-Is-A-Particle.html[What Is a Particle?]
+:on-subatomic: link:/sindri-labs/school/2026/04/18/Subatomic-Particles.html[Subatomic Particles]
+:on-fundamental: link:/sindri-labs/school/2026/04/18/Fundamental-Particles.html[Fundamental Particles]
+:on-history: link:/sindri-labs/school/2026/04/18/History-Of-Particle-Discovery.html[History of Particle Discovery]
 
 See _{philosophers}_.
 
