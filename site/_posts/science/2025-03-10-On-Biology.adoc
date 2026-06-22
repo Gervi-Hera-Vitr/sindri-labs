@@ -1,23 +1,23 @@
-= Biology: What is Biology
-Cpt. Lugaru (CaptainLugaru) <72951616+CaptainLugaru@users.noreply.github.com>
-v1.0, Monday, March 10, 2025
-:description: Biology Exploration into what the science of biology is
-:sectnums:
-:sectanchors:
-:sectlinks:
-:icons: font
-:tip-caption: 💡️
-:note-caption: ℹ️
-:important-caption: ❗
-:caution-caption: 🔥
-:warning-caption: ⚠️
-:toc: preamble
-:toclevels: 1
-:toc-title: The Biology Trail
-:keywords: Homeschool Learning Journey
-:imagesdir: ./images
-:labsdir: ./labs
-ifdef::env-name[:relfilesuffix: .adoc]
+---
+header:
+  overlay_image: assets/images/banner-philosophy.jpg
+  overlay_filter: 0.1
+categories: [school]
+tags:
+  - biology
+  - life
+  - science
+  - stem
+---
+= On Biology: The Science of Life
+lugaru
+:page-author_profile: true
+:page-excerpt:
+:page-layout: single
+:page-classes: wide
+:on-science: link:/sindri-labs/science/[Science]
+
+↑ _**{on-science}**_
 
 *_Biology is the study of life and living organisms._*
 
@@ -67,6 +67,6 @@ From smallest to largest::
 - *Anatomy:* Study of body structure.
 - *Physiology:* Study of body function.
 
-== Final Grade: 10/10
+== Final Grade and Comments
 
-#A+#
+- ✅ Graded assignment by {rdd13r}. *A+ — 10/10*

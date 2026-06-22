@@ -12,6 +12,8 @@ header:
       url: /mathematics/
     - label: "Science"
       url: /science/
+categories: [page]
+tags: [graded]
 ---
 = Mímis Academy: Science
 rdd13r
@@ -35,9 +37,17 @@ rdd13r
 :keywords: Mímis Academy Science
 :imagesdir: ./assets/img
 ifdef::env-name[:relfilesuffix: .adoc]
-
 :philosophers: link:/sindri-labs/philosophers/[Foundations Philosophers,window=_blank]
+:on-biology: link:/sindri-labs/school/2025/03/10/On-Biology.html[On Biology: The Science of Life]
+:on-particle: link:/sindri-labs/school/2026/05/08/On-Particle.html[On Particle: The Atomic Science]
+:on-particle-people: link:/sindri-labs/school/2026/05/08/Important-People-In-Particle-Discovery.html[On Particle: Important People]
 
 See _{philosophers}_.
 
-ToDo: Pending inscribed curriculum.
+_This is how I organized my research into the sciences._
+
+== Science Works
+
+{on-biology} +
+{on-particle} +
+{on-particle-people}
