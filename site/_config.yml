@@ -229,7 +229,7 @@ footer:
       url                   : "https://github.com/Gervi-Hera-Vitr/sindri-labs"
     - label                 : "Fingerprint"
       icon                  : "fas fa-fw fa-fingerprint"
-      url                   : "/sindri-labs/assets/images/favicon-gervi-school.png"
+      url                   : "/sindri-labs/assets/images/og-image.png"
 
 
 ### Archives: Enable taxonomy pages for tags, categories, and year

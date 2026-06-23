@@ -12,7 +12,7 @@ tags:
 lugaru
 :page-author_profile: true
 :page-excerpt:
-:stem: asciimath
+:stem: latexmath
 :page-layout: single
 :page-classes: wide
 :peano-axioms: https://en.wikipedia.org/wiki/Peano_axioms[Peano Axioms,window=_blank]
@@ -45,11 +45,11 @@ However, it can also include uses of logic to characterize correct mathematical 
 |===
 | Symbol | Name          | Operation Example | Meaning
 
-| ¬      | Negation      | `¬P`              | "not P"
-| ∧      | Conjunction   | `P ∧ Q`           | "P and Q"
-| ∨      | Disjunction   | `P ∨ Q`           | "P or Q" (inclusive)
-| →      | Implication   | `P → Q`           | "Whenever P then Q"
-| ↔      | Biconditional | `P ↔ Q`           | "P if and only if Q" (iff)
+| ¬      | Negation      | stem:[\neg P]              | "not P"
+| ∧      | Conjunction   | stem:[P \land Q]           | "P and Q"
+| ∨      | Disjunction   | stem:[P \lor Q]            | "P or Q" (inclusive)
+| →      | Implication   | stem:[P \to Q]             | "Whenever P then Q"
+| ↔      | Biconditional | stem:[P \leftrightarrow Q] | "P if and only if Q" (iff)
 |===
 
 == What is Propositional Calculus?
@@ -60,7 +60,7 @@ Mathematical logic is also the study of truths in mathematical statements.
 These are called propositions -- a claim that is either true or false.
 A mix of these creates propositional logic.
 
-Example of a proposition: `2 + 2 = 4`
+Example of a proposition: stem:[2 + 2 = 4]
 This can only be either true or false.
 
 == Notational Variants of Connectives in propositional calculus
@@ -92,15 +92,15 @@ These are some standard notations for propositional logic.
 |===
 | Symbol | Name | Description / Example
 
-| ℕ | Natural Numbers | `{0, 1, 2, 3, ...}` -- Counting numbers.
-| ℤ | Integers | `{..., -2, -1, 0, 1, 2, ...}` -- Whole numbers and their negatives.
-| ℚ | Rational Numbers | Numbers that can be expressed as `a/b`, where `a, b ∈ ℤ`, `b ≠ 0`.
+| ℕ | Natural Numbers | stem:[\{0, 1, 2, 3, \ldots\}] -- Counting numbers.
+| ℤ | Integers | stem:[\{\ldots, -2, -1, 0, 1, 2, \ldots\}] -- Whole numbers and their negatives.
+| ℚ | Rational Numbers | Numbers that can be expressed as stem:[a/b], where stem:[a, b \in \mathbb{Z}], stem:[b \neq 0].
 | ℝ | Real Numbers | All rational and irrational numbers.
-| ℂ | Complex Numbers | `a + bi`, where `i = √-1`.
-| ℍ | Quaternions | `a + bi + cj + dk` -- Extension of complex numbers.
+| ℂ | Complex Numbers | stem:[a + bi], where stem:[i = \sqrt{-1}].
+| ℍ | Quaternions | stem:[a + bi + cj + dk] -- Extension of complex numbers.
 | ℙ | Prime Numbers | Natural numbers greater than 1 with no divisors other than 1 and itself.
 | ℙ* | Probable Primes | Numbers that pass a primality test but not definitively proven prime.
-| 𝕋 | Transcendental Numbers | Numbers not roots of any polynomial with integer coefficients (e.g. `π`, `e`).
+| 𝕋 | Transcendental Numbers | Numbers not roots of any polynomial with integer coefficients (e.g. stem:[\pi], stem:[e]).
 | 𝔸 | Algebraic Numbers | Solutions to polynomials with integer coefficients (includes rationals, some irrationals).
 | 𝕌 | Unit Circle Numbers | Complex numbers with modulus 1 (roots of unity).
 | 𝕆 | Octonions | 8-dimensional number system generalizing quaternions.
@@ -112,19 +112,19 @@ These are some standard notations for propositional logic.
 |===
 | Symbol | Name | Mathematical Meaning
 
-| ∃ | Existential Quantifier | "There exists". Example: `∃x ∈ ℝ: x² = 4 ⇒ true`.
-| ∃! | Uniqueness Quantifier | "There exists exactly one". Example: `∃!x: x + 1 = 2`
-| ∀ | Universal Quantifier | "For all". Example: `∀x ∈ ℕ, x ≥ 0`
-| ∈ | Element of | `x ∈ A`: x is a member of set A.
-| ∉ | Not an Element of | `x ∉ A`: x is not in A.
-| ⊂ | Proper Subset | `A ⊂ B`: all A in B, `A ≠ B`.
-| ⊆ | Subset | `A ⊆ B`: all A in B, possibly `A = B`.
-| ⊄ | Not a Subset | `A ⊄ B`: A is not subset of B.
-| ⊃ | Proper Superset | `A ⊃ B`: A has all elements of B and more.
-| ⊇ | Superset | `A ⊇ B`: A contains B, possibly equal.
-| ∪ | Union | `A ∪ B`: Set of elements in A, B, or both.
-| ∩ | Intersection | `A ∩ B`: Elements common to A and B.
-| \ | Set Difference | `A \ B`: Elements in A not in B.
+| ∃ | Existential Quantifier | "There exists". Example: stem:[\exists x \in \mathbb{R}: x^2 = 4 \Rightarrow \text{true}].
+| ∃! | Uniqueness Quantifier | "There exists exactly one". Example: stem:[\exists! x: x + 1 = 2]
+| ∀ | Universal Quantifier | "For all". Example: stem:[\forall x \in \mathbb{N}, x \geq 0]
+| ∈ | Element of | stem:[x \in A]: x is a member of set A.
+| ∉ | Not an Element of | stem:[x \notin A]: x is not in A.
+| ⊂ | Proper Subset | stem:[A \subset B]: all A in B, stem:[A \neq B].
+| ⊆ | Subset | stem:[A \subseteq B]: all A in B, possibly stem:[A = B].
+| ⊄ | Not a Subset | stem:[A \not\subset B]: A is not subset of B.
+| ⊃ | Proper Superset | stem:[A \supset B]: A has all elements of B and more.
+| ⊇ | Superset | stem:[A \supseteq B]: A contains B, possibly equal.
+| ∪ | Union | stem:[A \cup B]: Set of elements in A, B, or both.
+| ∩ | Intersection | stem:[A \cap B]: Elements common to A and B.
+| \ | Set Difference | stem:[A \setminus B]: Elements in A not in B.
 | ∅ | Empty Set | A set containing no elements.
 | ℘ | Power Set | Set of all subsets of a set.
 |===
@@ -151,9 +151,9 @@ They form the backbone of logical systems.
 
 Examples include:
 
-`(A ^ B) => A`
+stem:[(A \land B) \Rightarrow A]
 
-`A => (A v B)`
+stem:[A \Rightarrow (A \lor B)]
 
 Logical axioms provide the formal structure necessary for logical deductions and are typically used in propositional and predicate logic.
 
@@ -163,13 +163,13 @@ Unlike logical axioms, they are not universally valid but are accepted as true w
 
 Example: the {peano-axioms} from arithmetic
 
-`∀x (S(x) ≠ 0)`
+stem:[\forall x\, (S(x) \neq 0)]
 
 Meaning, "for all x, the successor of x is not zero."
 
 This axiom is non-logical because:
 
-- It depends on the interpretation of symbols like `0` and `S(x)`, the _successor function_.
+- It depends on the interpretation of symbols like stem:[0] and stem:[S(x)], the _successor function_.
 - It makes a specific claim about natural numbers, not about general logical structure.
 
 _In integer arithmetic non-logical axioms establish the foundational truths from which theorems of a specific theory are derived._
@@ -180,15 +180,15 @@ _In integer arithmetic non-logical axioms establish the foundational truths from
 
 Reflexive Axiom: Every entity is equal to itself.
 
-- `a = a`
+- stem:[a = a]
 
 Transitive Axiom of Equality: Equality is transitive.
 
-- *If* `a = b` *and* `b = c` , *then* `a = c`
+- *If* stem:[a = b] *and* stem:[b = c] , *then* stem:[a = c]
 
 Addition Axiom: Equal quantities added to equal quantities yield equal sums.
 
-- *If* `a = b` *and* `c = d` , *then* `a + c = b + d`
+- *If* stem:[a = b] *and* stem:[c = d] , *then* stem:[a + c = b + d]
 
  See the thruthfunctional connectives?!
 

@@ -1,8 +1,239 @@
-= 10th Grade Math Cheat Sheet
-:toc: left
-:toclevels: 2
-:icons: font
+---
+header:
+  overlay_image: assets/images/banner-mathematics.jpg
+  overlay_filter: 0.1
+categories: [mathematics]
+tags:
+  - mathematics
+  - algebra
+  - cheat-sheet
+---
+= On Mathematics: 9th & 10th Grade Cheat Sheets
+lugaru
+:page-author_profile: true
+:page-excerpt:
 :stem: latexmath
+:page-layout: single
+:page-classes: wide
+:icons: font
+
+↑ _**{mathematics}**_
+
+== Ninth Grade Cheat Sheet
+
+:leveloffset: +1
+
+== Chapter 1: Exponents
+
+=== Product Rule
+Formula: stem:[X^a \cdot X^b = X^{a+b}] +
+Explanation: If you have two numbers with the same base, multiplying them means keeping the base and adding the exponents. +
+Example: stem:[5^3 \cdot 5^4 = 5^7]
+
+=== Quotient Rule
+Formula: stem:[X^a / X^b = X^{a-b}], as long as stem:[x \neq 0] +
+Explanation: Divide with same base → subtract exponents. +
+Example: stem:[7^5 / 7^2 = 7^3]
+
+=== Power of a Power Rule
+Formula: stem:[(X^a)^b = X^{a \cdot b}] +
+Explanation: Raise a power to another → multiply exponents. +
+Example: stem:[(3^2)^4 = 3^8]
+
+=== Power of a Product Rule
+Formula: stem:[(a \cdot b)^x = a^x \cdot b^x] +
+Explanation: Distribute the exponent to each factor. +
+Example: stem:[(2 \cdot 5)^3 = 2^3 \cdot 5^3 = 1000]
+
+=== Power of a Quotient Rule
+Formula: stem:[(a/b)^x = a^x / b^x], stem:[b \neq 0] +
+Explanation: Apply exponent to both numerator and denominator. +
+Example: stem:[(4/3)^2 = 16/9]
+
+=== Zero Exponent Rule
+Formula: stem:[X^0 = 1], stem:[x \neq 0] +
+Explanation: Any nonzero base raised to 0 = 1. +
+Example: stem:[10000^0 = 1]
+
+=== Negative Exponent Rule
+Formula: stem:[X^{-a} = 1 / X^a], stem:[x \neq 0] +
+Explanation: Flip base and make exponent positive. +
+Example: stem:[5^{-3} = 1/125]; stem:[1/2^{-4} = 2^4 = 16]
+
+=== Exponential Growth and Decay
+
+*Growth:* stem:[A = P(1 + r)^t] +
+*Decay:* stem:[A = P(1 - r)^t] +
+Example: stem:[A = 1000(1.05)^3 = 1157.63]
+
+=== Scientific Notation
+
+Used for very large or very small numbers. +
+Examples: +
+stem:[3{,}200{,}000 = 3.2 \times 10^6] +
+stem:[0.00042 = 4.2 \times 10^{-4}]
+
+== Chapter 2: Polynomials
+
+=== Types of Polynomials
+
+* Monomial: 1 term (e.g., stem:[2x])
+* Binomial: 2 terms (e.g., stem:[3x + 5])
+* Trinomial: 3 terms (e.g., stem:[4x^2 - 3x + 2])
+* Polynomial: >3 terms (e.g., stem:[x^4 + 3x^3 - 2x^2 + 5x - 1])
+* Degree: Highest exponent in the polynomial +
+Example: stem:[4x^3 + 2x^2 - x] has degree 3
+
+=== Operations with Polynomials
+
+*Collecting Like Terms:* Same variables and exponents +
+Example: stem:[3x^2 + 5x^2 = 8x^2]
+
+*Distributive Property:* stem:[a(b + c) = ab + ac] +
+Example: stem:[3(x + 4) = 3x + 12]
+
+=== Multiplying Polynomials
+
+*Binomial × Binomial:* stem:[(a + b)(c + d) = ac + ad + bc + bd] +
+Example: stem:[(x + 3)(x + 5) = x^2 + 8x + 15]
+
+*Binomial × Trinomial:* +
+stem:[(x + 2)(x^2 + 3x + 4) = x^3 + 5x^2 + 10x + 8]
+
+=== Factoring Polynomials
+
+*Common Factor:* +
+stem:[6x^2 + 9x = 3x(2x + 3)]
+
+*Trinomial Factoring:* +
+stem:[x^2 + 7x + 12 = (x + 3)(x + 4)]
+
+== Chapter 3: Solving Equations
+
+=== Basic Equations
+Example: stem:[x + 4 = 7] → stem:[x = 3]
+
+=== Two-Step Equations
+Example: stem:[3x - 5 = 10] → stem:[x = 5]
+
+=== Equations with Fractions
+stem:[x / 3 = 5] → Multiply both sides by 3 → stem:[x = 15]
+
+=== Distributive Property in Equations
+stem:[2(x - 3) = 10] → stem:[2x - 6 = 10] → stem:[x = 8]
+
+=== Cross-Multiplication (Proportions)
+
+If stem:[a/b = c/d], then stem:[ad = bc] +
+Example: stem:[x/5 = 3/10] → stem:[x = 1.5]
+
+=== Variables on Both Sides
+
+Example: stem:[5x + 3 = 2x + 9] → stem:[x = 2]
+
+== Chapter 4: Linear Relationships
+
+=== Scatter Plots and Correlation
+
+* Independent Variable → x-axis
+* Dependent Variable → y-axis
+* Correlation Types: Positive, Negative, None
+* Line of Best Fit: Represents data trend
+* Interpolation vs. Extrapolation
+
+=== Distance-Time Graphs
+
+* Slope = speed
+* Flat line = no movement
+* Steep = faster
+* Downward = return
+* Curved = acceleration or deceleration
+
+=== Slope and Equation of a Line
+
+* Slope: stem:[m = (y_2 - y_1) / (x_2 - x_1)]
+* Forms:
+- Slope-Intercept: stem:[y = mx + b]
+- Point-Slope: stem:[y - y_1 = m(x - x_1)]
+- Standard: stem:[Ax + By + C = 0]
+* Direct: stem:[y = mx] (through origin)
+* Partial: stem:[y = mx + b]
+
+=== Converting Representations
+
+*Table → Equation:* Find slope, y-intercept → stem:[y = mx + b]
+*Graph → Equation:* Use slope and y-intercept → stem:[y = mx + b]
+*Equation → Graph:* Plot y-intercept, use slope for points
+
+=== Parallel and Perpendicular Lines
+
+* Parallel: Same slope
+* Perpendicular: Negative reciprocals
+* Horizontal: stem:[y = c] (slope = 0)
+* Vertical: stem:[x = c] (slope undefined)
+
+== Chapter 5: Geometry
+
+=== Angles and Triangles
+
+* Complementary: stem:[90°]
+* Supplementary: stem:[180°]
+* Parallel Line Pairs: Corresponding, Alternate Interior, Alternate Exterior
+
+=== Triangle Properties
+
+* Interior Angles Sum: stem:[180°]
+* Exterior Angle = sum of opposite interior angles
+* Isosceles Theorem: Equal sides → equal angles
+
+=== Right Triangle Properties
+
+*Pythagorean Theorem:* stem:[a^2 + b^2 = c^2]
+*Trigonometry:* SOH CAH TOA
+*Angles of Elevation/Depression*
+
+=== Perimeter, Area, and Volume
+
+* Rectangle: stem:[P = 2l + 2w], stem:[A = lw]
+* Triangle: stem:[A = \tfrac{1}{2}bh]
+* Circle: stem:[C = 2\pi r], stem:[A = \pi r^2]
+* Sphere: stem:[V = \tfrac{4}{3}\pi r^3]
+* Cylinder: stem:[V = \pi r^2 h]
+
+=== Transformations
+
+* Translation: Slide
+* Reflection: Flip
+* Rotation: Turn
+* Dilation: Resize
+
+== Chapter 6: Probability and Statistics
+
+=== Basic Probability
+
+* Formula: stem:[P = \frac{\text{favorable}}{\text{total}}]
+* Independent: One doesn't affect the other
+* Dependent: One affects the other
+
+=== Descriptive Statistics
+
+* Mean = average
+* Median = middle value
+* Mode = most frequent
+* Range = highest − lowest
+
+=== Data Representation
+
+* Bar Graphs
+* Histograms
+* Pie Charts
+* Box Plots
+
+:leveloffset: 0
+
+== Tenth Grade Cheat Sheet
+
+:leveloffset: +1
 
 A reconciliation map between Algebra 1 (the foundation you should already own) and Algebra 2 (where you're actually headed). Use Algebra 1 as a diagnostic -- don't re-grind what's already solid.
 
@@ -30,7 +261,7 @@ Solving in one variable.
 . Solve: stem:[\frac{x}{3} - \frac{x}{4} = 2].
 . Solve and graph on a number line: stem:[-2x + 7 \geq 15].
 . Solve: stem:[|2x - 1| < 5].
-. A taxi charges \$3 plus \$2 per mile. How many miles correspond to a \$19 fare? Set up and solve an equation.
+. A taxi charges $3 plus $2 per mile. How many miles correspond to a $19 fare? Set up and solve an equation.
 
 === Linear Functions & Graphing
 Slope, intercepts, and the forms of a line (slope-intercept, point-slope, standard).
@@ -181,7 +412,7 @@ Growth, decay, base-_e_.
 . Solve: stem:[3^{x+1} = 81].
 . A population doubles every 5 years. If it is 1,000 now, what is it in 20 years?
 . Sketch stem:[f(x) = 2^x] and stem:[g(x) = (1/2)^x] on the same axes; compare.
-. Compute the value of \$1,000 invested at 5% continuous interest for 10 years using stem:[A = Pe^{rt}].
+. Compute the value of $1,000 invested at 5% continuous interest for 10 years using stem:[A = Pe^{rt}].
 . Solve: stem:[e^{2x} = 7].
 
 === Logarithms
@@ -318,3 +549,5 @@ Picked for depth over polish. Khan Academy is here for gap-checking only -- it's
 | Complex numbers
 | Needham _Visual Complex Analysis_ ch. 1 (older edition PDF free online) + 3Blue1Brown "Complex number fundamentals." Needham is geometric, rigorous, and made for someone who reads Gödel for fun.
 |===
+
+:leveloffset: 0
