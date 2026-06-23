@@ -5,12 +5,6 @@ v1.0.0, Monday the 5th of May 2025 13:18 EST
 :sectnums:
 :sectanchors:
 :sectlinks:
-:icons: font
-:tip-caption: 💡️
-:note-caption: ℹ️
-:important-caption: ❗
-:caution-caption: 🔥
-:warning-caption: ⚠️
 :toc: preamble
 :toclevels: 3
 :toc-title: GitHub Learning Trail

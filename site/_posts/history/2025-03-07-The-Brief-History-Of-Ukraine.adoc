@@ -29,12 +29,6 @@ lugaru
 :sectnums:
 :sectanchors:
 :sectlinks:
-:icons: font
-:tip-caption: 💡️
-:note-caption: ℹ️
-:important-caption: ❗
-:caution-caption: 🔥
-:warning-caption: ⚠️
 :toc: preamble
 :toclevels: 1
 :toc-title: History of Ukraine
@@ -346,9 +340,9 @@ moral and cultural bankruptcy.
 
 == Final Grade
 
-- ✅ Graded assignment https://github.com/rdd13r[by `rdd13r`] on March 7th 2025. #A+#
-- ✅ Revisited for the quarter-final grade May 7th 2025: #A+#
-- ✅ Final grade is 100%. (A+) at Mímir Academy.
+- Graded assignment https://github.com/rdd13r[by `rdd13r`] on March 7th 2025. #A+#
+- Revisited for the quarter-final grade May 7th 2025: #A+#
+- Final grade is 100%. (A+) at Mímir Academy.
 
 *Took note of:*
 

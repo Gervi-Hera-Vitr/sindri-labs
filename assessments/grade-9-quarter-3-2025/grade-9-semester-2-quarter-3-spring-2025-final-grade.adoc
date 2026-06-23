@@ -5,12 +5,6 @@ v1.0, Tuesday May 6th 2025
 :sectnums:
 :sectanchors:
 :sectlinks:
-:icons: font
-:tip-caption: 💡️
-:note-caption: ℹ️
-:important-caption: ❗
-:caution-caption: 🔥
-:warning-caption: ⚠️
 :toc: preamble
 :toclevels: 2
 :toc-title: Mímir Academy
@@ -27,4 +21,3 @@ ifdef::env-name[:relfilesuffix: .adoc]
 * Wednesday and Saturday: Shop
 ** General Repairs: A+;
 ** Home Improvement: A+.
-

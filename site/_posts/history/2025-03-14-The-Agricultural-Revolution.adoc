@@ -20,7 +20,7 @@ header:
 categories: [history]
 tags: [graded]
 ---
-= History: 🌾 The Agricultural Revolution -- an Overview
+= History: The Agricultural Revolution -- an Overview
 lugaru
 :page-author_profile: true
 :page-excerpt:
@@ -29,12 +29,6 @@ lugaru
 :sectnums:
 :sectanchors:
 :sectlinks:
-:icons: font
-:tip-caption: 💡️
-:note-caption: ℹ️
-:important-caption: ❗
-:caution-caption: 🔥
-:warning-caption: ⚠️
 :toc: preamble
 :toclevels: 1
 :toc-title: History of Agriculture
@@ -48,7 +42,7 @@ ifdef::env-name[:relfilesuffix: .adoc]
 
 ↑ _**link:/sindri-labs/history/[History]**_
 
-== 🗺️ What Was the Agricultural Revolution?
+== What Was the Agricultural Revolution?
 
 The Agricultural Revolution, also called the Neolithic Revolution,
 was a period when human societies transitioned from a hunter-gatherer lifestyle to *agriculture* and *settled living*.
@@ -60,7 +54,7 @@ Key Points::
 * Domesticate and grow crops.
 * Domesticate animals.
 
-== 📅 When Did It Happen?
+== When Did It Happen?
 
 * Roughly 12,000 to 10,000 years ago (10,000 BCE to 8,000 BCE).
 * It started in different places independently over time:
@@ -76,7 +70,7 @@ That is because humans stopped roaming and settled down.
 Calling place of their own humans developed such places.
 As in building up one's own cradle.
 
-== 🌱 How It Started (Step by Step)
+== How It Started (Step by Step)
 
 Human societies took a similar path independently of one another.
 Thus, there is a certain order to the Agricultural Revolution.
@@ -98,7 +92,7 @@ Experimentation and Domestication::
 
 _For the first time, humans had a possibility of persistent plenty-life, opening up time for exploration and discovery (*THINKING*)._
 
-🏡 Permanent Settlements::
+Permanent Settlements::
 * Once farming provided a steady food supply, people built *_permanent_* homes.
 * Early villages appeared, often near rivers for water and fertile soil.
 * Famous examples: {jericho}[Jericho (Israel)] and {konya}[Çatalhöyük (Turkey)].
@@ -106,7 +100,7 @@ _For the first time, humans had a possibility of persistent plenty-life, opening
 
 _Sitting down with nothing to do and thinking on a full belly opened up a whole new world for humans._
 
-== 🏺 New Technologies
+== New Technologies
 
 * *Pottery*: For storing food and water.
 * *Weaving & textiles*: From plant fibers and animal wool.
@@ -115,7 +109,7 @@ _Sitting down with nothing to do and thinking on a full belly opened up a whole 
 * *Wheels and carts*: To transport goods.
 * *Metallurgy*: (Later Neolithic) people began working copper.
 
-== ⚖️ Social Changes
+== Social Changes
 
 Food Surplus ➜ Specialized Labor::
 * Farmers produced more than they needed;
@@ -133,44 +127,44 @@ Trade Networks::
 * Surpluses of food, pottery, and textiles were traded for obsidian, copper, shells, etc.
 * Trade linked distant regions.
 
-☠️ Downsides::
+Downsides::
 * *Malnutrition*: People relied on limited crops like wheat, which lacked some nutrients.
 * *Diseases*: Living in close quarters with animals and people spread disease.
 * *War and Conflict*: Ownership of land and resources led to warfare.
 * *Environmental Damage*: Deforestation and over-farming damaged soils.
 
-== 🛖 Example: Ukraine and the Trypillia Culture
+== Example: Ukraine and the Trypillia Culture
 
-🗺️ Where::
+Where::
 * Modern Ukraine, Moldova, Romania
 
-📅 When::
+When::
 * About 5500 BCE to 2750 BCE
 
-🌾 What Did They Do?::
+What Did They Do?::
 * One of Europe’s first farming societies.
 * Built *_huge_* settlements, housing 15,000 people.
 * Farmed wheat, barley, peas, and flax.
 * Raised cattle, sheep, pigs, and goats.
 
-🏡 How They Lived::
+How They Lived::
 * Houses made of wooden frames plastered with clay, often arranged in spiral or concentric circles.
 * Villages were burned down after decades and rebuilt on top of the ruins.
 
-🏺 Technology::
+Technology::
 * Produced beautiful pottery with spiral and geometric designs in red, black, and white.
 * Made figurines, possibly representing goddesses or fertility idols.
 * Practiced early metallurgy, working with copper tools and ornaments.
 
-⚖️ Social Life::
+Social Life::
 * Lived in organized societies, likely with chiefs or *_councils_* (democratic).
 * Trade routes extended into the Balkans, exchanging copper, salt, and pottery.
 
-🌍 Why They Matter::
+Why They Matter::
 * Among the *_earliest complex societies_* in Europe.
 * Their farming and social organization set the stage for later European civilizations.
 
-== 🔥 Why the Agricultural Revolution Changed Everything
+== Why the Agricultural Revolution Changed Everything
 
 * Farming allowed people to (1) settle, (2) create cities, and (3) develop civilizations.
 * Laid the groundwork for laws, writing, religion, governments, and technology.
@@ -178,7 +172,7 @@ Trade Networks::
 
 == Regional Case Studies
 
-🏜️ Mesopotamia (Fertile Crescent)::
+Mesopotamia (Fertile Crescent)::
 * *Where*: Modern Iraq, Syria, Turkey.
 * *Crops*: Wheat, barley, lentils, chickpeas, flax.
 * *Animals*: Sheep, goats, cattle, pigs.
@@ -187,45 +181,45 @@ Called _the_ "Cradle of Civilization." +
 Settlements near the Tigris and Euphrates rivers. +
 Created irrigation systems. First cities: Uruk, Ur, Eridu.
 
-🌊 Ancient Egypt (Nile River Valley)::
+Ancient Egypt (Nile River Valley)::
 * *Crops*: Wheat, barley, flax (for linen).
 * *Animals*: Cattle, sheep, goats.
 * *Why Important*: +
 Nile floods created fertile silt. +
 Massive food surpluses led to Egyptian Kingdoms and monumental architecture.
 
-🐘 Indus Valley Civilization::
+Indus Valley Civilization::
 * *Where*: Modern Pakistan and northwest India.
 * *Crops*: Wheat, barley, peas, cotton.
 * *Why Important*: Advanced drainage, granaries, _uniform weights and measures_. +
 Cities like Harappa and Mohenjo-Daro.
 
-🐉 Ancient China (Yellow River Valley)::
+Ancient China (Yellow River Valley)::
 * *Crops*: Millet in the north; rice in the south.
 * *Animals*: Pigs, chickens, water buffalo.
 * *Why Important*: Irrigation and flood control. +
 Bronze metallurgy, silk production, complex writing.
 
-🌽 Mesoamerica::
+Mesoamerica::
 * *Crops*: Maize, beans, squash, chili peppers.
 * *Why Important*: Maize domestication was revolutionary. +
 Olmecs, Maya, and Aztecs built cities without draft animals or the wheel.
 
-🌾 Sub-Saharan Africa::
+Sub-Saharan Africa::
 * *Crops*: Yams, millet, sorghum.
 * *Animals*: Cattle, goats.
 * *Why Important*: Bantu migrations spread farming, iron tools, and language.
 
 == Domesticated Plants & Animals
 
-🌾 Plants::
+Plants::
 * Wheat & Barley: Fertile Crescent (~9,500 BCE).
 * Rice: China (~7,000 BCE).
 * Maize (corn): Mexico (~7,000 BCE).
 * Potatoes: Andes Mountains (~5,000 BCE).
 * Yams & Sorghum: Africa (~5,000 BCE).
 
-🐏 Animals::
+Animals::
 * Dogs: ~15,000 BCE, used for hunting and protection.
 * Sheep & Goats: Fertile Crescent (~8,000 BCE).
 * Cattle: Independently domesticated in Africa, the Middle East, and India (~6,000 BCE).
@@ -234,72 +228,72 @@ Olmecs, Maya, and Aztecs built cities without draft animals or the wheel.
 
 == Tools & Innovations
 
-⚒️ Plows::
+Plows::
 * Early plows were wooden sticks pulled by humans.
 * Later, oxen ware used for heavier plows to break tough soils.
 
-💧 Irrigation Systems::
+Irrigation Systems::
 * Channels, canals, and dikes diverted water.
 * Mesopotamians built levees. Egyptians timed planting with Nile floods. Chinese built flood control systems.
 
-🏺 Pottery::
+Pottery::
 * Stored grain and liquids.
 * Decorated with symbols, sometimes early writing.
 
-🛞 Wheels and Carts::
+Wheels and Carts::
 * Invented around 3500 BCE in Mesopotamia.
 * Made transporting goods easier and increased trade.
 
-🔨 Metallurgy::
+Metallurgy::
 * First copper, later bronze (copper + tin).
 * Tools and weapons increased farming efficiency and warfare.
 
 == Religious & Cultural Shifts
 
-🌸 Fertility Goddesses::
+Fertility Goddesses::
 * Worship of fertility deities, often female.
 * Statues like Venus of Willendorf symbolized fertility and motherhood.
 
-🏺 Ancestor Worship::
+Ancestor Worship::
 * Ancestors buried beneath homes or special sites.
 * Believed to protect land and harvests.
 
-🔥 Ritual Burnings (Trypillia Example)::
+Ritual Burnings (Trypillia Example)::
 * Villages burned every 60–80 years.
 * Possible reasons: ritual purification, pest control, or renewal.
 
-🏯 Temples & Sacred Sites::
+Temples & Sacred Sites::
 * Göbekli Tepe predates farming (~9600 BCE).
 * Shows religion may have motivated the Agricultural Revolution.
 
 == Transition from Villages to Cities
 
-🛖 Villages::
+Villages::
 * Permanent homes of mudbrick or wood.
 * Examples: Çatalhöyük, Jericho.
 
-🏙️ Cities::
+Cities::
 * Cities like Uruk had population density, walls, public buildings.
 * Governments managed irrigation, defense, trade.
 * Writing systems like cuneiform recorded trade, laws, taxes.
 
-⚖️ Governments & Armies::
+Governments & Armies::
 * Chiefs and kings controlled land and resources.
 * Armies defended wealth and territory.
 
 == Long-term Consequences
 
-🚼 Population Explosion::
+Population Explosion::
 * More food ➜ More people ➜ Population booms.
 
-🦠 Disease::
+Disease::
 * Close living with people and animals ➜ Spread of diseases like smallpox and flu.
 
-👩‍🌾 Gender Roles::
+Gender Roles::
 * Men often took over plowing and herding.
 * Some argue women’s status declined in patriarchal societies.
 
-💰 Social Inequality::
+Social Inequality::
 * Land and food hoarding led to wealthy elites and poor farmers.
 * Slavery emerged as a result of warfare and inequality.
 

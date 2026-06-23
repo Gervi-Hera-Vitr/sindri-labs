@@ -208,7 +208,7 @@ and useful framework for exploring mathematical truths.
 
 == Final Grade and Comments
 
-- ✅ Graded assignment by {rdd13r} on July 12th 2025. *A*
+- Graded assignment by {rdd13r} on July 12th 2025. *A*
 
 == Legends mentioned
 

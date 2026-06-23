@@ -5,12 +5,6 @@ v1.1, Sunday, January 19th, 2025; Updated: Thursday, May 8th, 2025
 :sectnums:
 :sectanchors:
 :sectlinks:
-:icons: font
-:tip-caption: 💡️
-:note-caption: ℹ️
-:important-caption: ❗
-:caution-caption: 🔥
-:warning-caption: ⚠️
 :toc: preamble
 :toclevels: 1
 :toc-title: Saboteur Essay and Examination
@@ -141,7 +135,7 @@ One MUST understand a problem before one can solve it!
 . *Track Their Patterns:* Recognize when and how each Saboteur shows up in your thoughts, feelings, and behaviors.
 
 Strengthen Your Sage Mindset::
-*_The Sage_* represents the positive, empathetic, and rational part of your mind. 
+*_The Sage_* represents the positive, empathetic, and rational part of your mind.
 Strengthening this mindset helps counteract Saboteurs.
 - *Practice Empathy:* Be kind and compassionate toward yourself and others.
 - *Focus on Purpose:* Align your actions with long-term values and goals rather than short-term emotional reactions.
@@ -177,4 +171,3 @@ All of this is just some theoretical ramblings, smoke and mirrors, pretty talkin
 == Final Grade: 10/10
 
 #A+#
-

@@ -30,7 +30,6 @@ lugaru
 :sectnums:
 :sectanchors:
 :sectlinks:
-:icons: font
 :toc: preamble
 :toclevels: 2
 :toc-title: Mímis Academy History

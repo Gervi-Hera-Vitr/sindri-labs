@@ -4,7 +4,6 @@
 :toc: left
 :toclevels: 2
 :sectnums:
-:icons: font
 
 [.lead]
 Expertise isn't about raw intelligence, better memory, or natural talent. At its core, *expertise is recognition*—the ability to see patterns that novices can't. But becoming an expert requires specific conditions, and in domains where those conditions aren't met, "experts" may perform no better than chance.

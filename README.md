@@ -19,7 +19,7 @@ adult hackers of [AGAIN](https://github.com/Gotham-Village "AGAIN as Gotham Vill
 
 **Learning is the sacred core value of [Mímir](https://en.wikipedia.org/wiki/M%C3%ADmir "Mímir, the Norse god of knowledge").**
 
-_Come, have a drink from [Yggdrasil](https://en.wikipedia.org/wiki/Yggdrasil "Yggdrasil, the World Tree") with us._ 😀
+_Come, have a drink from [Yggdrasil](https://en.wikipedia.org/wiki/Yggdrasil "Yggdrasil, the World Tree") with us._
 
 -- Captain and DaiDai<br/>
 2024-10-27

@@ -4,7 +4,6 @@
 :toc: left
 :toclevels: 2
 :sectnums:
-:icons: font
 
 [.lead]
 Neurons transmit information through electrical signals within themselves and chemical signals between each other. A neuron receives thousands of inputs through its dendrites, integrates them at the axon hillock, and—if threshold is reached—fires an action potential down its axon to release neurotransmitters onto the next cell. This is the fundamental unit of nervous system computation.

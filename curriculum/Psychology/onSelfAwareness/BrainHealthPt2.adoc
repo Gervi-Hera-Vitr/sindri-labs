@@ -2,15 +2,12 @@
 :toc: left
 :toclevels: 3
 :sectnums:
-:icons: font
 
 == Executive Summary
 
 The adolescent brain is in a uniquely powerful window—prefrontal cortex still maturing, synaptic pruning refining connections, myelination enhancing processing speed. This creates *heightened responsiveness to positive interventions*.
 
 The foundational triad of *sleep (8-10 hours), exercise (150+ minutes weekly), and whole-food nutrition* collectively produces larger effect sizes than any supplement or brain-training program.
-
----
 
 == Exercise: The Most Powerful Cognitive Enhancer
 
@@ -73,8 +70,6 @@ A Bayesian network meta-analysis of 39 RCTs ranked exercise modalities for BDNF 
 |4 hours after declarative learning; immediately after motor learning
 |===
 
----
-
 == Sleep Optimization
 
 === Why Sleep Architecture Matters
@@ -116,8 +111,6 @@ Seattle school study: delaying start from 7:50 AM to 8:45 AM → *34 minutes mor
 *Studying before sleep enhances retention*—consolidation happens during that night's sleep.
 
 An all-nighter after learning *permanently impairs* that day's consolidation.
-
----
 
 == Nutrition for Brain Development
 
@@ -183,8 +176,6 @@ Target: 8-11 cups (females), 10-15 cups (males).
 *Intermittent fasting is NOT recommended for adolescents.* 2025 study found chronic IF in adolescent mice disrupted beta cell development.
 ====
 
----
-
 == Cognitive Training: Evidence vs. Hype
 
 === Musical Instrument Training (Strong Evidence)
@@ -214,8 +205,6 @@ Eight weeks of MBSR (averaging 27 minutes daily):
 === Reading Fiction
 
 Fiction readers score higher on empathy and Theory of Mind measures. Effects strongest when "emotionally transported" into the story.
-
----
 
 == Environmental Optimization
 
@@ -273,8 +262,6 @@ For teens: start with 10-15 minute sessions, stay hydrated.
 
 Workers with morning light exposure scored *79% higher* on cognitive tests.
 
----
-
 == Social Connection
 
 === The Evidence
@@ -288,8 +275,6 @@ Workers with morning light exposure scored *79% higher* on cognitive tests.
 Parental support effectively blocks cortisol stress responses in children but is *less effective for adolescents*—peer support becomes increasingly important.
 
 This is developmentally normative, not parental failure.
-
----
 
 == Supplementation: Honest Assessment
 
@@ -321,8 +306,6 @@ This is developmentally normative, not parental failure.
 * *Lion's Mane:* 2025 RCT found no significant cognitive improvement
 * *Racetams:* No evidence in non-impaired individuals
 * *B vitamins:* No effect unless deficient
-
----
 
 == Evidence-Based Study Techniques
 
@@ -374,8 +357,6 @@ Feels harder but produces better long-term results.
 * Total deep work capacity: ~4-5 hours daily maximum
 * Phone physically removed during study
 
----
-
 == Breathing Techniques
 
 === Resonance Breathing (5-second inhale, 5-second exhale)
@@ -391,8 +372,6 @@ Cell Reports Medicine: produced greater mood improvements than mindfulness medit
 Extended exhalation strongly activates vagus nerve. RCTs show significantly reduced anxiety.
 
 *Safe for all ages, free, practice anywhere.*
-
----
 
 == Microplastics: What We Know and What To Do
 
@@ -532,8 +511,6 @@ Dr. Philip Landrigan (Boston College): "It's important not to scare the hell out
 
 The goal is *reasonable precaution*, not paranoia. Focus on high-impact changes (kitchen and water) first.
 
----
-
 == Implementation Framework
 
 === Daily Non-Negotiables
@@ -565,8 +542,6 @@ The goal is *reasonable precaution*, not paranoia. Focus on high-impact changes 
 * [ ] Replace non-stick cookware with cast iron/stainless/ceramic
 * [ ] Install water filter (reverse osmosis or quality carbon block)
 * [ ] Get reusable water bottle (glass or stainless steel)
-
----
 
 == Evidence Quality Summary
 
@@ -626,8 +601,6 @@ The goal is *reasonable precaution*, not paranoia. Focus on high-impact changes 
 |*Weak* for transfer
 |Near transfer only
 |===
-
----
 
 == Conclusion
 

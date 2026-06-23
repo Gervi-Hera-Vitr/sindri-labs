@@ -6,12 +6,6 @@ v1.1, 2025-01-26
 :sectnums:
 :sectanchors:
 :sectlinks:
-:icons: font
-:tip-caption: 💡️
-:note-caption: ℹ️
-:important-caption: ❗
-:caution-caption: 🔥
-:warning-caption: ⚠️
 :toc: preamble
 :toclevels: 1
 :toc-title: Saboteur Essay and examination

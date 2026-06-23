@@ -5,10 +5,10 @@ NOTE: This is the general references for ALL learning resources of this curricul
 
 == For the Impatient Experts
 
-* https://kotlinlang.org/docs/koans.html[Kotlin Koans] 👍🏻
-* https://plugins.jetbrains.com/education?search=kotlin[Launch in IDE] (https://plugins.jetbrains.com/plugin/10081-jetbrains-academy[JetBrains Academy Plugin]) 👍🏻🥳
+* https://kotlinlang.org/docs/koans.html[Kotlin Koans]
+* https://plugins.jetbrains.com/education?search=kotlin[Launch in IDE] (https://plugins.jetbrains.com/plugin/10081-jetbrains-academy[JetBrains Academy Plugin])
 * https://kotlinlang.org/docs/getting-started.html[Get started with Kotlin]
-* https://www.jetbrains.com/pages/academy/kotlin/[JetBrains Academy] (https://hyperskill.org/[Hyperskill]) 📚🙇🏼‍♀️
+* https://www.jetbrains.com/pages/academy/kotlin/[JetBrains Academy] (https://hyperskill.org/[Hyperskill])
 * https://youtube.com/@Kotlin[YouTube: Kotlin by JetBrains]
 
 == Language References

@@ -15,7 +15,6 @@ lugaru
 :stem: latexmath
 :page-layout: single
 :page-classes: wide
-:icons: font
 
 ↑ _**{mathematics}**_
 

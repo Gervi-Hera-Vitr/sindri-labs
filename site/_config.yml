@@ -50,6 +50,7 @@ safe                        : false
 ### AsciiDoc / Asciidoctor — site-wide attributes
 asciidoctor:
   attributes:
+    icons                   : font
     captain                 : 'https://github.com/CaptainLugaru[Captain,window=_blank]'
     munchkin                : 'http://www.catb.org/jargon/html/M/munchkin.html[munchkin,window=_blank]'
     rdd13r                  : 'https://github.com/rdd13r/[DaiDai,window=_blank]'

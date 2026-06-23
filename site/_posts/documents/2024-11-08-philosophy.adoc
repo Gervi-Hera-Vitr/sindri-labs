@@ -30,12 +30,6 @@ rdd13r
 :sectnums:
 :sectanchors:
 :sectlinks:
-:icons: font
-:tip-caption: 💡️
-:note-caption: ℹ️
-:important-caption: ❗
-:caution-caption: 🔥
-:warning-caption: ⚠️
 :toc: preamble
 :toclevels: 2
 :toc-title: Mímir Academy Giants
@@ -289,7 +283,7 @@ This is a lesson learned by both the student and the instructor.
 
 == Final Grade and Comments
 
-- ✅ Graded assignment by {rdd13r} on March 27th 2026. *A*
+- Graded assignment by {rdd13r} on March 27th 2026. *A*
 
 _This is now in the quarterly maintenance phase._
 
