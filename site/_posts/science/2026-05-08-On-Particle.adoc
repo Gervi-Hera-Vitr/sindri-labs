@@ -142,7 +142,3 @@ It did not. Other, smaller things do. The concept survives; the label simply bel
 - {see-parmenides}
 - {see-plato}
 - {see-thomson}
-
-== Final Grade and Comments
-
-- ✅ Graded assignment by {rdd13r} on July 17th 2026. *A+*

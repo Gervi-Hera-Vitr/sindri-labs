@@ -116,7 +116,3 @@ Example::
 * Trigonometry (basic sine, cosine, tangent)
 
 *_Physics is a science derived from mathematics just like every other science._*
-
-== Final Grade and Comments
-
-- ✅ Graded assignment by {rdd13r}. *A+ — 10/10*

@@ -1,23 +1,23 @@
-= Engineering: My Machine Learning Study Plan
-Cpt. Lugaru (CaptainLugaru) <72951616+CaptainLugaru@users.noreply.github.com>
-v1.0, Saturday, October 10, 2024
-:description: Engineering plan for Anton's machine learning study
-:sectnums:
-:sectanchors:
-:sectlinks:
-:icons: font
-:tip-caption: 💡️
-:note-caption: ℹ️
-:important-caption: ❗
-:caution-caption: 🔥
-:warning-caption: ⚠️
-:toc: preamble
-:toclevels: 1
-:toc-title: Study ML
-:keywords: Homeschool Learning Journey
-:imagesdir: ./images
-:labsdir: ./labs
-ifdef::env-name[:relfilesuffix: .adoc]
+---
+header:
+  overlay_image: assets/images/banner-ai-labs.jpg
+  overlay_filter: 0.1
+categories: [school]
+tags:
+  - engineering
+  - machine-learning
+  - ml
+  - study-plan
+---
+= On Machine Learning: My Study Plan
+lugaru
+:page-author_profile: true
+:page-excerpt:
+:page-layout: single
+:page-classes: wide
+:on-engineering: link:/sindri-labs/engineering/[Engineering]
+
+↑ _**{on-engineering}**_
 
 Anton’s Machine Learning Curriculum Plan::
   I am comfortable with Kotlin, Java, and Python, is diving into machine learning.
@@ -52,7 +52,3 @@ Resources::
 Inspiration::
 
 - https://github.com/lmoroney/mlday-tokyo[ML Day Tokyo]
-
-== Final Grade: 10/10
-
-#A+#

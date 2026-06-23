@@ -1,22 +1,24 @@
-= Engineering: Munchkin's Guide to GitHub
-Cpt. Lugaru (CaptainLugaru) <72951616+CaptainLugaru@users.noreply.github.com>
-v1.0, Friday March 7, 2025
-:description: Munchkins' long learning trail in GitHub, VCS, and all-things Ops as part of Mímir homeschooling.
-:sectnums:
-:sectanchors:
-:sectlinks:
-:icons: font
-:tip-caption: 💡️
-:note-caption: ℹ️
-:important-caption: ❗
-:caution-caption: 🔥
-:warning-caption: ⚠️
-:toc: preamble
-:toclevels: 3
-:toc-title: GitHub Learning Trail
-:keywords: AI ML Ops Learning Journey
-:imagesdir: ./resources/images
-ifdef::env-name[:relfilesuffix: .adoc]
+---
+header:
+  overlay_image: assets/images/banner-devops.jpg
+  overlay_filter: 0.1
+categories: [school]
+tags:
+  - engineering
+  - devops
+  - git
+  - github
+  - vcs
+---
+= On GitHub: A Munchkin's Guide
+lugaru
+:page-author_profile: true
+:page-excerpt:
+:page-layout: single
+:page-classes: wide
+:on-engineering: link:/sindri-labs/engineering/[Engineering]
+
+↑ _**{on-engineering}**_
 
 :git-docs: https://git-scm.com/doc
 :github-docs: https://docs.github.com/en
@@ -733,11 +735,6 @@ Why Trunk-Based Development or Forever Branches? -- ALL of the above::
 | What is a Forever Branch? | Permanent branches (`main`, `trunk`) that always exist and are stable.
 | Why do this? | Improve quality, reduce risk, speed up releases, and maintain stable codebases.
 |===
-
-== Final Grade
-
-- ✅ Graded assignment https://github.com/rdd13r[by `rdd13r`] on March 7th 2025.
-- ✅ Final grade is 100%. (A+) at Mímir Academy.
 
 == References
 

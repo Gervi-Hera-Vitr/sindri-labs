@@ -274,7 +274,3 @@ The "Higgs boson" is partly a labeling accident.
 * Graham Farmelo, _The Strangest Man: The Hidden Life of Paul Dirac_ (2009). The definitive Dirac biography.
 * Frank Close, _Elusive: How Peter Higgs Solved the Mystery of Mass_ (2022).
 * Diogenes Laertius, _Lives of Eminent Philosophers_, Book IX -- the main ancient source for Leucippus and Democritus.
-
-== Final Grade and Comments
-
-- ✅ Graded assignment by {rdd13r} on July 18th 2026. *A*
