@@ -30,15 +30,6 @@ See our security policy [here](https://github.com/Gervi-Hera-Vitr/sindri-labs/se
 
 **The curriculum and the learning trail are structured hierarchically as follows:**
 
-- [**administration**](./administration) - _**Run The School**_ resources necessary for operating the school:
-  - Governance, Management and State Requirements;
-  - Calendars and Schedules; Administrative record keeping;
-  - Strategic Study Planning: Didactic plan (dedicated project).
-- [**assessments**](./assessments) - Tracking and Reporting of Student Progress and Performance.
-- [**curriculum**](./curriculum) - _**Planned Learning Materials**_: exact content of the **hands-on** learning;
-   - **Core Philosophy** - student must master the skills of discovering facts, building arguments, and drawing conclusions;
-   - **Granularity** - learning materials covered here must be exact;
-   - **Execution** - _there should never be top-down teaching of any kind_ - _**all learning is ALWAYS collaborative!**_
 - [**journey**](./journey) - _**Philosophical Foundation**_: high-level governance of the **hands-on** learning **journey**;
   - **ToDo**: _not fully committed to the learning trail yet - too few iterations_;
   - **For teachers**: a book or a guide encapsulating the educational program;

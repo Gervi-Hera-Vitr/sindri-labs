@@ -1,7 +1,33 @@
+---
+header:
+  overlay_image: assets/images/banner-biology.jpg
+  overlay_filter: 0.2
+  actions:
+    - label: "Literature"
+      url: /literature/
+    - label: "History"
+      url: /history/
+    - label: "Psychology"
+      url: /psychology/
+    - label: "Philosophy"
+      url: /philosophy/
+    - label: "Mathematics"
+      url: /mathematics/
+    - label: "Science"
+      url: /science/
+    - label: "Engineering"
+      url: /engineering/
+    - label: "Business"
+      url: /business/
+categories: [psychology]
+---
 = Saboteurs Essay
-Cpt. Lugaru (CaptainLugaru) <72951616+CaptainLugaru@users.noreply.github.com>
-v1.1, Sunday, January 19th, 2025; Updated: Thursday, May 8th, 2025
-:description: A breakdown of saboteurs, what they are, and how they affect you.
+lugaru
+:page-author_profile: true
+:page-excerpt:
+:page-layout: single
+:page-classes: wide
+:imagesdir: /sindri-labs/assets/images
 :sectnums:
 :sectanchors:
 :sectlinks:
@@ -9,10 +35,11 @@ v1.1, Sunday, January 19th, 2025; Updated: Thursday, May 8th, 2025
 :toclevels: 1
 :toc-title: Saboteur Essay and Examination
 :keywords: Homeschool Learning Journey
-:imagesdir: ./images
 :labsdir: ./labs
-ifdef::env-name[:relfilesuffix: .adoc]
 :saboteur-test: https://www.positiveintelligence.com/saboteurs/
+ifdef::env-name[:relfilesuffix: .adoc]
+
+↑ _**link:/sindri-labs/psychology/[Psychology]**_
 
 == What are Saboteurs?
 
@@ -84,7 +111,6 @@ The Victim::
 
 Displays emotional and temperamental behavior to gain attention and affection,
 with an extreme focus on internal, particularly painful, feelings, often exhibiting a martyr complex.
-
 
 == The Origin of saboteurs:
 
@@ -160,9 +186,9 @@ Build Habits of Resilience::
 Being Patient and Persistent::
 _Overcoming Saboteurs *is a process*, not an instant fix._ +
 Progress happens as you:
-- _**Practice** daily mental fitness_.
+- _*Practice* daily mental fitness_.
 - _Continuously *redirect* your thoughts from Saboteurs to your Sage_.
-- _**Celebrate small** wins along the way_.
+- _*Celebrate small* wins along the way_.
 
 == Examples
 

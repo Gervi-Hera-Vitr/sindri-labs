@@ -9,6 +9,8 @@ header:
       url: /literature/
     - label: "History"
       url: /history/
+    - label: "Psychology"
+      url: /psychology/
     - label: "Mathematics"
       url: /mathematics/
     - label: "Science"

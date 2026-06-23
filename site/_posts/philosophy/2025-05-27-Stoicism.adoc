@@ -1,7 +1,33 @@
+---
+header:
+  overlay_image: assets/images/banner-philosophy.jpg
+  overlay_filter: 0.2
+  actions:
+    - label: "Literature"
+      url: /literature/
+    - label: "History"
+      url: /history/
+    - label: "Psychology"
+      url: /psychology/
+    - label: "Philosophy"
+      url: /philosophy/
+    - label: "Mathematics"
+      url: /mathematics/
+    - label: "Science"
+      url: /science/
+    - label: "Engineering"
+      url: /engineering/
+    - label: "Business"
+      url: /business/
+categories: [philosophy]
+---
 = Stoicism
-Cpt. Lugaru (CaptainLugaru) <72951616+CaptainLugaru@users.noreply.github.com>
-v1.1, Monday, May 19, 2025
-:description: Learning what is Stoicism
+lugaru
+:page-author_profile: true
+:page-excerpt:
+:page-layout: single
+:page-classes: wide
+:imagesdir: /sindri-labs/assets/images
 :sectnums:
 :sectanchors:
 :sectlinks:
@@ -9,8 +35,11 @@ v1.1, Monday, May 19, 2025
 :toclevels: 1
 :toc-title: What is Stoicism
 :keywords: Homeschool Learning Journey, Philosophy, Virtue, Mental Resilience
-:imagesdir: ./images
 :labsdir: ./labs
+ifdef::env-name[:relfilesuffix: .adoc]
+
+↑ _**link:/sindri-labs/philosophy/[Philosophy]**_
+
 
 ifdef::env-name[:relfilesuffix: .adoc]
 
@@ -149,3 +178,4 @@ Think of a man denied a promotion. A Stoic doesn’t judge himself by the decisi
 TIP: *“Between stimulus and response, there is a space. In that space is our power to choose our response.”* -- Viktor Frankl
 
 Just as Zeno did when his ship sank, we can learn to accept life’s storms and sail through them with dignity. Even if the ship sinks, we can take comfort in having lived well -- that is the way of the Stoic.
+

@@ -1,9 +1,33 @@
+---
+header:
+  overlay_image: assets/images/banner-biology.jpg
+  overlay_filter: 0.2
+  actions:
+    - label: "Literature"
+      url: /literature/
+    - label: "History"
+      url: /history/
+    - label: "Psychology"
+      url: /psychology/
+    - label: "Philosophy"
+      url: /philosophy/
+    - label: "Mathematics"
+      url: /mathematics/
+    - label: "Science"
+      url: /science/
+    - label: "Engineering"
+      url: /engineering/
+    - label: "Business"
+      url: /business/
+categories: [psychology]
+---
 = Captain's Saboteurs
-Cpt. Lugaru (CaptainLugaru) <72951616+CaptainLugaru@users.noreply.github.com>
-v1.1, 2025-02-05
-
-
-:description: A breakdown of saboteurs, what they are, and how they affect you.
+lugaru
+:page-author_profile: true
+:page-excerpt:
+:page-layout: single
+:page-classes: wide
+:imagesdir: /sindri-labs/assets/images
 :sectnums:
 :sectanchors:
 :sectlinks:
@@ -11,9 +35,11 @@ v1.1, 2025-02-05
 :toclevels: 1
 :toc-title: Saboteur Essay and examination
 :keywords: Homeschool Learning Journey
-:imagesdir: ./images
 :labsdir: ./labs
 ifdef::env-name[:relfilesuffix: .adoc]
+
+↑ _**link:/sindri-labs/psychology/[Psychology]**_
+
 
 == The Avoider And Restlessness combo
 
@@ -70,3 +96,4 @@ I’ll focus on getting challenging or necessary tasks done as soon as I see the
 #A+#
 
 Well done!
+

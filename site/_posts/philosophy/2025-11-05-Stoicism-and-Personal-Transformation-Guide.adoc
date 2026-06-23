@@ -1,8 +1,41 @@
+---
+header:
+  overlay_image: assets/images/banner-philosophy.jpg
+  overlay_filter: 0.2
+  actions:
+    - label: "Literature"
+      url: /literature/
+    - label: "History"
+      url: /history/
+    - label: "Psychology"
+      url: /psychology/
+    - label: "Philosophy"
+      url: /philosophy/
+    - label: "Mathematics"
+      url: /mathematics/
+    - label: "Science"
+      url: /science/
+    - label: "Engineering"
+      url: /engineering/
+    - label: "Business"
+      url: /business/
+categories: [philosophy]
+---
 = Stoicism & Personal Transformation Guide
+lugaru
+:page-author_profile: true
+:page-excerpt:
+:page-layout: single
+:page-classes: wide
+:imagesdir: /sindri-labs/assets/images
 :toc:
 :toc-placement: preamble
 :toclevels: 2
 :toc-title: Table of Contents
+ifdef::env-name[:relfilesuffix: .adoc]
+
+↑ _**link:/sindri-labs/philosophy/[Philosophy]**_
+
 
 [abstract]
 == Executive Summary
@@ -725,3 +758,4 @@ Score: After > Before = Real Want
 
 == The Bottom Line
 True freedom comes not from doing whatever feels good in the moment, but from clearly distinguishing between manufactured compulsions and genuine wants. By reframing "shoulds" as authentic desires, adjusting environmental friction, and implementing the 11 Reverse-Ruin behaviors, you create a life where your default actions align with your deepest values. The result: sustainable success without constant willpower battles.
+

@@ -11,3 +11,4 @@
 :mathematics: link:/sindri-labs/mathematics/[Mathematics,window=_blank]
 :on_mathematics: link:/sindri-labs/on-mathematics/[On Mathematics,window=_blank]
 :history: link:/sindri-labs/history/[History,window=_blank]
+:psychology: link:/sindri-labs/psychology/[Psychology,window=_blank]

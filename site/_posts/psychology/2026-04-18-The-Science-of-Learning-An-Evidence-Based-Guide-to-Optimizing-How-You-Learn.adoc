@@ -1,17 +1,47 @@
+---
+header:
+  overlay_image: assets/images/banner-biology.jpg
+  overlay_filter: 0.2
+  actions:
+    - label: "Literature"
+      url: /literature/
+    - label: "History"
+      url: /history/
+    - label: "Psychology"
+      url: /psychology/
+    - label: "Philosophy"
+      url: /philosophy/
+    - label: "Mathematics"
+      url: /mathematics/
+    - label: "Science"
+      url: /science/
+    - label: "Engineering"
+      url: /engineering/
+    - label: "Business"
+      url: /business/
+categories: [psychology]
+---
 = The Science of Learning: An Evidence-Based Guide to Optimizing How You Learn
-:author: Research Synthesis
-:revdate: 2026-01-08
+lugaru
+:page-author_profile: true
+:page-excerpt:
+:page-layout: single
+:page-classes: wide
+:imagesdir: /sindri-labs/assets/images
 :toc: left
 :toclevels: 3
 :sectnums:
 :source-highlighter: rouge
+ifdef::env-name[:relfilesuffix: .adoc]
+
+↑ _**link:/sindri-labs/psychology/[Psychology]**_
 
 [.lead]
 Your brain is extraordinarily plastic right now—adolescence represents a critical window where the right learning strategies can produce outsized returns. The strongest evidence supports three foundational principles: *retrieve information actively rather than passively re-reading* (effect size d = 0.50-0.70), *space your learning over time rather than cramming* (d = 0.54-0.85), and *protect your sleep as if your grades depend on it—because they do* (sleep deprivation impairs encoding by g = 0.62). These aren't productivity hacks; they're how memory actually works at the neural level.
 
 == Executive Summary
 
-[cols="1,2,1", options="header"]
+[cols="1,2,1",options="header"]
 |===
 |Technique |Key Finding |Effect Size
 
@@ -92,12 +122,12 @@ Effect sizes of *d = 0.50-0.70* across dozens of meta-analyses.
 
 .Key Research
 [sidebar]
-****
+**
 Adesope et al. (2017) meta-analysis of 118 studies found:
 
 * Overall Hedges' g = 0.51
 * Rising to g = 0.82 when tests occurred 1-6 days after initial learning
-****
+**
 
 *Mechanism:* Pulling information "out" of memory strengthens retrieval pathways more effectively than putting information "in" through re-reading. Even unsuccessful retrieval attempts benefit learning more than passive review.
 
@@ -115,7 +145,7 @@ Adesope et al. (2017) meta-analysis of 118 studies found:
 Effect sizes of *d = 0.54-0.85*.
 
 .Optimal Spacing Intervals (Cepeda et al., 2006)
-[cols="1,1", options="header"]
+[cols="1,1",options="header"]
 |===
 |Retention Interval |Optimal Spacing
 
@@ -225,7 +255,7 @@ IMPORTANT: Study sessions should include deliberate quiet rest, not just scrolli
 
 === Multitasking Devastates Learning
 
-[cols="1,2", options="header"]
+[cols="1,2",options="header"]
 |===
 |Finding |Source
 
@@ -269,7 +299,7 @@ Sleep spindle density correlates with memory consolidation at r = 0.52.
 
 === The Cost of Sleep Deprivation
 
-[cols="1,1,1", options="header"]
+[cols="1,1,1",options="header"]
 |===
 |Timing |Effect |Effect Size
 
@@ -300,7 +330,7 @@ When high school start times moved from 7:50 to 8:45 AM:
 
 === Strategic Napping
 
-[cols="1,2", options="header"]
+[cols="1,2",options="header"]
 |===
 |Duration |Best For
 
@@ -319,7 +349,7 @@ Naps *outperform caffeine* for verbal memory and motor learning in controlled co
 
 === Effect Sizes
 
-[cols="1,1,1", options="header"]
+[cols="1,1,1",options="header"]
 |===
 |Population |Effect |Source
 
@@ -346,7 +376,7 @@ Naps *outperform caffeine* for verbal memory and motor learning in controlled co
 
 === Optimal Timing
 
-[cols="1,2", options="header"]
+[cols="1,2",options="header"]
 |===
 |Goal |Timing
 
@@ -423,7 +453,7 @@ Growth mindset combined with effective study strategies works better than mindse
 
 Intrinsic motivation (genuine interest) consistently outperforms extrinsic motivation (rewards) for learning quality.
 
-[cols="1,1", options="header"]
+[cols="1,1",options="header"]
 |===
 |Finding |Effect
 
@@ -453,11 +483,11 @@ Students in the 12th percentile estimate themselves at the 62nd percentile.
 
 .Roediger and Karpicke Classic Study
 [sidebar]
-****
+**
 Students who re-read four times predicted 50% better recall than those who tested themselves.
 
 After one week, the testing group remembered *50% more*.
-****
+**
 
 === Desirable Difficulties
 
@@ -512,7 +542,7 @@ What matters is *practice quality*, not duration.
 
 === How Much Does Practice Explain?
 
-[cols="1,1", options="header"]
+[cols="1,1",options="header"]
 |===
 |Domain |Variance Explained by Deliberate Practice
 
@@ -577,19 +607,19 @@ Effect size d = 0.48-0.68.
 
 .The Pomodoro Technique
 [sidebar]
-****
+**
 25 minutes work / 5 minutes break
 
 Evidence: Moderate. Systematic breaks reduce fatigue and distraction compared to studying "until tired," but no single interval is optimal for everyone.
 
 *Recommendation:* Experiment with 25-50 minute blocks.
-****
+**
 
 === Teaching Others (Protégé Effect)
 
 Effect sizes of g = 0.48-0.84.
 
-[cols="1,1", options="header"]
+[cols="1,1",options="header"]
 |===
 |Method |Effect Size
 
@@ -613,7 +643,7 @@ Handwriting notes outperforms typing:
 
 === Environmental Optimization
 
-[cols="1,2", options="header"]
+[cols="1,2",options="header"]
 |===
 |Factor |Optimal Range
 
@@ -668,7 +698,7 @@ Handwriting notes outperforms typing:
 
 == Evidence Quality Summary
 
-[cols="1,1,2", options="header"]
+[cols="1,1,2",options="header"]
 |===
 |Rating |Technique |Notes
 

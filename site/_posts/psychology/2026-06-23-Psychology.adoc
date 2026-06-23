@@ -1,0 +1,75 @@
+---
+header:
+  overlay_image: assets/images/banner-biology.jpg
+  overlay_filter: 0.2
+  actions:
+    - label: "Literature"
+      url: /literature/
+    - label: "History"
+      url: /history/
+    - label: "Psychology"
+      url: /psychology/
+    - label: "Philosophy"
+      url: /philosophy/
+    - label: "Mathematics"
+      url: /mathematics/
+    - label: "Science"
+      url: /science/
+    - label: "Engineering"
+      url: /engineering/
+    - label: "Business"
+      url: /business/
+categories: [page]
+---
+= Mímis Academy: Psychology
+lugaru
+:page-author_profile: true
+:page-excerpt:
+:page-layout: single
+:page-permalink: /psychology/
+:page-classes: wide
+:sectnums:
+:sectanchors:
+:sectlinks:
+:toc: preamble
+:toclevels: 2
+:toc-title: Mímis Academy Psychology
+:keywords: Mímis Academy Psychology
+ifdef::env-name[:relfilesuffix: .adoc]
+:on-yale: link:/sindri-labs/psychology/2026/01/07/Yale-PSYC-110-Introduction-to-Psychology.html[Yale PSYC 110: Introduction to Psychology -- Lecture Notes]
+:on-saboteurs: link:/sindri-labs/psychology/2025/05/09/Saboteurs-Essay.html[Saboteurs Essay]
+:on-beat-saboteurs: link:/sindri-labs/psychology/2025/05/09/How-to-Beat-Your-Saboteurs.html[How to Beat Your Saboteurs]
+:on-captains-saboteurs: link:/sindri-labs/psychology/2025/05/09/Captains-Saboteurs.html[Captain's Saboteurs]
+:on-brain-protect: link:/sindri-labs/psychology/2026/04/18/Protecting-Your-Brain-at-16-A-Complete-Evidence-Based-Guide.html[Protecting Your Brain at 16]
+:on-brain-optimize: link:/sindri-labs/psychology/2026/04/18/Brain-Optimization-Guide-for-Adolescents.html[Brain Optimization Guide for Adolescents]
+:on-how-to-learn: link:/sindri-labs/psychology/2026/04/18/The-Science-of-Learning-An-Evidence-Based-Guide-to-Optimizing-How-You-Learn.html[The Science of Learning]
+:on-expertise: link:/sindri-labs/psychology/2026/06/18/The-Science-of-Expertise-What-Actually-Makes-an-Expert.html[The Science of Expertise]
+:on-neuron: link:/sindri-labs/psychology/2026/04/18/How-Neurons-Work-Structure-Signaling-and-Plasticity.html[How Neurons Work]
+:on-study-guide: link:/sindri-labs/psychology/2026/06/18/Neuroscience-and-Psychology-Study-Guide.html[Neuroscience & Psychology Study Guide]
+
+[NOTE]
+====
+_Stub -- hub intro copy is AI-scaffolded and pending teacher review. The structure and links are ready; the framing prose should be replaced in your own voice._
+====
+
+== Yale PSYC 110: Introduction to Psychology
+
+{on-yale}
+
+== Self-Awareness
+
+{on-saboteurs} +
+{on-beat-saboteurs} +
+{on-captains-saboteurs}
+
+== Brain Health & Learning
+
+{on-brain-protect} +
+{on-brain-optimize} +
+{on-how-to-learn} +
+{on-expertise}
+
+== Neuroscience
+
+{on-neuron} +
+{on-study-guide}

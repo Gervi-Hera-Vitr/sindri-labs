@@ -9,6 +9,8 @@ header:
       url: /literature/
     - label: "History"
       url: /history/
+    - label: "Psychology"
+      url: /psychology/
     - label: "Mathematics"
       url: /mathematics/
     - label: "Science"
@@ -48,6 +50,9 @@ ifdef::env-name[:relfilesuffix: .adoc]
 :see-seneca: link:/sindri-labs/fragments/people/seneca/[Seneca of Corduba]
 :see-socrates: link:/sindri-labs/fragments/people/socrates/[Socrates of Athens]
 :see-zeno-of-citium: link:/sindri-labs/fragments/people/zeno-of-citium/[Zeno of Citium]
+:work-stoicism: link:/sindri-labs/philosophy/2025/05/27/Stoicism.html[Stoicism]
+:work-stoicism-guide: link:/sindri-labs/philosophy/2025/11/05/Stoicism-and-Personal-Transformation-Guide.html[Stoicism {amp} Personal Transformation Guide]
+:work-axioms: link:/sindri-labs/philosophy/2025/07/23/Axioms-and-Theorems-of-Stoicism.html[Axioms {amp} Theorems of Stoicism]
 
 
 *Mímir Academy -- Advanced Independent Study* _over school break_ +
@@ -286,6 +291,14 @@ This is a lesson learned by both the student and the instructor.
 - Graded assignment by {rdd13r} on March 27th 2026. *A*
 
 _This is now in the quarterly maintenance phase._
+
+== Course Materials
+
+// Stub -- AI-added link index for the migrated student work. Integrate into the
+// prose above in your own voice if you prefer; placement here is just navigation.
+* {work-stoicism}
+* {work-stoicism-guide}
+* {work-axioms}
 
 // Legends-mentioned backlink section -- managed by .tmp/footer-backlinks.py
 == Legends mentioned

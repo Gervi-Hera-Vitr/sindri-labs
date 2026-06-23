@@ -13,13 +13,8 @@ v1.0, Tuesday May 6th 2025
 ifdef::env-name[:relfilesuffix: .adoc]
 
 This section documents the pedagogy of Mímir Academy homeschooling program.
-All key elements of Mímis approach should eventually be distilled here once
-some iterations over the learning trails are completed.
-For not this is a ...
+Freeform handwritten document.
 
 
-PLACEHOLDER
 
-_Check back regularly. Or raise a very specific issue if urgent clarification is needed._
-
-image::avatar.jpg[Pedagogy,width=240,align=right]
+image::favicon.png[Pedagogy,width=240,align=right]

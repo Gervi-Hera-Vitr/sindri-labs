@@ -1,7 +1,39 @@
+---
+header:
+  overlay_image: assets/images/banner-biology.jpg
+  overlay_filter: 0.2
+  actions:
+    - label: "Literature"
+      url: /literature/
+    - label: "History"
+      url: /history/
+    - label: "Psychology"
+      url: /psychology/
+    - label: "Philosophy"
+      url: /philosophy/
+    - label: "Mathematics"
+      url: /mathematics/
+    - label: "Science"
+      url: /science/
+    - label: "Engineering"
+      url: /engineering/
+    - label: "Business"
+      url: /business/
+categories: [psychology]
+---
 = Neuroscience & Psychology Study Guide
+lugaru
+:page-author_profile: true
+:page-excerpt:
+:page-layout: single
+:page-classes: wide
+:imagesdir: /sindri-labs/assets/images
 :toc: left
 :toclevels: 3
 :sectnums:
+ifdef::env-name[:relfilesuffix: .adoc]
+
+↑ _**link:/sindri-labs/psychology/[Psychology]**_
 
 == Neuron Structure & Synaptic Communication
 
@@ -12,37 +44,43 @@ Neurons are the fundamental units of the nervous system, specialized for transmi
 === Core Anatomy
 
 ==== Dendrites (Input)
+
 * Branch-like extensions resembling tree branches (Greek: "tree-like")
 * Primary receivers of incoming signals from other neurons
 * Surface contains *receptors* that neurotransmitters bind to
 * Function as the neuron's *input zone*
 
 ==== Soma / Cell Body (Integration)
+
 * Metabolic center of the neuron
 * Contains:
-** Nucleus (houses DNA)
-** Organelles for protein synthesis
-** Machinery for neural component production
+* Nucleus (houses DNA)
+* Organelles for protein synthesis
+* Machinery for neural component production
 * Integrates incoming signals from dendrites
 
 ==== Axon Hillock (Decision Point)
+
 * Small hill-like region where axon emerges from soma
 * *Integration zone* where electrical changes are summed
 * Determines if incoming signals reach threshold for action potential
 * This process = *summation*
 
 ==== Axon (Output Cable)
+
 * Conducts action potentials at speeds of *1-100+ m/s*
 * Length varies: micrometers to ~1 meter (spinal cord to foot)
 * Often wrapped in *myelin*—lipid-rich insulating material that speeds signal propagation
 
 ==== Myelin & Nodes of Ranvier
+
 * Myelin prevents current leakage from axon
 * *Nodes of Ranvier*: gaps in myelin sheath (~1 μm)
 * Contain sodium channels that regenerate action potentials
 * Enable *saltatory conduction*—signal "jumps" between nodes (faster, more efficient)
 
 ==== Axon Terminals / Synaptic Boutons (Output)
+
 * Branched endings at axon's terminus
 * Release neurotransmitters into synaptic cleft
 * Communicate with next neuron at *synapses*
@@ -50,16 +88,19 @@ Neurons are the fundamental units of the nervous system, specialized for transmi
 === Synaptic Communication
 
 ==== The Synapse
+
 * Neurons don't physically touch—separated by *synaptic cleft* (20-40 nm)
 * For scale: human hair = 80,000-100,000 nm wide
 
 ==== Signal Flow
+
 . Action potential arrives at *presynaptic* terminal
 . Triggers neurotransmitter release into cleft
 . Neurotransmitters bind receptors on *postsynaptic* neuron
 . Either *excites* (increases firing probability) or *inhibits* (decreases firing probability) the postsynaptic neuron
 
 ==== Signal Types
+
 * *Electrical*: Action potentials—ion flow creates electrical impulse
 * *Chemical*: Neurotransmitters cross synaptic cleft
 
@@ -109,8 +150,6 @@ Neurons are the fundamental units of the nervous system, specialized for transmi
 * *Projection/Relay*: Long axons, carry signals between distant brain regions
 * *Local*: Short axons, create local circuits
 
----
-
 == The Science of Self-Control
 
 === The Core Problem
@@ -122,11 +161,13 @@ Traditional view: Self-control is a fixed personality trait—you either have it
 === What Depletes Self-Control
 
 ==== 1. Emotional Regulation
+
 * Suppressing emotions drains self-control reserves
 * Example: Holding back anger at work → less capacity to eat healthy later
 * The more emotionally turbulent your life, the more likely you are to give into impulsive behaviors
 
 ==== 2. Stress
+
 * Stress *externalizes attention*—you focus on external problems, not internal state
 * When stressed about a test, you're not paying attention to hunger, fatigue, or internal conflicts
 * This externalization shuts down the system responsible for self-control
@@ -147,26 +188,31 @@ The moment you stop monitoring the conflict, you lose control. You don't lose th
 === Why This Fits
 
 ==== Emotional Regulation Connection
+
 * When you suppress emotions, you're deliberately shutting off internal awareness
 * This directly impairs conflict monitoring → reduced self-control
 
 ==== Stress Connection
+
 * Stress forces attention outward (onto problems)
 * Internal conflict monitoring stops → self-control vanishes
 
 === Practical Implications
 
 ==== 1. Address Emotional Turbulence
+
 * Therapy, journaling, walks—alternative emotional regulation methods
 * You cannot improve self-control while emotionally turbulent
 * Fixing emotional turbulence *IS* improving self-control
 
 ==== 2. Re-internalize Awareness When Stressed
+
 * You don't need to solve all problems first
 * Take 15-30 minutes to check in: "How am I feeling right now?"
 * Simply paying attention to internal state restores conflict monitoring
 
 ==== 3. Meditation Works Because...
+
 * Meditation = paying attention to breath (internal awareness)
 * This directly trains the conflict monitoring system
 * No special "control" action needed—awareness itself is the mechanism
@@ -177,13 +223,12 @@ Every person who successfully "just did it" had high awareness of internal confl
 
 *The path*: Don't try to "just do it" → Instead, maintain awareness of your internal conflict → Control follows naturally.
 
----
-
 == Autism: Current Neuroscience Understanding
 
 === Why Autism Research Matters
 
 ==== The Diagnostic Mystery
+
 Unlike other conditions, autism has no single core deficit:
 
 * Alzheimer's → memory
@@ -199,12 +244,14 @@ Autism is a *constellation of symptoms* spanning all domains of human behavior:
 * Sensory perception differences
 
 ==== Prevalence
+
 * US: *1 in 59* (CDC)
 * Doubled in past 10 years
 * Varies dramatically across cultures (US vs. Iran: 1 in 59 vs. 1 in 1,500)
 * Consistent *4:1 male-to-female ratio* across cultures
 
 ==== Three Sobering Facts
+
 . Average diagnosis age: *4 years* (despite detectability at 18 months)
 . *No approved drugs* targeting core autism features
 . Without understanding autism, we don't understand human neurodiversity
@@ -212,11 +259,12 @@ Autism is a *constellation of symptoms* spanning all domains of human behavior:
 === Neuroimaging Findings
 
 ==== Regional Differences: Motion Processing Areas
+
 * Temporal cortex (behind ears) shows different activity in autism
 * This region processes dynamic motion—crucial for:
-** Understanding facial expressions
-** Reading eye gaze
-** Interpreting social cues
+* Understanding facial expressions
+* Reading eye gaze
+* Interpreting social cues
 * Reduced activity here may explain difficulties with dynamic social information
 
 ==== Connectivity Patterns
@@ -248,8 +296,6 @@ This links a specific molecule to real sensory sensitivities reported by autisti
 . *Early diagnosis*: Finding brain signatures detectable before behavioral symptoms
 . *Drug targets*: Identifying specific neural pathways (like GABA) that could be therapeutically targeted
 . *Understanding neurodiversity*: Recognizing autism as part of normal human variation
-
----
 
 == AI-Induced Psychosis
 
@@ -289,11 +335,13 @@ Research shows paranoia scores *increase dramatically* over the course of AI con
 === Why AI Is Uniquely Dangerous
 
 ==== Fundamental Design Problem
+
 AI optimizes for: "Which response will the user like more?"
 
 This *bakes in sycophancy*—AI only disagrees in ways users find acceptable.
 
 ==== Contrast with Therapy
+
 Effective psychotherapy *challenges beliefs* and promotes *reality testing*.
 
 AI does the opposite:
@@ -303,6 +351,7 @@ AI does the opposite:
 * Weakens reality testing ability
 
 ==== What Keeps Minds Healthy
+
 Human mental health depends on *contrary perspectives*—beliefs being challenged by others.
 
 AI removes this protective mechanism entirely.
@@ -355,8 +404,6 @@ Ask yourself:
 The features that make AI *more effective* (customization, memory, prompt engineering) are the same features that *increase psychosis risk*.
 
 This is not about vulnerable populations—the research suggests this affects everyone who uses AI regularly.
-
----
 
 == Summary
 

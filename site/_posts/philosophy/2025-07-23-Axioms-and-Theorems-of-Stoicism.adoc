@@ -1,4 +1,37 @@
+---
+header:
+  overlay_image: assets/images/banner-philosophy.jpg
+  overlay_filter: 0.2
+  actions:
+    - label: "Literature"
+      url: /literature/
+    - label: "History"
+      url: /history/
+    - label: "Psychology"
+      url: /psychology/
+    - label: "Philosophy"
+      url: /philosophy/
+    - label: "Mathematics"
+      url: /mathematics/
+    - label: "Science"
+      url: /science/
+    - label: "Engineering"
+      url: /engineering/
+    - label: "Business"
+      url: /business/
+categories: [philosophy]
+---
 = Axioms & Theorems of Stoicism
+lugaru
+:page-author_profile: true
+:page-excerpt:
+:page-layout: single
+:page-classes: wide
+:imagesdir: /sindri-labs/assets/images
+ifdef::env-name[:relfilesuffix: .adoc]
+
+↑ _**link:/sindri-labs/philosophy/[Philosophy]**_
+
 
 _This is the philosophical discipline my father and I subscribe to._
 

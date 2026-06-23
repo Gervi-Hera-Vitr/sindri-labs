@@ -10,6 +10,8 @@ header:
       url: /literature/
     - label: "History"
       url: /history/
+    - label: "Psychology"
+      url: /psychology/
     - label: "Philosophy"
       url: /philosophy/
     - label: "Mathematics"
@@ -139,7 +141,7 @@ Our educational philosophy is based on the following principles:
 
 [.middle]
 .Children pursuing knowledge in a Socratic{socratic-method-fn} setting{socratic-setting-fn}.
-image::assets/images/site-banner-600.jpg[Curriculum,width="80%",float="right",align="center",link=https://github.com/Gervi-Hera-Vitr/sindri-labs/tree/main/curriculum]
+image::assets/images/site-banner-600.jpg[Socratic learning,width="80%",float="right",align="center"]
 
 Our goal is not simply to meet academic standards, but to build intellectual resilience,
 creative confidence, and principled mastery

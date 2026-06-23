@@ -7,6 +7,8 @@ header:
       url: /literature/
     - label: "History"
       url: /history/
+    - label: "Psychology"
+      url: /psychology/
     - label: "Philosophy"
       url: /philosophy/
     - label: "Mathematics"
@@ -23,7 +25,7 @@ tags: [graded]
 = Mímis Academy: Engineering
 rdd13r
 :page-author_profile: true
-:page-excerpt: Building, breaking, and understanding the machine.
+:page-excerpt:
 :page-layout: single
 :page-permalink: /engineering/
 :page-classes: wide

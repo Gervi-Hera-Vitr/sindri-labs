@@ -1,7 +1,39 @@
+---
+header:
+  overlay_image: assets/images/banner-biology.jpg
+  overlay_filter: 0.2
+  actions:
+    - label: "Literature"
+      url: /literature/
+    - label: "History"
+      url: /history/
+    - label: "Psychology"
+      url: /psychology/
+    - label: "Philosophy"
+      url: /philosophy/
+    - label: "Mathematics"
+      url: /mathematics/
+    - label: "Science"
+      url: /science/
+    - label: "Engineering"
+      url: /engineering/
+    - label: "Business"
+      url: /business/
+categories: [psychology]
+---
 = Protecting Your Brain at 16: A Complete Evidence-Based Guide
+lugaru
+:page-author_profile: true
+:page-excerpt:
+:page-layout: single
+:page-classes: wide
+:imagesdir: /sindri-labs/assets/images
 :toc: left
 :toclevels: 3
 :sectnums:
+ifdef::env-name[:relfilesuffix: .adoc]
+
+↑ _**link:/sindri-labs/psychology/[Psychology]**_
 
 == Executive Summary
 

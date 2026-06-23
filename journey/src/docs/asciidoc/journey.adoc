@@ -44,6 +44,8 @@ ifdef::env-name[:relfilesuffix: .adoc]
 :link-ref-pandas-series: {link-ref-pandas-api}/pandas.Series.html#pandas.Series
 :link-ref-pandas-dataframe: {link-ref-pandas-api}/pandas.DataFrame.html#pandas.DataFrame
 
+// FixMe: DaiDai update before fall 2026
+
 The traditional scene approach to learning and teaching anything is one) aggressively hands-on,
 two) teachings and learning at the same time, and three) no grouping but pairing instead.
 Point _two_ means that there are no teachers in the traditional sense,

@@ -1,7 +1,34 @@
+---
+header:
+  overlay_image: assets/images/banner-captain.jpg
+  overlay_filter: 0.2
+  actions:
+    - label: "Literature"
+      url: /literature/
+    - label: "History"
+      url: /history/
+    - label: "Psychology"
+      url: /psychology/
+    - label: "Philosophy"
+      url: /philosophy/
+    - label: "Mathematics"
+      url: /mathematics/
+    - label: "Science"
+      url: /science/
+    - label: "Engineering"
+      url: /engineering/
+    - label: "Business"
+      url: /business/
+categories: [administration]
+tags: [administration]
+---
 = Homeschooling Requirements
-R!dd13r rdd13r <12781006+rdd13r@users.noreply.github.com>
-v2.0, Tuesday May 6th 2025
-:description: DNPE Requirements for Mímir Academy homeschooling program.
+rdd13r
+:page-author_profile: true
+:page-excerpt:
+:page-layout: single
+:page-classes: wide
+:imagesdir: /sindri-labs/assets/images
 :sectnums:
 :sectanchors:
 :sectlinks:
@@ -9,11 +36,10 @@ v2.0, Tuesday May 6th 2025
 :toclevels: 2
 :toc-title: Mímir Academy
 :keywords: Mímir Academy DNPE Homeschooling Requirements
-:imagesdir: ./assets/img
-ifdef::env-name[:relfilesuffix: .adoc]
 :nc-education-law: https://hslda.org/legal/north-carolina
 :ndpe: https://ncadmin.nc.gov/citizens/home-school-information
 :ndpe-name: North Carolina Division of Non-Public Education (DNPE)
+ifdef::env-name[:relfilesuffix: .adoc]
 
 Mímir Academy is located in North Carolina and is governed by {nc-education-law}[*_the state of North Carolina education law_*].
 Gracefully, NC provides a regulatory body to make this journey a more sustainable one: +
@@ -24,7 +50,6 @@ Gracefully, NC provides a regulatory body to make this journey a more sustainabl
 
 . *Duration*: _Operate on a **regular schedule**_ for at least _**nine (9)** calendar months_ each academic year.
 * Mímir Academy is a WHOLE Year Homeschooling Program: 40 + 12 weeks.
-* The link:./Retired-Academic-Year-School-Schedule.adoc[Mímir Academic Year Schedule] <-is published here.
 . Annual Testing:
 * *Subjects*:
 ** English Grammar,

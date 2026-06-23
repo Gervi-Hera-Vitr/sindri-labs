@@ -1,9 +1,39 @@
+---
+header:
+  overlay_image: assets/images/banner-biology.jpg
+  overlay_filter: 0.2
+  actions:
+    - label: "Literature"
+      url: /literature/
+    - label: "History"
+      url: /history/
+    - label: "Psychology"
+      url: /psychology/
+    - label: "Philosophy"
+      url: /philosophy/
+    - label: "Mathematics"
+      url: /mathematics/
+    - label: "Science"
+      url: /science/
+    - label: "Engineering"
+      url: /engineering/
+    - label: "Business"
+      url: /business/
+categories: [psychology]
+---
 = The Science of Expertise: What Actually Makes an Expert
-:author: Research Synthesis
-:revdate: 2026-01-08
+lugaru
+:page-author_profile: true
+:page-excerpt:
+:page-layout: single
+:page-classes: wide
+:imagesdir: /sindri-labs/assets/images
 :toc: left
 :toclevels: 2
 :sectnums:
+ifdef::env-name[:relfilesuffix: .adoc]
+
+↑ _**link:/sindri-labs/psychology/[Psychology]**_
 
 [.lead]
 Expertise isn't about raw intelligence, better memory, or natural talent. At its core, *expertise is recognition*—the ability to see patterns that novices can't. But becoming an expert requires specific conditions, and in domains where those conditions aren't met, "experts" may perform no better than chance.
@@ -34,7 +64,7 @@ Magnus Carlsen can identify specific games from chess history just by seeing the
 
 *Recognition leads directly to intuition.* Chess masters don't calculate the best move—they *see* it, the same way you know what an angry face means without analysis.
 
-[quote, Magnus Carlsen]
+[quote,Magnus Carlsen]
 Most of the time, I know what to do. I don't have to figure it out.
 
 == The Four Requirements for Expertise
@@ -62,14 +92,14 @@ The environment must contain *learnable regularities*—patterns that actually p
 A gambler at roulette has thousands of repeated experiences with clear feedback—but there's nothing to learn because the environment is random.
 
 .Warren Buffett's Million Dollar Bet
-****
+**
 Buffett bet that a basic S&P 500 index fund would beat Wall Street's best hedge funds over 10 years.
 
 * Hedge funds (200+ funds, active management): +36%
 * Index fund (passive, no expertise needed): +126%
 
 Over 10 years, 80% of actively managed funds fail to beat the market average. Over longer periods, it rises to 90%. Stock movements are largely random in the short term—there are no patterns to learn.
-****
+**
 
 === 3. Timely Feedback
 
@@ -94,7 +124,7 @@ Most people become competent at driving in ~50 hours, then stop improving becaus
 * Systematically targeting weaknesses
 * Often guided by a coach who can identify gaps
 
-[quote, Deliberate practice principle]
+[quote,Deliberate practice principle]
 Practice everything at just such a speed that you have to think about and know exactly where you are and what your fingers are doing.
 
 The best predictor of chess skill isn't games played or tournaments entered—it's *hours of serious solitary study*: analyzing positions, studying theory, working through tactical puzzles.
