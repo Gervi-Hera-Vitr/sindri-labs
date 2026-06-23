@@ -1,23 +1,24 @@
-= Biology: Exploratory Research on Whales
-Cpt. Lugaru (CaptainLugaru) <72951616+CaptainLugaru@users.noreply.github.com>
-v1.0, Thursday, December 12, 2024
-:description: Biology Exploratory Research on Whales
-:sectnums:
-:sectanchors:
-:sectlinks:
-:icons: font
-:tip-caption: 💡️
-:note-caption: ℹ️
-:important-caption: ❗
-:caution-caption: 🔥
-:warning-caption: ⚠️
-:toc: preamble
-:toclevels: 1
-:toc-title: How Whales Evolved
-:keywords: Homeschool Learning Journey
-:imagesdir: ./images
-:labsdir: ./labs
-ifdef::env-name[:relfilesuffix: .adoc]
+---
+header:
+  overlay_image: assets/images/banner-biology.jpg
+  overlay_filter: 0.1
+categories: [school]
+tags:
+  - biology
+  - whales
+  - evolution
+  - science
+  - stem
+---
+= On Whales: How Whales Evolved
+lugaru
+:page-author_profile: true
+:page-excerpt:
+:page-layout: single
+:page-classes: wide
+ifndef::env-site[:imagesdir: ../../assets/images/whales]
+ifdef::env-site[:imagesdir: /sindri-labs/assets/images/whales]
+:on-science: link:/sindri-labs/science/[Science]
 :pakicetus: https://en.wikipedia.org/wiki/Pakicetus
 :ambulocetus: https://en.wikipedia.org/wiki/Ambulocetus
 :rodhocetus: https://en.wikipedia.org/wiki/Rodhocetus
@@ -29,6 +30,8 @@ ifdef::env-name[:relfilesuffix: .adoc]
 :how-did-whales-evolve: https://us.whales.org/whales-dolphins/how-did-whales-evolve/#:~:text=WDC%20experts%20explain.,%2C%20deer%2C%20pig%20and%20cow
 :the-evolution-of-whales: https://evolution.berkeley.edu/what-are-evograms/the-evolution-of-whales
 :hippo-and-whale: https://phys.org/news/2005-01-scientists-link-whale-closest-relative.html
+
+↑ _**{on-science}**_
 
 Whales who are mammals evolved from another mammal called {pakicetus}[Pakicetus]:
 
@@ -85,8 +88,8 @@ Sources::
 
 * Learn to reference in-place vs. formal references and footnotes.
 
-== Final Grade: 10/10
+== Final Grade and Comments
 
-#A+#
+- ✅ Graded assignment by {rdd13r}. *A+ — 10/10*
 
 NOTE: Ecstatic about this first fully autonomous execution!

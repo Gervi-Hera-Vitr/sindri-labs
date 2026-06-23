@@ -38,6 +38,8 @@ rdd13r
 ifdef::env-name[:relfilesuffix: .adoc]
 :philosophers: link:/sindri-labs/philosophers/[Foundations Philosophers,window=_blank]
 :on-biology: link:/sindri-labs/school/2025/03/10/On-Biology.html[On Biology: The Science of Life]
+:on-whales: link:/sindri-labs/school/2024/12/12/On-Whales.html[On Whales: How Whales Evolved]
+:on-physics: link:/sindri-labs/school/2025/03/13/On-Physics.html[On Physics: The Science of Matter]
 :on-particle: link:/sindri-labs/school/2026/05/08/On-Particle.html[On Particle: The Atomic Science]
 :on-particle-people: link:/sindri-labs/school/2026/05/08/Important-People-In-Particle-Discovery.html[On Particle: Important People]
 :on-antimatter: link:/sindri-labs/school/2026/04/18/On-Antimatter.html[On Antimatter: The Mirror of Matter]
@@ -53,6 +55,8 @@ _This is how I organized my research into the sciences._
 == Science Works
 
 {on-biology} +
+{on-whales} +
+{on-physics} +
 {on-particle} +
 {on-particle-people} +
 {on-antimatter} _(to-grade)_ +
