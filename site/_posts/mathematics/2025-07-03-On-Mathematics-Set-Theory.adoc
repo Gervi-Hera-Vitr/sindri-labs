@@ -12,7 +12,7 @@ tags:
 lugaru
 :page-author_profile: true
 :page-excerpt:
-:stem: asciimath
+:stem: latexmath
 :page-layout: single
 :page-classes: wide
 :peano-axioms: https://en.wikipedia.org/wiki/Peano_axioms[Peano Axioms,window=_blank]
@@ -48,70 +48,74 @@ A set is a well-defined collection of distinct elements.
 .Two `sets` defined:
 ====
 
- A = `{1, 2, 3}`
+A = stem:[\{1, 2, 3\}]
 
- B = `{a, b, c}`
+B = stem:[\{a, b, c\}]
 
 ====
 
 === Membership Symbols
 
-* `∈` means "is an element of": `2 ∈ A`
-* `∉` means "is not an element of": `4 ∉ A`
+* stem:[\in] means "is an element of": stem:[2 \in A]
+* stem:[\notin] means "is not an element of": stem:[4 \notin A]
 
 === Set Builder Notation
 
 Used when listing all elements is impractical.
 
-----
-P = {p | p is prime}
-----
+[stem]
+++++
+P = \{p \mid p \text{ is prime}\}
+++++
 
 == 2. Equality of Sets
 
 Two sets are equal if they contain the same elements, regardless of order or repetition.
 
-----
-A = {1, 2, 3}, B = {3, 1, 2, 2} ⇒ A = B
-----
+[stem]
+++++
+A = \{1, 2, 3\}, \quad B = \{3, 1, 2, 2\} \Rightarrow A = B
+++++
 
 == 3. Cardinality (Size of a Set)
 
 The cardinality of a set is the number of elements in it.
 
-Denoted as `|A|`
+Denoted as stem:[|A|]
 
-----
+[stem]
+++++
 |A| = 3
-----
+++++
 
 .Infinite set example
 ====
- The set of prime numbers has cardinality `∞`
+The set of prime numbers has cardinality stem:[\infty]
 ====
 
 == 4. Subsets
 
  Set A is a subset of B if every element of A is also in B.
 
-`A ⊆ B`
+stem:[A \subseteq B]
 
 === Proper Subset
 
 If A is a subset of B but not equal to B:
 
-`A ⊂ B`
+stem:[A \subset B]
 
 == 5. The Empty Set
 
 The empty set is a set with no elements.
 
-----
-∅ or {}
-----
+[stem]
+++++
+\emptyset \quad \text{or} \quad \{\}
+++++
 
 .Properties
-* `∅ ⊆ A` for any set A
+* stem:[\emptyset \subseteq A] for any set A
 * Unique: there is only one empty set
 
 == 6. Union and Intersection
@@ -120,50 +124,57 @@ The empty set is a set with no elements.
 
 All elements from both sets:
 
-----
-A ∪ B = {x | x ∈ A or x ∈ B}
-----
+[stem]
+++++
+A \cup B = \{x \mid x \in A \text{ or } x \in B\}
+++++
 
 === Intersection
 
 Only elements common to both sets:
 
-----
-A ∩ B = {x | x ∈ A and x ∈ B}
-----
+[stem]
+++++
+A \cap B = \{x \mid x \in A \text{ and } x \in B\}
+++++
 
 === Properties
 
-* Commutative: `A ∪ B = B ∪ A`, `A ∩ B = B ∩ A`
-* Associative: `(A ∪ B) ∪ C = A ∪ (B ∪ C)`
+* Commutative: stem:[A \cup B = B \cup A], stem:[A \cap B = B \cap A]
+* Associative: stem:[(A \cup B) \cup C = A \cup (B \cup C)]
 
 === Identities
 
-* `A ∪ ∅ = A`
-* `A ∩ ∅ = ∅`
+* stem:[A \cup \emptyset = A]
+* stem:[A \cap \emptyset = \emptyset]
 
 == 7. Set Difference and Complement
 
 === Difference
 
-----
-A \ B = {x ∈ A | x ∉ B}
-----
+[stem]
+++++
+A \setminus B = \{x \in A \mid x \notin B\}
+++++
 
 === Complement
 
-The set of all elements not in `A` _within_ a given universal set `U`:
+The set of all elements not in stem:[A] _within_ a given universal set stem:[U]:
 
-----
-Aᶜ = U \ A
-----
+[stem]
+++++
+A^c = U \setminus A
+++++
 
 == 8. De Morgan's Laws
 
-----
-(A ∪ B)ᶜ = Aᶜ ∩ Bᶜ
-(A ∩ B)ᶜ = Aᶜ ∪ Bᶜ
-----
+[stem]
+++++
+\begin{aligned}
+(A \cup B)^c &= A^c \cap B^c \\
+(A \cap B)^c &= A^c \cup B^c
+\end{aligned}
+++++
 
 _These laws relate complements to unions and `intersections`._
 
@@ -173,14 +184,15 @@ _These laws relate complements to unions and `intersections`._
 
 The set of all subsets of a set A:
 
-----
-𝒫(A)
-----
+[stem]
+++++
+\mathcal{P}(A)
+++++
 
-
-----
-A = {0, 1} ⇒ 𝒫(A) = {∅, {0}, {1}, {0,1}}
-----
+[stem]
+++++
+A = \{0, 1\} \Rightarrow \mathcal{P}(A) = \{\emptyset, \{0\}, \{1\}, \{0,1\}\}
+++++
 
 === Sets of Sets
 
@@ -188,13 +200,14 @@ Sets can contain other sets as elements.
 
 == 10. Russell's Paradox
 
-----
-Ω = {x | x ∉ x}
-----
+[stem]
+++++
+\Omega = \{x \mid x \notin x\}
+++++
 
-If `Ω ∈ Ω`, then `Ω ∉ Ω`
+If stem:[\Omega \in \Omega], then stem:[\Omega \notin \Omega]
 
-If `Ω ∉ Ω`, then `Ω ∈ Ω`
+If stem:[\Omega \notin \Omega], then stem:[\Omega \in \Omega]
 
 Leads to a paradox. 'Solved' using axiomatic set theory with strict rules (axioms).
 
@@ -213,11 +226,11 @@ Set theory is used in:
 == Summary
 
 * Set = collection of elements
-* Notation: curly brackets `{}`, `∈`, `∉`, `|A|`
-* Set Builder: `{x ∈ A | condition}`
-* Empty set: `∅`, subset of all sets
-* Union / Intersection: `∪`, `∩`
-* Difference / Complement: `\`, `ᶜ`
+* Notation: curly brackets stem:[\{\}], stem:[\in], stem:[\notin], stem:[|A|]
+* Set Builder: stem:[\{x \in A \mid \text{condition}\}]
+* Empty set: stem:[\emptyset], subset of all sets
+* Union / Intersection: stem:[\cup], stem:[\cap]
+* Difference / Complement: stem:[\setminus], stem:[A^c]
 * Equal sets: same elements regardless of order or repetition
 * Power Set: all subsets
 * Russell's Paradox: motivates axiomatic theory
@@ -228,7 +241,7 @@ Set theory is used in:
 
 == Final Grade and Comments
 
-- ✅ Graded assignment by {rdd13r} on July 12th 2025. *A*
+- Graded assignment by {rdd13r} on July 12th 2025. *A*
 
 // Legends-mentioned backlink section -- managed by .tmp/footer-backlinks.py
 == Legends mentioned

@@ -1,0 +1,67 @@
+/*
+ * Admonition styling for jekyll-asciidoc output.
+ *
+ * jekyll-asciidoc emits Asciidoctor's embedded HTML but, by design, does NOT ship
+ * Asciidoctor's own default stylesheet -- and Minimal Mistakes does not style
+ * `.admonitionblock` at all. So with `:icons: font` the icon cell renders empty.
+ *
+ * These rules are COPIED from the authoritative source: Asciidoctor 2.0.26
+ * `data/stylesheets/asciidoctor-default.css` (the `.admonitionblock` section), so the
+ * icons, colours and frame match upstream exactly -- not hand-rolled guesses.
+ *
+ * Font + weight for the glyph are intentionally NOT declared: they come from the `.fa`
+ * class on the <i> (the theme's own, version-floating Font Awesome) -- which is exactly
+ * how Asciidoctor itself relies on them. Nothing here pins a Font Awesome version.
+ *
+ * The ONLY deviations from upstream are two overrides, each because Minimal Mistakes'
+ * GLOBAL table rules would otherwise break Asciidoctor's table-based admonition:
+ *   [MM-1] the theme sets `table { display: block; border-collapse: collapse }` on every
+ *          table -- which collapses the icon/content layout -> restore `display: table`.
+ *   [MM-2] the theme sets `td { border-bottom: 1px }` -- which paints stray lines across
+ *          the cells -> zero the cell borders.
+ */
+
+/* --- layout (asciidoctor-default.css, + [MM-1]/[MM-2] overrides) --- */
+.admonitionblock > table {
+  display: table;            /* [MM-1] override theme `table { display: block }` */
+  border-collapse: separate; /* [MM-1] override theme `border-collapse: collapse` */
+  border: 0;
+  background: none;
+  width: 100%;
+  margin: 0 0 1.25em;
+}
+.admonitionblock > table td {
+  border: 0;                 /* [MM-2] override theme `td { border-bottom: 1px }` */
+}
+.admonitionblock > table td.icon {
+  text-align: center;
+  width: 80px;
+}
+.admonitionblock > table td.content {
+  padding-left: 1.125em;
+  padding-right: 1.25em;
+  border-left: 1px solid #dddddf;
+  color: rgba(0, 0, 0, .6);
+}
+.admonitionblock > table td.content > :last-child > :last-child { margin-bottom: 0; }
+
+/* admonition title -- asciidoctor's italic style; font-family left to inherit the
+   theme's type rather than import Asciidoctor's Noto Serif (not loaded on this site). */
+.admonitionblock > table td.content > .title {
+  font-style: italic;
+  color: #7a2518;
+  text-align: left;
+  margin-bottom: .25em;
+}
+
+/* --- icons (verbatim from asciidoctor-default.css: glyph + colour per type) --- */
+.admonitionblock td.icon [class^="fa icon-"] {
+  font-size: 2.5em;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, .5);
+  cursor: default;
+}
+.admonitionblock td.icon .icon-note::before      { content: "\f05a"; color: #19407c; }
+.admonitionblock td.icon .icon-tip::before       { content: "\f0eb"; text-shadow: 1px 1px 2px rgba(155, 155, 0, .8); color: #111; }
+.admonitionblock td.icon .icon-important::before { content: "\f06a"; color: #bf0000; }
+.admonitionblock td.icon .icon-warning::before   { content: "\f071"; color: #bf6900; }
+.admonitionblock td.icon .icon-caution::before   { content: "\f06d"; color: #bf3400; }

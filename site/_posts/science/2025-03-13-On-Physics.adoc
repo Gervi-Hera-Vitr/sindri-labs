@@ -1,0 +1,118 @@
+---
+header:
+  overlay_image: assets/images/banner-philosophy.jpg
+  overlay_filter: 0.1
+categories: [school]
+tags:
+  - physics
+  - matter
+  - energy
+  - science
+  - stem
+---
+= On Physics: The Science of Matter
+lugaru
+:page-author_profile: true
+:page-excerpt:
+:page-layout: single
+:page-classes: wide
+:on-science: link:/sindri-labs/science/[Science]
+
+↑ _**{on-science}**_
+
+*_Physics is the study of matter, energy, and how they interact._*
+
+It explains the fundamental laws of nature that govern motion, forces, energy, and the structure of matter.
+
+It answers::
+- Why things move.
+- How energy is transferred.
+- How the universe works at every scale.
+
+== Why Study Physics?
+
+- Physics is *_the foundation_* of other sciences like chemistry, biology, and astronomy.
+- It helps in developing technology, from smartphones to rockets.
+- It improves problem-solving and critical thinking skills.
+
+== Branches of Physics
+
+- *Mechanics*: Motion, forces, energy (Newton's Laws).
+- *Thermodynamics*: Heat, temperature, and energy transfer.
+- *Waves and Sound*: Vibrations, sound, and wave behavior.
+- *Optics*: Light, lenses, mirrors, reflection/refraction.
+- *Electricity and Magnetism*: Circuits, electric fields, magnets.
+- *Modern Physics*: Quantum physics, relativity, atomic theory.
+
+== The Scientific Method in Physics
+
+Physics relies on https://en.wikipedia.org/wiki/Scientific_method[The Scientific Method], which includes::
+
+. Observation
+. Question
+. Hypothesis
+. Experiment
+. Data Collection
+. Analysis
+. Conclusion
+
+== Physical Quantities and Units
+
+_Physics uses measurements to describe and predict phenomena._
+
+_Base Quantities_::
+* Length - meters *m*.
+* Mass - kilograms *kg*.
+* Time - seconds *s*.
+* Temperature - kelvin *K*.
+* Electric current - amperes *A*.
+* Electric charge - coulombs *C*.
+* Electric potential - volts *V*.
+
+== SI Units (International System of Units)
+
+*_The SI system is the standard for measurements._*
+
+Example::
+* Distance = meters (m)
+* Mass = kilograms (kg)
+* Time = seconds (s)
+* Force = newtons (N) (Derived unit)
+
+== Scalars vs. Vectors
+* *Scalar*: Quantity with magnitude-only (size)
+** _Example_: Speed = 60 km/h
+* *Vector*: Quantity with magnitude and direction
+** _Example_: Velocity = 60 km/h north
+
+== Measurement and Instruments
+
+* Length → Ruler, Vernier Caliper, Micrometer
+* Mass → Balance
+* Time → Stopwatch
+* Temperature → Thermometer
+* Electric Current → Ammeter
+
+== Accuracy, Precision, and Errors
+
+* *Accuracy*: How close a measurement is to the true value.
+* *Precision*: How consistent repeated measurements are.
+
+* _Error types_:
+** Systematic error: Consistent, repeatable error.
+** Random error: Unpredictable variations in measurements.
+
+== Graphs and Data Representation
+
+* *Line Graphs*: Show changes over time or relationships.
+* *Bar Graphs*: Compare quantities.
+* *Pie Charts*: Show parts of a whole.
+
+== Basic Mathematical Skills for Physics
+
+* Algebra (solving equations)
+* Ratios and Proportions
+* Graphs and Slopes (understanding relationships)
+* Trigonometry (basic sine, cosine, tangent)
+
+*_Physics is a science derived from mathematics just like every other science._*

@@ -1,1 +1,43 @@
 = Thoughts in Flight
+
+== Epicurus of Samos (child of Epic #611) -- DONE, ready for your review
+
+*Issue #612* -- "Epicurus of Samos": labels `documentation`+`enhancement`, native sub-issue of #611, project "Learning Trails" / Backlog.
+Body is my short draft (read it, reshape if needed).
+
+*`epicurus.adoc` filled* -- British Museum bust (public domain, 500x600), `Featured in:` breadcrumb (both Particle posts) {plus} see-democritus/gassendi,
+hero line, one paragraph (the swerve {plus} the Lucretius->Gassendi line), `*Assignment -- Captain*` linking #612.
+
+*Verified* -- `jekyll build` clean, all links resolve, image asset copied, no leaked tokens. NOT committed -- yours.
+
+Clear this section at merge.
+
+== Galileo Galilei (child of Epic #611) -- DONE, ready for your review
+
+*Issue #614* -- "Galileo Galilei": labels `documentation`+`enhancement`, native sub-issue of #611, project "Learning Trails" / Backlog. Verified by read-back, not mutation echoes.
+Body is my short draft -- and it *leads with the open question you asked for*: why was a monumental figure left out of the companion (he's only Gassendi's friend at L87)? The done-when gates on the team answering that first.
+
+*`galileo.adoc` seeded* -- Sustermans 1636 portrait (public domain, NMM Greenwich, 500x600), `Featured in:` breadcrumb (both Particle posts) {plus} see-newton/gassendi,
+hero line, one paragraph (corpuscular matter + the 1633-trial backdrop), `[%collapsible]` primary/secondary qualities, `== ToDo: Captain` linking #614.
+
+*Where Galileo is named but not yet linked* (grep, for the issue / your call): `On-Particle.adoc:80`, `Important-People...:94`, `gassendi.adoc:30,:48`, `archimedes.adoc:38`. Not wired by me -- awaiting your word.
+
+*Verified* -- live server (PID 38480) regenerated on save; image, collapsible, #614 link present; no leaked attrs. NOT committed -- yours.
+
+Clear this section at merge.
+
+== René Descartes (child of Epic #611) -- DONE, ready for your review
+
+*Issue #615* -- "René Descartes": labels `documentation`+`enhancement`, native sub-issue of #611, project "Learning Trails" / Backlog. Verified by read-back.
+Body leads with the scope question: he is the anti-atomist (plenum, no void) and also a math-curriculum figure -- footnote, opposition, or math-first? Gated on the team deciding.
+
+*`descartes.adoc` seeded* -- Frans Hals 1649 portrait (public domain, Louvre INV. 1317, 500x600). NOTE: Descartes is NOT in the graded essay `On-Particle.adoc` -- only the companion -- so `Featured in:` is companion-only ({plus} see-gassendi).
+Hero {plus} paragraph (plenum vs void; analytic geometry), `[%collapsible]` plenum-versus-void, `== ToDo: Captain` linking #615.
+
+*Cross-curricular flag for you* -- Descartes is also featured in the mathematics doc (`2024-11-08-mathematics.adoc:407`, see-descartes). I kept `Featured in:` to the particle companion only; say if you want the math post added too.
+
+*Where named but not yet linked* (grep, published only): `gassendi.adoc:30`, `khayyam.adoc:69`, `archimedes.adoc:46`. Not wired by me.
+
+*Verified* -- live server regenerated on save; image, collapsible, #615 link present; no leaked attrs. NOT committed -- yours.
+
+Clear this section at merge.

@@ -8,14 +8,20 @@ header:
       url: /people/
     - label: "Literature"
       url: /literature/
+    - label: "History"
+      url: /history/
+    - label: "Psychology"
+      url: /psychology/
     - label: "Philosophy"
       url: /philosophy/
     - label: "Mathematics"
       url: /mathematics/
     - label: "Science"
       url: /science/
-    - label: "Project"
-      url: https://github.com/orgs/Gervi-Hera-Vitr/projects/1/views/1
+    - label: "Engineering"
+      url: /engineering/
+    - label: "Business"
+      url: /business/
 ---
 = Welcome to our Laboratory
 :page-layout: home
@@ -135,7 +141,7 @@ Our educational philosophy is based on the following principles:
 
 [.middle]
 .Children pursuing knowledge in a Socratic{socratic-method-fn} setting{socratic-setting-fn}.
-image::assets/images/site-banner-600.jpg[Curriculum,width="80%",float="right",align="center",link=https://github.com/Gervi-Hera-Vitr/sindri-labs/tree/main/curriculum]
+image::assets/images/site-banner-600.jpg[Socratic learning,width="80%",float="right",align="center"]
 
 Our goal is not simply to meet academic standards, but to build intellectual resilience,
 creative confidence, and principled mastery

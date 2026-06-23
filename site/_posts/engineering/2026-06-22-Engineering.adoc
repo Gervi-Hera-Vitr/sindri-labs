@@ -1,0 +1,53 @@
+---
+header:
+  overlay_image: assets/images/banner-devops.jpg
+  overlay_filter: 0.2
+  actions:
+    - label: "Literature"
+      url: /literature/
+    - label: "History"
+      url: /history/
+    - label: "Psychology"
+      url: /psychology/
+    - label: "Philosophy"
+      url: /philosophy/
+    - label: "Mathematics"
+      url: /mathematics/
+    - label: "Science"
+      url: /science/
+    - label: "Engineering"
+      url: /engineering/
+    - label: "Business"
+      url: /business/
+categories: [page]
+tags: [graded]
+---
+= Mímis Academy: Engineering
+rdd13r
+:page-author_profile: true
+:page-excerpt:
+:page-layout: single
+:page-permalink: /engineering/
+:page-classes: wide
+:sectnums:
+:sectanchors:
+:sectlinks:
+:toc: preamble
+:toclevels: 2
+:toc-title: Mímis Academy Engineering
+:keywords: Mímis Academy Engineering
+:imagesdir: ./assets/img
+ifdef::env-name[:relfilesuffix: .adoc]
+:on-machine-learning: link:/sindri-labs/school/2024/10/10/On-Machine-Learning.html[On Machine Learning: My Study Plan]
+:on-github: link:/sindri-labs/school/2025/03/07/On-GitHub.html[On GitHub: A Munchkin's Guide]
+:on-technical-writing: link:/sindri-labs/school/2025/03/07/On-Technical-Writing.html[On Technical Writing: Mastering AsciiDoc]
+:on-osi: link:/sindri-labs/school/2025/07/03/The-OSI-Model.html[Engineering: The OSI Model]
+
+_This is how I organized my engineering trail._
+
+== Engineering Works
+
+{on-machine-learning} +
+{on-github} +
+{on-technical-writing} +
+{on-osi}

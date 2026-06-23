@@ -14,13 +14,14 @@ ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
 :page-image: bohr.jpg
 :page-image-credit: "Portrait photograph, circa 1922. Public domain via Wikimedia Commons."
 :all-people: link:/sindri-labs/people/[All People]
+:featured-companion: link:/sindri-labs/school/2026/05/08/Important-People-In-Particle-Discovery.html[Important People]
 :see-thomson: link:/sindri-labs/fragments/people/thomson/[J.J. Thomson]
 :see-rutherford: link:/sindri-labs/fragments/people/rutherford/[Ernest Rutherford]
 :see-dirac: link:/sindri-labs/fragments/people/dirac/[Paul Dirac]
 
 image::{page-image}[{page-image-credit},width="500px",align="left"]
 
-_**↑ {all-people}**_ | _**{see-thomson}**_ · _**{see-rutherford}**_ · _**{see-dirac}**_
+_**↑ {all-people}**_ | _**Featured in:**_ _**{featured-companion}**_ | _**{see-thomson}**_ · _**{see-rutherford}**_ · _**{see-dirac}**_
 
 Danish physicist who quantized the atom. Worked with Rutherford in Manchester, then ran his own institute in Copenhagen that became the gravitational center of 20th-century physics.
 

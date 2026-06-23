@@ -14,12 +14,13 @@ ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
 :page-image: gell-mann.jpg
 :page-image-credit: "Portrait of Murray Gell-Mann at a lecture (2012), photo by Melirius. CC-BY-SA 3.0 via Wikimedia Commons."
 :all-people: link:/sindri-labs/people/[All People]
+:featured-companion: link:/sindri-labs/school/2026/05/08/Important-People-In-Particle-Discovery.html[Important People]
 :see-zweig: link:/sindri-labs/fragments/people/zweig/[George Zweig]
 :see-dalton: link:/sindri-labs/fragments/people/dalton/[John Dalton]
 
 image::{page-image}[{page-image-credit},width="500px",align="left"]
 
-_**↑ {all-people}**_ | _**{see-zweig}**_ · _**{see-dalton}**_
+_**↑ {all-people}**_ | _**Featured in:**_ _**{featured-companion}**_ | _**{see-zweig}**_ · _**{see-dalton}**_
 
 American theoretical physicist. Imposed order on the particle zoo of the 1950s and 1960s, predicted the quark, and named most of the things he discovered with words borrowed from literature.
 

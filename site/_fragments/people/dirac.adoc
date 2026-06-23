@@ -14,12 +14,13 @@ ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
 :page-image: dirac.jpg
 :page-image-credit: "Portrait photograph (1933). Public domain via Wikimedia Commons."
 :all-people: link:/sindri-labs/people/[All People]
+:featured-companion: link:/sindri-labs/school/2026/05/08/Important-People-In-Particle-Discovery.html[Important People]
 :see-anderson: link:/sindri-labs/fragments/people/anderson/[Carl Anderson]
 :see-bohr: link:/sindri-labs/fragments/people/bohr/[Niels Bohr]
 
 image::{page-image}[{page-image-credit},width="500px",align="left"]
 
-_**↑ {all-people}**_ | _**{see-anderson}**_ · _**{see-bohr}**_
+_**↑ {all-people}**_ | _**Featured in:**_ _**{featured-companion}**_ | _**{see-anderson}**_ · _**{see-bohr}**_
 
 English theoretical physicist. One of the founders of quantum mechanics and quantum field theory. Trusted mathematics more than intuition and was right often enough that the field reorganized itself around him.
 

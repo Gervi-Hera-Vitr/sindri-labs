@@ -3,9 +3,12 @@
 // JetBrains plugin reads this; Jekyll does not.
 // Jekyll reads `_config.yml`; the plugin does not.
 
+:icons: font
 :captain: https://github.com/CaptainLugaru[Captain,window=_blank]
 :munchkin: http://www.catb.org/jargon/html/M/munchkin.html[munchkin,window=_blank]
 :rdd13r: https://github.com/rdd13r/[DaiDai,window=_blank]
 :american_literature: link:/sindri-labs/literature/#american-literature[American Literature,window=_blank]
 :mathematics: link:/sindri-labs/mathematics/[Mathematics,window=_blank]
 :on_mathematics: link:/sindri-labs/on-mathematics/[On Mathematics,window=_blank]
+:history: link:/sindri-labs/history/[History,window=_blank]
+:psychology: link:/sindri-labs/psychology/[Psychology,window=_blank]

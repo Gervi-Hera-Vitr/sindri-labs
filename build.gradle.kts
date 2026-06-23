@@ -35,7 +35,6 @@ dependencies {
     implementation(libs.kotlin.logging)
     implementation(libs.logback.classic)
 
-    testImplementation(platform(kotlin("bom")))
     testImplementation(kotlin("test"))
 }
 
@@ -177,12 +176,7 @@ tasks.register("processDependencyUpdates") {
 fun configureAsciiDocInput(
     task: org.asciidoctor.gradle.jvm.AbstractAsciidoctorTask,
     sourceDir: File = documentationRootFolder,
-    includePatterns: List<String> = listOf(
-        "attendance.adoc",
-        "compliance.adoc",
-        "curriculum.adoc",
-        "index.adoc",
-        "testing.adoc")
+    includePatterns: List<String> = listOf("index.adoc")
 ) {
     task.apply {
         isLogDocuments = true

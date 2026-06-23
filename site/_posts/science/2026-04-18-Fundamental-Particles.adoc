@@ -1,0 +1,131 @@
+---
+header:
+  overlay_image: assets/images/banner-philosophy.jpg
+  overlay_filter: 0.1
+categories: [school]
+tags:
+  - particle
+  - physics
+  - stem
+  - to-grade
+---
+= Science: Fundamental Particles
+lugaru
+:page-author_profile: true
+:page-excerpt:
+:stem: latexmath
+:page-layout: single
+:page-classes: wide
+:on-science: link:/sindri-labs/science/[Science]
+
+↑ _**{on-science}**_
+
+A fundamental particle has no internal structure -- no smaller pieces, no composite description. The Standard Model lists 17: 6 quarks, 6 leptons, 4 gauge bosons, and the Higgs boson.
+
+== Fermions (Matter Particles)
+
+Fermions have spin-½(they have to spin 720 degrees to enter its original state again) and obey the Pauli exclusion principle (no two identical fermions in the same quantum state). They are the matter the universe is made of. There are two kinds: leptons and quarks.
+
+=== Leptons
+
+Leptons do not feel the strong nuclear force. They interact via the electromagnetic force (if charged) and the weak force. Three are charged (electron, muon, tau) and three are neutral (the neutrinos).
+
+.The Six Leptons
+[cols="1,1,1,1,1", options="header"]
+|===
+| Lepton | Symbol | Charge | Mass (MeV/c²) | Stable?
+
+| Electron        | stem:[e^-]      | -1 | 0.511        | Yes
+| Electron neutrino | stem:[\nu_e]   | 0  | < 10⁻⁶       | Yes
+| Muon            | stem:[\mu^-]    | -1 | 105.7        | No (~2.2 µs)
+| Muon neutrino   | stem:[\nu_\mu]  | 0  | < 10⁻⁶       | Yes
+| Tau             | stem:[\tau^-]   | -1 | 1,777        | No (~0.29 ps)
+| Tau neutrino    | stem:[\nu_\tau] | 0  | < 10⁻⁶       | Yes
+|===
+
+Neutrino masses are not yet measured -- only upper bounds. Neutrinos do have nonzero mass (proven by neutrino oscillation experiments, Super-Kamiokande and SNO, Nobel 2015), but the individual values are still open.
+
+=== Quarks
+
+Quarks feel all four fundamental forces. They carry fractional electric charge (+⅔ or −⅓) and a property called *color charge* (red, green, blue -- nothing to do with visible color). Color charge is what the strong force responds to.
+
+Quarks are never observed alone. This is *confinement*: pulling two quarks apart costs more energy than creating a new quark-antiquark pair, so any attempt to isolate a quark just produces more hadrons. Quarks bind into:
+
+* *Baryons* (3 quarks): proton (uud), neutron (udd), and many heavier short-lived varieties.
+* *Mesons* (1 quark + 1 antiquark): pion, kaon, and others.
+
+.The Six Quarks
+[cols="1,1,1,1,1", options="header"]
+|===
+| Quark | Symbol | Charge | Approx Mass | Generation
+
+| Up      | u | +⅔ | 2.2 MeV/c²   | 1
+| Down    | d | -⅓ | 4.7 MeV/c²   | 1
+| Charm   | c | +⅔ | 1.27 GeV/c²  | 2
+| Strange | s | -⅓ | 95 MeV/c²    | 2
+| Top     | t | +⅔ | 173 GeV/c²   | 3
+| Bottom  | b | -⅓ | 4.18 GeV/c²  | 3
+|===
+
+The top quark is the heaviest known fundamental particle -- nearly 200 times the mass of a proton. It decays in about 5 × 10⁻²⁵ seconds, faster than the strong force can bind it into a hadron. It is the only quark observed effectively bare.
+
+== Three Generations
+
+Fermions repeat the same pattern three times. Each generation is heavier and less stable than the last. Only Generation 1 particles are stable enough to build ordinary matter.
+
+.Three Generations of Matter
+[cols="1,2,2,2", options="header"]
+|===
+| Generation | Quarks | Charged Lepton | Neutrino
+
+| 1 (stable, makes up all ordinary matter)
+| Up, Down
+| Electron
+| Electron neutrino
+
+| 2
+| Charm, Strange
+| Muon
+| Muon neutrino
+
+| 3
+| Top, Bottom
+| Tau
+| Tau neutrino
+|===
+
+Why exactly three? Nobody knows. LEP at CERN (1989-2000) measured the Z boson's invisible decay width and pinned the number of light neutrino species at exactly three -- so there is no fourth generation of standard fermions. But _why_ three rather than one, two, or seven, is open.
+
+== Bosons (Force Carriers + Higgs)
+
+Bosons have integer spin and do not obey Pauli exclusion -- any number of them can occupy the same state. The four gauge bosons mediate the three Standard Model forces. The Higgs is a separate case.
+
+.The Five Fundamental Bosons
+[cols="1,1,1,1,2", options="header"]
+|===
+| Boson | Force Mediated | Charge | Mass (GeV/c²) | Range / Notes
+
+| Photon (γ)      | Electromagnetic | 0   | 0       | Infinite range; massless ⇒ EM is long-range
+| Gluon (g)       | Strong          | 0   | 0       | Massless, but confined to ~1 fm by self-interaction
+| stem:[W^\pm]    | Weak            | ±1  | 80.4    | ~10⁻¹⁸ m; massive ⇒ weak force is short-range
+| stem:[Z^0]      | Weak            | 0   | 91.2    | ~10⁻¹⁸ m
+| Higgs (H)       | None            | 0   | 125.25  | Excitation of the Higgs field; gives mass to other particles
+|===
+
+Gluons are unusual: they themselves carry color charge, so they interact with each other. This self-interaction is what causes confinement and the rapid falloff of the strong force outside a hadron.
+
+The Higgs boson is not a force carrier. It is the excitation of the Higgs field, a field that fills all of space. Particles that interact with the Higgs field acquire mass from that interaction; particles that do not (photons, gluons) remain massless. The Higgs was predicted in 1964 (Higgs, Englert, Brout, and others) and confirmed at the LHC in 2012.
+
+== Gravity Is Missing
+
+The Standard Model has no quantum description of gravity. A hypothetical *graviton* (spin-2, massless) is the expected mediator if a quantum theory of gravity exists, but no graviton has ever been detected, and no consistent quantum theory of gravity has been written down. This is the largest open hole in fundamental physics.
+
+== Sources
+
+* Particle Data Group, _Review of Particle Physics_, https://pdg.lbl.gov. The authoritative reference on every fundamental particle, updated annually by an international collaboration.
+* David Griffiths, _Introduction to Elementary Particles_, 2nd ed. (Wiley-VCH, 2008). Standard undergraduate-level textbook covering fermions, bosons, the Standard Model.
+* Frank Close, _The Particle Zoo: The Search for the Fundamental Nature of Reality_ (Bloomsbury, 2012). Readable popular treatment.
+* CERN, "The Standard Model," https://home.cern/science/physics/standard-model. Official explainer with current diagrams.
+* *Three generations confirmed:* ALEPH, DELPHI, L3, OPAL collaborations, "Precision electroweak measurements on the Z resonance," _Physics Reports_ 427, 257 (2006). LEP at CERN measured the Z boson's invisible decay width and pinned the number of light neutrino species at exactly three -- which constrains the number of fermion generations.
+* *Quark confinement:* Kenneth G. Wilson, "Confinement of Quarks," _Physical Review D_ 10, 2445 (1974). The lattice formulation that explains why isolated quarks are never observed.
+* *Higgs boson observation:* ATLAS Collaboration, _Physics Letters B_ 716, 1 (2012). CMS Collaboration, _Physics Letters B_ 716, 30 (2012). The experimental confirmation that the Higgs field exists.

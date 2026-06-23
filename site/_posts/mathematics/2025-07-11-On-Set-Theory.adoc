@@ -53,7 +53,7 @@ And demonstrated in Linguistics using predicates.
 
 == Final Grade and Comments
 
-- ✅ Graded assignment by {rdd13r} on July 12th 2025. *A*
+- Graded assignment by {rdd13r} on July 12th 2025. *A*
 
 // Legends-mentioned backlink section -- managed by .tmp/footer-backlinks.py
 == Legends mentioned

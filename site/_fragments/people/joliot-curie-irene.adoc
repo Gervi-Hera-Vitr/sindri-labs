@@ -11,15 +11,52 @@ related: [joliot-curie-frederic, bothe, chadwick]
 = Irène Joliot-Curie (1897-1956)
 ifndef::env-site[:imagesdir: ../../assets/images/people]
 ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
-:page-image: placeholder.jpg
-:page-image-credit: "change me"
+:page-image: joliot-curie-irene.jpg
+:page-image-credit: "Photograph (1935) by Nobel Foundation. Public domain via Wikimedia Commons."
 :all-people: link:/sindri-labs/people/[All People]
+:featured-companion: link:/sindri-labs/school/2026/05/08/Important-People-In-Particle-Discovery.html[Important People]
 :see-joliot-curie-frederic: link:/sindri-labs/fragments/people/joliot-curie-frederic/[Frédéric Joliot-Curie]
 :see-bothe: link:/sindri-labs/fragments/people/bothe/[Walther Bothe]
+:see-becker: link:/sindri-labs/fragments/people/becker/[Herbert Becker]
 :see-chadwick: link:/sindri-labs/fragments/people/chadwick/[James Chadwick]
+:see-neutron-miss: link:/sindri-labs/fragments/people/bothe-becker-joliot-curies/[the neutron near-miss]
 
 image::{page-image}[{page-image-credit},width="500px",align="left"]
 
-_**↑ {all-people}**_ | _**{see-joliot-curie-frederic}**_ · _**{see-bothe}**_ · _**{see-chadwick}**_
+_**↑ {all-people}**_ | _**Featured in:**_ _**{featured-companion}**_ +
+_**{see-joliot-curie-frederic}**_ · _**{see-bothe}**_ · _**{see-chadwick}**_ · _**{see-neutron-miss}**_
 
-// FixMe: Captain
+The daughter who was raised inside the laboratory and never really left it. Marie and Pierre Curie's elder child, taught science as a small girl by a circle of Nobel-class friends, hardened at seventeen by running X-ray units at the front in the First World War, and grown into the most exacting experimenter of her generation. With her husband {see-joliot-curie-frederic} she discovered how to _make_ matter radioactive -- and won a Nobel Prize for it -- two years after the two of them held the neutron in their hands and called it by the wrong name.
+
+== History
+
+Born in Paris in 1897, the first of Marie and Pierre Curie's two daughters, into a household where science was simply the air. Her father was killed by a horse-drawn wagon when she was eight; her mother raised the girls and went on to a second Nobel Prize. Irène grew up doing physics the way other children do chores -- not from books but from instruments, beside the most formidable woman in science.
+
+.The Curie "Cooperative" -- a homeschool run by Nobel laureates
+[%collapsible]
+====
+Around 1907, dissatisfied with ordinary Paris schools, Marie Curie organized something a homeschooling family will recognize at once: a teaching _cooperative_. A handful of Sorbonne scientists agreed to teach one another's children, each taking the subject they knew best. Marie taught the physics. Jean Perrin -- a future Nobel laureate -- taught chemistry. Paul Langevin taught the mathematics. Others taught literature, natural history, modeling, even Chinese. Classes were small, short, intense, and hands-on, held in real laboratories, with plenty of time left for play and exercise. It ran only about two years, but it gave Irène something a normal school never could: she learned physics _from the people who were inventing it_, at a bench, with her hands. The lesson for any homeschooler is that the Curie "Cooperative" was not a compromise -- it was an advantage. The best teacher of a living subject is someone doing it for real.
+====
+
+In the First World War, barely seventeen, she joined her mother running mobile X-ray units -- the "petites Curies" -- near the front. Within months she was operating independently: positioning the equipment, doing the geometry to locate bullets and shrapnel in wounded men, and training other women to do the same. She earned her doctorate in 1925 on the alpha rays of polonium, the element her parents had discovered. In 1926 she married Frédéric Joliot, a charismatic young engineer who had come to the institute as Marie's assistant; they joined their names to Joliot-Curie and their careers into one. She later became a professor at the Sorbonne, director of the Radium Institute laboratory (1946), and -- under the 1936 Popular Front government -- one of the first three women ever to hold office in France, as undersecretary for scientific research, at a time when French women still could not vote. The Académie des sciences repeatedly refused to admit her, because she was a woman; she kept standing for election anyway, as a protest. She died in 1956 of leukemia, from a lifetime's exposure to radiation -- the same way her mother had died, twenty-two years before.
+
+== How She Thought
+
+Irène thought with her hands. Colleagues said she resembled her father, Pierre, in an almost instinctive command of laboratory instruments -- she could feel when an apparatus was right. Her style was methodical, patient, and exact: set the experiment up carefully, measure precisely, trust the numbers, and say plainly what they showed. She had no use for charm or show. She was reserved to the point of seeming cold, blunt to the point of bruising feelings, indifferent to fashion and small talk -- and completely, unshakably sure of herself at the bench. What looked like aloofness was concentration. Frédéric, who knew her best, put it simply.
+
+[quote, Frédéric Joliot-Curie, on his wife Irène]
+____
+I rediscovered in Pierre Curie's daughter the same purity, his good sense, his humility.
+____
+
+Her marriage was a meeting of opposites that worked. Frédéric was the imaginative, fast, sociable one -- the firework; Irène was the rigor, the precision, the steady hand. Neither was complete without the other, and the discoveries came out of the seam between the two temperaments. But the very steadiness that made her a great measurer had a cost, and it shows in the one that got away. Irène trusted what her instruments told her so completely that when they told her something strange, her instinct was to fit it to the physics she already knew rather than to imagine a new particle no one had named. That is the double edge of a careful mind: it rarely fools itself, and it rarely leaps.
+
+== What She Did
+
+In January 1932, she and Frédéric took the penetrating radiation that {see-bothe} and {see-becker} had found, and showed it could knock protons clean out of paraffin wax at enormous speed. The result was real, important, and correctly measured -- and they published it as gamma rays, because no one in Paris had Rutherford's old guess about a neutral particle in mind. Weeks later {see-chadwick} read their paper, saw that no ray of light could hit a proton that hard, and announced the neutron. The full story of the miss is in {see-neutron-miss}. It is one of the great near-misses in the history of science, and it stung.
+
+Two years later they answered it. In 1934, bombarding aluminum with alpha particles, they created a form of phosphorus that does not exist in nature -- and that kept clicking on the Geiger counter after they removed the source. They had made an element radioactive: the first _artificial_ radioactivity, transmutation on demand. It won them the 1935 Nobel Prize in Chemistry "for their synthesis of new radioactive elements," and it opened the door to the radioactive isotopes used in medicine and research to this day. Marie Curie, dying, lived just long enough to hold the tiny sample and hear it crackle. Irène went further still: in 1938, irradiating uranium, she found chemical traces that made no sense under the physics of the day -- a clue that led directly to Hahn, Strassmann, and Meitner recognizing nuclear fission months later. She kept catching the edges of the atomic age. The daughter raised in the lab spent her whole life proving that the Curie method -- look closely, measure honestly, follow the radiation -- still had more to give.
+
+== ToDo: Captain:
+
+https://github.com/Gervi-Hera-Vitr/sindri-labs/issues/619[#619 Bothe, Becker & the Joliot-Curies,window=_blank].

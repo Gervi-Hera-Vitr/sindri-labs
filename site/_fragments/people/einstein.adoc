@@ -11,16 +11,90 @@ related: [bohr, dirac, riemann, maxwell]
 = Albert Einstein (1879-1955)
 ifndef::env-site[:imagesdir: ../../assets/images/people]
 ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
-:page-image: placeholder.jpg
-:page-image-credit: "change me"
+:page-image: einstein.jpg
+:page-image-credit: "Portrait (1947) by Orren Jack Turner. Public domain via Wikimedia Commons."
 :all-people: link:/sindri-labs/people/[All People]
+:featured-companion: link:/sindri-labs/school/2026/05/08/Important-People-In-Particle-Discovery.html[Important People]
 :see-bohr: link:/sindri-labs/fragments/people/bohr/[Niels Bohr]
 :see-dirac: link:/sindri-labs/fragments/people/dirac/[Paul Dirac]
 :see-riemann: link:/sindri-labs/fragments/people/riemann/[Bernhard Riemann]
 :see-maxwell: link:/sindri-labs/fragments/people/maxwell/[James Clerk Maxwell]
+:see-democritus: link:/sindri-labs/fragments/people/democritus/[Democritus]
 
 image::{page-image}[{page-image-credit},width="500px",align="left"]
 
-_**↑ {all-people}**_ | _**{see-bohr}**_ · _**{see-dirac}**_ · _**{see-riemann}**_ · _**{see-maxwell}**_
+_**↑ {all-people}**_ | _**Featured in:**_ _**{featured-companion}**_ +
+_**{see-bohr}**_ · _**{see-dirac}**_ · _**{see-riemann}**_ · _**{see-maxwell}**_
 
-_Stub -- body to be written._
+The man who proved the atom is real -- and then showed that light, too, is made of particles. German-born, a clerk in a patent office when he did his greatest work, and for the last thirty years of his life the most famous scientist on Earth. In a single year, 1905, he ended a 2,400-year-old argument over whether atoms exist, opened the door to quantum theory almost by accident, tore up Newton's space and time, and wrote down E = mc². Then he spent the rest of his life refusing to walk back through the quantum door he had opened.
+
+== History
+
+Born in Ulm in 1879 and raised in Munich, where his father and uncle ran an electrical firm -- dynamos, coils, magnets, currents. Einstein grew up surrounded by the invisible forces of electromagnetism, and he never stopped wondering about them. When he was four or five, home sick, his father handed him a compass. The needle swung north, pulled by nothing he could see or touch, and the mystery of it lodged in him for life.
+
+[quote, Einstein, Autobiographical Notes (1949)]
+____
+That this needle behaved in such a determined way did not at all fit into the nature of events... Something deeply hidden had to be behind things.
+____
+
+That conviction -- that a hidden, lawful order sits beneath what the senses report -- is the engine of everything he did.
+
+He could not stand school. The Munich Gymnasium ran on rote memorization and military discipline; he said the teachers behaved like sergeants, and the whole thing strangled curiosity. At fifteen he walked out. At sixteen he renounced his German citizenship rather than be drafted, and spent some years stateless. None of this looked like the start of a great career. It looked like a bright, stubborn boy who would not be told what to think -- which is exactly what he was, and exactly what the physics would need.
+
+.Aarau, age sixteen -- the beam of light
+[%collapsible]
+====
+Having failed the entrance exam to the Zurich Polytechnic a year early, Einstein finished secondary school in Aarau, Switzerland, at a school built on Pestalozzi's method: learn by images and understanding, not by memorizing. He thrived there. And there, at sixteen, he asked the question that would take him ten years to answer -- _what would a beam of light look like if you raced alongside it at its own speed?_ Maxwell's equations said you would see a frozen electromagnetic wave standing still in space -- which those same equations forbid. Something in the common-sense picture had to break. What finally broke, in 1905, was the assumption that time ticks at the same rate for everyone.
+====
+
+He scraped through the Polytechnic leaning on his friend Marcel Grossmann's lecture notes, irritated his professors with his independence, and graduated into unemployment -- no professor would recommend him. In 1902 he took a job as a clerk in the Swiss patent office in Bern, assessing patents for electrical devices: clocks, signals, schemes for synchronizing time across distances. It was the perfect wrong job. Beholden to no university and no orthodoxy, with a steady salary and a desk full of problems about clocks and signals, he did the most productive thinking in the history of physics. In 1905 -- still a patent clerk -- he published four papers that each could have made a career.
+
+General relativity followed in 1915; when a 1919 eclipse expedition confirmed that gravity bends starlight by exactly the amount he had predicted, he became, overnight, the first scientist the whole world knew by face. He won the 1921 Nobel Prize -- pointedly _not_ for relativity, still thought too speculative, but for the photoelectric effect. When the Nazis took power in 1933 he was abroad; a Jew and a pacifist, he never returned to Germany and settled at Princeton. In 1939, fearing Hitler would build an atomic bomb first, he signed a letter to President Roosevelt that helped start the American project -- a decision the lifelong pacifist later called his one great mistake. He worked, more and more alone, until his death in 1955.
+
+== How He Thought
+
+Einstein did not think in equations. He thought in vivid physical pictures -- a rider chasing a light beam, a man falling off a roof, a passenger in a sealed elevator -- and only afterward hunted for the mathematics to fit. He called them _Gedankenexperimente_, thought experiments, and they were his real laboratory. He once said that words and language played almost no part in his thinking: he reasoned by combining images and physical feelings, and translated the result into symbols later.
+
+His second habit was to take a few principles as absolutely, non-negotiably true and then follow them off a cliff. For special relativity he assumed just two things -- that the laws of physics are the same for everyone moving steadily, and that light travels at the same speed for every observer -- and refused to flinch when those two assumptions wrecked common sense. If they held, then two events that are simultaneous for me are not simultaneous for you; moving clocks run slow; mass is a form of energy. Most people would have read the absurd conclusions as proof the assumptions were wrong. Einstein trusted the principles over his gut feelings about time, and the universe turned out to agree with him.
+
+What let him doubt something as obvious as universal time was a habit he picked up partly from philosophy. He read David Hume and Ernst Mach, who taught him to distrust any idea just because it feels necessary, and to ask of every concept: _what measurement does this actually correspond to?_ When he asked that of "two events happening at the same time," he found there was no way to check it without trading light signals back and forth -- and once you looked at it that way, simultaneity quietly stopped being absolute. He dissolved a 200-year-old assumption by demanding that it pay its way in measurements.
+
+.His "happiest thought" -- the falling man
+[%collapsible]
+====
+In 1907, sitting in the patent office, Einstein had what he called the happiest thought of his life: _a person in free fall does not feel his own weight._ Drop with the elevator and you float; from inside a sealed box you cannot tell whether you are falling in gravity or drifting in empty space. Gravity and acceleration are, locally, the same thing. He spent the next eight years turning that one image into general relativity, in which gravity is not a force at all but the bending of space and time by mass. The picture demanded mathematics he did not know -- the geometry of curved spaces worked out by {see-riemann} -- and Grossmann had to teach it to him. The picture came first; the math came second, and barely in time.
+====
+
+That order -- physics first, mathematics second -- was his strength and very nearly his undoing. He distrusted pure mathematical cleverness, and it nearly cost him general relativity: the mathematician David Hilbert reached the field equations at almost the same moment, working from the math alone. Einstein got there because he never let go of the physical picture.
+
+And then the same trait that made him great made him stuck. The independence that let him overturn Newton would not let him accept the quantum mechanics he, more than anyone, had founded. When his friend Max Born showed that the new physics could predict only probabilities -- that nature, at bottom, plays dice -- Einstein refused.
+
+[quote, Einstein, letter to Max Born (December 1926)]
+____
+The theory produces a good deal, but hardly brings us closer to the secret of the Old One. I am at all events convinced that He does not play dice.
+____
+
+He never gave up that conviction. He spent his last thirty years at Princeton hunting for a single unified theory that would put the determinism back and make the dice unnecessary, and he failed, while the rest of physics moved on without him. Even his failures were fertile: in 1935, trying to prove quantum mechanics incomplete, he and two colleagues described what we now call entanglement -- the "spooky action at a distance" he meant as an absurdity, which turned out to be real and is now the heart of quantum computing. He was wrong about the dice. He was wrong in the most productive way anyone has ever been wrong.
+
+== What He Did
+
+Four papers in 1905, written at the patent-office desk, each one foundational:
+
+. *Brownian motion.* He showed mathematically that the endless jiggling of tiny particles suspended in water is caused by collisions with invisible molecules -- and turned it into a number you could go and measure. When Jean Perrin confirmed it in the laboratory a few years later, the 2,400-year-old question the {featured-companion} essay traces from {see-democritus} onward was finally closed: atoms are real, not a convenient fiction.
+. *The photoelectric effect.* He proposed that light arrives in discrete packets of energy -- quanta, later called photons. Light, which everyone since {see-maxwell} knew was a wave, also behaves as a stream of particles. This founded quantum theory and won him the Nobel Prize.
+. *Special relativity.* Space and time are not Newton's fixed stage; measured lengths and times depend on motion, and the speed of light is the one thing every observer agrees on.
+. *Mass-energy equivalence.* E = mc² -- matter is frozen energy, and energy carries mass. A particle's mass is just bound-up energy, which is why particles can be created and destroyed in accelerators, and why the Sun shines.
+
+.1905: how Brownian motion proved atoms are real
+[%collapsible]
+====
+By 1900 most chemists used atoms as bookkeeping, but many physicists -- led by Ernst Mach and Wilhelm Ostwald -- denied that atoms physically existed, since no one had ever seen one. Einstein made them visible through their effects. A pollen grain in still water dances and jitters without rest; Einstein showed this is the grain being kicked, unevenly, by countless water molecules too small to see, and he derived exactly how far such a grain should wander in a given time. Jean Perrin measured it (1908-1913), the numbers matched, and the result even yielded Avogadro's number -- how many molecules sit in a given amount of stuff. Ostwald publicly conceded; Mach died unconvinced but increasingly alone. The atom stopped being a hypothesis and became a measured fact. Perrin won the 1926 Nobel Prize for the confirmation.
+====
+
+In 1915 he completed general relativity, recasting gravity as the geometry of spacetime; it predicted the bending of starlight (confirmed 1919), the slow precession of Mercury's orbit, black holes, and the expansion of the universe -- predictions still being confirmed a century on.
+
+Here is the strange shape of his career, and it rhymes with {see-democritus}. Democritus got the _method_ of atomism right even where he got the details wrong. Einstein got the method so right that he proved atoms real and showed that light itself is particulate -- he is one of the founders of the very particle physics that runs on quantum chance. And then, having opened that door, he refused to his last day to believe what stood behind it. He was the man who made the quantum world undeniable and the man who could not accept it. The strength and the limit were one mind, thinking the way it always had.
+
+== ToDo: Captain:
+
+https://github.com/Gervi-Hera-Vitr/sindri-labs/issues/617[#617 Albert Einstein,window=_blank].

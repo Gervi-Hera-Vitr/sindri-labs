@@ -14,13 +14,14 @@ ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
 :page-image: rutherford.jpg
 :page-image-credit: "Portrait by Bain News Service (c. 1920s). Public domain via Wikimedia Commons."
 :all-people: link:/sindri-labs/people/[All People]
+:featured-companion: link:/sindri-labs/school/2026/05/08/Important-People-In-Particle-Discovery.html[Important People]
 :see-thomson: link:/sindri-labs/fragments/people/thomson/[J.J. Thomson]
 :see-geiger-marsden: link:/sindri-labs/fragments/people/geiger-marsden/[Geiger Marsden]
 :see-bohr: link:/sindri-labs/fragments/people/bohr/[Niels Bohr]
 
 image::{page-image}[{page-image-credit},width="500px",align="left"]
 
-_**↑ {all-people}**_ | _**{see-thomson}**_ · _**{see-geiger-marsden}**_ · _**{see-bohr}**_
+_**↑ {all-people}**_ | _**Featured in:**_ _**{featured-companion}**_ | _**{see-thomson}**_ · _**{see-geiger-marsden}**_ · _**{see-bohr}**_
 
 New Zealander, Cavendish Professor, Nobel laureate (in chemistry, much to his amusement). Discovered the atomic nucleus. Mentored a chain of Nobel laureates that includes Bohr, Chadwick, Geiger, Marsden, Blackett, Cockcroft, and Walton.
 

@@ -11,15 +11,59 @@ related: [becker, joliot-curie-irene, chadwick]
 = Walther Bothe (1891-1957)
 ifndef::env-site[:imagesdir: ../../assets/images/people]
 ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
-:page-image: placeholder.jpg
-:page-image-credit: "change me"
+:page-image: bothe.jpg
+:page-image-credit: "Portrait (1954) by Nobel Foundation. Public domain via Wikimedia Commons."
 :all-people: link:/sindri-labs/people/[All People]
+:featured-companion: link:/sindri-labs/school/2026/05/08/Important-People-In-Particle-Discovery.html[Important People]
 :see-becker: link:/sindri-labs/fragments/people/becker/[Herbert Becker]
 :see-joliot-curie-irene: link:/sindri-labs/fragments/people/joliot-curie-irene/[Irène Joliot-Curie]
 :see-chadwick: link:/sindri-labs/fragments/people/chadwick/[James Chadwick]
+:see-geiger: link:/sindri-labs/fragments/people/geiger/[Hans Geiger]
+:see-neutron-miss: link:/sindri-labs/fragments/people/bothe-becker-joliot-curies/[the neutron near-miss]
 
 image::{page-image}[{page-image-credit},width="500px",align="left"]
 
-_**↑ {all-people}**_ | _**{see-becker}**_ · _**{see-joliot-curie-irene}**_ · _**{see-chadwick}**_
+_**↑ {all-people}**_ | _**Featured in:**_ _**{featured-companion}**_ +
+_**{see-becker}**_ · _**{see-joliot-curie-irene}**_ · _**{see-chadwick}**_ · _**{see-neutron-miss}**_
 
-// FixMe: Captain
+The man who could measure a particle to exquisite precision and still call it by the wrong name. A German experimentalist of austere, almost monkish discipline -- Max Planck's student, {see-geiger}'s apprentice -- who invented the _coincidence method_, a way of pulling real events out of a storm of noise by demanding that two detectors fire at the very same instant. It won him a Nobel Prize and settled one of the deepest arguments in early quantum theory. And in 1930 it carried him to within one careful step of the neutron -- a step he did not take.
+
+== History
+
+Born in 1891 in Oranienburg, near Berlin, the son of a merchant. He studied physics at the University of Berlin and took his doctorate in 1914 under the great theorist Max Planck, who supervised him with a famously light hand -- checking on him only twice in six months, then telling him to write it up. That trust left a mark: Bothe worked best alone, answerable mostly to himself.
+
+Then the First World War took him. He volunteered in 1914, was captured by the Russians, and spent roughly five years as a prisoner of war, much of it in Siberia.
+
+.Five years in Siberia -- the making of a self-contained mind
+[%collapsible]
+====
+Most men would have lost those years. Bothe used them. Cut off from laboratories, journals, and colleagues, he taught himself Russian until he could read and speak it, and worked through theoretical physics and mathematics in his head and on paper, extending the problems of his doctorate. He also met the woman he would marry, Barbara Below, and brought her home to Germany in 1920. The isolation did not break his concentration -- it forged it. The austere, self-sufficient discipline everyone later noticed in him was built in a prison camp, where the only resource he had was his own mind.
+====
+
+Back in Germany he joined the Physikalisch-Technische Reichsanstalt, the national physics bureau, as assistant to {see-geiger} -- the man who had given physics its detectors -- who taught him the experimental craft to match his theory. Bothe rose to direct the radioactivity laboratory, then took professorships at Giessen (1930) and Heidelberg (1932). In 1934 the Nazi "German Physics" movement -- antisemitic, and hostile to the "Jewish" abstraction of quantum theory -- drove him out of his university chair; Planck and a colleague kept him in German science by handing him the physics directorship of the Kaiser Wilhelm Institute for Medical Research in Heidelberg, where he stayed the rest of his life. There he built the first working cyclotron in Germany (1943-44). During the war he was drawn into the _Uranverein_, the German nuclear project, where one of his measurements -- spoiled by impure graphite -- wrongly suggested graphite was a poor neutron moderator and helped push the German effort down the dead-end road of scarce heavy water. He won the Nobel Prize in Physics in 1954 and died in Heidelberg in 1957; the institute he led became the Max Planck Institute for Nuclear Physics.
+
+== How He Thought
+
+Bothe had a combination almost no one else had: he was a first-rate _mathematician_ and a first-rate _experimentalist_ at once. He could derive the formula and then build, with his own hands, the apparatus to test it -- and when an experiment needed a purer radioactive source, he would go and do the chemistry to make one. Most physicists live on one side of that line. Bothe ran back and forth across it all day.
+
+The deeper signature of his mind was _indirection_. He did not fully trust what a single detector told him; he trusted what two detectors told him _together_. His great idea was to reason not about events but about the _correlations between_ events -- to pull a real signal out of random noise by asking which pulses arrive at the same instant. That is a fundamentally statistical way of seeing the world: truth is not in any one measurement but in the pattern of which measurements agree.
+
+.The coincidence method -- catching truth by demanding two shadows move together
+[%collapsible]
+====
+A single particle racing through two Geiger counters set one behind the other trips them at essentially the same moment. Bothe wired the counters into a circuit that fires _only_ when both pulse together. Random background events almost never coincide, so a coincidence is a near-certain sign of one real particle passing through both -- the noise cancels, the signal survives. In 1925, with {see-geiger}, he turned this into a decisive experiment. The Bohr-Kramers-Slater theory had proposed that energy and momentum are conserved only _on average_, statistically, not in each individual collision. Bothe and Geiger looked for the scattered photon and the recoil electron of a single Compton collision and asked: do they appear _together_? They did -- far more often than chance could explain. Energy and momentum are conserved in _every_ event, not merely on average. A clever timing trick had settled a foundational question about the quantum world.
+====
+
+For all that austerity, there was a second Bothe. He played the piano -- Beethoven and Bach -- painted in oils and watercolors, and went to the mountains. The exacting, remote precision and the artist's eye lived in the same difficult, private man.
+
+== What He Did
+
+His monument is the coincidence method (around 1924-25), and the Nobel committee named it exactly: the 1954 prize was "for the coincidence method and his discoveries made therewith." It became, and remains, one of the basic techniques of experimental particle physics -- every detector that confirms a real particle by demanding that several signals line up in time is doing what Bothe first did. (He shared that 1954 prize with Max Born, who won for entirely separate work -- they were not collaborators, just co-honorees.)
+
+And then there is the one that got away. In 1930, at Giessen, Bothe and his junior collaborator {see-becker} bombarded beryllium with alpha particles and found a strange, intensely penetrating, electrically neutral radiation -- it sailed through lead that would have stopped almost anything else. They called it gamma rays, because gamma rays were the only neutral radiation anyone had a name for. Two years later {see-chadwick}, and separately the Joliot-Curies in Paris (see {see-joliot-curie-irene}), wrestled with that same radiation; Chadwick alone recognized that it could not be light at all, because no photon could kick a proton as hard as this radiation did without breaking the conservation of energy and momentum. It was a new particle: the neutron. The full bench story is {see-neutron-miss}.
+
+Here is the sting, and it is worth sitting with. The very law Chadwick used to crack the neutron -- conservation of momentum, applied to a recoiling proton -- was the law Bothe himself had _proved_ holds in every single event, seven years earlier, with the coincidence method. He owned the decisive tool. He simply did not turn it on his own beryllium data. The lesson is not that Bothe was careless; he was one of the most careful men in physics. It is that a tool only cuts when you choose to pick it up. He had the knife in his hand and reached for the familiar name instead.
+
+== ToDo: Captain:
+
+https://github.com/Gervi-Hera-Vitr/sindri-labs/issues/619[#619 Bothe, Becker & the Joliot-Curies,window=_blank].

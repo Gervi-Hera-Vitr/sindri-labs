@@ -1,0 +1,23 @@
+---
+name: Michael Faraday
+born: 1791
+died: 1867
+era: modern
+nationality: english
+sciences: [physics, chemistry]
+science: physics
+related: [maxwell]
+---
+= Michael Faraday (1791-1867)
+ifndef::env-site[:imagesdir: ../../assets/images/people]
+ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
+:page-image: placeholder.jpg
+:page-image-credit: "change me"
+:all-people: link:/sindri-labs/people/[All People]
+:see-maxwell: link:/sindri-labs/fragments/people/maxwell/[James Clerk Maxwell]
+
+image::{page-image}[{page-image-credit},width="500px",align="left"]
+
+_**↑ {all-people}**_ | _**{see-maxwell}**_
+
+_Stub -- body to be written._

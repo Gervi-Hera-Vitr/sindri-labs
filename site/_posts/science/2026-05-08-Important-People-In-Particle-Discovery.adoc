@@ -15,39 +15,44 @@ lugaru
 :page-excerpt:
 :page-layout: single
 :page-classes: wide
-:leucippus: link:/sindri-labs/fragments/people/leucippus/[Leucippus]
-:democritus: link:/sindri-labs/fragments/people/democritus/[Democritus]
-:epicurus: link:/sindri-labs/fragments/people/epicurus/[Epicurus of Samos]
-:parmenides: link:/sindri-labs/fragments/people/parmenides/[Parmenides of Elea]
-:aristotle: link:/sindri-labs/fragments/people/aristotle/[Aristotle of Stagira]
-:plato: link:/sindri-labs/fragments/people/plato/[Plato of Athens]
-:gassendi: link:/sindri-labs/fragments/people/gassendi/[Pierre Gassendi]
-:galileo: link:/sindri-labs/fragments/people/galileo/[Galileo Galilei]
-:descartes: link:/sindri-labs/fragments/people/descartes/[Rene Descartes]
-:newton: link:/sindri-labs/fragments/people/newton/[Isaac Newton]
-:leibniz: link:/sindri-labs/fragments/people/leibniz/[Gottfried Leibniz]
-:dalton: link:/sindri-labs/fragments/people/dalton/[John Dalton]
-:thomson: link:/sindri-labs/fragments/people/thomson/[J.J. Thomson]
-:rutherford: link:/sindri-labs/fragments/people/rutherford/[Ernest Rutherford]
-:geiger: link:/sindri-labs/fragments/people/geiger/[Hans Geiger]
-:marsden: link:/sindri-labs/fragments/people/marsden/[Ernest Marsden]
-:bohr: link:/sindri-labs/fragments/people/bohr/[Niels Bohr]
-:einstein: link:/sindri-labs/fragments/people/einstein/[Albert Einstein]
-:dirac: link:/sindri-labs/fragments/people/dirac/[Paul Dirac]
-:chadwick: link:/sindri-labs/fragments/people/chadwick/[James Chadwick]
-:bothe: link:/sindri-labs/fragments/people/bothe/[Walther Bothe]
-:becker: link:/sindri-labs/fragments/people/becker/[Herbert Becker]
-:joliot-curie-irene: link:/sindri-labs/fragments/people/joliot-curie-irene/[Irene Joliot-Curie]
-:joliot-curie-frederic: link:/sindri-labs/fragments/people/joliot-curie-frederic/[Frederic Joliot-Curie]
-:anderson: link:/sindri-labs/fragments/people/anderson/[Carl Anderson]
-:gell-mann: link:/sindri-labs/fragments/people/gell-mann/[Murray Gell-Mann]
-:zweig: link:/sindri-labs/fragments/people/zweig/[George Zweig]
-:higgs: link:/sindri-labs/fragments/people/higgs/[Peter Higgs]
-:brout: link:/sindri-labs/fragments/people/brout/[Robert Brout]
-:englert: link:/sindri-labs/fragments/people/englert/[Francois Englert]
-:guralnik: link:/sindri-labs/fragments/people/guralnik/[Gerald Guralnik]
-:hagen: link:/sindri-labs/fragments/people/hagen/[C. R. Hagen]
-:kibble: link:/sindri-labs/fragments/people/kibble/[Tom Kibble]
+:on-prev: link:/sindri-labs/school/2026/05/08/On-Particle.html[On Particle: The Atomic Science]
+:on-science: link:/sindri-labs/science/[Science]
+:leucippus: link:/sindri-labs/fragments/people/leucippus/[Leucippus,window=_blank]
+:democritus: link:/sindri-labs/fragments/people/democritus/[Democritus,window=_blank]
+:epicurus: link:/sindri-labs/fragments/people/epicurus/[Epicurus of Samos,window=_blank]
+:parmenides: link:/sindri-labs/fragments/people/parmenides/[Parmenides of Elea,window=_blank]
+:aristotle: link:/sindri-labs/fragments/people/aristotle/[Aristotle of Stagira,window=_blank]
+:plato: link:/sindri-labs/fragments/people/plato/[Plato of Athens,window=_blank]
+:gassendi: link:/sindri-labs/fragments/people/gassendi/[Pierre Gassendi,window=_blank]
+:galileo: link:/sindri-labs/fragments/people/galileo/[Galileo Galilei,window=_blank]
+:descartes: link:/sindri-labs/fragments/people/descartes/[Rene Descartes,window=_blank]
+:newton: link:/sindri-labs/fragments/people/newton/[Isaac Newton,window=_blank]
+:leibniz: link:/sindri-labs/fragments/people/leibniz/[Gottfried Leibniz,window=_blank]
+:dalton: link:/sindri-labs/fragments/people/dalton/[John Dalton,window=_blank]
+:thomson: link:/sindri-labs/fragments/people/thomson/[J.J. Thomson,window=_blank]
+:rutherford: link:/sindri-labs/fragments/people/rutherford/[Ernest Rutherford,window=_blank]
+:geiger: link:/sindri-labs/fragments/people/geiger/[Hans Geiger,window=_blank]
+:marsden: link:/sindri-labs/fragments/people/marsden/[Ernest Marsden,window=_blank]
+:bohr: link:/sindri-labs/fragments/people/bohr/[Niels Bohr,window=_blank]
+:einstein: link:/sindri-labs/fragments/people/einstein/[Albert Einstein,window=_blank]
+:dirac: link:/sindri-labs/fragments/people/dirac/[Paul Dirac,window=_blank]
+:chadwick: link:/sindri-labs/fragments/people/chadwick/[James Chadwick,window=_blank]
+:bothe: link:/sindri-labs/fragments/people/bothe/[Walther Bothe,window=_blank]
+:becker: link:/sindri-labs/fragments/people/becker/[Herbert Becker,window=_blank]
+:joliot-curie-irene: link:/sindri-labs/fragments/people/joliot-curie-irene/[Irene Joliot-Curie,window=_blank]
+:joliot-curie-frederic: link:/sindri-labs/fragments/people/joliot-curie-frederic/[Frederic Joliot-Curie,window=_blank]
+:anderson: link:/sindri-labs/fragments/people/anderson/[Carl Anderson,window=_blank]
+:gell-mann: link:/sindri-labs/fragments/people/gell-mann/[Murray Gell-Mann,window=_blank]
+:zweig: link:/sindri-labs/fragments/people/zweig/[George Zweig,window=_blank]
+:higgs: link:/sindri-labs/fragments/people/higgs/[Peter Higgs,window=_blank]
+:brout: link:/sindri-labs/fragments/people/brout/[Robert Brout,window=_blank]
+:englert: link:/sindri-labs/fragments/people/englert/[Francois Englert,window=_blank]
+:guralnik: link:/sindri-labs/fragments/people/guralnik/[Gerald Guralnik,window=_blank]
+:hagen: link:/sindri-labs/fragments/people/hagen/[C. R. Hagen,window=_blank]
+:kibble: link:/sindri-labs/fragments/people/kibble/[Tom Kibble,window=_blank]
+
+← _**{on-prev}**_ +
+↑ _**{on-science}**_
 
 The story above is really a story of minds. Each person here didn't just produce a result -- they had a way of seeing the world that made the result possible.
 Below are short biographies and, more importantly, how each of them was actually thinking.
@@ -269,7 +274,3 @@ The "Higgs boson" is partly a labeling accident.
 * Graham Farmelo, _The Strangest Man: The Hidden Life of Paul Dirac_ (2009). The definitive Dirac biography.
 * Frank Close, _Elusive: How Peter Higgs Solved the Mystery of Mass_ (2022).
 * Diogenes Laertius, _Lives of Eminent Philosophers_, Book IX -- the main ancient source for Leucippus and Democritus.
-
-== Final Grade and Comments
-
-- ✅ Graded assignment by {rdd13r} on July 18th 2026. *A*

@@ -11,14 +11,60 @@ related: [englert, higgs]
 = Robert Brout (1928-2011)
 ifndef::env-site[:imagesdir: ../../assets/images/people]
 ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
-:page-image: placeholder.jpg
-:page-image-credit: "change me"
+:page-image: brout.jpg
+:page-image-credit: "Portrait of Robert Brout (2007) by Pnicolet. CC-BY-SA 3.0 via Wikimedia Commons."
 :all-people: link:/sindri-labs/people/[All People]
+:featured-companion: link:/sindri-labs/school/2026/05/08/Important-People-In-Particle-Discovery.html[Important People]
 :see-englert: link:/sindri-labs/fragments/people/englert/[François Englert]
 :see-higgs: link:/sindri-labs/fragments/people/higgs/[Peter Higgs]
+:see-mass-mechanism: link:/sindri-labs/fragments/people/brout-englert-ghk/[the 1964 mass mechanism]
 
 image::{page-image}[{page-image-credit},width="500px",align="left"]
 
-_**↑ {all-people}**_ | _**{see-englert}**_ · _**{see-higgs}**_
+_**↑ {all-people}**_ | _**Featured in:**_ _**{featured-companion}**_ +
+_**{see-englert}**_ · _**{see-higgs}**_ · _**{see-mass-mechanism}**_
 
-// FixMe: Captain
+The man who saw that the vacuum could behave like a superconductor. An American physicist who crossed an ocean for a friendship, Robert Brout brought the way of thinking used for magnets and metals into the heart of particle physics -- and with {see-englert} worked out, in 1964, how particles get their mass. He is the "B" in the BEH mechanism, the first letter of the discovery. He died in 2011, one year before the great machine at CERN proved them right, and two years before the Nobel Prize that he, alone of the pair, could not be given.
+
+== History
+
+Born in New York City in 1928. He studied at New York University and took his doctorate at Columbia in 1953, in _statistical mechanics_ -- the physics of how huge numbers of particles behave together, the science of magnets, metals, gases, and phase changes. This is the key to everything he later did: Brout was not trained as a particle physicist at all. He came up in a completely different corner of the subject, and that turned out to be his great advantage.
+
+As a young professor at Cornell, in 1959, he met a visiting Belgian physicist named François Englert. The two became inseparable -- so much so that when Englert returned home to Brussels, Brout gave up his American professorship, followed him, and settled in Belgium for the rest of his life, eventually becoming a Belgian citizen. For half a century they were a single working unit. Their friendship and their physics were the same thing.
+
+[quote, François Englert, on his fifty-year partnership with Brout]
+____
+It was a very long collaboration, it was a friendship. I was with Robert until his death.
+____
+
+== How He Thought
+
+Brout's mind had two signatures, and both came from his unusual training. The first was that he thought in _pictures_. Englert, who knew his mind better than anyone, said Brout had an unusual gift for turning abstract ideas into tangible, intuitive images -- he reasoned by physical feel, not by formula-pushing, and only wrote the mathematics down once he could already _see_ the answer.
+
+The second was a stubborn independence. He refused to take a field's received wisdom on trust.
+
+[quote, François Englert, on how Brout approached a new subject]
+____
+Robert always conspicuously disregarded academic knowledge and favored entering any subject from scratch.
+____
+
+Put those two habits together and you get the move that made him famous. Everyone trying to explain how particles get mass was stuck inside particle physics. Brout, coming from statistical mechanics, recognized the problem from the _other_ side: it looked exactly like a _superconductor_. In a superconductor, the vacuum of the metal fills with a kind of field, and a photon moving through it behaves as though it has picked up mass. Brout and Englert saw that empty space itself might work the same way -- that the universe could undergo a "phase transition," like water freezing, that leaves a field everywhere, and that particles wading through that field would drag, and that drag is what we call mass. Importing the physics of cold metals into the physics of fundamental particles: that was the leap, and only a mind that "entered every subject from scratch" would have dared it.
+
+== What He Did
+
+In August 1964, Brout and Englert published a short paper, "Broken Symmetry and the Mass of Gauge Vector Mesons" -- the _first_ of the three 1964 papers that worked out the mass mechanism, a few weeks ahead of {see-higgs}. They showed how the particles that carry forces could gain mass without wrecking the deep symmetry that makes the theory work. The shared mechanics, and how the three papers fit together, are told in {see-mass-mechanism}.
+
+There is one honest wrinkle, and it explains why the _particle_ is named after Higgs while the _mechanism_ is named after all of them. Brout and Englert explained how the force-carriers get heavy, but they did not stop to write down the one extra prediction Higgs made explicit: that the new field must come with a new, heavy particle of its own -- the boson the world would eventually hunt. The fair name for the whole idea is the **Brout-Englert-Higgs mechanism**.
+
+When CERN's Large Hadron Collider found that boson on 4 July 2012, it confirmed work Brout had finished forty-eight years earlier -- but he had died in May 2011. Because the Nobel Prize is never awarded after death, the 2013 prize went to Englert and Higgs alone. Higgs himself insisted on what that absence meant.
+
+[quote, Peter Higgs, BBC interview (2014)]
+____
+By implication, they're recognizing Robert Brout as the third who couldn't be awarded the prize.
+____
+
+That is Robert Brout's place in the story: the first letter of the mechanism, the friend who crossed an ocean, the statistical physicist who looked at empty space and saw a superconductor -- present at the answer, and gone just before the proof.
+
+== ToDo: Captain:
+
+https://github.com/Gervi-Hera-Vitr/sindri-labs/issues/620[#620 Brout, Englert, Guralnik, Hagen & Kibble,window=_blank].

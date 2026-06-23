@@ -10,13 +10,39 @@ related: [bothe, joliot-curie-irene]
 ifndef::env-site[:imagesdir: ../../assets/images/people]
 ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
 :page-image: placeholder.jpg
-:page-image-credit: "change me"
+:page-image-credit: "No portrait of Herbert Becker is known to survive. Placeholder image."
 :all-people: link:/sindri-labs/people/[All People]
+:featured-companion: link:/sindri-labs/school/2026/05/08/Important-People-In-Particle-Discovery.html[Important People]
 :see-bothe: link:/sindri-labs/fragments/people/bothe/[Walther Bothe]
 :see-joliot-curie-irene: link:/sindri-labs/fragments/people/joliot-curie-irene/[Irène Joliot-Curie]
+:see-chadwick: link:/sindri-labs/fragments/people/chadwick/[James Chadwick]
+:see-neutron-miss: link:/sindri-labs/fragments/people/bothe-becker-joliot-curies/[the neutron near-miss]
 
 image::{page-image}[{page-image-credit},width="500px",align="left"]
 
-_**↑ {all-people}**_ | _**{see-bothe}**_ · _**{see-joliot-curie-irene}**_
+_**↑ {all-people}**_ | _**Featured in:**_ _**{featured-companion}**_ +
+_**{see-bothe}**_ · _**{see-joliot-curie-irene}**_ · _**{see-chadwick}**_ · _**{see-neutron-miss}**_
 
-// FixMe: Captain
+The co-author history almost forgot. His name is on the experiments that produced the neutron's signature two years before anyone knew what a neutron was -- and that is very nearly all we have of him. We do not know when he was born or when he died, where he studied, or what became of him. He is a surname on three papers and then silence. We keep his page anyway, because the truth it tells is one of the most important in science: most of the work is done by people history does not remember.
+
+== History
+
+There is almost no history to tell, and the honesty of that is the point.
+
+Herbert Becker was a young German physicist who worked with {see-bothe} around 1928-1932, first at the national physics bureau in Berlin and then at the University of Giessen. The sources cannot even agree on his exact role: German records call him Bothe's _Student_, a doctoral student; English ones call him an _assistant_ or simply a _collaborator_. No birth date, no death date, no birthplace, no record of his thesis or his teachers, no account of where he went after the early 1930s, no photograph. (There is a different, unrelated Herbert Becker in the records of the era -- an army officer -- and he is sometimes confused for the physicist. They are not the same man.) The physicist Herbert Becker simply walks into the story for a few years, does work that mattered enormously, and walks back out of it without a trace.
+
+== How He Thought
+
+We cannot know how Herbert Becker thought, and pretending otherwise would be a lie. So let his page be about something real instead: the anonymous hands behind almost every discovery.
+
+The famous names in this story -- Rutherford, Chadwick, the Curies -- did not work alone. Behind each of them stood students, assistants, and junior collaborators who prepared the sources, ran the counters in the dark, recorded the numbers, and checked the apparatus, and whose careful work was the discovery's actual raw material. Most of them are gone from the record now, the way Becker is. When you read that "Bothe and Becker found a penetrating radiation," remember that the second name is a real young man who spent long days at a bench doing exacting work, and who happened to stand one room away from one of the great discoveries of the century. That he is now only a surname is not a judgment on him. It is a reminder of how much of science is carried by people who never become famous -- and a reason to treat the junior person at the bench as if their name, too, might one day be the one that matters.
+
+== What He Did
+
+What he did is not in doubt, even if he is. With Bothe, Becker bombarded beryllium (and boron) with alpha particles from polonium and detected an unusually penetrating, electrically neutral radiation -- the experimental fingerprint of the neutron. They published it as high-energy gamma radiation, the only neutral radiation anyone could yet name. On the central 1932 paper on the boron and beryllium rays, Becker's name actually comes _first_: "Becker and Bothe." The interpretation was wrong -- {see-chadwick} would show in 1932 that the radiation was a new particle, not light -- but the measurements were sound, and they were the ground Chadwick built on. The whole story of the miss and the catch is told in {see-neutron-miss}.
+
+So this is the shape of Herbert Becker's place in history: he helped take the data that pointed straight at the neutron, his name even leads the paper, and then he vanishes -- while the discovery, and the fame, went to the man who knew what the data meant. He is the threshold that someone else walked through.
+
+== ToDo: Captain:
+
+https://github.com/Gervi-Hera-Vitr/sindri-labs/issues/619[#619 Bothe, Becker & the Joliot-Curies,window=_blank].

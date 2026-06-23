@@ -8,3 +8,45 @@
 {% if jekyll.environment == "production" %}
 <meta name="robots" content="noindex, nofollow">
 {% endif %}
+
+<!-- MathJax: render AsciiDoc :stem: equations site-wide.
+     Mirrors Asciidoctor's own standalone wiring so the delimiters match exactly what it emits:
+       latexmath -> \(..\) inline, \[..\] block   (tex2jax)
+       asciimath -> \$..\$  backslash-dollar       (asciimath2jax; bare-$ currency is untouched)
+     Loaded on every page; no-ops where there are no stem spans. -->
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  messageStyle: "none",
+  tex2jax: {
+    inlineMath: [["\\(", "\\)"]],
+    displayMath: [["\\[", "\\]"]],
+    ignoreClass: "nostem|nolatexmath"
+  },
+  asciimath2jax: {
+    delimiters: [["\\$", "\\$"]],
+    ignoreClass: "nostem|noasciimath"
+  },
+  TeX: {
+    equationNumbers: { autoNumber: "none" },
+    // mhchem.js -> chemistry via \ce{...}; the AMS/noErrors entries are the combined-config
+    // defaults, re-listed because setting TeX.extensions REPLACES (not augments) the array
+    // -- dropping AMSmath would break \begin{aligned} already used in Set Theory.
+    extensions: ["AMSmath.js", "AMSsymbols.js", "noErrors.js", "noUndefined.js", "mhchem.js"]
+  }
+});
+MathJax.Hub.Register.StartupHook("AsciiMath Jax Ready", function () {
+  MathJax.InputJax.AsciiMath.postfilterHooks.Add(function (data, node) {
+    if ((node = data.script.parentNode) && (node = node.parentNode) && node.classList.contains("stemblock")) {
+      data.math.root.display = "block";
+    }
+    return data;
+  });
+});
+</script>
+<!--suppress JSUnresolvedLibraryURL -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+<!-- Admonition styling for jekyll-asciidoc output. Copied from Asciidoctor's own
+     default stylesheet (jekyll-asciidoc doesn't ship it; Minimal Mistakes doesn't
+     style .admonitionblock). See assets/css/asciidoc.css for source + rationale. -->
+<link rel="stylesheet" href="{{ '/assets/css/asciidoc.css' | relative_url }}">

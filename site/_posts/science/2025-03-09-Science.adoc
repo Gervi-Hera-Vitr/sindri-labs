@@ -1,0 +1,68 @@
+---
+header:
+  overlay_image: assets/images/banner-ai-labs.jpg
+  overlay_filter: 0.2
+  actions:
+    - label: "Literature"
+      url: /literature/
+    - label: "History"
+      url: /history/
+    - label: "Psychology"
+      url: /psychology/
+    - label: "Philosophy"
+      url: /philosophy/
+    - label: "Mathematics"
+      url: /mathematics/
+    - label: "Science"
+      url: /science/
+    - label: "Engineering"
+      url: /engineering/
+    - label: "Business"
+      url: /business/
+categories: [page]
+tags: [graded]
+---
+= Mímis Academy: Science
+rdd13r
+:page-author_profile: true
+:page-excerpt:
+:page-layout: single
+:page-permalink: /science/
+:page-classes: wide
+:sectnums:
+:sectanchors:
+:sectlinks:
+:toc: preamble
+:toclevels: 2
+:toc-title: Mímis Academy Science
+:keywords: Mímis Academy Science
+:imagesdir: ./assets/img
+ifdef::env-name[:relfilesuffix: .adoc]
+:philosophers: link:/sindri-labs/philosophers/[Foundations Philosophers,window=_blank]
+:on-biology: link:/sindri-labs/school/2025/03/10/On-Biology.html[On Biology: The Science of Life]
+:on-whales: link:/sindri-labs/school/2024/12/12/On-Whales.html[On Whales: How Whales Evolved]
+:on-physics: link:/sindri-labs/school/2025/03/13/On-Physics.html[On Physics: The Science of Matter]
+:on-particle: link:/sindri-labs/school/2026/05/08/On-Particle.html[On Particle: The Atomic Science]
+:on-particle-people: link:/sindri-labs/school/2026/05/08/Important-People-In-Particle-Discovery.html[On Particle: Important People]
+:on-antimatter: link:/sindri-labs/school/2026/04/18/On-Antimatter.html[On Antimatter: The Mirror of Matter]
+:on-what-is-particle: link:/sindri-labs/school/2026/04/18/What-Is-A-Particle.html[What Is a Particle?]
+:on-subatomic: link:/sindri-labs/school/2026/04/18/Subatomic-Particles.html[Subatomic Particles]
+:on-fundamental: link:/sindri-labs/school/2026/04/18/Fundamental-Particles.html[Fundamental Particles]
+:on-history: link:/sindri-labs/school/2026/04/18/History-Of-Particle-Discovery.html[History of Particle Discovery]
+
+See _{philosophers}_.
+
+_This is how I organized my research into the sciences._
+
+== Science Works
+
+{on-biology} +
+{on-whales} +
+{on-physics} +
+{on-particle} +
+{on-particle-people} +
+{on-antimatter} +
+{on-what-is-particle} +
+{on-subatomic} +
+{on-fundamental} +
+{on-history}

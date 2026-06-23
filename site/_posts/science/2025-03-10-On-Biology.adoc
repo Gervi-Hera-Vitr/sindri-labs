@@ -1,0 +1,68 @@
+---
+header:
+  overlay_image: assets/images/banner-biology.jpg
+  overlay_filter: 0.1
+categories: [school]
+tags:
+  - biology
+  - life
+  - science
+  - stem
+---
+= On Biology: The Science of Life
+lugaru
+:page-author_profile: true
+:page-excerpt:
+:page-layout: single
+:page-classes: wide
+:on-science: link:/sindri-labs/science/[Science]
+
+↑ _**{on-science}**_
+
+*_Biology is the study of life and living organisms._*
+
+It examines how organisms interact with each other and their environment.::
+- Bio = life
+- logy = study of
+
+So, biology literally means _"the study of life."_
+
+== The characteristics of life
+
+All living things share eight characteristics::
+
+. Made of cells (unicellular or multicellular);
+. Reproduce (asexual or sexual);
+. Based on a universal genetic code (DNA);
+. Grow and develop;
+. Obtain and use energy (metabolism);
+. Respond to stimuli (environmental response);
+. Maintain a stable internal environment (a.k.a. homeostasis);
+. Evolve as a group over time (evolution).
+
+== The levels of life
+
+From smallest to largest::
+- Atom
+- Molecule
+- Organelle
+- Cell
+- Tissue
+- Organ
+- Organ system
+- Organism
+- Population
+- Community
+- Ecosystem
+- Biosphere
+- Universe
+
+== Types of Biology studies
+
+- *Zoology:* Study of animals.
+- *Botany:* Study of plants.
+- *Ecology:* Study of ecosystems.
+- *Microbiology:* Study of microscopic organisms.
+- *Genetics:* Study of *_genes_* and heredity.
+- *Anatomy:* Study of body structure.
+- *Physiology:* Study of body function.

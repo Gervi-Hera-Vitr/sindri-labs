@@ -16,6 +16,8 @@ lugaru
 :stem: asciimath
 :page-layout: single
 :page-classes: wide
+:on-next: link:/sindri-labs/school/2026/05/08/Important-People-In-Particle-Discovery.html[On Particle: Important People]
+:on-science: link:/sindri-labs/science/[Science]
 :leucippus: link:/sindri-labs/fragments/people/leucippus/[Leucippus]
 :democritus: link:/sindri-labs/fragments/people/democritus/[Democritus]
 :gassendi: link:/sindri-labs/fragments/people/gassendi/[Pierre Gassendi]
@@ -36,6 +38,9 @@ lugaru
 :greenblatt-2011-ff: footnote:[Stephen Greenblatt, _The Swerve: How the World Became Modern_ (New York: W.W. Norton, 2011).]
 :newton-opticks-ff: footnote:[Isaac Newton, _Opticks_, 2nd English ed. (1717), Query 31.]
 :thomson-cathode-rays-ff: footnote:[J.J. Thomson, "Cathode Rays," _Philosophical Magazine_ Series 5, vol. 44, p. 293 (1897).]
+
+_**{on-next}**_ → +
+↑ _**{on-science}**_
 
 A particle isn't a single physical thing, it's the idea of `the smallest unit of matter` that can carry attributes:
 mass, position, momentum, spin. What follows is how that idea was built.
@@ -137,7 +142,3 @@ It did not. Other, smaller things do. The concept survives; the label simply bel
 - {see-parmenides}
 - {see-plato}
 - {see-thomson}
-
-== Final Grade and Comments
-
-- ✅ Graded assignment by {rdd13r} on July 17th 2026. *A+*

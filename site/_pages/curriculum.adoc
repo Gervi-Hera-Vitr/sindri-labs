@@ -15,7 +15,6 @@ zaizai
 :daidai: footnote:onedaidai[Daddy {rdd13r} as the principal theory mentor]
 :zaizai: footnote:onezaizai[Mama {zaia} as the principal practice mentor]
 :captain-fn: footnote:cptlugaru[Captain {lugaru} as the first prodigy]
-:curriculum-folder: https://github.com/Gervi-Hera-Vitr/sindri-labs/tree/main/curriculum[/sindri-labs/tree/main/curriculum,window=_blank,opts=nofollow]
 
 
 We don't teach for grades. We don't even have a classroom or a grading system. +
@@ -93,9 +92,3 @@ Considering these factors, we use a _"learning trail"_ approach to learning:
 - Satisfy just the minimum amount of time the state requires for children to learn each week;
 - Prefer immersive learning integrated with social activities over formalized sit-down study;
 - Make all learning activities fun, interesting, and objective based on real-world assets.
-
-== Curriculum Artifacts
-
-All learning trails and work artifacts live in the GitHub curriculum folder:
-
--> {curriculum-folder}

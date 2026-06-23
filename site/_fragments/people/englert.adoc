@@ -1,23 +1,69 @@
 ---
 name: François Englert
 born: 1932
+died: 2026
 era: contemporary
 nationality: belgian
 sciences: [physics]
 science: physics
 related: [brout, higgs]
 ---
-= François Englert (b. 1932)
+= François Englert (1932-2026)
 ifndef::env-site[:imagesdir: ../../assets/images/people]
 ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
-:page-image: placeholder.jpg
-:page-image-credit: "change me"
+:page-image: englert.jpg
+:page-image-credit: "Portrait photograph (2013) by Bengt Nyman. CC-BY 2.0 via Wikimedia Commons."
 :all-people: link:/sindri-labs/people/[All People]
+:featured-companion: link:/sindri-labs/school/2026/05/08/Important-People-In-Particle-Discovery.html[Important People]
 :see-brout: link:/sindri-labs/fragments/people/brout/[Robert Brout]
 :see-higgs: link:/sindri-labs/fragments/people/higgs/[Peter Higgs]
+:see-mass-mechanism: link:/sindri-labs/fragments/people/brout-englert-ghk/[the 1964 mass mechanism]
 
 image::{page-image}[{page-image-credit},width="500px",align="left"]
 
-_**↑ {all-people}**_ | _**{see-brout}**_ · _**{see-higgs}**_
+_**↑ {all-people}**_ | _**Featured in:**_ _**{featured-companion}**_ +
+_**{see-brout}**_ · _**{see-higgs}**_ · _**{see-mass-mechanism}**_
 
-// FixMe: Captain
+A child who survived the Holocaust in hiding, an engineer who fell in love with the deep questions, and -- with his lifelong friend {see-brout} -- one of the minds who explained how everything in the universe gets its mass. François Englert is the "E" in the BEH mechanism. In 2013 he shared the Nobel Prize in Physics with {see-higgs}. He died on 18 June 2026, aged ninety-three -- the last living member of the small group of physicists who, in a single season of 1964, answered one of the oldest questions there is: why does matter weigh anything at all?
+
+== History
+
+Born in 1932 near Brussels, to a Belgian Jewish family. When Nazi Germany occupied Belgium, Englert became a "hidden child": separated from his parents on purpose, to improve everyone's chances of survival, and sheltered under a false identity in a string of Catholic orphanages and children's homes across the Belgian countryside. He had to conceal that he was Jewish, day after day, as a small boy, knowing what discovery meant. His parents survived; much of his extended family, in Poland, did not.
+
+.A glimmer of hope in a world of desperation
+[%collapsible]
+====
+In one of the villages that hid him, Englert was taken in by a family who ran a café -- Camille and Louise Jourdan and their daughter Yvonne. In his Nobel autobiography, written seventy years later, he singled them out for thanks, and remembered one small thing above all: Yvonne taught him music and the piano, which he called "like a glimmer of hope in a world of desperation." He honored the ordinary courage of the people who sheltered him -- people who took a mortal risk so that a hidden child might "one day accomplish the truly extraordinary." He rarely spoke about the war in public, and never claimed it explained his physics. But he did say one thing about how he carried it: "While memories of past years still haunted the nightmares of my sleep, I functioned well at school." A mind that learned, very young, to hold terror in one hand and clear thinking in the other.
+====
+
+After the war he trained first as an _engineer_ -- an electromechanical engineer -- and only then turned to physics, taking his doctorate at the Université libre de Bruxelles. In 1959 he went to Cornell University in America, where he met a young professor named Robert Brout. The meeting changed both their lives: Brout would later leave America to follow Englert back to Brussels, and the two became a single scientific mind for the next fifty years. Englert spent his career at the ULB. He won the 2013 Nobel Prize, was made a baron by the King of Belgium, and worked on the deepest questions in physics -- including how to join gravity to the quantum world -- until the end of his long life.
+
+== How He Thought
+
+The engineer never quite left him, and that is the secret of how Englert thought. As a young man learning to build machines, he realized that what truly gripped him was not how to _use_ a device but how it actually _works_ underneath -- the hidden structure that makes it behave as it does. He turned to physics because physics is that question asked about the whole universe. He was, in his own description, more theoretical than practical; he wanted the principle, not the gadget.
+
+With Brout he worked at first not on particles at all but on _phase transitions_ -- how a material suddenly changes its whole character, the way water freezes into ice or a metal becomes a magnet. That apprenticeship in the physics of bulk matter is what let the two of them crack the particle problem. They saw that empty space could behave like a material undergoing a phase transition: the vacuum could "freeze" into a state filled with a field, and particles moving through that field would gain mass. It was a borrowed idea, carried across from the physics of metals and magnets into the physics of the cosmos -- and Englert prized it not only because it was right but because it was _elegant_. For him a solution had to be beautiful as well as true.
+
+He was, by every account, the opposite of a self-promoter: courteous, modest, quick with a joke, careful to share credit. When the world's most famous particle was confirmed and the prizes came, he kept it in proportion.
+
+[quote, François Englert, on the discovery]
+____
+There are huge numbers of problems still to be solved. This just marks a step in our understanding of the world.
+____
+
+== What He Did
+
+In August 1964, Englert and Brout published "Broken Symmetry and the Mass of Gauge Vector Mesons" -- the first of the three papers, just ahead of {see-higgs}, that together became the Brout-Englert-Higgs mechanism. They showed how the carriers of a force can become heavy without breaking the symmetry that keeps the theory sound. The shared mechanics live in {see-mass-mechanism}. When CERN's Large Hadron Collider found the Higgs boson on 4 July 2012, it confirmed what the two friends had worked out forty-eight years before.
+
+The prize, when it came in 2013, carried a sorrow inside the joy: Brout had died in 2011, and the Nobel is never awarded after death. Englert, honored at last, would not let his friend go unnamed.
+
+[quote, François Englert, on receiving the 2013 Nobel Prize]
+____
+There is regret too that my colleague and friend, Robert Brout, is not there to share it.
+____
+
+That was the shape of the man. He survived a horror that should have ended him, asked the universe how it works at the very bottom, found part of the answer, and -- offered the highest honor in his field -- used the moment to speak the name of an absent friend. When he died in June 2026, the last of the six who built the mechanism, he took with him a direct human thread back to one of the great discoveries of the age.
+
+== ToDo: Captain:
+
+https://github.com/Gervi-Hera-Vitr/sindri-labs/issues/620[#620 Brout, Englert, Guralnik, Hagen & Kibble,window=_blank].

@@ -11,15 +11,71 @@ related: [hagen, kibble, higgs]
 = Gerald Guralnik (1936-2014)
 ifndef::env-site[:imagesdir: ../../assets/images/people]
 ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
-:page-image: placeholder.jpg
-:page-image-credit: "change me"
+:page-image: guralnik.jpg
+:page-image-credit: "Gerald Guralnik (circa 2014) by Zguralnik. CC-BY-SA 4.0 via Wikimedia Commons."
 :all-people: link:/sindri-labs/people/[All People]
+:featured-companion: link:/sindri-labs/school/2026/05/08/Important-People-In-Particle-Discovery.html[Important People]
 :see-hagen: link:/sindri-labs/fragments/people/hagen/[C.R. Hagen]
 :see-kibble: link:/sindri-labs/fragments/people/kibble/[Tom Kibble]
 :see-higgs: link:/sindri-labs/fragments/people/higgs/[Peter Higgs]
+:see-mass-mechanism: link:/sindri-labs/fragments/people/brout-englert-ghk/[the 1964 mass mechanism]
 
 image::{page-image}[{page-image-credit},width="500px",align="left"]
 
-_**↑ {all-people}**_ | _**{see-hagen}**_ · _**{see-kibble}**_ · _**{see-higgs}**_
+_**↑ {all-people}**_ | _**Featured in:**_ _**{featured-companion}**_ +
+_**{see-hagen}**_ · _**{see-kibble}**_ · _**{see-higgs}**_ · _**{see-mass-mechanism}**_
 
-// FixMe: Captain
+The man who would not let go of a single stubborn question. With his friends {see-hagen} and {see-kibble}, Gerald Guralnik wrote the third of the three 1964 papers that explained how particles get their mass -- and arguably the most careful of them. They sealed the envelope to mail it off and learned, that same afternoon, that two other groups had reached the same mountaintop first. He spent the next half-century watching the credit drift away from his door, and what he said mattered most about the whole affair was not the physics at all. It was his friends.
+
+== History
+
+Born in Cedar Falls, Iowa, in 1936. He studied at MIT -- where, as a sophomore, he met Carl "Dick" Hagen, who would be his friend and collaborator for life -- and took his doctorate at Harvard in 1964, under Walter Gilbert (a physicist who would later switch fields and win a Nobel Prize in Chemistry for reading DNA). Already in his thesis Guralnik was circling the question that would define him: why, exactly, is the photon -- the particle of light -- _massless_?
+
+Late in 1963 he won a fellowship and crossed the Atlantic to Imperial College London. He arrived in early 1964, met Tom Kibble there on the faculty, and reconnected with Hagen when Hagen visited from Rochester in America. Over a string of bad institutional lunches, the three of them -- soon known by their initials, GHK -- worked the problem of mass into the ground. Afterward Guralnik spent his long career at Brown University, where he taught for nearly fifty years and was an early champion of using computers to do particle physics, until his death in 2014.
+
+== How He Thought
+
+Guralnik's whole scientific life was powered by a single obsession, and he was honest about it.
+
+[quote, Gerald Guralnik, recalling the 1960s]
+____
+I remained obsessed with finding a proof that the photon of traditional electromagnetic theory must have zero mass.
+____
+
+That fixation was the engine of his thinking. It drove him to errors -- twice he tried to prove the photon massless and got it wrong -- and the embarrassment of those mistakes forged his deepest scientific value: a near-fanatical insistence on _checking everything_. He had been told to his face by senior physicists that he did not understand his own field; Heisenberg's circle called his ideas junk. So when GHK finally did the calculation that mattered, Guralnik left nothing to chance.
+
+[quote, Gerald Guralnik, on the GHK calculation]
+____
+This time we worked out every minute detail and applied every internal consistency check.
+____
+
+His other distinctive trait was that he thought _out loud, with other people_. He did not reason alone in a closed room; he reasoned in conversation, batting half-formed ideas back and forth -- it was Kibble, over those dreadful lunches, who convinced him that a strange puzzle in solid-state physics was actually the key to the whole problem. Guralnik always said his collaborators taught him how to be a physicist. That habit -- obsession sharpened by humility, rigor built out of past mistakes, ideas grown in friendship -- is the whole of how he worked.
+
+== What He Did
+
+The three 1964 papers split the problem cleanly, and Guralnik's partner Hagen drew the line best: the others solved _half_ of it, and GHK solved the _whole_ of it. Brout, Englert, and Higgs showed how the force-carrying particles get their mass. GHK did that too -- and also nailed down, with more care than anyone, exactly why the leftover "Goldstone" particle the mathematics seemed to demand does not actually appear. The full picture of how the three papers fit is in {see-mass-mechanism}.
+
+And then came one of the cruelest moments of timing in the history of science.
+
+[quote, Gerald Guralnik, on finishing the paper]
+____
+As we were literally placing the manuscript in the envelope to be sent off, Kibble came into the office bearing two papers by Higgs and the one by Englert and Brout.
+____
+
+They had been scooped, by weeks, and they had not even known anyone else was working on it. They added citations to the other groups -- a simple courtesy -- and mailed their paper as it was. Decades later, that courtesy was used against them: their paper was "third," so it was treated as an afterthought. When the 2013 Nobel Prize went to Englert and Higgs alone -- limited, by its own rules, to three living people -- GHK were left out. Guralnik felt it, and said so without bitterness.
+
+[quote, Gerald Guralnik, Brown Daily Herald (2013)]
+____
+Am I a little hurt that I'm not on it? Sure.
+____
+
+But he refused to let the grievance be the point. Asked what the whole thing had given him, he reached past the physics and the prizes entirely, and named the only reward he truly cared about.
+
+[quote, Gerald Guralnik, on what mattered most]
+____
+The most important thing that has come from it is my enduring long friendship with Dick and Tom.
+____
+
+== ToDo: Captain:
+
+https://github.com/Gervi-Hera-Vitr/sindri-labs/issues/620[#620 Brout, Englert, Guralnik, Hagen & Kibble,window=_blank].

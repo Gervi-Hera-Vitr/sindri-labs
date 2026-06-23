@@ -6,16 +6,41 @@ era: antiquity
 nationality: greek
 sciences: [philosophy, physics, ethics]
 science: philosophy
+related: [democritus, gassendi]
 ---
 = Epicurus of Samos (341-270 BCE)
+
 ifndef::env-site[:imagesdir: ../../assets/images/people]
 ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
-:page-image: placeholder.jpg
-:page-image-credit: "change me"
+:page-image: epicurus.jpg
+:page-image-credit: "Roman marble bust of Epicurus, late 3rd-early 2nd c. BCE copy of a Hellenistic original; British Museum. Public domain via Wikimedia Commons."
 :all-people: link:/sindri-labs/people/[All People]
+:featured-essay: link:/sindri-labs/school/2026/05/08/On-Particle.html[On Particle]
+:featured-companion: link:/sindri-labs/school/2026/05/08/Important-People-In-Particle-Discovery.html[Important People]
+:see-democritus: link:/sindri-labs/fragments/people/democritus/[Democritus]
+:see-gassendi: link:/sindri-labs/fragments/people/gassendi/[Pierre Gassendi]
 
 image::{page-image}[{page-image-credit},width="500px",align="left"]
 
-_**↑ {all-people}**_
+_**↑ {all-people}**_ | _**Featured in:**_ _**{featured-essay}**_ · _**{featured-companion}**_ | _**{see-democritus}**_ · _**{see-gassendi}**_
 
-_Stub -- body to be written._
+== Slop
+
+The man who turned atoms into a cure for fear. Born in Samos, he taught in a garden outside Athens that scandalously admitted women and the enslaved as equal members.
+He took Democritus's atomism and built whole ethics on it -- and added the one thing Democritus's universe lacked: the _swerve_.
+
+.The swerve idea example:
+[%collapsible]
+====
+In Epicurus's physics atoms fall through the void in parallel straight lines, all at the same speed -- so on their own they would never meet.
+His fix was the _clinamen_, the swerve: now and then an atom deviates by an unpredictable minimum, just enough to collide and build worlds,
+and just enough to break the grip of fate and leave room for free will. Almost none of his own writing survived;
+we know his physics mainly through the Roman poet Lucretius, whose _De Rerum Natura_ carried atomism through a single rediscovered manuscript to Gassendi and Newton.
+Epicurus is the reason the idea was still alive to be revived.
+====
+
+{nbsp}
+
+== ToDo: Captain:
+
+https://github.com/Gervi-Hera-Vitr/sindri-labs/issues/612[#612 Epicurus of Samos,window=_blank].

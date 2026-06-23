@@ -24,7 +24,7 @@ words_per_minute            : 300
 enable_copy_code_button     : true
 compress_html               : true
 
-copyright                   : "© 2023–2025 Gervi Héra Vitr Labs. All rights reserved. Use with permission only."
+copyright                   : "Gervi Héra Vitr Labs. All rights reserved. Use with permission only."
 copyright_url               : "https://github.com/Gervi-Hera-Vitr/sindri-labs"
 
 # Theme and Styling
@@ -50,12 +50,15 @@ safe                        : false
 ### AsciiDoc / Asciidoctor — site-wide attributes
 asciidoctor:
   attributes:
+    icons                   : font
     captain                 : 'https://github.com/CaptainLugaru[Captain,window=_blank]'
     munchkin                : 'http://www.catb.org/jargon/html/M/munchkin.html[munchkin,window=_blank]'
     rdd13r                  : 'https://github.com/rdd13r/[DaiDai,window=_blank]'
     american_literature     : 'link:/sindri-labs/literature/#american-literature[American Literature,window=_blank]'
     mathematics             : 'link:/sindri-labs/mathematics/[Mathematics,window=_blank]'
     on_mathematics          : 'link:/sindri-labs/on-mathematics/[On Mathematics,window=_blank]'
+    history                 : 'link:/sindri-labs/history/[History,window=_blank]'
+    psychology              : 'link:/sindri-labs/psychology/[Psychology,window=_blank]'
 
 
 ### Plugins
@@ -213,6 +216,7 @@ comments:
 
 ### School General Footer
 footer:
+  since                     : "2023"
   links:
     - label                 : "Academy Organization"
       icon                  : "fab fa-fw fa-github"
@@ -228,7 +232,7 @@ footer:
       url                   : "https://github.com/Gervi-Hera-Vitr/sindri-labs"
     - label                 : "Fingerprint"
       icon                  : "fas fa-fw fa-fingerprint"
-      url                   : "/sindri-labs/assets/images/favicon-gervi-school.png"
+      url                   : "/sindri-labs/assets/images/og-image.png"
 
 
 ### Archives: Enable taxonomy pages for tags, categories, and year

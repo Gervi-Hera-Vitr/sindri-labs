@@ -14,12 +14,14 @@ ifdef::env-site[:imagesdir: /sindri-labs/assets/images/people]
 :page-image: thomson.jpg
 :page-image-credit: "Portrait photograph (1915). Public domain via Wikimedia Commons."
 :all-people: link:/sindri-labs/people/[All People]
+:featured-essay: link:/sindri-labs/school/2026/05/08/On-Particle.html[On Particle]
+:featured-companion: link:/sindri-labs/school/2026/05/08/Important-People-In-Particle-Discovery.html[Important People]
 :see-dalton: link:/sindri-labs/fragments/people/dalton/[John Dalton]
 :see-rutherford: link:/sindri-labs/fragments/people/rutherford/[Ernest Rutherford]
 
 image::{page-image}[{page-image-credit},width="500px",align="left"]
 
-_**↑ {all-people}**_ | _**{see-dalton}**_ · _**{see-rutherford}**_
+_**↑ {all-people}**_ | _**Featured in:**_ _**{featured-essay}**_ · _**{featured-companion}**_ | _**{see-dalton}**_ · _**{see-rutherford}**_
 
 Cavendish Professor at Cambridge from age 28. Discovered the electron in 1897. Mentored seven future Nobel laureates including Rutherford. Famously absent-minded -- there are stories of him being unable to operate equipment he had designed himself.
 

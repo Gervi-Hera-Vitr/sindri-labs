@@ -32,10 +32,10 @@ ToDo: Add links to these institutions
 ** https://www.startupschool.org/[*_Y Combinator Startup School_*], https://www.startupschool.org/curriculum[Curriculum]; and https://www.ycombinator.com/blog/startup-school[blog];
 ** https://microconf.com/[*MicroConf*] and https://readmake.com/[*INDIE MAKERS*]
 ** https://www.entrepreneur.com/leadership/you-need-a-mentor-heres-where-to-find-one-for-free/318024[Where is my FREE mentor?]; and https://micromentor.org/[MicroMentor]
-** Community: https://www.discourse.org/pricing[Discourse]; paid 🫤;
-** Conversions: https://kit.com/pricing[Convert Kit]; paid 🫤;
-** Run Business: https://zapier.com/pricing[Convert Zapier]; paid 🫤;
-** Cash Flow: https://stripe.com/resources/more/business[Stripe! 💰💰💰];
+** Community: https://www.discourse.org/pricing[Discourse]; paid ;
+** Conversions: https://kit.com/pricing[Convert Kit]; paid ;
+** Run Business: https://zapier.com/pricing[Convert Zapier]; paid ;
+** Cash Flow: https://stripe.com/resources/more/business[Stripe! ];
 ** Business https://www.entrepreneur.com/businessideas[Ideas (Community)];
 ** Business https://www.trendwatching.com/[Trend Watching];
 ** Marketing Videos https://motionarray.com/pricing/[Motion Array] pricing;
