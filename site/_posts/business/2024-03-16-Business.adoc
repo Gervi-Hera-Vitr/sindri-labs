@@ -5,6 +5,8 @@ header:
   actions:
     - label: "Literature"
       url: /literature/
+    - label: "History"
+      url: /history/
     - label: "Philosophy"
       url: /philosophy/
     - label: "Mathematics"

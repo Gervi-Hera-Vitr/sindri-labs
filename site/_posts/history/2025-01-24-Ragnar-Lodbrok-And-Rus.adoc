@@ -1,7 +1,31 @@
+---
+header:
+  overlay_image: assets/images/banner-philosophy.jpg
+  overlay_filter: 0.2
+  actions:
+    - label: "Literature"
+      url: /literature/
+    - label: "History"
+      url: /history/
+    - label: "Philosophy"
+      url: /philosophy/
+    - label: "Mathematics"
+      url: /mathematics/
+    - label: "Science"
+      url: /science/
+    - label: "Engineering"
+      url: /engineering/
+    - label: "Business"
+      url: /business/
+categories: [history]
+tags: [graded]
+---
 = History: Researching connection between Ragnar Lodbrok and Rus
-Cpt. Lugaru (CaptainLugaru) <72951616+CaptainLugaru@users.noreply.github.com>
-v1.0, Friday, January 24, 2025
-:description: Exploratory research into the history of Vikings in Ukraine—Ragnar Lodbrok
+lugaru
+:page-author_profile: true
+:page-excerpt:
+:page-layout: single
+:page-classes: wide
 :sectnums:
 :sectanchors:
 :sectlinks:
@@ -28,6 +52,7 @@ ifdef::env-name[:relfilesuffix: .adoc]
 :ivar: https://en.wikipedia.org/wiki/Ivar_the_Boneless
 :rurik: https://en.wikipedia.org/wiki/Rurik
 
+↑ _**link:/sindri-labs/history/[History]**_
 
 {ragnar}[Ragnar Lodbrok] was a legendary Norse figure who {ragnar-tale}[_has many sagas_].
 While Ragnar and Ukraine are not directly tied to one another,

@@ -1,5 +1,31 @@
+---
+header:
+  overlay_image: assets/images/banner-biology.jpg
+  overlay_filter: 0.2
+  actions:
+    - label: "Literature"
+      url: /literature/
+    - label: "History"
+      url: /history/
+    - label: "Philosophy"
+      url: /philosophy/
+    - label: "Mathematics"
+      url: /mathematics/
+    - label: "Science"
+      url: /science/
+    - label: "Engineering"
+      url: /engineering/
+    - label: "Business"
+      url: /business/
+categories: [history]
+tags: [graded]
+---
 = The Evolution of Primates: From Proto-Primates to Humans
-:description: Derivative work On the Evolution of Primates: From Proto-Primates to Humans
+lugaru
+:page-author_profile: true
+:page-excerpt:
+:page-layout: single
+:page-classes: wide
 :sectnums:
 :sectanchors:
 :sectlinks:
@@ -37,6 +63,8 @@ ifdef::env-name[:relfilesuffix: .adoc]
 :proto-primates: https://en.wikipedia.org/wiki/Primatomorpha
 :purgeatorius: https://en.wikipedia.org/wiki/Purgatorius
 :sahelanthropus: https://en.wikipedia.org/wiki/Sahelanthropus
+
+↑ _**link:/sindri-labs/history/[History]**_
 
 __
 Around 66 million years ago, shortly after the extinction of the dinosaurs, the first primates emerged.

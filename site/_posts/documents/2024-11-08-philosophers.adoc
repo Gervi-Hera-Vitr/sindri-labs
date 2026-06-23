@@ -7,6 +7,8 @@ header:
       url: /philosophy/
     - label: "Literature"
       url: /literature/
+    - label: "History"
+      url: /history/
     - label: "Mathematics"
       url: /mathematics/
     - label: "Science"

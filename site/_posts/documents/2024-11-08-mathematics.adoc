@@ -11,6 +11,8 @@ header:
       url: /philosophy/
     - label: "Literature"
       url: /literature/
+    - label: "History"
+      url: /history/
     - label: "Science"
       url: /science/
     - label: "Engineering"

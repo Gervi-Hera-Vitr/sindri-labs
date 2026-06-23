@@ -1,7 +1,31 @@
+---
+header:
+  overlay_image: assets/images/banner-philosophy.jpg
+  overlay_filter: 0.2
+  actions:
+    - label: "Literature"
+      url: /literature/
+    - label: "History"
+      url: /history/
+    - label: "Philosophy"
+      url: /philosophy/
+    - label: "Mathematics"
+      url: /mathematics/
+    - label: "Science"
+      url: /science/
+    - label: "Engineering"
+      url: /engineering/
+    - label: "Business"
+      url: /business/
+categories: [history]
+tags: [graded]
+---
 = History: Did Vikings Seed Rus?
-Cpt. Lugaru (CaptainLugaru) <72951616+CaptainLugaru@users.noreply.github.com>
-v1.0, Sunday, January 19, 2025
-:description: Exploratory research into the history of modern Rus
+lugaru
+:page-author_profile: true
+:page-excerpt:
+:page-layout: single
+:page-classes: wide
 :sectnums:
 :sectanchors:
 :sectlinks:
@@ -13,7 +37,7 @@ v1.0, Sunday, January 19, 2025
 :warning-caption: ⚠️
 :toc: preamble
 :toclevels: 1
-:toc-title: History of Ukraine as Rus
+:toc-title: Did Vikings Seed Rus?
 :keywords: Homeschool Learning Journey
 :imagesdir: ./images
 :labsdir: ./labs
@@ -23,6 +47,8 @@ ifdef::env-name[:relfilesuffix: .adoc]
 :real-ragnar: https://www.historic-uk.com/HistoryUK/HistoryofEngland/Ragnar-Lothbrok/
 :gandalf: https://en.wikipedia.org/wiki/Gandalf_Alfgeirsson
 :alfheim: https://en.wikipedia.org/wiki/%C3%81lfheimr_(region)
+
+↑ _**link:/sindri-labs/history/[History]**_
 
 [NOTE]
 .Exploratory research to produce a Brief History of Ukraine.

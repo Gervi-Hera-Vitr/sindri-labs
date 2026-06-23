@@ -8,6 +8,8 @@ header:
       url: /people/
     - label: "Literature"
       url: /literature/
+    - label: "History"
+      url: /history/
     - label: "Philosophy"
       url: /philosophy/
     - label: "Mathematics"

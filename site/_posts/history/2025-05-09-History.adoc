@@ -1,0 +1,59 @@
+---
+header:
+  overlay_image: assets/images/banner-captain.jpg
+  overlay_filter: 0.2
+  actions:
+    - label: "Literature"
+      url: /literature/
+    - label: "History"
+      url: /history/
+    - label: "Philosophy"
+      url: /philosophy/
+    - label: "Mathematics"
+      url: /mathematics/
+    - label: "Science"
+      url: /science/
+    - label: "Engineering"
+      url: /engineering/
+    - label: "Business"
+      url: /business/
+categories: [page]
+tags: [graded]
+---
+= Mímis Academy: History
+lugaru
+:page-author_profile: true
+:page-excerpt:
+:page-layout: single
+:page-permalink: /history/
+:page-classes: wide
+:sectnums:
+:sectanchors:
+:sectlinks:
+:icons: font
+:toc: preamble
+:toclevels: 2
+:toc-title: Mímis Academy History
+:keywords: Mímis Academy History
+ifdef::env-name[:relfilesuffix: .adoc]
+:on-ukraine: link:/sindri-labs/history/2025/03/07/The-Brief-History-Of-Ukraine.html[The Brief History of Ukraine]
+:on-vikings: link:/sindri-labs/history/2025/01/19/Did-Vikings-Seed-Rus.html[Did Vikings Seed Rus?]
+:on-ragnar: link:/sindri-labs/history/2025/01/24/Ragnar-Lodbrok-And-Rus.html[Ragnar Lodbrok and Rus]
+:on-agriculture: link:/sindri-labs/history/2025/03/14/The-Agricultural-Revolution.html[The Agricultural Revolution]
+:on-primates: link:/sindri-labs/history/2025/03/14/The-Evolution-Of-Primates.html[The Evolution of Primates]
+
+History at Gervi Héra Vitr is studied in two threads:
+
+* *Eastern Europe & the Rus* -- the origins of the Rus, Viking (Varangian) influence, and the formation of Ukraine.
+* *Human Evolution* -- the primate lineage from proto-primates to modern humans, and the Agricultural Revolution.
+
+== Eastern Europe & the Rus
+
+{on-ukraine} +
+{on-vikings} +
+{on-ragnar}
+
+== Human Evolution
+
+{on-agriculture} +
+{on-primates}

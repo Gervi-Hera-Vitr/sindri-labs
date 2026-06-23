@@ -1,7 +1,31 @@
+---
+header:
+  overlay_image: assets/images/banner-biology.jpg
+  overlay_filter: 0.2
+  actions:
+    - label: "Literature"
+      url: /literature/
+    - label: "History"
+      url: /history/
+    - label: "Philosophy"
+      url: /philosophy/
+    - label: "Mathematics"
+      url: /mathematics/
+    - label: "Science"
+      url: /science/
+    - label: "Engineering"
+      url: /engineering/
+    - label: "Business"
+      url: /business/
+categories: [history]
+tags: [graded]
+---
 = History: 🌾 The Agricultural Revolution -- an Overview
-Cpt. Lugaru (CaptainLugaru) <72951616+CaptainLugaru@users.noreply.github.com>
-v1.0, Friday, March 14, 2025
-:description: Derivative work highlights the importance of agriculture in human evolution.
+lugaru
+:page-author_profile: true
+:page-excerpt:
+:page-layout: single
+:page-classes: wide
 :sectnums:
 :sectanchors:
 :sectlinks:
@@ -21,6 +45,8 @@ ifdef::env-name[:relfilesuffix: .adoc]
 :jericho: https://en.wikipedia.org/wiki/Jericho
 :konya: https://en.wikipedia.org/wiki/%C3%87atalh%C3%B6y%C3%BCk
 :3-pylia: https://en.wikipedia.org/wiki/Cucuteni%E2%80%93Trypillia_culture#:~:text=The%20Cucuteni%E2%80%93Trypillia%20culture%20flourished,Black%20Sea%20and%20the%20Dnieper.
+
+↑ _**link:/sindri-labs/history/[History]**_
 
 == 🗺️ What Was the Agricultural Revolution?
 

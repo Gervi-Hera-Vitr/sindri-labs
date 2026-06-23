@@ -1,7 +1,31 @@
+---
+header:
+  overlay_image: assets/images/banner-philosophy.jpg
+  overlay_filter: 0.2
+  actions:
+    - label: "Literature"
+      url: /literature/
+    - label: "History"
+      url: /history/
+    - label: "Philosophy"
+      url: /philosophy/
+    - label: "Mathematics"
+      url: /mathematics/
+    - label: "Science"
+      url: /science/
+    - label: "Engineering"
+      url: /engineering/
+    - label: "Business"
+      url: /business/
+categories: [history]
+tags: [graded]
+---
 = History: The Brief History of Ukraine
-Cpt. Lugaru (CaptainLugaru) <72951616+CaptainLugaru@users.noreply.github.com>
-v1.0, Friday, March 7, 2025
-:description: Exploratory research into the history of Ukraine
+lugaru
+:page-author_profile: true
+:page-excerpt:
+:page-layout: single
+:page-classes: wide
 :sectnums:
 :sectanchors:
 :sectlinks:
@@ -15,7 +39,7 @@ v1.0, Friday, March 7, 2025
 :toclevels: 1
 :toc-title: History of Ukraine
 :keywords: Homeschool Learning Journey
-:imagesdir: ./images
+:imagesdir: /sindri-labs/assets/images
 :labsdir: ./labs
 ifdef::env-name[:relfilesuffix: .adoc]
 :balkans: https://en.wikipedia.org/wiki/Balkans
@@ -37,27 +61,32 @@ ifdef::env-name[:relfilesuffix: .adoc]
 :homo: https://en.wikipedia.org/wiki/Human
 :lavra: https://en.wikipedia.org/wiki/Kyiv_Pechersk_Lavra
 
-As I attended a public school last year I had my history teacher present a version of proto-european demographic that didn't seem right.
-I asked my father about it and he said:
+↑ _**link:/sindri-labs/history/[History]**_
 
- Her statemens are definitely off.
- Western, Central and Eastern Europeans are closely related and well mixed.
- Only Asia, i.e., modern day "white Russian demographic" are distinctly separate Finno-Ugric people.
- Yet Fins and Estonians, i.e., Baltic Finno-Ugric people,
- are also mixed up in the cauldron of the Kyivan Rus' and the Grand Dutchy of Lithuania.
- Along with the Vikings sprinkled along all the waterways.
- These are demgraphic tribes of the ancient Rus' -- free and democratic.
- Why don't you look into it yourself, son?!
+As I attended a public school last year, I had my history teacher present a version of the proto-European demographic that didn't seem right.
+I asked my father about it, and he said:
+
+.`rdd13r`'s text
+____
+Her statements are definitely off.
+Western, Central, and Eastern Europeans are closely related and well mixed.
+Only Asia, i.e., modern-day "white Russian demographic" are distinctly separate from Finno-Ugric people.
+Yet Fins and Estonians, i.e., Baltic Finno-Ugric people,
+are also mixed up in the cauldron of the Kyivan Rus' and the Grand Dutchy of Lithuania.
+Along with the Vikings sprinkled along all the waterways.
+These are demographic tribes of the ancient Rus' -- free and democratic.
+Why don't you look into it yourself, son?!
+____
 
 With adults giving me such a broad and different view of history,
 I decided to conduct my own research, especially now that I'm homeschooled.
 And my hunch turned out to be right.
 Europeans are much older and closer knit together than she has presented to my class.
-In particular, one nation she's marginalized, Ukraine, goes way back to the beginning of Europe itself.
+In particular, one nation that's marginalized, Ukraine, goes way back to the beginning of Europe itself.
 Something that my father downplayed a good bit.
-Also neither adult mentioned a constant influx of the new people from the South and North.
+Also, neither adult mentioned a constant influx of new people from the South and North.
 So, I am delighted to present my findings in this essay.
-Lets learn a little bit about that old Scythian nation of Ukraine and its descendents.
+Let’s learn a little bit about that old Scythian nation of Ukraine and its descendents.
 
 
 == Early Human Presence in Ukraine
@@ -106,7 +135,7 @@ The invention of pottery improved food storage.
 Permanent settlements and villages began to form, allowing population growth.
 
 _For perspective, proto-russians attained slash-and-burn agriculture only 700 years ago._
-While northern Finno-Ugric tribes moved in lock-step with proto-europeans.
+While northern Finno-Ugric tribes moved in a lock-step with proto-Europeans.
 The reason for this is the fertile soil of Ukraine and surrounding lands.
 
 == The Black Sea Flooded 5,600 BC
@@ -114,7 +143,7 @@ The reason for this is the fertile soil of Ukraine and surrounding lands.
 A significant event in early Ukrainian history was the transformation of the {blacksea}[Black Sea].
 Around 5,600 BC, the Mediterranean Sea spilled into what was then a freshwater lake, turning it into a salty sea.
 This flooding forced human migration and reshaped the surrounding environment.
-By the end of the Stone Age (5th–3rd millennium BC), metal tools, (copper and bronze) were introduced,
+By the end of the Stone Age (5th–3rd millennium BC), metal tools, (copper, and bronze) were introduced,
 marking the beginning of more complex social structures.
 
 Western and norther Finno-Ugric tribes followed shortly after.
@@ -135,8 +164,8 @@ A key development was the domestication of the horse in Ukraine around the fourt
 Horses revolutionized transportation and warfare, giving Indo-Europeans a military and economic advantage.
 Ukrainian horses were highly valued, and their influence reached civilizations as far as Egypt.
 
-Ukrainian settlements then spanned more that 3,000 structures, as compared to Moscow when elevated by Mongols recently with only 30 structures.
-The reason for this is the ability to clear and terraform land using horse power and advanced tools.
+Ukrainian settlements then spanned more than 3,000 structures, as compared to Moscow when elevated by Mongols recently with only 30 structures.
+The reason for this is the ability to clear and terraform land using horsepower and advanced tools.
 
 == The Scythians: Warriors of the Steppe (eighth Century BC – fourth Century AD)
 
@@ -146,7 +175,7 @@ But when back in Ukraine, they established one of Europe’s earliest organized 
 
 === Scythian Achievements and Influence
 
-Having returned back to their fertile lands the proto-ukrainians brought with them the ways of many other cultures.
+Having returned back to their fertile lands, the proto-Ukrainians brought with them the ways of many other cultures.
 
 Cultural Legacy:: The Scythians worshiped the sun and fire, buried their dead with red ocher and weapons, and were known for their rich gold artifacts.
 
@@ -160,7 +189,7 @@ The Scythians left a lasting impact on Ukrainian culture even *_until this day_*
 including traditional clothing, phonetic traits in the Ukrainian language,
 and the famous trident symbol, later adopted by {kyiv}[Kyivan-Rus].
 
-The Trident symbol means VOLIA, still in Ukrainian language today, which is 3 meanings in one word::
+The Trident symbol means VOLIA, still in the Ukrainian language today, which is 3 meanings in one word::
 * FREEDOM
 * WILL
 * CHOICE
@@ -172,7 +201,7 @@ The Trident symbol means VOLIA, still in Ukrainian language today, which is 3 me
 ====
 When I studied this section, going through tons of materials about Scythian ways of life,
 I could not help but wonder about my public school MAGA supporting, Putin reciting history teacher. +
-*_Doesn't she have a free access to facts and information like the rest of us do?_*
+*_Doesn't she have free access to facts and information like the rest of us do?_*
 ====
 
 == The Sarmatians: Successors to the Scythians (fourth Century BC – fourth Century AD)
@@ -192,10 +221,10 @@ Form such concepts as "the mother of the tribe" and "the wife of the king is the
 and down to Olga of Kyiv punishing neighboring tribes for killing her disobedient husband,
 and to the Mother statue crowning Kyiv today.
 
-I've come across manuscript describing this same mindset of mother-dominance adopted by Viking tribes a thousand years later,
-such as modern day Sweden. I remembered stories about my great grandmother from Ukraine,
+I've come across a manuscript describing this same mindset of mother-dominance adopted by Viking tribes a thousand years later,
+such as modern-day Sweden. I remembered stories about my great-grandmother from Ukraine,
 whom I never met, how she was a woman of steel, mental fortitude, and authority.
-And I am thinking about my own family how my father never overrules my mother.
+And I am thinking about my own family, how my father never overrules my mother.
 He tries to explain and build a supported argument.
 But my mother sometimes overrules him.
 And all he ever says "are you absolutely certain?"
@@ -226,16 +255,16 @@ such as {lavra}[Pechersk Lavra in Kyiv].
 
 During the ninth century, {varangians}[Varangians] (Vikings) arrived in Eastern Europe in force.
 
-*_They played a role in unifying Slavic tribes and establishing the foundations of {kyiv}[Kyivan-Rus],’
+*_They played a role in unifying Slavic tribes and establishing the foundations of {kyiv}[Kyivan-Rus]’
 a powerful state that dominated Eastern Europe._*
 
 Kyivan Rus’ saw significant expansion under Prince Sviatoslav the Brave (964–972 AD),
 who crushed the Khazar Khaganate and extended Rus' influence deep into the {balkans}[Balkans].
 By this time Rus' was already multinational and free.
-Crushing the Khazar Khaganate annexed Crimea to Ukraine adding few more tribes to the mix,
-all of which are an inseparable part of Ukrainian history, culture and identity today.
+Crushing the Khazar Khaganate annexed Crimea to Ukraine, adding a few more tribes to the mix,
+all of which are an inseparable part of Ukrainian history, culture, and identity today.
 
-*Unifying legacy of Vikings absorbing peoples of Crimea:*
+*Unifying legacy of Vikings absorbing people of Crimea:*
 
 The Khazars::
 * Turkic ethnic mix: Crimean Tatars today;
@@ -244,7 +273,7 @@ The Khazars::
 
 Crimean Goths::
 * East Germanic tribes who settled in Crimea after Rome, +
-and influenced Crimean dialect of Ukrainian language.
+and influenced the Crimean dialect of the Ukrainian language.
 * Mangup fortress still survives today.
 
 Alans (Iranian-speaking Sarmatian descendants)::
@@ -265,7 +294,7 @@ Taurians and Scytho-Sarmatian tribes::
 ====
 _Here it's important to understand that Vikings took to trade routes
 along Ukrainian rivers like fish to water,
-also becoming a conduit for movement of people._
+also becoming a conduit for the movement of people._
 ====
 
 [NOTE]
@@ -298,11 +327,11 @@ By the 11th century, Kyiv was the second-largest city in Europe after Constantin
 
 == Conclusion: Ukraine’s Lasting Legacy
 
-From prehistoric settlers to the rise of {kyiv}[Kyivan-Rus],’
+From prehistoric settlers to the rise of {kyiv}[Kyivan-Rus]’,
 Ukraine has been a cradle of civilization.
 It played a crucial role in {indo-europeans}[Indo-European] migrations,
 horse domestication, and the development of one of Europe’s most influential medieval states.
-I was stunned to learn that the Western Europe today began in the steppes of Ukraine.
+I was stunned to learn that Western Europe today began in the steppes of Ukraine.
 
 Even as history brought waves of invaders and changing rulers,
 Ukraine remained a land of rich culture, fierce warriors, and deep historical significance.
@@ -310,7 +339,7 @@ Today its past continues to shape its national identity and place in the world
 -- holding the fort of civilization against the barbaric horde just like it always has.
 
 During this research I was impressed and even overwhelmed by *_the humble nature_* of
-the Ukrainian people carrying such a long and powerful history, tradition and culture.
+the Ukrainian people carrying such a long and powerful history, tradition, and culture.
 And at the same time disappointed by the barbaric neighbors unable to conjure even
 half of millennia of some statehood, drowning in deception, corruption,
 moral and cultural bankruptcy.
@@ -318,10 +347,11 @@ moral and cultural bankruptcy.
 == Final Grade
 
 - ✅ Graded assignment https://github.com/rdd13r[by `rdd13r`] on March 7th 2025. #A+#
-- ✅ Revisited for the quarter final grade May 7th 2025: #A+#
+- ✅ Revisited for the quarter-final grade May 7th 2025: #A+#
 - ✅ Final grade is 100%. (A+) at Mímir Academy.
 
-Took notes of the::
+*Took note of:*
+
 - writing style changes;
 - pair and group research;
 - collective material development.
