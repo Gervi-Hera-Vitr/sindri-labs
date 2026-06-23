@@ -9,7 +9,7 @@ tags:
   - stem
   - to-grade
 ---
-= Science: Workup on Fundamental Particles
+= Science: Fundamental Particles
 lugaru
 :page-author_profile: true
 :page-excerpt:

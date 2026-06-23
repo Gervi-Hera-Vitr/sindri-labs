@@ -9,7 +9,7 @@ tags:
   - stem
   - to-grade
 ---
-= Science: Workup on What Is a Particle
+= Science: What Is a Particle
 lugaru
 :page-author_profile: true
 :page-excerpt:

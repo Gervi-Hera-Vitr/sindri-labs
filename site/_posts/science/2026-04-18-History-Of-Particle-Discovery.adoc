@@ -9,7 +9,7 @@ tags:
   - history
   - to-grade
 ---
-= Science: Workup on History of Particle Discovery
+= Science: History of Particle Discovery
 lugaru
 :page-author_profile: true
 :page-excerpt:

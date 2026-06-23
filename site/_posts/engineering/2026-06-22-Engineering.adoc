@@ -43,7 +43,7 @@ ifdef::env-name[:relfilesuffix: .adoc]
 :on-machine-learning: link:/sindri-labs/school/2024/10/10/On-Machine-Learning.html[On Machine Learning: My Study Plan]
 :on-github: link:/sindri-labs/school/2025/03/07/On-GitHub.html[On GitHub: A Munchkin's Guide]
 :on-technical-writing: link:/sindri-labs/school/2025/03/07/On-Technical-Writing.html[On Technical Writing: Mastering AsciiDoc]
-:on-osi: link:/sindri-labs/school/2025/07/03/The-OSI-Model.html[Engineering: Workup on The OSI Model]
+:on-osi: link:/sindri-labs/school/2025/07/03/The-OSI-Model.html[Engineering: The OSI Model]
 
 _This is how I organized my engineering trail._
 
@@ -52,4 +52,4 @@ _This is how I organized my engineering trail._
 {on-machine-learning} +
 {on-github} +
 {on-technical-writing} +
-{on-osi} _(to-grade)_
+{on-osi}

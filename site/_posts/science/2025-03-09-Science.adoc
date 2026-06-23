@@ -63,8 +63,8 @@ _This is how I organized my research into the sciences._
 {on-physics} +
 {on-particle} +
 {on-particle-people} +
-{on-antimatter} _(to-grade)_ +
-{on-what-is-particle} _(to-grade)_ +
-{on-subatomic} _(to-grade)_ +
-{on-fundamental} _(to-grade)_ +
-{on-history} _(to-grade)_
+{on-antimatter} +
+{on-what-is-particle} +
+{on-subatomic} +
+{on-fundamental} +
+{on-history}

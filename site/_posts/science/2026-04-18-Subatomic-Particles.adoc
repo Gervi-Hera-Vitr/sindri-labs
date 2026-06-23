@@ -9,7 +9,7 @@ tags:
   - stem
   - to-grade
 ---
-= Science: Workup on Subatomic Particles
+= Science: Subatomic Particles
 lugaru
 :page-author_profile: true
 :page-excerpt:

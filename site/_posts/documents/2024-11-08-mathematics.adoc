@@ -107,6 +107,7 @@ ifdef::env-name[:relfilesuffix: .adoc]
 :archimedes-biography-fn: footnote:[St Andrews University, Scotland, MacTutor article on {archimedes-biography}]
 :archimedes-the-lost-method: https://en.wikipedia.org/wiki/Archimedes_Palimpsest[Archimedes' Palimpsest - The Lost Method,window=_blank]
 :archimedes-the-lost-method-fn: footnote:[Wikipedia article on {archimedes-the-lost-method}]
+:on-circle-area: link:/sindri-labs/mathematics/2025/07/18/On-Circle-Area-And-The-Method.html[Area of the circle,window=_blank]
 
 :al-khwarizmi: https://en.wikipedia.org/wiki/Al-Khwarizmi[Muhammad ibn Musa al-Khwarizmi,window=_blank]
 :al-khwarizmi-fn: footnote:[Wikipedia article on {al-khwarizmi}]
@@ -235,7 +236,7 @@ _{fiveable-math}_.
 ** {euclidean-geometry}, arriving at _foundations of geometry_{foundations-geometry-fn}.
 
 * **{archimedes}**{archimedes-biography-fn} -- The lost method: exhaustion, infinitesimals{archimedes-the-lost-method-fn}.
-** Fundamentals of Analysis -- Area of the circle.
+** Fundamentals of Analysis -- {on-circle-area}.
 
 {nbsp}
 

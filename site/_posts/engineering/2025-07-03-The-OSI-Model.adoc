@@ -10,7 +10,7 @@ tags:
   - internet
   - to-grade
 ---
-= Engineering: Workup on The OSI Model
+= Engineering: The OSI Model
 lugaru
 :page-author_profile: true
 :page-excerpt:
