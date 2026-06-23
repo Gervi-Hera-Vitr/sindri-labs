@@ -9,7 +9,7 @@ tags:
   - stem
   - to-grade
 ---
-= Fundamental Particles
+= Science: Workup on Fundamental Particles
 lugaru
 :page-author_profile: true
 :page-excerpt:
@@ -19,8 +19,6 @@ lugaru
 :on-science: link:/sindri-labs/science/[Science]
 
 ↑ _**{on-science}**_
-
-NOTE: This is a *workup* -- unfinished study submitted for grading. Not a finished Science Work yet.
 
 A fundamental particle has no internal structure -- no smaller pieces, no composite description. The Standard Model lists 17: 6 quarks, 6 leptons, 4 gauge bosons, and the Higgs boson.
 
@@ -131,7 +129,3 @@ The Standard Model has no quantum description of gravity. A hypothetical *gravit
 * *Three generations confirmed:* ALEPH, DELPHI, L3, OPAL collaborations, "Precision electroweak measurements on the Z resonance," _Physics Reports_ 427, 257 (2006). LEP at CERN measured the Z boson's invisible decay width and pinned the number of light neutrino species at exactly three -- which constrains the number of fermion generations.
 * *Quark confinement:* Kenneth G. Wilson, "Confinement of Quarks," _Physical Review D_ 10, 2445 (1974). The lattice formulation that explains why isolated quarks are never observed.
 * *Higgs boson observation:* ATLAS Collaboration, _Physics Letters B_ 716, 1 (2012). CMS Collaboration, _Physics Letters B_ 716, 30 (2012). The experimental confirmation that the Higgs field exists.
-
-== Final Grade and Comments
-
-- ⏳ Submitted as a workup. _Awaiting review by {rdd13r}._

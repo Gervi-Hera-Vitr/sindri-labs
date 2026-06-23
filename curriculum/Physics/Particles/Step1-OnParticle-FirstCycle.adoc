@@ -1,8 +1,7 @@
-= Step 1: On Particle -- The First Cycle
+= Science: Workup on My First Take on Particle
 :stem: latexmath
 
-// Working draft. Not for publication. Q4 deliverable for the particle concept.
-// Step 1 of Vadim's four-step flow: (1) grasp concept [HERE]; (2) play with examples; (3) extract proof; (4) challenge.
+NOTE: Working with SLOP to discover the scope to extrapolate over.
 
 == What Step 1 Captures
 

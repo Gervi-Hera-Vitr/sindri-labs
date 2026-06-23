@@ -9,7 +9,7 @@ tags:
   - stem
   - to-grade
 ---
-= What Is a Particle?
+= Science: Workup on What Is a Particle
 lugaru
 :page-author_profile: true
 :page-excerpt:
@@ -18,10 +18,6 @@ lugaru
 :on-science: link:/sindri-labs/science/[Science]
 
 ↑ _**{on-science}**_
-
-NOTE: This is a *workup* -- unfinished study submitted for grading. Not a finished Science Work yet.
-
-== Etymology
 
 The word "particle" entered English in the late 14th century (around 1350-1400) with the meaning "a bit or fragment, small part or division of a whole, minute portion of matter."
 Scientists simply kept the same word when they started talking about atoms, molecules, electrons, and subatomic bits in the 19th and 20th centuries. The specific term "particle physics" (for the study of subatomic particles) emerged gradually during the 60s as the field truly took off as its own discipline.
@@ -100,7 +96,3 @@ There are two big families:
 * *Wave-particle duality:* Louis de Broglie, "Recherches sur la théorie des quanta," doctoral thesis (Paris, 1924). C. Davisson and L.H. Germer, "Diffraction of Electrons by a Crystal of Nickel," _Physical Review_ 30, 705 (1927) -- the first experimental confirmation that electrons behave as waves.
 * *Indistinguishability and spin-statistics:* W. Pauli, "The Connection Between Spin and Statistics," _Physical Review_ 58, 716 (1940). Why fermions and bosons behave so differently.
 * CERN, "The Standard Model," https://home.cern/science/physics/standard-model. Up-to-date popular explainer of the modern particle catalog.
-
-== Final Grade and Comments
-
-- ⏳ Submitted as a workup. _Awaiting review by {rdd13r}._

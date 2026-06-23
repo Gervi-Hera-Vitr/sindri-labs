@@ -10,7 +10,7 @@ tags:
   - stem
   - to-grade
 ---
-= On Antimatter: The Mirror of Matter
+= Science: Workup on Antimatter
 lugaru
 :page-author_profile: true
 :page-excerpt:
@@ -21,13 +21,10 @@ lugaru
 
 ↑ _**{on-science}**_
 
-NOTE: This is a *workup* -- unfinished study submitted for grading. Not a finished Science Work yet.
-
-== What Is Antimatter
 Antimatter is the "mirror-image" version of ordinary matter.
 Every known particle in the universe has an antiparticle counterpart that is identical in mass but has the opposite values for electric charge, and certain other quantum properties (like baryon number or lepton number).
 
-=== Every Particle Has an Antimatter Partner
+== Every Particle Has an Antimatter Partner
 
 .Antiparticle Examples
 [cols="1,1,1,1,1", options="header"]
@@ -81,6 +78,3 @@ E = mc^2
 * CERN, "The Matter-Antimatter Asymmetry Problem," https://home.cern/science/physics/matter-antimatter-asymmetry-problem. Why the universe ended up made of matter and not equal parts of both -- still open.
 * ALPHA Collaboration, "Observation of the 1S-2S transition in trapped antihydrogen," _Nature_ 541, 506 (2017). The current state of antimatter experiment -- antihydrogen atoms held in magnetic traps long enough to do spectroscopy.
 
-== Final Grade and Comments
-
-- ⏳ Submitted as a workup. _Awaiting review by {rdd13r}._

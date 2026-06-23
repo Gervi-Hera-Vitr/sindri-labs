@@ -1,4 +1,4 @@
-= Physics: What is Physics
+= OnPhysics: The Science of Matter
 Cpt. Lugaru (CaptainLugaru) <72951616+CaptainLugaru@users.noreply.github.com>
 v1.0, Thursday, March 13, 2025
 :description: Physics exploration into what the science of physics is

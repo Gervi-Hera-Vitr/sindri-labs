@@ -9,7 +9,7 @@ tags:
   - history
   - to-grade
 ---
-= History of Particle Discovery
+= Science: Workup on History of Particle Discovery
 lugaru
 :page-author_profile: true
 :page-excerpt:
@@ -18,10 +18,6 @@ lugaru
 :on-science: link:/sindri-labs/science/[Science]
 
 ↑ _**{on-science}**_
-
-NOTE: This is a *workup* -- unfinished study submitted for grading. Not a finished Science Work yet.
-
-== Origin of the Concept and Democritus and Atomos
 
 The idea that matter consists of tiny, indivisible units -- what we now call "particles" -- first appeared in Greek atomism:
 
@@ -222,7 +218,3 @@ CERN is also where Tim Berners-Lee invented the World Wide Web in 1989, original
 * Particle Data Group, https://pdg.lbl.gov -- the authoritative numerical reference for every particle.
 * American Institute of Physics, _Center for History of Physics_, https://www.aip.org/history-programs.
 * Nobel Foundation, https://www.nobelprize.org -- Nobel lectures by most of the people in this document, in their own words.
-
-== Final Grade and Comments
-
-- ⏳ Submitted as a workup. _Awaiting review by {rdd13r}._

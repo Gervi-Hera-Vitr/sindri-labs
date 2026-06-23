@@ -9,7 +9,7 @@ tags:
   - stem
   - to-grade
 ---
-= Subatomic Particles
+= Science: Workup on Subatomic Particles
 lugaru
 :page-author_profile: true
 :page-excerpt:
@@ -19,10 +19,6 @@ lugaru
 :on-science: link:/sindri-labs/science/[Science]
 
 ↑ _**{on-science}**_
-
-NOTE: This is a *workup* -- unfinished study submitted for grading. Not a finished Science Work yet.
-
-== What Subatomic Means
 
 "Subatomic" means anything smaller than or inside an atom.
 
@@ -133,7 +129,3 @@ If the nucleus were a marble (1 cm), the electron cloud would extend about 630 m
 * *Free neutron lifetime (~877 s, ~14.6 minutes):* Particle Data Group world average. UCNτ Collaboration, "Improved neutron lifetime measurement with UCNτ," _Physical Review Letters_ 127, 162501 (2021).
 * *Proton stability bound:* Super-Kamiokande Collaboration, "Search for proton decay via p → e⁺π⁰ and p → μ⁺π⁰...," _Physical Review D_ 102, 112011 (2020). Current lower bound on proton lifetime: > 2.4 × 10³⁴ years.
 * *Bohr radius and atomic scale:* Niels Bohr, "On the Constitution of Atoms and Molecules," _Philosophical Magazine_ 26 (1913). The original derivation, still the cleanest path to the number.
-
-== Final Grade and Comments
-
-- ⏳ Submitted as a workup. _Awaiting review by {rdd13r}._
