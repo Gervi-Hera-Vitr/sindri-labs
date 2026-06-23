@@ -1,23 +1,22 @@
-= Business: Introductory Review of The Little Red Book of Selling
-Cpt. Lugaru (CaptainLugaru) <72951616+CaptainLugaru@users.noreply.github.com>
-v1.0, Monday, March 7, 2025
-:description: Business lessons from the Little Red Book of Selling
-:sectnums:
-:sectanchors:
-:sectlinks:
-:icons: font
-:tip-caption: 💡️
-:note-caption: ℹ️
-:important-caption: ❗
-:caution-caption: 🔥
-:warning-caption: ⚠️
-:toc: preamble
-:toclevels: 1
-:toc-title: The Little Red Book of Selling
-:keywords: Homeschool Learning Journey
-:imagesdir: ./images
-:labsdir: ./labs
-ifdef::env-name[:relfilesuffix: .adoc]
+---
+header:
+  overlay_image: assets/images/banner-captain.jpg
+  overlay_filter: 0.1
+categories: [school]
+tags:
+  - business
+  - sales
+  - books
+---
+= On Business: Introductory Review of *The Little Red Book of Selling*
+lugaru
+:page-author_profile: true
+:page-excerpt:
+:page-layout: single
+:page-classes: wide
+:on-business: link:/sindri-labs/business/[Business]
+
+↑ _**{on-business}**_
 
 This is my minimalistic review of the introduction to the little red book of selling.
 
@@ -76,8 +75,3 @@ The best way to understand your customers::
 * Ask them for what they are looking for in a vendor/partner;
 
 *_Record the session to study over and over._*
-
-== Final Grade
-
-This assignment is NOT graded -- the book is over the kid's head.
-We will revisit next year.

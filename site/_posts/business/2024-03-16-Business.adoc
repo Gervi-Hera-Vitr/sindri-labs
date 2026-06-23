@@ -1,0 +1,65 @@
+---
+header:
+  overlay_image: assets/images/banner-captain.jpg
+  overlay_filter: 0.2
+  actions:
+    - label: "Literature"
+      url: /literature/
+    - label: "Philosophy"
+      url: /philosophy/
+    - label: "Mathematics"
+      url: /mathematics/
+    - label: "Science"
+      url: /science/
+    - label: "Engineering"
+      url: /engineering/
+    - label: "Business"
+      url: /business/
+categories: [page]
+tags: [graded]
+---
+= Mímis Academy: Business
+lugaru
+:page-author_profile: true
+:page-excerpt:
+:page-layout: single
+:page-permalink: /business/
+:page-classes: wide
+:sectnums:
+:sectanchors:
+:sectlinks:
+:icons: font
+:tip-caption: 💡️
+:note-caption: ℹ️
+:important-caption: ❗
+:caution-caption: 🔥
+:warning-caption: ⚠️
+:toc: preamble
+:toclevels: 2
+:toc-title: Mímis Academy Business
+:keywords: Mímis Academy Business
+:imagesdir: ./assets/img
+ifdef::env-name[:relfilesuffix: .adoc]
+:on-business: link:/sindri-labs/school/2024/03/17/On-Business-Rich-Poor.html[On Business: Core Lessons from Rich Dad Poor Dad]
+:on-selling: link:/sindri-labs/school/2025/03/07/On-Business-Little-Red-Book.html[On Business: The Little Red Book of Selling]
+:microconf: https://www.youtube.com/@MicroConf[MicroConf,window=_blank]
+:ramen: https://ramenclub.so/[Ramen Club,window=_blank]
+:fake-club: https://www.startupclub.community/[Startup Club,window=_blank]
+
+_This is how I organized my study of business and finance._
+
+My father teaches business based on real-life campaigns.
+There is some theory, but I'm graded through internship.
+And for that there are four communities I have access to.
+
+- Local µSaaS collective -- parents' friends; infield operations only; single project focus;
+- The Northern Collective -- I have access to seminars, expositions, datasets, and blogs;
+- The online and YouTube community {microconf} I make case studies to experiment on;
+- The {ramen}, I am actually expected to execute on my own before college.
+
+I am explicitly expected to identify and avoid FAKE communities like "Get Rich Quick with AI-Slop." (? {fake-club} ?)
+
+== Business Works
+
+{on-business} +
+{on-selling}

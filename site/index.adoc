@@ -14,8 +14,10 @@ header:
       url: /mathematics/
     - label: "Science"
       url: /science/
-    - label: "Project"
-      url: https://github.com/orgs/Gervi-Hera-Vitr/projects/1/views/1
+    - label: "Engineering"
+      url: /engineering/
+    - label: "Business"
+      url: /business/
 ---
 = Welcome to our Laboratory
 :page-layout: home

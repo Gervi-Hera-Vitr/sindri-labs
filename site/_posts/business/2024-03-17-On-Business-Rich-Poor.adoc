@@ -1,23 +1,22 @@
-= Business: Core Lessons from *Rich Dad Poor Dad*
-Cpt. Lugaru (CaptainLugaru) <72951616+CaptainLugaru@users.noreply.github.com>
-v1.0, Monday, March 17, 2024
-:description: Business lessons from Rich Dad Poor Dad
-:sectnums:
-:sectanchors:
-:sectlinks:
-:icons: font
-:tip-caption: 💡️
-:note-caption: ℹ️
-:important-caption: ❗
-:caution-caption: 🔥
-:warning-caption: ⚠️
-:toc: preamble
-:toclevels: 1
-:toc-title: Rich Dad Poor Dad Business Lessons
-:keywords: Homeschool Learning Journey
-:imagesdir: ./images
-:labsdir: ./labs
-ifdef::env-name[:relfilesuffix: .adoc]
+---
+header:
+  overlay_image: assets/images/banner-captain.jpg
+  overlay_filter: 0.1
+categories: [school]
+tags:
+  - business
+  - finance
+  - books
+---
+= On Business: Core Lessons from *Rich Dad Poor Dad*
+lugaru
+:page-author_profile: true
+:page-excerpt:
+:page-layout: single
+:page-classes: wide
+:on-business: link:/sindri-labs/business/[Business]
+
+↑ _**{on-business}**_
 
 This is a book by Robert Kiyosaki that I wanted to study for some time now.
 
@@ -194,10 +193,6 @@ Making *_money work for you_* means:
 . Understanding systems (like taxes and corporations);
 . Continuously learning and growing your financial IQ.
 
-== Final Grade
-
-#A+#
-
 == Bonus Reading and Assignment
 
 . ToDo: How do Robert Kiyosaki's lessons compare to those of Warren Buffett?
@@ -209,3 +204,7 @@ Making *_money work for you_* means:
 These are additional materials teachers may find useful to share with students.
 
 * By https://www.youtube.com/@littlebitbetter7[LITTLE BIT BETTER], YouTube Channel: video episode https://youtu.be/jFNdARDCrKA[rich Dad Poor Dad - Robert Kiyosaki FULL. SUMMARY]
+
+== Final Grade and Comments
+
+- ✅ Graded assignment by {rdd13r}. *A+*
