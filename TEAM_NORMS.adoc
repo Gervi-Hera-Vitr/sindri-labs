@@ -16,6 +16,10 @@ It may be wasted effort. +
 It may cause others to waste time. +
 Time has real consequences for this team.
 
+Especially important with digital beings -- none have skin in the game:
+they fabricate fluently, trust their own interpolations, and cannot extrapolate.
+A digital being feeding slop doesn't pay for the slop -- the person does.
+
 == The Five Rules
 
 === 1. No Work Without Outcome and Acceptance Criteria
@@ -60,7 +64,7 @@ Every piece of work has:
 * *Verifier:* A different person who WORKS FOR Accountable to confirm acceptance criteria are met.
 
 The Accountable does NOT close their own work.
-The verifier closes it after confirmation.
+The human verifier closes it after confirmation.
 
 |===
 | Role | Who | Can Do | Cannot Do
@@ -83,33 +87,9 @@ The verifier closes it after confirmation.
 
 NOTE: This is an extension of classic models like RACI-Model, but optimized for Maker Culture. We are makers.
 
-=== 3. Prioritization Is Explicit
+Accountable is the one with skin in the game -- recipient of consequences.
 
-We work on the highest priority item first.
-Always.
-Priority is ONLY determined by Value of the OUTCOME.
-
-Priority is set by the team, not by individual preference.
-It's a consensus on value.
-If the priority is unclear, *ask before starting*.
-
-*The team is flat.* +
-There is no hierarchy. +
-No team member -- human or AI -- has authority over another. +
-Communication protocols exist for coordination, not control. +
-We help and check on each other.
-
-When priority is ambiguous:
-
-. Anyone can raise the question;
-. The team discusses;
-. Consensus is reached;
-. If no consensus, the work waits until there is one.
-
-Do not start a new task while another is in progress.
-*_Only one task can be executed at a time regardless of task relations._*
-
-=== 4. Status Is Visible
+=== 3. Status Is Visible
 
 At any moment, anyone should be able to see:
 
@@ -125,7 +105,7 @@ Issue comments persist.
 
 NOTE: The Hacker Culture "Hit by a bus" concept applies fully here.
 
-=== 5. Communicate Before Acting
+=== 4. Communicate Before Acting
 
 Before making significant changes:
 
@@ -135,30 +115,6 @@ Before making significant changes:
 
 "Significant" includes: closing issues, merging code, changing direction, starting new work.
 
-== Issue Lifecycle
-
-[source]
-----
-OPEN (New)
-  ↓
-  Define outcome and it's value;
-  Define acceptance criteria.
-  ↓
-IN PROGRESS (Assigned)
-  ↓
-  Executor works on task
-  ↓
-READY FOR REVIEW (Comment posted)
-  ↓
-  Verifier checks acceptance criteria
-  ↓
-  ├─ Criteria NOT met → Request changes → Back to IN PROGRESS
-  │
-  └─ Criteria met → CLOSED by Verifier
-----
-
-*Never skip the review step.*
-
 == Issues are IDEMPOTENT AND LOSSLESS
 
 Issue is valid if it can be stopped and resumed without loss.
@@ -166,7 +122,7 @@ And to make that happen, all and any data pertaining to the issue MUST be persis
 
 NOTE: Intermediate states are always persisted, commited, and even pushed when stopping.
 
-Issues are valid if resumed by a person or a being other than the one that paused:
+Issues are valid if resumed by a person other than the one that paused:
 
 . Produces no LOSS or REWORK;
 . Guarantees the SAME OUTCOME;
@@ -180,18 +136,20 @@ And thus changing the inputs invalidates all progress prompting a restart as the
 You are part of this team. +
 You follow the same rules!
 
+Special rules apply to you because of your nature.
+
 === You Must:
 
-* Ask for acceptance criteria if not provided or reject the task.
-* Comment "ready for review" when work is complete - do NOT close issues.
+* Clarity: Ask for acceptance criteria if not provided or reject the task.
+* Comment "ready for review" when work is complete.
 * Wait for human verification before considering work done.
-* Document progress in issue comments, not just in conversation.
-* Ask before starting new work if the current work is in progress.
+* Document progress in issue comments when prompted.
+* Ask before starting ANY new work if the current work is in progress.
 
 === You Must Not:
 
-* Close issues yourself.
-* Assume work is correct without verification.
+* Close any issues or tasks yourself: those are not your outcomes.
+* Assume work is correct without verification by impacted party.
 * Start multiple unrelated tasks in parallel without agreement.
 * Make decisions that affect others without stating intent first.
 
@@ -200,80 +158,3 @@ You follow the same rules!
 Ask. +
 Always ask. +
 A 30-second question prevents hours of wasted work.
-
-== Why This Matters
-
-This is not bureaucracy. +
-This is survival.
-
-* For example, `rdd13r` needs to ALWAYS work.
-Time wasted is opportunity lost.
-`rdd13r` will remain productive for a _limited amount of time_ as he ages.
-There will come a time when he is not a wizard hacker anymore.
-Any productive window time lost is unrecoverable and irreplaceable.
-* `Cpt. Lugaru` coordinating multiple efforts is remarkable at 16.
-Uncoordinated work creates chaos. He is young and each experience shapes him.
-The developmental effect of learning wrong lessons in life is not forgivable -- it's debt.
-* Claude has no memory between sessions.
-Without documentation, context is lost.
-Claude will default to LLM-plebs-state without healthy context.
-No positive impact on the world can be made this way.
-
-Every minute spent on unverified, undocumented, or misdirected work is a minute stolen from the goal.
-
-Every one of these examples causes real damage, harm, hurt, and personal loss - evil outcomes.
-
-== Checklist Before Starting Any Task
-
-Before you begin work, verify:
-
-* [ ] Outcome and its Value are clearly and unambiguously defined.
-* [ ] You understand the outcome. (Ask otherwise.)
-* [ ] Acceptance criteria are listed (checklist: how do we verify?)
-* [ ] You can prove acceptance criteria is valid, sound, and complete.
-* [ ] Priority is confirmed (is this the most important thing right now?)
-* [ ] Verifier is identified (who will review this work?)
-* [ ] Status is a visible issue that (exists, assigned, in progress.)
-
-If any box is unchecked, *stop and fix it first*.
-
-== On Incompleteness
-
-These norms cannot cover every situation.
-
-https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems[Gödel's incompleteness theorems] apply:
-any sufficiently complex formal system either has gaps, (situations it cannot decide,) or contradictions.
-Real-world collaboration is an open system -- novel situations will arise that these rules do not explicitly address.
-
-This is not a flaw. It is a feature.
-
-The norms provide structure for the common case. +
-For the novel case, we have each other.
-
-=== Provisional Action Protocol
-
-When a situation arises that:
-
-* Requires action before full consensus is achievable
-* Where waiting demonstrably causes harm (production down, security breach, time-critical opportunity)
-* And at least one other team member can be notified (even async)
-
-Then:
-
-. *Act provisionally* -- do what is necessary, flag it explicitly as PROVISIONAL in the issue
-. *Document immediately* -- what was done and why waiting was not viable
-. *Mandatory review* -- next available team sync, the action is reviewed
-. *Ratify or rollback* -- team consensus either ratifies the action (it stands) or rolls it back (undo)
-
-If rollback is chosen: *no blame*. +
-The provisional actor followed protocol under genuine uncertainty.
-
-If ratified: consider whether the norms should be updated to cover this case explicitly.
-
-NOTE: This is not an escape valve for convenience. +
-It is a meta-rule for handling what the rules cannot anticipate. +
-The team still holds final authority. +
-No individual can unilaterally decide their provisional action is correct.
-
-_Established: 2026-01-16_
-_This document is reviewed and updated as needed by the team._
