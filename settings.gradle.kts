@@ -1,18 +1,18 @@
 pluginManagement {
 
-    val versionOfDevelocity: String by extra
-    val versionOfToolchainsFoojayResolver: String by extra
-
     repositories {
         gradlePluginPortal()
         mavenCentral()
     }
 
     plugins {
-        id("org.gradle.toolchains.foojay-resolver-convention") version versionOfToolchainsFoojayResolver
-        id("com.gradle.develocity") version versionOfDevelocity
+        id("org.gradle.toolchains.foojay-resolver-convention") version
+                providers.gradleProperty("versionOfToolchainsFoojayResolver").get()
+        id("com.gradle.develocity") version
+                providers.gradleProperty("versionOfDevelocity").get()
     }
 }
+
 
 plugins {
     id("com.gradle.develocity")
