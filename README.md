@@ -1,6 +1,11 @@
-[![built with Codeium](https://codeium.com/badges/main)](https://codeium.com)
-
-[![Security Scan by Qodana](https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/security-scan-by-qodana.yml/badge.svg)](https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/security-scan-by-qodana.yml)
+[![Incrementer](https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/incrementer.yml/badge.svg)](https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/incrementer.yml)
+[![Inspector](https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/inspector.yml/badge.svg)](https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/inspector.yml)
+[![Publisher](https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/publisher.yml/badge.svg)](https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/publisher.yml)
+[![Releaser](https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/releaser.yml/badge.svg)](https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/releaser.yml)
+[![Staler](https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/staler.yml/badge.svg)](https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/staler.yml)
+[![Pruner](https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/pruner.yml/badge.svg)](https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/pruner.yml)
+[![PR-Labeler](https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/labeler.yml/badge.svg)](https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/labeler.yml)
+[![Welcome](https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/greeter.yml/badge.svg)](https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/greeter.yml)
 ___
 
 [Gervi Héra Vitr Labs Site](https://gervi-hera-vitr.github.io/sindri-labs/ "Gervi Héra Vitr Labs") <- **Visit our Website**
