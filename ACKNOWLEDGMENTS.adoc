@@ -1,29 +1,33 @@
 = Acknowledgements
 
-NOTE: This is the general references for ALL learning resources of this curriculum plan not explicitly called out.
+NOTE: This is the general references for _current_ learning resources of this curriculum plan not explicitly called out in works.
 
 
-== For the Impatient Experts
+== Kotlin For the Impatient:
+
+_Our language of choice is Kotlin._
 
 * https://kotlinlang.org/docs/koans.html[Kotlin Koans]
-* https://plugins.jetbrains.com/education?search=kotlin[Launch in IDE] (https://plugins.jetbrains.com/plugin/10081-jetbrains-academy[JetBrains Academy Plugin])
-* https://kotlinlang.org/docs/getting-started.html[Get started with Kotlin]
-* https://www.jetbrains.com/pages/academy/kotlin/[JetBrains Academy] (https://hyperskill.org/[Hyperskill])
 * https://youtube.com/@Kotlin[YouTube: Kotlin by JetBrains]
+* https://plugins.jetbrains.com/education?search=kotlin[Launch in IDE] (https://plugins.jetbrains.com/plugin/10081-jetbrains-academy[JetBrains Academy Plugin])
+* https://www.jetbrains.com/pages/academy/kotlin/[JetBrains Academy] (https://hyperskill.org/[Hyperskill])
 
-== Language References
+=== Kotlin Language References
 
 * https://kotlinlang.org/spec/introduction.html[The Kotlin language specification]
 ** https://kotlinlang.org/docs/home.html[*_Kotlin docs_*]
 ** https://kotlinlang.org/[_Kotlin_] (home)
 ** https://kotlinlang.org/docs/kotlin-reference.pdf[Kotlin Language Documentation (pdf)]
+
+=== We Author in AsciiDoc
+
 * https://docs.asciidoctor.org/asciidoc/latest/[AsciiDoc Language Documentation]
 ** https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/[_AsciiDoc Syntax Quick Reference_]
 ** https://asciidoctor.org/docs/asciidoc-writers-guide/[*_AsciiDoc Writer’s Guide_*]
 
-== Topic References
+== We Do Much AI
 
-* https://course.fast.ai/[Practical Deep Learning for Coders]
+* https://course.fast.ai/[Practical Deep Learning for Coders] (https://course.fast.ai/Lessons/part2.html[and Part 2])
 * https://aima.cs.berkeley.edu/[Artificial Intelligence: A Modern Approach, 4th US ed.]
 
 == Ops References
@@ -49,4 +53,3 @@ NOTE: This is the general references for ALL learning resources of this curricul
 ** https://github.com/JetBrains/qodana-action[Qodana Scan]
 ** https://github.com/peaceiris/actions-gh-pages[GitHub Pages Action]
 ** https://github.com/marketplace/actions/gradle-build-action[Gradle Build Action]
-

@@ -1,6 +1,11 @@
-[![built with Codeium](https://codeium.com/badges/main)](https://codeium.com)
-
-[![Security Scan by Qodana](https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/security-scan-by-qodana.yml/badge.svg)](https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/security-scan-by-qodana.yml)
+[![Incrementer](https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/incrementer.yml/badge.svg)](https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/incrementer.yml)
+[![Inspector](https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/inspector.yml/badge.svg)](https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/inspector.yml)
+[![Publisher](https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/publisher.yml/badge.svg)](https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/publisher.yml)
+[![Releaser](https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/releaser.yml/badge.svg)](https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/releaser.yml)
+[![Staler](https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/staler.yml/badge.svg)](https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/staler.yml)
+[![Pruner](https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/pruner.yml/badge.svg)](https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/pruner.yml)
+[![PR-Labeler](https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/labeler.yml/badge.svg)](https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/labeler.yml)
+[![Welcome](https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/greeter.yml/badge.svg)](https://github.com/Gervi-Hera-Vitr/sindri-labs/actions/workflows/greeter.yml)
 ___
 
 [Gervi Héra Vitr Labs Site](https://gervi-hera-vitr.github.io/sindri-labs/ "Gervi Héra Vitr Labs") <- **Visit our Website**
@@ -26,43 +31,10 @@ _Come, have a drink from [Yggdrasil](https://en.wikipedia.org/wiki/Yggdrasil "Yg
 
 See our security policy [here](https://github.com/Gervi-Hera-Vitr/sindri-labs/security/policy "Security Policy").
 
-### Contents
-
-**The curriculum and the learning trail are structured hierarchically as follows:**
-
-- [**journey**](./journey) - _**Philosophical Foundation**_: high-level governance of the **hands-on** learning **journey**;
-  - **ToDo**: _not fully committed to the learning trail yet - too few iterations_;
-  - **For teachers**: a book or a guide encapsulating the educational program;
-  - **For students**: a structure of reference on trails within the journey;
-  - **Artifact**: a publication built and deployed with Gradle and AsciiDoc.
-- [**labs**](./labs) - The **hands-on** learning **labs** - _the most important part of the school program_;
-  - **For teachers**: this is a place to collaborate with your student by pair-programming;
-  - **For students**: this is Your Place! To play and to learn by doing.
-
-**Supporting materials, modules, and artifacts:**
-
-- [.run](./.run) - Shared project run configurations: useful stuff.
-- [**docs**](./docs) - Documentation, Tutorials, and Onboarding Guide for teachers and students;
-  - ToDo: placeholder waiting for consumers, contributors, and maintainers;
-  - **For teachers**: instructions on how to `fork` and set up own school program;
-  - **For students**: mechanical and technical instructions such as IDE setup, etc.;
-  - **Artifact**: inline project-bound documentation.
-- [gradle](./gradle) - Gradle Wrapper files, supporting build.
-- [lab-ux-ktor](./lab-ux-ktor/README.md) - _**future**_ home and demo for shared labs (Gradle and Ktor subproject).
-- [site](./site) - Public home page for the school published with Jekyll and GitHub Pages.
-- [src](./src) - Source code for the support of the school program operations at the root of the repository.
-- [.github](./.github) - GitHub actions and workflows are actively using these scripts.
-
-**Technical and mechanical modules for the school assets:**
-
-- [.idea](./.idea) - JetBrains IDE files, normally excluded, kept as an example for styles, etc.
-
-**Transient folders that should not be committed:** _git-excluded and removed on cleanup_.
-
-- [.gradle](./.gradle) - software project definition tool working folder.
-- [build](./build) - software project build folder - _**always**_ delete it on cleanup.
 
 ## For My Munchkins
+
+Captain loved these:
 
 - [_**Give Me 23 Minutes And I'll Destroy Your Laziness Forever!**_](https://youtu.be/EkDxsQRbIwo)
   - Engage → Struggle → Release → Flow → Recover -- works
