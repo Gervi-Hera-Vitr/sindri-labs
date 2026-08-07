@@ -74,17 +74,13 @@ tasks.named<AsciidoctorPdfTask>("asciidoctorPdf") { configureAsciiDocInput(this)
 tasks.named<AsciidoctorEpubTask>("asciidoctorEpub") { configureAsciiDocInput(this).also { ebookFormats(EPUB3) } }
 
 pdfThemes {
-    local("principal") {
-        themeDir = file("docs/src/resources/themes")
-        themeName = "principal-theme"
-    }
-    local("project") {
-        themeDir = file("docs/src/resources/themes")
-        themeName = "project-theme"
-    }
-    local("student") {
-        themeDir = file("docs/src/resources/themes")
-        themeName = "student-theme"
+    file("docs/src/resources/themes").apply {
+        arrayOf("principal", "project", "student").forEach {
+            local(it) {
+                themeDir = this@apply
+                themeName = "$it-theme"
+            }
+        }
     }
 }
 
@@ -95,22 +91,19 @@ tasks.named<DependencyUpdatesTask>("dependencyUpdates").configure {
     outputDir = "build/dependencies"
     reportfileName = "report"
 
-    val releaseDependencyRequired: Boolean = fun(): Boolean {
-        val releaseDependencyRequiredProperty = project.findProperty("useReleaseDependenciesOnly")?.toString()?.toBoolean() ?: false
-        println("::notice file=build.gradle.kts::Release-Only dependency restriction in properties is $releaseDependencyRequiredProperty")
-        if (releaseDependencyRequiredProperty) {
-            println("::notice file=build.gradle.kts::Since Release-Only dependency restriction is set by property to true, skipping env check which has no effect; to control this behavior from env, mute the property 'useReleaseDependenciesOnly' or set it to 'false'.")
-            return true
+    val releaseDependencyRequired: Boolean = when {
+        this.project.findProperty("useReleaseDependenciesOnly")?.toString()?.toBoolean() ?: false -> {
+            log.info("::notice file=build.gradle.kts::Since Release-Only dependency restriction is set by property to true, skipping env check which has no effect; to control this behavior from env, mute the property 'useReleaseDependenciesOnly' or set it to 'false'.")
+            true
         }
 
-        val releaseDependencyRequiredOverride = System.getenv("RELEASES_ONLY")
-        if (releaseDependencyRequiredOverride != null && releaseDependencyRequiredOverride.toBoolean()) {
-            println("::notice file=build.gradle.kts::Release-Only dependency restriction is honored from env('RELEASES_ONLY') and is $releaseDependencyRequiredOverride")
-            return true
+        System.getenv("RELEASES_ONLY").toBoolean() -> {
+            log.info("::notice file=build.gradle.kts::Release-Only dependency restriction is honored from env('RELEASES_ONLY')")
+            true
         }
-        println("::notice file=build.gradle.kts::Release Only dependency restriction is set by property to 'false'.")
-        return false
-    }()
+
+        else -> false
+    }
 
     rejectVersionIf {
         releaseDependencyRequired && isStableVersion(candidate.version).not()
@@ -120,18 +113,18 @@ tasks.named<DependencyUpdatesTask>("dependencyUpdates").configure {
 fun isStableVersion(version: String): Boolean {
     val stableKeyword = listOf("RELEASE", "FINAL", "GA").any { version.uppercase(Locale.getDefault()).contains(it) }
     val regex = "^[0-9,.v-]+(-r)?$".toRegex()
-    val isStable = stableKeyword || regex.matches(version)
-    return isStable
+    return stableKeyword || regex.matches(version)
 }
 
 tasks.register("processDependencyUpdates") {
+    description = "Custom Dependency Updates Checker"
     dependsOn("dependencyUpdates")
 
     doLast {
         val reportFile = file("build/dependencies/report.json")
         if (!reportFile.exists()) {
-            println("ERROR: No dependency update report found.")
-            println("::error file=build.gradle.kts::Dependency report not found at build/dependencies/report.json")
+            log.error("ERROR: No dependency update report found.")
+            log.error("::error file=build.gradle.kts::Dependency report not found at build/dependencies/report.json")
             return@doLast
         }
 
@@ -143,24 +136,28 @@ tasks.register("processDependencyUpdates") {
         val outdatedDependencies = outdatedJsonDependenciesAsObject["outdated"] as Map<*, *>
         val dependencies = outdatedDependencies["dependencies"] as List<*>
 
-        if (dependencies.isNotEmpty()) {
-            println("The following dependencies have newer versions available:")
+        when {
+            dependencies.isNotEmpty() -> {
+                log.warn("The following dependencies have newer versions available:")
 
-            dependencies.forEach { dep ->
-                val dependencyInformation = dep as Map<*, *>
-                val group = dependencyInformation["group"]
-                val name = dependencyInformation["name"]
-                val currentVersion = dependencyInformation["version"]
+                dependencies.forEach { dep ->
+                    val dependencyInformation = dep as Map<*, *>
+                    val group = dependencyInformation["group"]
+                    val name = dependencyInformation["name"]
+                    val currentVersion = dependencyInformation["version"]
 
-                val available = (dep["available"] as Map<*, *>)["milestone"]
+                    val available = (dep["available"] as Map<*, *>)["milestone"]
 
-                println("- $group:$name [$currentVersion -> $available]")
+                    log.warn("- $group:$name [$currentVersion -> $available]")
 
-                println("::warning file=build.gradle.kts::Dependency update available for $group:$name from $currentVersion to $available")
+                    log.warn("::warning file=build.gradle.kts::Dependency update available for $group:$name from $currentVersion to $available")
+                }
             }
-        } else {
-            println("All dependencies are up to date.")
-            println("::notice file=build.gradle.kts::Dependencies are up to date.")
+
+            else -> arrayOf(
+                    "All dependencies are up to date.",
+                    "::notice file=build.gradle.kts::Dependencies are up to date."
+                ).forEach(log::info)
         }
     }
 }
