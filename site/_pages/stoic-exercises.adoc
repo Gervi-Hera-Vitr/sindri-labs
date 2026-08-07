@@ -1,0 +1,29 @@
+---
+header:
+  caption: Daily Exercises on Meditation
+  overlay_image: assets/images/banner-philosophy.jpg
+  overlay_filter: 0.2
+---
+= Stoic Meditation Exercises
+lugaru
+ifndef::env-site[:imagesdir: ../assets/images]
+ifdef::env-site[:imagesdir: {site-baseurl}/assets/images]
+:page-liquid:
+:page-author_profile: true
+:page-excerpt: These are the Mímis Gildi daily stoic self-adressed questions.
+:page-layout: single
+:page-permalink: /meditations/
+:page-classes: wide
+:page-comments: true
+:page-search: true
+:sectnums:
+:sectanchors:
+:sectlinks:
+:toc: preamble
+:toclevels: 2
+:toc-title: Mímir Academy Meditations
+:keywords: Mímir Academy
+:imagesdir: ./assets/img
+ifdef::env-name[:relfilesuffix: .adoc]
+
+The to do.
