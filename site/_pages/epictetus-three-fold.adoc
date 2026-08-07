@@ -1,0 +1,27 @@
+---
+header:
+  caption: Three Layers of Philosophy Mastery
+  overlay_image: assets/images/banner-philosophy.jpg
+  overlay_filter: 0.2
+---
+= Epictetus: Three-Fold Discipline
+lugaru
+ifndef::env-site[:imagesdir: ../assets/images]
+ifdef::env-site[:imagesdir: {site-baseurl}/assets/images]
+:page-liquid:
+:page-author_profile: true
+:page-excerpt: These are the layers to mastering stoicism Epictetus taught.
+:page-layout: single
+:page-permalink: /discipline/
+:page-classes: wide
+:page-comments: true
+:page-search: true
+:sectnums:
+:sectanchors:
+:sectlinks:
+:toc: preamble
+:toclevels: 2
+:toc-title: Mímir Academy Meditations
+:keywords: Mímir Academy
+:imagesdir: ./assets/img
+ifdef::env-name[:relfilesuffix: .adoc]
