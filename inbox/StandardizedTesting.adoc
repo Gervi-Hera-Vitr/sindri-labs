@@ -1,0 +1,66 @@
+= High School Tests — Cost, Purpose & Links
+:toc: macro
+:sectnums:
+
+_NC homeschool · 2025–26. Fees are U.S. base rates; verify exact ACT add-ons and current SAT/ACT fees on the official sites before paying._
+
+[cols="12,26,20,21,21", options="header", frame=all, grid=all]
+|===
+| Test | What it's used for | Cost (real exam) | Official — register / take | Free practice
+
+| *SAT*
+| College admissions (score 400–1600). Also satisfies your NC annual testing requirement.
+| $68
+| https://satsuite.collegeboard.org/[collegeboard.org]
+| https://satsuite.collegeboard.org/practice[Bluebook + Khan Academy + Question Bank]
+
+| *ACT*
+| College admissions (1–36). Colleges accept it or the SAT. Also satisfies the NC annual test.
+| ~$65 core +$4 science +$25 writing
+| https://my.act.org[my.act.org]
+| https://www.act.org/content/act/en/products-and-services/the-act/test-preparation/free-act-test-prep.html[act.org free prep — PDFs + QuizMe]
+
+| *PSAT/NMSQT*
+| Practice SAT; junior-year score qualifies for the National Merit Scholarship.
+| ~$18 (paid to host school)
+| https://satsuite.collegeboard.org/psat-nmsqt/taking-the-test/away-students[Away-student info]
+| https://satsuite.collegeboard.org/practice[Same free SAT tools]
+
+| *AP exam*
+| Earn college credit / skip intro courses by scoring 3–5. Signals rigor.
+| $99 per exam (~$53 reduced)
+| https://apstudents.collegeboard.org/register-for-ap-exams[Register (via local coordinator)]
+| https://myap.collegeboard.org/login[AP Daily videos + released FRQs]
+
+| *CLEP*
+| Credit by exam like AP — cheaper, no course. Confirm your target colleges accept it.
+| $97 + $15–40 center fee
+| https://clep.collegeboard.org/[clep.collegeboard.org]
+| https://clep.collegeboard.org/prepare-for-an-exam/practice-questions-study-guides[Free sample questions]
+
+| *NC EOC*
+| Public-school course tests. *Not required for homeschoolers* — practice value only.
+| Free / N/A
+| https://www.dpi.nc.gov/districts-schools/accountability-and-testing/state-tests/end-course-eoc[NCDPI EOC page]
+| https://www.dpi.nc.gov/districts-schools/accountability-and-testing/state-tests/end-course-eoc[Released forms (same page)]
+
+| *ASVAB*
+| Military job-aptitude test; sets which enlistment roles you qualify for.
+| Free (via recruiter/school)
+| Arranged through a recruiter or school
+| https://march2success.com/[March2Success]
+|===
+
+== Baseline self-test (SAT)
+
+For a gradeable "where am I" test your dad can score by hand, use the *linear paper practice tests (Tests 4–11)* — each PDF bundles the answer key and raw-to-scaled scoring chart. Take it timed on paper, then convert. Switch to Bluebook afterward for realistic (adaptive) practice.
+
+* Download: https://satsuite.collegeboard.org/practice/practice-tests/paper[satsuite.collegeboard.org/practice/practice-tests/paper]
+* Use *Tests 4–11 only* — the older paper tests (1–10) are the retired pre-2024 format and won't map to current scoring.
+
+== Notes
+
+* *Confirmed fees:* SAT $68, AP $99, CLEP $97 + center fee.
+* *Verify before paying:* ACT core (~$65) and PSAT (~$18) shift slightly and by add-on — check act.org / the host school.
+* *Fee waivers* exist for SAT/AP (College Board) and ACT for eligible low-income 11th–12th graders; they cover base fees, late fees, and extra score reports.
+* You register first; the *test center* (a nearby high school) is chosen inside the registration flow and appears on your admission ticket. Register early to get a close one.

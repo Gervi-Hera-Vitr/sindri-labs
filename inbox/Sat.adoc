@@ -1,0 +1,163 @@
+= All the Ways to Practice the SAT
+:sectnums:
+
+_Current as of the digital SAT (Bluebook era, 2025–26). Everything below is official College Board material and free unless marked PAID or THIRD-PARTY._
+
+*The one thing to know first:* full-length practice tests now live in the *Bluebook app*, not on Khan Academy. Older guides (including Khan Academy's own legacy pages) still say "take full SATs on Khan Academy" — that was the pre-2024 paper SAT. Khan Academy is now the review/coaching layer you use _after_ a Bluebook test.
+
+== Quick comparison
+
+[cols="18,30,16,18,18", options="header", frame=all, grid=all]
+|===
+| Method | What it is | Realism | Full test? | Who grades it
+
+| *Bluebook app*
+| Official full-length *adaptive* practice tests in the real test interface
+| Highest — identical to test day
+| Yes (8: Tests 4–11)
+| Auto-scored
+
+| *Paper PDFs*
+| Printable non-adaptive full tests with answer key + scoring chart
+| Good; misses adaptivity
+| Yes
+| *Your dad, by hand*
+
+| *My Practice*
+| Score review: domain/difficulty breakdown + auto-generated follow-up questions
+| — (analysis layer)
+| No
+| Auto
+
+| *Khan Academy*
+| Walkthrough of your Bluebook test + leveled skill drills + study plan
+| — (coaching layer)
+| No
+| Auto
+
+| *Student Question Bank*
+| Thousands of real questions, filter by section/skill/difficulty
+| Question-level
+| No
+| Auto
+
+| *Educator Question Bank*
+| 3,500+ exportable questions, no login — for building custom quizzes
+| Question-level
+| No
+| Whoever builds the quiz
+
+| *Test Preview* (in Bluebook)
+| Short tour of the interface + built-in tools
+| Interface only
+| No
+| —
+
+| *Question of the Day*
+| One official question daily
+| Micro
+| No
+| Auto
+
+| *Official Study Guide (book)*
+| PAID (~$30–44). Same tests as Bluebook in print + ~300 pages instruction
+| Same as paper PDFs
+| Yes (print)
+| By hand
+|===
+
+== The methods, explained
+
+=== Bluebook — the primary method
+The real test runs in Bluebook, so practicing here is practicing the actual thing: same interface, same tools (Desmos calculator, highlighter, answer eliminator, mark-for-review), and — critically — *adaptive scoring*: your Module 2 gets harder or easier based on Module 1. No other method reproduces that. Go to *Practice and Prepare → Full-Length Practice*, pick a test, take it timed with breaks like test day. You can pause and resume, and apply accommodations settings if relevant.
+
+*Setup (one-time):*
+
+. Download Bluebook free from https://bluebook.collegeboard.org (direct: https://bluebook.collegeboard.org/students/download-bluebook).
+. Create a free College Board account at collegeboard.org — real legal name, an email you'll keep. This one account is your permanent College Board identity: it later holds your actual SAT registration, scores, PSAT, and AP. When it asks for your school, search for the homeschool option.
+. Sign into Bluebook with that account. The same login also opens My Practice (score review), the Student Question Bank, and links Khan Academy.
+. Test Preview works without signing in; full-length tests require the login because scores route to My Practice.
+
+*Device requirements (College Board official):*
+
+* *Windows:* Windows 11 (24H2 minimum). Windows 10 loses support fall 2026. No S mode. ~1 GB free space.
+* *Mac:* macOS 12 or later.
+* *iPad:* iPadOS 16 or later (versions 17–17.0.3 excluded).
+* *Chromebook:* school-managed only — *a personal Chromebook will not work*. No phones, ever.
+* Laptop screens ≥ 10", tablets ≥ 8". External mouse allowed; external keyboard NOT allowed with laptops. No virtual machines.
+* The app has a built-in *Test Your Device* check (OS, memory, space).
+
+*How scoring works:* the app scores the test automatically the moment you finish; click *View Your Score*, then sign into My Practice for the full breakdown. Nothing to grade by hand.
+
+*Test-day logistics preview (applies later, not to practice):* install at least a month before your real test date, complete exam setup ~5 days out, arrive with a device charged for 3–4 hours.
+
+* App + tests: https://satsuite.collegeboard.org/practice/practice-tests/bluebook
+* Official quick-start guide (the 10-step walkthrough): https://satsuite.collegeboard.org/media/pdf/sat-suite-practice-quick-start-guide.pdf
+* Device requirements: https://bluebook.collegeboard.org/students/prepare-your-device/approved-devices
+
+=== Paper PDFs — the "dad grades it" baseline
+Printable, non-adaptive full-length tests. Best use: your first baseline, taken timed on paper, graded by your dad. Slightly rough as a predictor since it can't adapt.
+
+*What's in each download — yes, he gets a grading kit.* Per College Board's own page, every practice-test bundle is three separate PDFs:
+
+. *The test* — full-length; circle answers on it or track them on scratch paper.
+. *Scoring guide* — the answer key PLUS worksheets: mark correct answers per module → sum to a raw score per section → look the raw score up in the conversion table. Note: the table gives a *score range* (lower and upper value per section, summed to a total range like 1150–1230), not a single number — College Board's honest way of reflecting that a linear test can't place you as precisely as the adaptive one.
+. *Answer explanations* — for every question: why the right answer is right and each wrong choice is wrong. This is the review material after grading.
+
+*Grading workflow:* you test timed (R&W: two 32-min modules; Math: two 35-min modules; 10-min break between sections) → dad checks answers against the key → fills the raw-score worksheet → converts via the table → you both go through the explanations PDF on every miss.
+
+* Download hub (all three PDFs per test): https://satsuite.collegeboard.org/practice/practice-tests/paper
+* Scoring guides also fetch directly by pattern: `satsuite.collegeboard.org/media/pdf/scoring-sat-practice-test-N-digital.pdf` (N = 4–11)
+* These are the same Tests 4–11 as Bluebook, in linear print form. Older pre-2024 paper tests are the retired format and score differently — skip them.
+* Sequencing tip: burn the lower-numbered tests (4–5) early as baselines; Tests 10–11 are the newest and most representative of current difficulty, so save them for the final weeks.
+
+=== My Practice — see what the score means
+After any Bluebook test, sign in to My Practice (same College Board login) to view the score, then *Score Details*: performance broken down by knowledge/skill domain and difficulty level, with answers + explanations. It also generates *Practice-Specific Questions* targeted at your weakest areas. This is the diagnosis step most people skip.
+
+* https://mypractice.collegeboard.org
+
+=== Khan Academy Official SAT Prep — the coaching layer
+Built in partnership with College Board; free. Three functions:
+
+. *Practice-test walkthrough* — from your My Practice scorecard, click "Practice on Khan Academy" for a question-by-question explanation of the exact test you took, each linked to a lesson on that skill.
+. *Leveled practice* — every tested skill at three levels: Foundations → Medium → Advanced.
+. *Personalized study plan* — built from a diagnostic or your PSAT/SAT scores.
+
+No full-length exams hosted here anymore.
+
+* https://satsuite.collegeboard.org/practice/khan-academy
+
+=== Student Question Bank — targeted drilling
+Thousands of real SAT/PSAT questions, filterable by section, domain, skill, and difficulty. Build focused sets for whatever My Practice flagged as weak. Free with College Board login.
+
+* https://satsuite.collegeboard.org/practice/student-question-bank
+
+=== Educator Question Bank — custom quizzes (for your dad)
+The educator-facing version: 3,500+ questions, *works without signing in, exports to PDF/doc*. Made for teachers building instructional material — which in a homeschool means your dad can assemble custom quizzes/worksheets from real questions.
+
+* https://satsuiteeducatorquestionbank.collegeboard.org/
+
+=== Test Preview — interface familiarity
+Inside Bluebook. Not a scored test — a short guided look at the tools and layout so nothing is unfamiliar on test day. Do it once before your first Bluebook test.
+
+=== Question of the Day — maintenance
+One official question daily with streaks. Keeps skills warm between full tests; not a substitute for them.
+
+* https://qotd.collegeboard.org/
+
+=== Official Study Guide (book) — PAID, optional
+College Board's print guide (~$30–44): the same practice tests as Bluebook plus ~300 pages of instruction and question drills by topic. Only worth it if you want the instruction chapters on paper — the tests themselves are free in Bluebook/PDF form. Skippable.
+
+=== Third-party wrappers — convenience only
+Sites like satquestionbank.org repackage the official question bank in a friendlier interface. Same questions, unofficial wrapper. Fine as a convenience; the first-party sources above are authoritative. Paid third-party prep (Kaplan/Princeton/Barron's books, etc.) is unnecessary given how much official material is free.
+
+== Recommended sequence
+
+. *Baseline:* one paper PDF test, timed, on paper — dad grades it with the scoring chart. Now you have a number.
+. *Realistic practice:* full-length tests in Bluebook, spaced out (e.g., one every 2–3 weeks), timed with breaks.
+. *After each test:* My Practice → Score Details → "Practice on Khan Academy" walkthrough of every miss.
+. *Between tests:* drill flagged weaknesses in the Student Question Bank; Khan Academy leveled practice for skills that need rebuilding from Foundations.
+. *Daily:* Question of the Day.
+. *Before the real thing:* re-run Test Preview so the tools are muscle memory.
+
+Save the last Bluebook test as a dress rehearsal 1–2 weeks before the real date.
