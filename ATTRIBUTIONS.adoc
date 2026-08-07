@@ -2,15 +2,13 @@
 
 NOTE: _Copyright holders_ listed are hereby acknowledged on the content referenced or otherwise imparted on this work.
 
-- rdd13r - https://github.com/rdd13r/
 - CaptainLugaru - https://github.com/CaptainLugaru/
+- rdd13r - https://github.com/rdd13r/
 - GregorySDTaylor - https://github.com/GregorySDTaylor/
 
 == Learning Resource Attributions
 
 IMPORTANT: This is a list of institutions Gervi Héra Vitr uses to provide learning materials and works.
-
-ToDo: Add links to these institutions
 
 * *LIBRARY:*
 ** https://www.wake.gov/departments-government/libraries/[Wake County Public Library]
@@ -42,8 +40,6 @@ ToDo: Add links to these institutions
 ** Methods: https://youtu.be/iw1x0zos8Jo[HOOKED] Model and https://youtu.be/6Kz8NfntC6A[principles];
 * Coder mechanics:
 ** https://www.fullstack.cafe/[Fullstack Cafe] (see rdd13r's subscription);
-
-
 
 == Code of Conduct
 
