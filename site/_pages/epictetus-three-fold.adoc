@@ -26,7 +26,32 @@ ifdef::env-site[:imagesdir: {site-baseurl}/assets/images]
 :imagesdir: ./assets/img
 ifdef::env-name[:relfilesuffix: .adoc]
 
-ToDo: Goo do 3 folds.
+== The three domains
+Epictetus states that there are three faculties of the rational mind that must be trained in order to become "in accord with nature".
+
+. *Desire.*
+Desire is meant to be brought under rational control, so that we only desire things that are within our control -- things where we know victory is up to us alone.
+This way we never fail to get what we desire, because our desires have been reduced to reasonable levels and appropriate objects.
+If we instead direct our desires toward externals such as health, fame, wealth, or the avoidance of death, we are bound to be frustrated.
+And frustration is the source of all passions -- unhealthy, irrational mental movements that override reason.
+By eliminating desire for externals, we gain control over our lives rather than being subject to their whims.
+The completed training rids us of false conceptions of good and bad, so that we only want what is morally good and only avoid what is morally wrong.
+Epictetus calls this the elimination of attachment to the external world; it is the most urgent of the three, and mastering it makes one almost a full philosopher.
+
+. *Inclination.*
+Inclination leads to action, so training this domain supplies the tools to act appropriately in all our various roles -- that is, in everyday life.
+Having learned that virtue is the goal in all of life's circumstances, this second stage applies that lesson to those roles.
+Completing this training together with the first eliminates frustration and gives us knowledge of appropriate behavior.
+Together, the first two domains constitute the training of character, which in ethics is separate from the third domain: the certainty of our judgement.
+
+. *Assent ("Judgement").*
+Assent is the voluntary mental act of accepting an initial thought, impression, or sensory appearance (phantasia) as true -- committing to it.
+Training this domain enables us to assent only to true or beneficial impressions and to avoid being deceived, even when "asleep, drunk and in a black mood".
+This requires rigorous logic, since logic enables clear thinking and transforms the true beliefs gained in the first two domains into secure knowledge.
+The emphasis here is on observing the way one's own mind works, so that one does not too readily give assent to impressions.
+The outcome is that all one's ethical views, value judgements, and so on become coherent and consistent.
+
+Mastery of all three domains makes a person "educated" in Epictetus's terms: they will always judge their impressions correctly, and they fulfill the requirement of never being impeded or constrained.
 
 == Important Theoretical Principles
 
