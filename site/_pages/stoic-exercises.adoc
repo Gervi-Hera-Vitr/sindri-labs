@@ -25,8 +25,9 @@ ifdef::env-site[:imagesdir: {site-baseurl}/assets/images]
 :keywords: Mímir Academy
 :imagesdir: ./assets/img
 ifdef::env-name[:relfilesuffix: .adoc]
+:threefold-discipline: link:{site-baseurl}/discipline
 
-Stoic exercises, adapted from Epictetus's threefold discipline.
+Stoic exercises, adapted from {threefold-discipline}[Epictetus's threefold discipline].
 
 == General
 

@@ -4,7 +4,7 @@ header:
   overlay_image: assets/images/banner-philosophy.jpg
   overlay_filter: 0.2
 ---
-= Epictetus: Three-Fold Discipline
+= Epictetus: Threefold Discipline
 lugaru
 ifndef::env-site[:imagesdir: ../assets/images]
 ifdef::env-site[:imagesdir: {site-baseurl}/assets/images]
@@ -25,3 +25,9 @@ ifdef::env-site[:imagesdir: {site-baseurl}/assets/images]
 :keywords: Mímir Academy
 :imagesdir: ./assets/img
 ifdef::env-name[:relfilesuffix: .adoc]
+
+ToDo: Goo do 3 folds.
+
+== Important Theoretical Principles
+
+ToDo: DaiDai do pronciples
