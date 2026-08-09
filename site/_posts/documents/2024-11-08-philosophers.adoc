@@ -25,6 +25,7 @@ tags: [graded]
 = Philosophy: Greek and Stoic Philosophers
 rdd13r
 :page-author_profile: true
+:page-liquid:
 :page-excerpt:
 :page-layout: single
 :page-permalink: /philosophers/
@@ -77,8 +78,14 @@ ifdef::env-name[:relfilesuffix: .adoc]
 :see-zeno-of-citium: link:/sindri-labs/fragments/people/zeno-of-citium/[Zeno of Citium]
 :see-zeno-of-elea: link:/sindri-labs/fragments/people/zeno-of-elea/[Zeno of Elea]
 
-[#philosophers]
-image::philosophers.png[Philosophers,float="right",align="center"]
+++++
+<div id="philosophers">
+<p><strong>Diagram: Lineage of the Greek and Stoic Philosophers</strong></p>
+<pre class="mermaid">
+{% include diagrams/philosophers.mmd %}
+</pre>
+</div>
+++++
 
 {nbsp}
 
