@@ -37,6 +37,9 @@ graph TD
     Chrysippus -.-> Seneca["Seneca"]
     Musonius --> Epictetus["Epictetus"] --> Marcus["Marcus Aurelius"]
 
+    MoralsNote["Philosophy of Morals School"] ~~~ Musonius
+    LitNote["Literature of Morals"] ~~~ Seneca
+
 %% === Subgraphs for clarity ===
     subgraph PRE[Pre-Socratics]
         Thales
@@ -114,5 +117,7 @@ graph TD
     style Seneca fill:#f9e2e2,stroke:#b22222,stroke-width:1px
 
     style STCS fill:#00E8f5E9
+    style MoralsNote fill:none,stroke:none,font-style:italic
+    style LitNote fill:none,stroke:none,font-style:italic
 
     PRE ~~~~~~~~~~~ STCS
