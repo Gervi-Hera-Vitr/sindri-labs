@@ -1,0 +1,61 @@
+---
+header:
+  caption: Daily Exercises on Meditation
+  overlay_image: assets/images/banner-philosophy.jpg
+  overlay_filter: 0.2
+---
+= Stoic Meditation Exercises
+lugaru
+ifndef::env-site[:imagesdir: ../assets/images]
+ifdef::env-site[:imagesdir: {site-baseurl}/assets/images]
+:page-liquid:
+:page-author_profile: true
+:page-excerpt: These are the Mímis Gildi daily stoic self-adressed questions.
+:page-layout: single
+:page-permalink: /meditations/
+:page-classes: wide
+:page-comments: true
+:page-search: true
+:sectnums:
+:sectanchors:
+:sectlinks:
+:toc: preamble
+:toclevels: 2
+:toc-title: Mímir Academy Meditations
+:keywords: Mímir Academy
+:imagesdir: ./assets/img
+ifdef::env-name[:relfilesuffix: .adoc]
+:threefold-discipline: link:{site-baseurl}/discipline
+
+Stoic exercises, adapted from {threefold-discipline}[Epictetus's threefold discipline].
+
+== General
+
+. To have at hand, and to repeat to ourselves, important theoretical principles and maxims until they have been absorbed -- along with putting them into practice on all occasions.
+. To foresee possibilities, especially negative ones, either in general or at the start of the day, so as to be able to preempt disturbances, and at bedtime to review with a critical eye the events of the day.
+. To assess one's progress.
+. To act always with reservation, so that one is never thwarted.
+
+== Phase 1: Mastery of Desire
+
+Exercises that help us to see the indifference of everything except virtue and vice, until we no longer desire anything else:
+
+. To bring our bodily needs and desires under our control.
+. To practice responding correctly to things, and, if necessary, to change habitual responses to the opposite responses.
+. To undertake the gradual elimination of attachment to anything other than virtue.
+
+== Phase 2: Mastery of Inclination
+
+Exercises designed to manage our inclinations so that we always act appropriately and, ultimately, virtuously:
+
+. To look for the appropriate response in all situations.
+. To check our instinctive inclination to act in ways that are pleasant, by imagining the pleasure we will get from refraining from such actions and the sense of regret we will experience if we do not refrain.
+. To ask ourselves what a complete virtuous agent, such as Socrates, Diogenes, or Heracles, would do when faced with a situation like the one we are faced with.
+
+== Phase 3: Mastery of Assent (Judgement)
+
+Exercises that train our faculty of judgement:
+
+. To pause and catch the act of assent before it happens, so that we can check whether the impression is something to which we really want to assent.
+. To assess, before every decision, what it demands of us and whether we can actually see it through.
+. To relabel and reframe situations in more positive ways, such as seeing ourselves as part of a whole.

@@ -1,0 +1,162 @@
+---
+header:
+  caption: Three Layers of Philosophy Mastery
+  overlay_image: assets/images/banner-philosophy.jpg
+  overlay_filter: 0.2
+---
+= Epictetus: Threefold Discipline
+lugaru
+ifndef::env-site[:imagesdir: ../assets/images]
+ifdef::env-site[:imagesdir: {site-baseurl}/assets/images]
+:page-liquid:
+:page-author_profile: true
+:page-excerpt: These are the layers to mastering stoicism Epictetus taught.
+:page-layout: single
+:page-permalink: /discipline/
+:page-classes: wide
+:page-comments: true
+:page-search: true
+:sectnums:
+:sectanchors:
+:sectlinks:
+:toc: preamble
+:toclevels: 2
+:toc-title: Mímir Academy Meditations
+:keywords: Mímir Academy
+:imagesdir: ./assets/img
+ifdef::env-name[:relfilesuffix: .adoc]
+
+== The three domains
+Epictetus states that there are three faculties of the rational mind that must be trained in order to become "in accord with nature".
+
+. *Desire.*
+Desire is meant to be brought under rational control, so that we only desire things that are within our control -- things where we know victory is up to us alone.
+This way we never fail to get what we desire, because our desires have been reduced to reasonable levels and appropriate objects.
+If we instead direct our desires toward externals such as health, fame, wealth, or the avoidance of death, we are bound to be frustrated.
+And frustration is the source of all passions -- unhealthy, irrational mental movements that override reason.
+By eliminating desire for externals, we gain control over our lives rather than being subject to their whims.
+The completed training rids us of false conceptions of good and bad, so that we only want what is morally good and only avoid what is morally wrong.
+Epictetus calls this the elimination of attachment to the external world; it is the most urgent of the three, and mastering it makes one almost a full philosopher.
+
+. *Inclination.*
+Inclination leads to action, so training this domain supplies the tools to act appropriately in all our various roles -- that is, in everyday life.
+Having learned that virtue is the goal in all of life's circumstances, this second stage applies that lesson to those roles.
+Completing this training together with the first eliminates frustration and gives us knowledge of appropriate behavior.
+Together, the first two domains constitute the training of character, which in ethics is separate from the third domain: the certainty of our judgement.
+
+. *Assent ("Judgement").*
+Assent is the voluntary mental act of accepting an initial thought, impression, or sensory appearance (phantasia) as true -- committing to it.
+Training this domain enables us to assent only to true or beneficial impressions and to avoid being deceived, even when "asleep, drunk and in a black mood".
+This requires rigorous logic, since logic enables clear thinking and transforms the true beliefs gained in the first two domains into secure knowledge.
+The emphasis here is on observing the way one's own mind works, so that one does not too readily give assent to impressions.
+The outcome is that all one's ethical views, value judgements, and so on become coherent and consistent.
+
+Mastery of all three domains makes a person "educated" in Epictetus's terms: they will always judge their impressions correctly, and they fulfill the requirement of never being impeded or constrained.
+
+== Important Theoretical Terms and Principles
+
+=== Terms
+
+Impression::
+The Stoic term for a mental impression, appearance, or thought that enters the mind is _phantasia_ (φαντασία).
+It is the raw, initial flash of perception -- from senses, memory, or imagination -- before reason accepts or rejects it.
+
+Assent::
+The Stoic term for assent is _sunkatathesis_ (συγκατάθεσις): the voluntary mental act of accepting, endorsing, or agreeing with an initial impression as true.
+
+Inclination::
+The Stoic term for inclination, or impulse toward action, is _hormē_ (ὁρμή): the soul's movement toward an object after giving assent.
+
+Disinclination::
+The Stoic term for disinclination, or aversion, is _aphormē_ (ἀφορμή): the soul's movement away from an object.
+
+Virtue::
+The Stoic term for virtue is _arete_ (ἀρετή): excellence of character, or fulfilling one's true nature through reason.
+
+=== Principles
+
+*Stoicism.*
+Stoicism is the philosophy that aims to answer one question: how must we live our lives to be subjectively fulfilling and objectively worthwhile?
+Its answer is to get closer to one's true self.
+
+*The dichotomy of control.*
+Some things are up to us, and others are not.
+The things up to us are our minds: our desires, inclinations, choices, judgements, and intentions -- in short, all the things that make up our character.
+The things not up to us are the experiences and events whose outcomes we do not control, and we must recognize these as indifferent: neither good nor bad.
+Many people, however, never grow out of the infantile trap of judging things in terms of pleasure and pain, so their aim in life becomes seeking pleasure and avoiding pain.
+
+*The three branches of teaching.*
+In philosophy and Stoicism there are three branches of learning:
+
+. Physics: how the world moves and works
+. Ethics: how we should act
+. Logic: how we reason and judge
+
+*How the domains and branches match.*
+Each branch is the theory behind one of the three domains:
+
+* Physics pairs with Desire, as theory to acceptance: physics teaches how the universe actually works (fate and nature), which lets us align our desires only with what is naturally within our control, leading to peace of mind.
+* Ethics pairs with Inclination, as principle to behavior: ethics provides the moral blueprint for human relationships, which we put into motion through our daily actions, duties, and impulses toward other people.
+* Logic pairs with Assent, as tool to gatekeeper: logic gives us the critical reasoning skills to analyze our thoughts, which we use to grant or deny assent to impressions instead of reacting blindly.
+
+*Theory vs. practice.*
+Between theorems and practice, Epictetus and the Stoics hold that practice matters far more -- the test of philosophy is whether it succeeds in improving one's life.
+
+*Preferences.*
+While we must remain indifferent to events outside our control, some things can still be preferred and others dispreferred.
+Health, for example, is neither good nor bad, since it is neither virtue nor vice -- we can be happy whether healthy or sick.
+But health is still preferred over sickness, because it is natural to us as human beings.
+
+*Virtues in depth.*
+The Stoics held that virtue is knowledge.
+They recognized four primary virtues and analyzed each as a kind of knowledge:
+
+* Prudential wisdom is knowledge of good and bad.
+* Courage is knowledge of what to fear and what not to fear.
+* Moderation is knowledge of what to pursue and what to avoid.
+* Justice is knowledge of what to give and not give to others.
+
+Virtue is the goal: virtue is perfected rationality, and rationality is the only fundamentally human quality, one we share with no other creatures.
+Knowledge, however, comes from application, not from mere understanding.
+
+*Appropriation.*
+What makes an act appropriate, and therefore material for virtue, is whether it is in accord with nature and admits of rational justification.
+Self-regarding actions such as self-preservation are thus also appropriate, since they are in accord with human nature.
+In this context the Stoics spoke of "appropriation" -- _oikeiôsis_ (οἰκείωσις), literally "the process of making something one's own" -- the natural preference all creatures have for what is good for themselves.
+A creature first and fundamentally appropriates itself to itself.
+
+*Actions and consequences.*
+The Stoics were determinists: they believed everything happens in an endless network of sequential causes and effects, most of which is out of our control.
+There are two kinds of causes, external and internal.
+The external cause is like someone pushing a roller; the internal cause is the nature of the roller: to roll.
+
+*Freedom.*
+The Stoics believed complete freedom is freedom from passion and from the external world.
+Their ideal state is called _apatheia_: rational calmness in the face of all the situations that normally generate passion.
+For Epictetus, the will -- _prohairesis_ -- is the absolute core of human identity, defining who you are far more than your body, possessions, or social status.
+The will is an inherently free, self-governing faculty that can never be forced, blocked, or conquered by external circumstances or other people unless you voluntarily surrender it.
+True freedom and peace of mind come from recognizing this boundary of control: limiting your desires and aversions entirely to your own moral choices, judgements, and intentions, while accepting all external events as indifferent.
+Freedom of will is something to aim for, not a birthright: it is freedom from passions and from external things outside your control -- but not freedom from everything, such as virtue.
+
+*Feelings of good.*
+Being Stoic does not mean being an unfeeling zombie, but being someone who has changed their mind about the value of passions and experiences only sane ones.
+Since thinking that an indifferent is good or bad is false, a sage -- who has no false beliefs, only knowledge -- experiences no passions.
+He does, however, experience three good feelings:
+
+* Joy (_chara_): a deep, peaceful contentment and cheerfulness that comes from perceiving genuine goodness in oneself and the world, rather than fleeting sensory thrills.
+* Wish (_boulesis_): a healthy, rational desire and goodwill toward the future, oneself, and other people -- rational love, kindness, and benevolence.
+* Caution (_eulabeia_): a sensible, rational avoidance of moral vice or wrongdoing -- a healthy conscience that protects one's integrity and self-respect.
+
+*Roles and subroles.*
+For Epictetus, our social relationships and duties are defined by the roles (_prosopa_) fate assigns us in the grand theater of life.
+He structured these into three tiers: our universal role as rational human beings and citizens of the universe (cosmopolitans), our assigned situational roles (such as child, parent, or sibling), and our professional or civic positions.
+We do not choose our roles; our sole moral obligation is to perform them with excellence and integrity.
+A father must act like a good father, and a citizen like a good citizen, regardless of whether the circumstances surrounding those roles are pleasant or difficult.
+
+*Relationships.*
+In relationships, Epictetus taught that we must focus exclusively on our own duties, independent of how other people treat us.
+He explained this with the metaphor of the "two handles": every difficult situation can be grasped either by the handle of the grievance, which causes anger and suffering, or by the handle of duty and kinship, which preserves our peace and virtue.
+If a sibling treats you unfairly, you do not respond with anger or retaliation -- their behavior is external and outside your control.
+Instead, you grasp the situation by the handle of brotherhood: maintaining your own moral character and fulfilling your role as a good sibling, while accepting their flaws as an indifferent external reality.
+And we maintain our relationships without thinking that father, brother, and other relatives and friends are the good -- the good, our goal, is purely internal.
+If we focus on the good, we can fulfill our duties toward our kin without being as "unfeeling as a statue".

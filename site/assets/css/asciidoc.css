@@ -23,45 +23,179 @@
 
 /* --- layout (asciidoctor-default.css, + [MM-1]/[MM-2] overrides) --- */
 .admonitionblock > table {
-  display: table;            /* [MM-1] override theme `table { display: block }` */
-  border-collapse: separate; /* [MM-1] override theme `border-collapse: collapse` */
-  border: 0;
-  background: none;
-  width: 100%;
-  margin: 0 0 1.25em;
+    display: table;            /* [MM-1] override theme `table { display: block }` */
+    border-collapse: separate; /* [MM-1] override theme `border-collapse: collapse` */
+    border: 0;
+    background: none;
+    width: 100%;
+    margin: 0 0 1.25em;
 }
 .admonitionblock > table td {
-  border: 0;                 /* [MM-2] override theme `td { border-bottom: 1px }` */
+    border: 0;                 /* [MM-2] override theme `td { border-bottom: 1px }` */
 }
 .admonitionblock > table td.icon {
-  text-align: center;
-  width: 80px;
+    text-align: center;
+    width: 80px;
 }
 .admonitionblock > table td.content {
-  padding-left: 1.125em;
-  padding-right: 1.25em;
-  border-left: 1px solid #dddddf;
-  color: rgba(0, 0, 0, .6);
+    padding-left: 1.125em;
+    padding-right: 1.25em;
+    border-left: 1px solid #dddddf;
+    color: rgba(0, 0, 0, .6);
 }
 .admonitionblock > table td.content > :last-child > :last-child { margin-bottom: 0; }
 
 /* admonition title -- asciidoctor's italic style; font-family left to inherit the
    theme's type rather than import Asciidoctor's Noto Serif (not loaded on this site). */
 .admonitionblock > table td.content > .title {
-  font-style: italic;
-  color: #7a2518;
-  text-align: left;
-  margin-bottom: .25em;
+    font-style: italic;
+    color: #7a2518;
+    text-align: left;
+    margin-bottom: .25em;
 }
 
 /* --- icons (verbatim from asciidoctor-default.css: glyph + colour per type) --- */
 .admonitionblock td.icon [class^="fa icon-"] {
-  font-size: 2.5em;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, .5);
-  cursor: default;
+    font-size: 2.5em;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, .5);
+    cursor: default;
 }
 .admonitionblock td.icon .icon-note::before      { content: "\f05a"; color: #19407c; }
 .admonitionblock td.icon .icon-tip::before       { content: "\f0eb"; text-shadow: 1px 1px 2px rgba(155, 155, 0, .8); color: #111; }
 .admonitionblock td.icon .icon-important::before { content: "\f06a"; color: #bf0000; }
 .admonitionblock td.icon .icon-warning::before   { content: "\f071"; color: #bf6900; }
 .admonitionblock td.icon .icon-caution::before   { content: "\f06d"; color: #bf3400; }
+
+/* --- source highlighting (Rouge) for Asciidoctor listing blocks ---
+   Minimal Mistakes paints its dark code background only on the wrappers Markdown
+   produces (`div.highlighter-rouge`, `figure.highlight`). Asciidoctor emits
+   `.listingblock > .content > pre.rouge.highlight` instead, so Rouge's pastel token
+   colours (tuned for the dark background) landed on the theme's light <pre>.
+   Values below are copied from the theme's own `div.highlighter-rouge` rule. */
+.listingblock pre.rouge {
+    background: #263238;
+    color: #eeffff;
+    font-family: Monaco, Consolas, "Lucida Console", monospace;
+    font-size: 0.75em;
+    line-height: 1.8;
+    border-radius: 4px;
+    padding: 1em;
+}
+
+/* [MM-4] paragraph and list spacing, per asciidoctor-default.css:
+ *   p               -> margin-bottom 1.25em, NO top margin (spacing is owned below)
+ *   li p / nested   -> .625em, and `li` itself carries none
+ * The theme instead puts margins on `li` (0.5em) and a top margin on nested lists,
+ * which stacks with the <p> Asciidoctor wraps every list item in -> doubled gaps.
+ * Superseded here the earlier local fix (`padding-top: .9em` on paragraphs), which
+ * was standing in for the heading margins [MM-3] now restores. */
+.paragraph > p { margin-top: 0; margin-bottom: 1.25em; }
+
+.ulist li, .olist li { margin-bottom: 0; }
+.ulist li > p,
+.olist li > p,
+.ulist .ulist, .ulist .olist,
+.olist .ulist, .olist .olist { margin-top: 0; margin-bottom: .625em; }
+
+/*
+ * ============================================================================
+ * Restoring Asciidoctor's spacing contract, which jekyll-asciidoc drops.
+ * ============================================================================
+ *
+ * Asciidoctor's own stylesheet answers "who owns the space around a section":
+ * the SECTION does, with `padding` (which cannot collapse and cannot escape its
+ * box), and the heading adds its own `margin-top`. Nothing depends on what
+ * happens to sit above. jekyll-asciidoc ships the markup without that stylesheet,
+ * so on this site the gap above a heading was whatever the previous element left
+ * behind -- MEASURED on the kitchen-sink page (_posts/2026-08-10-mm-test.adoc) as
+ * 0, 6.6, 16.5, 20.6 and 22px for the SAME level-1 section boundary, depending on
+ * whether an example block, paragraph, table, footnote or list came before it.
+ *
+ * Rules below are COPIED from Asciidoctor 2.0.26 `asciidoctor-default.css`, same
+ * discipline as the admonition block above. Structure and spacing only: colours,
+ * font-family and font-size are deliberately left to Minimal Mistakes. The one
+ * colour kept is the tables' `border: 0 solid #dedede` -- without a border-style
+ * the `frame-*`/`grid-*` width rules have nothing to draw.
+ *
+ * Deviations from upstream, all forced by the theme:
+ *   [MM-3] the theme's `.page__content :first-child { margin-top: 0 }` is aimed at
+ *          the first element on the PAGE, but it is an unscoped descendant selector
+ *          and Asciidoctor makes every heading the first child of its own `.sectN`.
+ *          MEASURED: h2..h6 all resolved to `margin-top: 0px`. Restored here for all
+ *          five levels; `.page__content .sectN > hN` outweighs it.
+ *   [MM-1]/[MM-2] apply to content tables exactly as they applied to admonitions:
+ *          the theme's global `table { display: block }` and `td { border-bottom }`
+ *          break Asciidoctor's table markup.
+ */
+
+/* --- sections: own your space above and below --- */
+.sect1 { padding-bottom: .625em; }
+.sect1:last-child { padding-bottom: 0; }
+
+/* [MM-3] restore the heading top margin the theme zeroes at every depth */
+.page__content .sect1 > h2,
+.page__content .sect2 > h3,
+.page__content .sect3 > h4,
+.page__content .sect4 > h5,
+.page__content .sect5 > h6 { margin-top: 1em; }
+
+/* --- tables --- */
+/* [MM-1]/[MM-2] the same two theme overrides the admonition block needs */
+table.tableblock { display: table; border-collapse: collapse; }
+table.tableblock > * > tr > * { border-bottom: 0; }
+
+table.tableblock, th.tableblock, td.tableblock { border: 0 solid #dedede; }
+table.grid-all > * > tr > * { border-width: 1px; }
+table.grid-cols > * > tr > * { border-width: 0 1px; }
+table.grid-rows > * > tr > * { border-width: 1px 0; }
+table.frame-all { border-width: 1px; }
+table.frame-ends { border-width: 1px 0; }
+table.frame-sides { border-width: 0 1px; }
+table.frame-none > colgroup + * > :first-child > *,
+table.frame-sides > colgroup + * > :first-child > * { border-top-width: 0; }
+table.frame-none > :last-child > :last-child > *,
+table.frame-sides > :last-child > :last-child > * { border-bottom-width: 0; }
+table.frame-none > * > tr > :first-child,
+table.frame-ends > * > tr > :first-child { border-left-width: 0; }
+table.frame-none > * > tr > :last-child,
+table.frame-ends > * > tr > :last-child { border-right-width: 0; }
+th.halign-left, td.halign-left { text-align: left; }
+th.halign-right, td.halign-right { text-align: right; }
+th.halign-center, td.halign-center { text-align: center; }
+th.valign-top, td.valign-top { vertical-align: top; }
+th.valign-bottom, td.valign-bottom { vertical-align: bottom; }
+th.valign-middle, td.valign-middle { vertical-align: middle; }
+.stretch { width: 100%; }
+td.tableblock > .content { margin-bottom: 1.25em; }
+td.tableblock > .content > :last-child { margin-bottom: -1.25em; }
+p.tableblock:last-child { margin-bottom: 0; }
+
+/* --- description lists --- */
+.hdlist > table { border: 0; background: none; }
+.hdlist > table > tbody > tr { background: none; }
+td.hdlist1, td.hdlist2 { vertical-align: top; padding: 0 .625em; }
+td.hdlist1 { font-weight: bold; padding-bottom: 1.25em; }
+
+/* --- images --- */
+.imageblock, .literalblock { margin-bottom: 1.25em; }
+.imageblock > .title { margin-bottom: 0; }
+
+/* --- quotes (structure only; upstream's serif/italic/colour left to the theme) --- */
+.quoteblock { margin: 0 1em 1.25em 1.5em; display: table; }
+.quoteblock blockquote { margin: 0; padding: 0; border: 0; }
+.quoteblock blockquote > .paragraph:last-child p { margin-bottom: 0; }
+.quoteblock .attribution { margin-top: .75em; margin-right: .5ex; text-align: right; }
+.quoteblock .attribution cite { display: block; }
+
+/* --- footnotes ---
+   The theme resets `sup` to `vertical-align: baseline`, so Asciidoctor's footnote
+   markers rendered inline with the text. MEASURED before: baseline / 16.5px. */
+sup.footnote, sup.footnoteref { font-size: .875em; position: static; vertical-align: super; }
+sup.footnote a, sup.footnoteref a { text-decoration: none; }
+
+/* --- literal / example blocks --- */
+.literalblock pre { border-radius: 4px; overflow-x: auto; padding: 1em; }
+.exampleblock > .content { border: 1px solid #e6e6e6; margin-bottom: 1.25em;
+    padding: 1.25em; border-radius: 4px; }
+.exampleblock > .content > :first-child { margin-top: 0; }
+.exampleblock > .content > :last-child { margin-bottom: 0; }
