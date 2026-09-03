@@ -1,0 +1,123 @@
+%%{init: {"flowchart": {"nodeSpacing": 20, "rankSpacing": 25, "subGraphTitleMargin": {"top": 5, "bottom": 10}}}}%%
+graph TD
+%% Transparent background is renderer-dependent; fallbacks applied manually
+
+%% === Pre-Socratics ===
+    Thales["Thales of Miletus"] --> Anaximander["Anaximander"]
+    Anaximander --> Anaximenes["Anaximenes"]
+    Thales --> Pythagoras["Pythagoras"]
+    Thales --> Heraclitus["Heraclitus"]
+    Heraclitus --> Socrates["Socrates"]
+    Anaxagoras["Anaxagoras"] --> Socrates
+    Xenophanes["Xenophanes"] --> Parmenides["Parmenides"] --> Zeno_of_Elea["Zeno of Elea"] --> Socrates
+    Leucippus["Leucippus"] --> Democritus["Democritus"]
+
+%% === Classical ===
+    Socrates --> Plato["Plato"]
+    Plato --> Aristotle["Aristotle"]
+    Socrates --> Xenophon["Xenophon"]
+    Plato --> Menaechmus["Menaechmus"]
+    Aristotle --> Theophrastus["Theophrastus"]
+    Aristotle --> Eudoxus["Eudoxus"]
+    Eudoxus --> Dicaearchus["Dicaearchus"]
+    Eudoxus -.-> Euclid["Euclid"]
+    Euclid --> Apollonius["Apollonius"]
+    Aristarchus["Aristarchus"] -.-> Hipparchus["Hipparchus"]
+    Archimedes["Archimedes"] --> Eratosthenes["Eratosthenes"] --> Apollonius
+
+%% === Stoics & Skeptics ===
+    Socrates --> Antisthenes["Antisthenes"]
+    Antisthenes -.-> DiogenesS["Diogenes of Sinope"] --> Crates["Crates"]
+    Plato --> ZenoC["Zeno of Citium"]
+    Crates --> ZenoC --> Cleanthes["Cleanthes"] --> Chrysippus["Chrysippus"]
+    Plato --> Arcesilaus["Arcesilaus"]
+    Democritus -.-> Pyrrho["Pyrrho"]
+    Pyrrho -.-> Arcesilaus -.-> Carneades["Carneades"]
+    Chrysippus --> Musonius["Musonius"]
+    Chrysippus -.-> Seneca["Seneca"]
+    Musonius --> Epictetus["Epictetus"] --> Marcus["Marcus Aurelius"]
+
+    MoralsNote["Philosophy of Morals School"] ~~~ Musonius
+    LitNote["Literature of Morals"] ~~~ Seneca
+
+%% === Subgraphs for clarity ===
+    subgraph PRE[Pre-Socratics]
+        Thales
+        Anaximander
+        Anaximenes
+        Pythagoras
+        Heraclitus
+        Xenophanes
+        Parmenides
+        Zeno_of_Elea
+        Anaxagoras
+        Leucippus
+        Democritus
+    end
+
+    subgraph CLASSICS[Classical Science]
+        Socrates
+        Plato
+        Aristotle
+        Xenophon
+        Menaechmus
+        Theophrastus
+        Eudoxus
+        Dicaearchus
+        Euclid
+        Archimedes
+        Aristarchus
+        Hipparchus
+        Eratosthenes
+        Apollonius
+    end
+
+    subgraph STCS[Stoics]
+        Antisthenes
+        DiogenesS
+        Crates
+        ZenoC
+        Cleanthes
+        Chrysippus
+        Seneca
+        Musonius
+        Epictetus
+        Marcus
+    end
+
+    subgraph SKPT["Skeptics (Dead Branch)"]
+        Pyrrho
+        Arcesilaus
+        Carneades
+    end
+
+%% === Forced Styling for Compatibility (basic) ===
+    classDef presocratic fill:#dff3ff,stroke:#1e90ff,color:#000,rx:10,ry:10;
+    classDef classical fill:#fff3cd,stroke:#ffc107,color:#000,rx:10,ry:10;
+    classDef stoic fill:#e2e2e2,stroke:#606060,color:#000,rx:10,ry:10;
+    classDef roman fill:#f9e2e2,stroke:#b22222,color:#000,rx:10,ry:10;
+
+    class Thales,Anaximander,Anaximenes,Pythagoras,Heraclitus,Xenophanes,Parmenides,Zeno_of_Elea,Anaxagoras,Leucippus,Democritus presocratic;
+    class Socrates,Plato,Aristotle,Xenophon,Menaechmus,Theophrastus,Eudoxus,Dicaearchus,Euclid,Archimedes,Aristarchus,Hipparchus,Eratosthenes,Apollonius classical;
+    class Antisthenes,DiogenesS,Crates,ZenoC,Cleanthes,Chrysippus stoic;
+    class Pyrrho,Arcesilaus,Carneades stoic;
+    class Seneca,Musonius,Epictetus,Marcus roman;
+
+    style Thales stroke-width:4px, fill:#00AA77FF,stroke:#990000FF
+    style Pythagoras stroke-width:3px, fill:#00BB88FF,stroke:#990000FF
+    style Socrates stroke-width:2px, fill:#00CC77CC,stroke:#990000FF
+    style Aristotle stroke-width:5px, fill:#00CF77CF,stroke:#990000FF
+    style Euclid stroke-width:4px, fill:#00DF77DF,stroke:#990000FF
+    style Archimedes stroke-width:7px, fill:#00DD77DD,stroke:#990000FF
+    %% Green cells: correct abstract knowledge — codified at Chrysippus, carried to Marcus
+    style Chrysippus fill:#c8e6c9,stroke:#2e7d32
+    style Musonius fill:#c8e6c9,stroke:#2e7d32
+    style Epictetus fill:#c8e6c9,stroke:#2e7d32,stroke-width:4px,stroke-dasharray:6 4
+    style Marcus stroke-width:4px, fill:#c8e6c9,stroke:#2e7d32
+    style Seneca fill:#f9e2e2,stroke:#b22222,stroke-width:1px
+
+    style STCS fill:#00E8f5E9
+    style MoralsNote fill:none,stroke:none,font-style:italic
+    style LitNote fill:none,stroke:none,font-style:italic
+
+    PRE ~~~~~~~~~~~ STCS

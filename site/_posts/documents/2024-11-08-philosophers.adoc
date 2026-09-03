@@ -25,6 +25,7 @@ tags: [graded]
 = Philosophy: Greek and Stoic Philosophers
 rdd13r
 :page-author_profile: true
+:page-liquid:
 :page-excerpt:
 :page-layout: single
 :page-permalink: /philosophers/
@@ -77,60 +78,82 @@ ifdef::env-name[:relfilesuffix: .adoc]
 :see-zeno-of-citium: link:/sindri-labs/fragments/people/zeno-of-citium/[Zeno of Citium]
 :see-zeno-of-elea: link:/sindri-labs/fragments/people/zeno-of-elea/[Zeno of Elea]
 
-[#philosophers]
-image::philosophers.png[Philosophers,float="right",align="center"]
+++++
+<div id="philosophers">
+<p><strong>Diagram: Lineage of the Greek and Stoic Philosophers</strong></p>
+<pre class="mermaid">
+{% include diagrams/philosophers.mmd %}
+</pre>
+</div>
+++++
 
 {nbsp}
 
 == Pre-Socratics (Natural Philosophers)
 
-* 624–546 BCE: #*Thales of Miletus*# -- Water as a fundamental substance; founder of Greek science; Milesian school.
-* 610–546 BCE: *Anaximander of Miletus* -- Introduced the "apeiron" (infinite or boundless); student of Thales.
+* 624–546 BCE: #*Thales of Miletus*# -- Founded Greek science; Milesian school; +
+Water as a fundamental substance. *_Pillar of our Civilization._*
+* 610–546 BCE: *Anaximander of Miletus* -- Introduced the "apeiron" (infinite or boundless); +
+_student of Thales._
 * 586–526 BCE: *Anaximenes of Miletus* -- Air as the primary substance; refined Thales’ ideas.
-* 570–495 BCE: #*Pythagoras of Samos*# -- Mathematical harmony of cosmos; number theory; early influence on Plato.
-* 570–478 BCE: *Xenophanes of Colophon* -- Critic of anthropomorphic gods; early monotheistic themes.
-* 535–475 BCE: *Heraclitus of Ephesus* -- "Everything flows" (*panta rhei*); *logos*; fire as a base element.
+* 570–495 BCE: #*Pythagoras of Samos*# -- Mathematical harmony of cosmos; number theory; +
+early influence on Plato. *_Pillar of our Civilization._*
+* 570–478 BCE: *Xenophanes of Colophon* -- Critic of anthropomorphic gods; monotheism.
+* 535–475 BCE: *Heraclitus of Ephesus* -- "Flows" (*panta rhei*); *logos*; fire as element.
 * 515–450 BCE: *Parmenides of Elea* -- "Being is"; change is illusion; foundational metaphysics.
-* 490–430 BCE: *Zeno of Elea* -- Paradoxes of motion and plurality; defender of Parmenidean logic.
-* 494–434 BCE: *Empedocles of Akragas* -- Four classical elements; cosmic forces of Love and Strife.
-* 500–428 BCE: *Anaxagoras of Clazomenae* -- *Nous* (Mind) as organizing principle of cosmos; mentor to Pericles.
-* 5th c. BCE: *Leucippus of Miletus* -- Co-founder of atomism with Democritus.
-* 460–370 BCE: *Democritus of Abdera* -- Atomic theory; matter as indivisible particles in the void.
+* 490–430 BCE: *Zeno of Elea* -- Paradoxes of motion and plurality; defends Parmenidean logic.
+* 494–434 BCE: *Empedocles of Akragas* -- Four elements; cosmic forces of Love and Strife.
+* 500–428 BCE: *Anaxagoras of Clazomenae* -- *Nous* (Mind) as organizing principle of all.
+* 5th c. BCE: *Leucippus of Miletus* -- Atomism (with Democritus). Universal Determinism. +
+Abstractions are the Law for everything. *_Pillar of our Civilization._*
+* 460–370 BCE: *Democritus of Abdera* -- Atomic theory: matter is particles in the void. +
+Separated divine from Physics. Everything is mortal. *_Pillar of our Civilization._*
 
 == Classical Period (Socratic and Scientific)
 
-* 470–399 BCE: #*Socrates of Athens*# -- Dialogical method; ethics and virtue; “Know thyself”; left no writings.
-* 430–354 BCE: *Xenophon of Athens* -- Student of Socrates; practical Socratic accounts in _Memorabilia_.
-* 428–348 BCE: #*Plato of Athens*# -- Theory of Forms; _The Republic_; founded the Academy.
+* I ->470–399 BCE: #*Socrates of Athens*# -- Dialogical method: #*Dialectic*#; Ethics and Virtue; +
+“Know thyself”; (Wizard-Champion: Hacker apprenticeship) #*_Pillar I of our Civilization._*#
+* 430–354 BCE: *Xenophon of Athens* -- Student of Socrates; Socratic accounts _Memorabilia_.
+* 428–348 BCE: #*Plato of Athens*# -- Theory of Forms; _The Republic_; founded the Academy. +
+*_Documented and socialized Socratic Dialectic._*
 * 436–338 BCE: *Isocrates of Athens* -- Orator and educator; rival educational vision to Plato’s.
-* 384–322 BCE: #*Aristotle of Stagira*# -- Logic, biology, metaphysics; founded the Lyceum.
+* II ->384–322 BCE: #*Aristotle of Stagira*# -- Logic, biology, metaphysics; founded the Lyceum. +
+Founder of Modern Civilization (Division of Sciences)  #*_Pillar II of our Civilization._*#
 * 371–287 BCE: *Theophrastus of Eresos* -- Aristotle’s successor; work in botany and logic.
 * 387–312 BCE: *Menaechmus of Alopeconnesus* -- Conic sections; influence on Apollonius.
 * 370–285 BCE: *Eudoxus of Cnidus* -- Theory of proportion; model of planetary motion.
 * 360–290 BCE: *Dicaearchus of Messana* -- Geographer and student of Aristotle.
-* 330–275 BCE: #*Euclid of Alexandria*# -- Father of geometry; _Elements_ as foundation of axiomatic method.
+* III ->330–275 BCE: #*Euclid of Alexandria*# -- Father of Geometry; Merged disciplines; +
+_Elements_ as foundation of *_axiomatic method_*. #*_Pillar III of our Civilization._*#
 * 310–230 BCE: *Aristarchus of Samos* -- Heliocentric theory; early astronomical model.
-* 287–212 BCE: #*Archimedes of Syracuse*# -- Mechanics, hydrostatics, geometry; inventor and physicist.
-* 276–194 BCE: *Eratosthenes of Cyrene* -- Calculated Earth's circumference; geography and chronology.
+* IV ->287–212 BCE: #*Archimedes of Syracuse*# -- Mechanics, hydrostatics, geometry, and +
+*engineering*; Inventor; The Method (Analysis); #*_Pillar IV of our Civilization._*#
+* 276–194 BCE: *Eratosthenes of Cyrene* -- Earth's circumference, geography, and chronology.
 * 240–190 BCE: *Apollonius of Perga* -- Formalized conics; advanced Greek geometry.
 * 190–120 BCE: *Hipparchus of Nicaea* -- Trigonometry; star catalog; precession of equinoxes.
 
+_Prophets dissolve into sands of time. These pillars *will remain* the root of *our civilization*._
+
 == Hellenistic Period (Stoic and Skeptical Schools)
 
-* 334–262 BCE: #*Zeno of Citium*# -- Founder of Stoicism; emphasized virtue and rational living.
+* 334–262 BCE: *Zeno of Citium* -- *_Founder of Stoicism_*; emphasized virtue and rational living.
 * 330–230 BCE: *Cleanthes of Assos* -- Second head of the Stoa; author of _Hymn to Zeus_.
-* 280–206 BCE: *Chrysippus of Soloi* -- Codified Stoic logic, ethics, and physics; the most prolific Stoic.
-* 341–270 BCE: *Epicurus of Samos* -- Founded Epicureanism; pleasure through ataraxia (tranquility).
-* 360–270 BCE: *Pyrrho of Elis* -- Founder of Pyrrhonian Skepticism; suspended judgment (*epoché*).
+* 280–206 BCE: #*Chrysippus of Soloi*# -- *_Codified Stoic logic, ethics, and physics_*; +
+The most prolific Stoic: Modern Philosophy of Ethics. *_Pillar of our Civilization._*
+* 341–270 BCE: *Epicurus of Samos* -- Epicureanism; pleasure through ataraxia (tranquility).
+* 360–270 BCE: *Pyrrho of Elis* -- Pyrrhonian Skepticism; suspended judgment (*epoché*).
 * 316–241 BCE: *Arcesilaus of Pitane* -- Turned Plato’s Academy toward Skepticism.
 * 214–129 BCE: *Carneades of Cyrene* -- Argued both sides of issues; Academic Skeptic.
 
 == Roman Stoics
 
-* 4 BCE – 65 CE: #*Seneca of Corduba*# -- Statesman and dramatist; applied Stoicism to practical life.
-* 30–100 CE: *Musonius Rufus of Volsinii* -- Teacher of Epictetus; emphasized equality and endurance.
-* 50–135 CE: #*Epictetus of Hierapolis*# -- Former slave; taught inner freedom through reason.
-* 121–180 CE: #*Marcus Aurelius of Rome*# -- Roman emperor; _Meditations_ on duty, virtue, and resilience.
+* 4 BCE – 65 CE: #*Seneca of Corduba*# -- Statesman and dramatist; Stoicism in practical life; +
+Prolific writer: morals taught in art; Letters to a student fundamental record of Stoicism.
+* 30–100 CE: *Musonius Rufus of Volsinii* -- _Teacher of Epictetus_; Equality and endurance.
+* 50–135 CE: #*Epictetus of Hierapolis*# -- Former slave; taught inner freedom through reason. +
+Expansion of Chrysippus with roles and classified indifferences. *_Pillar of our Civilization._*
+* 121–180 CE: #*Marcus Aurelius of Rome*# -- Roman emperor; _Meditations_ on duty, virtue,
+and resilience (_private diary_). Classic Stoic culmination. *_Pillar of our Civilization._*
 
 == Legacy Summary
 

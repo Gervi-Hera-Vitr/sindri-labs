@@ -45,7 +45,14 @@ lines = attrs.map do |name, value|
   ":#{name}: #{v}"
 end
 
-File.write(dst, (header + lines).join("\n") + "\n")
+# jekyll-asciidoc injects `site-baseurl` from top-level `baseurl` at BUILD time
+# (converter.rb: site-baseurl => config['baseurl']); the JetBrains plugin does not,
+# so derive it here from the single source (`baseurl`) for IDE preview parity.
+# Content references {site-baseurl}; we mirror only what content uses.
+baseurl = cfg['baseurl'].to_s
+builtins = baseurl.empty? ? [] : [":site-baseurl: #{baseurl}"]
+
+File.write(dst, (header + builtins + lines).join("\n") + "\n")
 puts "Wrote #{attrs.size} attribute(s) to #{dst}"
 RUBY
 

@@ -78,7 +78,7 @@ pagination:
   enabled                   : false
 
 
-### Collections -- supporting content (linkable, not in the post feed)
+### Collections -- supporting content (linkable, not in the posts feed)
 collections:
   fragments:
     output                  : true
@@ -233,6 +233,13 @@ footer:
     - label                 : "Fingerprint"
       icon                  : "fas fa-fw fa-fingerprint"
       url                   : "/sindri-labs/assets/images/og-image.png"
+
+
+### Client-side Mermaid rendering (Mímis Gildi convention)
+after_footer_scripts:
+  - https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js
+  - https://cdn.jsdelivr.net/npm/svg-pan-zoom@3.6.1/dist/svg-pan-zoom.min.js
+  - /assets/js/mermaid-init.js
 
 
 ### Archives: Enable taxonomy pages for tags, categories, and year
