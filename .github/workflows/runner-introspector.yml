@@ -5,10 +5,10 @@ on:
   workflow_dispatch:
     inputs:
       host-info:
-        description: "Probe hosted infra (OS / kernel / CPU / memory)"
-        type: boolean
         required: false
+        type: boolean
         default: true
+        description: "Should we probe for Hosted Infra? This is useful for debugging issues with Hosted Infra."
   push:
 
 jobs:
