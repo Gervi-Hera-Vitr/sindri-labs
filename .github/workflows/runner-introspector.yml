@@ -3,8 +3,16 @@ run-name: "Introspect Runner on ${{ github.repository }} by ${{ github.actor }} 
 
 on:
   workflow_dispatch:
+    inputs:
+      host-info:
+        description: "Probe hosted infra (OS / kernel / CPU / memory)"
+        type: boolean
+        required: false
+        default: true
   push:
 
 jobs:
   canary:
     uses: Mimis-Gildi/fluffle/.github/workflows/runner-introspector.yml@main
+    with:
+      host-info: ${{ inputs.host-info || false }}
