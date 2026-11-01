@@ -8,7 +8,7 @@ on:
         required: false
         type: boolean
         default: true
-        description: "Should we probe for Hosted Infra? This is useful for debugging issues with Hosted Infra."
+        description: "Should we probe for Hosted Infra?"
   push:
 
 jobs:
