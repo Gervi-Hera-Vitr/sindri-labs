@@ -24,8 +24,8 @@ application {
 dependencies {
 
     constraints {
-        implementation(libs.httpcore)
         implementation(kotlin("stdlib"))
+        implementation(libs.httpcore)
         implementation(libs.jetbrains.annotations)
         implementation(libs.kotlinx.io.core)
         implementation(libs.kotlinx.serialization.core)
