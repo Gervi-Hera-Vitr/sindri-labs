@@ -6,7 +6,7 @@ private val log by lazy { LoggerFactory.getLogger("ai.gervi.hera.vitr.journey.bu
 
 log.warn("AI/ML ktor UX build started.")
 
-val applicationMainClass: String by project
+val applicationMainClass = project.property("applicationMainClass") as String
 
 plugins {
     alias(libs.plugins.kotlin.jvm)

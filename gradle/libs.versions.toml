@@ -32,13 +32,13 @@ kotlinx-io-core = { module = "org.jetbrains.kotlinx:kotlinx-io-core", version.re
 kotlinx-serialization-core = { module = "org.jetbrains.kotlinx:kotlinx-serialization-core", version.ref = "kotlinx-serialization" }
 
 [plugins]
-ben-manes = { id = "com.github.ben-manes.versions", version.ref = "ben-manes" }
+ben-manes = { id = "io.github.ben-manes.versions", version.ref = "ben-manes" }
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
 kotlin-dsl = { id = "org.gradle.kotlin.kotlin-dsl", version.ref = "kotlin-dsl" }
 kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
 dokka = { id = "org.jetbrains.dokka", version.ref = "dokka" }
 ktor = { id = "io.ktor.plugin", version.ref = "ktor" }
-asciidoctor-pdf = { id = "org.asciidoctor.jvm.pdf", version.ref = "asciidoctor" }
-asciidoctor-gems = { id = "org.asciidoctor.jvm.gems", version.ref = "asciidoctor" }
-asciidoctor-epub = { id = "org.asciidoctor.jvm.epub", version.ref = "asciidoctor" }
-asciidoctor-convert = { id = "org.asciidoctor.jvm.convert", version.ref = "asciidoctor" }
+asciidoctor-pdf = { id = "org.asciidoctor.jvm.pdf.classic", version.ref = "asciidoctor" }
+asciidoctor-gems = { id = "org.asciidoctor.jvm.gems.classic", version.ref = "asciidoctor" }
+asciidoctor-epub = { id = "org.asciidoctor.jvm.epub.classic", version.ref = "asciidoctor" }
+asciidoctor-convert = { id = "org.asciidoctor.jvm.convert.classic", version.ref = "asciidoctor" }
