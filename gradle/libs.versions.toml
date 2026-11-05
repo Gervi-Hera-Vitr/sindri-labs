@@ -6,7 +6,7 @@ ktor = "3.6.1"
 # Gradle plugins (buildscript-level: foojay, develocity live in gradle.properties)
 ben-manes = "0.67.0"
 kotlin-dsl = "6.7.13"
-dokka = "2.2.0"
+dokka = "2.3.0"
 asciidoctor = "5.1.0"
 
 # Libraries
