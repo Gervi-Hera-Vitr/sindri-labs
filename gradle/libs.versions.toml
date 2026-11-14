@@ -7,7 +7,7 @@ ktor = "3.6.1"
 ben-manes = "0.67.0"
 kotlin-dsl = "6.7.13"
 dokka = "2.2.0"
-asciidoctor = "5.1.0"
+asciidoctor = "5.2.0"
 
 # Libraries
 slf4j = "2.0.20"
